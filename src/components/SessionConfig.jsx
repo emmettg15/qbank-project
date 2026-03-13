@@ -33,6 +33,7 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
   const [mode,            setMode]            = useState('tutor')    // 'tutor' | 'test'
   const [goalSec,         setGoalSec]         = useState(90)
   const [maxQ,            setMaxQ]            = useState(null)       // null = all
+  const [shuffleQuestions, setShuffleQuestions] = useState(false)
   const [validityWarning, setValidityWarning] = useState(null)       // null | { count, pool, setId }
 
   // Filtered question count
@@ -79,6 +80,15 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
   }
 
   function launchSession(pool, setId) {
+    // Fisher-Yates shuffle if enabled
+    if (shuffleQuestions) {
+      pool = [...pool]
+      for (let i = pool.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [pool[i], pool[j]] = [pool[j], pool[i]]
+      }
+    }
+
     const session = createSession({
       title,
       questionSetId: setId,
@@ -88,6 +98,7 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
         questionCount: pool.length,
         mode,
         goalSec,
+        shuffleQuestions,
       },
       questions: pool,
     })
@@ -188,6 +199,18 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
               Test (deferred reveal)
             </button>
           </div>
+        </div>
+
+        {/* Shuffle */}
+        <div className="form-group">
+          <label style={{ display: 'flex', alignItems: 'center', gap: 10, cursor: 'pointer' }}>
+            <input
+              type="checkbox"
+              checked={shuffleQuestions}
+              onChange={e => setShuffleQuestions(e.target.checked)}
+            />
+            <span className="form-label" style={{ margin: 0 }}>Shuffle question order</span>
+          </label>
         </div>
 
         {/* Timer Goal */}

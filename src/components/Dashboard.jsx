@@ -5,7 +5,7 @@ import SessionConfig from './SessionConfig.jsx'
 import {
   getSessions, getAggregateStats,
   importQuestionSet, getQuestionSets,
-  clearAllData, getQuestionRatings,
+  clearAllData, getQuestionRatings, deleteSession,
 } from '../hooks/useStorage.js'
 
 function formatDate(iso) {
@@ -159,7 +159,7 @@ function WelcomeBanner({ onNavigate }) {
       borderRadius: 'var(--radius)',
     }}>
       <div style={{ fontSize: 14, color: 'var(--text)' }}>
-        Welcome to <strong style={{ color: 'var(--accent)' }}>QBank Pro</strong> — your offline USMLE question bank. Upload a question bank or use the pre-loaded questions to get started.
+        Welcome to <strong style={{ color: 'var(--accent)' }}>QBank Forge</strong> — your offline USMLE-style question bank. Upload a question bank or use the pre-loaded questions to get started.
       </div>
       <button className="btn btn-ghost btn-sm" style={{ flexShrink: 0, marginLeft: 16 }} onClick={() => onNavigate('guide')}>
         View Guide →
@@ -214,11 +214,18 @@ export default function Dashboard({ onNavigate }) {
   const [allSessions,   setAllSessions]   = useState(() => getSessions())
   const [stats, setStats] = useState(() => getAggregateStats())
   const [showReset, setShowReset] = useState(false)
+  const [confirmDelete, setConfirmDelete] = useState(null)
 
   const inProgress = allSessions.filter(s => !s.completed && s.status !== 'completed')
     .sort((a, b) => new Date(b.date) - new Date(a.date))
   const completedSessions = allSessions.filter(s => s.completed || s.status === 'completed')
     .sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 5)
+
+  function handleDeleteSession(id) {
+    deleteSession(id)
+    setConfirmDelete(null)
+    refreshData()
+  }
 
   function refreshData() {
     setExistingSets(getQuestionSets())
@@ -241,7 +248,7 @@ export default function Dashboard({ onNavigate }) {
   }
 
   return (
-    <div>
+    <div className="view-enter">
       {/* ── Welcome Banner ── */}
       <WelcomeBanner onNavigate={onNavigate} />
 
@@ -293,14 +300,15 @@ export default function Dashboard({ onNavigate }) {
                   In Progress
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-                  {inProgress.map(s => {
+                  {inProgress.map((s, index) => {
                     const answered = s.score?.answered
                       ?? (s.results?.answers ?? []).filter(a => a !== null).length
                     const total = s.score?.total ?? 0
                     return (
                       <div
                         key={s.id}
-                        style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, padding: '10px 14px', background: 'var(--surface2)', borderRadius: 'var(--radius-sm)' }}
+                        className="list-stagger"
+                        style={{ '--i': index, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, padding: '10px 14px', background: 'var(--surface2)', borderRadius: 'var(--radius-sm)' }}
                       >
                         <div>
                           <div style={{ fontWeight: 600, fontSize: 14 }}>{s.title}</div>
@@ -308,12 +316,19 @@ export default function Dashboard({ onNavigate }) {
                             {formatDate(s.date)} · {answered}/{total} answered · {s.config?.mode ?? '—'}
                           </div>
                         </div>
-                        <button
-                          className="btn btn-primary btn-sm"
-                          onClick={() => onNavigate('session', { sessionId: s.id })}
-                        >
-                          ▶ Resume
-                        </button>
+                        <div style={{ display: 'flex', gap: 6, alignItems: 'center', flexShrink: 0 }}>
+                          <button className="btn btn-primary btn-sm" onClick={() => onNavigate('session', { sessionId: s.id })}>
+                            ▶ Resume
+                          </button>
+                          {confirmDelete === s.id ? (
+                            <>
+                              <button className="btn btn-danger btn-sm" onClick={() => handleDeleteSession(s.id)}>Yes</button>
+                              <button className="btn btn-ghost btn-sm" onClick={() => setConfirmDelete(null)}>No</button>
+                            </>
+                          ) : (
+                            <button className="btn btn-ghost btn-sm" style={{ color: 'var(--wrong)', padding: '5px 8px' }} onClick={() => setConfirmDelete(s.id)} title="Delete session">✕</button>
+                          )}
+                        </div>
                       </div>
                     )
                   })}
@@ -340,7 +355,7 @@ export default function Dashboard({ onNavigate }) {
               </div>
             ) : (
               <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-                {completedSessions.map(s => {
+                {completedSessions.map((s, index) => {
                   const correct = s.score?.correct ?? 0
                   const total = s.score?.total ?? 1
                   const answered = s.score?.answered
@@ -350,7 +365,7 @@ export default function Dashboard({ onNavigate }) {
                   const pct = answered > 0 ? Math.round((correct / answered) * 100) : 0
 
                   return (
-                    <div key={s.id} style={{ display: 'flex', alignItems: 'center', gap: 12, padding: '10px 14px', background: 'var(--surface2)', borderRadius: 'var(--radius-sm)' }}>
+                    <div key={s.id} className="list-stagger" style={{ '--i': index, display: 'flex', alignItems: 'center', gap: 12, padding: '10px 14px', background: 'var(--surface2)', borderRadius: 'var(--radius-sm)' }}>
                       <DonutChart correct={correct} wrong={wrong} skipped={skipped} total={total} answered={answered} size={50} thickness={7} />
                       <div style={{ flex: 1, minWidth: 0 }}>
                         <div style={{ fontWeight: 600, fontSize: 14, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{s.title}</div>
@@ -358,13 +373,21 @@ export default function Dashboard({ onNavigate }) {
                           {formatDate(s.date)} · {s.config?.mode ?? '—'} · <span style={{ color: pct >= 75 ? 'var(--correct)' : 'var(--wrong)', fontWeight: 700 }}>{pct}%</span>
                         </div>
                       </div>
-                      <div style={{ display: 'flex', gap: 6, flexShrink: 0 }}>
+                      <div style={{ display: 'flex', gap: 6, flexShrink: 0, alignItems: 'center' }}>
                         <button className="btn btn-ghost btn-sm" onClick={() => onNavigate('review', { sessionId: s.id })}>
                           Review
                         </button>
                         <button className="btn btn-ghost btn-sm" onClick={() => onNavigate('analysis', { sessionId: s.id })}>
                           Summary
                         </button>
+                        {confirmDelete === s.id ? (
+                          <>
+                            <button className="btn btn-danger btn-sm" onClick={() => handleDeleteSession(s.id)}>Yes</button>
+                            <button className="btn btn-ghost btn-sm" onClick={() => setConfirmDelete(null)}>No</button>
+                          </>
+                        ) : (
+                          <button className="btn btn-ghost btn-sm" style={{ color: 'var(--wrong)', padding: '5px 8px' }} onClick={() => setConfirmDelete(s.id)} title="Delete session">✕</button>
+                        )}
                       </div>
                     </div>
                   )

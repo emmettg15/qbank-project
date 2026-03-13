@@ -8,10 +8,10 @@ import Labs from './components/Labs.jsx'
 import Calculator from './components/Calculator.jsx'
 import Guide from './components/Guide.jsx'
 import ReviewSession from './components/ReviewSession.jsx'
-import JeffMDQBanks from './components/JeffMDQBanks.jsx'
+import QBanksPage from './components/QBanks.jsx'
 
 export default function App() {
-  // view: 'dashboard' | 'session' | 'analysis' | 'history' | 'labs' | 'calculator' | 'guide' | 'review' | 'jeffmd'
+  // view: 'dashboard' | 'session' | 'analysis' | 'history' | 'labs' | 'calculator' | 'guide' | 'review' | 'qbanks'
   const [view,              setView]              = useState('dashboard')
   const [activeSessionId,   setActiveSessionId]   = useState(null)
   const [activeQuestions,   setActiveQuestions]   = useState(null)
@@ -55,8 +55,8 @@ export default function App() {
         {view === 'history' && (
           <AllSessions onNavigate={navigate} />
         )}
-        {view === 'jeffmd' && (
-          <JeffMDQBanks onNavigate={navigate} />
+        {view === 'qbanks' && (
+          <QBanksPage onNavigate={navigate} />
         )}
         {view === 'guide' && (
           <Guide onNavigate={navigate} />

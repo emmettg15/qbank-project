@@ -57,7 +57,8 @@ export default function DonutChart({
       width={size}
       height={size}
       viewBox={`0 0 ${size} ${size}`}
-      style={{ transform: 'rotate(-90deg)', display: 'block', flexShrink: 0 }}
+      className="donut-animate"
+      style={{ transform: 'rotate(-90deg)', display: 'block', flexShrink: 0, '--donut-circumference': `${2 * Math.PI * ((size - thickness) / 2)}` }}
     >
       {/* Background track */}
       <circle

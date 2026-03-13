@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Guide({ onNavigate }) {
   return (
-    <div>
+    <div className="view-enter">
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 24 }}>
         <div>
           <button className="btn btn-ghost btn-sm" onClick={() => onNavigate('dashboard')} style={{ marginBottom: 8 }}>
@@ -10,7 +10,7 @@ export default function Guide({ onNavigate }) {
           </button>
           <h2 style={{ fontSize: 22 }}>Guide</h2>
           <div style={{ fontSize: 13, color: 'var(--muted)', marginTop: 2 }}>
-            Everything you need to know about QBank Pro
+            Everything you need to know about QBank Forge
           </div>
         </div>
       </div>

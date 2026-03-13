@@ -82,7 +82,7 @@ function CatalogCard({ entry, progress, catalogImport, onClick }) {
 }
 
 // ─── Main Component ───────────────────────────────────────────────────────────
-export default function JeffMDQBanks({ onNavigate }) {
+export default function QBanksPage({ onNavigate }) {
   const [configTarget, setConfigTarget] = useState(null)
   const [loading, setLoading] = useState(null) // catalogId being loaded
 
@@ -181,9 +181,9 @@ export default function JeffMDQBanks({ onNavigate }) {
   }
 
   return (
-    <div>
+    <div className="view-enter">
       <div className="section-header" style={{ marginBottom: 20 }}>
-        <h2 style={{ fontSize: 22 }}>JeffMD QBanks</h2>
+        <h2 style={{ fontSize: 22 }}>QBanks</h2>
       </div>
 
       <div style={{
@@ -191,7 +191,7 @@ export default function JeffMDQBanks({ onNavigate }) {
         padding: '12px 20px', background: 'var(--surface2)', border: '1px solid var(--border)',
         borderRadius: 'var(--radius)',
       }}>
-        Curated question banks for USMLE prep. Click a QBank to configure and start a session.
+        Curated USMLE-style question banks. Click a QBank to configure and start a session.
         Your progress is saved locally in your browser.
       </div>
 

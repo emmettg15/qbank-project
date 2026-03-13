@@ -140,7 +140,7 @@ export default function AllSessions({ onNavigate }) {
   }
 
   return (
-    <div>
+    <div className="view-enter">
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 24, flexWrap: 'wrap', gap: 12 }}>
         <div>
           <button className="btn btn-ghost btn-sm" onClick={() => onNavigate('dashboard')} style={{ marginBottom: 8 }}>
@@ -158,13 +158,14 @@ export default function AllSessions({ onNavigate }) {
             ▶ In-Progress Sessions
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-            {inProgress.map(s => {
+            {inProgress.map((s, index) => {
               const answered = getAnswered(s)
               const total    = s.score?.total ?? 0
               return (
                 <div
                   key={s.id}
-                  style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, padding: '10px 14px', background: 'var(--surface2)', borderRadius: 'var(--radius-sm)' }}
+                  className="list-stagger"
+                  style={{ '--i': index, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, padding: '10px 14px', background: 'var(--surface2)', borderRadius: 'var(--radius-sm)' }}
                 >
                   <div>
                     <div style={{ fontWeight: 600, fontSize: 14 }}>{s.title}</div>
@@ -172,12 +173,19 @@ export default function AllSessions({ onNavigate }) {
                       {formatDate(s.date)} · {answered}/{total} answered · {s.config?.mode ?? '—'}
                     </div>
                   </div>
-                  <button
-                    className="btn btn-primary btn-sm"
-                    onClick={() => onNavigate('session', { sessionId: s.id })}
-                  >
-                    ▶ Resume
-                  </button>
+                  <div style={{ display: 'flex', gap: 6, alignItems: 'center', flexShrink: 0 }}>
+                    <button className="btn btn-primary btn-sm" onClick={() => onNavigate('session', { sessionId: s.id })}>
+                      ▶ Resume
+                    </button>
+                    {confirm === s.id ? (
+                      <>
+                        <button className="btn btn-danger btn-sm" onClick={() => handleDelete(s.id)}>Yes</button>
+                        <button className="btn btn-ghost btn-sm" onClick={() => setConfirm(null)}>No</button>
+                      </>
+                    ) : (
+                      <button className="btn btn-ghost btn-sm" style={{ color: 'var(--wrong)', padding: '5px 8px' }} onClick={() => setConfirm(s.id)} title="Delete session">✕</button>
+                    )}
+                  </div>
                 </div>
               )
             })}
@@ -249,7 +257,7 @@ export default function AllSessions({ onNavigate }) {
                 </tr>
               </thead>
               <tbody>
-                {sessions.map(s => {
+                {sessions.map((s, index) => {
                   const correct  = s.score.correct
                   const total    = s.score.total
                   const answered = getAnswered(s)
@@ -261,7 +269,7 @@ export default function AllSessions({ onNavigate }) {
                     (sum, a, i) => a !== null ? sum + ((s.results?.timePerQ?.[i]) || 0) : sum, 0
                   )
                   return (
-                    <tr key={s.id}>
+                    <tr key={s.id} className="list-stagger" style={{ '--i': index }}>
                       <td style={{ width: 54 }}>
                         <DonutChart correct={correct} wrong={wrong} skipped={skipped} total={total} answered={answered} size={44} thickness={6} />
                       </td>

@@ -98,6 +98,7 @@ code, .mono { font-family: 'IBM Plex Mono', monospace; }
   color: var(--accent);
   text-decoration: none;
   margin-right: 24px;
+  white-space: nowrap;
 }
 
 .navbar-brand svg { flex-shrink: 0; }
@@ -820,6 +821,73 @@ tr:hover td { background: var(--surface2); }
 }
 .intro-step-text { font-size: 14px; line-height: 1.5; }
 .intro-step-text strong { color: var(--accent); }
+
+/* ─── Animations ───────────────────────────────────────────────────────────── */
+@keyframes fade-slide-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes list-item-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes card-pop {
+  from { opacity: 0; transform: scale(0.97); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes donut-draw {
+  from { stroke-dashoffset: var(--donut-circumference); }
+  to   { stroke-dashoffset: 0; }
+}
+
+/* View enter animation */
+.view-enter {
+  animation: fade-slide-up 0.3s ease-out both;
+}
+
+/* List row stagger */
+.list-stagger {
+  animation: list-item-in 0.25s ease-out both;
+  animation-delay: calc(var(--i, 0) * 40ms);
+}
+
+/* Card pop */
+.card-animate {
+  animation: card-pop 0.25s ease-out both;
+}
+
+/* Donut draw-in */
+.donut-animate circle:not(:first-child) {
+  animation: donut-draw 0.8s ease-out both;
+}
+
+/* Button hover lift */
+.btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+/* Nav link active underline */
+.nav-link {
+  position: relative;
+}
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 14px;
+  right: 14px;
+  height: 2px;
+  background: var(--accent);
+  border-radius: 1px;
+  animation: nav-underline 0.2s ease-out;
+}
+@keyframes nav-underline {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
 
 @media (max-width: 900px) {
   .session-layout { grid-template-columns: 1fr; }

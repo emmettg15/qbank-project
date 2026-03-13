@@ -173,6 +173,11 @@ export default function ActiveSession({ sessionId, questionsOverride, onNavigate
 
   const wrongCount = answers.filter((a, i) => a !== null && questions[i] && a !== questions[i].answer).length
 
+  // Sidebar stats gated on revealed[] to avoid leaking correct/wrong before Submit
+  const revealedCorrect = answers.filter((a, i) => revealed[i] && a !== null && questions[i] && a === questions[i].answer).length
+  const revealedWrong = answers.filter((a, i) => revealed[i] && a !== null && questions[i] && a !== questions[i].answer).length
+  const revealedCount = revealed.filter(Boolean).length
+
   // ── Bottom nav button logic ─────────────────────────────────────────────
   // Tutor mode: no answer → Next (skip), answer selected but not revealed → Submit, revealed → Next/End Session
   // Test mode: always Next/End Session (no per-question submit)
@@ -508,16 +513,16 @@ export default function ActiveSession({ sessionId, questionsOverride, onNavigate
           <div className="session-sidebar-right">
             <div className="card" style={{ padding: 16, textAlign: 'center', marginBottom: 14 }}>
               <DonutChart
-                correct={score.correct}
-                wrong={wrongCount}
+                correct={revealedCorrect}
+                wrong={revealedWrong}
                 skipped={0}
                 total={score.total}
-                answered={score.answered}
+                answered={revealedCount}
                 size={100}
                 thickness={11}
               />
               <div style={{ marginTop: 10, fontSize: 12, color: 'var(--muted)' }}>
-                {score.answered}/{score.total} answered
+                {revealedCount}/{score.total} answered
               </div>
             </div>
 
@@ -528,7 +533,7 @@ export default function ActiveSession({ sessionId, questionsOverride, onNavigate
                 questions.reduce((acc, q, i) => {
                   const tag = q.tag || q.tags?.system || 'general'
                   if (!acc.has(tag)) acc.set(tag, { correct: 0, answered: 0 })
-                  if (answers[i] !== null) {
+                  if (revealed[i]) {
                     acc.get(tag).answered++
                     if (answers[i] === q.answer) acc.get(tag).correct++
                   }

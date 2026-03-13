@@ -17,7 +17,9 @@
       "Bash(lsof -ti:5173)",
       "Bash(xargs kill -9)",
       "Bash(xargs ls -lh)",
-      "Bash(/Users/emmettgrover/.local/node/bin/node -e ':*)"
+      "Bash(/Users/emmettgrover/.local/node/bin/node -e ':*)",
+      "Bash(npx vite:*)",
+      "Bash(npm run:*)"
     ]
   }
 }
