@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(npm install)",
+      "Bash(~/.local/node/bin/node --version)",
+      "Bash(~/.local/node/bin/npm --version)",
+      "Bash(export PATH=\"$HOME/.local/node/bin:$PATH\")",
+      "Bash(node --version)",
+      "Bash(npm --version)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(kill 38929)",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(npx vite build --mode development)",
+      "Bash(PATH=\"$HOME/.local/node/bin:$PATH\" npx vite build)",
+      "Bash(node_modules/.bin/vite build)",
+      "Bash(lsof -ti:5173)",
+      "Bash(xargs kill -9)",
+      "Bash(xargs ls -lh)",
+      "Bash(/Users/emmettgrover/.local/node/bin/node -e ':*)"
+    ]
+  }
+}

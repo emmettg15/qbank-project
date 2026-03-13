@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "QBank Pro",
+      "runtimeExecutable": "/Users/emmettgrover/.local/node/bin/node",
+      "env": { "PATH": "/Users/emmettgrover/.local/node/bin:/usr/bin:/bin" },
+      "runtimeArgs": ["/Users/emmettgrover/claudedata/pset project/node_modules/.bin/vite", "--port", "5173", "--strictPort"],
+      "port": 5173
+    }
+  ]
+}
