@@ -19,7 +19,8 @@
       "Bash(xargs ls -lh)",
       "Bash(/Users/emmettgrover/.local/node/bin/node -e ':*)",
       "Bash(npx vite:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(ls -la \"/Users/emmettgrover/claudedata/pset project/\"*.png \"/Users/emmettgrover/claudedata/pset project/\"*.jpg \"/Users/emmettgrover/claudedata/pset project/public/\"*.png)"
     ]
   }
 }

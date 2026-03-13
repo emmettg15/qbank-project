@@ -229,6 +229,13 @@ export function useSession(sessionId, questionsOverride) {
   // ── Pause session (save progress, return to dashboard) ───────────────────
   const pauseSessionAction = useCallback(() => {
     saveCurrentTime()
+    // Flush current question's accumulated time into timePerQ state
+    timePerQRef.current[current] = elapsedRef.current
+    setTimePerQ(prev => {
+      const next = [...prev]
+      next[current] = elapsedRef.current
+      return next
+    })
     if (session) {
       pauseSessionStorage(session.id)
     }
@@ -237,6 +244,13 @@ export function useSession(sessionId, questionsOverride) {
   // ── Complete session ──────────────────────────────────────────────────────
   const completeSession = useCallback(() => {
     saveCurrentTime()
+    // Flush current question's accumulated time into timePerQ state
+    timePerQRef.current[current] = elapsedRef.current
+    setTimePerQ(prev => {
+      const next = [...prev]
+      next[current] = elapsedRef.current
+      return next
+    })
     // In test mode: bulk-reveal all questions on completion
     if (session?.config?.mode === 'test') {
       setRevealed(prev => prev.map(() => true))

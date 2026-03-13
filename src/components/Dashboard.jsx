@@ -299,7 +299,7 @@ export default function Dashboard({ onNavigate }) {
                 <div className="section-title" style={{ marginBottom: 12, color: 'var(--accent)' }}>
                   In Progress
                 </div>
-                <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 8, maxHeight: '25vh', overflowY: 'auto' }}>
                   {inProgress.map((s, index) => {
                     const answered = s.score?.answered
                       ?? (s.results?.answers ?? []).filter(a => a !== null).length
@@ -354,7 +354,7 @@ export default function Dashboard({ onNavigate }) {
                 <div>No completed sessions yet. Start a session to get going.</div>
               </div>
             ) : (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 10, maxHeight: '30vh', overflowY: 'auto' }}>
                 {completedSessions.map((s, index) => {
                   const correct = s.score?.correct ?? 0
                   const total = s.score?.total ?? 1
