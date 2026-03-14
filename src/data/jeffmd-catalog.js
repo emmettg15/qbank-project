@@ -34,4 +34,14 @@ export const JEFFMD_CATALOG = [
     version: 1,
     addedDate: '2026-03-12',
   },
+{
+    catalogId: 'lippencott_ch16_renal_qbank',
+    title: 'Lippencott Path Ch16 - JeffMD Renal Questions',
+    description: 'Pathology questions from Lippencott Ch 16 for block 5/Renal relevant to JeffMD',
+    questionCount: 57,
+    tags: ['renal'],
+    examLevel: 'step1',
+    version: 1,
+    addedDate: '2026-03-12',
+  },
 ]
