@@ -89,6 +89,12 @@ function QuestionReviewRow({ q, idx, answer, isRevealed }) {
       {open && (
         <div style={{ marginTop: 14, paddingLeft: 28 }}>
           <div style={{ fontFamily: 'IBM Plex Serif', fontSize: 14, lineHeight: 1.7, marginBottom: 12 }}>{q.stem}</div>
+          {q.image && (
+            <div className="question-image-wrap" style={{ marginBottom: 12 }}>
+              <img src={q.image} alt={q.imageAlt || 'Clinical image'} className="question-image" />
+              {q.imageCaption && <div className="question-image-caption">{q.imageCaption}</div>}
+            </div>
+          )}
           <div style={{ fontWeight: 600, fontSize: 14, color: 'var(--accent2)', marginBottom: 10 }}>{q.lead}</div>
 
           {/* Choices */}

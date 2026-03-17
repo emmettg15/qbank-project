@@ -423,6 +423,20 @@ export default function ActiveSession({ sessionId, questionsOverride, onNavigate
               {currentQ.stem}
             </div>
 
+            {/* Image (optional) */}
+            {currentQ.image && (
+              <div className="question-image-wrap">
+                <img
+                  src={currentQ.image}
+                  alt={currentQ.imageAlt || 'Clinical image'}
+                  className="question-image"
+                />
+                {currentQ.imageCaption && (
+                  <div className="question-image-caption">{currentQ.imageCaption}</div>
+                )}
+              </div>
+            )}
+
             {/* Lead */}
             <div style={{ fontWeight: 600, fontSize: 15, color: 'var(--accent2)', marginBottom: 18 }}>
               {currentQ.lead}
@@ -592,36 +606,38 @@ export default function ActiveSession({ sessionId, questionsOverride, onNavigate
       {/* ── Completion overlay ── */}
       {isComplete && (
         <div className="modal-overlay">
-          <div className="modal" style={{ textAlign: 'center', maxWidth: 460 }}>
-            <div className="modal-title">Session Complete!</div>
-            <DonutChart
-              correct={score.correct}
-              wrong={wrongCount}
-              skipped={score.total - score.answered}
-              total={score.total}
-              answered={score.answered}
-              size={140}
-              thickness={16}
-            />
+          <div className="modal" style={{ textAlign: 'center', maxWidth: 540, padding: '36px 40px' }}>
+            <div className="modal-title" style={{ fontSize: 22, marginBottom: 24 }}>Session Complete!</div>
+            <div style={{ display: 'flex', justifyContent: 'center', marginBottom: 8 }}>
+              <DonutChart
+                correct={score.correct}
+                wrong={wrongCount}
+                skipped={score.total - score.answered}
+                total={score.total}
+                answered={score.answered}
+                size={150}
+                thickness={18}
+              />
+            </div>
             <div
               className={`completion-score ${score.answered > 0 && score.correct / score.answered >= 0.75 ? 'completion-pass' : 'completion-fail'}`}
             >
               {score.answered > 0 ? Math.round((score.correct / score.answered) * 100) : 0}%
             </div>
-            <div style={{ color: 'var(--muted)', marginBottom: 24 }}>
+            <div style={{ color: 'var(--muted)', marginBottom: 28, fontSize: 15 }}>
               {score.correct} / {score.answered} answered correctly
               {score.answered > 0 && score.correct / score.answered >= 0.75
                 ? ' — Passing!'
                 : ' — Keep practicing (≥75% to pass)'}
             </div>
-            <div style={{ display: 'flex', gap: 12, justifyContent: 'center' }}>
-              <button className="btn btn-ghost" onClick={() => onNavigate('dashboard')}>
+            <div style={{ display: 'flex', gap: 12, justifyContent: 'center', flexWrap: 'wrap' }}>
+              <button className="btn btn-ghost" style={{ flex: '1 1 120px', justifyContent: 'center' }} onClick={() => onNavigate('dashboard')}>
                 Dashboard
               </button>
-              <button className="btn btn-ghost" onClick={() => onNavigate('review', { sessionId: session.id })}>
+              <button className="btn btn-ghost" style={{ flex: '1 1 120px', justifyContent: 'center' }} onClick={() => onNavigate('review', { sessionId: session.id })}>
                 Review Questions
               </button>
-              <button className="btn btn-primary" onClick={() => onNavigate('analysis', { sessionId: session.id })}>
+              <button className="btn btn-primary" style={{ flex: '1 1 120px', justifyContent: 'center' }} onClick={() => onNavigate('analysis', { sessionId: session.id })}>
                 View Analysis →
               </button>
             </div>

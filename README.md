@@ -111,6 +111,9 @@ Ask Claude to generate a question bank in this exact schema and save it as a `.j
       "system": "Cardiovascular",
       "contentType": "Pathophysiology",
       "stem": "A 67-year-old man with a 10-year history of hypertension and type 2 diabetes presents to his cardiologist's office with progressive dyspnea on exertion and bilateral ankle swelling over the past 3 weeks. His BP is 148/92 mmHg, HR 88 bpm, RR 18, O₂ sat 94% on room air. Examination reveals JVD, bibasilar crackles, and pitting edema to the knees. Echocardiogram shows an ejection fraction of 30%. Which of the following best explains the mechanism by which aldosterone antagonists reduce mortality in this patient's condition?",
+      "image": "/images/cardio/ecg_afib.png",
+      "imageAlt": "12-lead ECG showing irregularly irregular rhythm (optional)",
+      "imageCaption": "Figure 1. ECG obtained on admission (optional)",
       "choices": [
         "Inhibition of tubular sodium reabsorption reduces preload and attenuates myocardial fibrosis",
         "Blockade of beta-1 adrenergic receptors decreases heart rate and reduces myocardial oxygen demand",
@@ -133,6 +136,40 @@ Ask Claude to generate a question bank in this exact schema and save it as a `.j
 
 **Tip:** Save Claude's response as `cardio_step1.json` and drop it on the Dashboard. The app reads `tag`, `system`, and `contentType` fields to power filtering and analytics.
 
+### Adding Images to Questions
+
+The `image`, `imageAlt`, and `imageCaption` fields are all optional. Legacy question banks without them work fine.
+
+**Option 1 — Local images (recommended):**
+Place image files in `public/images/` organized by topic:
+```
+public/
+└── images/
+    ├── cardio/
+    │   ├── ecg_afib.png
+    │   └── cxr_chf.jpg
+    ├── heme/
+    │   └── peripheral_smear.png
+    └── neuro/
+        └── mri_stroke.jpg
+```
+Then reference them in your JSON with a path from root:
+```json
+"image": "/images/cardio/ecg_afib.png"
+```
+
+**Option 2 — External URLs:**
+```json
+"image": "https://example.com/histology/slide.png"
+```
+
+**Option 3 — Base64 data URIs (self-contained but large JSON):**
+```json
+"image": "data:image/png;base64,iVBORw0KGgo..."
+```
+
+Images are displayed between the stem and the lead-in question, centered and capped at 400px height.
+
 ---
 
 ## Prompt for Generating Question Banks with Claude
@@ -153,6 +190,9 @@ Use this exact JSON format — the structure is required for compatibility with 
       "system": "USE STANDARDIZED SYSTEM NAME (see list below)",
       "contentType": "Pathophysiology | Pharmacology | Diagnosis | Management | Anatomy | Microbiology | Biochemistry | Biostatistics | Ethics | Epidemiology",
       "stem": "clinical vignette",
+      "image": "/images/topic/filename.png (optional — omit if no image)",
+      "imageAlt": "image description (optional)",
+      "imageCaption": "caption below image (optional)",
       "choices": ["...", "...", "...", "...", "..."],
       "answer": 0,
       "explanation": "...",

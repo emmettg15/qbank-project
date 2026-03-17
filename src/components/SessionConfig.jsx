@@ -33,7 +33,7 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
   const [mode,            setMode]            = useState('tutor')    // 'tutor' | 'test'
   const [goalSec,         setGoalSec]         = useState(90)
   const [maxQ,            setMaxQ]            = useState(null)       // null = all
-  const [shuffleQuestions, setShuffleQuestions] = useState(false)
+  const [shuffle, setShuffle] = useState(false)
   const [validityWarning, setValidityWarning] = useState(null)       // null | { count, pool, setId }
 
   // Filtered question count
@@ -81,7 +81,7 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
 
   function launchSession(pool, setId) {
     // Fisher-Yates shuffle if enabled
-    if (shuffleQuestions) {
+    if (shuffle) {
       pool = [...pool]
       for (let i = pool.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
@@ -98,7 +98,7 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
         questionCount: pool.length,
         mode,
         goalSec,
-        shuffleQuestions,
+        shuffle,
       },
       questions: pool,
     })
@@ -108,11 +108,14 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
 
   return (
     <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
-      <div className="modal" style={{ maxWidth: 560 }}>
-        <div className="modal-title">Configure Session</div>
-        <div style={{ fontSize: 14, color: 'var(--muted)', marginBottom: 20, marginTop: -12 }}>
-          {title}
+      <div className="modal" style={{ maxWidth: 600, display: 'flex', flexDirection: 'column', padding: 0 }}>
+        <div style={{ padding: '28px 32px 0 32px', flexShrink: 0 }}>
+          <div className="modal-title">Configure Session</div>
+          <div style={{ fontSize: 14, color: 'var(--muted)', marginBottom: 16, marginTop: -12 }}>
+            {title}
+          </div>
         </div>
+        <div style={{ flex: 1, overflowY: 'auto', padding: '0 32px', minHeight: 0 }}>
 
         {/* Exam Level */}
         <div className="form-group">
@@ -206,10 +209,10 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
           <label style={{ display: 'flex', alignItems: 'center', gap: 10, cursor: 'pointer' }}>
             <input
               type="checkbox"
-              checked={shuffleQuestions}
-              onChange={e => setShuffleQuestions(e.target.checked)}
+              checked={shuffle}
+              onChange={e => setShuffle(e.target.checked)}
             />
-            <span className="form-label" style={{ margin: 0 }}>Shuffle question order</span>
+            <span className="form-label" style={{ margin: 0 }}>Shuffle questions & answer choices</span>
           </label>
         </div>
 
@@ -246,10 +249,11 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
             </div>
           </div>
         )}
+        </div>{/* end scrollable body */}
 
-        {/* Action buttons */}
+        {/* Action buttons — fixed at bottom */}
         {!validityWarning && (
-          <div style={{ display: 'flex', gap: 12, justifyContent: 'flex-end', marginTop: 8 }}>
+          <div style={{ display: 'flex', gap: 12, justifyContent: 'flex-end', padding: '16px 32px', borderTop: '1px solid var(--border)', flexShrink: 0 }}>
             <button className="btn btn-ghost" onClick={onClose}>Cancel</button>
             <button
               className="btn btn-primary"

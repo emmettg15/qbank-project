@@ -1,4 +1,5 @@
 import React from 'react'
+import { generateGuidePdf } from '../utils/generateGuidePdf.js'
 
 export default function Guide({ onNavigate }) {
   return (
@@ -13,6 +14,9 @@ export default function Guide({ onNavigate }) {
             Everything you need to know about QBank Forge
           </div>
         </div>
+        <button className="btn btn-primary btn-sm" onClick={generateGuidePdf}>
+          Download QBank Guide (PDF)
+        </button>
       </div>
 
       {/* Getting Started */}

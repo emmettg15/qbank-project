@@ -153,6 +153,14 @@ export default function ReviewSession({ sessionId, onNavigate }) {
               {q.stem}
             </div>
 
+            {/* Image (optional) */}
+            {q.image && (
+              <div className="question-image-wrap">
+                <img src={q.image} alt={q.imageAlt || 'Clinical image'} className="question-image" />
+                {q.imageCaption && <div className="question-image-caption">{q.imageCaption}</div>}
+              </div>
+            )}
+
             {/* Lead */}
             {q.lead && (
               <div style={{ fontWeight: 600, fontSize: 15, color: 'var(--accent2)', marginBottom: 18 }}>

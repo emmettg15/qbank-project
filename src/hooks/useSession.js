@@ -23,9 +23,12 @@ function shuffle(arr) {
   return a
 }
 
-// Build shuffled choice display order for every question
-function buildDisplayOrders(questions) {
-  return questions.map(q => shuffle(q.choices.map((_, i) => i)))
+// Build choice display order for every question (shuffled or identity)
+function buildDisplayOrders(questions, shouldShuffle = true) {
+  return questions.map(q => {
+    const indices = q.choices.map((_, i) => i)
+    return shouldShuffle ? shuffle(indices) : indices
+  })
 }
 
 export function useSession(sessionId, questionsOverride) {
@@ -69,7 +72,8 @@ export function useSession(sessionId, questionsOverride) {
     }
     qs = qs || []
     setQuestions(qs)
-    setDisplayOrders(buildDisplayOrders(qs))
+    const shouldShuffle = s.config?.shuffle !== false && s.config?.shuffleQuestions !== false
+    setDisplayOrders(buildDisplayOrders(qs, shouldShuffle))
 
     // Restore from saved results (pad arrays to match question count)
     const pad = (arr, len, fill) => { const a = [...(arr || [])]; while (a.length < len) a.push(fill()); return a.slice(0, len) }
@@ -262,7 +266,8 @@ export function useSession(sessionId, questionsOverride) {
   // ── Reset ────────────────────────────────────────────────────────────────
   const resetSession = useCallback(() => {
     const qs = questions
-    setDisplayOrders(buildDisplayOrders(qs))
+    const shouldShuffle = session?.config?.shuffle !== false && session?.config?.shuffleQuestions !== false
+    setDisplayOrders(buildDisplayOrders(qs, shouldShuffle))
     const n = qs.length
     setAnswers(new Array(n).fill(null))
     setRevealed(new Array(n).fill(false))

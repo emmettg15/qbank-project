@@ -7,6 +7,7 @@ import {
   importQuestionSet, getQuestionSets,
   clearAllData, getQuestionRatings, deleteSession,
 } from '../hooks/useStorage.js'
+import { generateGuidePdf } from '../utils/generateGuidePdf.js'
 
 function formatDate(iso) {
   if (!iso) return '—'
@@ -161,9 +162,14 @@ function WelcomeBanner({ onNavigate }) {
       <div style={{ fontSize: 14, color: 'var(--text)' }}>
         Welcome to <strong style={{ color: 'var(--accent)' }}>QBank Forge</strong> — your offline USMLE-style question bank. Upload a question bank or use the pre-loaded questions to get started.
       </div>
-      <button className="btn btn-ghost btn-sm" style={{ flexShrink: 0, marginLeft: 16 }} onClick={() => onNavigate('guide')}>
-        View Guide →
-      </button>
+      <div style={{ display: 'flex', gap: 8, flexShrink: 0, marginLeft: 16 }}>
+        <button className="btn btn-ghost btn-sm" onClick={() => onNavigate('guide')}>
+          View Guide →
+        </button>
+        <button className="btn btn-ghost btn-sm" onClick={generateGuidePdf}>
+          Download Guide (PDF)
+        </button>
+      </div>
     </div>
   )
 }
@@ -289,7 +295,7 @@ export default function Dashboard({ onNavigate }) {
         </div>
       </div>
 
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 28, alignItems: 'start' }}>
+      <div className="dashboard-grid">
         {/* ── Left column: In Progress + Completed Sessions ── */}
         <div>
           {/* In Progress */}

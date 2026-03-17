@@ -36,11 +36,14 @@
       "answer": 3,
       "explanation": "Renal dysplasia is characterized by undifferentiated tubular structures surrounded by primitive mesenchyme, sometimes with heterotopic tissue such as smooth muscle and cartilage. Cysts often form from the abnormal tubules, resulting from an abnormality in metanephric differentiation. Variants include multicystic forms (seen here), which present as a palpable flank mass shortly after birth and represent the most common cause of an abdominal mass in newborns. Infantile polycystic disease (choice A) is invariably bilateral with very large kidneys. Medullary sponge kidney (choice B) is characterized by small cysts limited to the renal papillae. Wilms tumor (choice E) may contain heterologous elements but does not form large variably sized cysts. Neuroblastoma (choice C) arises from adrenal/neural tissue, not kidney parenchyma.",
       "keypoints": [
-        "⭐ Renal dysplasia = undifferentiated tubules + primitive mesenchyme ± heterotopic elements (smooth muscle, cartilage) → variably sized cysts",
+        "\u2b50 Renal dysplasia = undifferentiated tubules + primitive mesenchyme \u00b1 heterotopic elements (smooth muscle, cartilage) \u2192 variably sized cysts",
         "Multicystic renal dysplasia is the most common cause of an abdominal mass in neonates",
         "Results from abnormal metanephric differentiation during embryogenesis",
         "Distinguish from ARPKD (bilateral, no heterotopic tissue) and Wilms tumor (no large cysts)"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q1",
+      "imageAlt": "Gross pathology specimen showing a multicystic renal mass with variably sized cysts",
+      "imageCaption": "Resected multicystic renal mass displaying variably sized cysts \u2014 characteristic of multicystic renal dysplasia"
     },
     {
       "id": "q002",
@@ -59,11 +62,14 @@
       "answer": 0,
       "explanation": "Autosomal dominant polycystic kidney disease (ADPKD) is characterized by bilaterally enlarged multicystic kidneys, and is the most common hereditary cystic renal disease. Most cases are caused by mutations in PKD1 (polycystin). Symptoms typically manifest in the fourth decade of life and include flank pain, bilateral abdominal masses, hematuria, and azotemia that progresses to uremia in approximately half of patients. Autosomal recessive PKD (choice B) presents in infants, not adults. Hydronephrosis (choice C) does not feature multiple cysts. Medullary sponge kidney (choice D) consists of multiple small cysts limited to the medulla. Multicystic renal dysplasia (choice E) is typically unilateral.",
       "keypoints": [
-        "⭐ ADPKD: AD inheritance, PKD1 (polycystin) mutation, bilateral massively enlarged cystic kidneys presenting in 4th decade",
+        "\u2b50 ADPKD: AD inheritance, PKD1 (polycystin) mutation, bilateral massively enlarged cystic kidneys presenting in 4th decade",
         "50% of ADPKD patients develop end-stage renal failure; also associated with hepatic cysts, intracranial aneurysms",
-        "ARPKD = infants; ADPKD = adults — key distinction",
+        "ARPKD = infants; ADPKD = adults \u2014 key distinction",
         "Symptoms: flank pain, hematuria (blood clots), hypertension, palpable bilateral masses"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q2",
+      "imageAlt": "Gross pathology showing bilaterally massively enlarged kidneys with numerous cortical cysts",
+      "imageCaption": "Surgically resected kidneys demonstrating bilateral massive cystic enlargement consistent with ADPKD"
     },
     {
       "id": "q003",
@@ -82,9 +88,9 @@
       "answer": 0,
       "explanation": "One third of patients with autosomal dominant polycystic kidney disease (ADPKD) also develop hepatic cysts, whose lining resembles bile duct epithelium. This is the most important extrarenal manifestation alongside intracranial (berry) aneurysms. Horseshoe kidney (choice B) is a developmental fusion anomaly unrelated to ADPKD. Pulmonary cysts (choice C), renal cell carcinoma (choice D), and transitional cell carcinoma (choice E) do not arise as direct complications of ADPKD.",
       "keypoints": [
-        "⭐ ADPKD extrarenal manifestations: hepatic cysts (most common), intracranial berry aneurysms (risk of subarachnoid hemorrhage), mitral valve prolapse",
+        "\u2b50 ADPKD extrarenal manifestations: hepatic cysts (most common), intracranial berry aneurysms (risk of subarachnoid hemorrhage), mitral valve prolapse",
         "Hepatic cysts in ADPKD are lined by biliary epithelium; usually asymptomatic",
-        "~10% of ADPKD patients have intracranial aneurysms — most feared complication",
+        "~10% of ADPKD patients have intracranial aneurysms \u2014 most feared complication",
         "Screen ADPKD patients for intracranial aneurysms with MRA if family history of rupture"
       ]
     },
@@ -94,7 +100,7 @@
       "examLevel": "step1",
       "system": "Renal/Urinary",
       "contentType": "Anatomy",
-      "stem": "A 46-year-old woman presents with a 6-month history of vague upper abdominal pain after fatty meals, some abdominal distension, and frequent indigestion. Physical examination shows an obese woman (BMI = 32 kg/m²) with right upper quadrant tenderness. A CT scan discloses gallstones and an ectopic kidney. Which of the following is the expected location of the ectopic kidney?",
+      "stem": "A 46-year-old woman presents with a 6-month history of vague upper abdominal pain after fatty meals, some abdominal distension, and frequent indigestion. Physical examination shows an obese woman (BMI = 32 kg/m\u00b2) with right upper quadrant tenderness. A CT scan discloses gallstones and an ectopic kidney. Which of the following is the expected location of the ectopic kidney?",
       "choices": [
         "Adjacent to gallbladder",
         "Attached to the left adrenal gland",
@@ -105,7 +111,7 @@
       "answer": 3,
       "explanation": "Most ectopic kidneys are located along the pathway of normal renal ascent during fetal development and are caudal to their normal lumbar position. During fetal life, the kidneys are initially located in the lower abdomen. As development progresses, they migrate upward toward the lumbar retroperitoneum. Kidneys that fail to complete this ascent and remain in the pelvis or presacral area are termed ectopic. Fusion of both kidneys at their lower poles results in a horseshoe kidney, not an ectopic kidney. The other locations listed are not consistent with the known pathway of renal migration.",
       "keypoints": [
-        "⭐ Ectopic kidney = failure of normal cranial migration during fetal development → most commonly found in the pelvis",
+        "\u2b50 Ectopic kidney = failure of normal cranial migration during fetal development \u2192 most commonly found in the pelvis",
         "Pelvic kidneys may be clinically silent or discovered incidentally; may cause obstruction or infections",
         "Horseshoe kidney = fusion of lower poles + failure to ascend past the inferior mesenteric artery",
         "Distinguish ectopic (wrong location) from horseshoe (fusion anomaly)"
@@ -128,10 +134,10 @@
       "answer": 4,
       "explanation": "This patient has minimal change glomerulopathy presenting as nephrotic syndrome. Nephrotic syndrome is characterized by heavy proteinuria (>3.5 g per 24 hours), hypoalbuminemia, hyperlipidemia, and edema. In minimal change glomerulopathy, there is effacement of podocyte foot processes (visible only on electron microscopy), allowing massive protein loss into the urine. Light microscopy shows no morphologic abnormalities, as seen here. The question asks for the best description of the patient's medical condition overall, which is nephrotic syndrome. The other choices represent specific diagnoses with distinct morphologic findings on biopsy.",
       "keypoints": [
-        "⭐ Nephrotic syndrome = proteinuria >3.5 g/day + hypoalbuminemia + edema + hyperlipidemia ± lipiduria",
+        "\u2b50 Nephrotic syndrome = proteinuria >3.5 g/day + hypoalbuminemia + edema + hyperlipidemia \u00b1 lipiduria",
         "Minimal change disease (MCD): most common cause of nephrotic syndrome in children; normal light microscopy; podocyte foot process effacement on EM only",
         "MCD responds well to corticosteroids; does not progress to renal failure",
-        "Edema in nephrotic syndrome: low oncotic pressure from hypoalbuminemia → fluid shifts to interstitium → periorbital, peripheral, and abdominal edema + pleural effusions"
+        "Edema in nephrotic syndrome: low oncotic pressure from hypoalbuminemia \u2192 fluid shifts to interstitium \u2192 periorbital, peripheral, and abdominal edema + pleural effusions"
       ]
     },
     {
@@ -149,10 +155,10 @@
         "Thin glomerular basement membrane nephropathy"
       ],
       "answer": 3,
-      "explanation": "This is a classic presentation of nephritic syndrome in the setting of poststreptococcal glomerulonephritis. The key features are: sore throat 2 weeks prior (from group A β-hemolytic streptococci), followed by hematuria, hypertension, oliguria, edema, and elevated BUN/creatinine. Nephritic syndrome results from inflammatory changes in glomeruli (leukocyte infiltration, mesangial/endothelial cell hyperplasia), and is characterized by hematuria, variable proteinuria, oliguria, and hypertension. The 2-week latent period after pharyngitis is classic for poststreptococcal GN. The other choices are not triggered by streptococcal pharyngitis, and membranous GN (choice B) and minimal change (choice C) do not present with hematuria.",
+      "explanation": "This is a classic presentation of nephritic syndrome in the setting of poststreptococcal glomerulonephritis. The key features are: sore throat 2 weeks prior (from group A \u03b2-hemolytic streptococci), followed by hematuria, hypertension, oliguria, edema, and elevated BUN/creatinine. Nephritic syndrome results from inflammatory changes in glomeruli (leukocyte infiltration, mesangial/endothelial cell hyperplasia), and is characterized by hematuria, variable proteinuria, oliguria, and hypertension. The 2-week latent period after pharyngitis is classic for poststreptococcal GN. The other choices are not triggered by streptococcal pharyngitis, and membranous GN (choice B) and minimal change (choice C) do not present with hematuria.",
       "keypoints": [
-        "⭐ Nephritic syndrome = hematuria + hypertension + oliguria + variable proteinuria; caused by glomerular inflammation",
-        "Poststreptococcal GN: 2-week latency after pharyngitis (or 4-6 weeks after skin infection) with group A β-hemolytic strep",
+        "\u2b50 Nephritic syndrome = hematuria + hypertension + oliguria + variable proteinuria; caused by glomerular inflammation",
+        "Poststreptococcal GN: 2-week latency after pharyngitis (or 4-6 weeks after skin infection) with group A \u03b2-hemolytic strep",
         "Contrast with nephrotic syndrome: nephrotic = heavy proteinuria, edema, no hematuria; nephritic = hematuria, HTN, oliguria",
         "Most children with postinfectious GN recover completely without progression to renal failure"
       ]
@@ -174,7 +180,7 @@
       "answer": 3,
       "explanation": "Red blood cell (RBC) casts in the urine sediment are pathognomonic of a glomerular or renal tubular source of hematuria. They form when erythrocytes are compacted during passage through the renal tubules and become embedded in Tamm-Horsfall protein. Their presence confirms glomerulonephritis as the source of bleeding, distinguishing it from lower urinary tract causes (bladder, urethra, prostate) which do not produce casts. Blood clots (choice A) suggest lower urinary tract bleeding. Hemoglobin crystals (choice B) and phagocytosed hemoglobin (choice C) do not localize hematuria to the kidney. White blood cell casts (choice E) indicate renal infection (pyelonephritis), not glomerulonephritis.",
       "keypoints": [
-        "⭐ RBC casts = glomerulonephritis — pathognomonic for renal source of hematuria",
+        "\u2b50 RBC casts = glomerulonephritis \u2014 pathognomonic for renal source of hematuria",
         "WBC casts = pyelonephritis or interstitial nephritis",
         "Granular/muddy brown casts = acute tubular necrosis",
         "Hyaline casts = normal or nephrotic syndrome; waxy casts = chronic renal failure",
@@ -198,12 +204,15 @@
       "answer": 0,
       "explanation": "The clinicopathologic findings establish multiple myeloma (lytic bone lesions, monoclonal light-chain peak, >20% plasma cells in marrow, anemia, thrombocytopenia). Amyloid nephropathy in this context is caused by deposition of secreted lambda or kappa light chains (AL amyloid) in the glomerular basement membranes and mesangial matrix, producing amorphous acellular material that obstructs glomerular capillaries and causes nephrotic-range proteinuria. Deposits of AL amyloid also appear in tubular basement membranes and vessel walls. The nodular pattern of amyloid deposition can resemble Kimmelstiel-Wilson nodules (choice E), but amyloid is NOT PAS-positive and IS identifiable by Congo red staining with apple-green birefringence. IgA nephropathy (choice C) and membranous GN (choice D) are unrelated to light-chain disease.",
       "keypoints": [
-        "⭐ Multiple myeloma → AL amyloidosis → amyloid deposits in GBM and mesangium → nephrotic syndrome",
+        "\u2b50 Multiple myeloma \u2192 AL amyloidosis \u2192 amyloid deposits in GBM and mesangium \u2192 nephrotic syndrome",
         "Congo red stain with apple-green birefringence under polarized light = diagnostic for amyloid",
         "AL amyloid = light chains (Ig); AA amyloid = serum amyloid A (from chronic inflammation)",
         "Amyloid nephropathy presents as nephrotic syndrome and may cause hepatosplenomegaly and cardiac involvement",
         "Distinguish from Kimmelstiel-Wilson (diabetic nodular sclerosis): PAS-positive, Congo red-negative"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q8",
+      "imageAlt": "Renal biopsy showing amorphous acellular material expanding the mesangium (amyloid deposition)",
+      "imageCaption": "Renal biopsy with amorphous mesangial deposits \u2014 amyloid nephropathy (AL type) in the setting of multiple myeloma"
     },
     {
       "id": "q009",
@@ -213,18 +222,18 @@
       "contentType": "Diagnosis",
       "stem": "A 12-year-old boy complains of swelling of his feet for the past 3 weeks. He is otherwise healthy, with no known previous illness. Vital signs are normal. Physical examination reveals pitting edema of the lower legs and a swollen abdomen. Urinalysis shows 4+ protein but no RBCs or WBCs. Which of the following are the most likely diagnoses to consider in your evaluation of this patient?",
       "choices": [
-        "Henoch-Schönlein purpura, lupus nephritis",
+        "Henoch-Sch\u00f6nlein purpura, lupus nephritis",
         "Malignant hypertension, renal vein thrombosis",
         "Minimal change disease, focal segmental glomerulosclerosis",
         "Pyelonephritis, acute tubular necrosis",
         "Wilms tumor, renal cell carcinoma"
       ],
       "answer": 2,
-      "explanation": "A 12-year-old with nephrotic-range proteinuria (4+ protein), edema, and no hematuria or pyuria most likely has minimal change disease (MCD) or focal segmental glomerulosclerosis (FSGS). MCD causes 90% of nephrotic syndrome in young children and is characterized by podocyte foot process effacement on EM, with no light microscopic changes. FSGS causes nephrotic syndrome in 10% of children and 30% of adults, and is more often steroid-resistant. Henoch-Schönlein purpura and lupus (choice A) present with nephritic syndrome features including hematuria and rash. Malignant hypertension and renal vein thrombosis (choice B) are not typical in healthy children. Pyelonephritis and ATN (choice D) present with pyuria, RBC/WBC casts, and systemic infection. Wilms tumor and RCC (choice E) are neoplastic, not causes of nephrotic syndrome.",
+      "explanation": "A 12-year-old with nephrotic-range proteinuria (4+ protein), edema, and no hematuria or pyuria most likely has minimal change disease (MCD) or focal segmental glomerulosclerosis (FSGS). MCD causes 90% of nephrotic syndrome in young children and is characterized by podocyte foot process effacement on EM, with no light microscopic changes. FSGS causes nephrotic syndrome in 10% of children and 30% of adults, and is more often steroid-resistant. Henoch-Sch\u00f6nlein purpura and lupus (choice A) present with nephritic syndrome features including hematuria and rash. Malignant hypertension and renal vein thrombosis (choice B) are not typical in healthy children. Pyelonephritis and ATN (choice D) present with pyuria, RBC/WBC casts, and systemic infection. Wilms tumor and RCC (choice E) are neoplastic, not causes of nephrotic syndrome.",
       "keypoints": [
-        "⭐ Nephrotic syndrome in a child without hematuria → first consider MCD (corticosteroid-responsive) then FSGS (often steroid-resistant)",
+        "\u2b50 Nephrotic syndrome in a child without hematuria \u2192 first consider MCD (corticosteroid-responsive) then FSGS (often steroid-resistant)",
         "MCD = #1 cause of nephrotic syndrome in children; FSGS = #1 cause in adults (and HIV-associated nephropathy)",
-        "No RBCs, no WBCs in nephrotic syndrome — their presence suggests nephritic component",
+        "No RBCs, no WBCs in nephrotic syndrome \u2014 their presence suggests nephritic component",
         "MCD responds completely to steroids; FSGS often progresses to ESRD"
       ]
     },
@@ -245,10 +254,10 @@
       "answer": 2,
       "explanation": "This child has minimal change disease (lipoid nephrosis), confirmed by the complete response to corticosteroids. The loss of albumin in the urine leads to hypoalbuminemia, which triggers compensatory hepatic lipoprotein synthesis and hyperlipidemia. Lipid droplets (free fat, oval fat bodies, or fatty casts) appear in the urine as a direct consequence of this hyperlipidemia, lending the classic name 'lipoid nephrosis.' Eosinophils (choice B) appear in allergic (drug-induced) interstitial nephritis. RBC casts (choice D) indicate glomerulonephritis. WBC casts (choice E) are a feature of pyelonephritis. Amyloid casts (choice A) are not a recognized urinary finding.",
       "keypoints": [
-        "⭐ Minimal change disease (lipoid nephrosis): nephrotic syndrome + lipid droplets/oval fat bodies in urine + hyperlipidemia + hypoalbuminemia",
+        "\u2b50 Minimal change disease (lipoid nephrosis): nephrotic syndrome + lipid droplets/oval fat bodies in urine + hyperlipidemia + hypoalbuminemia",
         "Lipid droplets in urine = result of hyperlipidemia caused by compensatory hepatic lipoprotein synthesis in response to hypoalbuminemia",
         "Complete response to corticosteroids is characteristic of MCD; steroid-resistance should prompt consideration of FSGS",
-        "Eosinophils in urine → allergic/drug-induced interstitial nephritis (e.g., NSAIDs, penicillin)"
+        "Eosinophils in urine \u2192 allergic/drug-induced interstitial nephritis (e.g., NSAIDs, penicillin)"
       ]
     },
     {
@@ -268,10 +277,10 @@
       "answer": 3,
       "explanation": "The hallmark finding of minimal change disease on electron microscopy is complete effacement (fusion) of visceral epithelial cell (podocyte) foot processes. This retraction of the foot processes disrupts the slit diaphragm, the main barrier to protein filtration, allowing massive proteinuria. Light microscopy is essentially normal in MCD. MCD does not feature immune complex deposits (choices B and C), which are seen in membranous nephropathy and IgA nephropathy, respectively. Basement membrane duplication (choice A) is seen in membranoproliferative GN. Loss of tubular microvilli (choice E) is not the primary pathologic finding in MCD, which is a glomerular, not tubular, disease.",
       "keypoints": [
-        "⭐ Minimal change disease EM finding: effacement (fusion) of podocyte foot processes — the key ultrastructural abnormality",
+        "\u2b50 Minimal change disease EM finding: effacement (fusion) of podocyte foot processes \u2014 the key ultrastructural abnormality",
         "Light microscopy: normal; IF: negative (no immune deposits); EM: foot process effacement",
-        "Podocyte foot process fusion disrupts the slit diaphragm → loss of filtration barrier → selective proteinuria (albumin > globulins)",
-        "Foot process effacement is not specific to MCD — it occurs in all nephrotic-range proteinuria, but is characteristic"
+        "Podocyte foot process fusion disrupts the slit diaphragm \u2192 loss of filtration barrier \u2192 selective proteinuria (albumin > globulins)",
+        "Foot process effacement is not specific to MCD \u2014 it occurs in all nephrotic-range proteinuria, but is characteristic"
       ]
     },
     {
@@ -289,13 +298,16 @@
         "Minimal change disease"
       ],
       "answer": 3,
-      "explanation": "Membranous glomerulopathy is a frequent cause of nephrotic syndrome in adults and is caused by accumulation of immune complexes in the subepithelial zone of glomerular capillaries. The characteristic immunofluorescence pattern is granular deposits of IgG outlining the glomerular capillary loops, as described in this biopsy. The clinical presentation — adult with nephrotic syndrome (5 g proteinuria, hypoalbuminemia, hyperlipidemia, edema) and no hematuria — is classic. Amyloid nephropathy (choice A) stains with Congo red, not IgG. FSGS (choice B) shows segmental sclerosis on light microscopy. MPGN type I (choice C) features subendothelial immune complex deposits and mesangial proliferation. Minimal change disease (choice E) shows no immunofluorescence deposits.",
+      "explanation": "Membranous glomerulopathy is a frequent cause of nephrotic syndrome in adults and is caused by accumulation of immune complexes in the subepithelial zone of glomerular capillaries. The characteristic immunofluorescence pattern is granular deposits of IgG outlining the glomerular capillary loops, as described in this biopsy. The clinical presentation \u2014 adult with nephrotic syndrome (5 g proteinuria, hypoalbuminemia, hyperlipidemia, edema) and no hematuria \u2014 is classic. Amyloid nephropathy (choice A) stains with Congo red, not IgG. FSGS (choice B) shows segmental sclerosis on light microscopy. MPGN type I (choice C) features subendothelial immune complex deposits and mesangial proliferation. Minimal change disease (choice E) shows no immunofluorescence deposits.",
       "keypoints": [
-        "⭐ Membranous glomerulopathy: granular IgG deposits along glomerular capillary loops (subepithelial) on IF — 'spike and dome' pattern on EM",
+        "\u2b50 Membranous glomerulopathy: granular IgG deposits along glomerular capillary loops (subepithelial) on IF \u2014 'spike and dome' pattern on EM",
         "Most common cause of nephrotic syndrome in adults (non-diabetic); often idiopathic or secondary (SLE, hepatitis B, solid tumors, penicillamine)",
         "Outcomes: spontaneous remission ~25%, stable with partial loss of function ~50%, progressive renal failure ~25%",
         "Distinguish from MPGN: MPGN has mesangial proliferation and subendothelial deposits; membranous has no cellularity, subepithelial deposits"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q13",
+      "imageAlt": "Direct immunofluorescence for IgG showing granular deposits outlining glomerular capillary loops",
+      "imageCaption": "Direct immunofluorescence (IgG): granular peripheral capillary loop deposits \u2014 membranous glomerulopathy"
     },
     {
       "id": "q013",
@@ -312,10 +324,10 @@
         "Subepithelial deposits of immune complexes"
       ],
       "answer": 4,
-      "explanation": "Membranous glomerulopathy is caused by localization of immune complexes in the subepithelial zone (between the visceral epithelial cell/podocyte and the glomerular basement membrane), either via in situ formation or deposition of circulating immune complexes. This subepithelial location separates them from the inflammatory cells in the capillary lumen, explaining why membranous GN causes nephrotic (not nephritic) syndrome — there is protein loss without inflammatory cell infiltration or hematuria. Antiglomerular basement membrane antibody deposition (choice A) is the mechanism in Goodpasture syndrome, causing a linear IF pattern. IgA in the mesangium (choice B) is the mechanism of Berger disease. PAS-positive GBM expansion (choice C) reflects diabetic glomerulosclerosis. Subendothelial immune complex deposits (choice D) are seen in lupus nephritis and MPGN.",
+      "explanation": "Membranous glomerulopathy is caused by localization of immune complexes in the subepithelial zone (between the visceral epithelial cell/podocyte and the glomerular basement membrane), either via in situ formation or deposition of circulating immune complexes. This subepithelial location separates them from the inflammatory cells in the capillary lumen, explaining why membranous GN causes nephrotic (not nephritic) syndrome \u2014 there is protein loss without inflammatory cell infiltration or hematuria. Antiglomerular basement membrane antibody deposition (choice A) is the mechanism in Goodpasture syndrome, causing a linear IF pattern. IgA in the mesangium (choice B) is the mechanism of Berger disease. PAS-positive GBM expansion (choice C) reflects diabetic glomerulosclerosis. Subendothelial immune complex deposits (choice D) are seen in lupus nephritis and MPGN.",
       "keypoints": [
-        "⭐ Membranous nephropathy: SUBEPITHELIAL immune complex deposits → granular IF → 'spike and dome' on EM → nephrotic syndrome (no inflammation access)",
-        "Subendothelial deposits → close to inflammatory cells → nephritic syndrome (lupus nephritis, MPGN)",
+        "\u2b50 Membranous nephropathy: SUBEPITHELIAL immune complex deposits \u2192 granular IF \u2192 'spike and dome' on EM \u2192 nephrotic syndrome (no inflammation access)",
+        "Subendothelial deposits \u2192 close to inflammatory cells \u2192 nephritic syndrome (lupus nephritis, MPGN)",
         "Anti-PLA2R antibody = most common cause of primary (idiopathic) membranous nephropathy",
         "Location of deposits determines clinical syndrome: subepithelial = nephrotic; subendothelial/mesangial = nephritic"
       ]
@@ -337,7 +349,7 @@
       "answer": 3,
       "explanation": "Immune complexes formed against DNA, RNA, and autologous proteins in systemic lupus erythematosus (SLE) may be deposited along the glomerular basement membrane in a pattern indistinguishable from idiopathic membranous nephropathy (Class V lupus nephritis). However, membranous nephropathy of lupus also features mesangial and subendothelial deposits of immunoglobulins, unlike idiopathic membranous. Goodpasture syndrome (choice B) causes linear anti-GBM antibody deposits, not granular subepithelial deposits. Scleroderma (choice C) causes vascular and interstitial renal disease, not membranous GN. Amyloid nephropathy (choice A) and Wegener granulomatosis (choice E) are not associated with membranous glomerulopathy.",
       "keypoints": [
-        "⭐ Secondary membranous nephropathy associations: SLE (Class V), hepatitis B, solid tumors (paraneoplastic), drugs (penicillamine, NSAIDs, gold)",
+        "\u2b50 Secondary membranous nephropathy associations: SLE (Class V), hepatitis B, solid tumors (paraneoplastic), drugs (penicillamine, NSAIDs, gold)",
         "SLE lupus nephritis classes: I=minimal, II=mesangial, III=focal proliferative, IV=diffuse proliferative (worst), V=membranous",
         "Class V lupus nephritis = membranous pattern + mesangial/subendothelial deposits (distinguishes from idiopathic membranous)",
         "Always consider secondary causes in membranous GN: check ANA, anti-dsDNA, hepatitis serology, and age-appropriate cancer screening"
@@ -349,7 +361,7 @@
       "examLevel": "step1",
       "system": "Immunology/Infectious Disease",
       "contentType": "Pathophysiology",
-      "stem": "A 14-year-old girl presents with a 5-day history of hypertension, oliguria, and hematuria. She was seen 2 weeks earlier for a severe throat infection with group A (β-hemolytic) streptococci. A kidney biopsy displays glomerulonephritis. Immunofluorescence staining for which of the following proteins would provide the strongest evidence that this patient's glomerulonephritis is mediated by immune complexes?",
+      "stem": "A 14-year-old girl presents with a 5-day history of hypertension, oliguria, and hematuria. She was seen 2 weeks earlier for a severe throat infection with group A (\u03b2-hemolytic) streptococci. A kidney biopsy displays glomerulonephritis. Immunofluorescence staining for which of the following proteins would provide the strongest evidence that this patient's glomerulonephritis is mediated by immune complexes?",
       "choices": [
         "Complement",
         "Fibrinogen",
@@ -358,9 +370,9 @@
         "Thrombin"
       ],
       "answer": 0,
-      "explanation": "In acute postinfectious glomerulonephritis, immune complexes localize in glomeruli by deposition from the circulation or by in situ formation as bacterial antigens bind circulating antibodies. The renal biopsy characteristically shows complement fixation. Complement activation is so extensive that over 90% of patients develop hypocomplementemia (decreased serum C3) during the acute phase. Complement (C3, C1q, C4) staining by immunofluorescence directly demonstrates immune complex activation, strongly supporting an immune-complex-mediated mechanism. Fibrinogen (choice B), Hageman factor (choice C), plasminogen (choice D), and thrombin (choice E) are all components of the coagulation cascade, not immune complexes, and their deposition would not indicate immune complex–mediated disease.",
+      "explanation": "In acute postinfectious glomerulonephritis, immune complexes localize in glomeruli by deposition from the circulation or by in situ formation as bacterial antigens bind circulating antibodies. The renal biopsy characteristically shows complement fixation. Complement activation is so extensive that over 90% of patients develop hypocomplementemia (decreased serum C3) during the acute phase. Complement (C3, C1q, C4) staining by immunofluorescence directly demonstrates immune complex activation, strongly supporting an immune-complex-mediated mechanism. Fibrinogen (choice B), Hageman factor (choice C), plasminogen (choice D), and thrombin (choice E) are all components of the coagulation cascade, not immune complexes, and their deposition would not indicate immune complex\u2013mediated disease.",
       "keypoints": [
-        "⭐ Poststreptococcal GN: immune complexes activate complement → C3 depletion → hypocomplementemia (C3 ↓) in >90% of cases",
+        "\u2b50 Poststreptococcal GN: immune complexes activate complement \u2192 C3 depletion \u2192 hypocomplementemia (C3 \u2193) in >90% of cases",
         "IF in poststreptococcal GN: granular deposits of IgG and C3 along capillary walls and in mesangium ('lumpy-bumpy' pattern)",
         "EM: subepithelial 'humps' + mesangial and subendothelial deposits",
         "C3 normalizes within 6-8 weeks; persistent hypocomplementemia suggests MPGN or lupus"
@@ -381,12 +393,12 @@
         "Wegener granulomatosis"
       ],
       "answer": 4,
-      "explanation": "Wegener granulomatosis (granulomatosis with polyangiitis) is a systemic necrotizing vasculitis characterized by granulomatous lesions of the upper respiratory tract (nose, sinuses) and lungs, associated with glomerular disease. More than 90% of patients have ANCA, of whom 75% have C-ANCA (cytoplasmic pattern, anti-PR3). Renal biopsy shows focal necrotizing glomerulonephritis with crescents and vasculitis affecting small vessels. Churg-Strauss syndrome (choice A) features eosinophilia and asthma — peripheral eosinophils are NOT increased here. Goodpasture syndrome (choice B) presents with pulmonary hemorrhage and GN but involves anti-GBM antibodies and linear IF, without granulomas. Polyarteritis nodosa (choice D) spares the lungs. Hypersensitivity vasculitis (choice C) does not cause cavitary lung lesions or C-ANCA.",
+      "explanation": "Wegener granulomatosis (granulomatosis with polyangiitis) is a systemic necrotizing vasculitis characterized by granulomatous lesions of the upper respiratory tract (nose, sinuses) and lungs, associated with glomerular disease. More than 90% of patients have ANCA, of whom 75% have C-ANCA (cytoplasmic pattern, anti-PR3). Renal biopsy shows focal necrotizing glomerulonephritis with crescents and vasculitis affecting small vessels. Churg-Strauss syndrome (choice A) features eosinophilia and asthma \u2014 peripheral eosinophils are NOT increased here. Goodpasture syndrome (choice B) presents with pulmonary hemorrhage and GN but involves anti-GBM antibodies and linear IF, without granulomas. Polyarteritis nodosa (choice D) spares the lungs. Hypersensitivity vasculitis (choice C) does not cause cavitary lung lesions or C-ANCA.",
       "keypoints": [
-        "⭐ Wegener (GPA): upper airway granulomas + lung cavitations + crescentic GN + C-ANCA (anti-PR3) — classic triad",
+        "\u2b50 Wegener (GPA): upper airway granulomas + lung cavitations + crescentic GN + C-ANCA (anti-PR3) \u2014 classic triad",
         "ANCA: C-ANCA (anti-PR3) = Wegener; P-ANCA (anti-MPO) = microscopic polyangiitis, Churg-Strauss",
-        "Churg-Strauss (EGPA): asthma + eosinophilia + P-ANCA — distinguish by eosinophilia and asthma",
-        "Goodpasture: anti-GBM antibodies → linear IF; Wegener: immune complexes → granular/pauci-immune IF"
+        "Churg-Strauss (EGPA): asthma + eosinophilia + P-ANCA \u2014 distinguish by eosinophilia and asthma",
+        "Goodpasture: anti-GBM antibodies \u2192 linear IF; Wegener: immune complexes \u2192 granular/pauci-immune IF"
       ]
     },
     {
@@ -406,7 +418,7 @@
       "answer": 2,
       "explanation": "Focal necrotizing glomerulonephritis is one of the early features of Wegener granulomatosis. ANCA autoantibodies activate neutrophils, causing them to adhere to endothelial cells, release toxic oxygen metabolites, degranulate, and kill endothelial cells. This disrupts the glomerular basement membrane, leading to extravasation of inflammatory cells into the urinary space and crescent formation. Clinically, the disease presents as rapidly progressive glomerulonephritis (RPGN), a clinical syndrome denoting rapid-onset renal failure due to severe glomerular injury (often defined as doubling of creatinine within weeks). Crescentic GN is the morphologic correlate of RPGN. Wegener does not cause membranoproliferative GN (choices D, E), and nephrotic syndrome (choice B) is not the presentation here (hematuria and RBC casts indicate nephritic pathology).",
       "keypoints": [
-        "⭐ RPGN (rapidly progressive GN) = rapid loss of renal function over days-weeks; morphologic correlate = CRESCENTIC GN (>50% crescents)",
+        "\u2b50 RPGN (rapidly progressive GN) = rapid loss of renal function over days-weeks; morphologic correlate = CRESCENTIC GN (>50% crescents)",
         "Crescents = proliferating parietal epithelial cells + macrophages filling Bowman's space after GBM rupture",
         "Three RPGN types: Type I = anti-GBM (Goodpasture, linear IF); Type II = immune complex (SLE, postinfectious, granular IF); Type III = pauci-immune (ANCA-associated: Wegener, MPA, Churg-Strauss)",
         "Treatment: high-dose steroids + cyclophosphamide for ANCA-associated RPGN"
@@ -429,11 +441,14 @@
       "answer": 4,
       "explanation": "Focal segmental glomerulosclerosis (FSGS) is characterized by glomerular scarring (sclerosis) that affects some (focal), but not all, glomeruli and initially involves only part of an affected glomerular tuft (segmental). By light microscopy, varying numbers of glomeruli show segmental obliteration of capillary loops by increased collagen and accumulation of lipid or proteinaceous material. FSGS is the most common renal complication of intravenous drug abuse and is the cause of nephrotic syndrome in 30% of adults. The clinical course of initially steroid-responsive but ultimately steroid-resistant nephrotic syndrome is characteristic of FSGS. HIV nephropathy is a severe collapsing variant of FSGS. The other choices involve glomeruli diffusely or have different morphologic features.",
       "keypoints": [
-        "⭐ FSGS: FOCAL (some glomeruli) + SEGMENTAL (part of tuft) sclerosis → collagen + lipid in capillary loops",
+        "\u2b50 FSGS: FOCAL (some glomeruli) + SEGMENTAL (part of tuft) sclerosis \u2192 collagen + lipid in capillary loops",
         "Associated with: IV drug abuse (heroin nephropathy), HIV (collapsing FSGS), obesity, reflux nephropathy, podocin/nephrin mutations",
-        "Steroid-resistant nephrotic syndrome + IV drug use → think FSGS",
+        "Steroid-resistant nephrotic syndrome + IV drug use \u2192 think FSGS",
         "FSGS is #1 cause of nephrotic syndrome in adults and most common cause in African Americans; often progresses to ESRD"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q19",
+      "imageAlt": "Renal biopsy showing segmental sclerosis obliterating capillary loops in some glomeruli with others appearing normal",
+      "imageCaption": "Light microscopy: focal segmental glomerulosclerosis (FSGS) \u2014 segmental capillary loop obliteration by collagen and lipid"
     },
     {
       "id": "q019",
@@ -450,11 +465,11 @@
         "Renin"
       ],
       "answer": 3,
-      "explanation": "Erythropoietin (EPO) is released by interstitial peritubular cells (fibroblast-like cells in the renal cortex) in response to hypoxia. EPO activates specific receptors on erythroid progenitor cells in the bone marrow, rescuing them from apoptosis, promoting colony growth, and restoring normal red blood cell mass. Renin (choice E) is released by the juxtaglomerular (JG) cells of the afferent arteriole in response to decreased renal perfusion pressure — a distinct cell type and location. Aldosterone (choice A) is produced by the adrenal cortex, not the kidney. Angiotensin (choice B) is generated from angiotensinogen by renin in the bloodstream. Angiotensinogen (choice C) is synthesized by the liver.",
+      "explanation": "Erythropoietin (EPO) is released by interstitial peritubular cells (fibroblast-like cells in the renal cortex) in response to hypoxia. EPO activates specific receptors on erythroid progenitor cells in the bone marrow, rescuing them from apoptosis, promoting colony growth, and restoring normal red blood cell mass. Renin (choice E) is released by the juxtaglomerular (JG) cells of the afferent arteriole in response to decreased renal perfusion pressure \u2014 a distinct cell type and location. Aldosterone (choice A) is produced by the adrenal cortex, not the kidney. Angiotensin (choice B) is generated from angiotensinogen by renin in the bloodstream. Angiotensinogen (choice C) is synthesized by the liver.",
       "keypoints": [
-        "⭐ EPO = released by peritubular interstitial cells of renal cortex in response to HYPOXIA → stimulates erythropoiesis",
-        "Renin = released by JG cells of afferent arteriole in response to ↓ renal perfusion pressure, ↓ Na+ delivery to macula densa, or sympathetic stimulation",
-        "CKD → loss of EPO-producing cells → normocytic normochromic anemia of chronic kidney disease",
+        "\u2b50 EPO = released by peritubular interstitial cells of renal cortex in response to HYPOXIA \u2192 stimulates erythropoiesis",
+        "Renin = released by JG cells of afferent arteriole in response to \u2193 renal perfusion pressure, \u2193 Na+ delivery to macula densa, or sympathetic stimulation",
+        "CKD \u2192 loss of EPO-producing cells \u2192 normocytic normochromic anemia of chronic kidney disease",
         "Treatment: recombinant EPO (epoetin alfa, darbepoetin) for anemia of CKD"
       ]
     },
@@ -473,12 +488,12 @@
         "Wegener granulomatosis"
       ],
       "answer": 1,
-      "explanation": "Berger disease (IgA nephropathy) is the most common form of glomerulonephritis in adults. It presents with recurrent gross or microscopic hematuria that is typically triggered by mucosal infections (URI or GI) — a feature called 'synpharyngitic hematuria' (hematuria occurs during or immediately after the infection, unlike the 2-week latency of poststreptococcal GN). Deposition of IgA-dominant immune complexes in the mesangium is the cause of nephropathy. ANA and ANCA are negative. Amyloid nephropathy (choice A) and membranous glomerulopathy (choice D) do not feature RBC casts. Alport syndrome (choice C) also causes hematuria from birth, but involves abnormal type IV collagen and is associated with hearing and visual defects. Wegener (choice E) is ANCA-positive.",
+      "explanation": "Berger disease (IgA nephropathy) is the most common form of glomerulonephritis in adults. It presents with recurrent gross or microscopic hematuria that is typically triggered by mucosal infections (URI or GI) \u2014 a feature called 'synpharyngitic hematuria' (hematuria occurs during or immediately after the infection, unlike the 2-week latency of poststreptococcal GN). Deposition of IgA-dominant immune complexes in the mesangium is the cause of nephropathy. ANA and ANCA are negative. Amyloid nephropathy (choice A) and membranous glomerulopathy (choice D) do not feature RBC casts. Alport syndrome (choice C) also causes hematuria from birth, but involves abnormal type IV collagen and is associated with hearing and visual defects. Wegener (choice E) is ANCA-positive.",
       "keypoints": [
-        "⭐ IgA nephropathy (Berger disease): recurrent hematuria + synpharyngitic timing (during/after URI) + mesangial IgA deposits",
+        "\u2b50 IgA nephropathy (Berger disease): recurrent hematuria + synpharyngitic timing (during/after URI) + mesangial IgA deposits",
         "Most common GN worldwide; predominantly affects males 20s-30s",
         "Distinguish from poststreptococcal GN: IgA = hematuria DURING infection; poststrep GN = hematuria 2 weeks AFTER infection",
-        "20% of IgA nephropathy patients progress to renal failure over 10 years; treatment = RAAS blockade ± immunosuppression"
+        "20% of IgA nephropathy patients progress to renal failure over 10 years; treatment = RAAS blockade \u00b1 immunosuppression"
       ]
     },
     {
@@ -498,10 +513,10 @@
       "answer": 2,
       "explanation": "IgA nephropathy (Berger disease) is caused by immune complexes of IgA located within the mesangium, where they most likely activate complement through the alternative pathway. The diagnostic immunofluorescence finding is intense mesangial staining for IgA (more intense for IgA than IgG or IgM), almost always accompanied by C3. Granular capillary membrane deposition (choice A) is seen in membranous nephropathy and postinfectious GN. Linear basement membrane staining (choice B) is the pattern of anti-GBM disease (Goodpasture syndrome). Perivascular location (choice D) is not a feature of IgA nephropathy. Subepithelial deposits (choice E) characterize membranous nephropathy.",
       "keypoints": [
-        "⭐ IgA nephropathy IF: mesangial IgA deposits (dominant) + C3; IgA > IgG, IgM — diagnostic pattern",
+        "\u2b50 IgA nephropathy IF: mesangial IgA deposits (dominant) + C3; IgA > IgG, IgM \u2014 diagnostic pattern",
         "EM confirms mesangial electron-dense deposits",
-        "Mesangial IgA activates alternative complement pathway → mesangial cell proliferation → hematuria",
-        "Henoch-Schönlein purpura (HSP/IgAV) has identical renal pathology but also involves skin, joints, and GI tract"
+        "Mesangial IgA activates alternative complement pathway \u2192 mesangial cell proliferation \u2192 hematuria",
+        "Henoch-Sch\u00f6nlein purpura (HSP/IgAV) has identical renal pathology but also involves skin, joints, and GI tract"
       ]
     },
     {
@@ -521,11 +536,14 @@
       "answer": 2,
       "explanation": "Focal proliferative glomerulonephritis is characterized by pathologic changes in some (focal) glomeruli, while others appear normal. This category includes IgA nephropathy (Berger disease), which presents with mesangial IgA deposits and mesangial cell proliferation in some glomeruli. The clinical presentation is variable, reflecting the varied pathologic severity. Amyloid nephropathy (choice A) shows amorphous deposits without proliferation. Crescentic GN (choice B) involves >50% of glomeruli with crescents. Membranous nephropathy (choice D) features subepithelial deposits without proliferation. Nodular diabetic glomerulosclerosis (choice E) shows diffuse and nodular mesangial matrix expansion without IgA.",
       "keypoints": [
-        "⭐ Focal proliferative GN = changes in SOME glomeruli; includes IgA nephropathy, HSP, focal lupus nephritis (Class III)",
+        "\u2b50 Focal proliferative GN = changes in SOME glomeruli; includes IgA nephropathy, HSP, focal lupus nephritis (Class III)",
         "IgA nephropathy: mesangial IgA + mesangial cell proliferation in affected glomeruli, normal in others = focal distribution",
         "Diffuse proliferative GN = ALL glomeruli involved (e.g., poststreptococcal GN, Class IV lupus)",
-        "Pathologic diagnosis 'focal' ≠ benign — IgA nephropathy can progress to ESRD"
-      ]
+        "Pathologic diagnosis 'focal' \u2260 benign \u2014 IgA nephropathy can progress to ESRD"
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q23",
+      "imageAlt": "Renal biopsy showing mesangial hypercellularity in some glomeruli with others appearing normal",
+      "imageCaption": "PAS-stained biopsy showing mesangial cell proliferation in some glomeruli \u2014 focal proliferative GN (IgA nephropathy)"
     },
     {
       "id": "q023",
@@ -544,11 +562,14 @@
       "answer": 4,
       "explanation": "The most distinctive ultrastructural and immunofluorescence features of acute postinfectious glomerulonephritis are subepithelial dense deposits shaped like 'humps' (on EM), invariably accompanied by mesangial and subendothelial deposits. On immunofluorescence for C3, the pattern shows a combination of subepithelial and subendothelial deposits ('lumpy-bumpy' granular pattern). These mesangial and subendothelial deposits are probably more important in pathogenesis due to their proximity to inflammatory mediator systems in the blood. Linear staining along the GBM (choice D) is the anti-GBM pattern of Goodpasture syndrome. Deposits limited to the mesangium (choice B) are characteristic of IgA nephropathy. Dense deposits in crescents (choice A) are seen in anti-GBM disease. Perimesangial deposits alone (choice C) would suggest early IgA nephropathy.",
       "keypoints": [
-        "⭐ Poststreptococcal GN IF: granular 'lumpy-bumpy' pattern of C3 and IgG — subepithelial + subendothelial + mesangial deposits",
+        "\u2b50 Poststreptococcal GN IF: granular 'lumpy-bumpy' pattern of C3 and IgG \u2014 subepithelial + subendothelial + mesangial deposits",
         "EM: subepithelial 'humps' = most distinctive finding of postinfectious GN",
         "Compare: Linear IF = anti-GBM (Goodpasture); Mesangial = IgA nephropathy; Granular capillary loop = membranous GN",
-        "Hypocomplementemia (↓C3) in >90% of cases; C3 normalizes in 6-8 weeks — key distinguishing feature from MPGN"
-      ]
+        "Hypocomplementemia (\u2193C3) in >90% of cases; C3 normalizes in 6-8 weeks \u2014 key distinguishing feature from MPGN"
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q24",
+      "imageAlt": "Direct immunofluorescence for C3 showing granular lumpy-bumpy deposits in a glomerulus",
+      "imageCaption": "Direct IF for C3: granular 'lumpy-bumpy' subepithelial and subendothelial deposits \u2014 acute poststreptococcal GN"
     },
     {
       "id": "q024",
@@ -560,15 +581,15 @@
       "choices": [
         "Escherichia coli",
         "Epstein-Barr virus",
-        "Group A (β-hemolytic) streptococci",
+        "Group A (\u03b2-hemolytic) streptococci",
         "Klebsiella sp.",
         "Staphylococcus sp."
       ],
       "answer": 2,
-      "explanation": "Acute postinfectious glomerulonephritis is an immune complex disease most commonly occurring after infection with group A (β-hemolytic) streptococci. The primary infection involves the pharynx (in temperate climates) or the skin in impetigo (in hot and humid environments). Only certain nephritogenic strains cause GN. Immune complexes form with bacterial antigens and deposit in glomeruli. Occasional cases are caused by staphylococcal infection (choice E) — notably the proportion of staphylococcal cases has been increasing in recent years. Rare cases result from viral (e.g., hepatitis B) or parasitic (e.g., malaria) infections. E. coli (choice A) causes UTI and HUS, not postinfectious GN. Epstein-Barr virus (choice B) and Klebsiella (choice D) do not typically cause GN.",
+      "explanation": "Acute postinfectious glomerulonephritis is an immune complex disease most commonly occurring after infection with group A (\u03b2-hemolytic) streptococci. The primary infection involves the pharynx (in temperate climates) or the skin in impetigo (in hot and humid environments). Only certain nephritogenic strains cause GN. Immune complexes form with bacterial antigens and deposit in glomeruli. Occasional cases are caused by staphylococcal infection (choice E) \u2014 notably the proportion of staphylococcal cases has been increasing in recent years. Rare cases result from viral (e.g., hepatitis B) or parasitic (e.g., malaria) infections. E. coli (choice A) causes UTI and HUS, not postinfectious GN. Epstein-Barr virus (choice B) and Klebsiella (choice D) do not typically cause GN.",
       "keypoints": [
-        "⭐ Group A β-hemolytic streptococci = most common cause of acute postinfectious GN; only NEPHRITOGENIC strains cause GN (not same strains as rheumatic fever)",
-        "Pharyngitis → GN (2-week latency); impetigo/skin → GN (4-6 week latency)",
+        "\u2b50 Group A \u03b2-hemolytic streptococci = most common cause of acute postinfectious GN; only NEPHRITOGENIC strains cause GN (not same strains as rheumatic fever)",
+        "Pharyngitis \u2192 GN (2-week latency); impetigo/skin \u2192 GN (4-6 week latency)",
         "ASO titer elevated after pharyngitis; anti-DNase B elevated after skin infection",
         "Staphylococcal GN is increasingly recognized, especially in elderly patients with indwelling devices"
       ]
@@ -590,9 +611,9 @@
       "answer": 3,
       "explanation": "Overt nephritis after postinfectious glomerulonephritis in children usually resolves after several weeks, although hematuria and especially proteinuria may persist for several months. The vast majority of children with poststreptococcal GN recover completely without progression to chronic renal disease. This distinguishes it from adult-onset cases, where the prognosis is somewhat less favorable. Bilateral cortical necrosis (choice A) is caused by hypovolemic shock, not GN. Nephrotic syndrome (choice B) is not an expected transition from poststreptococcal GN. MPGN (choice C) is a separate entity. Crescentic GN (choice E) is a rare, aggressive complication seen in a minority of postinfectious GN cases.",
       "keypoints": [
-        "⭐ Poststreptococcal GN in children: excellent prognosis — complete recovery in >95% of cases",
+        "\u2b50 Poststreptococcal GN in children: excellent prognosis \u2014 complete recovery in >95% of cases",
         "Hematuria and proteinuria may persist for months before resolution",
-        "Adult poststreptococcal GN: less favorable — ~20% develop chronic renal insufficiency",
+        "Adult poststreptococcal GN: less favorable \u2014 ~20% develop chronic renal insufficiency",
         "Prescribe antibiotics (penicillin) to eradicate strep and prevent spread, but antibiotics do NOT change GN course once started"
       ]
     },
@@ -613,11 +634,14 @@
       "answer": 4,
       "explanation": "Systemic lupus erythematosus is an autoimmune disease characterized by B-cell hyperactivity and production of autoantibodies. Diffuse proliferative glomerulonephritis (WHO/ISN Class IV) is the most severe form of lupus nephritis, with widespread involvement of glomeruli (here, 90%), diffuse proliferation of mesangial and endothelial cells, and immune complex deposits visible on all sides of the basement membrane. The thickened capillary walls containing subendothelial deposits are known as 'wire-loop' lesions. Immune complex deposits are present on both sides of the basement membrane, in the mesangial areas, and inside capillary loops. Membranous nephropathy (choice D) may occur in SLE (Class V) but does not show hypercellularity. MPGN type II (choice C) is unrelated to SLE. The biopsy shows hypercellularity, ruling out FSGS (choice B).",
       "keypoints": [
-        "⭐ Diffuse proliferative GN (Class IV lupus): worst prognosis; >50% glomeruli involved; 'wire-loop' lesions = subendothelial immune complex deposits → thickened capillary walls",
+        "\u2b50 Diffuse proliferative GN (Class IV lupus): worst prognosis; >50% glomeruli involved; 'wire-loop' lesions = subendothelial immune complex deposits \u2192 thickened capillary walls",
         "Lupus nephritis classifications: I=minimal, II=mesangial, III=focal (<50% glomeruli), IV=diffuse (>50% glomeruli), V=membranous",
-        "Class IV: hypocomplementemia (↓C3, C4), elevated anti-dsDNA; treatment = mycophenolate + steroids",
+        "Class IV: hypocomplementemia (\u2193C3, C4), elevated anti-dsDNA; treatment = mycophenolate + steroids",
         "SLE nephritis 'full house' IF: IgA, IgG, IgM, C3, C1q all positive"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q27",
+      "imageAlt": "Renal biopsy showing diffuse endocapillary hypercellularity with wire-loop lesions and thickened capillary walls",
+      "imageCaption": "H&E: diffuse proliferative glomerulonephritis with 'wire-loop' lesions \u2014 Class IV lupus nephritis (SLE)"
     },
     {
       "id": "q027",
@@ -634,13 +658,16 @@
         "Peripheral granular humps"
       ],
       "answer": 2,
-      "explanation": "This presentation — pulmonary hemorrhage (hemoptysis) plus rapidly progressive renal failure — is classic for Goodpasture syndrome (anti-GBM antibody disease). The disease is mediated by autoantibodies against the noncollagenous domain of type IV collagen, which is present in both the GBM and pulmonary alveolar basement membrane. The characteristic immunofluorescence finding is diffuse linear staining of GBMs for IgG, reflecting autoantibodies uniformly bound along the entire basement membrane — in contrast to the granular ('lumpy-bumpy') pattern of immune complex deposition. Granular peripheral humps (choice E) are seen in poststreptococcal GN. Mesangial staining (choice D) indicates IgA nephropathy. Perimesangial granular staining (choice B) is seen in early immune complex deposition.",
+      "explanation": "This presentation \u2014 pulmonary hemorrhage (hemoptysis) plus rapidly progressive renal failure \u2014 is classic for Goodpasture syndrome (anti-GBM antibody disease). The disease is mediated by autoantibodies against the noncollagenous domain of type IV collagen, which is present in both the GBM and pulmonary alveolar basement membrane. The characteristic immunofluorescence finding is diffuse linear staining of GBMs for IgG, reflecting autoantibodies uniformly bound along the entire basement membrane \u2014 in contrast to the granular ('lumpy-bumpy') pattern of immune complex deposition. Granular peripheral humps (choice E) are seen in poststreptococcal GN. Mesangial staining (choice D) indicates IgA nephropathy. Perimesangial granular staining (choice B) is seen in early immune complex deposition.",
       "keypoints": [
-        "⭐ Goodpasture syndrome: anti-GBM antibodies (anti-type IV collagen NC1 domain) → LINEAR IgG IF along GBM — diagnostic pattern",
+        "\u2b50 Goodpasture syndrome: anti-GBM antibodies (anti-type IV collagen NC1 domain) \u2192 LINEAR IgG IF along GBM \u2014 diagnostic pattern",
         "Clinical triad: hemoptysis + hematuria + rapidly progressive renal failure",
         "Linear IF = anti-GBM; Granular IF = immune complex; Pauci-immune (no IF) = ANCA-associated",
         "Treatment: plasmapheresis (remove anti-GBM antibodies) + steroids + cyclophosphamide"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q28",
+      "imageAlt": "Direct immunofluorescence for IgG showing linear staining along the glomerular basement membrane",
+      "imageCaption": "Direct IF (IgG): linear GBM staining \u2014 anti-GBM antibody disease (Goodpasture syndrome)"
     },
     {
       "id": "q028",
@@ -659,8 +686,8 @@
       "answer": 2,
       "explanation": "Many malignant neoplasms may be accompanied by paraneoplastic syndromes, among which is membranous nephropathy. This is a common paraneoplastic renal complication of solid tumors, especially carcinomas of the lung, colon, stomach, and breast. Immune complex deposition in the subepithelial zone produces nephrotic syndrome (heavy proteinuria, hypoalbuminemia, hyperlipidemia, edema) without hematuria. Other causes of secondary membranous nephropathy include SLE, hepatitis B, and drugs (penicillamine). IgA nephropathy (choice A) and Goodpasture syndrome (choice B) are not paraneoplastic. Minimal change glomerulopathy (choice D) is usually found in children and is not a paraneoplastic disorder. Nodular glomerulosclerosis (choice E) reflects diabetic lesions.",
       "keypoints": [
-        "⭐ Paraneoplastic nephrotic syndrome: membranous nephropathy is the most common glomerular lesion associated with solid tumors",
-        "Malignancy-associated membranous GN: lung, colon, stomach, breast carcinomas — workup for occult malignancy in adults with new membranous GN",
+        "\u2b50 Paraneoplastic nephrotic syndrome: membranous nephropathy is the most common glomerular lesion associated with solid tumors",
+        "Malignancy-associated membranous GN: lung, colon, stomach, breast carcinomas \u2014 workup for occult malignancy in adults with new membranous GN",
         "Minimal change disease can be associated with Hodgkin lymphoma (not solid tumors)",
         "Secondary causes of membranous GN: malignancy, SLE, HBV, drugs (penicillamine, gold, NSAIDs, captopril)"
       ]
@@ -682,11 +709,14 @@
       "answer": 0,
       "explanation": "Crescentic glomerulonephritis is the morphologic equivalent of rapidly progressive renal failure in Goodpasture syndrome. Anti-GBM antibodies attack the type IV collagen in the GBM, causing rupture of the GBM and extravasation of blood, fibrin, and inflammatory cells into the urinary space (between Bowman's capsule and the glomerular capillary tufts). This leads to the formation of hypercellular, crescent-like structures composed of proliferating parietal epithelial cells, visceral epithelial cells, and macrophages. Over 90% of patients with anti-GBM disease have glomerular crescents by light microscopy. The crescents fill and obliterate the urinary space. The other choices are not representative of the crescent pattern of Goodpasture syndrome.",
       "keypoints": [
-        "⭐ Goodpasture syndrome light microscopy: CRESCENTS in urinary space (= RPGN morphology)",
+        "\u2b50 Goodpasture syndrome light microscopy: CRESCENTS in urinary space (= RPGN morphology)",
         "Crescents = parietal epithelial cells + macrophages proliferating in Bowman's space after GBM rupture",
         ">50% of glomeruli with crescents = rapidly progressive GN; prognosis poor without urgent treatment",
-        "Goodpasture: anti-GBM (linear IF) → crescentic GN + pulmonary hemorrhage; RPGN Type I"
-      ]
+        "Goodpasture: anti-GBM (linear IF) \u2192 crescentic GN + pulmonary hemorrhage; RPGN Type I"
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q30",
+      "imageAlt": "Renal biopsy showing crescents in the urinary space compressing the glomerular tuft",
+      "imageCaption": "H&E: crescentic glomerulonephritis \u2014 cellular crescents filling Bowman's space (Goodpasture syndrome, RPGN)"
     },
     {
       "id": "q030",
@@ -694,7 +724,7 @@
       "examLevel": "step1",
       "system": "Immunology/Infectious Disease",
       "contentType": "Diagnosis",
-      "stem": "A 52-year-old woman who suffers from diabetes mellitus and frequent urinary tract infections presents with a 3-day history of flank pain, undulating fever, and general malaise. A CBC shows neutrophilic leukocytosis (16,000/μL). Urine cultures reveal more than 100,000 bacterial colonies, composed predominantly of Gram-negative microorganisms. Blood pressure is 170/100 mm Hg, BUN is 30 mg/dL, and creatinine is 2.0 mg/dL. Urinalysis shows 2+ sugar and 1+ protein. Microscopic examination of the urine sediment reveals neutrophils and occasional leukocyte casts. Which of the following is the most likely diagnosis?",
+      "stem": "A 52-year-old woman who suffers from diabetes mellitus and frequent urinary tract infections presents with a 3-day history of flank pain, undulating fever, and general malaise. A CBC shows neutrophilic leukocytosis (16,000/\u03bcL). Urine cultures reveal more than 100,000 bacterial colonies, composed predominantly of Gram-negative microorganisms. Blood pressure is 170/100 mm Hg, BUN is 30 mg/dL, and creatinine is 2.0 mg/dL. Urinalysis shows 2+ sugar and 1+ protein. Microscopic examination of the urine sediment reveals neutrophils and occasional leukocyte casts. Which of the following is the most likely diagnosis?",
       "choices": [
         "Acute pyelonephritis",
         "Acute tubular necrosis",
@@ -705,7 +735,7 @@
       "answer": 0,
       "explanation": "The combination of fever, flank pain, leukocytosis, positive urine culture with >100,000 Gram-negative bacterial colonies, glucosuria (diabetes predisposes via rich growth medium), leukocyte casts, and neutrophils in the urine indicates acute pyelonephritis. Gram-negative bacteria (most commonly E. coli) cause 80% of cases; they reach the kidney via ascending infection from the lower urinary tract. Leukocyte casts confirm upper urinary tract (renal parenchymal) infection, distinguishing pyelonephritis from cystitis. Diabetic nephropathy (choice C) causes proteinuria but not acute systemic illness with bacterial casts. ATN (choice B) does not produce WBC casts or fever. Postinfectious GN (choice D) follows streptococcal infection and presents with hematuria, not pyuria. Nephrolithiasis (choice E) causes colicky pain without leukocyte casts.",
       "keypoints": [
-        "⭐ Acute pyelonephritis: fever + flank pain + WBC casts + bacteriuria >100,000 colonies/mL + Gram-negative bacteria (E. coli 80%)",
+        "\u2b50 Acute pyelonephritis: fever + flank pain + WBC casts + bacteriuria >100,000 colonies/mL + Gram-negative bacteria (E. coli 80%)",
         "WBC casts = upper UTI (pyelonephritis) vs. just pyuria = can be lower UTI",
         "Diabetics are at increased risk due to glucosuria (bacterial growth medium) and impaired neutrophil function",
         "Treatment: fluoroquinolones or trimethoprim-sulfamethoxazole; IV ceftriaxone for severe/hospitalized cases"
@@ -717,7 +747,7 @@
       "examLevel": "step1",
       "system": "Immunology/Infectious Disease",
       "contentType": "Diagnosis",
-      "stem": "A 22-year-old woman in the second trimester of pregnancy presents with flank pain, fever of 38.7°C (103°F), and chills. Hemoglobin is 13.4 g/dL, WBCs are elevated (13,500/μL with 78% neutrophils), and there are 265,000 platelets/μL. Physical examination reveals costovertebral angle tenderness. The urine shows numerous WBCs and WBC casts. Which of the following is the most likely diagnosis?",
+      "stem": "A 22-year-old woman in the second trimester of pregnancy presents with flank pain, fever of 38.7\u00b0C (103\u00b0F), and chills. Hemoglobin is 13.4 g/dL, WBCs are elevated (13,500/\u03bcL with 78% neutrophils), and there are 265,000 platelets/\u03bcL. Physical examination reveals costovertebral angle tenderness. The urine shows numerous WBCs and WBC casts. Which of the following is the most likely diagnosis?",
       "choices": [
         "Cystitis",
         "Endometritis",
@@ -726,11 +756,11 @@
         "Urethritis"
       ],
       "answer": 3,
-      "explanation": "This pregnant woman presents with the classic features of acute pyelonephritis: fever, chills, flank pain, costovertebral angle tenderness, leukocytosis, and — critically — WBC casts in the urine. WBC casts indicate upper urinary tract infection (renal parenchymal involvement), distinguishing pyelonephritis from lower UTI. Pregnancy increases the risk of pyelonephritis due to urinary stasis from uterine compression of ureters and progesterone-induced ureteral smooth muscle relaxation. Cystitis (choice A) and urethritis (choice E) are lower UTI conditions that do not produce leukocyte casts. Endometritis (choice B) presents with uterine tenderness and vaginal discharge, not urinary casts. Glomerulonephritis (choice C) produces RBC casts, not WBC casts, and features proteinuria/hematuria rather than systemic infection signs.",
+      "explanation": "This pregnant woman presents with the classic features of acute pyelonephritis: fever, chills, flank pain, costovertebral angle tenderness, leukocytosis, and \u2014 critically \u2014 WBC casts in the urine. WBC casts indicate upper urinary tract infection (renal parenchymal involvement), distinguishing pyelonephritis from lower UTI. Pregnancy increases the risk of pyelonephritis due to urinary stasis from uterine compression of ureters and progesterone-induced ureteral smooth muscle relaxation. Cystitis (choice A) and urethritis (choice E) are lower UTI conditions that do not produce leukocyte casts. Endometritis (choice B) presents with uterine tenderness and vaginal discharge, not urinary casts. Glomerulonephritis (choice C) produces RBC casts, not WBC casts, and features proteinuria/hematuria rather than systemic infection signs.",
       "keypoints": [
-        "⭐ Pyelonephritis vs. cystitis: pyelonephritis = WBC casts + fever + CVA tenderness; cystitis = dysuria + frequency, NO casts, NO systemic signs",
-        "Pregnancy increases UTI/pyelonephritis risk: ureteral compression + progesterone → urinary stasis → bacterial ascent",
-        "Asymptomatic bacteriuria in pregnancy must be treated (→ pyelonephritis if untreated, premature labor)",
+        "\u2b50 Pyelonephritis vs. cystitis: pyelonephritis = WBC casts + fever + CVA tenderness; cystitis = dysuria + frequency, NO casts, NO systemic signs",
+        "Pregnancy increases UTI/pyelonephritis risk: ureteral compression + progesterone \u2192 urinary stasis \u2192 bacterial ascent",
+        "Asymptomatic bacteriuria in pregnancy must be treated (\u2192 pyelonephritis if untreated, premature labor)",
         "Treat pregnancy UTI with nitrofurantoin (avoid in third trimester), cephalosporins; avoid fluoroquinolones"
       ]
     },
@@ -749,11 +779,11 @@
         "Mycobacteria"
       ],
       "answer": 0,
-      "explanation": "Acute pyelonephritis and chronic pyelonephritis are bacterial diseases that usually develop from ascending infections. Gram-negative bacteria from the feces — most commonly E. coli — cause 80% of cases. The pathogenesis depends on bacterial infection of the urine, reflux of infected urine up the ureters, and entry of bacteria through the papillae into the renal parenchyma. Bladder infections, which more commonly affect females due to a shorter urethra, lack of antibacterial prostatic secretions, and facilitation of bacterial migration by sexual intercourse, often precede acute pyelonephritis. Gram-positive bacteria (choice B) can cause pyelonephritis but are not the most common cause. Viruses and mycobacteria (choices C, E) do not ordinarily cause acute pyelonephritis. Immune complex deposition (choice D) is associated with glomerular, not tubulointerstitial, disease.",
+      "explanation": "Acute pyelonephritis and chronic pyelonephritis are bacterial diseases that usually develop from ascending infections. Gram-negative bacteria from the feces \u2014 most commonly E. coli \u2014 cause 80% of cases. The pathogenesis depends on bacterial infection of the urine, reflux of infected urine up the ureters, and entry of bacteria through the papillae into the renal parenchyma. Bladder infections, which more commonly affect females due to a shorter urethra, lack of antibacterial prostatic secretions, and facilitation of bacterial migration by sexual intercourse, often precede acute pyelonephritis. Gram-positive bacteria (choice B) can cause pyelonephritis but are not the most common cause. Viruses and mycobacteria (choices C, E) do not ordinarily cause acute pyelonephritis. Immune complex deposition (choice D) is associated with glomerular, not tubulointerstitial, disease.",
       "keypoints": [
-        "⭐ Pyelonephritis: Gram-negative bacteria (E. coli 80%) via ascending route; E. coli virulence factors include type 1 and P fimbriae for uroepithelial adhesion",
+        "\u2b50 Pyelonephritis: Gram-negative bacteria (E. coli 80%) via ascending route; E. coli virulence factors include type 1 and P fimbriae for uroepithelial adhesion",
         "Risk factors: female sex (short urethra), sexual intercourse, pregnancy, urinary obstruction, DM, vesicoureteral reflux",
-        "Other Gram-negatives: Klebsiella, Proteus, Enterobacter; Proteus produces urease → alkaline urine → struvite stones",
+        "Other Gram-negatives: Klebsiella, Proteus, Enterobacter; Proteus produces urease \u2192 alkaline urine \u2192 struvite stones",
         "Gram-positive causes: Staphylococcus saprophyticus (#2 in young women), Enterococcus faecalis"
       ]
     },
@@ -772,13 +802,16 @@
         "Tubulointerstitial nephritis"
       ],
       "answer": 2,
-      "explanation": "Chronic pyelonephritis is caused by recurrent and persistent bacterial infections secondary to urinary tract obstruction, urine reflux, or both. Patients experience episodic fever, flank pain, and recurrent UTIs. The biopsy shows the characteristic 'thyroidization' of the kidney — tubular dilation and atrophy with eosinophilic hyaline casts that resemble colloid of thyroid follicles — accompanied by interstitial scarring and chronic inflammatory infiltrate. Imaging reveals small, irregularly shaped kidneys with deep coarse scars (especially over dilated calyces). Acute pyelonephritis (choice A) does not produce scarred, shrunken kidneys. ATN (choice B) is not related to bacterial infections. Nephrosclerosis (choice D) is caused by hypertension and produces uniformly granular small kidneys, not coarse scars. Tubulointerstitial nephritis (choice E) lacks the bacterial infection history.",
+      "explanation": "Chronic pyelonephritis is caused by recurrent and persistent bacterial infections secondary to urinary tract obstruction, urine reflux, or both. Patients experience episodic fever, flank pain, and recurrent UTIs. The biopsy shows the characteristic 'thyroidization' of the kidney \u2014 tubular dilation and atrophy with eosinophilic hyaline casts that resemble colloid of thyroid follicles \u2014 accompanied by interstitial scarring and chronic inflammatory infiltrate. Imaging reveals small, irregularly shaped kidneys with deep coarse scars (especially over dilated calyces). Acute pyelonephritis (choice A) does not produce scarred, shrunken kidneys. ATN (choice B) is not related to bacterial infections. Nephrosclerosis (choice D) is caused by hypertension and produces uniformly granular small kidneys, not coarse scars. Tubulointerstitial nephritis (choice E) lacks the bacterial infection history.",
       "keypoints": [
-        "⭐ Chronic pyelonephritis: coarse, irregular cortical scars overlying dilated calyces; 'thyroidization' = tubules filled with eosinophilic hyaline casts resembling thyroid colloid",
+        "\u2b50 Chronic pyelonephritis: coarse, irregular cortical scars overlying dilated calyces; 'thyroidization' = tubules filled with eosinophilic hyaline casts resembling thyroid colloid",
         "Caused by repeated bacterial infections + VUR (vesicoureteral reflux) or obstruction",
-        "Distinguish from nephrosclerosis: nephrosclerosis → uniformly granular small kidneys; chronic PNA → coarse, irregular scars",
+        "Distinguish from nephrosclerosis: nephrosclerosis \u2192 uniformly granular small kidneys; chronic PNA \u2192 coarse, irregular scars",
         "Complications: secondary hypertension, progressive CKD/ESRD"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q34",
+      "imageAlt": "Renal biopsy showing tubular atrophy and dilation with eosinophilic hyaline casts resembling thyroid colloid (thyroidization)",
+      "imageCaption": "H&E: 'thyroidization' of the kidney \u2014 dilated tubules with colloid-like casts and interstitial fibrosis; chronic pyelonephritis"
     },
     {
       "id": "q034",
@@ -797,10 +830,10 @@
       "answer": 4,
       "explanation": "Chronic pyelonephritis is caused by recurrent and persistent bacterial infection secondary to urinary tract obstruction, urine reflux, or both. Each episode of acute pyelonephritis causes inflammation and scarring of the renal parenchyma, and repeated bouts lead to progressive cortical scarring, tubular atrophy, and calyceal deformation. Amyloidosis (choice A), anti-GBM disease (choice B), and chronic hepatitis B (choice C) all cause glomerular disease, not tubulointerstitial scarring from bacterial infection. Hypertension (choice D) is a vascular disorder that causes uniformly granular small kidneys (nephrosclerosis) without the deep cortical scars of chronic pyelonephritis, though hypertension can complicate chronic pyelonephritis.",
       "keypoints": [
-        "⭐ Chronic pyelonephritis pathogenesis: repeated acute pyelonephritis → progressive renal scarring; requires underlying predisposing factor (VUR, obstruction)",
+        "\u2b50 Chronic pyelonephritis pathogenesis: repeated acute pyelonephritis \u2192 progressive renal scarring; requires underlying predisposing factor (VUR, obstruction)",
         "Vesicoureteral reflux (VUR) = most important predisposing factor in children; reflux nephropathy",
         "Obstructive uropathy (BPH, stones, strictures) = most important in adults",
-        "Each acute pyelonephritis episode scars the medulla and cortex → progressive CKD over years"
+        "Each acute pyelonephritis episode scars the medulla and cortex \u2192 progressive CKD over years"
       ]
     },
     {
@@ -809,7 +842,7 @@
       "examLevel": "step1",
       "system": "Renal/Urinary",
       "contentType": "Diagnosis",
-      "stem": "A 52-year-old woman presents with swelling of her ankles of 6 weeks in duration. Physical examination reveals an obese woman (BMI = 32 kg/m²) with pitting edema of the lower extremities and periorbital edema. Laboratory studies show hyperlipidemia and hypoalbuminemia. Urinalysis discloses 3+ proteinuria and 3+ glucosuria but no evidence of inflammatory cells or RBCs. A kidney biopsy stained with PAS displays a prominent increase in the mesangial matrix forming nodular lesions, and thickening of capillary basement membranes. Which of the following is the most likely pathologic diagnosis?",
+      "stem": "A 52-year-old woman presents with swelling of her ankles of 6 weeks in duration. Physical examination reveals an obese woman (BMI = 32 kg/m\u00b2) with pitting edema of the lower extremities and periorbital edema. Laboratory studies show hyperlipidemia and hypoalbuminemia. Urinalysis discloses 3+ proteinuria and 3+ glucosuria but no evidence of inflammatory cells or RBCs. A kidney biopsy stained with PAS displays a prominent increase in the mesangial matrix forming nodular lesions, and thickening of capillary basement membranes. Which of the following is the most likely pathologic diagnosis?",
       "choices": [
         "Acute glomerulonephritis",
         "Amyloid nephropathy",
@@ -818,13 +851,16 @@
         "Membranoproliferative glomerulonephritis"
       ],
       "answer": 2,
-      "explanation": "Diabetic glomerulosclerosis is the most common cause of end-stage renal disease in the United States, accounting for one third of all patients with chronic renal failure. The combination of glucosuria, proteinuria, hyperlipidemia, hypoalbuminemia, and nephrotic-range proteinuria in an obese patient points to diabetes mellitus with diabetic nephropathy. The PAS-positive (glycoprotein-rich) nodular lesions — Kimmelstiel-Wilson nodules — represent pathognomonic nodular diabetic glomerulosclerosis with mesangial matrix expansion, capillary basement membrane thickening, and hyalinized arterioles. Amyloid nephropathy (choice B) also produces nodules, but is Congo red-positive (not PAS-positive). Membranoproliferative GN (choice E) shows mesangial proliferation and double-contour GBM, not nodular sclerosis. MPGN and acute GN do not produce glucosuria.",
+      "explanation": "Diabetic glomerulosclerosis is the most common cause of end-stage renal disease in the United States, accounting for one third of all patients with chronic renal failure. The combination of glucosuria, proteinuria, hyperlipidemia, hypoalbuminemia, and nephrotic-range proteinuria in an obese patient points to diabetes mellitus with diabetic nephropathy. The PAS-positive (glycoprotein-rich) nodular lesions \u2014 Kimmelstiel-Wilson nodules \u2014 represent pathognomonic nodular diabetic glomerulosclerosis with mesangial matrix expansion, capillary basement membrane thickening, and hyalinized arterioles. Amyloid nephropathy (choice B) also produces nodules, but is Congo red-positive (not PAS-positive). Membranoproliferative GN (choice E) shows mesangial proliferation and double-contour GBM, not nodular sclerosis. MPGN and acute GN do not produce glucosuria.",
       "keypoints": [
-        "⭐ Diabetic nephropathy: Kimmelstiel-Wilson nodules = PAS-positive nodular mesangial matrix expansion + GBM thickening + hyaline arteriosclerosis",
-        "Progression: microalbuminuria → overt proteinuria → nephrotic syndrome → CKD/ESRD over 10-20 years",
+        "\u2b50 Diabetic nephropathy: Kimmelstiel-Wilson nodules = PAS-positive nodular mesangial matrix expansion + GBM thickening + hyaline arteriosclerosis",
+        "Progression: microalbuminuria \u2192 overt proteinuria \u2192 nephrotic syndrome \u2192 CKD/ESRD over 10-20 years",
         "Glucosuria in urinalysis + nephrotic syndrome = think diabetic nephropathy first",
-        "Distinguish from amyloid: Congo red (+) with apple-green birefringence = amyloid; PAS (+), Congo red (−) = diabetic nodules"
-      ]
+        "Distinguish from amyloid: Congo red (+) with apple-green birefringence = amyloid; PAS (+), Congo red (\u2212) = diabetic nodules"
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q36",
+      "imageAlt": "PAS-stained renal biopsy showing nodular mesangial matrix expansion (Kimmelstiel-Wilson nodules) and GBM thickening",
+      "imageCaption": "PAS stain: Kimmelstiel-Wilson nodules \u2014 nodular diabetic glomerulosclerosis with mesangial matrix expansion"
     },
     {
       "id": "q036",
@@ -841,11 +877,11 @@
         "Hypobilirubinemia"
       ],
       "answer": 2,
-      "explanation": "The cardinal biochemical manifestation of diabetes mellitus is hyperglycemia. In diabetic nephropathy, abnormal non-enzymatic glycosylation of serum and matrix proteins — including those of the glomerular basement membrane and mesangial matrix — induces binding of plasma proteins and stimulates excessive matrix production. As a result, GBMs are thickened and hyperpermeable to albumin, leading to proteinuria. Overt proteinuria occurs 10 to 15 years after the onset of diabetes and may progress to nephrotic syndrome. Hyperbilirubinemia (choice A) indicates liver disease. Hypergammaglobulinemia (choice B) suggests chronic inflammation or plasma cell dyscrasia. Hyperuricemia (choice D) indicates gout or high cell turnover. Hypobilirubinemia (choice E) is not a recognized clinical entity.",
+      "explanation": "The cardinal biochemical manifestation of diabetes mellitus is hyperglycemia. In diabetic nephropathy, abnormal non-enzymatic glycosylation of serum and matrix proteins \u2014 including those of the glomerular basement membrane and mesangial matrix \u2014 induces binding of plasma proteins and stimulates excessive matrix production. As a result, GBMs are thickened and hyperpermeable to albumin, leading to proteinuria. Overt proteinuria occurs 10 to 15 years after the onset of diabetes and may progress to nephrotic syndrome. Hyperbilirubinemia (choice A) indicates liver disease. Hypergammaglobulinemia (choice B) suggests chronic inflammation or plasma cell dyscrasia. Hyperuricemia (choice D) indicates gout or high cell turnover. Hypobilirubinemia (choice E) is not a recognized clinical entity.",
       "keypoints": [
-        "⭐ Diabetes mellitus → hyperglycemia → non-enzymatic glycosylation of GBM and mesangial proteins → GBM thickening → proteinuria → nephrotic syndrome",
-        "Mechanism of diabetic nephropathy: hyperglycemia → advanced glycation end products (AGEs) → mesangial expansion + GBM thickening + afferent/efferent arteriolar hyalinosis",
-        "Hyperfiltration (early) → microalbuminuria → macroalbuminuria → nephrotic syndrome → GFR decline",
+        "\u2b50 Diabetes mellitus \u2192 hyperglycemia \u2192 non-enzymatic glycosylation of GBM and mesangial proteins \u2192 GBM thickening \u2192 proteinuria \u2192 nephrotic syndrome",
+        "Mechanism of diabetic nephropathy: hyperglycemia \u2192 advanced glycation end products (AGEs) \u2192 mesangial expansion + GBM thickening + afferent/efferent arteriolar hyalinosis",
+        "Hyperfiltration (early) \u2192 microalbuminuria \u2192 macroalbuminuria \u2192 nephrotic syndrome \u2192 GFR decline",
         "ACE inhibitors/ARBs are renoprotective in diabetic nephropathy regardless of blood pressure"
       ]
     },
@@ -866,10 +902,10 @@
       "answer": 0,
       "explanation": "Hereditary nephritis (Alport syndrome) is caused by mutations in genes encoding type IV collagen chains (most commonly COL4A5, X-linked; or COL4A3/COL4A4, autosomal recessive). Type IV collagen is the major structural component of the glomerular basement membrane. Abnormal type IV collagen leads to a structurally abnormal GBM that allows hematuria early in life and progressive proteinuria, renal failure, and hypertension later. Alport syndrome is also associated with sensorineural hearing loss and ocular abnormalities (anterior lenticonus). Fibrillin (choice C) is mutated in Marfan syndrome. Entactin (choice B), fibronectin (choice D), and laminin (choice E) are components of the extracellular matrix but are not the proteins mutated in Alport syndrome.",
       "keypoints": [
-        "⭐ Alport syndrome: mutations in type IV COLLAGEN (COL4A3, COL4A4 [AR] or COL4A5 [X-linked]) → abnormal GBM → progressive nephritis",
-        "Classic triad: progressive nephritis (hematuria → proteinuria → ESRD) + sensorineural hearing loss + ocular defects (anterior lenticonus)",
+        "\u2b50 Alport syndrome: mutations in type IV COLLAGEN (COL4A3, COL4A4 [AR] or COL4A5 [X-linked]) \u2192 abnormal GBM \u2192 progressive nephritis",
+        "Classic triad: progressive nephritis (hematuria \u2192 proteinuria \u2192 ESRD) + sensorineural hearing loss + ocular defects (anterior lenticonus)",
         "X-linked most common (80%): males affected severely; females are carriers with variable hematuria",
-        "EM: thinning, thickening, and splitting (lamellation) of GBM — pathognomonic 'basket-weave' appearance"
+        "EM: thinning, thickening, and splitting (lamellation) of GBM \u2014 pathognomonic 'basket-weave' appearance"
       ]
     },
     {
@@ -887,13 +923,16 @@
         "Focal segmental glomerulosclerosis"
       ],
       "answer": 0,
-      "explanation": "Drug-induced (hypersensitivity) acute tubulointerstitial nephritis reflects a cell-mediated (type IV) immune response. It is characterized histologically by interstitial infiltrates of activated T lymphocytes and admixed eosinophils — a pattern indicating a type IV hypersensitivity reaction. The classic clinical presentation is development of renal failure, fever, rash, and eosinophiluria approximately 2 weeks after starting a drug (classic offenders: penicillin, NSAIDs, PPIs, sulfonamides, diuretics). Most patients recover fully if the drug is discontinued. The other choices are not associated with eosinophilic interstitial infiltrates and are not related to drug hypersensitivity. Glomerulonephritis (choices C, D) involves glomerular pathology, not interstitial inflammation.",
+      "explanation": "Drug-induced (hypersensitivity) acute tubulointerstitial nephritis reflects a cell-mediated (type IV) immune response. It is characterized histologically by interstitial infiltrates of activated T lymphocytes and admixed eosinophils \u2014 a pattern indicating a type IV hypersensitivity reaction. The classic clinical presentation is development of renal failure, fever, rash, and eosinophiluria approximately 2 weeks after starting a drug (classic offenders: penicillin, NSAIDs, PPIs, sulfonamides, diuretics). Most patients recover fully if the drug is discontinued. The other choices are not associated with eosinophilic interstitial infiltrates and are not related to drug hypersensitivity. Glomerulonephritis (choices C, D) involves glomerular pathology, not interstitial inflammation.",
       "keypoints": [
-        "⭐ Drug-induced acute tubulointerstitial nephritis: fever + rash + eosinophilia + hematuria ~2 weeks after drug → interstitial T-cell and eosinophil infiltrate",
+        "\u2b50 Drug-induced acute tubulointerstitial nephritis: fever + rash + eosinophilia + hematuria ~2 weeks after drug \u2192 interstitial T-cell and eosinophil infiltrate",
         "Classic drugs: penicillins/cephalosporins, NSAIDs, PPIs, sulfonamides, rifampin, thiazides",
         "Eosinophiluria (Hansel stain) supports diagnosis but is not always present",
         "Treatment: stop offending drug; steroids if no improvement in 1-2 weeks"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q40",
+      "imageAlt": "Renal biopsy showing interstitial infiltrate of T lymphocytes and eosinophils with relative glomerular sparing",
+      "imageCaption": "H&E: interstitial T-cell and eosinophil infiltrate \u2014 drug-induced (penicillin) acute tubulointerstitial nephritis"
     },
     {
       "id": "q039",
@@ -910,13 +949,16 @@
         "Malignant nephrosclerosis"
       ],
       "answer": 3,
-      "explanation": "Renal cortical infarcts are caused primarily by arterial obstruction — most commonly embolization to the interlobar or larger branches of the renal artery. Common sources of emboli include mural thrombi (from myocardial infarction, as in this patient with a recent MI), infected cardiac valves, and complicated atherosclerotic plaques. The infarct appears as a peripheral wedge-shaped area of pallor extending to the subcapsular surface. This patient's history of CAD, PVD, and recent MI provides the embolic source. Benign and malignant nephrosclerosis (choices A, E) are vascular disorders that are diffuse rather than localized. Cortical abscess (choice C) would show purulent material and fever. Chronic pyelonephritis (choice B) causes irregular cortical scars over dilated calyces, not pale wedge-shaped infarcts.",
+      "explanation": "Renal cortical infarcts are caused primarily by arterial obstruction \u2014 most commonly embolization to the interlobar or larger branches of the renal artery. Common sources of emboli include mural thrombi (from myocardial infarction, as in this patient with a recent MI), infected cardiac valves, and complicated atherosclerotic plaques. The infarct appears as a peripheral wedge-shaped area of pallor extending to the subcapsular surface. This patient's history of CAD, PVD, and recent MI provides the embolic source. Benign and malignant nephrosclerosis (choices A, E) are vascular disorders that are diffuse rather than localized. Cortical abscess (choice C) would show purulent material and fever. Chronic pyelonephritis (choice B) causes irregular cortical scars over dilated calyces, not pale wedge-shaped infarcts.",
       "keypoints": [
-        "⭐ Renal cortical infarct: embolic occlusion of renal artery branch → wedge-shaped pale infarct extending to renal surface",
+        "\u2b50 Renal cortical infarct: embolic occlusion of renal artery branch \u2192 wedge-shaped pale infarct extending to renal surface",
         "Common embolic sources: mural thrombus post-MI, bacterial endocarditis (infected emboli), aortic atherosclerosis",
-        "Presentation: sudden flank pain + hematuria ± hypertension; painless hematuria in this case",
+        "Presentation: sudden flank pain + hematuria \u00b1 hypertension; painless hematuria in this case",
         "Distinguish from abscess (purulent, infected) and pyelonephritis (cortical scars, not pale infarcts)"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q41",
+      "imageAlt": "Gross specimen of kidney showing a pale wedge-shaped peripheral cortical infarct extending to the subcapsular surface",
+      "imageCaption": "Gross kidney specimen: pale wedge-shaped cortical infarct \u2014 embolic renal artery occlusion (post-MI)"
     },
     {
       "id": "q040",
@@ -935,11 +977,14 @@
       "answer": 1,
       "explanation": "Bilateral renal cortical necrosis is a syndrome characterized by massive ischemic necrosis involving large portions of the cortex of both kidneys. It typically occurs in the setting of hypovolemia and endotoxic shock, and is a classic catastrophic complication of obstetric emergencies such as abruptio placentae, septic abortion, or eclampsia. The combination of massive hemorrhage, hypotension, and disseminated intravascular coagulation leads to diffuse thrombosis of glomerular and interlobular arteries, causing ischemic necrosis. Histologically, cortical necrosis is more widespread than a focal infarct. The other choices are not associated with grossly visible bilateral cortical necrosis in the setting of obstetric hemorrhage.",
       "keypoints": [
-        "⭐ Bilateral renal cortical necrosis: obstetric emergency (abruptio placentae, septic abortion) + hypovolemic shock + DIC → bilateral cortical ischemia/necrosis",
-        "Mechanism: DIC → glomerular and interlobular artery thrombosis → cortical ischemia (medulla spared via vasa recta blood supply)",
+        "\u2b50 Bilateral renal cortical necrosis: obstetric emergency (abruptio placentae, septic abortion) + hypovolemic shock + DIC \u2192 bilateral cortical ischemia/necrosis",
+        "Mechanism: DIC \u2192 glomerular and interlobular artery thrombosis \u2192 cortical ischemia (medulla spared via vasa recta blood supply)",
         "Grossly: pale/white cortex bilaterally at autopsy",
         "Prognosis: severe AKI; dialysis required; poor recovery of function"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q42",
+      "imageAlt": "Gross autopsy specimen of kidney showing diffuse bilateral cortical pallor/necrosis",
+      "imageCaption": "Gross autopsy: bilateral cortical pallor \u2014 bilateral renal cortical necrosis (abruptio placentae, hypovolemic shock)"
     },
     {
       "id": "q041",
@@ -956,13 +1001,16 @@
         "Polyarteritis nodosa"
       ],
       "answer": 1,
-      "explanation": "Acute tubular necrosis (ATN) is a severe but potentially reversible impairment of tubular epithelial function caused by ischemia or toxic injury, resulting in acute renal failure. Ischemic ATN results from reduced renal perfusion — here from massive intraoperative hemorrhage. Tubular epithelial cells, with their high metabolic activity, are particularly sensitive to hypoxia. The classic histologic findings include focal denudation of the tubular basement membrane, necrotic tubular epithelial cells sloughing into the lumina, and enlarged regenerative epithelial cells indicating attempted repair. Glomeruli and blood vessels appear normal. Acute interstitial nephritis (choice A) and eosinophilic interstitial nephritis (choice C) feature interstitial inflammation, not isolated tubular necrosis. Fanconi syndrome (choice D) is a chronic proximal tubular dysfunction. Polyarteritis nodosa (choice E) causes vascular, not tubular, injury.",
+      "explanation": "Acute tubular necrosis (ATN) is a severe but potentially reversible impairment of tubular epithelial function caused by ischemia or toxic injury, resulting in acute renal failure. Ischemic ATN results from reduced renal perfusion \u2014 here from massive intraoperative hemorrhage. Tubular epithelial cells, with their high metabolic activity, are particularly sensitive to hypoxia. The classic histologic findings include focal denudation of the tubular basement membrane, necrotic tubular epithelial cells sloughing into the lumina, and enlarged regenerative epithelial cells indicating attempted repair. Glomeruli and blood vessels appear normal. Acute interstitial nephritis (choice A) and eosinophilic interstitial nephritis (choice C) feature interstitial inflammation, not isolated tubular necrosis. Fanconi syndrome (choice D) is a chronic proximal tubular dysfunction. Polyarteritis nodosa (choice E) causes vascular, not tubular, injury.",
       "keypoints": [
-        "⭐ Ischemic ATN: necrotic tubular epithelial cells in lumen + enlarged regenerative cells + tubular basement membrane denudation; glomeruli normal",
+        "\u2b50 Ischemic ATN: necrotic tubular epithelial cells in lumen + enlarged regenerative cells + tubular basement membrane denudation; glomeruli normal",
         "Causes: ischemia (shock, sepsis, surgery) vs. nephrotoxic (aminoglycosides, contrast, cisplatin, myoglobinuria)",
         "Muddy brown granular casts in urine = ATN (tubular epithelial cell casts)",
-        "ATN phases: oliguric phase (1-2 weeks) → polyuric phase → recovery; potentially fully reversible with supportive care"
-      ]
+        "ATN phases: oliguric phase (1-2 weeks) \u2192 polyuric phase \u2192 recovery; potentially fully reversible with supportive care"
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q44",
+      "imageAlt": "Renal biopsy showing necrotic tubular epithelial cells within tubular lumina and enlarged regenerative epithelial cells",
+      "imageCaption": "H&E: necrotic tubular cells in lumen with regenerative changes \u2014 ischemic acute tubular necrosis (post-hemorrhagic)"
     },
     {
       "id": "q042",
@@ -979,10 +1027,10 @@
         "Preeclampsia"
       ],
       "answer": 2,
-      "explanation": "Preeclampsia is characterized by the triad of hypertension, proteinuria (nephritic syndrome features), and edema complicating the third trimester of pregnancy. When these features are accompanied by grand mal seizures, the condition is called eclampsia. The glomeruli show characteristic 'endotheliosis' — uniform glomerular enlargement with swollen endothelial cells creating an apparently bloodless glomerular tuft. Preeclampsia alone (choice E) is the diagnosis without seizures. ATN (choice A) and crescentic GN (choice B) are not ordinarily complications of pregnancy. Malignant nephrosclerosis (choice D) is associated with severely elevated BP and 'onion-skinning' of renal arteries, not the obstetric context here.",
+      "explanation": "Preeclampsia is characterized by the triad of hypertension, proteinuria (nephritic syndrome features), and edema complicating the third trimester of pregnancy. When these features are accompanied by grand mal seizures, the condition is called eclampsia. The glomeruli show characteristic 'endotheliosis' \u2014 uniform glomerular enlargement with swollen endothelial cells creating an apparently bloodless glomerular tuft. Preeclampsia alone (choice E) is the diagnosis without seizures. ATN (choice A) and crescentic GN (choice B) are not ordinarily complications of pregnancy. Malignant nephrosclerosis (choice D) is associated with severely elevated BP and 'onion-skinning' of renal arteries, not the obstetric context here.",
       "keypoints": [
-        "⭐ Preeclampsia = HTN + proteinuria + edema in pregnancy (>20 weeks); Eclampsia = preeclampsia + SEIZURES",
-        "Renal finding in preeclampsia: glomerular endotheliosis (swollen endothelial cells → bloodless glomeruli)",
+        "\u2b50 Preeclampsia = HTN + proteinuria + edema in pregnancy (>20 weeks); Eclampsia = preeclampsia + SEIZURES",
+        "Renal finding in preeclampsia: glomerular endotheliosis (swollen endothelial cells \u2192 bloodless glomeruli)",
         "Treatment: magnesium sulfate for seizure prophylaxis/treatment; antihypertensives; definitive = delivery",
         "Risk factors: nulliparity, multiple gestation, prior preeclampsia, DM, CKD, antiphospholipid syndrome"
       ]
@@ -993,7 +1041,7 @@
       "examLevel": "step1",
       "system": "Renal/Urinary",
       "contentType": "Diagnosis",
-      "stem": "A 70-year-old obese woman (BMI = 34 kg/m²) presents with a 3-month history of progressive renal insufficiency. She has a longstanding history of hypertension. An intravenous pyelogram shows that both kidneys are small, and the pelves and calyces appear normal. Examination of the kidneys at autopsy reveals symmetrically shrunken small kidneys, with a uniformly finely granular surface. Which of the following is the appropriate diagnosis?",
+      "stem": "A 70-year-old obese woman (BMI = 34 kg/m\u00b2) presents with a 3-month history of progressive renal insufficiency. She has a longstanding history of hypertension. An intravenous pyelogram shows that both kidneys are small, and the pelves and calyces appear normal. Examination of the kidneys at autopsy reveals symmetrically shrunken small kidneys, with a uniformly finely granular surface. Which of the following is the appropriate diagnosis?",
       "choices": [
         "Amyloidosis",
         "Hydronephrosis",
@@ -1004,11 +1052,14 @@
       "answer": 3,
       "explanation": "Hypertensive nephrosclerosis (benign nephrosclerosis) leads to progressive obliteration of glomeruli and may cause end-stage kidney disease. It is identified in approximately 15% of patients with even mild-to-moderate hypertension. The gross appearance of uniformly, symmetrically shrunken small kidneys with a finely granular surface (from cortical scarring as individual glomeruli are lost) is the hallmark. Histologically, most glomeruli are hyalinized, tubules are atrophic or replaced by fibrous tissue, and arterioles show hyaline arteriolosclerosis (concentric hyaline thickening). Amyloidosis (choice A) enlarges the kidneys. Hydronephrosis (choice B) dilates the collecting system. Ischemic ATN (choice C) is acute. Tubulointerstitial nephritis (choice E) is not specifically related to hypertension and does not produce uniformly granular kidneys.",
       "keypoints": [
-        "⭐ Hypertensive nephrosclerosis (benign): symmetrically small kidneys + uniformly finely granular surface + hyaline arteriolosclerosis on histology",
+        "\u2b50 Hypertensive nephrosclerosis (benign): symmetrically small kidneys + uniformly finely granular surface + hyaline arteriolosclerosis on histology",
         "Contrast with chronic pyelonephritis: coarse, IRREGULAR scars over dilated calyces vs. nephrosclerosis: fine, UNIFORM granularity",
         "Hyaline arteriolosclerosis = PAS-positive hyaline material in arteriolar walls replacing smooth muscle cells",
         "Malignant nephrosclerosis: severely elevated BP + 'onion-skin' hyperplastic arteriolosclerosis + fibrinoid necrosis"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q45",
+      "imageAlt": "Gross kidney specimen showing symmetrically shrunken small kidneys with a uniformly finely granular cortical surface",
+      "imageCaption": "Gross specimen: symmetrically small kidneys with uniformly granular surface \u2014 hypertensive nephrosclerosis (benign)"
     },
     {
       "id": "q044",
@@ -1025,13 +1076,16 @@
         "Tubulointerstitial nephritis"
       ],
       "answer": 0,
-      "explanation": "Nephrotoxic ATN is caused by chemically induced injury to tubular epithelial cells. Because proximal tubular cells absorb and concentrate chemicals from the glomerular filtrate, they are the preferred targets for certain toxins including heavy metals (mercury, lead, arsenic), aminoglycosides, radiographic contrast agents, and organic solvents. The biopsy characteristically shows widespread necrosis of proximal tubular epithelial cells with relative sparing of distal tubules and collecting ducts — reflecting the segment-specific concentration of nephrotoxins. Tubulointerstitial nephritis (choice E) may result from certain drug exposures but features prominent interstitial inflammation with lymphocytes and eosinophils, not isolated tubular necrosis. Bilateral cortical necrosis (choice B) involves diffuse cortical ischemia. RPGN (choice D) involves glomerular pathology. Papillary necrosis (choice C) affects renal papillary tips.",
+      "explanation": "Nephrotoxic ATN is caused by chemically induced injury to tubular epithelial cells. Because proximal tubular cells absorb and concentrate chemicals from the glomerular filtrate, they are the preferred targets for certain toxins including heavy metals (mercury, lead, arsenic), aminoglycosides, radiographic contrast agents, and organic solvents. The biopsy characteristically shows widespread necrosis of proximal tubular epithelial cells with relative sparing of distal tubules and collecting ducts \u2014 reflecting the segment-specific concentration of nephrotoxins. Tubulointerstitial nephritis (choice E) may result from certain drug exposures but features prominent interstitial inflammation with lymphocytes and eosinophils, not isolated tubular necrosis. Bilateral cortical necrosis (choice B) involves diffuse cortical ischemia. RPGN (choice D) involves glomerular pathology. Papillary necrosis (choice C) affects renal papillary tips.",
       "keypoints": [
-        "⭐ Nephrotoxic ATN: preferential proximal tubular necrosis (concentration of toxins here); distal tubules spared",
+        "\u2b50 Nephrotoxic ATN: preferential proximal tubular necrosis (concentration of toxins here); distal tubules spared",
         "Classic nephrotoxins: aminoglycosides, cisplatin, heavy metals (mercury, lead), radiocontrast, myoglobin (rhabdomyolysis), ethylene glycol",
         "Contrast with ischemic ATN: ischemic = focal tubular necrosis + basement membrane rupture throughout nephron",
         "Fractional excretion of Na (FENa) >2% in ATN; <1% in prerenal AKI (intact tubular function)"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q46",
+      "imageAlt": "Renal biopsy showing widespread proximal tubular necrosis with sparing of distal tubules",
+      "imageCaption": "H&E: proximal tubular necrosis with distal tubule sparing \u2014 nephrotoxic ATN (heavy metal exposure)"
     },
     {
       "id": "q045",
@@ -1048,12 +1102,12 @@
         "Malignant hypertension"
       ],
       "answer": 4,
-      "explanation": "Malignant hypertension refers to severely elevated blood pressure that results in rapidly progressive vascular disease affecting the brain, heart, and kidney. The key histologic findings are 'onion-skinning' (concentric smooth muscle cell hyperplasia in small arteries) and fibrinoid necrosis — hallmarks that distinguish malignant from benign hypertension. Malignant hypertension injures endothelial cells and causes increased vascular permeability, leading to fibrinoid necrosis and smooth muscle proliferation. The Congo red stain is negative, excluding amyloid (choice A). Left ventricular hypertrophy indicates longstanding hypertension. Chronic pyelonephritis (choice B) causes cortical scarring, not onion-skin arteriopathy. Congestive heart failure (choice C) and Cushing syndrome (choice D) do not produce onion-skinning of renal arteries.",
+      "explanation": "Malignant hypertension refers to severely elevated blood pressure that results in rapidly progressive vascular disease affecting the brain, heart, and kidney. The key histologic findings are 'onion-skinning' (concentric smooth muscle cell hyperplasia in small arteries) and fibrinoid necrosis \u2014 hallmarks that distinguish malignant from benign hypertension. Malignant hypertension injures endothelial cells and causes increased vascular permeability, leading to fibrinoid necrosis and smooth muscle proliferation. The Congo red stain is negative, excluding amyloid (choice A). Left ventricular hypertrophy indicates longstanding hypertension. Chronic pyelonephritis (choice B) causes cortical scarring, not onion-skin arteriopathy. Congestive heart failure (choice C) and Cushing syndrome (choice D) do not produce onion-skinning of renal arteries.",
       "keypoints": [
-        "⭐ Malignant hypertension: 'onion-skinning' (hyperplastic arteriolosclerosis) + fibrinoid necrosis of arterioles = distinguishing histologic features",
+        "\u2b50 Malignant hypertension: 'onion-skinning' (hyperplastic arteriolosclerosis) + fibrinoid necrosis of arterioles = distinguishing histologic features",
         "Benign nephrosclerosis: hyaline arteriolosclerosis (PAS-positive deposits); Malignant: onion-skin + fibrinoid necrosis",
         "Clinical: severely elevated BP (>180/120) + papilledema + renal failure + microangiopathic hemolytic anemia",
-        "Malignant HTN mechanism: endothelial injury → plasma protein insudation into vessel wall → fibrinoid necrosis → MAHA"
+        "Malignant HTN mechanism: endothelial injury \u2192 plasma protein insudation into vessel wall \u2192 fibrinoid necrosis \u2192 MAHA"
       ]
     },
     {
@@ -1071,12 +1125,12 @@
         "Renin"
       ],
       "answer": 4,
-      "explanation": "Renal artery stenosis causes ischemia to the juxtaglomerular (JG) apparatus, which responds by releasing renin. Renin cleaves angiotensinogen (produced by the liver) to form angiotensin I, which is then converted by ACE in the pulmonary vasculature to angiotensin II. Angiotensin II is a potent vasoconstrictor and also stimulates the adrenal cortex to produce aldosterone, leading to sodium and water retention — producing renovascular hypertension. In unilateral stenosis, the renin level in the renal vein of the ischemic kidney is elevated while the contralateral kidney is suppressed. Renal artery stenosis is caused by atherosclerosis in adults (most common) and fibromuscular dysplasia in young women and children. Aldosterone (choice A), angiotensin (choice B), and plasminogen (choice D) are not synthesized by the kidney. EPO (choice C) stimulates erythropoiesis.",
+      "explanation": "Renal artery stenosis causes ischemia to the juxtaglomerular (JG) apparatus, which responds by releasing renin. Renin cleaves angiotensinogen (produced by the liver) to form angiotensin I, which is then converted by ACE in the pulmonary vasculature to angiotensin II. Angiotensin II is a potent vasoconstrictor and also stimulates the adrenal cortex to produce aldosterone, leading to sodium and water retention \u2014 producing renovascular hypertension. In unilateral stenosis, the renin level in the renal vein of the ischemic kidney is elevated while the contralateral kidney is suppressed. Renal artery stenosis is caused by atherosclerosis in adults (most common) and fibromuscular dysplasia in young women and children. Aldosterone (choice A), angiotensin (choice B), and plasminogen (choice D) are not synthesized by the kidney. EPO (choice C) stimulates erythropoiesis.",
       "keypoints": [
-        "⭐ Renovascular hypertension: renal artery stenosis → ↓ renal perfusion → ↑ RENIN from JG cells → angiotensin II → vasoconstriction + aldosterone → Na/water retention → HTN",
+        "\u2b50 Renovascular hypertension: renal artery stenosis \u2192 \u2193 renal perfusion \u2192 \u2191 RENIN from JG cells \u2192 angiotensin II \u2192 vasoconstriction + aldosterone \u2192 Na/water retention \u2192 HTN",
         "Adults: atherosclerosis (most common cause of renal artery stenosis); young women: fibromuscular dysplasia",
         "Classic finding: bilateral small kidneys + renovascular bruits + hypokalemia (from hyperaldosteronism)",
-        "Treatment: ACE inhibitors effective (but contraindicated in bilateral stenosis — can cause acute renal failure)"
+        "Treatment: ACE inhibitors effective (but contraindicated in bilateral stenosis \u2014 can cause acute renal failure)"
       ]
     },
     {
@@ -1094,12 +1148,12 @@
         "Polyarteritis nodosa"
       ],
       "answer": 2,
-      "explanation": "Hemolytic uremic syndrome (HUS) features microangiopathic hemolytic anemia, thrombocytopenia, and acute renal failure. It is the most common cause of acute renal failure in children. The major cause is Shiga toxin-producing strains of E. coli (most commonly O157:H7), which are ingested in contaminated undercooked ground beef. The toxin injures glomerular and renal arteriolar endothelial cells, triggering thrombotic microangiopathy — thrombosis of small vessels, mechanical fragmentation of red cells (schistocytes), and ischemic renal injury. The cluster of cases linked to fast food hamburgers is classic for E. coli O157:H7 outbreak. Postinfectious GN (choice A) follows streptococcal infection and does not cause acute renal failure. The remaining choices are systemic vasculitides not linked to food-borne illness.",
+      "explanation": "Hemolytic uremic syndrome (HUS) features microangiopathic hemolytic anemia, thrombocytopenia, and acute renal failure. It is the most common cause of acute renal failure in children. The major cause is Shiga toxin-producing strains of E. coli (most commonly O157:H7), which are ingested in contaminated undercooked ground beef. The toxin injures glomerular and renal arteriolar endothelial cells, triggering thrombotic microangiopathy \u2014 thrombosis of small vessels, mechanical fragmentation of red cells (schistocytes), and ischemic renal injury. The cluster of cases linked to fast food hamburgers is classic for E. coli O157:H7 outbreak. Postinfectious GN (choice A) follows streptococcal infection and does not cause acute renal failure. The remaining choices are systemic vasculitides not linked to food-borne illness.",
       "keypoints": [
-        "⭐ HUS: bloody diarrhea (E. coli O157:H7) → Shiga toxin → endothelial injury → thrombotic microangiopathy → microangiopathic hemolytic anemia + thrombocytopenia + AKI",
+        "\u2b50 HUS: bloody diarrhea (E. coli O157:H7) \u2192 Shiga toxin \u2192 endothelial injury \u2192 thrombotic microangiopathy \u2192 microangiopathic hemolytic anemia + thrombocytopenia + AKI",
         "Most common cause of AKI in children; epidemic form (D+ HUS) linked to E. coli O157:H7 in contaminated beef",
-        "Lab: schistocytes on smear, ↑ LDH, ↓ haptoglobin, ↓ platelets, negative Coombs",
-        "Do NOT use antibiotics for E. coli O157:H7 bloody diarrhea — increases Shiga toxin release and HUS risk"
+        "Lab: schistocytes on smear, \u2191 LDH, \u2193 haptoglobin, \u2193 platelets, negative Coombs",
+        "Do NOT use antibiotics for E. coli O157:H7 bloody diarrhea \u2014 increases Shiga toxin release and HUS risk"
       ]
     },
     {
@@ -1113,14 +1167,14 @@
         "Berger disease",
         "Goodpasture syndrome",
         "Hemolytic uremic syndrome",
-        "Henoch-Schönlein purpura",
+        "Henoch-Sch\u00f6nlein purpura",
         "Polyarteritis nodosa"
       ],
       "answer": 3,
-      "explanation": "Henoch-Schönlein purpura (IgA vasculitis) is the most common type of childhood vasculitis and is caused by vascular localization of immune complexes containing predominantly IgA. The classic tetrad includes: palpable purpuric rash (lower extremities and buttocks), arthralgia/arthritis, abdominal pain (GI involvement), and renal disease (hematuria, proteinuria). The glomerular lesion is identical to that of IgA nephropathy (Berger disease) — mesangial IgA deposits. HUS (choice C) is caused by Shiga toxin-producing E. coli and features bloody diarrhea and AKI, but is not typically associated with purpuric rash and arthralgias. Goodpasture syndrome (choice B) does not cause rash. Berger disease (choice A) causes recurrent hematuria in adults without systemic vasculitis signs. Polyarteritis nodosa (choice E) spares small vessels and does not produce purpura.",
+      "explanation": "Henoch-Sch\u00f6nlein purpura (IgA vasculitis) is the most common type of childhood vasculitis and is caused by vascular localization of immune complexes containing predominantly IgA. The classic tetrad includes: palpable purpuric rash (lower extremities and buttocks), arthralgia/arthritis, abdominal pain (GI involvement), and renal disease (hematuria, proteinuria). The glomerular lesion is identical to that of IgA nephropathy (Berger disease) \u2014 mesangial IgA deposits. HUS (choice C) is caused by Shiga toxin-producing E. coli and features bloody diarrhea and AKI, but is not typically associated with purpuric rash and arthralgias. Goodpasture syndrome (choice B) does not cause rash. Berger disease (choice A) causes recurrent hematuria in adults without systemic vasculitis signs. Polyarteritis nodosa (choice E) spares small vessels and does not produce purpura.",
       "keypoints": [
-        "⭐ Henoch-Schönlein purpura (IgA vasculitis): palpable purpura (lower extremities/buttocks) + arthralgia + abdominal pain + hematuria/nephritis — IgA-mediated small vessel vasculitis",
-        "Renal biopsy: identical to IgA nephropathy — mesangial IgA deposits + C3",
+        "\u2b50 Henoch-Sch\u00f6nlein purpura (IgA vasculitis): palpable purpura (lower extremities/buttocks) + arthralgia + abdominal pain + hematuria/nephritis \u2014 IgA-mediated small vessel vasculitis",
+        "Renal biopsy: identical to IgA nephropathy \u2014 mesangial IgA deposits + C3",
         "Most common vasculitis in children; often follows URI; self-limiting in most cases",
         "Differentiate from HUS: HUS = bloody diarrhea + MAHA + thrombocytopenia + AKI; HSP = purpura + arthralgia + abdominal pain + hematuria (no thrombocytopenia)"
       ]
@@ -1142,11 +1196,14 @@
       "answer": 3,
       "explanation": "Renal cell carcinoma (RCC) is the most common cancer of the kidney, accounting for 90% of kidney cancers. The classic clinical triad is flank pain, hematuria, and a palpable abdominal mass, although the full triad is present in only 10% of cases. Incidental detection during imaging is increasingly common. RCC in a 50-year-old man with hematuria, an enlarged kidney, and a unilateral renal mass is the most likely diagnosis. The 5-year survival is 90% if the tumor has not extended beyond the renal capsule, but drops to 30% with distant metastases. Angiomyolipoma (choice A) is a benign tumor associated with tuberous sclerosis; it is often fat-containing on CT. Metastatic carcinoma (choice B) tends to produce bilateral renal involvement. Nephroblastoma and Wilms tumor (choices C, E) are pediatric tumors.",
       "keypoints": [
-        "⭐ Renal cell carcinoma: most common renal malignancy in adults (90%); classic triad = hematuria + flank pain + palpable mass (only 10% have all three)",
+        "\u2b50 Renal cell carcinoma: most common renal malignancy in adults (90%); classic triad = hematuria + flank pain + palpable mass (only 10% have all three)",
         "Clear cell RCC (most common subtype): glycogen-rich clear cytoplasm; VHL gene mutation (chromosome 3p)",
         "Paraneoplastic syndromes: polycythemia (EPO), hypercalcemia (PTHrP), hypertension (renin), Stauffer syndrome (nonmetastatic hepatic dysfunction)",
         "Spreads to: lungs (cannon-ball metastases), bones, liver, adrenals, brain; invades renal vein and IVC"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q55",
+      "imageAlt": "Gross nephrectomy specimen showing a large renal cell carcinoma with golden-yellow and hemorrhagic cut surface",
+      "imageCaption": "Nephrectomy specimen: golden-yellow mass with hemorrhage \u2014 renal cell carcinoma (clear cell type) arising from renal tubular epithelium"
     },
     {
       "id": "q050",
@@ -1163,12 +1220,12 @@
         "WT1"
       ],
       "answer": 3,
-      "explanation": "Clear cell carcinoma is the most common type of RCC. The cytoplasm appears clear because it is rich in glycogen and fat, which are washed out during histologic processing. Loss of one allele of the VHL (von Hippel-Lindau) tumor suppressor gene on chromosome 3p occurs in virtually all (98%) sporadic clear cell RCC, and mutations in the VHL gene are found in more than half of these tumors. VHL protein normally targets HIF-1α for degradation; loss of VHL leads to HIF-1α accumulation and upregulation of VEGF (angiogenesis) and PDGF — explaining the highly vascular nature of clear cell RCC. WT1 (choice E) is a tumor suppressor gene implicated in Wilms tumor, not adult RCC. IGF-2 (choice B) is associated with Wilms tumor in Beckwith-Wiedemann syndrome. ADPKD (choice A) and PAX6 (choice C) are unrelated to RCC.",
+      "explanation": "Clear cell carcinoma is the most common type of RCC. The cytoplasm appears clear because it is rich in glycogen and fat, which are washed out during histologic processing. Loss of one allele of the VHL (von Hippel-Lindau) tumor suppressor gene on chromosome 3p occurs in virtually all (98%) sporadic clear cell RCC, and mutations in the VHL gene are found in more than half of these tumors. VHL protein normally targets HIF-1\u03b1 for degradation; loss of VHL leads to HIF-1\u03b1 accumulation and upregulation of VEGF (angiogenesis) and PDGF \u2014 explaining the highly vascular nature of clear cell RCC. WT1 (choice E) is a tumor suppressor gene implicated in Wilms tumor, not adult RCC. IGF-2 (choice B) is associated with Wilms tumor in Beckwith-Wiedemann syndrome. ADPKD (choice A) and PAX6 (choice C) are unrelated to RCC.",
       "keypoints": [
-        "⭐ Clear cell RCC: VHL gene mutation (chromosome 3p) → ↑HIF-1α → ↑VEGF → highly vascular tumor; glycogen-rich clear cells",
+        "\u2b50 Clear cell RCC: VHL gene mutation (chromosome 3p) \u2192 \u2191HIF-1\u03b1 \u2192 \u2191VEGF \u2192 highly vascular tumor; glycogen-rich clear cells",
         "VHL syndrome: bilateral clear cell RCC + hemangioblastomas (cerebellum, retina) + pheochromocytoma + renal cysts",
         "WT1 = Wilms tumor suppressor; WT1 mutations associated with WAGR syndrome (Wilms + Aniridia + GU anomalies + mental Retardation)",
-        "VEGF pathway mutations in RCC → therapeutic target: sunitinib, sorafenib (VEGF receptor inhibitors)"
+        "VEGF pathway mutations in RCC \u2192 therapeutic target: sunitinib, sorafenib (VEGF receptor inhibitors)"
       ]
     },
     {
@@ -1186,13 +1243,16 @@
         "Wilms tumor"
       ],
       "answer": 4,
-      "explanation": "Wilms tumor (nephroblastoma) is a malignant neoplasm of embryonal nephrogenic elements composed of elements resembling normal fetal tissue: metanephric blastema, immature stroma (mesenchymal tissue), and immature epithelial elements — the classic 'triphasic' histology. It is the most frequent abdominal solid tumor in children, with a prevalence of 1 in 10,000. Wilms tumor usually presents between 1 and 3 years of age, and 98% occur before 10 years of age. Most are sporadic and unilateral, but 5% arise in the context of congenital syndromes (WAGR, Beckwith-Wiedemann, Denys-Drash). Ganglioneuroma (choice A) and neuroblastoma (choice B) arise from neural/adrenal tissue and do not have triphasic nephron-like histology. RCC (choice C) is a tumor of adults. Teratocarcinoma (choice D) is a germ cell tumor.",
+      "explanation": "Wilms tumor (nephroblastoma) is a malignant neoplasm of embryonal nephrogenic elements composed of elements resembling normal fetal tissue: metanephric blastema, immature stroma (mesenchymal tissue), and immature epithelial elements \u2014 the classic 'triphasic' histology. It is the most frequent abdominal solid tumor in children, with a prevalence of 1 in 10,000. Wilms tumor usually presents between 1 and 3 years of age, and 98% occur before 10 years of age. Most are sporadic and unilateral, but 5% arise in the context of congenital syndromes (WAGR, Beckwith-Wiedemann, Denys-Drash). Ganglioneuroma (choice A) and neuroblastoma (choice B) arise from neural/adrenal tissue and do not have triphasic nephron-like histology. RCC (choice C) is a tumor of adults. Teratocarcinoma (choice D) is a germ cell tumor.",
       "keypoints": [
-        "⭐ Wilms tumor: triphasic histology (blastema + stroma + epithelial elements) in child 1-3 years with unilateral abdominal mass",
+        "\u2b50 Wilms tumor: triphasic histology (blastema + stroma + epithelial elements) in child 1-3 years with unilateral abdominal mass",
         "Most common abdominal malignancy in children; presents as large, smooth, well-encapsulated flank mass",
         "Associated syndromes: WAGR (WT1 deletion), Beckwith-Wiedemann (WT2/IGF-2, associated with hemihypertrophy)",
-        "Excellent prognosis with surgery + chemotherapy ± radiation; >90% survival for localized disease"
-      ]
+        "Excellent prognosis with surgery + chemotherapy \u00b1 radiation; >90% survival for localized disease"
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q53",
+      "imageAlt": "Gross surgical specimen of a large pediatric renal tumor showing variegated cut surface with hemorrhage and necrosis",
+      "imageCaption": "Nephrectomy specimen: large, variegated renal mass \u2014 Wilms tumor (nephroblastoma) with triphasic histology"
     },
     {
       "id": "q052",
@@ -1209,11 +1269,11 @@
         "Urinary tract obstruction"
       ],
       "answer": 4,
-      "explanation": "Obstructive uropathy is caused by structural or functional abnormalities in the urinary tract that impede urine flow. In this neglected elderly patient, severe prostatic hyperplasia most likely caused chronic urinary tract obstruction, leading to hydronephrosis — progressive dilation of the renal pelves and calyces with atrophy of the renal parenchyma. The key gross feature is dilated collecting system (pelvis and calyces) with thinned, compressed cortex. Early microscopic findings include dilation of collecting ducts, followed by tubular dilation and progressive parenchymal atrophy. Polycystic kidney disease (choice C) produces large cystic kidneys but does not feature calyceal dilation. Systemic hypertension (choice D) causes uniformly small kidneys (nephrosclerosis). Amyloidosis (choice B) enlarges kidneys but does not cause hydronephrosis.",
+      "explanation": "Obstructive uropathy is caused by structural or functional abnormalities in the urinary tract that impede urine flow. In this neglected elderly patient, severe prostatic hyperplasia most likely caused chronic urinary tract obstruction, leading to hydronephrosis \u2014 progressive dilation of the renal pelves and calyces with atrophy of the renal parenchyma. The key gross feature is dilated collecting system (pelvis and calyces) with thinned, compressed cortex. Early microscopic findings include dilation of collecting ducts, followed by tubular dilation and progressive parenchymal atrophy. Polycystic kidney disease (choice C) produces large cystic kidneys but does not feature calyceal dilation. Systemic hypertension (choice D) causes uniformly small kidneys (nephrosclerosis). Amyloidosis (choice B) enlarges kidneys but does not cause hydronephrosis.",
       "keypoints": [
-        "⭐ Hydronephrosis: urinary tract obstruction → dilation of renal pelvis and calyces → progressive parenchymal compression and atrophy",
+        "\u2b50 Hydronephrosis: urinary tract obstruction \u2192 dilation of renal pelvis and calyces \u2192 progressive parenchymal compression and atrophy",
         "Common causes: BPH (elderly men), kidney stones, ureteral strictures, pelvic malignancy (cervical cancer), retroperitoneal fibrosis",
-        "Bilateral hydronephrosis → obstructive cause must be distal to bladder (BPH, neurogenic bladder) or bilateral (retroperitoneal mass)",
+        "Bilateral hydronephrosis \u2192 obstructive cause must be distal to bladder (BPH, neurogenic bladder) or bilateral (retroperitoneal mass)",
         "Distinguish from polycystic kidney: PKD = multiple cysts; hydronephrosis = dilated pelvis/calyces with thinned parenchyma"
       ]
     },
@@ -1232,13 +1292,16 @@
         "Infection"
       ],
       "answer": 4,
-      "explanation": "Staghorn calculi (struvite stones, magnesium ammonium phosphate) are formed in the presence of urea-splitting bacteria (most commonly Proteus mirabilis, but also Klebsiella, Pseudomonas, and Staphylococcus). These bacteria split urea → ammonia, making the urine alkaline, which favors precipitation of magnesium ammonium phosphate (struvite) and calcium phosphate (apatite). The resulting calculi grow to fill the entire renal pelvis and calyces, creating the antler-like 'staghorn' shape. Gout (choice A) and hyperuricemia produce uric acid stones. Hereditary cystinuria (choice B) produces hexagonal cystine stones. Hypercalcemia (choice C) and hyperparathyroidism (choice D) cause calcium oxalate or phosphate stones, not staghorn calculi.",
+      "explanation": "Staghorn calculi (struvite stones, magnesium ammonium phosphate) are formed in the presence of urea-splitting bacteria (most commonly Proteus mirabilis, but also Klebsiella, Pseudomonas, and Staphylococcus). These bacteria split urea \u2192 ammonia, making the urine alkaline, which favors precipitation of magnesium ammonium phosphate (struvite) and calcium phosphate (apatite). The resulting calculi grow to fill the entire renal pelvis and calyces, creating the antler-like 'staghorn' shape. Gout (choice A) and hyperuricemia produce uric acid stones. Hereditary cystinuria (choice B) produces hexagonal cystine stones. Hypercalcemia (choice C) and hyperparathyroidism (choice D) cause calcium oxalate or phosphate stones, not staghorn calculi.",
       "keypoints": [
-        "⭐ Staghorn calculi = struvite (magnesium ammonium phosphate) = infection stones; caused by urease-producing bacteria (Proteus, Klebsiella)",
-        "Mechanism: urease splits urea → ammonia → alkaline urine → struvite precipitation → fill entire pelvis ('staghorn')",
+        "\u2b50 Staghorn calculi = struvite (magnesium ammonium phosphate) = infection stones; caused by urease-producing bacteria (Proteus, Klebsiella)",
+        "Mechanism: urease splits urea \u2192 ammonia \u2192 alkaline urine \u2192 struvite precipitation \u2192 fill entire pelvis ('staghorn')",
         "Calcium oxalate = most common US stone (80%); associated with hypercalciuria, hyperoxaluria, hypocitraturia",
         "Uric acid stones = gout, high cell turnover (leukemia, chemotherapy); radiolucent on plain X-ray"
-      ]
+      ],
+      "image": "/public/images/path ch16/lippencott path ch 16 q59",
+      "imageAlt": "Gross specimen of kidney with a large branching staghorn calculus filling the renal pelvis and calyces",
+      "imageCaption": "Gross kidney: staghorn calculus filling the entire collecting system \u2014 struvite (infection) stone from urease-producing bacteria"
     },
     {
       "id": "q054",
@@ -1255,12 +1318,12 @@
         "Tubulointerstitial nephritis"
       ],
       "answer": 1,
-      "explanation": "Obstructive uropathy is caused by structural or functional abnormalities in the urinary tract that impede urine flow. Metastatic cervical cancer is a frequent cause of bilateral ureteral obstruction due to direct tumor compression or encasement of the ureters in the pelvis — producing bilateral hydronephrosis (dilation of the collecting system with progressive parenchymal atrophy). This is a common and serious complication of advanced pelvic malignancies. Polycystic kidney disease (choice C) is a congenital disease unrelated to obstruction. Acute vasculitis (choice A) and tubulointerstitial nephritis (choice E) are inflammatory processes not caused by ureteral compression. Staghorn calculi (choice D) are caused by urease-producing bacterial infections.",
+      "explanation": "Obstructive uropathy is caused by structural or functional abnormalities in the urinary tract that impede urine flow. Metastatic cervical cancer is a frequent cause of bilateral ureteral obstruction due to direct tumor compression or encasement of the ureters in the pelvis \u2014 producing bilateral hydronephrosis (dilation of the collecting system with progressive parenchymal atrophy). This is a common and serious complication of advanced pelvic malignancies. Polycystic kidney disease (choice C) is a congenital disease unrelated to obstruction. Acute vasculitis (choice A) and tubulointerstitial nephritis (choice E) are inflammatory processes not caused by ureteral compression. Staghorn calculi (choice D) are caused by urease-producing bacterial infections.",
       "keypoints": [
-        "⭐ Advanced pelvic malignancy (cervical, bladder, prostate, colorectal) → bilateral ureteral obstruction → bilateral hydronephrosis → obstructive uropathy → post-renal AKI/CKD",
+        "\u2b50 Advanced pelvic malignancy (cervical, bladder, prostate, colorectal) \u2192 bilateral ureteral obstruction \u2192 bilateral hydronephrosis \u2192 obstructive uropathy \u2192 post-renal AKI/CKD",
         "Cervical cancer: most common gynecologic malignancy to cause bilateral ureteral obstruction",
         "Ureteral stenting or nephrostomy tubes can temporize obstruction and preserve renal function",
-        "Bilateral ureteral obstruction → anuria; unilateral obstruction → may be asymptomatic if contralateral kidney is normal"
+        "Bilateral ureteral obstruction \u2192 anuria; unilateral obstruction \u2192 may be asymptomatic if contralateral kidney is normal"
       ]
     },
     {
@@ -1269,18 +1332,18 @@
       "examLevel": "step1",
       "system": "Renal/Urinary",
       "contentType": "Diagnosis",
-      "stem": "A 34-year-old man undergoing cisplatin-based chemotherapy complains of a 1-week history of increasing fatigue and headaches. He also reports seeing blood in his urine. Blood pressure is 150/100 mm Hg. Physical examination reveals diffuse purpura over his upper trunk and arms. Laboratory studies show elevated levels of BUN and creatinine, and 24-hour urinalysis reveals hematuria and oliguria. Urine cultures are negative. A CBC demonstrates severe anemia (hematocrit 28%) and thrombocytopenia (50,000/μL). The direct Coombs test is negative. A peripheral blood smear reveals schistocytes. Which of the following is the most likely cause of acute renal failure in this patient?",
+      "stem": "A 34-year-old man undergoing cisplatin-based chemotherapy complains of a 1-week history of increasing fatigue and headaches. He also reports seeing blood in his urine. Blood pressure is 150/100 mm Hg. Physical examination reveals diffuse purpura over his upper trunk and arms. Laboratory studies show elevated levels of BUN and creatinine, and 24-hour urinalysis reveals hematuria and oliguria. Urine cultures are negative. A CBC demonstrates severe anemia (hematocrit 28%) and thrombocytopenia (50,000/\u03bcL). The direct Coombs test is negative. A peripheral blood smear reveals schistocytes. Which of the following is the most likely cause of acute renal failure in this patient?",
       "choices": [
         "ANCA glomerulonephritis",
-        "Henoch-Schönlein purpura",
+        "Henoch-Sch\u00f6nlein purpura",
         "Nephrotoxic acute tubular necrosis",
         "Polyarteritis nodosa",
         "Thrombotic microangiopathy"
       ],
       "answer": 4,
-      "explanation": "Thrombotic microangiopathy (TMA) has a variety of causes, all of which cause endothelial damage that initiates a final common pathway of vascular thrombosis and ischemia. Cisplatin chemotherapy is a recognized cause of TMA. The presentation here — microangiopathic hemolytic anemia (schistocytes on smear, Coombs-negative hemolysis), thrombocytopenia, and acute renal failure — constitutes the classic triad of thrombotic thrombocytopenic purpura (TTP)/HUS-like syndrome. Cisplatin injures endothelial cells, promoting thrombosis in glomerular and arteriolar capillaries. The renal pathology is comparable to malignant hypertensive nephropathy with fibrinoid necrosis and arteriolar thrombosis. Nephrotoxic ATN (choice C) does not cause thrombocytopenia or schistocytes. HSP (choice B) does not have microangiopathic features. ANCA GN (choice A) and PAN (choice D) are vasculitides without schistocytes.",
+      "explanation": "Thrombotic microangiopathy (TMA) has a variety of causes, all of which cause endothelial damage that initiates a final common pathway of vascular thrombosis and ischemia. Cisplatin chemotherapy is a recognized cause of TMA. The presentation here \u2014 microangiopathic hemolytic anemia (schistocytes on smear, Coombs-negative hemolysis), thrombocytopenia, and acute renal failure \u2014 constitutes the classic triad of thrombotic thrombocytopenic purpura (TTP)/HUS-like syndrome. Cisplatin injures endothelial cells, promoting thrombosis in glomerular and arteriolar capillaries. The renal pathology is comparable to malignant hypertensive nephropathy with fibrinoid necrosis and arteriolar thrombosis. Nephrotoxic ATN (choice C) does not cause thrombocytopenia or schistocytes. HSP (choice B) does not have microangiopathic features. ANCA GN (choice A) and PAN (choice D) are vasculitides without schistocytes.",
       "keypoints": [
-        "⭐ Thrombotic microangiopathy (TMA) triad: MAHA (schistocytes, Coombs-negative) + thrombocytopenia + AKI; Coombs-negative = not autoimmune hemolysis",
+        "\u2b50 Thrombotic microangiopathy (TMA) triad: MAHA (schistocytes, Coombs-negative) + thrombocytopenia + AKI; Coombs-negative = not autoimmune hemolysis",
         "Causes: E. coli O157:H7 (HUS in children), ADAMTS13 deficiency (TTP in adults), cisplatin/mitomycin, malignant HTN, pregnancy (HELLP)",
         "TTP vs HUS: TTP = neurologic predominance; HUS = renal predominance (but overlap exists)",
         "Treatment: plasma exchange (plasmapheresis) for TTP; supportive + dialysis for HUS"
@@ -1301,10 +1364,10 @@
         "Urolithiasis"
       ],
       "answer": 1,
-      "explanation": "In sickle cell disease, the rigidity of sickled erythrocytes causes obstruction of the microcirculation with subsequent hypoxia and ischemic injury. The renal medulla and papillae are particularly vulnerable because the vasa recta — the capillaries coursing through the medulla — have a low oxygen tension, high osmolality, and slow blood flow that promotes sickling. Erythrocyte sickling in the vasa recta occludes their lumina, causing medullary and papillary infarcts — papillary necrosis. This is the most common direct renal complication of sickle cell disease. Chronic sickle cell nephropathy manifests as hematuria, inability to concentrate urine (isosthenuria), and, in severe cases, renal failure. Acute pyelonephritis (choice A) is not a direct consequence of vasoocclusion. Urate nephropathy (choice D) and urolithiasis (choice E) are not direct complications of sickle cell anemia. Polycystic kidney disease (choice C) is a congenital condition.",
+      "explanation": "In sickle cell disease, the rigidity of sickled erythrocytes causes obstruction of the microcirculation with subsequent hypoxia and ischemic injury. The renal medulla and papillae are particularly vulnerable because the vasa recta \u2014 the capillaries coursing through the medulla \u2014 have a low oxygen tension, high osmolality, and slow blood flow that promotes sickling. Erythrocyte sickling in the vasa recta occludes their lumina, causing medullary and papillary infarcts \u2014 papillary necrosis. This is the most common direct renal complication of sickle cell disease. Chronic sickle cell nephropathy manifests as hematuria, inability to concentrate urine (isosthenuria), and, in severe cases, renal failure. Acute pyelonephritis (choice A) is not a direct consequence of vasoocclusion. Urate nephropathy (choice D) and urolithiasis (choice E) are not direct complications of sickle cell anemia. Polycystic kidney disease (choice C) is a congenital condition.",
       "keypoints": [
-        "⭐ Sickle cell nephropathy: vasa recta sickling → papillary infarction → PAPILLARY NECROSIS → hematuria + impaired concentrating ability",
-        "Other conditions causing papillary necrosis: mnemonic POSTCARD — Pyelonephritis, Obstruction, Sickle cell, TB, Cirrhosis/alcoholism, Analgesics (NSAIDs/phenacetin), Renal vein thrombosis, Diabetes",
+        "\u2b50 Sickle cell nephropathy: vasa recta sickling \u2192 papillary infarction \u2192 PAPILLARY NECROSIS \u2192 hematuria + impaired concentrating ability",
+        "Other conditions causing papillary necrosis: mnemonic POSTCARD \u2014 Pyelonephritis, Obstruction, Sickle cell, TB, Cirrhosis/alcoholism, Analgesics (NSAIDs/phenacetin), Renal vein thrombosis, Diabetes",
         "Isosthenuria (fixed urine Osm ~300 mOsm/kg) = inability to concentrate or dilute urine due to medullary damage",
         "Sickle cell also causes: gross hematuria, nephrotic syndrome (FSGS), CKD"
       ]
@@ -1326,7 +1389,7 @@
       "answer": 0,
       "explanation": "Calcium oxalate stones are the most common form of kidney stones in the United States, accounting for approximately 80% of all stones. Both calcium oxalate and calcium phosphate stones are usually related to idiopathic hypercalciuria and increased intestinal calcium absorption. Calcium oxalate stones are radiopaque, hard, and often have an irregular surface. Calcium phosphate stones (choice B) are more common in England. Magnesium ammonium phosphate/struvite stones (choice D) are associated with urease-producing bacterial infections and form staghorn calculi. Uric acid stones (choice E) are smooth, yellow, hard, and radiolucent; found in 25% of patients with gout. Cystine stones (choice C) occur in children with hereditary cystinuria, an inborn error of amino acid transport.",
       "keypoints": [
-        "⭐ Kidney stone composition (US): Calcium oxalate 80% >> uric acid ~10% > struvite ~5% > cystine ~1%",
+        "\u2b50 Kidney stone composition (US): Calcium oxalate 80% >> uric acid ~10% > struvite ~5% > cystine ~1%",
         "Calcium oxalate: hard, radiopaque, associated with hypercalciuria, hyperoxaluria, hypocitraturia (citrate is a natural inhibitor)",
         "Uric acid: radiolucent, yellow, associated with gout or high purine diet; can be dissolved with urinary alkalinization",
         "Cystine: hexagonal crystals on UA; hereditary defect in dibasic amino acid transporter (cystine, ornithine, arginine, lysine = COAL)"
@@ -1347,11 +1410,11 @@
         "Takayasu arteritis"
       ],
       "answer": 1,
-      "explanation": "Fibromuscular dysplasia is the most frequent cause of renovascular hypertension in children and young women. It is characterized by fibrous and muscular stenosis of the renal artery, with areas of medial thickening alternating with areas of atrophy, producing the classic 'string of beads' pattern on angiogram — segmental stenoses forming ridges that project into the lumen. Stenosis reduces renal perfusion, triggering renin-mediated renovascular hypertension. Reconstitution of the arterial lumen (via balloon angioplasty) can be curative. Buerger disease (choice A) and Kawasaki disease (choice D) do not typically affect the renal arteries. Giant cell arteritis (choice C) and Takayasu arteritis (choice E) may cause renal artery stenosis, but are distinctly uncommon in children and do not produce the 'string of beads' pattern.",
+      "explanation": "Fibromuscular dysplasia is the most frequent cause of renovascular hypertension in children and young women. It is characterized by fibrous and muscular stenosis of the renal artery, with areas of medial thickening alternating with areas of atrophy, producing the classic 'string of beads' pattern on angiogram \u2014 segmental stenoses forming ridges that project into the lumen. Stenosis reduces renal perfusion, triggering renin-mediated renovascular hypertension. Reconstitution of the arterial lumen (via balloon angioplasty) can be curative. Buerger disease (choice A) and Kawasaki disease (choice D) do not typically affect the renal arteries. Giant cell arteritis (choice C) and Takayasu arteritis (choice E) may cause renal artery stenosis, but are distinctly uncommon in children and do not produce the 'string of beads' pattern.",
       "keypoints": [
-        "⭐ Fibromuscular dysplasia: 'string of beads' on angiography = alternating medial thickening + atrophy → segmental stenoses → renovascular HTN",
+        "\u2b50 Fibromuscular dysplasia: 'string of beads' on angiography = alternating medial thickening + atrophy \u2192 segmental stenoses \u2192 renovascular HTN",
         "Demographics: young women and children; contrast with atherosclerotic renal artery stenosis (elderly men)",
-        "Mechanism: stenosis → ↓ renal perfusion → ↑ renin → angiotensin II → hypertension",
+        "Mechanism: stenosis \u2192 \u2193 renal perfusion \u2192 \u2191 renin \u2192 angiotensin II \u2192 hypertension",
         "Treatment: percutaneous transluminal angioplasty (PTA) is often curative; ACE inhibitors for medical management"
       ]
     }
