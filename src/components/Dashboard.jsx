@@ -360,7 +360,7 @@ export default function Dashboard({ onNavigate }) {
                 <div>No completed sessions yet. Start a session to get going.</div>
               </div>
             ) : (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: 10, maxHeight: '30vh', overflowY: 'auto' }}>
+              <div style={{ display: 'flex', flexDirection: 'column', gap: 8, maxHeight: '25vh', overflowY: 'auto' }}>
                 {completedSessions.map((s, index) => {
                   const correct = s.score?.correct ?? 0
                   const total = s.score?.total ?? 1
