@@ -133,6 +133,9 @@ export function importQuestionSet({ title, questions, source = 'upload' }) {
         contentType: 'pathophysiology',
         topic: '',
       },
+      ...(q.image && { image: q.image }),
+      ...(q.imageAlt && { imageAlt: q.imageAlt }),
+      ...(q.imageCaption && { imageCaption: q.imageCaption }),
     })),
   }
   return saveQuestionSet(qs)
