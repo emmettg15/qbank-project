@@ -1,4 +1,5 @@
-import React, { useState, useMemo, useEffect } from 'react'
+import React, { useState, useMemo } from 'react'
+import { createPortal } from 'react-dom'
 import TagBadge from './shared/TagBadge.jsx'
 import { getTagLabel } from '../data/taggingSystem.js'
 import { importQuestionSet, createSession, getQuestionRating } from '../hooks/useStorage.js'
@@ -18,12 +19,6 @@ const EXAM_LEVELS = [
 ]
 
 export default function SessionConfig({ title, questions, existingSetId, onStart, onClose }) {
-  // Lock body scroll while modal is open
-  useEffect(() => {
-    document.body.style.overflow = 'hidden';
-    return () => { document.body.style.overflow = ''; };
-  }, []);
-
   // Detect all tags present in the question set
   const allTags = useMemo(() => {
     const tagSet = new Set()
@@ -112,7 +107,7 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
     onStart(session.id, pool)
   }
 
-  return (
+  return createPortal(
     <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
       <div className="modal" style={{ maxWidth: 600 }}>
         <div className="modal-title">Configure Session</div>
@@ -266,6 +261,7 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
           </div>
         )}
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
