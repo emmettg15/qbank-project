@@ -114,14 +114,11 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
 
   return (
     <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
-      <div className="modal" style={{ maxWidth: 600, display: 'flex', flexDirection: 'column', padding: 0 }}>
-        <div style={{ padding: '28px 32px 0 32px', flexShrink: 0 }}>
-          <div className="modal-title">Configure Session</div>
-          <div style={{ fontSize: 14, color: 'var(--muted)', marginBottom: 16, marginTop: -12 }}>
-            {title}
-          </div>
+      <div className="modal" style={{ maxWidth: 600 }}>
+        <div className="modal-title">Configure Session</div>
+        <div style={{ fontSize: 14, color: 'var(--muted)', marginBottom: 16, marginTop: -12 }}>
+          {title}
         </div>
-        <div style={{ flex: 1, overflowY: 'auto', padding: '0 32px', minHeight: 0 }}>
 
         {/* Exam Level */}
         <div className="form-group">
@@ -255,11 +252,9 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
             </div>
           </div>
         )}
-        </div>{/* end scrollable body */}
-
-        {/* Action buttons — fixed at bottom */}
+        {/* Action buttons */}
         {!validityWarning && (
-          <div style={{ display: 'flex', gap: 12, justifyContent: 'flex-end', padding: '16px 32px', borderTop: '1px solid var(--border)', flexShrink: 0 }}>
+          <div style={{ display: 'flex', gap: 12, justifyContent: 'flex-end', paddingTop: 16, borderTop: '1px solid var(--border)', marginTop: 8 }}>
             <button className="btn btn-ghost" onClick={onClose}>Cancel</button>
             <button
               className="btn btn-primary"
