@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react'
+import React, { useState, useMemo, useEffect } from 'react'
 import TagBadge from './shared/TagBadge.jsx'
 import { getTagLabel } from '../data/taggingSystem.js'
 import { importQuestionSet, createSession, getQuestionRating } from '../hooks/useStorage.js'
@@ -18,6 +18,12 @@ const EXAM_LEVELS = [
 ]
 
 export default function SessionConfig({ title, questions, existingSetId, onStart, onClose }) {
+  // Lock body scroll while modal is open
+  useEffect(() => {
+    document.body.style.overflow = 'hidden';
+    return () => { document.body.style.overflow = ''; };
+  }, []);
+
   // Detect all tags present in the question set
   const allTags = useMemo(() => {
     const tagSet = new Set()

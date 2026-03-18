@@ -249,11 +249,10 @@ code, .mono { font-family: 'IBM Plex Mono', monospace; }
   background: rgba(0,0,0,.7);
   backdrop-filter: blur(4px);
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   z-index: 200;
-  padding: 40px 20px;
-  overflow-y: auto;
+  padding: 20px;
 }
 .modal {
   background: var(--surface);
@@ -262,7 +261,7 @@ code, .mono { font-family: 'IBM Plex Mono', monospace; }
   padding: 28px 32px;
   max-width: 620px;
   width: 100%;
-  max-height: calc(100vh - 80px);
+  max-height: 90vh;
   overflow-y: auto;
   box-shadow: var(--shadow);
 }
@@ -350,6 +349,7 @@ tr:hover td { background: var(--surface2); }
   gap: 28px;
   align-items: start;
 }
+.dashboard-grid > * { min-width: 0; }
 
 /* ─── Session Card ─────────────────────────────────────────────────────────── */
 .session-card {
