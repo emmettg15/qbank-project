@@ -155,6 +155,9 @@ export default function QBanksPage({ onNavigate }) {
             keypoints: q.keypoints || [],
             tag: q.tag || null,
             tags: q.tags || { examLevel: 'step1', system: q.tag || 'general', contentType: 'pathophysiology', topic: '' },
+            ...(q.image && { image: q.image }),
+            ...(q.imageAlt && { imageAlt: q.imageAlt }),
+            ...(q.imageCaption && { imageCaption: q.imageCaption }),
           }))
           existing.title = title
           existing.date = new Date().toISOString()
