@@ -2,11 +2,7 @@ import React, { useState, useMemo } from 'react'
 import TagBadge from './shared/TagBadge.jsx'
 import SessionConfig from './SessionConfig.jsx'
 import { JEFFMD_CATALOG } from '../data/jeffmd-catalog.js'
-import {
-  getCatalogImport, setCatalogImport,
-  getQuestionSet, getQuestionSets, getSessions,
-  importQuestionSet, saveQuestionSet,
-} from '../hooks/useStorage.js'
+import { useStorage } from '../hooks/useStorage.js'
 
 function formatDate(iso) {
   if (!iso) return '—'
@@ -83,15 +79,16 @@ function CatalogCard({ entry, progress, catalogImport, onClick }) {
 
 // ─── Main Component ───────────────────────────────────────────────────────────
 export default function QBanksPage({ onNavigate }) {
+  const storage = useStorage()
   const [configTarget, setConfigTarget] = useState(null)
   const [loading, setLoading] = useState(null) // catalogId being loaded
 
   // Build progress map: catalogId → { completed, inProgress }
   const progressMap = useMemo(() => {
-    const sessions = getSessions()
+    const sessions = storage.getSessions()
     const map = {}
     for (const entry of JEFFMD_CATALOG) {
-      const imp = getCatalogImport(entry.catalogId)
+      const imp = storage.getCatalogImport(entry.catalogId)
       if (!imp) {
         // Check if seed data matches (title-based detection for backward compat)
         map[entry.catalogId] = { completed: 0, inProgress: 0 }
@@ -109,23 +106,23 @@ export default function QBanksPage({ onNavigate }) {
   async function handleSelect(entry) {
     setLoading(entry.catalogId)
     try {
-      let imp = getCatalogImport(entry.catalogId)
+      let imp = storage.getCatalogImport(entry.catalogId)
 
       // If not imported yet, check if seed data already matches (backward compat)
       if (!imp) {
-        const existingSets = getQuestionSets()
+        const existingSets = storage.getQuestionSets()
         const match = existingSets.find(s =>
           s.title && entry.title && s.title.includes(entry.title.split(' — ')[0])
         )
         if (match) {
-          setCatalogImport(entry.catalogId, match.id, entry.version)
+          storage.setCatalogImport(entry.catalogId, match.id, entry.version)
           imp = { questionSetId: match.id, version: entry.version }
         }
       }
 
       // Already imported at current version
       if (imp && imp.version >= entry.version) {
-        const qs = getQuestionSet(imp.questionSetId)
+        const qs = storage.getQuestionSet(imp.questionSetId)
         if (qs) {
           setConfigTarget({ title: qs.title, questions: qs.questions, existingSetId: qs.id })
           setLoading(null)
@@ -143,7 +140,7 @@ export default function QBanksPage({ onNavigate }) {
 
       // Version update: update existing question set in-place
       if (imp) {
-        const existing = getQuestionSet(imp.questionSetId)
+        const existing = storage.getQuestionSet(imp.questionSetId)
         if (existing) {
           existing.questions = data.questions.map(q => ({
             id: q.id || q.stem?.slice(0, 8),
@@ -161,8 +158,8 @@ export default function QBanksPage({ onNavigate }) {
           }))
           existing.title = title
           existing.date = new Date().toISOString()
-          saveQuestionSet(existing)
-          setCatalogImport(entry.catalogId, existing.id, entry.version)
+          storage.saveQuestionSet(existing)
+          storage.setCatalogImport(entry.catalogId, existing.id, entry.version)
           setConfigTarget({ title: existing.title, questions: existing.questions, existingSetId: existing.id })
           setLoading(null)
           return
@@ -170,12 +167,12 @@ export default function QBanksPage({ onNavigate }) {
       }
 
       // Fresh import
-      const qs = importQuestionSet({
+      const qs = storage.importQuestionSet({
         title,
         questions: data.questions,
         source: 'jeffmd-catalog',
       })
-      setCatalogImport(entry.catalogId, qs.id, entry.version)
+      storage.setCatalogImport(entry.catalogId, qs.id, entry.version)
       setConfigTarget({ title: qs.title, questions: qs.questions, existingSetId: qs.id })
     } catch (err) {
       console.error('Failed to load QBank:', err)
@@ -204,7 +201,7 @@ export default function QBanksPage({ onNavigate }) {
             key={entry.catalogId}
             entry={entry}
             progress={progressMap[entry.catalogId]}
-            catalogImport={getCatalogImport(entry.catalogId)}
+            catalogImport={storage.getCatalogImport(entry.catalogId)}
             onClick={() => handleSelect(entry)}
           />
         ))}

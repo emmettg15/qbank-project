@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react'
 import DonutChart from './shared/DonutChart.jsx'
 import TagBadge from './shared/TagBadge.jsx'
-import { getSessions, deleteSession } from '../hooks/useStorage.js'
+import { useStorage } from '../hooks/useStorage.js'
 import { TAGS, getTagLabel } from '../data/taggingSystem.js'
 
 function formatDate(iso) {
@@ -70,6 +70,7 @@ function TrendChart({ sessions }) {
 
 // ── AllSessions ──────────────────────────────────────────────────────────────
 export default function AllSessions({ onNavigate }) {
+  const storage = useStorage()
   const [search,     setSearch]    = useState('')
   const [sortBy,     setSortBy]    = useState('date')   // 'date' | 'score' | 'title'
   const [sortDir,    setSortDir]   = useState('desc')   // 'asc' | 'desc'
@@ -77,7 +78,7 @@ export default function AllSessions({ onNavigate }) {
   const [confirm,    setConfirm]   = useState(null)     // sessionId to confirm delete
   const [, refresh]                = useState(0)
 
-  const rawSessions    = getSessions()
+  const rawSessions    = storage.getSessions()
   const allCompleted   = rawSessions.filter(s => s.completed || s.status === 'completed')
   const inProgress     = rawSessions.filter(s => !s.completed && s.status !== 'completed')
   const allSessions    = allCompleted
@@ -129,7 +130,7 @@ export default function AllSessions({ onNavigate }) {
   }
 
   function handleDelete(id) {
-    deleteSession(id)
+    storage.deleteSession(id)
     setConfirm(null)
     refresh(n => n + 1)
   }

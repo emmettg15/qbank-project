@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react'
 import DonutChart from './shared/DonutChart.jsx'
 import TagBadge from './shared/TagBadge.jsx'
-import { getSession, getQuestionSet, saveSession, getQuestionRating } from '../hooks/useStorage.js'
+import { useStorage } from '../hooks/useStorage.js'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
 
@@ -49,6 +49,7 @@ function AccuracyBar({ label, correct, total, color }) {
 
 // ── Question review row ────────────────────────────────────────────────────
 function QuestionReviewRow({ q, idx, answer, isRevealed }) {
+  const storage = useStorage()
   const [open, setOpen] = useState(false)
   const isCorrect = answer !== null && answer === q.answer
   const isWrong   = answer !== null && answer !== q.answer
@@ -58,7 +59,7 @@ function QuestionReviewRow({ q, idx, answer, isRevealed }) {
   const statusIcon = isCorrect ? '✓' : isWrong ? '✗' : isSkipped ? '→' : '○'
   const statusColor = isCorrect ? 'var(--correct)' : isWrong ? 'var(--wrong)' : isSkipped ? 'var(--skipped)' : 'var(--muted)'
 
-  const rating = getQuestionRating(q.id || `q-${idx}`)
+  const rating = storage.getQuestionRating(q.id || `q-${idx}`)
 
   return (
     <div style={{ borderBottom: '1px solid var(--border)', paddingBottom: 12, marginBottom: 12 }}>
@@ -136,12 +137,13 @@ function QuestionReviewRow({ q, idx, answer, isRevealed }) {
 
 // ── Main SessionAnalysis ───────────────────────────────────────────────────
 export default function SessionAnalysis({ sessionId, onNavigate }) {
+  const storage = useStorage()
   const [notesVal, setNotesVal]   = useState('')
   const [ratingVal, setRatingVal] = useState(null)
   const [reviewFilter, setFilter] = useState('all') // 'all' | 'wrong' | 'correct'
 
-  const session = getSession(sessionId)
-  const set     = session ? getQuestionSet(session.questionSetId) : null
+  const session = storage.getSession(sessionId)
+  const set     = session ? storage.getQuestionSet(session.questionSetId) : null
 
   // Build questions snapshot — ID-based for sessions with questionIds, legacy slice fallback
   const questions = useMemo(() => {
@@ -202,7 +204,7 @@ export default function SessionAnalysis({ sessionId, onNavigate }) {
 
   function saveNotes() {
     const updated = { ...session, sessionNotes: notesVal, sessionRating: ratingVal }
-    saveSession(updated)
+    storage.saveSession(updated)
   }
 
   function exportJSON() {

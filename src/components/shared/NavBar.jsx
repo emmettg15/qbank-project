@@ -1,4 +1,6 @@
 import React from 'react'
+import { useStorage } from '../../hooks/useStorage.js'
+import { useAuth } from '../../hooks/useAuth.js'
 
 const NAV_ITEMS = [
   { id: 'dashboard', label: 'Dashboard' },
@@ -8,6 +10,9 @@ const NAV_ITEMS = [
 ]
 
 export default function NavBar({ view, onNavigate }) {
+  const { user, mode } = useStorage()
+  const { signOut } = useAuth()
+
   return (
     <nav className="navbar">
       {/* Brand */}
@@ -29,12 +34,28 @@ export default function NavBar({ view, onNavigate }) {
         ))}
       </div>
 
-      {/* Right side indicator */}
-      {view === 'session' && (
-        <span style={{ fontSize: 12, fontFamily: 'IBM Plex Mono', color: 'var(--accent2)', marginLeft: 'auto' }}>
-          ● Session Active
-        </span>
-      )}
+      {/* Right side */}
+      <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: 12 }}>
+        {view === 'session' && (
+          <span style={{ fontSize: 12, fontFamily: 'IBM Plex Mono', color: 'var(--accent2)' }}>
+            ● Session Active
+          </span>
+        )}
+        {user ? (
+          <button
+            className="btn btn-ghost btn-sm"
+            onClick={signOut}
+            title={user.email}
+            style={{ fontSize: 11, color: 'var(--muted)' }}
+          >
+            Sign Out
+          </button>
+        ) : mode === 'local' ? (
+          <span style={{ fontSize: 11, color: 'var(--muted)', fontFamily: 'IBM Plex Mono' }}>
+            offline
+          </span>
+        ) : null}
+      </div>
     </nav>
   )
 }

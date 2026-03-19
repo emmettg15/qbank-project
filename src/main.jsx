@@ -2,8 +2,11 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './theme.css'
-import { getQuestionSets, importQuestionSet } from './hooks/useStorage.js'
+import { getQuestionSets, importQuestionSet } from './hooks/useLocalStorage.js'
 import { SEED_CONFIG, SEED_QUESTIONS } from './data/seedQuestions.js'
+import AuthGate from './components/AuthGate.jsx'
+import { StorageProvider } from './hooks/useStorage.js'
+import MigrationModal from './components/MigrationModal.jsx'
 
 // ── Seed before first render so Dashboard sees the data immediately ──────────
 if (getQuestionSets().length === 0) {
@@ -16,6 +19,13 @@ if (getQuestionSets().length === 0) {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <AuthGate>
+      {({ user, mode }) => (
+        <StorageProvider user={user} mode={mode}>
+          <MigrationModal />
+          <App />
+        </StorageProvider>
+      )}
+    </AuthGate>
   </React.StrictMode>
 )

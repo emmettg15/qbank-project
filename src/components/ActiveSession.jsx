@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { useSession } from '../hooks/useSession.js'
-import { getSession, getQuestionSet, getQuestionRating, setQuestionRating } from '../hooks/useStorage.js'
+import { useStorage } from '../hooks/useStorage.js'
 import TagBadge from './shared/TagBadge.jsx'
 import DonutChart from './shared/DonutChart.jsx'
 import Labs from './Labs.jsx'
@@ -26,10 +26,11 @@ function fmtTime(s) {
 
 // ─── Question flag row ────────────────────────────────────────────────────────
 function FlagRow({ questionId }) {
-  const [flags, setFlags] = useState(() => getQuestionRating(questionId))
+  const storage = useStorage()
+  const [flags, setFlags] = useState(() => storage.getQuestionRating(questionId))
 
   function toggle(field) {
-    const updated = setQuestionRating(questionId, { [field]: !flags[field] })
+    const updated = storage.setQuestionRating(questionId, { [field]: !flags[field] })
     setFlags(updated)
   }
 
@@ -55,15 +56,16 @@ function FlagRow({ questionId }) {
 
 // ─── Main ActiveSession ───────────────────────────────────────────────────────
 export default function ActiveSession({ sessionId, questionsOverride, onNavigate }) {
+  const storage = useStorage()
   const [pendingQuestions, setPendingQuestions] = useState(questionsOverride || null)
   const [sessionLoaded,    setSessionLoaded]    = useState(!!questionsOverride)
 
   // Load questions from storage when not passed directly (e.g. resume from history)
   useEffect(() => {
     if (questionsOverride) { setPendingQuestions(questionsOverride); setSessionLoaded(true); return }
-    const s = getSession(sessionId)
+    const s = storage.getSession(sessionId)
     if (!s) return
-    const set = getQuestionSet(s.questionSetId)
+    const set = storage.getQuestionSet(s.questionSetId)
     if (set) {
       let qs
       if (s.questionIds) {
@@ -393,7 +395,7 @@ export default function ActiveSession({ sessionId, questionsOverride, onNavigate
 
           {/* Flag warning banners */}
           {(() => {
-            const f = getQuestionRating(currentQ.id || `q-${current}`)
+            const f = storage.getQuestionRating(currentQ.id || `q-${current}`)
             return (
               <>
                 {f.needsReview && (

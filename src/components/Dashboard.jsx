@@ -2,11 +2,7 @@ import React, { useState, useRef, useCallback } from 'react'
 import DonutChart from './shared/DonutChart.jsx'
 import TagBadge from './shared/TagBadge.jsx'
 import SessionConfig from './SessionConfig.jsx'
-import {
-  getSessions, getAggregateStats,
-  importQuestionSet, getQuestionSets,
-  clearAllData, getQuestionRatings, deleteSession,
-} from '../hooks/useStorage.js'
+import { useStorage } from '../hooks/useStorage.js'
 import { generateGuidePdf } from '../utils/generateGuidePdf.js'
 
 function formatDate(iso) {
@@ -176,9 +172,10 @@ function WelcomeBanner({ onNavigate }) {
 
 // ─── Reset Confirmation Modal ──────────────────────────────────────────────────
 function ResetModal({ onConfirm, onClose }) {
-  const sessionCount  = getSessions().length
-  const setCount      = getQuestionSets().length
-  const ratingCount   = Object.keys(getQuestionRatings()).length
+  const storage = useStorage()
+  const sessionCount  = storage.getSessions().length
+  const setCount      = storage.getQuestionSets().length
+  const ratingCount   = Object.keys(storage.getQuestionRatings()).length
 
   return (
     <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
@@ -215,10 +212,11 @@ function ResetModal({ onConfirm, onClose }) {
 
 // ─── Dashboard ─────────────────────────────────────────────────────────────────
 export default function Dashboard({ onNavigate }) {
+  const storage = useStorage()
   const [configTarget,  setConfigTarget]  = useState(null)
-  const [existingSets,  setExistingSets]  = useState(() => getQuestionSets())
-  const [allSessions,   setAllSessions]   = useState(() => getSessions())
-  const [stats, setStats] = useState(() => getAggregateStats())
+  const [existingSets,  setExistingSets]  = useState(() => storage.getQuestionSets())
+  const [allSessions,   setAllSessions]   = useState(() => storage.getSessions())
+  const [stats, setStats] = useState(() => storage.getAggregateStats())
   const [showReset, setShowReset] = useState(false)
   const [confirmDelete, setConfirmDelete] = useState(null)
 
@@ -228,19 +226,19 @@ export default function Dashboard({ onNavigate }) {
     .sort((a, b) => new Date(b.date) - new Date(a.date)).slice(0, 5)
 
   function handleDeleteSession(id) {
-    deleteSession(id)
+    storage.deleteSession(id)
     setConfirmDelete(null)
     refreshData()
   }
 
   function refreshData() {
-    setExistingSets(getQuestionSets())
-    setAllSessions(getSessions())
-    setStats(getAggregateStats())
+    setExistingSets(storage.getQuestionSets())
+    setAllSessions(storage.getSessions())
+    setStats(storage.getAggregateStats())
   }
 
   function handleResetConfirm() {
-    clearAllData()
+    storage.clearAllData()
     window.location.reload()
   }
 

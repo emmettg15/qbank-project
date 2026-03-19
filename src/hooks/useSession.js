@@ -11,7 +11,7 @@
  */
 
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { getSession, saveSession, getQuestionSet, pauseSession as pauseSessionStorage } from './useStorage.js'
+import { useStorage } from './useStorage.js'
 
 // Fisher-Yates shuffle
 function shuffle(arr) {
@@ -32,6 +32,7 @@ function buildDisplayOrders(questions, shouldShuffle = true) {
 }
 
 export function useSession(sessionId, questionsOverride) {
+  const storage = useStorage()
   const [session,  setSession]  = useState(null)
   const [questions, setQuestions] = useState([])
   const [displayOrders, setDisplayOrders] = useState([])
@@ -52,13 +53,13 @@ export function useSession(sessionId, questionsOverride) {
   // ── Load session ──────────────────────────────────────────────────────────
   useEffect(() => {
     if (!sessionId) return
-    const s = getSession(sessionId)
+    const s = storage.getSession(sessionId)
     if (!s) return
     setSession(s)
 
     let qs = questionsOverride
     if (!qs) {
-      const set = getQuestionSet(s.questionSetId)
+      const set = storage.getQuestionSet(s.questionSetId)
       if (set) {
         if (s.questionIds) {
           // ID-based lookup — preserves original order and survives question set edits
@@ -131,7 +132,7 @@ export function useSession(sessionId, questionsOverride) {
         completed: isComplete,
         status: isComplete ? 'completed' : (session.status || 'active'),
       }
-      saveSession(updated)
+      storage.saveSession(updated)
       setSession(updated)
     }, 300)
   }, [answers, revealed, eliminated, timePerQ, isComplete])
@@ -241,7 +242,7 @@ export function useSession(sessionId, questionsOverride) {
       return next
     })
     if (session) {
-      pauseSessionStorage(session.id)
+      storage.pauseSession(session.id)
     }
   }, [session, current])
 

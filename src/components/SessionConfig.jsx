@@ -2,7 +2,7 @@ import React, { useState, useMemo } from 'react'
 import { createPortal } from 'react-dom'
 import TagBadge from './shared/TagBadge.jsx'
 import { getTagLabel } from '../data/taggingSystem.js'
-import { importQuestionSet, createSession, getQuestionRating } from '../hooks/useStorage.js'
+import { useStorage } from '../hooks/useStorage.js'
 
 const TIMER_PRESETS = [
   { label: '60s',  value: 60  },
@@ -19,6 +19,7 @@ const EXAM_LEVELS = [
 ]
 
 export default function SessionConfig({ title, questions, existingSetId, onStart, onClose }) {
+  const storage = useStorage()
   // Detect all tags present in the question set
   const allTags = useMemo(() => {
     const tagSet = new Set()
@@ -59,7 +60,7 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
     // Save question set (or reuse existing)
     let setId = existingSetId
     if (!setId) {
-      const qs = importQuestionSet({ title, questions, source: 'upload' })
+      const qs = storage.importQuestionSet({ title, questions, source: 'upload' })
       setId = qs.id
     }
 
@@ -71,7 +72,7 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
     }
 
     // Check for validity-flagged questions
-    const flaggedCount = pool.filter(q => getQuestionRating(q.id).validityConcern).length
+    const flaggedCount = pool.filter(q => storage.getQuestionRating(q.id).validityConcern).length
     if (flaggedCount > 0) {
       setValidityWarning({ count: flaggedCount, pool, setId })
       return
@@ -90,7 +91,7 @@ export default function SessionConfig({ title, questions, existingSetId, onStart
       }
     }
 
-    const session = createSession({
+    const session = storage.createSession({
       title,
       questionSetId: setId,
       config: {

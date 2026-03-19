@@ -1,15 +1,16 @@
 import React, { useState, useMemo, useEffect } from 'react'
-import { getSession, getQuestionSet, getQuestionRating } from '../hooks/useStorage.js'
+import { useStorage } from '../hooks/useStorage.js'
 import TagBadge from './shared/TagBadge.jsx'
 import DonutChart from './shared/DonutChart.jsx'
 
 const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K']
 
 export default function ReviewSession({ sessionId, onNavigate }) {
+  const storage = useStorage()
   const [current, setCurrent] = useState(0)
 
-  const session = getSession(sessionId)
-  const set = session ? getQuestionSet(session.questionSetId) : null
+  const session = storage.getSession(sessionId)
+  const set = session ? storage.getQuestionSet(session.questionSetId) : null
 
   const questions = useMemo(() => {
     if (!set) return []
@@ -71,7 +72,7 @@ export default function ReviewSession({ sessionId, onNavigate }) {
     return a === qn.answer ? 'correct' : 'wrong'
   }
 
-  const rating = getQuestionRating(q.id || `q-${current}`)
+  const rating = storage.getQuestionRating(q.id || `q-${current}`)
 
   return (
     <div>
