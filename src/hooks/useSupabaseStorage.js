@@ -44,7 +44,7 @@ function sessionToRow(userId, session) {
     title: session.title,
     date: session.date,
     question_set_id: session.questionSetId || null,
-    question_ids: (session.questionIds || []).filter(isValidUuid),
+    question_ids: session.questionIds || [],
     config: session.config || {},
     results: session.results || {},
     score_correct: session.score?.correct ?? 0,
@@ -223,7 +223,7 @@ export async function saveQuestionSet(userId, qs) {
 
   if (qs.questions && qs.questions.length > 0) {
     const rows = qs.questions.map((q, i) => ({
-      id: (q.id && isValidUuid(q.id)) ? q.id : uuid(),
+      id: q.id || uuid(),
       question_set_id: qs.id,
       user_id: userId,
       sort_order: i,
