@@ -8,6 +8,12 @@
 import { supabase } from '../lib/supabase.js'
 import { v4 as uuid } from '../utils/uuid.js'
 
+const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i
+
+function isValidUuid(str) {
+  return typeof str === 'string' && UUID_RE.test(str)
+}
+
 // ─── Sessions ────────────────────────────────────────────────────────────────
 
 function rowToSession(row) {
@@ -38,7 +44,7 @@ function sessionToRow(userId, session) {
     title: session.title,
     date: session.date,
     question_set_id: session.questionSetId || null,
-    question_ids: session.questionIds || [],
+    question_ids: (session.questionIds || []).filter(isValidUuid),
     config: session.config || {},
     results: session.results || {},
     score_correct: session.score?.correct ?? 0,
@@ -217,7 +223,7 @@ export async function saveQuestionSet(userId, qs) {
 
   if (qs.questions && qs.questions.length > 0) {
     const rows = qs.questions.map((q, i) => ({
-      id: q.id || uuid(),
+      id: (q.id && isValidUuid(q.id)) ? q.id : uuid(),
       question_set_id: qs.id,
       user_id: userId,
       sort_order: i,
@@ -262,7 +268,7 @@ export async function importQuestionSet(userId, { title, questions, source = 'up
     date: new Date().toISOString(),
     source,
     questions: questions.map(q => ({
-      id: q.id || uuid(),
+      id: (q.id && isValidUuid(q.id)) ? q.id : uuid(),
       stem: q.stem || '',
       lead: q.lead || '',
       choices: q.choices || [],
@@ -398,19 +404,49 @@ export async function exportAll(userId) {
 }
 
 export async function importAll(userId, data) {
+  // Build old→new ID map for non-UUID question IDs (e.g. "q001" → proper UUID)
+  const idMap = {}
   if (data.questionSets) {
     for (const qs of data.questionSets) {
-      await saveQuestionSet(userId, qs)
+      for (const q of (qs.questions || [])) {
+        if (q.id && !isValidUuid(q.id)) {
+          idMap[q.id] = uuid()
+        }
+      }
     }
   }
+
+  const remap = (id) => idMap[id] || id
+
+  // Import question sets with remapped IDs
+  if (data.questionSets) {
+    for (const qs of data.questionSets) {
+      const remapped = {
+        ...qs,
+        questions: (qs.questions || []).map(q => ({
+          ...q,
+          id: remap(q.id),
+        })),
+      }
+      await saveQuestionSet(userId, remapped)
+    }
+  }
+
+  // Import sessions with remapped questionIds
   if (data.sessions) {
     for (const s of data.sessions) {
-      await saveSession(userId, s)
+      const remapped = {
+        ...s,
+        questionIds: (s.questionIds || []).map(remap),
+      }
+      await saveSession(userId, remapped)
     }
   }
+
+  // Import ratings with remapped keys
   if (data.questionRatings) {
     for (const [qId, rating] of Object.entries(data.questionRatings)) {
-      await setQuestionRating(userId, qId, rating)
+      await setQuestionRating(userId, remap(qId), rating)
     }
   }
 }
