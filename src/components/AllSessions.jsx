@@ -75,7 +75,6 @@ export default function AllSessions({ onNavigate }) {
   const [sortBy,     setSortBy]    = useState('date')   // 'date' | 'score' | 'title'
   const [sortDir,    setSortDir]   = useState('desc')   // 'asc' | 'desc'
   const [filterTag,  setFilterTag] = useState('')
-  const [confirm,    setConfirm]   = useState(null)     // sessionId to confirm delete
   const [, refresh]                = useState(0)
 
   const rawSessions    = storage.getSessions()
@@ -131,7 +130,6 @@ export default function AllSessions({ onNavigate }) {
 
   function handleDelete(id) {
     storage.deleteSession(id)
-    setConfirm(null)
     refresh(n => n + 1)
   }
 
@@ -178,14 +176,7 @@ export default function AllSessions({ onNavigate }) {
                     <button className="btn btn-primary btn-sm" onClick={() => onNavigate('session', { sessionId: s.id })}>
                       ▶ Resume
                     </button>
-                    {confirm === s.id ? (
-                      <>
-                        <button className="btn btn-danger btn-sm" onClick={() => handleDelete(s.id)}>Yes</button>
-                        <button className="btn btn-ghost btn-sm" onClick={() => setConfirm(null)}>No</button>
-                      </>
-                    ) : (
-                      <button className="btn btn-ghost btn-sm" style={{ color: 'var(--wrong)', padding: '5px 8px' }} onClick={() => setConfirm(s.id)} title="Delete session">✕</button>
-                    )}
+                    <button className="btn btn-ghost btn-sm" style={{ color: 'var(--wrong)', padding: '5px 8px' }} onClick={() => handleDelete(s.id)} title="Delete session">✕</button>
                   </div>
                 </div>
               )
@@ -304,20 +295,13 @@ export default function AllSessions({ onNavigate }) {
                           <button className="btn btn-ghost btn-sm" onClick={() => onNavigate('analysis', { sessionId: s.id })}>
                             Summary
                           </button>
-                          {confirm === s.id ? (
-                            <>
-                              <button className="btn btn-danger btn-sm" onClick={() => handleDelete(s.id)}>Yes</button>
-                              <button className="btn btn-ghost btn-sm" onClick={() => setConfirm(null)}>No</button>
-                            </>
-                          ) : (
-                            <button
-                              className="btn btn-ghost btn-sm"
-                              style={{ color: 'var(--wrong)' }}
-                              onClick={() => setConfirm(s.id)}
-                            >
-                              🗑
-                            </button>
-                          )}
+                          <button
+                            className="btn btn-ghost btn-sm"
+                            style={{ color: 'var(--wrong)' }}
+                            onClick={() => handleDelete(s.id)}
+                          >
+                            🗑
+                          </button>
                         </div>
                       </td>
                     </tr>

@@ -239,7 +239,6 @@ export default function Dashboard({ onNavigate }) {
   const [allSessions,   setAllSessions]   = useState(() => storage.getSessions())
   const [stats, setStats] = useState(() => storage.getAggregateStats())
   const [showReset, setShowReset] = useState(false)
-  const [confirmDelete, setConfirmDelete] = useState(null)
   const [confirmDeleteQBank, setConfirmDeleteQBank] = useState(null)
 
   const inProgress = allSessions.filter(s => !s.completed && s.status !== 'completed')
@@ -249,7 +248,6 @@ export default function Dashboard({ onNavigate }) {
 
   function handleDeleteSession(id) {
     storage.deleteSession(id)
-    setConfirmDelete(null)
     refreshData()
   }
 
@@ -360,14 +358,7 @@ export default function Dashboard({ onNavigate }) {
                           <button className="btn btn-primary btn-sm" onClick={() => onNavigate('session', { sessionId: s.id })}>
                             ▶ Resume
                           </button>
-                          {confirmDelete === s.id ? (
-                            <>
-                              <button className="btn btn-danger btn-sm" onClick={() => handleDeleteSession(s.id)}>Yes</button>
-                              <button className="btn btn-ghost btn-sm" onClick={() => setConfirmDelete(null)}>No</button>
-                            </>
-                          ) : (
-                            <button className="btn btn-ghost btn-sm" style={{ color: 'var(--wrong)', padding: '5px 8px' }} onClick={() => setConfirmDelete(s.id)} title="Delete session">✕</button>
-                          )}
+                          <button className="btn btn-ghost btn-sm" style={{ color: 'var(--wrong)', padding: '5px 8px' }} onClick={() => handleDeleteSession(s.id)} title="Delete session">✕</button>
                         </div>
                       </div>
                     )
@@ -420,14 +411,7 @@ export default function Dashboard({ onNavigate }) {
                         <button className="btn btn-ghost btn-sm" onClick={() => onNavigate('analysis', { sessionId: s.id })}>
                           Summary
                         </button>
-                        {confirmDelete === s.id ? (
-                          <>
-                            <button className="btn btn-danger btn-sm" onClick={() => handleDeleteSession(s.id)}>Yes</button>
-                            <button className="btn btn-ghost btn-sm" onClick={() => setConfirmDelete(null)}>No</button>
-                          </>
-                        ) : (
-                          <button className="btn btn-ghost btn-sm" style={{ color: 'var(--wrong)', padding: '5px 8px' }} onClick={() => setConfirmDelete(s.id)} title="Delete session">✕</button>
-                        )}
+                        <button className="btn btn-ghost btn-sm" style={{ color: 'var(--wrong)', padding: '5px 8px' }} onClick={() => handleDeleteSession(s.id)} title="Delete session">✕</button>
                       </div>
                     </div>
                   )
