@@ -1,0 +1,348 @@
+{
+  "config": {
+    "title": "Lippencott Pathology Ch21 (JeffMD Block 5 - Renal)",
+    "subtitle": "Endocrine pathology: pituitary, parathyroid, thyroid, adrenal, and neuroendocrine disorders",
+    "passingFraction": 0.75,
+    "tags": {
+      "endo": {
+        "label": "Endocrine"
+      },
+      "onc": {
+        "label": "Hematology/Oncology"
+      },
+      "renal": {
+        "label": "Renal/Urinary"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Pathophysiology",
+      "stem": "A 60-year-old man with small cell carcinoma of the lung is rushed to the emergency room in a coma after suffering a clonic-tonic seizure. The patient's temperature is 37°C (98.6°F), blood pressure 100/50 mm Hg, and pulse 88 per minute. Laboratory studies show a serum sodium of 103 mmol/L, normal serum levels of BUN and creatinine, and a dilute but otherwise normal urine. A CT scan of the head is normal. Which of the following is the most likely cause of seizures in this patient?",
+      "choices": [
+        "Central diabetes insipidus",
+        "Diabetes mellitus",
+        "Renal metastases",
+        "Sheehan syndrome",
+        "Syndrome of inappropriate ADH secretion"
+      ],
+      "answer": 4,
+      "explanation": "Syndrome of inappropriate ADH secretion (SIADH) is the most likely cause. Inappropriate production of ADH by a tumor causes a paraneoplastic syndrome featuring water retention, water intoxication, and severe hyponatremia (here, Na+ 103 mmol/L) — manifesting as altered mental status, seizures, coma, and sometimes death. SIADH is most often related to small cell carcinoma of the lung, which is the classic paraneoplastic source. The dilute urine here seems paradoxical but reflects severe dilutional hyponatremia — the key is that urine osmolality would be inappropriately elevated relative to the low serum osmolality. Central diabetes insipidus (choice A) causes polyuria and hypernatremia, not hyponatremia. Diabetes mellitus (choice B) may cause polyuria with glucosuria but does not cause severe hyponatremia. Renal metastases (choice C) do not typically cause this electrolyte pattern. Sheehan syndrome (choice D) refers to hypopituitarism from anterior pituitary infarction, not applicable here.",
+      "keypoints": [
+        "⭐ SIADH: inappropriately elevated ADH → water retention → dilutional hyponatremia → seizures/coma; most common cause = small cell lung carcinoma (paraneoplastic)",
+        "SIADH labs: ↓ serum Na+, ↓ serum Osm, urine Osm inappropriately high (>100 mOsm/kg), urine Na+ >40 mEq/L, euvolemic",
+        "Other causes of SIADH: CNS disorders, pulmonary disease, drugs (SSRIs, carbamazepine, cyclophosphamide), pain/stress",
+        "Treatment: fluid restriction (mild); hypertonic saline (severe/symptomatic); vaptans (V2 receptor antagonists) for chronic SIADH"
+      ]
+    },
+    {
+      "id": "q002",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Pathophysiology",
+      "stem": "A 60-year-old woman with small cell carcinoma of the lung notes rounding of her face, upper truncal obesity, and muscle weakness. Physical examination reveals thin, wrinkled skin, abdominal striae, and multiple purpuric skin lesions. The patient's blood pressure is 175/95 mm Hg. Laboratory studies will likely show elevated serum levels of which of the following hormones?",
+      "choices": [
+        "Aldosterone",
+        "Corticotropin",
+        "Epinephrine",
+        "Prolactin",
+        "Thyrotropin"
+      ],
+      "answer": 1,
+      "explanation": "This patient has Cushing syndrome caused by ectopic corticotropin (ACTH) secretion — a classic paraneoplastic syndrome of small cell carcinoma of the lung. The tumor secretes ACTH autonomously, driving bilateral adrenal cortical hyperplasia and excess cortisol production. The major clinical manifestations of hypercortisolism include moon facies, upper truncal obesity (buffalo hump), thin wrinkled skin, abdominal striae, purpura, muscle weakness, hypertension, and glucose intolerance. None of the other hormones — aldosterone (choice A), epinephrine (choice C), prolactin (choice D), or thyrotropin (TSH, choice E) — are associated with this constellation of findings in Cushing syndrome.",
+      "keypoints": [
+        "⭐ Ectopic ACTH syndrome: small cell lung carcinoma secretes ACTH autonomously → bilateral adrenal hyperplasia → hypercortisolism (Cushing syndrome)",
+        "Cushing syndrome features: moon facies, buffalo hump, truncal obesity, striae, thin skin, purpura, hypertension, hyperglycemia, muscle weakness, osteoporosis",
+        "Dexamethasone suppression test: high-dose dexamethasone does NOT suppress cortisol in ectopic ACTH or adrenal tumor; DOES suppress in pituitary adenoma (Cushing disease)",
+        "Most common cause of Cushing syndrome overall = iatrogenic (exogenous corticosteroids); most common endogenous cause = pituitary adenoma (Cushing disease)"
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Pathophysiology",
+      "stem": "A 25-year-old man presents with 3 months of polyuria and increased thirst. The patient suffered trauma to the base of the skull in a motorcycle accident 4 months ago. A 24-hour urine collection shows polyuria but no evidence of hematuria, glucosuria, or proteinuria. The pathogenesis of polyuria in this patient is most likely caused by a lesion in which of the following areas of the brain?",
+      "choices": [
+        "Adenohypophysis",
+        "Brain stem",
+        "Mammillothalamic tract",
+        "Neurohypophysis",
+        "Subthalamic fasciculus"
+      ],
+      "answer": 3,
+      "explanation": "Central diabetes insipidus (DI) may be caused by head trauma that damages the posterior lobe of the pituitary (neurohypophysis) and interrupts secretion of ADH (arginine vasopressin). ADH is synthesized in the hypothalamic supraoptic and paraventricular nuclei and stored in and released from the neurohypophysis. Trauma to the base of the skull can disrupt this pathway, resulting in ADH deficiency, inability to concentrate urine, and therefore polyuria and polydipsia. The absence of glucosuria rules out diabetes mellitus. The anterior pituitary (adenohypophysis, choice A) does not secrete ADH. The brain stem (choice B), mammillothalamic tract (choice C), and subthalamic fasciculus (choice E) are not involved in ADH secretion.",
+      "keypoints": [
+        "⭐ Central DI: damage to neurohypophysis or hypothalamic-pituitary stalk → ↓ ADH → inability to concentrate urine → polyuria + polydipsia + hypernatremia",
+        "Causes of central DI: trauma (base of skull), craniopharyngioma, pituitary surgery, infiltrative disease (sarcoidosis, histiocytosis X), idiopathic",
+        "Central DI labs: ↓ urine Osm (<300 mOsm/kg), ↑ serum Osm, ↑ serum Na+; responds to desmopressin (distinguishes from nephrogenic DI)",
+        "Nephrogenic DI: ADH present but collecting duct unresponsive (e.g., lithium, hypercalcemia, congenital); does NOT respond to desmopressin"
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Diagnosis",
+      "stem": "A 45-year-old woman complains of tingling in her hands and feet, 24 hours after surgery to remove a thyroid follicular carcinoma. Her symptoms rapidly progress to severe muscle cramps, laryngeal stridor, and convulsions. Which of the following laboratory findings would be expected in this patient prior to treatment?",
+      "choices": [
+        "Decreased serum calcium and decreased PTH",
+        "Decreased serum calcium and increased PTH",
+        "Increased serum calcium and decreased PTH",
+        "Increased serum calcium and increased PTH",
+        "Normal serum calcium and decreased PTH"
+      ],
+      "answer": 0,
+      "explanation": "The most common cause of hypoparathyroidism is surgical resection or inadvertent damage to the parathyroid glands as a complication of thyroidectomy. Without PTH, the kidneys cannot reabsorb calcium from the glomerular filtrate and bones cannot be resorbed, leading to hypocalcemia. Hypocalcemia causes increased neuromuscular excitability, manifest as tingling, muscle cramps, laryngeal stridor (Chvostek/Trousseau signs), and convulsions. Both serum calcium AND PTH are low — PTH is low because the glands have been removed, and calcium is low as a consequence. Increased PTH with hypocalcemia (choice B) would indicate secondary hyperparathyroidism (e.g., from renal failure) or pseudohypoparathyroidism. Hypercalcemia with elevated PTH (choice D) indicates primary hyperparathyroidism or parathyroid adenoma.",
+      "keypoints": [
+        "⭐ Post-thyroidectomy hypoparathyroidism: ↓ PTH + ↓ Ca²⁺ → increased neuromuscular excitability → tetany, laryngospasm, seizures",
+        "Chvostek sign: tapping facial nerve → facial twitch; Trousseau sign: BP cuff inflation → carpal spasm — both indicate hypocalcemia",
+        "Treatment: IV calcium gluconate (acute); oral calcium + vitamin D (chronic)",
+        "Distinguish: hypoparathyroidism (↓PTH, ↓Ca²⁺) vs. pseudohypoparathyroidism (↑PTH, ↓Ca²⁺ — end organ unresponsive to PTH)"
+      ]
+    },
+    {
+      "id": "q005",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Diagnosis",
+      "stem": "A 7-week-old infant develops severe dehydration and hypotension and expires. The kidneys and adrenal glands at autopsy show massively enlarged bilateral adrenal glands. Hypovolemic shock in this infant was most likely caused by inadequate synthesis of which of the following hormones?",
+      "choices": [
+        "Aldosterone",
+        "Angiotensin",
+        "Antidiuretic hormone",
+        "Atrial natriuretic factor",
+        "Renin"
+      ],
+      "answer": 0,
+      "explanation": "The autopsy specimen shows massive bilateral adrenal enlargement characteristic of congenital adrenal hyperplasia (CAH). Congenital 21-hydroxylase deficiency is the most common form of CAH (>90% of cases). The 21-hydroxylase enzyme is required for synthesis of both cortisol and aldosterone. When 21-hydroxylase is deficient, aldosterone cannot be synthesized — producing the 'salt-wasting' form of CAH. Hypoaldosteronism develops within the first few weeks of life, causing sodium wasting, volume depletion, dehydration, and potentially fatal hypovolemic shock. Laboratory studies show hyponatremia, hyperkalemia, and elevated renin. Angiotensin (choice B), ADH (choice C), ANF (choice D), and renin (choice E) are not the deficient hormone — in fact, renin is elevated as a compensatory response to hypovolemia.",
+      "keypoints": [
+        "⭐ CAH (21-hydroxylase deficiency, salt-wasting form): ↓ aldosterone + ↓ cortisol → hyponatremia, hyperkalemia, hypovolemic shock in neonates",
+        "21-hydroxylase deficiency: blocked cortisol synthesis → ↑ ACTH → adrenal hyperplasia + androgen excess → virilization in females",
+        "Salt-wasting CAH (2/3 of cases): life-threatening in first weeks; requires urgent glucocorticoid + mineralocorticoid replacement",
+        "Simple virilizing CAH (1/3 of cases): virilization only, no salt wasting; girls present with ambiguous genitalia at birth"
+      ],
+      "image": "/images/path_ch21/lippencott path ch21 q15.png",
+      "imageAlt": "Autopsy specimen showing massively enlarged bilateral adrenal glands characteristic of congenital adrenal hyperplasia",
+      "imageCaption": "Bilateral adrenal enlargement at autopsy — characteristic of congenital adrenal hyperplasia (21-hydroxylase deficiency)"
+    },
+    {
+      "id": "q006",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Diagnosis",
+      "stem": "A 50-year-old woman presents with acute right flank pain of 72 hours in duration. Physical examination is unremarkable. Her temperature is 37°C (98.6°F), blood pressure 140/85 mm Hg, and pulse 85 per minute. A CBC is normal. Urinalysis reveals hematuria and urine cultures are negative. Imaging studies show stones in the right renal pelvis and ureter. This patient's condition may be associated with which of the following endocrine disorders?",
+      "choices": [
+        "Conn syndrome",
+        "Cushing syndrome",
+        "Hyperparathyroidism",
+        "Hyperthyroidism",
+        "Hypoparathyroidism"
+      ],
+      "answer": 2,
+      "explanation": "Primary hyperparathyroidism is the endocrine disorder most strongly associated with nephrolithiasis (kidney stones). Excessive PTH causes increased mobilization of calcium from bone and enhanced calcium reabsorption by the renal tubules, leading to hypercalcemia and hypercalciuria. The excess urinary calcium precipitates as calcium oxalate or calcium phosphate stones. Hypercalcemia also causes hypophosphatemia. Clinical manifestations of primary hyperparathyroidism are remembered as 'bones, stones, groans, and psychic moans' — bone disease, renal stones, GI symptoms, and neuropsychiatric symptoms. Conn syndrome (choice A) causes hypokalemia and hypertension, not stones. Cushing syndrome (choice B) can cause osteoporosis but is not a major cause of nephrolithiasis. Hyperthyroidism (choice D) and hypoparathyroidism (choice E) are not associated with hypercalciuria and stone formation.",
+      "keypoints": [
+        "⭐ Primary hyperparathyroidism: ↑ PTH → ↑ Ca²⁺ + ↑ urinary Ca²⁺ → calcium oxalate/phosphate kidney stones; mnemonic: 'bones, stones, groans, psychic moans'",
+        "Most common cause: parathyroid adenoma (85%); also parathyroid hyperplasia (15%), carcinoma (<1%)",
+        "Other manifestations: osteitis fibrosa cystica (bone cysts/brown tumors), nephrocalcinosis, pancreatitis, peptic ulcer disease, depression",
+        "Labs: ↑ Ca²⁺, ↓ PO₄³⁻, ↑ PTH, ↑ urinary Ca²⁺, ↑ alkaline phosphatase"
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Diagnosis",
+      "stem": "Laboratory evaluation of the patient described in the previous question (50-year-old woman with nephrolithiasis) shows markedly elevated serum levels of calcium and PTH. A CT scan of the neck reveals a 3-cm mass on the posterior surface of the right lobe of the thyroid gland. Microscopic examination of this neck mass would most likely reveal a benign neoplasm derived from which of the following cells?",
+      "choices": [
+        "Chief",
+        "Clear",
+        "Follicular",
+        "Parafollicular",
+        "Oxyphil"
+      ],
+      "answer": 0,
+      "explanation": "Parathyroid adenoma is the cause of 85% of all cases of primary hyperparathyroidism and arises from chief cells of the parathyroid glands. Chief cells are the principal PTH-secreting cells of the parathyroid. On gross examination, a parathyroid adenoma appears as a circumscribed, reddish-brown, solitary mass measuring 1 to 3 cm in diameter (here 3 cm). Microscopically, these tumors show sheets of neoplastic chief cells in a rich capillary network, with a rim of normal parathyroid tissue outside the tumor capsule distinguishing adenoma from hyperplasia. Clear cells (choice B) and oxyphil cells (choice E) are also found in the parathyroid but are not the primary cell type of adenomas. Follicular cells (choice C) are thyroid cells that produce T3/T4. Parafollicular (C) cells (choice D) of the thyroid produce calcitonin.",
+      "keypoints": [
+        "⭐ Parathyroid adenoma: derived from CHIEF cells → ↑ PTH → primary hyperparathyroidism; solitary reddish-brown encapsulated mass with rim of normal tissue outside capsule",
+        "Chief cells secrete PTH; oxyphil cells are metabolically inactive (function unclear); clear cells = glycogen-rich chief cell variant",
+        "Parathyroid adenoma vs. hyperplasia: adenoma = single gland enlarged + rim of normal tissue; hyperplasia = all 4 glands enlarged, no rim",
+        "Parathyroid carcinoma = rare (<1%); presents with very high Ca²⁺ and PTH; palpable neck mass; may invade surrounding tissue"
+      ],
+      "image": "/images/path_ch21/lippencott path ch21 q21.png",
+      "imageAlt": "Gross and cross-sectional views of a parathyroid adenoma — circumscribed reddish-brown mass on the posterior surface of the thyroid",
+      "imageCaption": "Parathyroid adenoma: external and cross-sectional views showing a circumscribed reddish-brown mass composed of neoplastic chief cells"
+    },
+    {
+      "id": "q008",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Diagnosis",
+      "stem": "A 72-year-old woman with a long history of diabetes type 2 presents with abdominal pain. Physical examination reveals neuromuscular weakness and hypertension. Laboratory studies show markedly elevated levels of serum calcium and PTH. A surgical exploration of the patient's neck demonstrates four symmetrically enlarged parathyroid glands. This patient's endocrinopathy may be caused by which of the following underlying disorders?",
+      "choices": [
+        "Adrenal insufficiency",
+        "Chronic liver disease",
+        "Insulin deficiency",
+        "Pituitary adenoma",
+        "Renal insufficiency"
+      ],
+      "answer": 4,
+      "explanation": "Secondary hyperparathyroidism with four symmetrically enlarged parathyroid glands is a classic complication of chronic renal insufficiency. In CKD, retention of phosphate causes hyperphosphatemia, which reciprocally suppresses serum calcium (hypocalcemia). Chronic hypocalcemia drives compensatory hypersecretion of PTH by all four parathyroid glands, leading to secondary parathyroid hyperplasia. This patient's long-standing diabetes type 2 causing diabetic glomerulosclerosis is a major cause of end-stage renal disease in the United States. Occasionally, chronically stimulated parathyroid glands become independently hyperfunctional (tertiary hyperparathyroidism). Adrenal insufficiency (choice A), chronic liver disease (choice B), insulin deficiency (choice C), and pituitary adenoma (choice D) are not associated with hypocalcemia-driven secondary parathyroid hyperplasia.",
+      "keypoints": [
+        "⭐ Secondary hyperparathyroidism: CKD → ↓ 1,25-(OH)₂D₃ + hyperphosphatemia → ↓ Ca²⁺ → compensatory ↑ PTH → all 4 parathyroid glands enlarged (hyperplasia)",
+        "CKD causes ↓ 1α-hydroxylase activity → ↓ active vitamin D → ↓ intestinal Ca²⁺ absorption → worsens hypocalcemia",
+        "Tertiary hyperparathyroidism: autonomously hyperfunctioning parathyroid gland after prolonged secondary hyperparathyroidism (e.g., post-renal transplant)",
+        "Renal osteodystrophy: bone disease from chronic PTH excess in CKD → osteitis fibrosa cystica + osteomalacia + adynamic bone disease"
+      ]
+    },
+    {
+      "id": "q009",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Diagnosis",
+      "stem": "A 55-year-old man who is on dialysis because of end-stage renal disease complains of pain in his jaw and left arm for 6 months. An X-ray of the left arm reveals multiple, small bone cysts and pathologic fractures. What is the appropriate diagnosis for this patient's bone lesions?",
+      "choices": [
+        "Chronic osteomyelitis",
+        "Marble bone disease",
+        "Osteitis fibrosa cystica",
+        "Osteoid osteoma",
+        "Osteoporosis"
+      ],
+      "answer": 2,
+      "explanation": "This patient on dialysis for ESRD has secondary hyperparathyroidism — chronic renal failure causes hyperphosphatemia and hypocalcemia, driving compensatory PTH hypersecretion. Excess PTH causes increased osteoclastic bone resorption. In severe cases, this produces osteitis fibrosa cystica, characterized by severe bone deformities, bone cysts, pathologic fractures, and localized bone swellings called 'brown tumors' (collections of osteoclasts, reactive giant cells, and hemorrhagic debris). Patients present with bone pain and fractures. Chronic osteomyelitis (choice A) is an infectious process, not related to PTH excess. Marble bone disease (osteopetrosis, choice B) is a rare hereditary disorder of osteoclast failure causing dense, brittle bones. Osteoid osteoma (choice D) is a benign bone tumor with nocturnal pain. Osteoporosis (choice E) causes reduced bone density without cysts or brown tumors.",
+      "keypoints": [
+        "⭐ Osteitis fibrosa cystica: severe PTH excess → ↑ osteoclastic resorption → bone cysts + pathologic fractures + 'brown tumors' (hemorrhagic osteoclast-rich lesions)",
+        "Brown tumors = not true tumors; collection of osteoclasts + giant cells + hemosiderin deposits in cystic bone cavities; associated with primary or severe secondary hyperparathyroidism",
+        "ESRD → secondary hyperparathyroidism → renal osteodystrophy; treat with phosphate binders, active vitamin D (calcitriol), cinacalcet",
+        "'Rugger-jersey spine' on X-ray = alternating bands of dense and lucent bone in vertebrae — classic radiographic sign of renal osteodystrophy"
+      ]
+    },
+    {
+      "id": "q010",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Diagnosis",
+      "stem": "A 45-year-old man with a recent history of bizarre behavior is seen by a psychiatrist, who recommends evaluation of his endocrine status. On physical examination, the patient appears moderately obese (BMI = 31 kg/m²), with mild hypertension, facial acne, fat accumulation in the supraclavicular fossae, and a protuberant abdomen. Laboratory studies demonstrate neutrophilic leukocytosis with a decrease in lymphocytes and absence of eosinophils. There is mild hypokalemia and mild metabolic alkalosis. On a 2-hour glucose tolerance test, both the 60- and 120-minute samples had glucose concentrations greater than 200 mg/dL. Laboratory studies show free urinary cortisol of 156 mg per 24 hours (normal = 10 to 100 μg per 24 hours). Which of the following questions would be of most help in establishing a diagnosis?",
+      "choices": [
+        "Are you experiencing muscle weakness?",
+        "Are you experiencing shortness of breath?",
+        "Are you receiving corticosteroids for some other disease?",
+        "Do you have a family history of endocrine neoplasia?",
+        "Have you received recent blood transfusions?"
+      ],
+      "answer": 2,
+      "explanation": "The clinical features of hypercortisolism from any cause are referred to as Cushing syndrome, and the most common cause in the United States is chronic exogenous corticosteroid administration for the treatment of immunologic or inflammatory disorders. In this patient with elevated urinary free cortisol and stigmata of hypercortisolism, the single most important clarifying question is whether he is receiving corticosteroids for another disease. Establishing an iatrogenic cause immediately redirects management and eliminates the need for extensive endocrine workup for endogenous causes (pituitary adenoma, adrenal tumor, ectopic ACTH). Muscle weakness (choice A) is a feature of Cushing syndrome but is nonspecific and would not establish a diagnosis. Shortness of breath (choice B) and blood transfusions (choice E) are irrelevant. Family history of endocrine neoplasia (choice D) would be relevant if MEN were suspected, but not as the first-line distinguishing question.",
+      "keypoints": [
+        "⭐ Most common cause of Cushing syndrome overall = iatrogenic (exogenous corticosteroids); always ask about steroid use first",
+        "Endogenous causes: pituitary adenoma (Cushing disease, 70%) > adrenal adenoma/carcinoma > ectopic ACTH (small cell lung Ca)",
+        "Cushing workup: 24-hr urinary free cortisol + low-dose dexamethasone suppression test → if elevated/not suppressed → high-dose DST or CRH stimulation to localize",
+        "Neutrophilia + lymphopenia + eosinopenia = classic cortisol effect on white cells (cortisol demarginalizes neutrophils, suppresses lymphocytes)"
+      ]
+    },
+    {
+      "id": "q011",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Diagnosis",
+      "stem": "A 42-year-old woman presents with amenorrhea and emotional disturbances. You note upper truncal obesity and suspect Cushing syndrome. Laboratory studies reveal elevated serum levels of corticosteroids that can be lowered by administration of dexamethasone. Which of the following is the most likely cause of hypercortisolism in this patient?",
+      "choices": [
+        "Adrenal cortical adenoma",
+        "Adrenal cortical carcinoma",
+        "Adrenal cortical hyperplasia",
+        "Pheochromocytoma",
+        "Pituitary adenoma"
+      ],
+      "answer": 4,
+      "explanation": "Cushing disease (pituitary-dependent Cushing syndrome) is caused by pituitary corticotrope adenomas that secrete ACTH and cause bilateral adrenal cortical hyperplasia and hypercortisolism. It is five times more frequent than adrenal tumor–related Cushing syndrome. The key distinguishing feature here is that the corticosteroid levels are suppressible by dexamethasone — this is characteristic of ACTH-dependent Cushing disease from a pituitary adenoma, because pituitary corticotropes retain some feedback sensitivity to glucocorticoids. By contrast, adrenal adenoma (choice A) and adrenal carcinoma (choice B) secrete cortisol autonomously and are NOT suppressed by dexamethasone. Adrenal hyperplasia (choice C) is usually secondary to the pituitary tumor. Pheochromocytoma (choice D) secretes catecholamines, not cortisol.",
+      "keypoints": [
+        "⭐ Dexamethasone suppression: suppression of cortisol = pituitary adenoma (Cushing DISEASE); no suppression = adrenal tumor or ectopic ACTH",
+        "Cushing disease = ACTH-dependent (pituitary source); Cushing syndrome = any cause of hypercortisolism",
+        "Pituitary adenoma → bilateral adrenal hyperplasia (both adrenals enlarged due to ACTH drive)",
+        "Adrenal adenoma/carcinoma → unilateral adrenal mass + contralateral adrenal atrophy (suppressed by excess cortisol)"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Pathophysiology",
+      "stem": "A 46-year-old woman with severe asthma presents with increasing weight and back pain for 9 months. The patient is taking corticosteroids for her asthma. An X-ray of the vertebrae will likely reveal which of the following pathologic findings?",
+      "choices": [
+        "Bone infarct",
+        "Dislocation",
+        "Osteomalacia",
+        "Osteomyelitis",
+        "Osteoporosis"
+      ],
+      "answer": 4,
+      "explanation": "Long-term administration of corticosteroids causes increased bone resorption and decreased bone formation, thereby leading to osteoporosis — the most common and clinically significant skeletal complication of chronic corticosteroid use. As many as 20% of patients with Cushing syndrome (including iatrogenic) suffer compression fractures of the vertebrae. Glucocorticoids inhibit osteoblast function, reduce intestinal calcium absorption, increase urinary calcium excretion, and suppress sex hormone production — all contributing to accelerated bone loss. The resulting vertebral compression fractures cause back pain in these patients. Osteomalacia (choice C) reflects inadequate bone mineralization, typically from vitamin D deficiency — not the primary lesion of corticosteroid-induced bone disease. Bone infarct (choice A), dislocation (choice B), and osteomyelitis (choice D) are not related to corticosteroid use.",
+      "keypoints": [
+        "⭐ Corticosteroid-induced osteoporosis: ↓ osteoblast activity + ↑ bone resorption + ↓ Ca²⁺ absorption → vertebral compression fractures; prevent with bisphosphonates + Ca²⁺ + vitamin D",
+        "Glucocorticoid mechanisms of bone loss: inhibit osteoblasts, stimulate osteoclasts (via RANKL), ↓ intestinal Ca²⁺ absorption, ↑ renal Ca²⁺ excretion, ↓ sex hormones",
+        "Distinguish osteoporosis (↓ bone mass, normal mineralization) from osteomalacia (↓ bone mineralization, vitamin D deficiency)",
+        "Fracture prevention in patients on long-term steroids: bisphosphonate (alendronate) + calcium + vitamin D supplementation; measure bone density (DXA)"
+      ]
+    },
+    {
+      "id": "q013",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Diagnosis",
+      "stem": "A 50-year-old man complains of muscle weakness and dizziness of 3 months in duration. His blood pressure is 185/100 mm Hg. Laboratory studies show hypernatremia and hypokalemia. Endocrine studies reveal elevated serum aldosterone and low renin and angiotensin. BUN is 24 mg/dL, and creatinine is 1.2 mg/dL. Endocrinologic studies rule out Cushing syndrome. Which of the following is the most likely cause of hypertension in this patient?",
+      "choices": [
+        "Adrenogenital syndrome",
+        "Chronic adrenal failure",
+        "Chronic renal failure",
+        "Conn syndrome",
+        "Pheochromocytoma"
+      ],
+      "answer": 3,
+      "explanation": "Conn syndrome (primary hyperaldosteronism) reflects inappropriate autonomous secretion of aldosterone by an adrenal adenoma (75% of cases) or hyperplastic adrenal glands. Excess aldosterone acts on the renal collecting duct to increase sodium reabsorption and potassium/hydrogen excretion, producing the classic triad of hypertension, hypernatremia, and hypokalemia. Critically, the renin and angiotensin are LOW — this distinguishes primary aldosteronism from secondary causes (e.g., renal artery stenosis, where renin is elevated). Muscle weakness and fatigue result from hypokalemia-induced skeletal muscle dysfunction. Normal BUN and creatinine exclude chronic renal failure (choice C). Pheochromocytoma (choice E) causes episodic hypertension with elevated catecholamines/metanephrines, not low renin. Adrenogenital syndrome (choice A) involves androgen excess. Chronic adrenal failure (choice B) causes hypotension, not hypertension.",
+      "keypoints": [
+        "⭐ Conn syndrome (primary hyperaldosteronism): ↑ aldosterone + ↓ renin + hypertension + hypokalemia + hypernatremia; most common cause = adrenal adenoma",
+        "Low renin is the key distinguishing feature: primary aldosteronism suppresses the renin-angiotensin axis",
+        "Secondary hyperaldosteronism: ↑ renin + ↑ aldosterone (e.g., renal artery stenosis, CHF, cirrhosis — all have reduced effective arterial volume)",
+        "Diagnosis: aldosterone-to-renin ratio (ARR) >30 is screening test; confirmed by salt loading or fludrocortisone suppression; CT adrenals + adrenal vein sampling"
+      ]
+    },
+    {
+      "id": "q014",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Diagnosis",
+      "stem": "A 34-year-old man complains of sudden attacks of dizziness, blurred vision, and excruciating headaches of 4 months in duration. During one of these attacks, his blood pressure was 180/120 mm Hg. The patient's father had been treated for thyroid cancer about 15 years ago. Laboratory studies show normal serum levels of aldosterone, renin, and angiotensin. A 24-hour urinalysis reveals increased metanephrines. Episodic hypertension in this patient is most likely caused by a tumor in which of the following endocrine organs?",
+      "choices": [
+        "Adrenal",
+        "Kidney",
+        "Parathyroid",
+        "Pituitary",
+        "Thyroid"
+      ],
+      "answer": 0,
+      "explanation": "Pheochromocytoma is a rare tumor of chromaffin cells of the adrenal medulla that secretes catecholamines (epinephrine, norepinephrine). The episodic nature of the hypertension, headaches, diaphoresis, and palpitations is classic for pheochromocytoma. Elevated urinary metanephrines (metabolites of catecholamines) confirm catecholamine excess. Normal aldosterone, renin, and angiotensin exclude renovascular and primary aldosteronism causes. The family history of thyroid cancer suggests a familial cancer syndrome — likely MEN-2A (medullary thyroid carcinoma + pheochromocytoma + hyperparathyroidism), caused by RET proto-oncogene mutation. Extra-adrenal pheochromocytomas are termed paragangliomas. The other choices do not produce episodic hypertension with elevated metanephrines.",
+      "keypoints": [
+        "⭐ Pheochromocytoma: adrenal medulla chromaffin cell tumor → episodic catecholamine release → paroxysmal hypertension + headache + diaphoresis + palpitations ('5 Ps')",
+        "Diagnosis: 24-hr urine metanephrines + catecholamines (most sensitive); plasma free metanephrines also useful; CT/MRI adrenals for localization",
+        "Rule of 10s: 10% bilateral, 10% malignant, 10% extra-adrenal (paraganglioma), 10% familial (MEN-2, VHL, NF1, SDH mutations)",
+        "MEN-2A (Sipple syndrome): medullary thyroid carcinoma + pheochromocytoma + hyperparathyroidism → RET proto-oncogene mutation"
+      ]
+    }
+  ]
+}
