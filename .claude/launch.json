@@ -7,6 +7,13 @@
       "env": { "PATH": "/Users/emmettgrover/.local/node/bin:/usr/bin:/bin" },
       "runtimeArgs": ["/Users/emmettgrover/claudedata/pset project/node_modules/.bin/vite", "--port", "5173", "--strictPort"],
       "port": 5173
+    },
+    {
+      "name": "QBank Preview",
+      "runtimeExecutable": "/Users/emmettgrover/.local/node/bin/node",
+      "env": { "PATH": "/Users/emmettgrover/.local/node/bin:/usr/bin:/bin" },
+      "runtimeArgs": ["/Users/emmettgrover/claudedata/pset project/node_modules/.bin/vite", "preview", "--port", "4173", "--strictPort"],
+      "port": 4173
     }
   ]
 }

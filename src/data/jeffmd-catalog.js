@@ -41,7 +41,7 @@ export const JEFFMD_CATALOG = [
     questionCount: 57,
     tags: ['renal'],
     examLevel: 'step1',
-    version: 2,
+    version: 3,
     addedDate: '2026-03-12',
   },
 ]

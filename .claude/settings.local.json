@@ -21,7 +21,9 @@
       "Bash(npx vite:*)",
       "Bash(npm run:*)",
       "Bash(ls -la \"/Users/emmettgrover/claudedata/pset project/\"*.png \"/Users/emmettgrover/claudedata/pset project/\"*.jpg \"/Users/emmettgrover/claudedata/pset project/public/\"*.png)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(mv \"lippencott_path_ch16_q1.png\" \"lippencott path ch16 q1.png\")",
+      "Bash(mv \"lippencott_path_ch16_q2.png\" \"lippencott path ch16 q2.png\")"
     ]
   }
 }

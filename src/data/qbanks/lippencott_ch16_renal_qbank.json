@@ -41,7 +41,7 @@
         "Results from abnormal metanephric differentiation during embryogenesis",
         "Distinguish from ARPKD (bilateral, no heterotopic tissue) and Wilms tumor (no large cysts)"
       ],
-      "image": "/images/path_ch16/lippencott_path_ch16_q1.png",
+      "image": "/images/path_ch16/lippencott path ch16 q1.png",
       "imageAlt": "Gross pathology specimen showing a multicystic renal mass with variably sized cysts",
       "imageCaption": "Resected multicystic renal mass displaying variably sized cysts \u2014 characteristic of multicystic renal dysplasia"
     },
@@ -67,7 +67,7 @@
         "ARPKD = infants; ADPKD = adults \u2014 key distinction",
         "Symptoms: flank pain, hematuria (blood clots), hypertension, palpable bilateral masses"
       ],
-      "image": "/images/path_ch16/lippencott_path_ch16_q2.png",
+      "image": "/images/path_ch16/lippencott path ch16 q2.png",
       "imageAlt": "Gross pathology showing bilaterally massively enlarged kidneys with numerous cortical cysts",
       "imageCaption": "Surgically resected kidneys demonstrating bilateral massive cystic enlargement consistent with ADPKD"
     },
@@ -210,7 +210,7 @@
         "Amyloid nephropathy presents as nephrotic syndrome and may cause hepatosplenomegaly and cardiac involvement",
         "Distinguish from Kimmelstiel-Wilson (diabetic nodular sclerosis): PAS-positive, Congo red-negative"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q8",
+      "image": "/images/path_ch16/lippencott path ch16 q8.png",
       "imageAlt": "Renal biopsy showing amorphous acellular material expanding the mesangium (amyloid deposition)",
       "imageCaption": "Renal biopsy with amorphous mesangial deposits \u2014 amyloid nephropathy (AL type) in the setting of multiple myeloma"
     },
@@ -305,7 +305,7 @@
         "Outcomes: spontaneous remission ~25%, stable with partial loss of function ~50%, progressive renal failure ~25%",
         "Distinguish from MPGN: MPGN has mesangial proliferation and subendothelial deposits; membranous has no cellularity, subepithelial deposits"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q13",
+      "image": "/images/path_ch16/lippencott path ch16 q13.png",
       "imageAlt": "Direct immunofluorescence for IgG showing granular deposits outlining glomerular capillary loops",
       "imageCaption": "Direct immunofluorescence (IgG): granular peripheral capillary loop deposits \u2014 membranous glomerulopathy"
     },
@@ -446,7 +446,7 @@
         "Steroid-resistant nephrotic syndrome + IV drug use \u2192 think FSGS",
         "FSGS is #1 cause of nephrotic syndrome in adults and most common cause in African Americans; often progresses to ESRD"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q19",
+      "image": "/images/path_ch16/lippencott path ch16 q19.png",
       "imageAlt": "Renal biopsy showing segmental sclerosis obliterating capillary loops in some glomeruli with others appearing normal",
       "imageCaption": "Light microscopy: focal segmental glomerulosclerosis (FSGS) \u2014 segmental capillary loop obliteration by collagen and lipid"
     },
@@ -541,7 +541,7 @@
         "Diffuse proliferative GN = ALL glomeruli involved (e.g., poststreptococcal GN, Class IV lupus)",
         "Pathologic diagnosis 'focal' \u2260 benign \u2014 IgA nephropathy can progress to ESRD"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q23",
+      "image": "/images/path_ch16/lippencott path ch16 q23.png",
       "imageAlt": "Renal biopsy showing mesangial hypercellularity in some glomeruli with others appearing normal",
       "imageCaption": "PAS-stained biopsy showing mesangial cell proliferation in some glomeruli \u2014 focal proliferative GN (IgA nephropathy)"
     },
@@ -567,7 +567,7 @@
         "Compare: Linear IF = anti-GBM (Goodpasture); Mesangial = IgA nephropathy; Granular capillary loop = membranous GN",
         "Hypocomplementemia (\u2193C3) in >90% of cases; C3 normalizes in 6-8 weeks \u2014 key distinguishing feature from MPGN"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q24",
+      "image": "/images/path_ch16/lippencott path ch16 q24.png",
       "imageAlt": "Direct immunofluorescence for C3 showing granular lumpy-bumpy deposits in a glomerulus",
       "imageCaption": "Direct IF for C3: granular 'lumpy-bumpy' subepithelial and subendothelial deposits \u2014 acute poststreptococcal GN"
     },
@@ -639,7 +639,7 @@
         "Class IV: hypocomplementemia (\u2193C3, C4), elevated anti-dsDNA; treatment = mycophenolate + steroids",
         "SLE nephritis 'full house' IF: IgA, IgG, IgM, C3, C1q all positive"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q27",
+      "image": "/images/path_ch16/lippencott path ch16 q27.png",
       "imageAlt": "Renal biopsy showing diffuse endocapillary hypercellularity with wire-loop lesions and thickened capillary walls",
       "imageCaption": "H&E: diffuse proliferative glomerulonephritis with 'wire-loop' lesions \u2014 Class IV lupus nephritis (SLE)"
     },
@@ -665,7 +665,7 @@
         "Linear IF = anti-GBM; Granular IF = immune complex; Pauci-immune (no IF) = ANCA-associated",
         "Treatment: plasmapheresis (remove anti-GBM antibodies) + steroids + cyclophosphamide"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q28",
+      "image": "/images/path_ch16/lippencott path ch16 q28.png",
       "imageAlt": "Direct immunofluorescence for IgG showing linear staining along the glomerular basement membrane",
       "imageCaption": "Direct IF (IgG): linear GBM staining \u2014 anti-GBM antibody disease (Goodpasture syndrome)"
     },
@@ -714,7 +714,7 @@
         ">50% of glomeruli with crescents = rapidly progressive GN; prognosis poor without urgent treatment",
         "Goodpasture: anti-GBM (linear IF) \u2192 crescentic GN + pulmonary hemorrhage; RPGN Type I"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q30",
+      "image": "/images/path_ch16/lippencott path ch16 q30.png",
       "imageAlt": "Renal biopsy showing crescents in the urinary space compressing the glomerular tuft",
       "imageCaption": "H&E: crescentic glomerulonephritis \u2014 cellular crescents filling Bowman's space (Goodpasture syndrome, RPGN)"
     },
@@ -809,7 +809,7 @@
         "Distinguish from nephrosclerosis: nephrosclerosis \u2192 uniformly granular small kidneys; chronic PNA \u2192 coarse, irregular scars",
         "Complications: secondary hypertension, progressive CKD/ESRD"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q34",
+      "image": "/images/path_ch16/lippencott path ch16 q34.png",
       "imageAlt": "Renal biopsy showing tubular atrophy and dilation with eosinophilic hyaline casts resembling thyroid colloid (thyroidization)",
       "imageCaption": "H&E: 'thyroidization' of the kidney \u2014 dilated tubules with colloid-like casts and interstitial fibrosis; chronic pyelonephritis"
     },
@@ -858,7 +858,7 @@
         "Glucosuria in urinalysis + nephrotic syndrome = think diabetic nephropathy first",
         "Distinguish from amyloid: Congo red (+) with apple-green birefringence = amyloid; PAS (+), Congo red (\u2212) = diabetic nodules"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q36",
+      "image": "/images/path_ch16/lippencott path ch16 q36.png",
       "imageAlt": "PAS-stained renal biopsy showing nodular mesangial matrix expansion (Kimmelstiel-Wilson nodules) and GBM thickening",
       "imageCaption": "PAS stain: Kimmelstiel-Wilson nodules \u2014 nodular diabetic glomerulosclerosis with mesangial matrix expansion"
     },
@@ -930,7 +930,7 @@
         "Eosinophiluria (Hansel stain) supports diagnosis but is not always present",
         "Treatment: stop offending drug; steroids if no improvement in 1-2 weeks"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q40",
+      "image": "/images/path_ch16/lippencott path ch16 q40.png",
       "imageAlt": "Renal biopsy showing interstitial infiltrate of T lymphocytes and eosinophils with relative glomerular sparing",
       "imageCaption": "H&E: interstitial T-cell and eosinophil infiltrate \u2014 drug-induced (penicillin) acute tubulointerstitial nephritis"
     },
@@ -956,7 +956,7 @@
         "Presentation: sudden flank pain + hematuria \u00b1 hypertension; painless hematuria in this case",
         "Distinguish from abscess (purulent, infected) and pyelonephritis (cortical scars, not pale infarcts)"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q41",
+      "image": "/images/path_ch16/lippencott path ch16 q41.png",
       "imageAlt": "Gross specimen of kidney showing a pale wedge-shaped peripheral cortical infarct extending to the subcapsular surface",
       "imageCaption": "Gross kidney specimen: pale wedge-shaped cortical infarct \u2014 embolic renal artery occlusion (post-MI)"
     },
@@ -982,7 +982,7 @@
         "Grossly: pale/white cortex bilaterally at autopsy",
         "Prognosis: severe AKI; dialysis required; poor recovery of function"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q42",
+      "image": "/images/path_ch16/lippencott path ch16 q42.png",
       "imageAlt": "Gross autopsy specimen of kidney showing diffuse bilateral cortical pallor/necrosis",
       "imageCaption": "Gross autopsy: bilateral cortical pallor \u2014 bilateral renal cortical necrosis (abruptio placentae, hypovolemic shock)"
     },
@@ -1008,7 +1008,7 @@
         "Muddy brown granular casts in urine = ATN (tubular epithelial cell casts)",
         "ATN phases: oliguric phase (1-2 weeks) \u2192 polyuric phase \u2192 recovery; potentially fully reversible with supportive care"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q44",
+      "image": "/images/path_ch16/lippencott path ch16 q44.png",
       "imageAlt": "Renal biopsy showing necrotic tubular epithelial cells within tubular lumina and enlarged regenerative epithelial cells",
       "imageCaption": "H&E: necrotic tubular cells in lumen with regenerative changes \u2014 ischemic acute tubular necrosis (post-hemorrhagic)"
     },
@@ -1057,7 +1057,7 @@
         "Hyaline arteriolosclerosis = PAS-positive hyaline material in arteriolar walls replacing smooth muscle cells",
         "Malignant nephrosclerosis: severely elevated BP + 'onion-skin' hyperplastic arteriolosclerosis + fibrinoid necrosis"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q45",
+      "image": "/images/path_ch16/lippencott path ch16 q45.png",
       "imageAlt": "Gross kidney specimen showing symmetrically shrunken small kidneys with a uniformly finely granular cortical surface",
       "imageCaption": "Gross specimen: symmetrically small kidneys with uniformly granular surface \u2014 hypertensive nephrosclerosis (benign)"
     },
@@ -1083,7 +1083,7 @@
         "Contrast with ischemic ATN: ischemic = focal tubular necrosis + basement membrane rupture throughout nephron",
         "Fractional excretion of Na (FENa) >2% in ATN; <1% in prerenal AKI (intact tubular function)"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q46",
+      "image": "/images/path_ch16/lippencott path ch16 q46.png",
       "imageAlt": "Renal biopsy showing widespread proximal tubular necrosis with sparing of distal tubules",
       "imageCaption": "H&E: proximal tubular necrosis with distal tubule sparing \u2014 nephrotoxic ATN (heavy metal exposure)"
     },
@@ -1201,7 +1201,7 @@
         "Paraneoplastic syndromes: polycythemia (EPO), hypercalcemia (PTHrP), hypertension (renin), Stauffer syndrome (nonmetastatic hepatic dysfunction)",
         "Spreads to: lungs (cannon-ball metastases), bones, liver, adrenals, brain; invades renal vein and IVC"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q55",
+      "image": "/images/path_ch16/lippencott path ch16 q55.png",
       "imageAlt": "Gross nephrectomy specimen showing a large renal cell carcinoma with golden-yellow and hemorrhagic cut surface",
       "imageCaption": "Nephrectomy specimen: golden-yellow mass with hemorrhage \u2014 renal cell carcinoma (clear cell type) arising from renal tubular epithelium"
     },
@@ -1250,7 +1250,7 @@
         "Associated syndromes: WAGR (WT1 deletion), Beckwith-Wiedemann (WT2/IGF-2, associated with hemihypertrophy)",
         "Excellent prognosis with surgery + chemotherapy \u00b1 radiation; >90% survival for localized disease"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q53",
+      "image": "/images/path_ch16/lippencott path ch16 q53.png",
       "imageAlt": "Gross surgical specimen of a large pediatric renal tumor showing variegated cut surface with hemorrhage and necrosis",
       "imageCaption": "Nephrectomy specimen: large, variegated renal mass \u2014 Wilms tumor (nephroblastoma) with triphasic histology"
     },
@@ -1299,7 +1299,7 @@
         "Calcium oxalate = most common US stone (80%); associated with hypercalciuria, hyperoxaluria, hypocitraturia",
         "Uric acid stones = gout, high cell turnover (leukemia, chemotherapy); radiolucent on plain X-ray"
       ],
-      "image": "/public/images/path ch16/lippencott path ch 16 q59",
+      "image": "/images/path_ch16/lippencott path ch16 q59.png",
       "imageAlt": "Gross specimen of kidney with a large branching staghorn calculus filling the renal pelvis and calyces",
       "imageCaption": "Gross kidney: staghorn calculus filling the entire collecting system \u2014 struvite (infection) stone from urease-producing bacteria"
     },
