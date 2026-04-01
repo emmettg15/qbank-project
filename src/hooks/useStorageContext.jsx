@@ -262,6 +262,16 @@ export function StorageProvider({ user, mode, children }) {
     return catalogImports[catalogId] || null
   }, [catalogImports])
 
+  const deleteCatalogImportAction = useCallback((catalogId) => {
+    setCatalogImports(prev => {
+      const next = { ...prev }
+      delete next[catalogId]
+      return next
+    })
+    local.deleteCatalogImport(catalogId)
+    remoteDo(() => remote.deleteCatalogImport(userId, catalogId))
+  }, [userId, remoteDo])
+
   const setCatalogImportAction = useCallback((catalogId, questionSetId, version) => {
     const entry = {
       questionSetId,
@@ -347,6 +357,7 @@ export function StorageProvider({ user, mode, children }) {
     getCatalogImports: getCatalogImportsCache,
     getCatalogImport: getCatalogImportCache,
     setCatalogImport: setCatalogImportAction,
+    deleteCatalogImport: deleteCatalogImportAction,
 
     // Bulk
     clearAllData: clearAllDataAction,

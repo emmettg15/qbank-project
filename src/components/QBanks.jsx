@@ -3,6 +3,12 @@ import TagBadge from './shared/TagBadge.jsx'
 import SessionConfig from './SessionConfig.jsx'
 import { JEFFMD_CATALOG } from '../data/jeffmd-catalog.js'
 import { useStorage } from '../hooks/useStorage.js'
+import { v4 as uuid } from '../utils/uuid.js'
+
+const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i
+function isValidUuid(str) {
+  return typeof str === 'string' && UUID_RE.test(str)
+}
 
 function formatDate(iso) {
   if (!iso) return '—'
@@ -143,7 +149,7 @@ export default function QBanksPage({ onNavigate }) {
         const existing = storage.getQuestionSet(imp.questionSetId)
         if (existing) {
           existing.questions = data.questions.map(q => ({
-            id: q.id || q.stem?.slice(0, 8),
+            id: (q.id && isValidUuid(q.id)) ? q.id : uuid(),
             stem: q.stem || '',
             lead: q.lead || '',
             choices: q.choices || [],

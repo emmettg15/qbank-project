@@ -223,7 +223,7 @@ export async function saveQuestionSet(userId, qs) {
 
   if (qs.questions && qs.questions.length > 0) {
     const rows = qs.questions.map((q, i) => ({
-      id: q.id || uuid(),
+      id: (q.id && isValidUuid(q.id)) ? q.id : uuid(),
       question_set_id: qs.id,
       user_id: userId,
       sort_order: i,
@@ -363,6 +363,15 @@ export async function getCatalogImports(userId) {
 export async function getCatalogImport(userId, catalogId) {
   const imports = await getCatalogImports(userId)
   return imports[catalogId] || null
+}
+
+export async function deleteCatalogImport(userId, catalogId) {
+  const { error } = await supabase
+    .from('catalog_imports')
+    .delete()
+    .eq('user_id', userId)
+    .eq('catalog_id', catalogId)
+  if (error) throw error
 }
 
 export async function setCatalogImport(userId, catalogId, questionSetId, version) {

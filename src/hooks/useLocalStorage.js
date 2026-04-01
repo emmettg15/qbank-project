@@ -8,6 +8,11 @@
 
 import { v4 as uuid } from '../utils/uuid.js'
 
+const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i
+function isValidUuid(str) {
+  return typeof str === 'string' && UUID_RE.test(str)
+}
+
 const KEYS = {
   sessions:        'qbp_sessions',
   questionSets:    'qbp_question_sets',
@@ -119,7 +124,7 @@ export function importQuestionSet({ title, questions, source = 'upload' }) {
     date: new Date().toISOString(),
     source,
     questions: questions.map(q => ({
-      id: q.id || uuid(),
+      id: (q.id && isValidUuid(q.id)) ? q.id : uuid(),
       stem: q.stem || '',
       lead: q.lead || '',
       choices: q.choices || [],
@@ -202,6 +207,12 @@ export function setCatalogImport(catalogId, questionSetId, version) {
     version,
     importedDate: new Date().toISOString(),
   }
+  save(KEYS.catalogImports, imports)
+}
+
+export function deleteCatalogImport(catalogId) {
+  const imports = getCatalogImports()
+  delete imports[catalogId]
   save(KEYS.catalogImports, imports)
 }
 

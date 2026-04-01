@@ -210,6 +210,27 @@ function ResetModal({ onConfirm, onClose }) {
   )
 }
 
+// ─── Delete QBank Confirmation Modal ──────────────────────────────────────────
+function DeleteQBankModal({ set, onConfirm, onClose }) {
+  return (
+    <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
+      <div className="modal" style={{ maxWidth: 440 }}>
+        <div className="modal-title" style={{ color: 'var(--wrong)' }}>Remove Question Bank?</div>
+        <div style={{ fontSize: 14, marginBottom: 16, lineHeight: 1.6 }}>
+          This will remove <strong>{set.title}</strong> from your available question banks.
+        </div>
+        <div style={{ fontSize: 13, color: 'var(--muted)', marginBottom: 24, padding: '10px 14px', background: 'var(--surface2)', borderRadius: 'var(--radius-sm)' }}>
+          Existing sessions using this question bank will not be deleted. You can re-import it later from the QBanks catalog.
+        </div>
+        <div style={{ display: 'flex', gap: 12, justifyContent: 'flex-end' }}>
+          <button className="btn btn-ghost" onClick={onClose}>Cancel</button>
+          <button className="btn btn-danger" onClick={() => onConfirm(set)}>Remove</button>
+        </div>
+      </div>
+    </div>
+  )
+}
+
 // ─── Dashboard ─────────────────────────────────────────────────────────────────
 export default function Dashboard({ onNavigate }) {
   const storage = useStorage()
@@ -219,6 +240,7 @@ export default function Dashboard({ onNavigate }) {
   const [stats, setStats] = useState(() => storage.getAggregateStats())
   const [showReset, setShowReset] = useState(false)
   const [confirmDelete, setConfirmDelete] = useState(null)
+  const [confirmDeleteQBank, setConfirmDeleteQBank] = useState(null)
 
   const inProgress = allSessions.filter(s => !s.completed && s.status !== 'completed')
     .sort((a, b) => new Date(b.date) - new Date(a.date))
@@ -240,6 +262,20 @@ export default function Dashboard({ onNavigate }) {
   function handleResetConfirm() {
     storage.clearAllData()
     window.location.reload()
+  }
+
+  function handleDeleteQBank(set) {
+    // Clear any catalog import that points to this question set
+    const catalogImports = storage.getCatalogImports()
+    for (const [catalogId, imp] of Object.entries(catalogImports)) {
+      if (imp.questionSetId === set.id) {
+        storage.deleteCatalogImport(catalogId)
+      }
+    }
+    storage.deleteQuestionSet(set.id)
+    setConfirmDeleteQBank(null)
+    // Update local state directly (context cache is stale within same event handler)
+    setExistingSets(prev => prev.filter(s => s.id !== set.id))
   }
 
   function handleParsed(parsed) {
@@ -430,7 +466,15 @@ export default function Dashboard({ onNavigate }) {
                         {set.questions.length} questions · {formatDate(set.date)}
                       </div>
                     </div>
-                    <button className="btn btn-ghost btn-sm" style={{ pointerEvents: 'none' }}>Configure →</button>
+                    <div style={{ display: 'flex', gap: 6, alignItems: 'center', flexShrink: 0 }}>
+                      <button className="btn btn-ghost btn-sm" style={{ pointerEvents: 'none' }}>Configure →</button>
+                      <button
+                        className="btn btn-ghost btn-sm"
+                        style={{ color: 'var(--wrong)', padding: '5px 8px' }}
+                        title="Remove question bank"
+                        onClick={e => { e.stopPropagation(); setConfirmDeleteQBank(set) }}
+                      >✕</button>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -438,6 +482,15 @@ export default function Dashboard({ onNavigate }) {
           )}
         </div>
       </div>
+
+      {/* ── Delete QBank Modal ── */}
+      {confirmDeleteQBank && (
+        <DeleteQBankModal
+          set={confirmDeleteQBank}
+          onConfirm={handleDeleteQBank}
+          onClose={() => setConfirmDeleteQBank(null)}
+        />
+      )}
 
       {/* ── Session Config Modal ── */}
       {configTarget && (
