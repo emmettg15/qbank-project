@@ -36,7 +36,7 @@ export const JEFFMD_CATALOG = [
   },
 {
     catalogId: 'lippencott_ch16_renal_qbank',
-    title: 'Lippencott Path Ch16 - JeffMD Renal Questions',
+    title: 'Lippencott Path Ch16 - Renal (JeffMD)',
     description: 'Pathology questions from Lippencott Ch 16 for block 5/Renal relevant to JeffMD',
     questionCount: 57,
     tags: ['renal'],
@@ -44,4 +44,14 @@ export const JEFFMD_CATALOG = [
     version: 3,
     addedDate: '2026-03-12',
   },
+{
+  catalogId: 'lippencott_ch21_endocrine_qbank',
+  title: 'Lippencott Path Ch21 - Endocrine (JeffMD)',
+  description: 'Endocrine pathology: pituitary, parathyroid, thyroid, adrenal, and neuroendocrine disorders',
+  questionCount: 14,
+  tags: ['endo', 'renal'],
+  examLevel: 'step1',
+  version: 1,
+  addedDate: '2026-04-01',
+},
 ]
