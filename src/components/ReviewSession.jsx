@@ -47,8 +47,29 @@ export default function ReviewSession({ sessionId, onNavigate }) {
     return () => window.removeEventListener('keydown', handleKeydown)
   }, [current, questions.length])
 
-  if (!session || !questions.length) {
+  if (!session) {
     return <div style={{ padding: 40, color: 'var(--muted)' }}>Session not found.</div>
+  }
+
+  if (!questions.length) {
+    return (
+      <div style={{ padding: 40, maxWidth: 500 }}>
+        <div style={{ fontSize: 18, fontWeight: 600, color: 'var(--wrong)', marginBottom: 12 }}>
+          Questions unavailable
+        </div>
+        <div style={{ fontSize: 14, color: 'var(--muted)', lineHeight: 1.6, marginBottom: 20 }}>
+          The question bank for this session is no longer available. This can happen when data fails to sync between devices. Try re-importing the question bank from the QBanks page.
+        </div>
+        <div style={{ display: 'flex', gap: 12 }}>
+          <button className="btn btn-primary" onClick={() => onNavigate('qbanks')}>
+            Go to QBanks
+          </button>
+          <button className="btn btn-ghost" onClick={() => onNavigate('dashboard')}>
+            Dashboard
+          </button>
+        </div>
+      </div>
+    )
   }
 
   const q = questions[current]

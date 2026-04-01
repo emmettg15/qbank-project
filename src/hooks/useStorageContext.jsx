@@ -47,6 +47,65 @@ export function StorageProvider({ user, mode, children }) {
             setMigrationNeeded(true)
           }
 
+          // Merge: recover any local question sets missing from Supabase
+          // (can happen when Supabase write failed, e.g. non-UUID IDs)
+          const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i
+          const remoteSetIds = new Set(qs.map(q => q.id))
+          const allSessions = [...s, ...localSessions]
+          const referencedSetIds = new Set(allSessions.map(sess => sess.questionSetId).filter(Boolean))
+          const missingLocal = localSets.filter(ls =>
+            !remoteSetIds.has(ls.id) && referencedSetIds.has(ls.id)
+          )
+          if (missingLocal.length > 0) {
+            for (const ls of missingLocal) {
+              // Normalize non-UUID question IDs before syncing to Supabase
+              const idMap = {}
+              const normalized = {
+                ...ls,
+                questions: (ls.questions || []).map(q => {
+                  if (q.id && UUID_RE.test(q.id)) return q
+                  const newId = uuid()
+                  idMap[q.id] = newId
+                  return { ...q, id: newId }
+                }),
+              }
+              // Update local storage with normalized IDs
+              local.saveQuestionSet(normalized)
+              // Update any local sessions that reference old question IDs
+              if (Object.keys(idMap).length > 0) {
+                for (const sess of localSessions) {
+                  if (sess.questionSetId === ls.id && sess.questionIds) {
+                    sess.questionIds = sess.questionIds.map(id => idMap[id] || id)
+                    local.saveSession(sess)
+                  }
+                }
+                // Also update remote sessions
+                for (const sess of s) {
+                  if (sess.questionSetId === ls.id && sess.questionIds) {
+                    const remapped = { ...sess, questionIds: sess.questionIds.map(id => idMap[id] || id) }
+                    remote.saveSession(userId, remapped).catch(() => {})
+                  }
+                }
+              }
+              remote.saveQuestionSet(userId, normalized).catch(err =>
+                console.error('Failed to sync local question set to Supabase:', err)
+              )
+              qs = [...qs, normalized]
+            }
+          }
+
+          // Also merge any local sessions missing from Supabase
+          const remoteSessionIds = new Set(s.map(sess => sess.id))
+          const missingSessions = localSessions.filter(ls => !remoteSessionIds.has(ls.id))
+          if (missingSessions.length > 0) {
+            for (const ls of missingSessions) {
+              remote.saveSession(userId, ls).catch(err =>
+                console.error('Failed to sync local session to Supabase:', err)
+              )
+            }
+            s = [...s, ...missingSessions]
+          }
+
           setSessions(s)
           setQuestionSets(qs)
           setQuestionRatings(qr)
