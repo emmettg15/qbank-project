@@ -1,0 +1,26 @@
+Image index for histo_ch15
+========================================
+
+q7: lippincott histo ch15 q7.png
+q8: lippincott histo ch15 q8.png
+q9: lippincott histo ch15 q9.png
+q11: lippincott histo ch15 q11.png
+q12: lippincott histo ch15 q12.png
+q13: lippincott histo ch15 q13.png
+q15: lippincott histo ch15 q15.png
+q16: lippincott histo ch15 q16.png
+q17: lippincott histo ch15 q17.png
+q20: lippincott histo ch15 q20.png
+q21: lippincott histo ch15 q21.png
+q24: lippincott histo ch15 q24.png
+q27: lippincott histo ch15 q27.png
+q30: lippincott histo ch15 q30.png
+q33: lippincott histo ch15 q33.png
+q35: lippincott histo ch15 q35.png
+q37: lippincott histo ch15 q37.png
+q40: lippincott histo ch15 q40.png
+q42: lippincott histo ch15 q42.png
+q47: lippincott histo ch15 q47.png
+q48: lippincott histo ch15 q48.png
+q49: lippincott histo ch15 q49.png
+q50: lippincott histo ch15 q50.png

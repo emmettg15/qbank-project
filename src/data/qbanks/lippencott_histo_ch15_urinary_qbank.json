@@ -1,0 +1,1259 @@
+{
+  "config": {
+    "title": "Lippencott Histology Ch15 (JeffMD Block 5 - Renal)",
+    "subtitle": "Urinary system histology: renal architecture, glomerular filtration barrier, tubular segments, juxtaglomerular apparatus, collecting system, and lower urinary tract",
+    "passingFraction": 0.75,
+    "tags": {
+      "renal": {
+        "label": "Renal/Urinary"
+      },
+      "immuno": {
+        "label": "Immunology/Infectious Disease"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A 46-year-old man presents with excruciating episodic (colicky) pain on the right side, radiating from the flank to his inguinal region. The episodes of pain last about 30 minutes. Imaging studies reveal a urinary stone. Based on the patient's symptoms, the stone most likely lodged in which of the following components of the urinary system?",
+      "choices": [
+        "Major calyx of the kidney",
+        "Renal pelvis",
+        "Ureter",
+        "Urethra",
+        "Urinary bladder"
+      ],
+      "answer": 2,
+      "explanation": "The classic presentation of flank pain radiating to the groin ('loin to groin') with episodic, colicky character is pathognomonic for ureteric colic caused by a stone lodged in the ureter. Large ureteric stones cause painful distention and obstruction as forceful peristaltic contractions of the ureteral smooth muscle attempt to expel the calculus. Stones in the renal pelvis or calyces (choices A, B) typically cause dull flank pain without radiation to the groin. Stones in the bladder (choice E) typically cause suprapubic discomfort and urinary frequency. Stones in the urethra (choice D) cause pain at the site of obstruction and dysuria. The term nephrolithiasis refers to stones in the renal collecting system; urolithiasis refers to stones elsewhere in the urinary tract.",
+      "keypoints": [
+        "⭐ Ureteric stone: colicky flank → groin pain ('loin to groin') = classic ureteral colic from smooth muscle peristaltic contractions against obstruction",
+        "Three common sites of ureteral narrowing where stones lodge: ureteropelvic junction, crossing of iliac vessels, ureterovesical junction",
+        "Treatment: small stones (<5 mm) → conservative (fluids, NSAIDs, alpha-blockers); larger stones → lithotripsy or ureteroscopy",
+        "Nephrolithiasis = stones in kidney collecting system; urolithiasis = stones anywhere in urinary tract"
+      ]
+    },
+    {
+      "id": "q002",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "A 56-year-old woman with a history of chronic renal disease complains of bone and joint pain. Laboratory studies reveal hypocalcemia and vitamin D3 deficiency. Which of the following describes the most likely reason for vitamin D3 deficiency in this patient?",
+      "choices": [
+        "Excessive urinary loss of calcitriol (vitamin D3)",
+        "Inability to excrete serum phosphate",
+        "Inadequate hydroxylation of calcidiol (vitamin D2)",
+        "Insufficient supply of vitamin D in the diet",
+        "Lack of adequate exposure to sunshine"
+      ],
+      "answer": 2,
+      "explanation": "The kidney functions as a critical endocrine organ by performing the final and rate-limiting hydroxylation step in vitamin D activation. Inactive vitamin D from diet or sun-exposed skin undergoes initial hydroxylation in the liver to form 25-OH vitamin D2 (calcidiol). Calcidiol is then converted in the kidney by 1α-hydroxylase to 1,25-(OH)2 vitamin D3 (calcitriol) — the biologically active form required for intestinal calcium and phosphate absorption. In chronic renal disease, loss of functional renal parenchyma reduces 1α-hydroxylase activity, impairing this final hydroxylation step and producing calcitriol deficiency despite adequate dietary intake or sun exposure. This leads to hypocalcemia, secondary hyperparathyroidism, and renal osteodystrophy.",
+      "keypoints": [
+        "⭐ Vitamin D activation: skin/diet → liver (25-hydroxylation → calcidiol) → kidney (1α-hydroxylation → calcitriol/D3); CKD blocks the renal step",
+        "CKD → ↓ 1α-hydroxylase → ↓ calcitriol → ↓ intestinal Ca²⁺ absorption → hypocalcemia → secondary hyperparathyroidism",
+        "Treatment of CKD-related vitamin D deficiency: calcitriol (active form) supplementation, not regular vitamin D",
+        "Rickets (children) and osteomalacia (adults) = inadequate bone mineralization from vitamin D deficiency"
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "A 68-year-old diabetic man with chronic kidney disease complains of weakness and fatigue. Physical examination reveals marked pallor. The CBC reveals a normocytic anemia. Which of the following best describes the pathogenesis of anemia in this patient?",
+      "choices": [
+        "Chronic blood loss via the urine (hematuria)",
+        "Decreased serum levels of erythropoietin",
+        "Inadequate supply of iron in the diet",
+        "Increased destruction of circulating red blood cells",
+        "Loss of erythrocyte progenitor cells from the bone marrow"
+      ],
+      "answer": 1,
+      "explanation": "Erythropoietin (EPO) is a 34-kDa glycoprotein hormone secreted by peritubular capillary endothelial cells (interstitial fibroblast-like cells) of the renal cortex in response to hypoxia. EPO binds receptors on erythroid progenitor cells in the bone marrow, inhibiting apoptosis and stimulating proliferation to increase RBC production. In chronic kidney disease, progressive loss of functional renal parenchyma reduces EPO secretion, leading to normocytic normochromic anemia — one of the hallmarks of CKD. This is not due to iron deficiency (choice C), hemolysis (choice D), or bone marrow failure (choice E); the deficiency is specifically in the hormonal signal from the diseased kidney.",
+      "keypoints": [
+        "⭐ CKD anemia: ↓ EPO from damaged peritubular interstitial cells → normocytic normochromic anemia; treat with recombinant EPO (epoetin alfa, darbepoetin)",
+        "EPO produced by peritubular interstitial cells of renal cortex (NOT JG cells, NOT podocytes)",
+        "Anemia of CKD = normocytic, normochromic; distinguish from iron-deficiency (microcytic) or B12/folate deficiency (macrocytic)",
+        "Target Hgb with EPO therapy: 10-11 g/dL (avoid >13 g/dL — increased cardiovascular risk)"
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Which of the following terms best describes the basic structural and functional unit of the kidney that filters the blood and produces urine?",
+      "choices": [
+        "Cortical labyrinth",
+        "Nephron",
+        "Renal column",
+        "Renal lobule",
+        "Renal pyramid"
+      ],
+      "answer": 1,
+      "explanation": "The nephron is the basic structural and functional unit of urine production. Each kidney contains 1 to 2 million nephrons. A nephron consists of: (1) renal corpuscle (glomerulus + Bowman capsule), (2) proximal convoluted tubule, (3) thin and thick limbs of the loop of Henle, (4) distal convoluted tubule, and (5) collecting tubule. The cortical labyrinth (choice A) refers to cortical regions containing glomeruli and convoluted tubules. Renal columns (choice C) are cortical extensions between pyramids. Renal lobules (choice D) are groups of nephrons draining to a single collecting duct. Renal pyramids (choice E) are medullary conical structures housing the straight tubular segments.",
+      "keypoints": [
+        "⭐ Nephron = basic functional unit; 1-2 million per kidney; begins at renal corpuscle → PCT → loop of Henle → DCT → collecting tubule",
+        "Cortical nephrons: short loops of Henle; juxtamedullary nephrons: long loops extending deep into medulla — critical for concentrating urine",
+        "Collecting tubules from several nephrons → collecting duct → minor calyx → major calyx → renal pelvis → ureter",
+        "Each nephron is independently capable of filtration, reabsorption, and secretion"
+      ]
+    },
+    {
+      "id": "q005",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "You are asked to give a lecture on the development of the urinary system as part of a first-year anatomy course. The collecting ducts and major/minor calyces in the adult kidney are derived from which of the following structures during embryonic and fetal development?",
+      "choices": [
+        "Mesonephric duct",
+        "Mesonephric tubules",
+        "Metanephric blastema",
+        "Paramesonephric duct",
+        "Ureteric bud"
+      ],
+      "answer": 4,
+      "explanation": "The collecting system of the kidney — including collecting ducts, minor calyces, major calyces, renal pelvis, and ureter — is derived entirely from the ureteric bud, a diverticulum that arises from the mesonephric duct. The ureteric bud undergoes extensive branching morphogenesis driven by signaling interactions with the adjacent metanephric blastema. The nephrons themselves (glomeruli, PCT, loop of Henle, DCT) are derived from the metanephric blastema (choice C) through mesenchymal-to-epithelial transitions. Mesonephric ducts and tubules (choices A, B) give rise to male genital excretory ducts. The paramesonephric (Müllerian) duct (choice D) gives rise to the uterine tubes and uterus in females.",
+      "keypoints": [
+        "⭐ Ureteric bud → collecting ducts, minor/major calyces, renal pelvis, ureter; Metanephric blastema → nephrons (glomerulus through DCT)",
+        "Ureteric bud-blastema interaction: GDNF (from blastema) → RET receptor (on ureteric bud) → branching morphogenesis",
+        "Failure of ureteric bud to interact with blastema → renal agenesis; abnormal branching → multicystic dysplastic kidney",
+        "Mesonephric duct remnants in males → epididymis, vas deferens, seminal vesicles, ejaculatory duct"
+      ]
+    },
+    {
+      "id": "q006",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "During your lecture, a student asks about the significance of urine production during intrauterine development. Which of the following is the most important function of the kidneys during embryonic and fetal life?",
+      "choices": [
+        "Generation of amniotic fluid",
+        "Maintenance of electrolyte balance",
+        "Regulation of blood pH",
+        "Regulation of fetal blood pressure",
+        "Removal of nitrogenous waste (blood urea nitrogen)"
+      ],
+      "answer": 0,
+      "explanation": "After the 9th week of gestation, fetal kidneys begin producing urine that enters the amniotic cavity, making an essential contribution to amniotic fluid volume after 16 weeks. Amniotic fluid serves critical functions: protection of the embryo/fetus, regulation of fluid/electrolyte homeostasis, and provision of space for symmetric growth. Oligohydramnios (decreased amniotic fluid) from bilateral renal agenesis (Potter sequence) causes fetal limb deformities and pulmonary hypoplasia. The fetal kidney is not essential for filtering blood in utero — the placenta regulates gas exchange, nutrients, electrolytes, and metabolic waste between fetus and mother (making choices B, C, D, and E incorrect).",
+      "keypoints": [
+        "⭐ Fetal kidney primary function: generate amniotic fluid (not waste filtration — placenta handles that)",
+        "Potter sequence: bilateral renal agenesis → oligohydramnios → pulmonary hypoplasia + limb deformities + characteristic facies",
+        "Polyhydramnios (excess amniotic fluid): suggests esophageal atresia or other swallowing impairment (fetus cannot swallow amniotic fluid normally)",
+        "Fetal kidneys begin producing urine at week 9-10; urine is the main source of amniotic fluid after week 16"
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A section of the kidney obtained at autopsy is examined by light microscopy. Identify the zone/region indicated by the double arrow.",
+      "choices": [
+        "Capsule",
+        "Cortex",
+        "Medulla",
+        "Medullary ray",
+        "Pyramid"
+      ],
+      "answer": 1,
+      "explanation": "The cortex is the outer zone of the kidney, identifiable histologically by the presence of renal corpuscles (glomeruli within Bowman capsules) and their associated convoluted tubules. In living tissue, the cortex appears reddish-brown because it receives 90–95% of renal blood flow. Medullary rays (choice D) are parallel striations within the cortex consisting of straight tubules and collecting ducts radiating from the medulla. The medulla (choice C) is the inner zone composed of straight tubules, collecting ducts, and capillary plexuses organized into cone-shaped pyramids (choice E). The capsule (choice A) is the dense connective tissue covering on the outer surface of the kidney.",
+      "keypoints": [
+        "⭐ Renal cortex histology: renal corpuscles (glomeruli + Bowman capsule) + convoluted tubules — key identifying features",
+        "Cortex receives 90-95% of renal blood flow; receives blood from interlobular arteries → afferent arterioles → glomeruli",
+        "Medullary rays = straight segments (proximal/distal straight tubules + collecting ducts) extending from medulla into cortex",
+        "Cortical labyrinth = cortex between medullary rays; contains renal corpuscles and convoluted tubules"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q7.png",
+      "imageAlt": "Light micrograph of kidney section showing cortex (double arrow) and medulla",
+      "imageCaption": "Low-power H&E section of kidney showing the cortex (double arrow) — identified by the presence of renal corpuscles and convoluted tubules — and the adjacent medulla"
+    },
+    {
+      "id": "q008",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Another section of the kidney is examined at high magnification. Identify the layer/region indicated by the double arrow.",
+      "choices": [
+        "Capsule",
+        "Cortex",
+        "Parietal peritoneum",
+        "Perirenal fat",
+        "Visceral peritoneum"
+      ],
+      "answer": 0,
+      "explanation": "The kidney is covered by a dense connective tissue capsule. Two distinct layers are visible at high magnification: an outer layer of typical dense connective tissue composed of collagen fiber bundles and fibroblasts, and an inner, more cellular layer rich in myofibroblasts that express nonmuscle myosin and demonstrate contractility. The fibrous capsule continues to the hilum and coats the outer wall of the renal pelvis. The kidneys are retroperitoneal organs and therefore are not covered by parietal or visceral peritoneum (choices C, E). Rather, they are surrounded by perirenal fat (Gerota's fascia, choice D) outside the capsule.",
+      "keypoints": [
+        "⭐ Renal capsule: dense connective tissue; outer = collagen + fibroblasts; inner = myofibroblasts (contractile)",
+        "Retroperitoneal organs (SADPUCKER): Suprarenal glands, Aorta/IVC, Duodenum (2nd-4th), Pancreas (body/tail), Ureters, Colon (ascending/descending), Kidneys, Esophagus (thoracic), Rectum",
+        "Gerota's fascia = perirenal fascia enclosing kidney + adrenal in perirenal fat; important in renal cell carcinoma staging",
+        "Renal capsule is stripped easily from a normal kidney but adherent in chronic pyelonephritis"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q8.png",
+      "imageAlt": "High-magnification micrograph of kidney section showing the renal capsule (double arrow)",
+      "imageCaption": "High-magnification H&E section showing the dense connective tissue renal capsule (double arrow) with its outer collagenous layer and inner myofibroblastic layer overlying the cortex"
+    },
+    {
+      "id": "q009",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A 67-year-old man is found to have blood in his urine during a routine checkup. A CT scan reveals a renal mass that is subsequently removed. Microscopic examination of the surgical specimen reveals normal tissue along the tumor margin. Identify the region/zone indicated by the double arrow.",
+      "choices": [
+        "Column",
+        "Cortex",
+        "Lobe",
+        "Lobule",
+        "Medulla"
+      ],
+      "answer": 4,
+      "explanation": "The medulla is the innermost zone of the kidney, composed of straight tubules (thick descending and ascending limbs of the loop of Henle), medullary collecting ducts, and associated capillary plexuses (vasa recta). In humans, the medulla is organized into multiple cone-shaped renal pyramids, with the broad base of each pyramid associated with the cortex and the apex (renal papilla) projecting internally. Renal columns (choice A) are extensions of cortex that penetrate into the medulla and separate adjacent pyramids. A lobe (choice C) consists of one renal pyramid with its overlying cortex. A lobule (choice D) consists of nephrons draining to a single collecting duct, with a medullary ray at its center.",
+      "keypoints": [
+        "⭐ Renal medulla: inner zone; straight tubules + collecting ducts + vasa recta; organized into pyramids with apices forming renal papillae",
+        "Renal papilla = apex of medullary pyramid; projects into minor calyx; papillary ducts of Bellini open here",
+        "Renal column = cortical tissue between pyramids; contains interlobar arteries and veins",
+        "Lobe = one pyramid + overlying cortex + adjacent columns (kidneys have ~12 lobes)"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q9.png",
+      "imageAlt": "Low-power micrograph of resected kidney showing medulla (double arrow) and minor calyx (asterisk)",
+      "imageCaption": "Surgical specimen of kidney showing the medulla (double arrow) — composed of straight tubules and collecting ducts — and the open space of the minor calyx (asterisk)"
+    },
+    {
+      "id": "q010",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "For the surgical specimen shown in the previous question (67-year-old man with renal mass), identify the open space indicated by the asterisk.",
+      "choices": [
+        "Collecting duct",
+        "Major calyx",
+        "Minor calyx",
+        "Renal pelvis",
+        "Renal sinus"
+      ],
+      "answer": 2,
+      "explanation": "In the medulla of the kidney, renal papillae project into small cup-like chambers called minor calyces. Urine is excreted from the tips of the renal papillae (through the papillary ducts of Bellini) into the minor calyces, which are the first extrarenal duct structures. Two to three minor calyces combine to form a major calyx (choice B). The major calyces are continuous with the renal pelvis (choice D), which is the upper expanded portion of the ureter. The renal sinus (choice E) is the fatty space at the hilum that contains the renal pelvis, calices, blood vessels, lymphatics, and nerves.",
+      "keypoints": [
+        "⭐ Urine flow: papillary ducts of Bellini → minor calyx → major calyx → renal pelvis → ureter → bladder",
+        "Minor calyces: cup-shaped; surround renal papillae; 8-18 per kidney",
+        "Major calyces: formed by 2-3 minor calyces; typically 2-3 major calyces per kidney",
+        "Hydronephrosis: dilation of calyces and renal pelvis from obstruction → progressive parenchymal atrophy"
+      ]
+    },
+    {
+      "id": "q011",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "The cortical region of a kidney biopsy is examined in the pathology department. Which of the following terms best describes the regions of the cortex that are visible within the rectangular boxes shown in the image?",
+      "choices": [
+        "Cortical labyrinths",
+        "Lobes",
+        "Lobules",
+        "Medullary rays",
+        "Renal pyramids"
+      ],
+      "answer": 3,
+      "explanation": "Medullary rays represent parallel striations in the renal cortex that radiate from the medulla toward the surface of the kidney. They consist of parallel arrays of straight tubules (proximal and distal straight tubules) and cortical collecting ducts. Cortical labyrinths (choice A) are the cortical regions that lie between adjacent medullary rays, and contain renal corpuscles and convoluted tubules. Renal pyramids (choice E) are found in the medulla, not the cortex. Lobes (choice B) are much larger structures. Lobules (choice C) are organizational units centered on a single collecting duct with its medullary ray as the central axis.",
+      "keypoints": [
+        "⭐ Medullary rays: parallel striations in cortex; contain straight tubules (proximal/distal straight tubules) + cortical collecting ducts radiating from medulla",
+        "Cortical labyrinth: cortex BETWEEN medullary rays; contains renal corpuscles + convoluted tubules (PCT and DCT)",
+        "Lobule = medullary ray (central axis) + surrounding cortical labyrinth; bounded by interlobular arteries",
+        "On low-power microscopy: alternating pale striations (medullary rays) and darker regions (cortical labyrinths) give cortex its characteristic texture"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q11.png",
+      "imageAlt": "Low-power micrograph of renal cortex showing medullary rays (rectangular boxes) alternating with cortical labyrinths",
+      "imageCaption": "Kidney cortex showing medullary rays (within rectangular boxes) — pale striations of straight tubules and collecting ducts — alternating with darker cortical labyrinths containing renal corpuscles"
+    },
+    {
+      "id": "q012",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Sections of the renal biopsy described in the previous question are prepared using the Gomori trichrome stain. Which of the following terms best describes the region of the cortex that lies between the lines shown in the image?",
+      "choices": [
+        "Cortical labyrinth",
+        "Lobe",
+        "Lobule",
+        "Medullary ray",
+        "Renal pyramid"
+      ],
+      "answer": 2,
+      "explanation": "A renal lobule consists of multiple nephrons that drain to a single collecting duct. On trichrome-stained sections, lobule boundaries are demarcated by ascending interlobular arteries. The medullary ray forms the central axis of each lobule, while cortical labyrinths form its lateral borders. The boundaries between adjacent lobules are not obvious, because intervening septa are absent. A renal lobe (choice B) is much larger, consisting of a single renal pyramid (with flanking columns) and its overlying cortex. Cortical labyrinth (choice A) refers to the cortex between medullary rays. Medullary ray (choice D) is the central axis of a lobule.",
+      "keypoints": [
+        "⭐ Renal lobule: multiple nephrons draining to ONE collecting duct; medullary ray = central axis; cortical labyrinth = lateral borders; bounded by interlobular arteries",
+        "Renal lobe vs. lobule: LOBE = one pyramid + overlying cortex (bounded by interlobar vessels); LOBULE = one collecting duct territory (bounded by interlobular arteries)",
+        "Trichrome stain highlights collagen (blue/green), muscle (red), and cell nuclei — excellent for basement membranes and connective tissue framework",
+        "Interlobular arteries branch at right angles from arcuate arteries and travel through cortex toward renal surface — mark lobule boundaries"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q12.png",
+      "imageAlt": "Gomori trichrome-stained kidney cortex showing a renal lobule between two lines demarcated by interlobular arteries",
+      "imageCaption": "Trichrome-stained renal cortex showing a lobule (between lines) with its central medullary ray axis and flanking cortical labyrinths, bounded by interlobular arteries"
+    },
+    {
+      "id": "q013",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A renal biopsy is examined for pathologic changes. Identify the normal artery indicated by the arrow.",
+      "choices": [
+        "Afferent arteriole",
+        "Arcuate",
+        "Efferent arteriole",
+        "Interlobar",
+        "Interlobular"
+      ],
+      "answer": 4,
+      "explanation": "Interlobular arteries arise from arcuate arteries at right angles and travel through the cortex toward the surface of the kidney. They form the boundaries of renal lobules and give rise to afferent arterioles that enter renal corpuscles. The renal arterial hierarchy is: renal artery → segmental arteries → interlobar arteries (travel between pyramids) → arcuate arteries (arc along corticomedullary junction) → interlobular arteries (travel through cortex) → afferent arterioles → glomerular capillaries → efferent arterioles → peritubular capillaries or vasa recta.",
+      "keypoints": [
+        "⭐ Renal arterial hierarchy: renal a. → segmental → interlobar (between pyramids) → arcuate (corticomedullary junction) → interlobular (through cortex) → afferent arterioles → glomeruli",
+        "Afferent arterioles: branch from interlobular arteries; enter Bowman capsule to form glomerulus",
+        "Efferent arterioles: exit glomerulus; cortical nephrons → peritubular capillaries; juxtamedullary nephrons → vasa recta",
+        "Arcuate arteries: run along corticomedullary junction, giving rise to interlobular arteries perpendicular to their course"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q13.png",
+      "imageAlt": "H&E-stained renal biopsy with arrow indicating an interlobular artery in the cortex",
+      "imageCaption": "Renal cortex biopsy showing an interlobular artery (arrow) traveling perpendicular to the renal surface between glomeruli and tubules"
+    },
+    {
+      "id": "q014",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "You are asked to provide a brief overview of the anatomy and physiology of the kidney. Which of the following anatomic terms best describes the initial portion of a nephron?",
+      "choices": [
+        "Collecting tubule",
+        "Distal convoluted tubule",
+        "Loop of Henle",
+        "Proximal convoluted tubule",
+        "Renal corpuscle"
+      ],
+      "answer": 4,
+      "explanation": "Each nephron begins as a spherical structure called the renal corpuscle, which contains the filtration apparatus that produces primary urine (glomerular ultrafiltrate). The renal corpuscle consists of the glomerulus (a specialized capillary tuft) and its surrounding Bowman capsule. Primary urine produced in the renal corpuscle then passes sequentially through the proximal convoluted tubule → proximal straight tubule (thick descending limb) → thin descending limb → thin ascending limb → thick ascending limb (distal straight tubule) → distal convoluted tubule → collecting tubule → collecting duct. The collecting tubule (choice A) is the final portion of the nephron, not the initial portion.",
+      "keypoints": [
+        "⭐ Nephron begins at RENAL CORPUSCLE (glomerulus + Bowman capsule) → PCT → loop of Henle → DCT → collecting tubule",
+        "Glomerular filtration rate (GFR): ~125 mL/min (~180 L/day filtered); only 1-2 L excreted as urine",
+        "Renal corpuscle has two poles: vascular pole (afferent/efferent arterioles) and urinary pole (PCT begins here)",
+        "Bowman capsule: parietal layer (simple squamous) + urinary space + visceral layer (podocytes)"
+      ]
+    },
+    {
+      "id": "q015",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A 59-year-old woman presents with painless hematuria. A CT scan reveals a renal mass that is subsequently removed. Microscopic examination of the surgical specimen reveals normal tissue along the tumor margin. Identify the structure within the circle.",
+      "choices": [
+        "Collecting duct",
+        "Glomerulus",
+        "Nephron",
+        "Proximal convoluted tubule",
+        "Renal corpuscle"
+      ],
+      "answer": 4,
+      "explanation": "The circled structure is a renal corpuscle — the blood-filtering unit of the kidney. It consists of a double-layered cellular sac (Bowman capsule) surrounding the glomerular capillary tuft. The glomerulus (choice B) refers specifically to the capillary tuft within the Bowman capsule, while the renal corpuscle refers to the complete structure: glomerulus plus Bowman capsule. The parietal layer of the Bowman capsule (indicated by arrowheads in the image) separates the corpuscle from surrounding connective tissue. The urinary space between the parietal and visceral layers receives the glomerular ultrafiltrate. The renal corpuscle is not the same as a nephron (choice C), which encompasses all tubular components as well.",
+      "keypoints": [
+        "⭐ Renal corpuscle = glomerulus (capillary tuft) + Bowman capsule; contains the glomerular filtration apparatus",
+        "Glomerulus alone = capillary tuft only; renal corpuscle = entire filtration unit including Bowman capsule",
+        "Urinary space: between parietal and visceral layers of Bowman capsule; receives primary urine → flows to PCT at urinary pole",
+        "Parietal layer = simple squamous epithelium; visceral layer = podocytes (specialized visceral epithelial cells)"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q15.png",
+      "imageAlt": "H&E micrograph of renal cortex showing a renal corpuscle within the circle",
+      "imageCaption": "H&E section of renal cortex showing a renal corpuscle (circled) consisting of the glomerular capillary tuft surrounded by the Bowman capsule, with the parietal layer (arrowheads) visible"
+    },
+    {
+      "id": "q016",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Sections of the specimen described in the previous question are stained with Gomori trichrome to highlight basement membrane proteins in blue and cell nuclei in red. A normal renal corpuscle is examined along with several medical students at a multiheaded microscope. Identify the area within the oval.",
+      "choices": [
+        "Distal convoluted tubule",
+        "Proximal convoluted tubule",
+        "Urinary pole of the Bowman capsule",
+        "Urinary space",
+        "Vascular pole of the Bowman capsule"
+      ],
+      "answer": 2,
+      "explanation": "The urinary space between the parietal and visceral layers of the Bowman capsule is continuous with the proximal convoluted tubule at the urinary pole. The urinary pole is the site where the PCT begins — there is an area of open communication between the urinary space and the proximal tubule visible in this image. The vascular pole (choice E) is located on the opposite side of the renal corpuscle, where afferent and efferent arterioles enter and exit. The urinary space (choice D) is the open area between the parietal and visceral layers of Bowman capsule, not the pole itself. The DCT (choice A) and PCT (choice B) are tubular structures outside the renal corpuscle.",
+      "keypoints": [
+        "⭐ Renal corpuscle poles: VASCULAR pole = afferent/efferent arterioles enter/exit; URINARY pole = where PCT begins, ultrafiltrate exits",
+        "Urinary pole: parietal epithelium transitions to PCT cuboidal epithelium — site of open communication between urinary space and tubule",
+        "JGA (juxtaglomerular apparatus) is located at the VASCULAR pole: JG cells (afferent arteriole) + macula densa (DCT) + extraglomerular mesangial cells",
+        "Trichrome stain: blue = GBM and basement membranes; red = cell nuclei and muscle; allows clear visualization of filtration barrier components"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q16.png",
+      "imageAlt": "Gomori trichrome-stained renal corpuscle showing the urinary pole (oval) where the proximal convoluted tubule begins",
+      "imageCaption": "Trichrome-stained renal corpuscle with the urinary pole (oval) — the area of open communication between the urinary space and the beginning of the proximal convoluted tubule; GBMs are highlighted in blue"
+    },
+    {
+      "id": "q017",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Another glomerulus from the section described in the previous question is examined at higher magnification. The asterisks indicate glomerular capillary loops. Which of the following histologic features best characterizes these blood vessels?",
+      "choices": [
+        "Continuous capillaries lacking fenestrations",
+        "Continuous capillaries with discontinuous basement membranes",
+        "Discontinuous capillaries with fenestrations covered by diaphragms",
+        "Discontinuous capillaries with fenestrations lacking diaphragms",
+        "Sinusoidal capillaries with discontinuous basement membranes"
+      ],
+      "answer": 3,
+      "explanation": "Glomerular capillaries are fenestrated capillaries with perforations (fenestrae) approximately 60–100 nm in diameter through the very thin endothelial cells — larger and more numerous than fenestrations in other tissues. Critically, glomerular capillary fenestrations LACK intervening diaphragms (unlike fenestrated capillaries elsewhere such as in endocrine glands), which expands the size range of molecules that can pass from the vascular space into the urinary space. They rest on a continuous, thick glomerular basement membrane (GBM). This combination of fenestrated endothelium (no diaphragm) + thick GBM + podocyte slit diaphragms forms the glomerular filtration barrier.",
+      "keypoints": [
+        "⭐ Glomerular capillaries: fenestrated endothelium WITHOUT diaphragms + continuous thick GBM + podocytes with slit diaphragms = 3-layer filtration barrier",
+        "Fenestrae 60-100 nm diameter; no diaphragm = allows free passage of water and small solutes up to ~8 nm",
+        "Compare: fenestrated WITH diaphragm = endocrine glands, intestinal villi, kidney peritubular capillaries",
+        "Compare: sinusoidal (discontinuous) = liver, spleen, bone marrow — large gaps in both endothelium and BM"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q17.png",
+      "imageAlt": "High-magnification trichrome-stained glomerulus showing capillary loops (asterisks), GBMs (arrows), and podocyte nuclei (arrowheads)",
+      "imageCaption": "High-magnification trichrome-stained glomerulus: capillary loops (asterisks) with fenestrated endothelium lacking diaphragms; GBMs highlighted in blue (arrows); podocyte nuclei protruding into urinary space (arrowheads)"
+    },
+    {
+      "id": "q018",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "For the image shown in the previous question, identify the wavy blue lines indicated by the arrows.",
+      "choices": [
+        "Glomerular basement membranes",
+        "Glomerular endothelial cells",
+        "Mesangial cells",
+        "Parietal epithelial cells",
+        "Visceral epithelial cells"
+      ],
+      "answer": 0,
+      "explanation": "The wavy blue lines visible on trichrome-stained sections represent the glomerular basement membranes (GBMs), which are highlighted in blue by the trichrome stain (collagen stains blue). The GBM is approximately 300–370 nm thick — much thicker than typical capillary basement membranes. It is composed of type IV collagen, laminin, nidogen, and heparan sulfate proteoglycans (perlecan). Both capillary endothelial cells and podocytes (visceral epithelial cells) contribute to the synthesis and deposition of the GBM. In disease states (e.g., diabetic nephropathy), the GBM becomes thickened; in thin basement membrane disease, it is abnormally thin.",
+      "keypoints": [
+        "⭐ GBM: ~300-370 nm thick; trilaminar on EM: lamina rara interna (faces endothelium) + lamina densa (central, type IV collagen) + lamina rara externa (faces podocytes)",
+        "GBM components: type IV collagen (structural scaffold), laminin (cell adhesion), nidogen/entactin (links collagen to laminin), perlecan (heparan sulfate proteoglycan — charge barrier)",
+        "GBM synthesized by both glomerular endothelial cells AND podocytes",
+        "Thickened GBM: diabetic nephropathy, membranous GN; thinned GBM: Alport syndrome (α5 chain defect), thin basement membrane disease"
+      ]
+    },
+    {
+      "id": "q019",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "The arrowheads on the image shown for the previous two questions identify the nuclei of which of the following glomerular cells?",
+      "choices": [
+        "Endothelial cells",
+        "Juxtaglomerular cells",
+        "Mesangial cells",
+        "Parietal epithelial cells",
+        "Podocytes"
+      ],
+      "answer": 4,
+      "explanation": "Podocytes are the visceral epithelial cells of the Bowman capsule. In routine tissue preparations, podocyte nuclei always protrude into the urinary space, where they are visible as large, prominent nuclei at the periphery of the glomerular tuft. Podocytes send extensive cytoplasmic processes that wrap around glomerular capillaries, with secondary foot processes (pedicels) interdigitating and covering the outer surface of the GBM. Parietal epithelial cells (choice D) line the outer wall of Bowman capsule and are flat/squamous. Endothelial cells (choice A) protrude into the capillary lumen. Mesangial cells (choice C) are located between capillary loops. JG cells (choice B) are in the wall of the afferent arteriole.",
+      "keypoints": [
+        "⭐ Podocytes: visceral epithelial cells; large nuclei protrude into urinary space; extend primary processes → foot processes (pedicels) covering GBM",
+        "Podocyte = post-mitotic cell; limited capacity for self-renewal; loss of podocytes drives progressive glomerulosclerosis",
+        "Key podocyte proteins: nephrin (slit diaphragm), podocin (anchors nephrin), synaptopodin, WT1 (transcription factor)",
+        "Podocyte injury → foot process effacement (EM finding) → proteinuria (nephrotic syndrome)"
+      ]
+    },
+    {
+      "id": "q020",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "A 30-year-old woman complains of swelling of her eyelids and ankles. Urinalysis reveals proteinuria (6 g/24 h) without hematuria. A renal biopsy is obtained and examined by electron microscopy. The asterisk indicates the lumen of a single glomerular capillary loop. Identify the structures that surround the outer aspect of the glomerular basement membrane (arrow, shown in the image).",
+      "choices": [
+        "Fenestrated endothelial cells",
+        "Foot processes of podocytes",
+        "Lamellipodia of mesangial cells",
+        "Parietal epithelial cells",
+        "Proliferating myofibroblasts"
+      ],
+      "answer": 1,
+      "explanation": "Podocytes rest on the outer surface of the GBM and send extensive cytoplasmic processes that wrap around glomerular capillaries. Numerous secondary processes — foot processes (pedicels) — arise from these extensions and interdigitate with pedicels from neighboring podocytes, covering the outer aspect of the GBM. This electron micrograph shows numerous foot processes (pedicels) investing the outer GBM surface. In this patient with nephrotic-range proteinuria (6 g/24h) without hematuria, the expected finding on EM would be effacement (fusion) of these foot processes — the hallmark of minimal change disease and other nephrotic syndromes. Fenestrated endothelial cells (choice A) are on the inner (luminal) side of the GBM.",
+      "keypoints": [
+        "⭐ Outer aspect of GBM covered by podocyte foot processes (pedicels); inner aspect faces fenestrated glomerular endothelium",
+        "Filtration slit between adjacent foot processes = filtration slit; bridged by slit diaphragm (nephrin)",
+        "Nephrotic syndrome + EM showing foot process effacement = minimal change disease (podocyte dysfunction)",
+        "Foot process effacement = non-specific finding of any nephrotic-range proteinuria; indicates disrupted podocyte architecture"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q20.png",
+      "imageAlt": "Electron micrograph of glomerular capillary loop showing foot processes of podocytes (arrow) on the outer GBM surface and capillary lumen (asterisk)",
+      "imageCaption": "Transmission electron micrograph of a glomerular capillary loop: foot processes of podocytes (arrow) cover the outer surface of the GBM; asterisk = capillary lumen; note the fenestrated endothelium on the inner GBM surface"
+    },
+    {
+      "id": "q021",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "The renal biopsy described in the previous question is examined by electron microscopy at higher magnification. Identify the delicate linear structures located between adjacent pedicles of the visceral epithelial cells (arrows, shown in the image).",
+      "choices": [
+        "Fenestrated endothelial cells",
+        "Lamina rara interna of the glomerular basement membrane",
+        "Parietal layer of the Bowman capsule",
+        "Lamina densa of the glomerular basement membrane",
+        "Slit diaphragms"
+      ],
+      "answer": 4,
+      "explanation": "The open spaces between interdigitating pedicels (foot processes) are called filtration slits, and the delicate linear membranes bridging adjacent pedicels are the slit diaphragms. Slit diaphragms are modified adherens junctions that form a porous, size- and charge-selective barrier. The glomerular filtration barrier consists of three layers: (1) fenestrated endothelium (no diaphragm), (2) continuous GBM, and (3) podocytes/pedicels with slit diaphragms. The fenestrated endothelial cells (choice A) are on the inner GBM surface. The lamina rara interna (choice B) and lamina densa (choice D) are layers within the GBM itself, visible near the center of the image. Parietal epithelial cells (choice C) do not contact the GBM.",
+      "keypoints": [
+        "⭐ Slit diaphragm = modified adherens junction between adjacent podocyte foot processes; spans filtration slits; major protein = NEPHRIN",
+        "Filtration barrier (inside out): fenestrated endothelium → lamina rara interna → lamina densa → lamina rara externa → slit diaphragm",
+        "Size cutoff: proteins >3.5 nm excluded from filtrate; charge barrier (negative GBM) further restricts albumin",
+        "Slit diaphragm proteins: nephrin, podocin, CD2AP, α-actinin-4, TRPC6, P-cadherin — mutations cause congenital nephrotic syndromes"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q21.png",
+      "imageAlt": "High-magnification electron micrograph showing slit diaphragms (arrows) between interdigitating podocyte foot processes above the GBM",
+      "imageCaption": "High-resolution EM showing slit diaphragms (arrows) — thin electron-dense membranes bridging the filtration slits between adjacent foot processes of podocytes resting on the GBM"
+    },
+    {
+      "id": "q022",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Biochemistry",
+      "stem": "You are involved in a translational medicine research project to identify genes that encode structural proteins associated with the glomerular filtration barrier. Which of the following is the major structural protein found in the filtration slit diaphragm?",
+      "choices": [
+        "Fibrillin",
+        "Fibronectin",
+        "Laminin",
+        "Nephrin",
+        "Perlecan"
+      ],
+      "answer": 3,
+      "explanation": "Nephrin is the major structural and functional protein of the filtration slit diaphragm. Nephrin molecules are transmembrane proteins that project from the plasma membranes of adjacent pedicels and form zipper-like sheets that interact to create a porous slit diaphragm. Pores in the slit diaphragm determine the molecular size exclusion limit; proteins larger than ~3.5 nm are excluded from the glomerular ultrafiltrate. Additional slit diaphragm proteins include podocin, α-actinin-4, Neph-1, Neph-2, and P-cadherin. Fibrillin (choice A) organizes elastic fibers in connective tissue. Fibronectin (choice B), laminin (choice C), and perlecan (choice E) are glycoprotein components of the GBM, not the slit diaphragm.",
+      "keypoints": [
+        "⭐ Nephrin = major slit diaphragm protein; encoded by NPHS1 gene; mutations cause Finnish-type congenital nephrotic syndrome",
+        "Nephrin forms zipper-like dimers between adjacent foot processes; pores determine size exclusion limit (~3.5 nm)",
+        "Podocin (NPHS2) anchors nephrin to the plasma membrane; mutations = steroid-resistant nephrotic syndrome",
+        "GBM proteins: type IV collagen (α3α4α5 network) + laminin-521 + nidogen + perlecan — distinct from slit diaphragm"
+      ]
+    },
+    {
+      "id": "q023",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "The parents of a 2-month-old infant are concerned that their son has puffy skin and foamy urine. Physical examination confirms generalized edema. Urinalysis reveals heavy proteinuria and lipiduria. The infant is subsequently diagnosed with congenital nephrotic syndrome. This rare inherited disorder is most likely caused by mutations in the gene that encodes which of the following adhesion/matrix proteins?",
+      "choices": [
+        "Fibrillin",
+        "Fibronectin",
+        "Laminin",
+        "Nephrin",
+        "Perlecan"
+      ],
+      "answer": 3,
+      "explanation": "Congenital nephrotic syndrome of the Finnish type is caused by mutations in the NPHS1 gene encoding nephrin. Nephrin is the major structural protein of the filtration slit diaphragm; without it, the glomerular filtration barrier fails, allowing massive protein loss into the urine. The disease presents in infancy with nephrotic syndrome (heavy proteinuria, edema, hypoalbuminemia, hyperlipidemia, lipiduria). Without kidney transplantation, the condition is fatal within the first year of life. Fibrillin (choice A) mutations cause Marfan syndrome. Fibronectin (choice B), laminin (choice C), and perlecan (choice E) are GBM components whose mutations cause other syndromes but not Finnish congenital nephrotic syndrome.",
+      "keypoints": [
+        "⭐ Congenital nephrotic syndrome (Finnish type): NPHS1 mutation → absent nephrin → slit diaphragm failure → massive proteinuria at birth",
+        "Finnish type: most common congenital NS; large placenta (>25% of birth weight); presents in first days of life",
+        "Other causes of congenital NS: NPHS2 (podocin) mutations, WT1 mutations (Denys-Drash), LAMB2 mutations (Pierson syndrome)",
+        "Treatment: supportive → albumin infusions, nutritional support → bilateral nephrectomy + dialysis → renal transplant"
+      ]
+    },
+    {
+      "id": "q024",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/Infectious Disease",
+      "contentType": "Diagnosis",
+      "stem": "A 45-year-old man presents with hematuria and bloody sputum. Over the next 3 days, he develops oliguria and renal failure. A kidney biopsy is stained with fluorescein-labeled goat antihuman IgG to reveal the distribution of autoantibodies in the patient's glomeruli. The linear pattern of staining shown in the image suggests that autoantibodies are bound to which of the following structures?",
+      "choices": [
+        "Afferent and efferent arterioles",
+        "Bowman capsule",
+        "Glomerular basement membrane",
+        "Mesangial matrix",
+        "Proximal convoluted tubules"
+      ],
+      "answer": 2,
+      "explanation": "The linear pattern of IgG immunofluorescence staining along the entire glomerular basement membrane is the hallmark of anti-GBM antibody disease (Goodpasture syndrome). The autoantibodies bind uniformly along the GBM, producing a smooth, continuous linear fluorescent pattern — as opposed to the granular ('lumpy-bumpy') pattern of immune complex deposition seen in poststreptococcal GN or IgA nephropathy. The clinical presentation — hematuria, hemoptysis (bloody sputum), and rapidly progressive renal failure — is the classic triad of Goodpasture syndrome. Autoantibodies bound to the mesangium (choice D) would produce a focal mesangial pattern; those in the Bowman capsule (choice B) or arterioles (choice A) would not produce linear GBM staining.",
+      "keypoints": [
+        "⭐ Linear IgG IF along GBM = anti-GBM antibody disease (Goodpasture syndrome); linear pattern = antibody bound to continuous antigen in GBM",
+        "Granular IF = immune complex deposition (poststrep GN, lupus, membranous GN); Mesangial IF = IgA nephropathy (Berger disease)",
+        "Pauci-immune IF (no staining) = ANCA-associated GN (Wegener, MPA, Churg-Strauss)",
+        "Goodpasture antigen = NC1 domain of α3 chain of type IV collagen; present in GBM and pulmonary alveolar BM → dual target"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q24.png",
+      "imageAlt": "Immunofluorescence micrograph showing linear IgG staining along glomerular basement membranes — characteristic of Goodpasture syndrome",
+      "imageCaption": "Direct immunofluorescence with fluorescein-labeled anti-IgG: smooth, continuous LINEAR staining along all GBMs — diagnostic pattern of anti-GBM antibody disease (Goodpasture syndrome)"
+    },
+    {
+      "id": "q025",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/Infectious Disease",
+      "contentType": "Pathophysiology",
+      "stem": "Laboratory analysis of serum collected from the patient described in the previous question will reveal autoantibodies directed against which of the following basement membrane proteins?",
+      "choices": [
+        "Collagen type IV",
+        "Laminin B",
+        "Neph-2",
+        "Perlecan",
+        "α-Actinin-4"
+      ],
+      "answer": 0,
+      "explanation": "Goodpasture syndrome is caused by autoantibodies directed against the NC1 domain of the α3 chain of type IV collagen — the so-called 'Goodpasture antigen.' Type IV collagen forms a complex network in basement membranes throughout the body, including renal glomeruli and pulmonary alveoli. The type IV collagen monomer is a triple helix of three α chains (α1–α6). The NC1 (C-terminal) and 7S (N-terminal) domains are cross-linking sites forming the fibrillar network. The α3(IV) NC1 domain is specifically targeted because it is normally sequestered from the immune system; cryptic exposure (e.g., from lung damage by smoking) can trigger autoimmunity. None of the other proteins are the autoantibody targets in Goodpasture syndrome.",
+      "keypoints": [
+        "⭐ Goodpasture antigen: NC1 domain of α3 chain of type IV collagen; present in GBM and pulmonary alveolar BM → both targeted",
+        "Smoking → disrupts alveolar BM → exposes α3(IV) NC1 → triggers autoimmunity in genetically susceptible individuals (HLA-DR15)",
+        "Test: anti-GBM antibody by ELISA or immunofluorescence on patient serum; also check ANCA (10-30% have concurrent ANCA positivity)",
+        "Treatment: plasmapheresis (removes circulating anti-GBM antibodies) + high-dose steroids + cyclophosphamide"
+      ]
+    },
+    {
+      "id": "q026",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Which of the following cells collaborates with capillary endothelial cells to synthesize the glomerular basement membrane described in the previous two questions?",
+      "choices": [
+        "Fibroblasts",
+        "Mesangial cells",
+        "Parietal epithelial cells",
+        "Podocytes",
+        "Smooth muscle cells"
+      ],
+      "answer": 3,
+      "explanation": "The GBM is sandwiched between the glomerular capillary endothelium and the visceral layer of the Bowman capsule (podocytes). It represents a fusion of basal laminae synthesized by both glomerular endothelial cells and podocytes. On electron microscopy, the GBM appears as a trilaminar structure: a central electron-dense lamina densa flanked by two electron-lucent layers — the lamina rara interna (facing the capillary endothelium) and the lamina rara externa (facing the podocyte foot processes). The GBM functions as a size- and charge-selective filtration barrier. Parietal epithelial cells (choice C) line the outer Bowman capsule and do not contact the GBM. Mesangial cells (choice B) and fibroblasts (choice A) do not synthesize the GBM.",
+      "keypoints": [
+        "⭐ GBM synthesized by: glomerular ENDOTHELIAL cells + PODOCYTES (both contribute); represents a fused basal lamina",
+        "GBM trilaminar structure (EM): lamina rara interna (faces endothelium, heparan sulfate-rich) + lamina densa (type IV collagen) + lamina rara externa (faces podocytes)",
+        "Charge barrier: heparan sulfate proteoglycans (perlecan) in lamina rara provide negative charge → repel albumin (negatively charged)",
+        "Size barrier: GBM pore size ~8 nm; slit diaphragm cuts off at ~3.5 nm — two sequential filtration barriers"
+      ]
+    },
+    {
+      "id": "q027",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/Infectious Disease",
+      "contentType": "Diagnosis",
+      "stem": "A 26-year-old man complains of recurrent hematuria since his youth. The hematuria typically occurs following upper respiratory tract infections. A kidney biopsy is examined by direct immunofluorescence for the presence of IgA autoantibody. The pattern of staining shown in the image suggests that the patient's autoantibodies are bound to which of the following structures?",
+      "choices": [
+        "Afferent arterioles",
+        "Bowman capsule",
+        "Efferent arterioles",
+        "Glomerular basement membrane",
+        "Mesangium"
+      ],
+      "answer": 4,
+      "explanation": "The immunofluorescence pattern shows focal, bright deposits of IgA concentrated in the mesangial areas of glomeruli — the hallmark of IgA nephropathy (Berger disease). The mesangium consists of mesangial cells and their extracellular matrix, located between capillary loops and most prominent near the vascular pole of the glomerulus. IgA nephropathy is the most common form of glomerulonephritis worldwide and typically presents with recurrent gross or microscopic hematuria triggered by mucosal infections (synpharyngitic hematuria). Autoantibodies bound to the GBM (choice D) would produce linear (anti-GBM) or peripheral granular staining. Bowman capsule (choice B) and arteriolar staining (choices A, C) would produce distinctly different patterns.",
+      "keypoints": [
+        "⭐ IgA nephropathy (Berger disease): mesangial IgA deposits (focal, bright IF) → synpharyngitic hematuria (during or immediately after URI)",
+        "IF pattern: mesangial IgA (dominant) + C3; IgA > IgG or IgM — diagnostic pattern",
+        "Most common GN worldwide; predominantly young males; recurrent hematuria ± proteinuria; 20% progress to ESRD over 10-20 years",
+        "Identical renal pathology in Henoch-Schönlein purpura (HSP/IgAV) — but HSP has systemic vasculitis (purpura, arthralgia, abdominal pain)"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q27.png",
+      "imageAlt": "Direct immunofluorescence showing focal mesangial IgA deposits (bright yellow-green) in a glomerulus — pattern of IgA nephropathy",
+      "imageCaption": "Direct immunofluorescence with anti-IgA: focal, bright mesangial deposits — diagnostic pattern of IgA nephropathy (Berger disease); IgA immune complexes are concentrated between glomerular capillary loops"
+    },
+    {
+      "id": "q028",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Which of the following biological processes describes the primary function of the mesangial cells described in the previous question?",
+      "choices": [
+        "Hormone synthesis and secretion",
+        "Maintenance of the glomerular filtration barrier",
+        "Phagocytosis and endocytosis",
+        "Regulation of systemic blood pressure",
+        "Sodium/potassium homeostasis"
+      ],
+      "answer": 2,
+      "explanation": "Mesangial cells are specialized phagocytic cells that remove trapped molecules, immunoglobulins, and antigen-antibody (immune) complexes from the glomerular filtration barrier via receptor-mediated endocytosis and phagocytosis. This housekeeping function is essential for maintaining the structural integrity and permeability of the filtration apparatus (GBM, slit diaphragm, and capillary endothelial cells). Mesangial cells and their extracellular matrix also provide structural support for the glomerular capillary loops. In IgA nephropathy, accumulation of IgA immune complexes in the mesangium occurs because this normal clearance mechanism is overwhelmed. Mesangial cells are not primarily involved in hormone synthesis (choice A), filtration barrier structure directly (choice B), blood pressure regulation (choice D), or sodium/potassium homeostasis (choice E).",
+      "keypoints": [
+        "⭐ Mesangial cells: primary function = PHAGOCYTOSIS and endocytosis; remove immune complexes, debris, and macromolecules from the GBM/filtration barrier",
+        "Mesangial cells also provide structural support for glomerular capillary loops via their extracellular matrix",
+        "Mesangial cells are contractile (smooth muscle-like) and can regulate glomerular capillary surface area",
+        "Mesangial expansion (more matrix) + mesangial cell proliferation = hallmark of IgA nephropathy, diabetic nephropathy, Class II lupus nephritis"
+      ]
+    },
+    {
+      "id": "q029",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "The mesangial cells described in the previous two questions are derived from multipotential stem cells (precursors) from which of the following types of connective tissue cells?",
+      "choices": [
+        "Adipocytes",
+        "Fibroblasts",
+        "Granulocytes",
+        "Monocytes",
+        "Smooth muscle cells"
+      ],
+      "answer": 4,
+      "explanation": "Although the primary function of mesangial cells is phagocytosis, these connective tissue cells are derived from smooth muscle progenitor cells. Their smooth muscle lineage is reflected in their contractile properties — mesangial cells contain actin-myosin filaments and can contract in response to angiotensin II and other vasoactive substances to regulate the surface area of glomerular capillaries available for filtration. Monocytes (choice D) are the progenitor cells for macrophages and tissue histiocytes of the mononuclear phagocyte system — the lineage that gives rise to Kupffer cells (liver) and microglia (CNS), not mesangial cells. Fibroblasts (choice B), adipocytes (choice A), and granulocytes (choice C) are not progenitors of mesangial cells.",
+      "keypoints": [
+        "⭐ Mesangial cells: derived from smooth muscle progenitors; functionally phagocytic but structurally and contractile like smooth muscle",
+        "Mesangial cell contractility: responds to angiotensin II, endothelin, vasopressin → reduces filtration surface area → decreases GFR",
+        "ANP (atrial natriuretic peptide) → relaxes mesangial cells → increases GFR",
+        "Distinction: mesangial cells ≠ macrophages (monocyte-derived); though both are phagocytic, mesangial cells are resident smooth-muscle-derived cells"
+      ]
+    },
+    {
+      "id": "q030",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A kidney biopsy is embedded in paraffin, sectioned, stained with H&E, and examined by light microscopy. Identify the structure within the oval.",
+      "choices": [
+        "Extraglomerular mesangial cells",
+        "Juxtaglomerular cells",
+        "Macula densa",
+        "Proximal convoluted tubule",
+        "Vascular pole of the Bowman capsule"
+      ],
+      "answer": 2,
+      "explanation": "The oval identifies a region of closely packed, columnar epithelial cells in the wall of the distal convoluted tubule (DCT) near the vascular pole of the Bowman capsule. These specialized cells are collectively termed the macula densa. They arise from the distal straight tubule (thick ascending limb) as it exits the medullary ray, returns to the renal labyrinth, and makes intimate contact with the afferent and efferent arterioles at the vascular pole of its parent renal corpuscle. At this site, the epithelial cells become closely packed with pale cytoplasm and basally located nuclei — the distinguishing histologic feature of the macula densa.",
+      "keypoints": [
+        "⭐ Macula densa: tightly packed DCT cells at vascular pole of renal corpuscle; pale cytoplasm + basal nuclei; component of juxtaglomerular apparatus (JGA)",
+        "JGA consists of 3 components: JG cells (granular cells in afferent arteriole) + macula densa (DCT) + extraglomerular mesangial cells (Lacis cells)",
+        "Histologic tip: macula densa = DCT cells that appear 'crowded' with nuclear density when adjacent to the glomerulus",
+        "JGA location: always at vascular pole — where afferent and efferent arterioles enter/exit the glomerulus"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q30.png",
+      "imageAlt": "H&E micrograph of renal cortex showing the macula densa (oval) — closely packed DCT cells at the vascular pole of the glomerulus",
+      "imageCaption": "H&E section of renal cortex: macula densa (oval) — a plaque of closely packed, columnar DCT epithelial cells located at the vascular pole of the adjacent renal corpuscle; part of the juxtaglomerular apparatus"
+    },
+    {
+      "id": "q031",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "Which of the following biological processes describes the critical function of the structure described in the previous question (the macula densa)?",
+      "choices": [
+        "Hydroxylation of vitamin D3",
+        "Monitoring Na+ in primary urine",
+        "Phagocytosis of immune complexes",
+        "Reabsorption of K+ from primary urine",
+        "Secretion of aldosterone"
+      ],
+      "answer": 1,
+      "explanation": "Epithelial cells of the macula densa are exquisitely sensitive to changes in the concentration of NaCl within the distal tubule — they function as sodium sensors of the primary urine. Decreased Na+ delivery to the macula densa (reflecting decreased blood volume or GFR) triggers signaling via adenosine and other mediators to the JG cells and extraglomerular mesangial cells, stimulating renin release and activating the RAAS. This tubuloglomerular feedback mechanism regulates blood flow through the kidney and maintains a constant GFR. The macula densa does not perform hydroxylation (choice A — kidney 1α-hydroxylase is in proximal tubule cells), phagocytosis (choice C — mesangial cells), K+ reabsorption (choice D), or aldosterone secretion (choice E — adrenal cortex).",
+      "keypoints": [
+        "⭐ Macula densa function: SODIUM SENSOR of primary urine in DCT → detects ↓ NaCl delivery → signals JG cells → ↑ renin release → RAAS activation",
+        "Tubuloglomerular feedback: ↓ GFR → ↓ NaCl at macula densa → adenosine release → afferent arteriole dilation → ↑ GFR (restores)",
+        "Also: ↑ NaCl at macula densa → ↑ adenosine → afferent arteriole constriction → ↓ GFR (autoregulation)",
+        "NSAIDs block prostaglandins that modulate afferent arteriole tone → can impair tubuloglomerular feedback → acute kidney injury"
+      ]
+    },
+    {
+      "id": "q032",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "During a clinical conference, you are asked to summarize the role of juxtaglomerular cells in maintaining a constant rate of glomerular filtration. Which of the following biological processes describes the function of JG cells in the kidney?",
+      "choices": [
+        "Monitoring Na+ in primary urine",
+        "Reabsorption of H2O from primary urine",
+        "Reabsorption of Na+ from primary urine",
+        "Secretion of angiotensinogen",
+        "Secretion of renin"
+      ],
+      "answer": 4,
+      "explanation": "Juxtaglomerular (JG) cells are modified smooth muscle cells in the wall of the afferent arteriole, near the macula densa. They contain secretory granules filled with renin — a protease that initiates the RAAS cascade. In response to decreased blood volume, decreased renal perfusion pressure, or low NaCl delivery signaled by the macula densa, JG cells release renin. Renin cleaves hepatic angiotensinogen to form angiotensin I, which is converted by ACE in the lungs to angiotensin II — a potent vasoconstrictor that also stimulates adrenal aldosterone secretion, raising blood volume and pressure. Monitoring Na+ in urine (choice A) is the function of the macula densa. Angiotensinogen (choice D) is secreted by the liver, not the JG cells.",
+      "keypoints": [
+        "⭐ JG cells: granular, modified smooth muscle cells in afferent arteriole wall; secrete RENIN → initiates RAAS",
+        "RAAS cascade: Renin (JG cells) → angiotensinogen (liver) → angiotensin I → ACE (lung) → angiotensin II → aldosterone (adrenal) + vasoconstriction",
+        "JG cell stimuli: ↓ renal perfusion pressure (baroreceptor in afferent arteriole), ↓ NaCl at macula densa, sympathetic stimulation (β1 receptors)",
+        "ACE inhibitors: block angiotensin II formation → ↓ efferent arteriolar resistance → ↓ glomerular capillary pressure → renoprotective"
+      ]
+    },
+    {
+      "id": "q033",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A trichrome stain of a renal biopsy is examined in the pathology department. Identify the structures indicated by the asterisk.",
+      "choices": [
+        "Distal convoluted tubules",
+        "Distal straight tubules",
+        "Peritubular capillaries",
+        "Proximal convoluted tubules",
+        "Proximal straight tubules"
+      ],
+      "answer": 3,
+      "explanation": "The asterisks identify proximal convoluted tubules (PCTs), which are identified by their characteristic histologic features: large cuboidal cells with eosinophilic cytoplasm (abundant mitochondria), prominent brush border (microvilli) visible as a dark blue fuzzy line at the lumen, poorly defined cell boundaries due to extensive lateral membrane interdigitations, and a relatively indistinct lumen. PCTs are more numerous than DCTs in cortical sections because they are longer (approximately three times the length of DCTs). The trichrome stain highlights the brush border and basement membranes in blue.",
+      "keypoints": [
+        "⭐ PCT histology: large cuboidal cells + BRUSH BORDER (microvilli, apical) + indistinct lateral membranes + indistinct lumen (fuzzy) + abundant mitochondria (basal striations on EM)",
+        "PCT vs DCT distinction: PCT = brush border (fuzzy lumen), larger cells, more numerous; DCT = no brush border (clear lumen), smaller cells, fewer",
+        "PCT function: reabsorbs 67% of filtered Na+, water, 100% glucose/amino acids, 85% HCO3-, phosphate; site of secretion of organic acids/bases",
+        "Fanconi syndrome: PCT dysfunction → glycosuria + aminoaciduria + phosphaturia + bicarbonaturia despite normal blood glucose"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q33.png",
+      "imageAlt": "Trichrome-stained renal cortex showing proximal convoluted tubules (asterisks) with prominent brush borders and distal convoluted tubules (arrows)",
+      "imageCaption": "Trichrome stain of renal cortex: proximal convoluted tubules (asterisks) identified by their prominent brush borders (dark blue fuzzy apical membrane), large cells, and indistinct lateral borders; DCTs (arrows) have a visible lumen and no brush border"
+    },
+    {
+      "id": "q034",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "For the biopsy described in the previous question, identify the structures indicated by the arrows.",
+      "choices": [
+        "Collecting ducts",
+        "Distal convoluted tubules",
+        "Proximal convoluted tubules",
+        "Proximal straight tubules",
+        "Thin limbs of the loop of Henle"
+      ],
+      "answer": 1,
+      "explanation": "The arrows indicate distal convoluted tubules (DCTs), which differ from PCTs in several key histologic features: DCTs have smaller, lower cuboidal cells, lack a brush border (so the lumen appears well-defined and clear), more visible lumen, smaller cells than PCTs (so transverse sections reveal more nuclei per section), and better-defined lateral cell boundaries. The DCT is shorter than the PCT (one-third the length), so fewer DCT profiles are seen in cortical sections. At the junction of the distal straight tubule with the DCT, the tubule is in close proximity to the vascular pole of the renal corpuscle — this is where the macula densa is found. Thin limbs (choice E) are in the medulla, not cortex.",
+      "keypoints": [
+        "⭐ DCT histology: smaller cuboidal cells + NO brush border (clear, visible lumen) + distinct lateral membranes + fewer in cortical sections (shorter than PCT)",
+        "DCT function: aldosterone-regulated Na+ reabsorption (principal cells); PTH-regulated Ca²⁺ reabsorption; K+ secretion",
+        "Thiazide diuretics: block NaCl cotransporter (NCC) in DCT → ↓ Na+ reabsorption → diuresis; also used for hypercalciuria (Ca²⁺ reabsorption preserved)",
+        "DCT connects to collecting tubule via connecting segment (transitional between DCT and collecting duct)"
+      ]
+    },
+    {
+      "id": "q035",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Another visual field from the biopsy specimen described in the previous two questions is examined in the pathology department. Identify the spaces/structures indicated by the arrows.",
+      "choices": [
+        "Distal convoluted tubules",
+        "Peritubular capillaries",
+        "Thin limbs of the loop of Henle",
+        "Vasa recta",
+        "Vasa vasorum"
+      ],
+      "answer": 1,
+      "explanation": "The arrows identify peritubular capillaries — small blood vessels intimately associated with both PCTs and DCTs in the cortical labyrinth. After leaving the glomerulus, efferent arterioles immediately branch to form a plexus of peritubular capillaries that surround the convoluted tubules, drawing reabsorbed electrolytes and other small molecules from the tubular epithelial cells into the circulation. Vasa recta (choice D) are straight capillaries in the medulla accompanying the long loops of Henle of juxtamedullary nephrons. Vasa vasorum (choice E) are blood vessels within the adventitia of large elastic arteries — not found in kidney parenchyma. Thin limbs (choice C) are in the medulla.",
+      "keypoints": [
+        "⭐ Peritubular capillaries: arise from efferent arterioles of CORTICAL nephrons; surround PCT and DCT; provide blood supply for tubular cells and receive reabsorbate",
+        "Low oncotic pressure in glomerular filtrate → high oncotic pressure in efferent arteriole (protein concentrated) → drives fluid uptake into peritubular capillaries",
+        "ACE inhibitors/ARBs: dilate efferent arteriole → ↓ efferent arteriolar resistance → ↓ oncotic pressure in peritubular capillaries → ↓ Na+ reabsorption in PCT",
+        "Vasa recta = efferent arterioles of JUXTAMEDULLARY nephrons → medulla; function as countercurrent exchangers to preserve medullary gradient"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q35.png",
+      "imageAlt": "Trichrome-stained renal cortex showing peritubular capillaries (arrows) between proximal and distal convoluted tubules",
+      "imageCaption": "Trichrome-stained renal cortex: peritubular capillaries (arrows) — small-diameter blood vessels closely apposed to convoluted tubules in the cortical labyrinth; formed from efferent arterioles after leaving the glomerulus"
+    },
+    {
+      "id": "q036",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Which of the following structures serves as the primary site for reabsorption of water, electrolytes, amino acids, sugars, and polypeptides from the glomerular ultrafiltrate?",
+      "choices": [
+        "Collecting duct",
+        "Distal convoluted tubule",
+        "Proximal convoluted tubule",
+        "Thick descending limbs of the loop of Henle",
+        "Thin limbs of the long loop of Henle"
+      ],
+      "answer": 2,
+      "explanation": "The proximal convoluted tubule (PCT) is the primary site for bulk reabsorption of the glomerular ultrafiltrate, handling approximately 67–70% of filtered water, Na+, Cl-, and K+, 100% of filtered glucose and amino acids, 85% of filtered HCO3-, and most filtered phosphate. The large cuboidal cells lining the PCT have a prominent brush border (microvilli) that massively expands the apical absorptive surface, basolateral Na+/K+-ATPase pumps that establish electrochemical gradients driving transcellular transport, and abundant mitochondria to fuel active transport. The collecting duct (choice A) and DCT (choice B) are important for fine-tuning under hormonal control (aldosterone, ADH, PTH) but handle much smaller fractions of the filtrate. Thin limbs (choice E) are primarily permeable to water but not active reabsorbers.",
+      "keypoints": [
+        "⭐ PCT = primary reabsorption site: 67% Na+/water, 100% glucose/amino acids, 85% HCO3-, most phosphate; brush border + Na+/K+-ATPase + mitochondria",
+        "Glucose reabsorption: SGLT2 (PCT S1 segment) reabsorbs 90% of filtered glucose; SGLT1 (S3 segment) reabsorbs remaining 10%",
+        "SGLT2 inhibitors (gliflozins): block glucose reabsorption → glycosuria → osmotic diuresis; also cardioprotective and renoprotective",
+        "Fanconi syndrome: generalized PCT dysfunction → glycosuria + aminoaciduria + phosphaturia + bicarbonaturia + uricosuria"
+      ]
+    },
+    {
+      "id": "q037",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A 48-year-old man suffers trauma in an automobile accident and expires. A kidney is harvested at autopsy and sections are stained with H&E. A medullary ray in the renal cortex is examined at high magnification. Identify the structure indicated by double arrow no. 1 shown in the image.",
+      "choices": [
+        "Cortical collecting duct",
+        "Distal convoluted tubule",
+        "Proximal convoluted tubule",
+        "Thick ascending limb of the loop of Henle",
+        "Thick descending limb of the loop of Henle"
+      ],
+      "answer": 4,
+      "explanation": "Double arrow no. 1 indicates the thick descending limb of the loop of Henle (also called the proximal straight tubule). It arises from the PCT and enters the medullary ray as it descends toward the medulla. It exhibits histologic features similar to the PCT: poorly defined lumen due to the brush border, indistinct lateral membranes from interdigitations, and large eosinophilic cells. The key distinction from the PCT is location — in the medullary ray rather than the cortical labyrinth. The thick ascending limb (choice D) has similar morphology to the DCT (no brush border, clear lumen). Cortical collecting duct (choice A) has a large, clearly visible lumen with distinct lateral cell borders.",
+      "keypoints": [
+        "⭐ Thick descending limb = proximal straight tubule (pars recta of PCT); PCT-like histology (brush border, fuzzy lumen) but located in medullary ray",
+        "In medullary rays (from PCT to thick ascending limb): thick descending (=proximal straight) → thin segments (in medulla proper) → thick ascending (=distal straight) → cortical collecting duct",
+        "Proximal tubule segments: S1 (PCT convoluted) → S2 (PCT straight, late convoluted + medullary ray) → S3 (pars recta, deep medullary ray); all have brush border",
+        "Double arrows 1, 2, 3 in this question series represent different medullary ray structures at different levels"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q37.png",
+      "imageAlt": "H&E high-magnification section of medullary ray showing thick descending limb (arrow 1), thick ascending limb (arrow 2), and cortical collecting duct (arrow 3)",
+      "imageCaption": "H&E section of medullary ray: arrow 1 = thick descending limb of loop of Henle (proximal straight tubule — brush border, fuzzy lumen); arrow 2 = thick ascending limb (distal straight tubule — clear lumen, no brush border); arrow 3 = cortical collecting duct (large lumen, distinct cell borders)"
+    },
+    {
+      "id": "q038",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "For the kidney specimen described in the previous question, identify the structure in the medullary ray that is indicated by double arrow no. 2 shown in the image.",
+      "choices": [
+        "Cortical collecting duct",
+        "Distal convoluted tubule",
+        "Thick ascending limb of the loop of Henle",
+        "Thick descending limb of the loop of Henle",
+        "Thin limb of the loop of Henle"
+      ],
+      "answer": 2,
+      "explanation": "Double arrow no. 2 indicates the thick ascending limb of the loop of Henle (also called the distal straight tubule). After the hairpin turn of the thin ascending limb in the medulla, the tubule re-enters the medullary ray as the thick ascending limb. It shares histologic features with the DCT: low cuboidal epithelium, no brush border (lumen is clearly visible), and distinct lateral cell boundaries. At its most distal portion in the cortical medullary ray, it approaches the vascular pole of its parent renal corpuscle and becomes the DCT (with the transition zone forming the macula densa). The thin limb (choice E) is lined by simple squamous epithelium and has a much smaller diameter.",
+      "keypoints": [
+        "⭐ Thick ascending limb (TAL) = distal straight tubule; DCT-like histology (no brush border, clear lumen); located in medullary ray; impermeable to water",
+        "TAL function: NKCC2 cotransporter actively reabsorbs NaCl without water → dilutes tubular fluid → generates medullary hyperosmolarity",
+        "Loop diuretics (furosemide): block NKCC2 in TAL → ↓ NaCl reabsorption → ↓ medullary osmotic gradient → ↓ urine concentrating ability → diuresis",
+        "TAL = 'diluting segment' — tubular fluid entering DCT is hyposmotic (~100-150 mOsm/kg)"
+      ]
+    },
+    {
+      "id": "q039",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "For the kidney specimen described in the previous two questions, identify the structure in the medullary ray that is indicated by double arrow no. 3 shown in the image.",
+      "choices": [
+        "Cortical collecting duct",
+        "Distal straight tubule",
+        "Papillary duct",
+        "Proximal straight tubule",
+        "Thin limb of the loop of Henle"
+      ],
+      "answer": 0,
+      "explanation": "Double arrow no. 3 indicates the cortical collecting duct. DCTs in the cortical labyrinth drain to collecting ducts within the medullary rays. The cortical portions of these collecting ducts are referred to as cortical collecting ducts. They are lined by low cuboidal cells with distinct lateral membrane borders and a relatively large, well-defined lumen. Two populations of epithelial cells are present: principal cells (light cells, majority — reabsorb Na+/water under aldosterone and ADH control) and intercalated cells (dark cells, minority — regulate acid/base pH of urine). The larger lumen and distinct cell borders distinguish cortical collecting ducts from the thick ascending limb (choice B).",
+      "keypoints": [
+        "⭐ Cortical collecting duct: large lumen + distinct lateral borders + 2 cell types: principal cells (Na+/water reabsorption, aldosterone-sensitive) + intercalated cells (H+ or HCO3- secretion)",
+        "Principal cells: ENaC (apical Na+ channel) + aquaporin-2 (ADH-regulated water channel) + aquaporin-3/4 (basolateral)",
+        "Intercalated cells: Type A = secrete H+ (acid urine); Type B = secrete HCO3- (alkaline urine)",
+        "Aldosterone → principal cells: ↑ ENaC + Na+/K+-ATPase → ↑ Na+ reabsorption + ↑ K+ secretion → hypokalemia in hyperaldosteronism"
+      ]
+    },
+    {
+      "id": "q040",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "The outer medullary region of the kidney is examined in the pathology department. Identify the small channels indicated by the arrows.",
+      "choices": [
+        "Capillaries of the vasa recta",
+        "Distal straight tubules",
+        "Medullary collecting ducts",
+        "Proximal straight tubules",
+        "Thin segments of the loop of Henle"
+      ],
+      "answer": 4,
+      "explanation": "The arrows point to thin segments of the loop of Henle — the small-diameter tubular channels lined by simple squamous epithelium in the outer medullary region. The thin descending limbs arise from the thick descending limbs and make a hairpin turn in the medulla. Key identifying features: lined by squamous cells whose nuclei bulge into the lumens, no RBCs in the clear lumens (distinguishing them from vascular channels), and smaller diameter than thick segments. The length of thin segments varies: cortical nephrons have short thin segments (descending only), while juxtamedullary nephrons have long thin segments extending deep into the inner medulla.",
+      "keypoints": [
+        "⭐ Thin limbs of loop of Henle: simple squamous epithelium + small diameter + clear lumen (no RBCs) + nuclei bulging into lumen; in outer and inner medulla",
+        "Thin descending limb: highly permeable to water (aquaporin-1), moderately permeable to NaCl → fluid equilibrates with hyperosmotic medulla → becomes concentrated",
+        "Thin ascending limb: impermeable to water, permeable to NaCl → NaCl diffuses out → fluid becomes more dilute as ascends",
+        "Distinguish from vasa recta: vasa recta have RBCs in lumen; thin limbs have clear (empty) lumens"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q40.png",
+      "imageAlt": "H&E section of outer medulla showing thin segments of loop of Henle (arrows) and medullary collecting ducts (asterisks)",
+      "imageCaption": "H&E section of outer medulla: thin segments of the loop of Henle (arrows) — small channels lined by flat squamous cells with clear lumens (no RBCs); medullary collecting ducts (asterisks) are larger with cuboidal-to-columnar epithelium"
+    },
+    {
+      "id": "q041",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "For the kidney specimen described in the previous question, identify the structures indicated by the asterisk.",
+      "choices": [
+        "Cortical collecting tubules",
+        "Distal convoluted tubules",
+        "Distal straight tubules",
+        "Medullary collecting ducts",
+        "Proximal straight tubules"
+      ],
+      "answer": 3,
+      "explanation": "The asterisks indicate medullary collecting ducts — the continuation of cortical collecting ducts into the renal medulla. As these collecting ducts descend through the medullary pyramids toward the renal papilla, their lumens become progressively larger and the lining epithelial cells become taller (transitioning from cuboidal to columnar). Medullary collecting ducts are the site of final water reabsorption under ADH (vasopressin) control, as ADH inserts aquaporin-2 channels into the principal cell apical membranes, allowing water to move from the tubular lumen into the hyperosmotic medullary interstitium.",
+      "keypoints": [
+        "⭐ Medullary collecting ducts: larger lumen + cuboidal-to-columnar epithelium; site of ADH (vasopressin)-regulated water reabsorption",
+        "ADH → V2 receptor → cAMP → PKA → aquaporin-2 insertion into apical membrane → water reabsorption → concentrated urine",
+        "ADH resistance (nephrogenic DI): lithium, hypercalcemia, hypokalemia → collecting duct unresponsive to ADH → dilute urine despite high ADH",
+        "Medullary collecting ducts converge → papillary ducts of Bellini → drain urine into minor calyces"
+      ]
+    },
+    {
+      "id": "q042",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Examination of a transverse section through a renal pyramid reveals medullary collecting ducts, thin segments of the loop of Henle, and numerous blood vessels (red spaces, shown in the image). Which of the following describes these vascular channels?",
+      "choices": [
+        "Afferent arterioles",
+        "Efferent arterioles",
+        "Interlobular arteries",
+        "Peritubular capillaries",
+        "Vasa recta"
+      ],
+      "answer": 4,
+      "explanation": "The vasa recta are straight vessels that course alongside the long loops of Henle of juxtamedullary nephrons in the medulla. After leaving the vascular pole of juxtamedullary renal corpuscles, efferent arterioles branch to form numerous straight arterioles (arteriolae rectae) that extend into the inner medulla. These descending straight arterioles make hairpin turns and ascend as straight venules (venulae rectae). Together, the descending arterioles and ascending venules are referred to as vasa recta. They contain RBCs and can be distinguished from the clear-lumen thin segments of the loop of Henle. Vasa recta function as countercurrent exchangers to preserve the medullary osmotic gradient by equilibrating with the interstitium during descent and ascent without washing out the gradient.",
+      "keypoints": [
+        "⭐ Vasa recta: countercurrent exchanger in medulla; preserves medullary hyperosmotic gradient by equilibrating with interstitium during descent and re-equilibrating on ascent",
+        "Distinguish from thin limbs: vasa recta have RBCs (red lumens); thin limbs have clear empty lumens",
+        "Vasa recta arise from efferent arterioles of JUXTAMEDULLARY nephrons; peritubular capillaries arise from efferent arterioles of cortical nephrons",
+        "Sickle cell disease: sickle cells block vasa recta → papillary ischemia → renal papillary necrosis"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q42.png",
+      "imageAlt": "Transverse H&E section of renal pyramid showing vasa recta (red-filled spaces), thin limbs of loop of Henle, and medullary collecting ducts",
+      "imageCaption": "Transverse section of renal pyramid: vasa recta (red spaces containing RBCs) alternate with thin segments of the loop of Henle (clear lumens) and larger medullary collecting ducts; vasa recta are distinguished from thin limbs by the presence of RBCs"
+    },
+    {
+      "id": "q043",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "You are asked to present a lecture on the pathophysiology of urine formation. Interstitial connective tissue is most hyperosmotic in which region of the kidney?",
+      "choices": [
+        "Capsule",
+        "Cortex",
+        "Corticomedullary junction",
+        "Medulla at apex of the pyramid",
+        "Medulla at base of the pyramid"
+      ],
+      "answer": 3,
+      "explanation": "A steep osmotic gradient exists in the renal medulla, increasing from the corticomedullary junction to the apex of the renal pyramids. The interstitium in the capsule (choice A) and cortex (choice B) are isosmotic to plasma (~300 mOsm/kg). At the corticomedullary junction (choice C), osmolality begins to rise. Deep in the medulla at the apex of the renal pyramid, the interstitium is hyperosmotic — approximately four times the osmolality of plasma (~1,200 mOsm/kg). This medullary osmotic gradient is generated by the countercurrent multiplier system and is essential for concentrating urine as hypoosmotic fluid from the DCT passes through the collecting ducts descending into the hyperosmotic medullary interstitium.",
+      "keypoints": [
+        "⭐ Medullary osmotic gradient: ~300 mOsm/kg (cortex/corticomedullary junction) → ~1,200 mOsm/kg (papillary tip); gradient generated by TAL NaCl pumping + urea recycling",
+        "Medullary gradient maintained by: (1) NKCC2 in TAL actively pumps NaCl without water; (2) urea recycling from inner medullary collecting duct to interstitium; (3) vasa recta countercurrent exchange preserves gradient",
+        "Loss of medullary gradient: loop diuretics (block TAL NaCl pump), ADH deficiency, chronic renal disease → inability to concentrate urine",
+        "Maximum urine concentration = ~1,200 mOsm/kg (= medullary apex osmolality); minimum = ~50-100 mOsm/kg (with ADH suppression)"
+      ]
+    },
+    {
+      "id": "q044",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "Which of the following best describes the physiologic mechanism responsible for the formation and excretion of hyperosmotic urine?",
+      "choices": [
+        "Countercurrent multiplier system",
+        "Juxtaglomerular apparatus signaling",
+        "Podocyte regulation of the glomerular filtration barrier",
+        "Renin-angiotensin-aldosterone system",
+        "Water reabsorption in the descending limb of the loop of Henle"
+      ],
+      "answer": 0,
+      "explanation": "The countercurrent multiplier system is the mechanism by which the kidney generates and maintains the medullary osmotic gradient necessary to produce concentrated (hyperosmotic) urine. The system is named because the filtrate flows in opposite directions in the two parallel limbs of the loop of Henle. Isosmotic fluid from the PCT enters the descending limb, which is highly permeable to water — as it descends into the hyperosmotic medulla, water exits and the fluid becomes concentrated. The ascending limb is impermeable to water but actively pumps NaCl out (NKCC2 in the TAL), progressively diluting the tubular fluid. This builds and maintains the medullary gradient, so that collecting duct fluid passing through the hyperosmotic medulla can lose water (under ADH) to produce concentrated urine.",
+      "keypoints": [
+        "⭐ Countercurrent multiplier: DESCENDING limb (water-permeable, not NaCl) → fluid concentrates; ASCENDING limb (NaCl pumped out, water-impermeable) → fluid dilutes; NET = builds medullary gradient",
+        "Countercurrent exchanger (vasa recta): PRESERVES (not generates) the medullary gradient by equilibrating with interstitium during descent and ascent",
+        "Final concentration step: ADH → aquaporin-2 in collecting duct → water reabsorption into hyperosmotic medulla → concentrated urine",
+        "Loop diuretics: block NKCC2 (ascending limb) → destroy medullary gradient → collecting duct cannot concentrate → dilute urine despite ADH"
+      ]
+    },
+    {
+      "id": "q045",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "The concentration of urine in the collecting ducts is dependent on which of the following hormones?",
+      "choices": [
+        "Aldosterone",
+        "Angiotensin I",
+        "Angiotensin II",
+        "Renin",
+        "Vasopressin"
+      ],
+      "answer": 4,
+      "explanation": "Vasopressin (ADH, arginine vasopressin) is the hormone that regulates water permeability of the collecting duct epithelium, thereby controlling urine concentration. ADH binds V2 receptors on principal cells of the collecting duct, activating adenylyl cyclase → cAMP → PKA → phosphorylation and insertion of aquaporin-2 water channels into the apical membrane, allowing water to move from the tubular lumen into the hyperosmotic medullary interstitium. Increased plasma osmolality or decreased blood volume triggers ADH release from the posterior pituitary. Aldosterone (choice A) regulates Na+ reabsorption and K+ secretion but not water permeability directly. Angiotensin II (choice C) stimulates aldosterone and causes vasoconstriction but is not the direct mediator of collecting duct water permeability. Renin (choice D) initiates the RAAS cascade.",
+      "keypoints": [
+        "⭐ ADH (vasopressin): acts on V2 receptors of collecting duct principal cells → cAMP → AQP2 insertion → water reabsorption → concentrated urine",
+        "AQP2 = regulated by ADH (apical, insertable); AQP3 and AQP4 = constitutive basolateral channels for water exit into interstitium",
+        "No ADH → no AQP2 insertion → water stays in tubule → dilute urine (diabetes insipidus)",
+        "SIADH: inappropriately elevated ADH → excess water retention → dilutional hyponatremia; treatment = fluid restriction ± vaptans (V2 antagonists)"
+      ]
+    },
+    {
+      "id": "q046",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "A 16-year-old boy presents with headaches and muscle weakness. His parents note that he drinks water excessively. A 24-hour urine collection shows polyuria. The fasting blood sugar is normal. This patient may have an injury affecting which of the following endocrine organs?",
+      "choices": [
+        "Adrenal glands",
+        "Pancreas",
+        "Parathyroid glands",
+        "Pituitary gland",
+        "Thyroid gland"
+      ],
+      "answer": 3,
+      "explanation": "This clinical picture — polyuria, polydipsia (excessive water drinking), and normal fasting blood sugar (ruling out diabetes mellitus) — is consistent with diabetes insipidus. ADH (arginine vasopressin) is synthesized by neurons in the supraoptic and paraventricular nuclei of the hypothalamus and is released from the posterior lobe of the pituitary gland (neurohypophysis). Damage to the hypothalamus or posterior pituitary — from trauma, tumors (e.g., craniopharyngioma), infiltrative disease, or surgery — reduces ADH secretion, causing central diabetes insipidus: inability to concentrate urine → polyuria → compensatory polydipsia. The adrenal glands (choice A) cause SIADH if tumors secrete ectopic ADH, not DI. Pancreas (choice B) → diabetes mellitus (glucosuria). Parathyroid (choice C) and thyroid (choice E) are not involved in ADH regulation.",
+      "keypoints": [
+        "⭐ Central DI: ↓ ADH from posterior pituitary damage → dilute urine (↓ urine Osm) + polydipsia + hypernatremia; responds to desmopressin",
+        "Causes of central DI: head trauma, craniopharyngioma, pituitary surgery, sarcoidosis/histiocytosis X, idiopathic",
+        "Diagnosis: water deprivation test → urine fails to concentrate → give desmopressin → if urine concentrates = central DI; if still doesn't = nephrogenic DI",
+        "Nephrogenic DI: ADH secreted normally but collecting duct unresponsive; causes: lithium, hypercalcemia, hypokalemia, V2 receptor mutations"
+      ]
+    },
+    {
+      "id": "q047",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "The apex of a medullary pyramid is examined in the histology laboratory. Identify the tubular structures indicated by the asterisk.",
+      "choices": [
+        "Arcuate arteries",
+        "Connecting tubules",
+        "Cortical collecting ducts",
+        "Medullary collecting ducts",
+        "Papillary ducts of Bellini"
+      ],
+      "answer": 4,
+      "explanation": "The asterisks indicate papillary ducts of Bellini — large collecting ducts at the apex of the medullary pyramid. Medullary collecting ducts descend through the pyramids toward the renal papilla, where they converge and merge to form these large papillary ducts, which are lined by tall columnar epithelial cells. The papillary ducts drain urine into the minor calyces through the area cribrosa (the perforated tip of the renal papilla). The large lumen and columnar epithelium of papillary ducts distinguish them from the smaller medullary collecting ducts higher up in the pyramid.",
+      "keypoints": [
+        "⭐ Papillary ducts of Bellini: large convergent collecting ducts at papillary tip; tall columnar epithelium; drain urine through area cribrosa into minor calyces",
+        "Area cribrosa = perforated tip of renal papilla where papillary ducts open into minor calyx",
+        "Hierarchy: cortical collecting duct → medullary collecting duct → papillary duct of Bellini → minor calyx",
+        "Renal papillary necrosis: ischemic necrosis of papillary tips (from sickle cell, NSAIDs, DM, analgesic nephropathy) → sloughed papillae in urine → obstructive uropathy"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q47.png",
+      "imageAlt": "Low-power H&E section of renal papilla showing papillary ducts of Bellini (asterisks) draining into the minor calyx",
+      "imageCaption": "H&E section of renal papilla apex: papillary ducts of Bellini (asterisks) — large-diameter ducts lined by tall columnar epithelium converging at the area cribrosa to drain urine into the minor calyx (visible as open space)"
+    },
+    {
+      "id": "q048",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A 55-year-old man complains of hematuria. A urinary bladder biopsy is eventually obtained and examined in the pathology department. Specify the type of epithelium that lines this patient's urinary bladder.",
+      "choices": [
+        "Simple columnar",
+        "Stratified columnar",
+        "Stratified cuboidal",
+        "Stratified squamous",
+        "Transitional"
+      ],
+      "answer": 4,
+      "explanation": "The urinary excretory passageways — from the kidney calyces through the renal pelvis, ureters, and urinary bladder to the proximal part of the urethra — are all lined by transitional epithelium (urothelium). Transitional epithelium is a stratified epithelium with a unique ability to change shape: when the bladder is empty, the cells are cuboidal/dome-shaped (umbrella cells); when distended, they flatten. Dome-shaped surface cells (umbrella cells) are evident in the histologic image of the empty bladder. The lamina propria of the urothelium is composed of dense collagenous connective tissue. Transitional epithelium is not stratified squamous (choice D) — that lines the vagina, esophagus, and skin.",
+      "keypoints": [
+        "⭐ Transitional epithelium (urothelium): lines renal calyces → pelvis → ureters → bladder → proximal urethra; changes shape with distension",
+        "Empty bladder: 6-7 cell layers, dome-shaped umbrella cells (surface) containing plaques of asymmetric membrane unit proteins (uroplakins)",
+        "Full bladder: epithelium stretches to 2-3 layers, cells flatten; tight junctions prevent urine from entering lamina propria",
+        "Urothelial (transitional cell) carcinoma: most common bladder cancer; arises from transitional epithelium; associated with smoking, aniline dyes, cyclophosphamide"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q48.png",
+      "imageAlt": "H&E section of urinary bladder wall showing transitional epithelium (urothelium) with dome-shaped surface umbrella cells",
+      "imageCaption": "H&E section of urinary bladder: transitional epithelium (urothelium) with characteristic dome-shaped umbrella cells at the luminal surface; lamina propria of dense collagenous connective tissue beneath; detrusor smooth muscle visible deeper in the wall"
+    },
+    {
+      "id": "q049",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "First-year medical students examine the wall of the urinary bladder in the histology laboratory. Identify the tissue indicated by the asterisk.",
+      "choices": [
+        "Dense irregular connective tissue",
+        "Dense regular connective tissue",
+        "Elastic connective tissue",
+        "Skeletal muscle",
+        "Smooth muscle"
+      ],
+      "answer": 4,
+      "explanation": "The bladder wall is composed of three layers: (1) mucosa (transitional epithelium + lamina propria), (2) muscularis (smooth muscle = detrusor muscle), and (3) adventitia/serosa. The muscularis of the bladder — the detrusor muscle — contains abundant smooth muscle fibers running in multiple directions (inner longitudinal, middle circular, outer longitudinal). The asterisk indicates these interlacing smooth muscle bundles. The detrusor is innervated by parasympathetic fibers from S2–S4; contraction during micturition compresses the bladder and expels urine. Skeletal muscle (choice D) surrounds the external urethral sphincter (membranous urethra) but is not in the bladder wall itself.",
+      "keypoints": [
+        "⭐ Detrusor muscle = smooth muscle of bladder wall; 3 layers (inner longitudinal/middle circular/outer longitudinal); parasympathetic (S2-S4) = contraction = micturition",
+        "Internal urethral sphincter = smooth muscle (involuntary); innervated by sympathetic fibers → contracts to prevent urine leakage and semen reflux",
+        "External urethral sphincter = skeletal muscle (voluntary); surrounds membranous urethra; innervated by pudendal nerve (somatic)",
+        "Neurogenic bladder: upper motor neuron lesion → spastic bladder; lower motor neuron lesion → flaccid bladder with overflow incontinence"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q49.png",
+      "imageAlt": "H&E section of urinary bladder wall showing smooth muscle bundles of the detrusor muscle (asterisks)",
+      "imageCaption": "H&E section of urinary bladder wall: smooth muscle bundles of the detrusor muscle (asterisks) running in multiple directions; smooth muscle cells show elongated nuclei and eosinophilic cytoplasm; connective tissue (lighter) separates the bundles"
+    },
+    {
+      "id": "q050",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Several retroperitoneal organs are examined at autopsy. One of these organs is shown in the image. The histologic features of this specimen suggest that it was obtained from which of the following anatomic locations?",
+      "choices": [
+        "Gallbladder",
+        "Renal artery",
+        "Ureter",
+        "Urethra",
+        "Urinary bladder"
+      ],
+      "answer": 2,
+      "explanation": "The characteristic histologic features shown — a stellate (star-shaped) lumen from mucosal folding after smooth muscle contraction at death, transitional epithelium lining the mucosa, inner longitudinal and outer circular smooth muscle layers, and adventitia fusing with retroperitoneal adipose tissue — identify this specimen as the ureter. The stellate lumen is created by the post-mortem contraction of the muscularis, which folds the mucosa. The gallbladder (choice A) is lined by simple columnar epithelium with Rokitansky-Aschoff sinuses. The renal artery (choice B) has a muscular arterial wall. The urethra (choice D) and urinary bladder (choice E) have different muscle layer arrangements and lumen shapes.",
+      "keypoints": [
+        "⭐ Ureter histology: transitional epithelium + lamina propria + inner longitudinal + outer circular smooth muscle + adventitia; stellate lumen post-mortem from muscle contraction",
+        "Ureter has 3 layers of smooth muscle in lower 1/3 (inner longitudinal + middle circular + outer longitudinal) to facilitate peristalsis into bladder",
+        "Three ureteric constrictions (common sites for stone obstruction): UPJ, crossing of iliac vessels, UVJ (narrowest)",
+        "Peristaltic contractions of ureter (3-5/min) propel urine from renal pelvis to bladder against gravity"
+      ],
+      "image": "/images/histo_ch15/lippincott histo ch15 q50.png",
+      "imageAlt": "Low-power H&E cross-section of ureter showing stellate lumen, transitional epithelium, and smooth muscle layers in retroperitoneal fat",
+      "imageCaption": "H&E cross-section of ureter: characteristic stellate lumen (from post-mortem smooth muscle contraction folding the mucosa), transitional epithelium, inner longitudinal + outer circular smooth muscle layers, and surrounding retroperitoneal adipose tissue (adventitia)"
+    },
+    {
+      "id": "q051",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Which portion of the male urethra is surrounded by the external urethral sphincter?",
+      "choices": [
+        "Distal segment of the spongy urethra",
+        "Initial segment of the spongy urethra",
+        "Membranous urethra",
+        "Preprostatic urethra",
+        "Prostatic urethra"
+      ],
+      "answer": 2,
+      "explanation": "The male urethra is approximately 20 cm long and is divided into four anatomic portions: (1) preprostatic urethra — short segment as the bladder opens into the urethra; (2) prostatic urethra — travels through the prostate gland, receiving the ejaculatory ducts and prostatic ducts; (3) membranous urethra — approximately 1 cm, penetrating the deep perineal pouch (urogenital diaphragm); and (4) spongy (penile/cavernous) urethra — approximately 15 cm through the corpus spongiosum of the penis. Voluntary skeletal muscle fibers in the deep perineal pouch wrap around the membranous urethra to form the external urethral sphincter, which provides voluntary control of micturition.",
+      "keypoints": [
+        "⭐ Male urethra segments: preprostatic (short) → prostatic (through prostate) → MEMBRANOUS (external urethral sphincter, skeletal muscle) → spongy/penile (~15 cm)",
+        "External urethral sphincter = SKELETAL muscle, VOLUNTARY control, surrounds MEMBRANOUS urethra, innervated by pudendal nerve (S2-S4)",
+        "Internal urethral sphincter = SMOOTH muscle, INVOLUNTARY, at bladder neck, innervated by sympathetic fibers (prevents retrograde ejaculation)",
+        "Female urethra = ~4 cm; entirely membranous in equivalent; external sphincter surrounds middle third; shorter → higher UTI risk"
+      ]
+    }
+  ]
+}
