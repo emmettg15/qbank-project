@@ -37,7 +37,7 @@ export const JEFFMD_CATALOG = [
 {
   catalogId: 'lippencott_histo_ch15_urinary_qbank',
   title: 'Lippencott Histo Ch15 - Urinary System (JeffMD Renal relevant)',
-  description: 'urinary system histology,
+  description: 'urinary system histology',
   questionCount: 51,
   tags: ['histo', 'renal'],
   examLevel: 'step1',
