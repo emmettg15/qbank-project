@@ -1,0 +1,158 @@
+{
+  "config": {
+    "title": "Lippincott Pharmacology Ch. 5 – Diuretics & Selected Topics (JeffMD Block 5 - Renal)",
+    "subtitle": "Diuretic mechanisms and sites of action, potassium-sparing agents, loop diuretics, carbonic anhydrase inhibitors, and related clinical pharmacology",
+    "passingFraction": 0.75,
+    "tags": {
+      "renal": {
+        "label": "Renal/Urinary"
+      },
+      "cardio": {
+        "label": "Cardiovascular"
+      },
+      "pharm": {
+        "label": "Pharmacology (Cross-cutting)"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "A 62-year-old man with congestive heart failure has been taking a loop diuretic to reduce peripheral edema. His labs reveal a serum potassium of 3.1 mEq/L, so a potassium-sparing diuretic, triamterene, is added to his regimen. Which of the following is the site of action of this agent?",
+      "choices": [
+        "Ascending limb of loop of Henle",
+        "Collecting tubule",
+        "Descending limb of loop of Henle",
+        "Distal convoluted tubule",
+        "Proximal convoluted tubule"
+      ],
+      "answer": 3,
+      "explanation": "Triamterene is a potassium-sparing diuretic that acts at the distal convoluted tubule (DCT). Potassium is lost in the urine when high amounts of sodium pass through the DCT (as is the case with loop diuretic use), because of a sodium-potassium exchange pump on the DCT cells. Triamterene (and amiloride) inhibit this pump, leaving sodium in the urine and retaining potassium in the blood — making them useful add-ons to potassium-wasting diuretics. Loop diuretics (e.g., furosemide) inhibit the Na⁺/K⁺/2Cl⁻ transporter on the thick ascending limb of the loop of Henle. Antidiuretic hormone (ADH) acts on the collecting tubule. There is no clinically used diuretic acting on the descending limb. Carbonic anhydrase inhibitors (e.g., acetazolamide) act in the proximal convoluted tubule.",
+      "keypoints": [
+        "⭐ Triamterene and amiloride: potassium-sparing diuretics → act at DCT → block Na⁺/K⁺ exchange pump → ↓ urinary K⁺ loss; used to offset hypokalemia from loop or thiazide diuretics",
+        "Spironolactone/eplerenone: also K⁺-sparing but act at collecting duct/tubule by blocking aldosterone receptor (different mechanism from triamterene/amiloride)",
+        "Loop diuretics (furosemide, ethacrynic acid, bumetanide): thick ascending limb of loop of Henle → block Na⁺/K⁺/2Cl⁻ cotransporter → most powerful diuretics",
+        "Hypokalemia on loop or thiazide diuretics predisposes to digoxin toxicity — monitor K⁺ carefully"
+      ]
+    },
+    {
+      "id": "q002",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "A 27-year-old woman complains of right flank pain and hematuria. She has passed calcium oxalate stones in the past and likely has another stone. After treating her for her stone, which of the following diuretics should she avoid to prevent future calcium oxalate stones?",
+      "choices": [
+        "Amiloride",
+        "Furosemide",
+        "Hydrochlorothiazide",
+        "Mannitol",
+        "Spironolactone"
+      ],
+      "answer": 1,
+      "explanation": "Calcium oxalate stones form when urinary calcium is elevated. Loop diuretics such as furosemide increase renal excretion of calcium, thereby raising urinary calcium levels and predisposing to calcium-containing stone formation. This patient with recurrent calcium oxalate nephrolithiasis should therefore avoid furosemide. In contrast, hydrochlorothiazide (a thiazide diuretic) causes calcium retention by an unknown mechanism — it decreases urinary excretion of calcium — and is actually the preferred agent to prevent recurrent calcium oxalate stones. Amiloride inhibits the sodium-potassium exchanger in the distal tubule and does not substantially alter calcium handling. Mannitol is an osmotic diuretic filtered at the glomerulus but minimally reabsorbed and does not alter calcium handling. Spironolactone is an aldosterone antagonist and does not significantly alter calcium excretion.",
+      "keypoints": [
+        "⭐ Loop diuretics (furosemide) → ↑ urinary Ca²⁺ excretion → AVOID in calcium nephrolithiasis; thiazides → ↓ urinary Ca²⁺ → USE to PREVENT recurrent calcium stones",
+        "Thiazide mechanism for hypocalciuria: enhanced Ca²⁺ reabsorption at DCT (partially via Na⁺ depletion stimulating proximal tubular Ca²⁺ reabsorption)",
+        "Calcium oxalate stones: most common type; also avoid dietary oxalate excess, maintain high fluid intake, treat underlying hypercalciuria or hyperoxaluria",
+        "Loop diuretics also used to treat hypercalcemia (combined with IV saline) — exploiting their calciuric effect"
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "cardio",
+      "examLevel": "step1",
+      "system": "Cardiovascular",
+      "contentType": "Pharmacology",
+      "stem": "A 68-year-old man with congestive heart failure presents to the emergency department with shortness of breath. He has 2+ pitting edema in his extremities. A chest X-ray confirms the presence of pulmonary edema. The patient is given ethacrynic acid to diurese the excess fluid. Where in the nephron does ethacrynic acid act?",
+      "choices": [
+        "Collecting tubule",
+        "Descending loop of Henle",
+        "Distal convoluted tubule",
+        "Proximal convoluted tubule",
+        "Thick ascending loop of Henle"
+      ],
+      "answer": 4,
+      "explanation": "Ethacrynic acid is a loop diuretic that acts on the Na⁺/K⁺/2Cl⁻ cotransporter in the thick ascending limb of the loop of Henle, identical in site of action to furosemide. It is used in fluid-overloaded states such as congestive heart failure, nephrotic syndrome, and pulmonary edema. Ethacrynic acid is notable as the only non-sulfonamide loop diuretic and is therefore the loop diuretic of choice in patients with sulfa allergy. Potassium-sparing diuretics (e.g., spironolactone) act on the collecting tubule/duct. Mannitol (osmotic) acts on the descending loop of Henle and proximal tubule. Hydrochlorothiazide (thiazide) acts on the distal convoluted tubule. Acetazolamide (carbonic anhydrase inhibitor) acts on the proximal convoluted tubule.",
+      "keypoints": [
+        "⭐ Ethacrynic acid = loop diuretic; site: thick ascending limb → blocks Na⁺/K⁺/2Cl⁻ cotransporter; only non-sulfonamide loop diuretic → use in sulfa allergy",
+        "All loop diuretics (furosemide, bumetanide, torsemide, ethacrynic acid): thick ascending limb → most potent diuretics; cause hypokalemia, hypomagnesemia, metabolic alkalosis, hypocalciuria relative to furosemide",
+        "Diuretic site-of-action mnemonic (proximal → distal): PCT = acetazolamide; LOH = loop diuretics; DCT = thiazides; Collecting duct = spironolactone/amiloride/triamterene",
+        "Ethacrynic acid is more ototoxic than other loop diuretics — avoid co-administration with aminoglycosides"
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "A 54-year-old man with hypertension, alcoholic cirrhosis, and HIV disease is hospitalized for abdominal pain, fatigue, and weakness. His ascites and edema are markedly worse. Physical examination reveals a palpable abdominal fluid wave. Which of the following treatments may be beneficial for this patient?",
+      "choices": [
+        "Acetazolamide",
+        "Chlorthalidone",
+        "Furosemide",
+        "Hydrochlorothiazide",
+        "Spironolactone"
+      ],
+      "answer": 4,
+      "explanation": "Spironolactone is the diuretic of choice for hepatic ascites and edema. Patients with cirrhosis develop ascites partly through secondary hyperaldosteronism (low oncotic pressure and portal hypertension drive aldosterone release). Spironolactone, an aldosterone antagonist acting at the collecting duct, effectively counters aldosterone-driven sodium and water retention and is the most effective single agent for hepatic edema. Patients with cirrhosis are frequently resistant to loop diuretics alone, although a combination of furosemide and spironolactone may be used. Acetazolamide treats hypertension but is not effective for ascites. Chlorthalidone and hydrochlorothiazide (thiazides) manage outpatient hypertension but are not effective for significant central ascites. Furosemide alone has limited success removing central ascites fluid compared to spironolactone.",
+      "keypoints": [
+        "⭐ Hepatic ascites treatment: spironolactone (aldosterone antagonist at collecting duct) is first-line; often combined with furosemide in a 100 mg:40 mg ratio to maintain normokalemia",
+        "Cirrhosis → portal hypertension + ↓ oncotic pressure → secondary hyperaldosteronism → Na⁺/H₂O retention → spironolactone most targeted agent",
+        "Spironolactone side effects: gynecomastia (antiandrogenic), menstrual irregularities, hyperkalemia, peptic ulcers — avoid in renal failure (hyperkalemia risk)",
+        "Eplerenone: more selective aldosterone antagonist than spironolactone → fewer antiandrogenic side effects; used in heart failure and hypertension"
+      ]
+    },
+    {
+      "id": "q005",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "A 59-year-old man with a history of recurrent bilateral kidney stones is placed on a medication to decrease calcium excretion. Unfortunately, 3 months after beginning this medication, he develops gout in his right great toe. The most likely explanation of these findings relates to which of the following medications?",
+      "choices": [
+        "Furosemide",
+        "Hydrochlorothiazide",
+        "Spironolactone",
+        "Triamterene",
+        "This is not a medication effect"
+      ],
+      "answer": 1,
+      "explanation": "Hydrochlorothiazide (HCTZ) is the medication most likely responsible. HCTZ is effective in increasing calcium reabsorption in the distal convoluted tubule, thereby decreasing urinary calcium excretion and reducing the formation of calcium-containing kidney stones — a known therapeutic indication. However, HCTZ also inhibits the excretion of uric acid from the proximal tubule by competing with its secretory transporter, leading to uric acid accumulation (hyperuricemia) and precipitation as monosodium urate crystals in the joint — causing gout. This is an important dual side effect of thiazide diuretics to recognize. Furosemide increases calcium excretion and would worsen stone formation. Spironolactone and triamterene do not have a clinically significant effect on either calcium excretion or uric acid handling.",
+      "keypoints": [
+        "⭐ Hydrochlorothiazide (thiazide): ↓ urinary Ca²⁺ (useful for recurrent calcium nephrolithiasis) BUT also ↓ uric acid excretion → hyperuricemia → gout",
+        "Thiazide diuretics also cause: hypokalemia, hyponatremia, hyperglycemia (insulin secretion ↓), hyperlipidemia, and metabolic alkalosis",
+        "Furosemide (loop diuretic) ALSO inhibits uric acid secretion → gout; both loop diuretics and thiazides can precipitate gouty attacks",
+        "Treatment of acute gout: NSAIDs (first-line), colchicine, or glucocorticoids; urate-lowering therapy (allopurinol, febuxostat) for chronic/prevention"
+      ]
+    },
+    {
+      "id": "q006",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "A 44-year-old man with multiple medical problems is placed on a carbonic anhydrase inhibitor which inhibits bicarbonate reabsorption and acts as a weak diuretic. In the diagram of the nephron shown, this agent works at which of the following locations? (Location 1 = proximal convoluted tubule; Location 2 = descending loop of Henle; Location 3 = ascending loop of Henle; Location 4 = distal convoluted tubule; Location 5 = collecting duct)",
+      "choices": [
+        "Location 1",
+        "Location 2",
+        "Location 3",
+        "Location 4",
+        "Location 5"
+      ],
+      "answer": 0,
+      "explanation": "Carbonic anhydrase inhibitors (e.g., acetazolamide) act at Location 1, the proximal convoluted tubule (PCT). In the PCT, carbonic anhydrase catalyzes the conversion of CO₂ + H₂O to H₂CO₃, which dissociates into H⁺ and HCO₃⁻. The H⁺ is secreted into the tubular lumen (in exchange for Na⁺) where it combines with filtered HCO₃⁻ to regenerate CO₂ that diffuses back into the cell — effectively reclaiming bicarbonate. Acetazolamide blocks this enzyme, preventing bicarbonate reabsorption and causing a bicarbonate diuresis with resultant metabolic acidosis (hyperchloremic, normal anion gap). It is used for altitude sickness (prophylaxis), glaucoma (reduces aqueous humor production), and some seizure types. Location 2 = descending LOH (mannitol); Location 3 = ascending LOH (loop diuretics); Location 4 = DCT (thiazides); Location 5 = collecting duct (potassium-sparing diuretics: spironolactone, amiloride, triamterene).",
+      "keypoints": [
+        "⭐ Acetazolamide (carbonic anhydrase inhibitor): acts at PCT → inhibits HCO₃⁻ reabsorption → bicarbonaturia → metabolic acidosis (hyperchloremic, normal AG)",
+        "Clinical uses of acetazolamide: altitude sickness prophylaxis, glaucoma (↓ aqueous humor secretion), metabolic alkalosis correction, some epilepsy types",
+        "All 5 nephron sites and their diuretics: PCT → acetazolamide; Descending LOH → mannitol; Thick ascending LOH → loop diuretics; DCT → thiazides; Collecting duct → spironolactone/amiloride/triamterene",
+        "Carbonic anhydrase inhibitors → alkaline urine (HCO₃⁻ wasted) + ↓ plasma HCO₃⁻ → net hyperchloremic metabolic acidosis; this self-limits the diuretic effect"
+      ]
+    }
+  ]
+}

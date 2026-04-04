@@ -1,0 +1,847 @@
+{
+  "config": {
+    "title": "Lippincott Pharmacology Ch1 \u2014 Principles of Pharmacology",
+    "subtitle": "Drug routes, pharmacokinetics (Vd, half-life, steady state, clearance, bioavailability), receptor pharmacology, phase I/II metabolism, enzyme kinetics, drug interactions, and adverse drug reactions",
+    "passingFraction": 0.75,
+    "tags": {
+      "pharm": {
+        "label": "Pharmacology (Cross-cutting)"
+      },
+      "biochem": {
+        "label": "Biochemistry (Cross-cutting)"
+      },
+      "renal": {
+        "label": "Renal/Urinary"
+      },
+      "neuro": {
+        "label": "Neurology"
+      },
+      "heme": {
+        "label": "Hematology/Oncology"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 79-year-old man with end-stage Alzheimer's disease and dysphagia is taking multiple medications. Physical examination reveals xerostomia and a limited gag reflex. Which of the following routes of medication administration would provide the lowest serum drug concentration?",
+      "choices": [
+        "Enteral",
+        "Intramuscular",
+        "Intrathecal",
+        "Intravenous",
+        "Transdermal"
+      ],
+      "answer": 0,
+      "explanation": "This patient has dysphagia and Alzheimer's disease, making drug administration by mouth (enteral/oral route) difficult and limiting direct absorption via the stomach. Because swallowing is impaired, the drug may not be adequately absorbed from the GI tract, resulting in the lowest achievable serum concentration. Intramuscular administration, although painful, would give acceptable serum drug concentrations. Intrathecal administration gives adequate CNS concentrations but is limited to CNS indications. Intravenous administration delivers medications directly to the bloodstream, yielding the highest and most reliable serum concentrations. Transdermal administration can achieve therapeutic systemic concentrations through skin absorption.",
+      "keypoints": [
+        "\u2b50 Enteral (oral) route provides lowest reliability in patients with dysphagia \u2014 absorption depends on intact swallowing, gastric motility, and GI surface area",
+        "IV > IM/SC > oral/enteral for peak serum drug concentrations; IV has bioavailability = 100%",
+        "First-pass metabolism further reduces oral bioavailability of drugs metabolized by the liver before reaching systemic circulation",
+        "Dysphagia and altered GI motility (e.g., in elderly, stroke, dementia) reduce absorption from the enteral route"
+      ]
+    },
+    {
+      "id": "q002",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 27-year-old female with vulvovaginal candidiasis is given a one-time 100 mg dose of oral fluconazole. She has no other pertinent medical problems and takes no prescription medications. Administration of the medication results in a peak plasma concentration of 20 \u03bcg/mL. What is the apparent volume of drug distribution?",
+      "choices": [
+        "0.5 L",
+        "1 L",
+        "3 L",
+        "5 L",
+        "50 L"
+      ],
+      "answer": 3,
+      "explanation": "The volume of distribution (Vd) is calculated by dividing the total amount of drug administered by the peak plasma concentration: Vd = dose / Cp. Here, Vd = 100 mg \u00f7 20 \u03bcg/mL = 100,000 \u03bcg \u00f7 20 \u03bcg/mL = 5,000 mL = 5 L. A Vd of 5 L suggests the drug distributes primarily within the plasma compartment (plasma volume \u2248 3 L) with limited tissue penetration. Drugs with high lipid solubility or tissue binding have very large Vd (hundreds of liters), while hydrophilic drugs confined to plasma have low Vd.",
+      "keypoints": [
+        "\u2b50 Vd = Dose / Cp (peak plasma concentration); units = liters",
+        "Vd ~3\u20135 L \u2192 drug stays in plasma (e.g., warfarin bound to albumin); Vd ~15 L \u2192 distributes into ECF; Vd >40 L \u2192 distributes into tissues/fat",
+        "Large Vd = highly lipophilic drugs, extensive tissue binding (e.g., chloroquine, amiodarone can have Vd >500 L)",
+        "Clinical relevance: large Vd drugs require large loading doses; also harder to remove by dialysis"
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 29-year-old man presents to his primary care physician complaining of dysuria, urgency, and painful ejaculation. The patient has a past medical history of allergic rhinitis. Physical examination reveals a tender prostate. The patient is given a prescription of sulfamethoxazole to be taken daily (q 12 h) for 30 days. The half-life is 12 h. How long will it take for the medication to reach 90% of its final steady state level?",
+      "choices": [
+        "10 h",
+        "20 h",
+        "30 h",
+        "40 h",
+        "50 h"
+      ],
+      "answer": 3,
+      "explanation": "To determine the time required to reach 90% of final steady state, use the formula: time = 3.3 \u00d7 t\u00bd. Here, t\u00bd = 12 h, so time = 3.3 \u00d7 12 = approximately 40 h. This relationship derives from first-order kinetics: after each half-life, the drug accumulates 50%, 75%, 87.5%, 93.75% of steady state (at 1, 2, 3, 4 half-lives, respectively). At 3.3 half-lives, 90% of steady state is achieved. Note that despite reaching 90% steady state in 40 h, poor penetration into prostate tissue often means patients need 3\u20134 weeks of antibiotics for cure of bacterial prostatitis.",
+      "keypoints": [
+        "\u2b50 Time to 90% steady state = 3.3 \u00d7 t\u00bd; time to ~94% steady state = 4 half-lives; time to ~97% = 5 half-lives",
+        "Steady state is reached when rate of drug elimination = rate of drug administration (independent of dose \u2014 dose only changes the level, not the time to reach it)",
+        "Doubling the dose doubles the steady-state concentration but does NOT change the time to reach steady state",
+        "Loading dose shortens time to reach therapeutic concentration: Loading dose = Vd \u00d7 Cp(target) / F"
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A hospitalized patient with systemic candidiasis is receiving intravenous antifungal medications. He also has hepatic and renal insufficiency. Which of the following drug administration schemes would allow for the most steady state amount of drug in the body over a 2-week hospitalization period where medication administration will be necessary?",
+      "choices": [
+        "Continuous IV infusion",
+        "Once weekly IV injection",
+        "Single daily IV injection",
+        "Twice daily IV injection",
+        "Twice weekly IV injection"
+      ],
+      "answer": 0,
+      "explanation": "Continuous IV infusion results in a steady, constant drug level in the body \u2014 it achieves a true steady state without the peaks and troughs associated with intermittent dosing. Although bolus injection schemes result in higher initial drug concentrations after each dose, the concentration then falls according to the drug's half-life. In a patient with hepatic and renal insufficiency (impaired clearance), accumulation is a risk with high-peak regimens. Continuous infusion provides the most stable and consistent amount of drug in the body over a prolonged hospitalization. Once weekly or twice weekly injections produce prominent peaks and troughs with potential sub-therapeutic levels in between.",
+      "keypoints": [
+        "\u2b50 Continuous IV infusion \u2192 true steady state (no peaks/troughs); most stable drug level over time",
+        "Intermittent dosing \u2192 peaks and troughs; higher peak can increase toxicity; trough may be sub-therapeutic",
+        "Impaired clearance (hepatic/renal failure) prolongs t\u00bd \u2192 drug accumulates \u2192 reduce dose or extend dosing interval",
+        "Clinically, aminoglycosides use peak/trough monitoring; vancomycin uses AUC/MIC targeting"
+      ]
+    },
+    {
+      "id": "q005",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A hospitalized patient with systemic infection is receiving intravenous antibiotics. He also has hepatic and renal insufficiency. After receiving medications for 5 days, he is found by nursing staff to be jaundiced. Drug toxicology profile is obtained and indicated drug levels of 10 times the acceptable value. Which of the following drug administration schemes is most likely to explain this situation?",
+      "choices": [
+        "Continuous IV infusion",
+        "Once weekly IV injection",
+        "Single daily IV injection",
+        "Twice daily IV injection",
+        "Twice weekly IV injection"
+      ],
+      "answer": 3,
+      "explanation": "Twice daily IV injection causes the highest drug accumulation in the body. In a patient with hepatic AND renal insufficiency, drug metabolism and excretion are both compromised, dramatically prolonging the drug's half-life. With twice-daily dosing in this context, each successive dose is administered before the prior dose has been adequately cleared, leading to progressive accumulation to toxic levels over several days. This explains drug levels of 10 times the acceptable value. Continuous IV infusion results in steady-state levels (assuming the infusion rate is set appropriately). Once or twice weekly injections give less total drug exposure.",
+      "keypoints": [
+        "\u2b50 Twice-daily dosing + impaired clearance (hepatic + renal) \u2192 drug accumulation \u2192 toxicity over multiple days",
+        "t\u00bd is prolonged by: \u2193 renal plasma flow, \u2193 hepatic blood flow (heart failure), \u2193 hepatic metabolism (cirrhosis), \u2193 renal extraction (CKD)",
+        "Key drugs requiring dose adjustment in renal failure: aminoglycosides, vancomycin, penicillins, metformin",
+        "Key drugs requiring dose adjustment in hepatic failure: drugs with high first-pass effect (morphine, lidocaine, propranolol)"
+      ]
+    },
+    {
+      "id": "q006",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A patient receives a single dose of antibiotics following a prostate needle biopsy. He takes 500 mg of ciprofloxacin immediately after completion of the procedure. The half-life of the medication is 8 h. At approximately how many half-lives will it take for 90% of the drug to be excreted from the body?",
+      "choices": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "3.3",
+        "5.0"
+      ],
+      "answer": 3,
+      "explanation": "For drugs following first-order elimination, the percentage remaining after each half-life follows a predictable pattern: after 1 half-life, 50% remains; after 2 half-lives, 25% remains; after 3 half-lives, 12.5% remains; after 3.3 half-lives, approximately 10% remains (meaning 90% has been eliminated). This is the same mathematical relationship as the time to reach 90% steady state but applied in reverse \u2014 elimination follows the same exponential kinetics. Note that 5 half-lives eliminates approximately 97% of a drug (the value conventionally used to say a drug is 'essentially eliminated').",
+      "keypoints": [
+        "\u2b50 3.3 half-lives = 90% elimination; 4 half-lives = ~94% elimination; 5 half-lives = ~97% elimination",
+        "After 1 t\u00bd: 50% remaining; 2 t\u00bd: 25%; 3 t\u00bd: 12.5%; 3.3 t\u00bd: ~10%; 5 t\u00bd: ~3%",
+        "First-order kinetics: rate of elimination is proportional to drug concentration (constant fraction eliminated per unit time)",
+        "Zero-order kinetics (ethanol, phenytoin at high doses, aspirin overdose): constant amount eliminated per unit time regardless of concentration"
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "The P-glycoprotein is a multidrug transmembrane transporter protein that transports medications across cell membranes. Functions of this protein include:",
+      "choices": [
+        "Pumping drugs into the urine for excretion",
+        "Transport of drugs into liver hepatocytes",
+        "Transport of drugs into fetal circulation for fetal treatment",
+        "Transport of drugs from the intestinal lumen to the circulation",
+        "Transport of drugs from the bloodstream into brain cells"
+      ],
+      "answer": 0,
+      "explanation": "P-glycoprotein (P-gp, MDR1/ABCB1) is an ATP-dependent efflux transporter expressed throughout the body. In the kidney, P-gp pumps drugs into the urine for excretion. Its other key functions include: in the liver \u2014 transporting drugs into bile for fecal elimination (NOT into hepatocytes); in the placenta \u2014 transporting drugs OUT of fetal circulation back to maternal blood (protecting the fetus, not delivering drugs to it); in the intestine \u2014 transporting drugs FROM the circulation/enterocytes INTO the intestinal lumen (reducing oral bioavailability); in brain capillaries \u2014 pumping drugs OUT of the CNS back into blood (limiting CNS drug access). P-gp is a major drug resistance mechanism in cancer chemotherapy.",
+      "keypoints": [
+        "\u2b50 P-gp is an EFFLUX pump (removes drugs from cells/body compartments): kidney \u2192 urine; liver \u2192 bile; intestine \u2192 lumen; brain \u2192 blood; placenta \u2192 maternal blood",
+        "P-gp overexpression = multidrug resistance in cancer (MDR phenotype) \u2014 cancer cells pump out chemotherapy",
+        "P-gp inhibitors (e.g., verapamil, cyclosporine, ritonavir) can increase CNS penetration or oral bioavailability of substrates",
+        "P-gp inducers (e.g., rifampin, St. John's Wort) reduce drug levels by increasing efflux"
+      ]
+    },
+    {
+      "id": "q008",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "The therapeutic index of a drug is the ratio of the dose that produces toxicity to the dose that produces an efficacious response. By this definition, which of the following medications has the largest therapeutic index?",
+      "choices": [
+        "Diazepam",
+        "Digoxin",
+        "Gentamicin",
+        "Lithium",
+        "Theophylline"
+      ],
+      "answer": 0,
+      "explanation": "Diazepam (a benzodiazepine) has a large therapeutic index \u2014 a large number of patients achieve desired therapeutic effects, and a much smaller percentage experience adverse effects even at higher doses. In contrast, digoxin, gentamicin, lithium, and theophylline all have narrow therapeutic indices and require therapeutic drug monitoring. Digoxin toxicity causes arrhythmias, nausea, and visual changes (yellow-green halos). Gentamicin causes nephrotoxicity and ototoxicity; peak and trough levels are monitored. Lithium causes tremor, polyuria, and at toxic levels, seizures and coma. Theophylline causes seizures and arrhythmias at toxic levels.",
+      "keypoints": [
+        "\u2b50 NARROW therapeutic index drugs (require monitoring): Digoxin, Gentamicin (aminoglycosides), Lithium, Theophylline, Warfarin, Phenytoin, Vancomycin (AUC/MIC), Cyclosporine",
+        "Therapeutic index (TI) = TD50 / ED50; narrow TI = TD50 close to ED50 \u2192 small margin for error",
+        "Wide TI drugs (e.g., benzodiazepines, penicillins): overdose rarely causes death from the drug itself",
+        "Standard margin of safety = (LD1 / ED99 \u2212 1) \u00d7 100; measures safety between lowest lethal dose and highest effective dose"
+      ]
+    },
+    {
+      "id": "q009",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A medical student is doing a summer research project studying five antibiotics to determine potency using the EC50. Antibiotics are placed in plated culture wells with 100,000 CFU of Escherichia coli. The EC50 results for the five antibiotics are shown in the following choices. Based on the results, the most potent antibiotic is:",
+      "choices": [
+        "Antibiotic A EC50 = 100",
+        "Antibiotic B EC50 = 2",
+        "Antibiotic C EC50 = 80",
+        "Antibiotic D EC50 = 20",
+        "Antibiotic E EC50 = 50"
+      ],
+      "answer": 1,
+      "explanation": "The EC50 is the drug concentration that produces 50% of the maximal response. A lower EC50 indicates that less drug is needed to achieve 50% of the maximum effect \u2014 this means the drug is MORE potent. Antibiotic B has the lowest EC50 (= 2) and is therefore the most potent. Antibiotic A (EC50 = 100) is the least potent. Ranking from most to least potent: B (2) > D (20) > E (50) > C (80) > A (100). Note: potency and efficacy are distinct \u2014 a drug can be highly potent (low EC50) but have limited efficacy (low maximum effect), or vice versa.",
+      "keypoints": [
+        "\u2b50 Lower EC50 = HIGHER potency (less drug needed for 50% maximal response)",
+        "Potency \u2260 Efficacy: Efficacy = maximum achievable effect (Emax); potency = dose/concentration needed to achieve that effect",
+        "A partial agonist may be highly potent (low EC50) but have lower efficacy (lower Emax) than a full agonist",
+        "EC50 shift to the right = decreased potency (competitive inhibitor \u2192 reversible; noncompetitive \u2192 irreversible shift)"
+      ]
+    },
+    {
+      "id": "q010",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A researcher for a pharmaceutical company is studying a new medication to treat parkinsonism. The medication is dosed at 10 mg and causes improvement in bradykinesia and cogwheel rigidity in 99% of patients. However, 100 mg of this medication causes toxicity manifested as seizures in 1% of the population treated with this medication. What is the standard margin of safety of this medication?",
+      "choices": [
+        "100",
+        "300",
+        "500",
+        "700",
+        "900"
+      ],
+      "answer": 4,
+      "explanation": "The standard margin of safety (SMS) = [(LD1 / ED99) \u2212 1] \u00d7 100, where LD1 = the dose lethal (or toxic) to 1% of the population, and ED99 = the dose effective in 99% of the population. In this case, LD1 = 100 mg (causes seizures/toxicity in 1%) and ED99 = 10 mg (effective in 99%). Therefore: SMS = [(100/10) \u2212 1] \u00d7 100 = [10 \u2212 1] \u00d7 100 = 9 \u00d7 100 = 900. This means the effective dose in 99% of the population would need to be increased 900% (10-fold) to be toxic to 1% of the population \u2014 representing a favorable safety margin.",
+      "keypoints": [
+        "\u2b50 Standard Margin of Safety = [(LD1 / ED99) \u2212 1] \u00d7 100; measures gap between therapeutic efficacy in nearly all patients and toxicity in very few",
+        "Therapeutic Index (TI) = LD50 / ED50 (or TD50 / ED50); higher TI = safer drug",
+        "Narrow TI: small change in dose \u2192 large change in toxicity risk (e.g., warfarin, digoxin, lithium)",
+        "LD1/ED99 is a more conservative (and clinically relevant) safety metric than TI (LD50/ED50)"
+      ]
+    },
+    {
+      "id": "q011",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 16-year-old male high school football player takes 800 mg of ibuprofen after morning practice for a sore knee. Ibuprofen has a half-life of about 2 h. What percentage of the original plasma load of ibuprofen will remain in his blood when afternoon practice starts in 4 h?",
+      "choices": [
+        "0%",
+        "12.5%",
+        "25%",
+        "50%",
+        "75%"
+      ],
+      "answer": 2,
+      "explanation": "Ibuprofen has a half-life of 2 h. In 4 h, exactly 2 half-lives will have elapsed. After 1 half-life (2 h): 50% of the original drug remains. After 2 half-lives (4 h): 25% of the original drug remains. This follows first-order elimination kinetics \u2014 with each half-life, half of the remaining drug is eliminated. The concentration drops from 100% \u2192 50% \u2192 25%. Even after 8 h (4 half-lives), approximately 6.25% of the original dose would remain, confirming that no drug is truly 'gone' after just 2 half-lives.",
+      "keypoints": [
+        "\u2b50 After n half-lives, fraction remaining = (1/2)^n; 1 t\u00bd = 50%; 2 t\u00bd = 25%; 3 t\u00bd = 12.5%; 4 t\u00bd = 6.25%; 5 t\u00bd \u2248 3%",
+        "First-order kinetics: constant FRACTION eliminated per unit time (most drugs at therapeutic concentrations)",
+        "Zero-order kinetics (ethanol, phenytoin at high doses, aspirin overdose): constant AMOUNT eliminated \u2014 no predictable half-life",
+        "Clinical significance: ibuprofen's 2-h half-life \u2192 dose q6\u20138h for sustained effect; must take before pain peaks for optimal analgesia"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "An 80-year-old male nursing home resident is hospitalized on a morphine drip to control pain for his terminal metastatic pancreatic cancer. Morphine undergoes phase I and phase II metabolism in the liver as well as being metabolized by other enzymes. Some of these metabolic reactions decrease with age. Which of the following metabolic reactions is likely still intact in this patient?",
+      "choices": [
+        "Glucuronidation",
+        "Hydrolysis",
+        "Oxidation",
+        "Reduction",
+        "Unmasking of a functional group"
+      ],
+      "answer": 0,
+      "explanation": "Phase I metabolism (oxidation, reduction, hydrolysis \u2014 resulting in unmasking of functional groups) is generally decreased in elderly patients, largely due to reduced CYP450 enzyme activity and decreased hepatic blood flow with age. Phase II metabolism \u2014 conjugation reactions such as glucuronidation, sulfation, acetylation, and methylation \u2014 generally remains intact with aging. Therefore, glucuronidation (a phase II reaction) is the metabolic process most likely still functional in this elderly patient. Morphine itself is primarily metabolized by glucuronidation (to morphine-6-glucuronide, an active metabolite, and morphine-3-glucuronide). The other options listed \u2014 hydrolysis, oxidation, reduction, and unmasking of a functional group \u2014 are all phase I reactions that decline with age.",
+      "keypoints": [
+        "\u2b50 Phase I (CYP450: oxidation, reduction, hydrolysis) \u2192 DECREASES with age; Phase II (conjugation: glucuronidation, sulfation, acetylation) \u2192 remains INTACT with aging",
+        "Phase I goal: add/unmask polar functional group (-OH, -COOH, -NH2, -SH) to increase water solubility",
+        "Phase II goal: conjugate with large polar moiety (glucuronide, sulfate, glutathione, acetyl, methyl) \u2192 facilitate renal/biliary excretion",
+        "Morphine: primarily glucuronidation \u2192 morphine-6-glucuronide (M6G, active, more potent); M6G accumulates in renal failure \u2192 opioid toxicity"
+      ]
+    },
+    {
+      "id": "q013",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 19-year-old female has a history of absence seizures. She currently takes ethosuximide to control her symptoms. The process of eliminating this drug involves multiple steps of metabolism followed by excretion. Many organs take part in both metabolism as well as excretion of drugs. Which of the following describes a step of metabolism?",
+      "choices": [
+        "Acetaminophen glucuronidation by enterocytes",
+        "Digoxin actively transported from hepatocytes into bile",
+        "Ethanol passing from the blood into the alveoli",
+        "Pancuronium being filtered in the kidney"
+      ],
+      "answer": 0,
+      "explanation": "Metabolism involves a chemical change to a molecule's structure, whereas excretion is simply moving a drug molecule from inside the body to outside the body without chemically altering it. Glucuronidation of acetaminophen by enterocytes involves conjugation (a phase II reaction), which chemically modifies the drug \u2014 this is therefore metabolism. Digoxin passing from hepatocytes into bile involves no chemical change to the molecule \u2014 this is excretion. Ethanol passing from blood into the alveoli (via exhalation) involves no chemical change \u2014 this is excretion. Pancuronium being filtered in the kidney involves physical passage without chemical change \u2014 this is also excretion.",
+      "keypoints": [
+        "\u2b50 Metabolism = chemical change to drug structure (phase I: oxidation/reduction/hydrolysis; phase II: conjugation); Excretion = physical removal without structural change",
+        "Ethosuximide: phase I (hydroxylation) \u2192 phase II (glucuronidation) in liver \u2192 metabolites excreted in urine",
+        "Enterocytes perform both metabolism (glucuronidation, CYP3A4 oxidation) and excretion (P-gp efflux) \u2192 contribute significantly to first-pass effect",
+        "Biliary excretion \u2192 enterohepatic recirculation possible if drug is deconjugated in gut \u2192 prolonged drug effect (e.g., estrogens)"
+      ]
+    },
+    {
+      "id": "q014",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 44-year-old black male is brought to the emergency department with 6 h of worsening lethargy and confusion. Past medical history is significant for easy bruising, 3 months of bone pain, and frequent pneumococcal infections. Labs were ordered, revealing serum calcium of 17 mg/dL (normal: 9.0 to 10.5 mg/dL). To rapidly lower his serum calcium, you administer calcitonin. However, calcitonin alone is insufficient because it is known to rapidly and suddenly lose its effectiveness within 2 to 3 days of repeated dosing. For this reason, a bisphosphonate, which takes 2 to 3 days to become effective, is added simultaneously. What is the term for the rapid decrease in response to calcitonin?",
+      "choices": [
+        "Anaphylaxis",
+        "Prophylaxis",
+        "Tachyphylaxis",
+        "Tolerance"
+      ],
+      "answer": 2,
+      "explanation": "Tachyphylaxis describes a rapid, sudden decrease in response to a drug with repeated dosing. Unlike tolerance (which develops slowly over days to weeks due to physiological adaptation), tachyphylaxis occurs quickly and often cannot be reversed by increasing the dose. Calcitonin is a classic example \u2014 receptor internalization and uncoupling of signal transduction rapidly desensitize the response. This is why bisphosphonates are added simultaneously: they take 2\u20133 days to work but remain effective long-term. Anaphylaxis is a type I hypersensitivity reaction (IgE-mediated), unrelated to drug efficacy. Prophylaxis refers to preventive measures. Tolerance is a slow, dose-dependent decrease in drug response from physiological adaptation.",
+      "keypoints": [
+        "\u2b50 Tachyphylaxis = RAPID loss of drug response with repeat dosing (receptor internalization, signal uncoupling); dose escalation does NOT restore effect",
+        "Tolerance = SLOW progressive decrease in response; can often be overcome by increasing dose; mechanism: receptor downregulation, physiological adaptation",
+        "Classic tachyphylaxis examples: calcitonin (hypercalcemia), nitrates (angina \u2014 via depletion of sulfhydryl groups), indirect sympathomimetics (e.g., ephedrine)",
+        "Bisphosphonate mechanism: inhibit osteoclast-mediated bone resorption \u2192 \u2193 Ca\u00b2\u207a release; work synergistically with calcitonin for acute severe hypercalcemia"
+      ]
+    },
+    {
+      "id": "q015",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 56-year-old alcoholic male consumes a six-pack of beer before going to bed. After being absorbed from his gut, blood carries the alcohol through the portal vein into the liver where it can be metabolized. Phase I metabolism of ethanol is carried out by cytochrome P450 2E1. Which of the following is true of phase I metabolism?",
+      "choices": [
+        "Always precedes phase II metabolism",
+        "Are carried out largely in the plasma",
+        "Examples are oxidation and reduction reactions",
+        "Includes such reactions as glucuronidation and sulfation",
+        "Produces very polar metabolites"
+      ],
+      "answer": 2,
+      "explanation": "Phase I metabolism involves oxidation, reduction, and hydrolysis reactions \u2014 typically carried out by CYP450 enzymes located in the smooth endoplasmic reticulum of hepatocytes. These reactions unmask or add functional groups (-OH, -COOH, -NH2, -SH) to increase the drug's water solubility. Phase I does NOT always precede phase II \u2014 in some cases, a phase II reaction occurs first. Phase I reactions are carried out primarily in the liver (not plasma). Phase I does NOT include glucuronidation or sulfation \u2014 those are phase II (conjugation) reactions. Phase I metabolites are generally somewhat more polar than the parent compound but are NOT highly polar (that is achieved by phase II).",
+      "keypoints": [
+        "\u2b50 Phase I = oxidation, reduction, hydrolysis (CYP450 enzymes, smooth ER of liver); goal = add/unmask functional group to \u2191 polarity",
+        "Phase II = conjugation (glucuronidation, sulfation, acetylation, methylation, glutathione conjugation); goal = make drug highly polar for excretion",
+        "Phase I does NOT always precede phase II \u2014 the sequence can vary; phase II metabolites are much more polar",
+        "CYP2E1: metabolizes ethanol, acetaminophen (\u2192 NAPQI at high doses); induced by chronic alcohol \u2192 \u2191 acetaminophen hepatotoxicity risk"
+      ]
+    },
+    {
+      "id": "q016",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 58-year-old man is recovering in the hospital following a heart attack. He is started on clopidogrel. The initial dose, also known as the loading dose, is higher than his normal daily dose, also known as the maintenance dose. Which of the following represents the calculation for a maintenance dose?",
+      "choices": [
+        "= 0.7 \u00d7 Vd/t\u00bd",
+        "= amount of drug in body/drug plasma concentration",
+        "= Cp \u00d7 CL/F",
+        "= Cp \u00d7 Vd/F",
+        "= U \u00d7 V/P"
+      ],
+      "answer": 2,
+      "explanation": "The maintenance dose is the amount of drug that must be given at each dosing interval to maintain a target plasma concentration at steady state. The equation is: Maintenance Dose = Cp \u00d7 CL / F, where Cp is the target (desired) plasma concentration, CL is the drug's clearance, and F is the bioavailability. Choice A (0.7 \u00d7 Vd/t\u00bd) describes clearance itself. Choice B (amount of drug in body / plasma concentration) describes the volume of distribution (Vd). Choice D (Cp \u00d7 Vd/F) describes the loading dose \u2014 this depends on volume of distribution rather than clearance. Choice E (U \u00d7 V/P) describes renal clearance specifically (U = urine concentration, V = urine flow rate, P = plasma concentration).",
+      "keypoints": [
+        "\u2b50 Maintenance dose = Cp(target) \u00d7 CL / F; depends on CLEARANCE (how fast drug is eliminated)",
+        "Loading dose = Cp(target) \u00d7 Vd / F; depends on VOLUME OF DISTRIBUTION (how widely drug distributes)",
+        "Clearance (CL) = 0.7 \u00d7 Vd / t\u00bd (derived from first-order kinetics); also CL = rate of elimination / plasma concentration",
+        "Clopidogrel: prodrug requiring CYP2C19 activation; loading dose 300\u2013600 mg \u2192 maintenance 75 mg/day; CYP2C19 poor metabolizers have reduced antiplatelet effect"
+      ]
+    },
+    {
+      "id": "q017",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 47-year-old woman who has been diagnosed with bipolar disorder needs a refill on her lithium prescription. She also has hypertension that is well controlled with an ACE inhibitor. Lithium has a narrow therapeutic index. Which of the following describes a narrow therapeutic index?",
+      "choices": [
+        "The chance of toxicity is remote at the therapeutic dose",
+        "The ratio of TD50 to ED50 equals 1",
+        "The ratio of TD50 to ED50 is less than 1",
+        "The therapeutic dose approaches the toxic dose",
+        "The therapeutic dose is much greater than the toxic dose"
+      ],
+      "answer": 3,
+      "explanation": "A narrow therapeutic index means that the dose that is toxic in 50% of the population (TD50) is not much greater than the dose that is effective in 50% of the population (ED50). Clinically, this means the therapeutic dose approaches the toxic dose, leaving a small margin for error. Lithium is a classic example \u2014 even modest fluctuations in serum concentration (e.g., from dehydration, sodium restriction, or drug interactions like ACE inhibitors reducing renal lithium excretion) can push levels into the toxic range. Choice A describes a WIDE therapeutic index. Choice B describes a scenario where effective and toxic doses are equal (no therapeutic utility). Choice C is impossible in practice (toxic before effective). Choice E is also impossible (toxic precedes effective).",
+      "keypoints": [
+        "\u2b50 Narrow TI: TD50 only slightly > ED50; small concentration change \u2192 toxicity; requires close monitoring",
+        "Narrow TI drugs: Lithium, Digoxin, Warfarin, Phenytoin, Aminoglycosides, Theophylline, Cyclosporine, Vancomycin",
+        "ACE inhibitors + lithium: ACE inhibitors reduce renal lithium excretion (\u2193 angiotensin II \u2192 \u2193 aldosterone \u2192 \u2193 Na+ reabsorption \u2192 compensatory \u2191 Li+ reabsorption in PCT) \u2192 lithium toxicity",
+        "Lithium toxicity signs: tremor, polyuria/polydipsia (nephrogenic DI), ataxia, seizures, arrhythmias at high levels"
+      ]
+    },
+    {
+      "id": "q018",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 17-year-old woman who is a college freshman presents to the student health clinic complaining of a creamy discharge from her vagina. She is not sexually active. Physical examination reveals an intact hymenal ring with no evidence of pelvic prolapse. The patient is given a prescription of fluconazole to be taken daily (q 12 h) for 3 days. The half-life is 12 h. How long will it take for the medication to reach 90% of its final steady state level?",
+      "choices": [
+        "10 h",
+        "20 h",
+        "30 h",
+        "40 h",
+        "50 h"
+      ],
+      "answer": 3,
+      "explanation": "To determine the time to reach 90% of final steady state, use the formula: time = 3.3 \u00d7 t\u00bd. Here, t\u00bd = 12 h, so time = 3.3 \u00d7 12 \u2248 40 h. This relationship is derived from first-order accumulation kinetics and is the same regardless of the specific drug or the dosing interval \u2014 only the half-life matters for determining when steady state is achieved. At 40 h, the patient would be approximately 3.3 half-lives into therapy (\u2248 3.3 doses in at 12-h intervals), reaching 90% of her eventual steady-state fluconazole concentration.",
+      "keypoints": [
+        "\u2b50 Time to 90% steady state = 3.3 \u00d7 t\u00bd (universal for all drugs following first-order kinetics)",
+        "Time to steady state depends ONLY on t\u00bd \u2014 NOT on dose, dosing frequency, or route of administration",
+        "Fluconazole: azole antifungal; inhibits CYP51 (lanosterol 14\u03b1-demethylase) \u2192 \u2193 ergosterol synthesis; used for Candida and Cryptococcus",
+        "Fluconazole interactions: inhibits CYP2C9 and CYP3A4 \u2192 \u2191 warfarin levels, \u2191 phenytoin levels"
+      ]
+    },
+    {
+      "id": "q019",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 49-year-old man receives a single dose of antibiotics following a colonoscopy with biopsy of several polypoid lesions. The patient has a family history of colorectal polyps. He has a past medical history of hypertension. He takes 500 mg of levofloxacin immediately after completion of the procedure. The half-life of the medication is 20 h. At approximately how many half-lives will it take for 90% of the drug to be excreted from the body?",
+      "choices": [
+        "1.5",
+        "2.5",
+        "3.0",
+        "3.3",
+        "5.5"
+      ],
+      "answer": 3,
+      "explanation": "For any drug following first-order elimination kinetics, 90% of the drug is eliminated after 3.3 half-lives. This does not depend on the actual duration of the half-life (20 h here) \u2014 after 3.3 \u00d7 20 = 66 h \u2248 2.75 days, 90% of the levofloxacin will have been excreted. After 1 t\u00bd: 50% remains; after 2 t\u00bd: 25%; after 3 t\u00bd: 12.5%; after 3.3 t\u00bd: ~10% (90% excreted). This is the same answer as with any other drug following first-order kinetics, regardless of the specific half-life value.",
+      "keypoints": [
+        "\u2b50 3.3 half-lives = 90% drug elimination (universal for first-order kinetics); 5 half-lives = ~97% eliminated",
+        "Levofloxacin: fluoroquinolone; inhibits DNA gyrase (topoisomerase II) and topoisomerase IV; dose adjusted in renal failure (primarily renally cleared)",
+        "Fluoroquinolone tendon risk: tendinitis/rupture (especially Achilles); avoid in children, pregnancy; C. difficile risk",
+        "The number of half-lives to eliminate 90% is ALWAYS 3.3, regardless of the actual half-life duration"
+      ]
+    },
+    {
+      "id": "q020",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A researcher is attempting to develop a cholinomimetic agent to use in patients with colonic motility syndrome. This agent will serve as a procolonic agent by increasing muscular contractions in the sigmoid colon and rectum. The medication is known as Agent X112A. The medication is administered in a 100 mg daily dose orally and 50 mg of the drug is absorbed from the gastrointestinal tract unchanged. Thus, the bioavailability of this drug is:",
+      "choices": [
+        "50%",
+        "70%",
+        "80%",
+        "85%",
+        "95%"
+      ],
+      "answer": 0,
+      "explanation": "Bioavailability is the fraction of an administered drug that reaches the systemic circulation unchanged. If 100 mg is administered orally and 50 mg is absorbed unchanged, bioavailability = 50/100 = 0.5 = 50%. Factors that reduce oral bioavailability include first-pass hepatic metabolism, poor GI absorption, chemical instability in the GI tract, and P-glycoprotein efflux. Bioavailability is essential for calculating dosing for non-IV routes compared to IV (which has bioavailability = 100% by definition). The oral dose required to achieve the same systemic exposure as an IV dose = IV dose / F (bioavailability fraction).",
+      "keypoints": [
+        "\u2b50 Bioavailability (F) = (amount reaching systemic circulation) / (administered dose) \u00d7 100%; IV route always F = 100%",
+        "Oral bioavailability reduced by: first-pass hepatic metabolism, intestinal CYP3A4, P-gp efflux, poor aqueous solubility, GI instability",
+        "High first-pass effect examples: morphine (~25% F), lidocaine (~3% F oral \u2192 must give IV), nitroglycerin (~1% oral F \u2192 sublingual/transdermal), propranolol (~25% F)",
+        "Oral dose needed = Target systemic dose / F; if F = 50%, oral dose must be 2\u00d7 the IV dose for same effect"
+      ]
+    },
+    {
+      "id": "q021",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 39-year-old man takes a 100 mg dose of medication X. This drug is taken orally and becomes biotransformed by metabolism in the liver and secondary metabolism in the kidneys. This defines which of the following processes?",
+      "choices": [
+        "Absorption",
+        "Catabolism",
+        "Distribution",
+        "Elimination",
+        "Metabolism"
+      ],
+      "answer": 4,
+      "explanation": "Biotransformation of a drug by enzymes in the liver and kidneys is the definition of metabolism. Metabolism is the third step in the ADME sequence (Absorption, Distribution, Metabolism, Elimination). It involves chemical changes to the drug molecule \u2014 phase I reactions (CYP450-mediated oxidation, reduction, hydrolysis) and phase II conjugation reactions \u2014 primarily in the liver. The kidney can also perform metabolic functions. Absorption is entry of drug from site of administration into plasma. Distribution is reversible movement from plasma into tissues. Elimination is the final removal of drug and metabolites from the body via urine, bile, or feces. Catabolism refers generally to breakdown processes but is not specific pharmacokinetic terminology.",
+      "keypoints": [
+        "\u2b50 ADME: Absorption \u2192 Distribution \u2192 Metabolism \u2192 Elimination (Excretion); metabolism = chemical transformation (liver and other organs)",
+        "Extrahepatic metabolism occurs in: kidney, intestine (CYP3A4, UGT), lung, plasma (esterases), skin",
+        "Some drugs are prodrugs \u2014 require metabolism for activation (e.g., clopidogrel \u2192 CYP2C19 \u2192 active thiol; codeine \u2192 CYP2D6 \u2192 morphine)",
+        "Drug interactions at metabolism: CYP inducers (rifampin, carbamazepine, phenytoin, St. John's Wort) \u2191 metabolism \u2192 \u2193 drug effect; CYP inhibitors (azoles, macrolides, grapefruit) \u2193 metabolism \u2192 \u2191 drug effect/toxicity"
+      ]
+    },
+    {
+      "id": "q022",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 59-year-old man is going to undergo a prostate needle biopsy by his urologist. As a preparation for the procedure, he is required to take a fleet enema per rectum and a one time dose of ciprofloxacin 500 mg prior to the procedure. He has a prior medical history of diabetes mellitus, which is controlled with diet. Administration of the medication results in a peak plasma concentration of 20 \u03bcg/mL. What is the apparent volume of drug distribution?",
+      "choices": [
+        "0.5 L",
+        "1 L",
+        "5 L",
+        "15 L",
+        "25 L"
+      ],
+      "answer": 4,
+      "explanation": "Volume of distribution (Vd) = Dose / Cp(peak). Here, Vd = 500 mg / (20 \u03bcg/mL) = 500,000 \u03bcg / 20 \u03bcg/mL = 25,000 mL = 25 L. Ciprofloxacin has a large Vd (approximately 2\u20133 L/kg in real life), reflecting extensive tissue distribution beyond the plasma compartment. A Vd of 25 L (for this calculation) suggests the drug distributes broadly into extravascular compartments. Drugs with large Vd have extensive tissue binding or lipophilicity \u2014 they achieve higher tissue concentrations than plasma concentrations, which is why ciprofloxacin is effective in prostate tissue.",
+      "keypoints": [
+        "\u2b50 Vd = Dose / Cp; large Vd (>>plasma volume of ~3L) \u2192 drug distributes into tissues/fat; small Vd (~3L) \u2192 drug stays in plasma",
+        "Ciprofloxacin: fluoroquinolone; excellent tissue penetration (large Vd ~2-3 L/kg) \u2192 effective for prostate, bone, intracellular infections",
+        "Drugs with very large Vd (>100L): chloroquine, amiodarone, digoxin \u2014 hard to remove by dialysis",
+        "Albumin-bound drugs have small Vd (stay in plasma): warfarin, furosemide, phenytoin"
+      ]
+    },
+    {
+      "id": "q023",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "Compound XY is a novel agent that will improve bladder contractility through its ability to bind to receptors on the bladder wall. Which of the following drug bonds is most important in drug\u2013receptor associations for this compound to be effective?",
+      "choices": [
+        "Covalent interactions",
+        "Hydrogen bonds",
+        "Ionic bonds",
+        "Van der Waals interactions"
+      ],
+      "answer": 1,
+      "explanation": "Hydrogen bonds are the most important bond type for reversible drug\u2013receptor interactions. They form between positively charged hydrogen atoms and electronegative atoms (usually nitrogen and oxygen), providing substantial binding strength while remaining reversible. Most drug\u2013receptor interactions rely on a combination of bond types, but hydrogen bonding dominates in receptor binding pockets due to its specificity and strength relative to the other reversible forces. Covalent bonds (choice A) are very strong and generally irreversible \u2014 important for alkylating agents and aspirin's irreversible COX inhibition, but not typical receptor pharmacology. Ionic bonds (choice C) are strong electrostatic interactions but can be disrupted by changes in pH. Van der Waals forces (choice D) are very weak, short-range interactions; they contribute when molecules are in close proximity.",
+      "keypoints": [
+        "\u2b50 Drug-receptor bonds (weakest to strongest for reversible interactions): Van der Waals < Hydrogen bonds < Ionic bonds < Covalent (usually irreversible)",
+        "Most drug-receptor interactions are REVERSIBLE and involve hydrogen bonds as the primary determinant of specificity",
+        "Irreversible covalent bonds: aspirin (COX), organophosphates (acetylcholinesterase), phenoxybenzamine (\u03b1-receptor), alkylating chemotherapy agents",
+        "Receptor binding pocket specificity depends on: stereochemistry, conformation, ionization state, hydrophobicity \u2014 all influence fit"
+      ]
+    },
+    {
+      "id": "q024",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "Drug XA12 is a novel antibiotic agent that is renally excreted. The drug enters the kidney through the renal arteries and ultimately into Bowman's space. Which of the following indicators will have the smallest effect on elimination of this drug from the body?",
+      "choices": [
+        "Glomerular filtration rate of 60 mL/min",
+        "Glomerular filtration rate of 100 mL/min",
+        "Lipid solubility",
+        "Plasma binding of drug reduced by 50%",
+        "Renal plasma flow of 200 mL/min"
+      ],
+      "answer": 2,
+      "explanation": "For drugs entering the glomerular filtrate at Bowman's space, lipid solubility does NOT influence how much drug enters the filtrate \u2014 glomerular filtration is a passive, size-dependent process. The key determinants of renal drug elimination are: (1) GFR (directly determines how much free drug is filtered), (2) plasma protein binding (only free/unbound drug is filtered; reducing protein binding by 50% doubles the filtered drug load), and (3) renal plasma flow (affects delivery of drug to the kidney). Lipid-soluble drugs, however, ARE passively reabsorbed in the distal tubule after filtration \u2014 so lipid solubility actually REDUCES final excretion, but the question asks about the factor with smallest effect on ELIMINATION, and lipid solubility (unlike GFR changes) does not drive the filtration step itself.",
+      "keypoints": [
+        "\u2b50 Glomerular filtration: only FREE (unbound to albumin) drug is filtered; lipid solubility does NOT affect filtration rate",
+        "Lipid-soluble drugs are passively reabsorbed in the distal tubule \u2192 REDUCES net renal excretion",
+        "Renal elimination = filtration + secretion \u2212 reabsorption; GFR and tubular secretion are the major excretory forces",
+        "Urine alkalinization (NaHCO3) traps weak acids in ionized form (ion trapping) \u2192 \u2191 excretion of aspirin, phenobarbital, methotrexate in overdose"
+      ]
+    },
+    {
+      "id": "q025",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 28-year-old man is hospitalized after a fall from a cliff. His current medical problems include cardiogenic shock, heart failure, renal disease, and cirrhosis from chronic alcoholism. Because of weight loss, he is felt to be somewhat hypermetabolic. Which of the following factors will have the most significant effect to decrease drug half-life of medications administered to him?",
+      "choices": [
+        "Cardiogenic shock",
+        "Cirrhosis",
+        "Heart failure",
+        "Hypermetabolic state",
+        "Renal disease"
+      ],
+      "answer": 3,
+      "explanation": "Drug half-life is increased (prolonged) by: (1) decreased renal plasma flow or hepatic blood flow (as in cardiogenic shock and heart failure), (2) decreased ability of kidneys to extract drug from plasma (renal disease), and (3) decreased hepatic metabolism (cirrhosis, drug inhibitors). The hypermetabolic state is the ONE factor that would DECREASE half-life \u2014 increased metabolic activity leads to faster drug clearance, shortening the time needed for drug levels to fall by 50%. All other listed conditions would increase half-life by reducing clearance. Therefore, hypermetabolism is the only factor here that works in the direction of decreasing t\u00bd.",
+      "keypoints": [
+        "\u2b50 Conditions that INCREASE t\u00bd (\u2193 clearance): cardiogenic shock, heart failure (\u2193 hepatic/renal blood flow), cirrhosis (\u2193 metabolism), CKD (\u2193 renal excretion), protein binding competition",
+        "Conditions that DECREASE t\u00bd (\u2191 clearance): hypermetabolic states, CYP450 inducers (rifampin, carbamazepine), increased renal plasma flow",
+        "t\u00bd = 0.693 \u00d7 Vd / CL; if CL increases \u2192 t\u00bd decreases",
+        "Practical point: hypermetabolic patients (burn patients, hyperthyroid) may require larger/more frequent doses to maintain therapeutic levels"
+      ]
+    },
+    {
+      "id": "q026",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 55-year-old man with a systemic infection is given an intravenous antibiotic at a high rate of infusion. A graph of plasma concentration of drug versus time is presented. Which of the following letters represents the steady state region?\n\n[Graph shows plasma concentration vs time with letters A (start of infusion), B (low infusion rate curve), C (high infusion rate curve), and D (plateau above CSS line at highest concentration)]",
+      "choices": [
+        "Letter A",
+        "Letter B",
+        "Letter C",
+        "Letter D"
+      ],
+      "answer": 3,
+      "explanation": "The steady state region is represented by Letter D \u2014 the plateau achieved when the drug is given at a high rate of infusion. Steady state (CSS) is defined as the plasma drug concentration that is maintained when the rate of drug input equals the rate of drug elimination. At a high infusion rate, a higher steady-state concentration is achieved faster. Letter A represents the start of the infusion. Letter B represents the drug concentration curve when given at a low rate of infusion (reaches a lower steady state). Letter C represents the drug when given at a moderate/high rate of infusion but still rising. The CSS dashed line marks the target steady-state concentration.",
+      "keypoints": [
+        "\u2b50 Steady state (CSS) = when rate of drug input = rate of drug elimination; plateau on plasma concentration vs. time graph",
+        "Time to reach steady state depends only on t\u00bd (\u2248 4-5 half-lives); INCREASING dose RAISES the level of CSS but does NOT shorten time to reach it",
+        "Continuous IV infusion achieves true steady state (no peaks/troughs); intermittent dosing oscillates around average steady state",
+        "Loading dose bypasses the time to reach steady state: LD = Vd \u00d7 Css / F"
+      ]
+    },
+    {
+      "id": "q027",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A novel medication designed to treat lymphoma can be administered via injection or orally. If the drug is given orally, an estimation of the area under the curve for this dose may be represented by which of the following letters?\n\n[Graph shows plasma concentration vs time with: A = drug administered marker at time 0; B = oral AUC (lower, broader curve); C = AUC for injection (higher, sharper curve); D = injection degradation curve; E = oral degradation curve]",
+      "choices": [
+        "Letter A",
+        "Letter B",
+        "Letter C",
+        "Letter D",
+        "Letter E"
+      ],
+      "answer": 1,
+      "explanation": "Letter B represents the area under the curve (AUC) for oral administration of this agent. The AUC reflects total systemic drug exposure over time. Because oral administration subjects the drug to first-pass hepatic metabolism and incomplete GI absorption, the AUC for oral administration (Letter B) is smaller than for injection (Letter C). The ratio of AUC_oral / AUC_injection = bioavailability (F). Letter A represents the drug administration time point. Letter C is the AUC for the injected (IV) form. Letters D and E represent the degradation/elimination curves for the injected and oral forms, respectively.",
+      "keypoints": [
+        "\u2b50 Bioavailability (F) = AUC_oral / AUC_IV; oral AUC < IV AUC due to first-pass metabolism and incomplete absorption",
+        "AUC = total systemic drug exposure; proportional to dose for linear (first-order) kinetics",
+        "Oral AUC is reduced by: first-pass hepatic metabolism, CYP3A4 in enterocytes, P-gp efflux, poor GI solubility/stability",
+        "To calculate oral dose needed: Oral dose = IV dose / F (bioavailability fraction)"
+      ]
+    },
+    {
+      "id": "q028",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "An orally administered medication is eliminated by the kidney. Passive reabsorption of the drug occurs because it is lipid soluble and un-ionized. At which of the following locations in the kidney will this reabsorption occur?\n\n[Diagram of nephron with labeled sections: A = glomerulus/Bowman's space, B = proximal tubule (active secretion site), C = loop of Henle, D = distal tubule/collecting duct, E = final urine]",
+      "choices": [
+        "Letter A",
+        "Letter B",
+        "Letter C",
+        "Letter D",
+        "Letter E"
+      ],
+      "answer": 3,
+      "explanation": "Passive reabsorption of lipid-soluble, un-ionized drugs occurs at Letter D \u2014 the distal tubule and collecting duct. After glomerular filtration at A (Bowman's space), drugs pass through the tubule. The distal tubule/collecting duct is the site where urine concentration and pH modification occurs most prominently. Lipid-soluble, un-ionized drugs can passively diffuse back across the tubular epithelium into the peritubular capillaries. Letter A is free drug entering the glomerular filtrate. Letter B is the site of active secretion into the proximal tubule (organic anion/cation transporters). Letter C is the loop of Henle. Letter E represents ionized, lipid-insoluble drug in the final urine (ready for excretion).",
+      "keypoints": [
+        "\u2b50 Passive tubular REABSORPTION: occurs in DISTAL tubule; requires lipid-soluble, UN-IONIZED drug; ion trapping in urine can prevent reabsorption",
+        "Active tubular SECRETION: occurs in PROXIMAL tubule via OAT/OCT transporters; can exceed GFR for certain drugs (e.g., penicillin, furosemide, methotrexate)",
+        "Ion trapping: making urine basic (NaHCO3) ionizes weak acids \u2192 trapped \u2192 \u2191 excretion (aspirin/salicylate OD, methotrexate, phenobarbital)",
+        "Making urine acidic (NH4Cl) ionizes weak bases \u2192 trapped \u2192 \u2191 excretion (amphetamine OD)"
+      ]
+    },
+    {
+      "id": "q029",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 55-year-old man with a systemic infection is given an intravenous antibiotic at a high rate of infusion. A graph of plasma concentration of drug versus time is presented. Which of the following curves would produce the largest amount of drug available in the body?\n\n[Graph shows amount of drug in body vs days with curves A (oscillating high peaks from once-daily 2U bolus), B (oscillating moderate peaks from 1U twice-daily bolus), and C (smooth rising curve from continuous 2U/day infusion)]",
+      "choices": [
+        "Curve A",
+        "Curve B",
+        "Curve C",
+        "Cannot be determined"
+      ],
+      "answer": 0,
+      "explanation": "Curve A represents injection of 2U of the medication once per day. This produces the highest peak concentration of drug in the body at any given time point \u2014 the entire daily dose enters at once, creating a large spike before declining. Curve B represents injection of 1U of drug twice per day \u2014 the peaks are lower and more frequent. Curve C represents continuous infusion of 2U of drug per day, producing the smoothest curve with no peaks, resembling the steady-state pharmacokinetics of constant infusion. While all three regimens deliver the same total daily dose (2U/day), Curve A produces the highest instantaneous (peak) drug concentration at any moment.",
+      "keypoints": [
+        "\u2b50 Same total daily dose: bolus once-daily \u2192 highest peak concentrations; continuous infusion \u2192 lowest peak but most stable level",
+        "Peak-dependent toxicity (e.g., aminoglycoside nephrotoxicity) \u2192 favor extended intervals or continuous infusion",
+        "Peak-dependent efficacy (e.g., aminoglycoside bactericidal kill is concentration-dependent) \u2192 once-daily dosing is preferred",
+        "AUC is similar for same total daily dose regardless of regimen (assuming same bioavailability and linear kinetics)"
+      ]
+    },
+    {
+      "id": "q030",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A graph of the therapeutic index of warfarin is shown. The graph depicts percentage of patients (y-axis) vs. log plasma concentration (x-axis) with two overlapping sigmoidal curves: one for 'desired therapeutic effect' and one for 'unwanted adverse effect,' with a small 'therapeutic window' labeled between them. Which of the following statements is true?",
+      "choices": [
+        "The therapeutic window is large",
+        "There is a small window of desired effect of this medication",
+        "Unwanted adverse events are unlikely with this agent",
+        "Unwanted adverse events are unlikely dose related"
+      ],
+      "answer": 1,
+      "explanation": "The figure for warfarin demonstrates a narrow therapeutic window \u2014 the concentration range where desired therapeutic effects are achieved without producing significant unwanted adverse effects (bleeding) is small. The two sigmoidal curves (therapeutic effect and adverse effect) are very close together, meaning that at concentrations needed for efficacy, the risk of bleeding complications is already substantial. Warfarin is a classic example of a drug requiring close INR monitoring precisely because its therapeutic and toxic dose-response curves overlap significantly. Unwanted adverse events ARE common and ARE dose-related with warfarin.",
+      "keypoints": [
+        "\u2b50 Warfarin: narrow therapeutic window; dose-response curves for efficacy and bleeding overlap \u2192 must monitor INR (target 2.0\u20133.0 for most indications)",
+        "Factors increasing warfarin effect: CYP2C9 inhibitors (azoles, metronidazole), CYP2C9 poor metabolizers, vitamin K deficiency, liver disease, NSAIDs (displace from albumin)",
+        "Factors decreasing warfarin effect: CYP inducers (rifampin, carbamazepine, St. John's Wort), dietary vitamin K (leafy greens), cholestyramine",
+        "Warfarin reversal: Vitamin K (delayed ~12-24h), FFP or 4-factor PCC (immediate); specific reversal for DOACs (andexanet alfa for Xa inhibitors, idarucizumab for dabigatran)"
+      ]
+    },
+    {
+      "id": "q031",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 33-year-old man presents to the emergency department with pain in his right buttock. The pain is constant, 8/10, and increases when he sits down. A CT scan confirms the presence of an abscess. Gram stain of the abscess fluid is gram-positive cocci in clusters. The patient is started on vancomycin for a possible MRSA infection. If the half-life of vancomycin is 5 h, how long will it take to reach clinical steady state?",
+      "choices": [
+        "10 h",
+        "12 h",
+        "15 h",
+        "18 h",
+        "23 h"
+      ],
+      "answer": 4,
+      "explanation": "Clinical steady state is reached after approximately 4\u20135 half-lives. At 4 half-lives (4 \u00d7 5 = 20 h), 93.75% of steady state is achieved. At 5 half-lives (5 \u00d7 5 = 25 h), ~96.9% is achieved. Clinically, '~94% of steady state' at 4 half-lives is considered to have reached clinical steady state. The closest answer is 23 h, which represents approximately 4.6 half-lives \u2014 consistent with the accepted standard that steady state is reached after 4\u20135 half-lives. At only 2 half-lives (10 h), the concentration is 75% of steady state. At 3 half-lives (15 h), it is 87.5%.",
+      "keypoints": [
+        "\u2b50 Clinical steady state \u2248 4-5 half-lives (94-97% of true steady state); for vancomycin with t\u00bd = 5h \u2192 ~20-25 h",
+        "Time to steady state depends ONLY on t\u00bd \u2014 not dose, dosing interval, or route",
+        "Vancomycin dosing: currently optimized using AUC/MIC ratio (target 400-600 mg\u00b7h/L for serious MRSA); trough-only monitoring is outdated",
+        "Vancomycin adverse effects: nephrotoxicity (especially with aminoglycosides), ototoxicity, 'Red Man Syndrome' (not allergic \u2014 histamine release from rapid infusion; prevented by slow infusion)"
+      ]
+    },
+    {
+      "id": "q032",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 22-year-old man presents with a painless penile ulcer. His social history is significant for multiple sexual contacts. The physician prescribes benzathine penicillin G, which is renally excreted. Which of the following relationships describes clearance?",
+      "choices": [
+        "= 0.7 \u00d7 Vd/t\u00bd",
+        "= Amount of drug in the body/plasma drug concentration",
+        "= Cp \u00d7 Cl/F",
+        "= Cp \u00d7 Vd/F",
+        "= pKa + log ([A\u207b]/[HA])"
+      ],
+      "answer": 0,
+      "explanation": "Clearance describes the rate at which a drug is removed from the body in relation to its plasma concentration. Mathematically, clearance (CL) = rate of elimination / plasma concentration. An equivalent and commonly used formula relating clearance to pharmacokinetic parameters is: CL = 0.7 \u00d7 Vd / t\u00bd, derived from the relationship between volume of distribution and half-life under first-order kinetics (where 0.7 \u2248 ln 2). Choice B (amount of drug in body / plasma concentration) describes volume of distribution (Vd), not clearance. Choice C (Cp \u00d7 Cl/F) is used to calculate the maintenance dose. Choice D (Cp \u00d7 Vd/F) calculates the loading dose. Choice E is the Henderson-Hasselbalch equation for calculating pH of a weak acid solution.",
+      "keypoints": [
+        "\u2b50 Clearance (CL) = 0.7 \u00d7 Vd / t\u00bd; also = rate of elimination / plasma concentration",
+        "Vd = amount of drug in body / plasma drug concentration (NOT clearance)",
+        "Maintenance dose = Cp \u00d7 CL / F (depends on clearance); Loading dose = Cp \u00d7 Vd / F (depends on volume of distribution)",
+        "Renal clearance specifically: CL_renal = U \u00d7 V / P (U=urine concentration, V=urine flow rate, P=plasma concentration) \u2014 Henderson-Hasselbalch: pH = pKa + log([A\u207b]/[HA])"
+      ]
+    },
+    {
+      "id": "q033",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 55-year-old man with chronic cardiac failure currently takes multiple medications, including digoxin. He is brought to the emergency department because of slurred speech and inappropriate behavior. It turns out that he has not taken his digoxin for the last 2 weeks. The physician gives 125 \u03bcg as standard dose. Twenty-four hours later, his serum levels were reported to be 2 ng/mL (2 \u03bcg/L). The target therapeutic level is 0.8 ng/mL. What dose of digoxin should he receive?",
+      "choices": [
+        "25 \u03bcg",
+        "50 \u03bcg",
+        "75 \u03bcg",
+        "100 \u03bcg",
+        "125 \u03bcg"
+      ],
+      "answer": 1,
+      "explanation": "To calculate the appropriate dose adjustment: First, calculate Vd from the given dose and measured concentration: Vd = dose / C = 125 \u03bcg / (2 \u03bcg/L) = 62.5 L. Next, calculate the dose needed to bring the concentration from 2 \u03bcg/L to the target 0.8 \u03bcg/L: Dose = Vd \u00d7 (C\u2082 \u2212 C\u2081) = 62.5 L \u00d7 (0.8 \u03bcg/L \u2212 2 \u03bcg/L) = 62.5 \u00d7 (\u22121.2) = \u221275 \u03bcg. This negative value means we need to REDUCE the standard dose by 75 \u03bcg. New dose = 125 \u03bcg \u2212 75 \u03bcg = 50 \u03bcg. Giving 50 \u03bcg should bring the plasma concentration down from 2 to the target of ~0.8 ng/mL.",
+      "keypoints": [
+        "\u2b50 Dose adjustment: Dose to give = Vd \u00d7 (C_target \u2212 C_current); negative value means reduce dose from standard",
+        "Vd = dose / plasma concentration; Vd of digoxin is very large (~500 L) in real life \u2014 extensive tissue binding",
+        "Digoxin toxicity: arrhythmias (any type), nausea/vomiting, visual changes (yellow-green halos, blurred vision), hyperkalemia (digoxin blocks Na/K-ATPase)",
+        "Digoxin toxicity worsened by: hypokalemia, hypomagnesemia, hypercalcemia; treated with digoxin-specific Fab antibody fragments"
+      ]
+    },
+    {
+      "id": "q034",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "Regarding the use of a daily baby aspirin, oral fiber supplements, and a daily 'water' pill in an 89-year-old man with hypertension and coronary artery disease, which of the following statements is true regarding pharmacology in the elderly patient?",
+      "choices": [
+        "Coexisting disease states are unlikely to produce additive impairment",
+        "Elderly patients are less sensitive to drug effects",
+        "Elderly patients are less sensitive to drug side effects",
+        "Elimination of drugs becomes impaired with age",
+        "Responses to compensate for drug accumulation are satisfactory"
+      ],
+      "answer": 3,
+      "explanation": "Drug elimination becomes progressively impaired with age. The elderly experience: reduced renal GFR and tubular secretion (decreased drug renal clearance), reduced hepatic CYP450 activity and hepatic blood flow (reduced phase I metabolism), decreased plasma albumin (increased free fraction of protein-bound drugs), and decreased total body water and lean body mass (altered distribution). These changes lead to drug accumulation and prolonged half-lives. Contrary to the other choices: coexisting diseases DO produce additive organ impairment; elderly patients ARE MORE (not less) sensitive to drug effects and side effects; and compensatory physiological responses to drug accumulation ARE LESS efficient in the elderly.",
+      "keypoints": [
+        "\u2b50 Elderly pharmacokinetic changes: \u2193 renal clearance (\u2193 GFR), \u2193 hepatic phase I metabolism (\u2193 CYP activity, hepatic blood flow), \u2191 body fat (\u2191 Vd for lipophilic drugs), \u2193 albumin (\u2191 free drug)",
+        "Elderly are MORE sensitive to CNS drugs (benzodiazepines \u2192 falls/confusion), anticoagulants, NSAIDs (GI/renal), and digoxin",
+        "Beers Criteria: identifies medications potentially inappropriate in elderly (e.g., benzodiazepines, anticholinergics, long-acting sulfonylureas, NSAIDs)",
+        "'Start low, go slow': general principle for prescribing in elderly; polypharmacy increases drug interaction risk"
+      ]
+    },
+    {
+      "id": "q035",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A medical student is doing a summer research project evaluating the percentage of drug absorbed orally in a mouse model. Several characteristics of the agents are evaluated such as acid/base status, solubility, and size of side chains. Characteristics of the studied agent that would be best absorbed following oral administration in the tested mice would most likely include:",
+      "choices": [
+        "Bulky charged side chains",
+        "Lipid solubility",
+        "Strong acid",
+        "Strong base",
+        "Water solubility"
+      ],
+      "answer": 1,
+      "explanation": "Lipid solubility is the key characteristic for optimal oral drug absorption. Drugs must cross lipid bilayer membranes of GI epithelial cells to enter the systemic circulation. In the stomach, lipid-soluble weak acids can be readily absorbed (uncharged at low pH). In the small intestine, lipid-soluble weak acids or weak bases can be absorbed. Strong acids and strong bases remain highly ionized at physiological pH and are poorly absorbed. Bulky charged side chains impede membrane penetration. While some water solubility is needed for dissolution, excessive water solubility (hydrophilicity) hinders membrane crossing. The ideal drug for oral absorption is lipid-soluble, small molecular weight, un-ionized at GI pH, and not a P-gp substrate.",
+      "keypoints": [
+        "\u2b50 Optimal oral absorption: lipid-soluble, small MW, un-ionized (or weak acid/weak base partially un-ionized at GI pH), not a P-gp substrate",
+        "Lipinski's Rule of Five: MW <500, logP <5, H-bond donors <5, H-bond acceptors <10 \u2192 predicts oral bioavailability",
+        "Stomach (pH ~2): un-ionized weak ACIDS absorbed (e.g., aspirin/acetylsalicylic acid, pKa 3.5); weak bases ionized \u2192 not absorbed in stomach",
+        "Small intestine (pH 6-7): primary absorption site for most drugs due to large surface area; both weak acids and weak bases partially un-ionized"
+      ]
+    },
+    {
+      "id": "q036",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "Referring to the following figure regarding the pharmacokinetics of prototype Drug X-100A, a novel chemotherapeutic agent to treat breast cancer, which of the following letters represents the process of elimination?\n\n[Diagram shows: Drug at site of administration \u2192 (A) \u2192 Drug in plasma \u2192 (B, bidirectional) \u2194 Drug in tissues \u2192 (C) \u2192 Metabolite(s) in tissues; (D) from Drug in plasma and Metabolite(s) in tissues \u2192 Drug and/or metabolite(s) in urine, bile, or feces]",
+      "choices": [
+        "Letter A",
+        "Letter B",
+        "Letter C",
+        "Letter D"
+      ],
+      "answer": 3,
+      "explanation": "Elimination is represented by Letter D \u2014 the process by which the drug and its metabolites are removed from the body via urine, bile, or feces. Letter A represents absorption \u2014 the process of drug moving from the site of administration into the plasma. Letter B represents distribution \u2014 the reversible movement of drug between plasma and tissues (bidirectional arrows). Letter C represents metabolism \u2014 the chemical transformation of drug in tissues into metabolites. Letter D encompasses the final step: excretion of the drug and/or its metabolites through the kidneys into urine, through the liver into bile, or ultimately into feces.",
+      "keypoints": [
+        "\u2b50 ADME diagram: A (Absorption: site \u2192 plasma), B (Distribution: plasma \u2194 tissues, reversible), C (Metabolism: drug \u2192 metabolites in tissues), D (Elimination: drug/metabolites \u2192 urine/bile/feces)",
+        "Elimination = excretion (physical removal from body without chemical change) + metabolism (if metabolites are being excreted)",
+        "Enterohepatic recirculation: biliary-excreted conjugated metabolites can be deconjugated in gut by bacteria \u2192 reabsorbed \u2192 prolonged drug effect",
+        "Renal excretion = glomerular filtration + active secretion \u2212 passive reabsorption; predominant for hydrophilic drugs and metabolites"
+      ]
+    }
+  ]
+}

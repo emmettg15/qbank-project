@@ -1,0 +1,305 @@
+{
+  "config": {
+    "title": "Lippincott Endocrine Pharmacology Ch4 (JeffMD Block 5)",
+    "subtitle": "Glucocorticoids, diuretics, antidiabetics, lipid-lowering agents, thyroid pharmacology, and reproductive/hormonal pharmacology",
+    "passingFraction": 0.75,
+    "tags": {
+      "endo": {
+        "label": "Endocrine"
+      },
+      "pharm": {
+        "label": "Pharmacology (Cross-cutting)"
+      },
+      "renal": {
+        "label": "Renal/Urinary"
+      },
+      "cardio": {
+        "label": "Cardiovascular"
+      },
+      "repro": {
+        "label": "Reproductive"
+      },
+      "immuno": {
+        "label": "Immunology/Infectious Disease"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Pharmacology",
+      "stem": "A 37-year-old kidney transplant recipient presents to her primary care physician for follow-up. Among other immunosuppressant drugs, she has been taking daily prednisone for the past 2 months since her transplant. With only a few doses of prednisone left, she gets snowed into her house and cannot refill her prescription (but she has enough of the other medications to last a few more weeks). If she runs out of prednisone and cannot get it refilled, what is she most at risk for developing?",
+      "choices": [
+        "Cardiovascular collapse (adrenal crisis)",
+        "Osteoporosis",
+        "Increased risk of infection",
+        "Insomnia (short-term oral/parenteral)",
+        "Nausea/vomiting (short-term oral/parenteral)"
+      ],
+      "answer": 0,
+      "explanation": "Chronic use of glucocorticoids (such as prednisone) suppresses the hypothalamic-pituitary-adrenal (HPA) axis, causing adrenal atrophy. If exogenous glucocorticoids are abruptly withdrawn, the atrophied adrenal gland cannot compensate by producing endogenous cortisol quickly enough. This sudden loss of adrenal steroids is termed adrenal crisis and can result in cardiovascular collapse and death. Osteoporosis and increased risk of infection are consequences of continued chronic glucocorticoid therapy, not of abrupt cessation. Insomnia and nausea/vomiting are possible side effects of short-term oral or parenteral glucocorticoid therapy, not of withdrawal. Tapering is therefore essential after prolonged glucocorticoid use.",
+      "keypoints": [
+        "⭐ Abrupt glucocorticoid withdrawal after prolonged use → adrenal crisis (cardiovascular collapse) due to HPA axis suppression and adrenal atrophy",
+        "Chronic glucocorticoid use → HPA suppression by negative feedback on hypothalamus (↓ CRH) and pituitary (↓ ACTH) → adrenal cortex atrophies",
+        "Always TAPER glucocorticoids if used for >3 weeks to allow HPA axis recovery; rate of taper depends on dose and duration",
+        "Adrenal crisis treatment: IV hydrocortisone (has both glucocorticoid and mineralocorticoid activity) + IV fluids + vasopressors as needed"
+      ]
+    },
+    {
+      "id": "q002",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Pharmacology",
+      "stem": "A 57-year-old man with a 40 pack-year history of smoking develops small cell lung cancer. His serum sodium is 121 mEq/L and his urine has a specific gravity of 1.030. Which of the following is a tetracycline antibiotic that can also be used in the treatment of SIADH?",
+      "choices": [
+        "Demeclocycline",
+        "Doxycycline",
+        "Minocycline",
+        "Tetracycline",
+        "Tigecycline"
+      ],
+      "answer": 0,
+      "explanation": "This patient has SIADH (syndrome of inappropriate antidiuretic hormone secretion), a classic paraneoplastic syndrome of small cell lung cancer — cancer cells ectopically secrete ADH. SIADH causes hyponatremia (dilutional) and concentrated urine (high specific gravity) despite low serum osmolality. Demeclocycline is a tetracycline antibiotic that blocks ADH effects on the collecting duct, acting as an ADH receptor antagonist (nephrogenic DI inducer), and is specifically used to treat chronic SIADH. Doxycycline, minocycline, and tetracycline are all tetracycline antibiotics but have no effect on the kidney's response to ADH. Tigecycline is a glycylcycline (minocycline derivative) with no ADH-blocking activity.",
+      "keypoints": [
+        "⭐ SIADH treatment: fluid restriction (first-line); demeclocycline (ADH antagonist at collecting duct = drug-induced NDI); vaptans (tolvaptan, conivaptan = V2 receptor antagonists) for severe cases",
+        "SIADH diagnosis: hyponatremia + low serum osmolality + inappropriately concentrated urine (urine Na >20 mEq/L, urine osmolality >100 mOsm/kg) + euvolemia",
+        "Small cell lung cancer: classic paraneoplastic SIADH source; also causes ACTH (Cushing's), Lambert-Eaton, and anti-Hu encephalitis",
+        "Demeclocycline MOA: inhibits ADH-stimulated adenylyl cyclase in collecting duct → induces nephrogenic diabetes insipidus → water excretion → corrects hyponatremia"
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "cardio",
+      "examLevel": "step1",
+      "system": "Cardiovascular",
+      "contentType": "Pharmacology",
+      "stem": "A 72-year-old man with congestive heart failure is hospitalized because of worsening pulmonary and peripheral edema. He is given intravenous furosemide. This agent will likely improve hemodynamics in which of the following ways?",
+      "choices": [
+        "Decrease venous return to the heart",
+        "Increase blood pressure",
+        "Increase circulatory volume",
+        "Increase heart rate",
+        "Increase plasma volume"
+      ],
+      "answer": 0,
+      "explanation": "Furosemide (a loop diuretic) relieves pulmonary congestion and peripheral edema by decreasing plasma volume, which subsequently decreases venous return to the heart (preload reduction). This decreases cardiac workload and oxygen demand. Additionally, diuretics can decrease afterload by reducing plasma volume and blood pressure. In the setting of heart failure with volume overload, preload reduction is the primary hemodynamic benefit. Furosemide does NOT increase blood pressure, circulatory volume, heart rate, or plasma volume — all of these would worsen heart failure. Diuretics are not inotropes and do not directly affect heart rate.",
+      "keypoints": [
+        "⭐ Furosemide in CHF: ↓ plasma volume → ↓ preload (venous return) → ↓ cardiac workload and O2 demand; also ↓ afterload via ↓ blood pressure",
+        "Furosemide MOA: inhibits Na-K-2Cl cotransporter in thick ascending limb of loop of Henle → ↓ NaCl and water reabsorption → greatest diuresis of any diuretic class",
+        "Loop diuretics also cause: hypotension, hypokalemia (K+ wasting), hypomagnesemia, hypercalciuria (contrast with thiazides which cause hypercalcemia via calcium retention)",
+        "Ototoxicity: furosemide (and other loop diuretics) → cochlear damage → hearing loss, especially with rapid IV infusion or in combination with aminoglycosides"
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "A 46-year-old man with hypertension presents to his primary care physician for follow-up. He has good blood pressure control as evidenced by normal levels on his home blood pressure machine. He currently takes hydrochlorothiazide. Which of the following laboratory studies should be undertaken in this patient?",
+      "choices": [
+        "Complete blood count",
+        "Electrolytes",
+        "Hemoglobin electrophoresis",
+        "Hematocrit",
+        "Plasma protein levels"
+      ],
+      "answer": 1,
+      "explanation": "Thiazide diuretics such as hydrochlorothiazide induce hypokalemia and hyperuricemia in approximately 70% of patients and hyperglycemia in about 10%. Therefore, serum electrolytes (especially potassium, sodium, and magnesium) should be monitored periodically. Hypomagnesemia may also occur. Serum potassium monitoring is critical in patients predisposed to cardiac arrhythmias (particularly those with LVH, ischemic heart disease, or chronic heart failure) or those concurrently taking digoxin (hypokalemia potentiates digoxin toxicity). Gout attacks can be triggered by hyperuricemia. Complete blood count, hemoglobin electrophoresis, hematocrit, and plasma protein levels are not specifically altered by thiazide therapy.",
+      "keypoints": [
+        "⭐ Thiazide adverse effects: hypokalemia, hyponatremia, hypomagnesemia, hyperuricemia (gout), hyperglycemia (↓ insulin secretion), hypercalcemia (↑ Ca²⁺ reabsorption in DCT)",
+        "Thiazide MOA: inhibit Na-Cl cotransporter in distal convoluted tubule → ↓ NaCl reabsorption; less potent diuresis than loop diuretics",
+        "Thiazide-induced hypercalcemia: useful in hypercalciuria/nephrolithiasis and osteoporosis; contrasts with loop diuretics (hypercalciuria)",
+        "Monitor K⁺ closely in patients on digoxin + thiazides: hypokalemia sensitizes myocardium to digoxin toxicity → arrhythmias"
+      ]
+    },
+    {
+      "id": "q005",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "A 52-year-old man is prescribed furosemide by his physician to help treat his hypertension. His physician further advises him to avoid NSAIDs for pain because they may antagonize the effects of furosemide. Which of the following describes how NSAIDs may interfere with the effects of furosemide?",
+      "choices": [
+        "Afferent arteriole vasoconstriction",
+        "Efferent arteriole vasoconstriction",
+        "Increase tubular sodium reabsorption",
+        "Stimulation of the ADH receptor",
+        "The physician is mistaken; pain management with NSAIDs has no bearing on furosemide use"
+      ],
+      "answer": 0,
+      "explanation": "Furosemide is a loop diuretic that works by inhibiting the Na-K-2Cl cotransporter in the ascending limb of the loop of Henle. NSAIDs inhibit cyclooxygenase enzymes, blocking prostaglandin synthesis. In the kidney, prostaglandins are important for causing vasodilation of the afferent arteriole. When NSAIDs inhibit prostaglandin synthesis, they cause afferent arteriole vasoconstriction, reducing renal perfusion and GFR. This attenuates furosemide delivery to the tubular lumen and decreases its diuretic effect. NSAIDs do not significantly affect efferent arteriole tone (efferent vasoconstriction would actually increase GFR). NSAIDs do not interfere with ADH signaling or directly increase tubular sodium reabsorption.",
+      "keypoints": [
+        "⭐ NSAIDs + furosemide: NSAIDs block prostaglandin-mediated afferent arteriole dilation → ↓ GFR → ↓ furosemide delivery to tubule → blunted diuresis",
+        "Prostaglandins (PGE2, PGI2) maintain GFR by dilating afferent arteriole — critical in states of low renal perfusion (CHF, CKD, cirrhosis)",
+        "NSAIDs are nephrotoxic especially in volume-depleted patients, CKD, elderly, or concurrent RAAS inhibitor use ('triple whammy' = ACEI + ARB/diuretic + NSAID → AKI)",
+        "Avoid NSAIDs in patients on loop or thiazide diuretics, RAAS inhibitors, or with CKD — use acetaminophen instead for analgesia"
+      ]
+    },
+    {
+      "id": "q006",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "A 21-year-old woman plans to spend a semester high in the Andes. She shares a concern with her doctor about the elevation because 1 year ago, she went on a ski trip to Colorado and developed altitude sickness. Her doctor prescribes a diuretic that can help her if she begins to have symptoms of altitude sickness. Which diuretic did her doctor likely prescribe?",
+      "choices": [
+        "Acetazolamide",
+        "Furosemide",
+        "Hydrochlorothiazide",
+        "Mannitol",
+        "Spironolactone"
+      ],
+      "answer": 0,
+      "explanation": "The principal issue at high altitude is low partial pressure of oxygen. Hypoxia stimulates hyperventilation, leading to respiratory alkalosis (excessive CO2 exhalation). Acetazolamide reverses this respiratory alkalosis by inhibiting carbonic anhydrase in the kidneys, causing bicarbonate to be excreted in the urine — creating a metabolic acidosis that compensates for and normalizes pH. This acidotic stimulus also drives ventilation. Administration of acetazolamide leads to resolution of altitude sickness symptoms in many patients. Furosemide is a loop diuretic used for fluid overload states (not altitude sickness). Hydrochlorothiazide increases calcium reabsorption but has no role in altitude sickness. Mannitol is an osmotic diuretic useful in cerebral edema and glaucoma. Spironolactone is a potassium-sparing diuretic for hypokalemia-prone states.",
+      "keypoints": [
+        "⭐ Acetazolamide for altitude sickness: inhibits renal carbonic anhydrase → ↑ HCO3⁻ excretion → metabolic acidosis → stimulates ventilation → reverses respiratory alkalosis",
+        "Acetazolamide also used for: open-angle glaucoma (↓ aqueous humor production by inhibiting ciliary body CA), pseudotumor cerebri, urine alkalinization, epilepsy (adjunct)",
+        "Altitude sickness symptoms: headache, nausea, fatigue, dizziness, insomnia; severe AMS → HACE (cerebral edema) or HAPE (pulmonary edema)",
+        "Acetazolamide side effects: metabolic acidosis, hypokalemia, paresthesias, kidney stones (alkaline urine → calcium phosphate stones), sulfa allergy cross-reactivity"
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "A 76-year-old man with a history of falls, hypertension, and kidney stones presents to his primary care physician for follow-up. His blood pressure is 140/100 mm Hg. He is placed on hydrochlorothiazide. This agent may be helpful in prevention of renal stones through which of the following mechanisms?",
+      "choices": [
+        "Binding to urine calcium",
+        "Binding to urine sodium",
+        "Causing resorption of calcium in the renal tubules",
+        "Increasing calcium excretion in the renal tubules",
+        "Increasing sodium resorption in the renal tubules"
+      ],
+      "answer": 2,
+      "explanation": "Hydrochlorothiazide decreases the calcium content of urine by promoting calcium resorption in the distal convoluted tubule. This effect contrasts with loop diuretics, which increase urinary calcium concentration. By reducing urinary calcium excretion (hypocalciuria), thiazides decrease the risk of calcium-containing kidney stone formation (calcium oxalate and calcium phosphate stones, the most common types). Epidemiologic evidence shows that thiazide use preserves bone mineral density at the hip and spine and reduces hip fracture risk by approximately one-third — an added benefit for this elderly patient with falls. Thiazides do not bind urine calcium or sodium, nor do they increase calcium excretion (that is furosemide's mechanism).",
+      "keypoints": [
+        "⭐ Thiazides → ↑ Ca²⁺ reabsorption in DCT → hypocalciuria → ↓ calcium stone formation; therapeutic in recurrent calcium nephrolithiasis",
+        "Mechanism of thiazide-induced hypocalciuria: ↓ luminal Na⁺ (from NCC inhibition) → ↑ basolateral Na-Ca exchanger activity → ↑ Ca²⁺ uptake into cell → net ↑ Ca²⁺ reabsorption",
+        "Contrast: Loop diuretics (furosemide) → ↓ Ca²⁺ reabsorption in TAL → hypercalciuria → used in acute hypercalcemia management",
+        "Stone type prevalence: Calcium oxalate (75%) > Calcium phosphate > Struvite (infection) > Uric acid > Cystine (rare, aminoaciduria)"
+      ]
+    },
+    {
+      "id": "q008",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "A 79-year-old woman with diabetes mellitus, hypertension, and visual disturbances presents to her ophthalmologist for management of her eye condition. She is found to have open-angle glaucoma. Prescription for acetazolamide is given to produce which of the following responses?",
+      "choices": [
+        "Decrease production of aqueous humor",
+        "Increasing intraocular pressure",
+        "Inhibition of sodium-calcium transport",
+        "Stimulating carbonic anhydrase",
+        "Stimulating ciliary body function in acute glaucoma"
+      ],
+      "answer": 0,
+      "explanation": "Acetazolamide's most common use is reduction of elevated intraocular pressure in open-angle glaucoma. Acetazolamide decreases the production of aqueous humor by blocking carbonic anhydrase in the ciliary body of the eye. Carbonic anhydrase normally drives aqueous humor production, so its inhibition decreases humor formation, thereby reducing intraocular pressure. Acetazolamide is useful for chronic (open-angle) glaucoma management but should NOT be used for an acute (closed-angle) angle attack, where immediate physical or laser iridotomy is preferred. Acetazolamide INHIBITS (not stimulates) carbonic anhydrase. It does not involve sodium-calcium transport and does not increase intraocular pressure.",
+      "keypoints": [
+        "⭐ Acetazolamide in glaucoma: inhibits CA in ciliary body → ↓ aqueous humor production → ↓ intraocular pressure; used for chronic open-angle glaucoma (not acute closed-angle)",
+        "Topical CA inhibitors (dorzolamide, brinzolamide) used in glaucoma: same MOA but fewer systemic effects than oral acetazolamide",
+        "Other glaucoma drug classes: beta-blockers (timolol, ↓ aqueous production), prostaglandin analogs (latanoprost, ↑ uveoscleral outflow), alpha-2 agonists (brimonidine, ↓ production + ↑ outflow), miotics (pilocarpine for acute closed-angle)",
+        "Open-angle vs closed-angle glaucoma: open-angle = chronic, painless, peripheral vision loss first; closed-angle = acute, painful, red eye, halos, requires urgent treatment"
+      ]
+    },
+    {
+      "id": "q009",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/Infectious Disease",
+      "contentType": "Pharmacology",
+      "stem": "A 44-year-old woman with systemic lupus erythematosus presents to her primary care physician for follow-up. She is currently being managed with an oral glucocorticoid agent. The most likely mechanism of action of this medication involves which of the following?",
+      "choices": [
+        "Inhibition of erythrocytes",
+        "Inhibition of macrophages",
+        "Stimulation of cyclooxygenase 2 synthesis",
+        "Stimulation of phospholipase A2",
+        "Stimulation of T cells"
+      ],
+      "answer": 1,
+      "explanation": "The most important therapeutic property of glucocorticoids is their ability to dramatically reduce the inflammatory response and suppress immunity. The mechanism is complex but involves: (1) lowering and inhibition of peripheral lymphocytes and macrophages; (2) indirect inhibition of phospholipase A2 (via steroid-mediated elevation of lipocortin), which blocks arachidonic acid release from membrane phospholipids, thereby reducing prostaglandin and leukotriene synthesis; and (3) further reduction of COX-2 synthesis in inflammatory cells. Glucocorticoids therefore INHIBIT (not stimulate) phospholipase A2, INHIBIT (not stimulate) COX-2, and generally INHIBIT T-cell function. They do not inhibit erythrocytes; they actually cause a transient rise in neutrophils.",
+      "keypoints": [
+        "⭐ Glucocorticoid anti-inflammatory MOA: ↑ lipocortin (annexin-1) → ↓ phospholipase A2 → ↓ arachidonic acid → ↓ prostaglandins + ↓ leukotrienes; also ↑ IkB → ↓ NF-κB → ↓ COX-2, ↓ inflammatory cytokines",
+        "Immunosuppressive MOA: ↓ macrophage function, ↓ T-lymphocyte proliferation, ↓ IL-2, ↓ NK cell activity; MOA in SLE: suppress autoantibody production and complement activation",
+        "Glucocorticoids cause leukocytosis (neutrophilia) by: demargination of neutrophils from vessel walls + ↓ neutrophil apoptosis; also lymphopenia, monocytopenia, eosinopenia",
+        "Glucocorticoid side effects: hyperglycemia, osteoporosis, HPA suppression, Cushing's features (moon face, buffalo hump, striae, obesity), hypertension, cataracts, avascular necrosis of femoral head"
+      ]
+    },
+    {
+      "id": "q010",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Pharmacology",
+      "stem": "A 66-year-old woman with a history of Cushing's disease treated with oral glucocorticoids presents to her primary care physician for follow-up. She was recently hospitalized for a hip fracture following a fall. What is the most likely mechanism for hip fracture in this patient?",
+      "choices": [
+        "Increased intestinal calcium absorption",
+        "Increased sex hormone synthesis",
+        "Inhibition of bone formation",
+        "Osteoarthritis",
+        "Osteochondroma"
+      ],
+      "answer": 2,
+      "explanation": "Osteoporosis is the most common adverse effect of chronic glucocorticoid therapy, occurring because glucocorticoids suppress intestinal calcium absorption (not increase it), inhibit bone formation (by suppressing osteoblast activity), and decrease sex hormone synthesis. These three mechanisms together — reduced calcium availability, reduced bone synthesis, and reduced sex hormone support for bone — lead to progressive bone loss. Alternate-day glucocorticoid dosing does NOT prevent osteoporosis. Patients on chronic steroids should receive calcium and vitamin D supplementation and may benefit from bisphosphonate therapy. Osteoarthritis and osteochondroma are not caused by glucocorticoid use, and glucocorticoids decrease (not increase) intestinal calcium absorption.",
+      "keypoints": [
+        "⭐ Glucocorticoid-induced osteoporosis mechanisms: ↓ intestinal Ca²⁺ absorption, ↑ renal Ca²⁺ excretion, ↓ osteoblast function (↓ bone formation), ↓ sex hormone synthesis, ↑ PTH (secondary hyperparathyroidism) → ↑ osteoclast activity",
+        "Prevention: bisphosphonates (alendronate, risedronate) + Ca²⁺ + vitamin D supplements for patients on ≥7.5 mg/day prednisone for ≥3 months",
+        "Glucocorticoids also cause: avascular necrosis (osteonecrosis) of femoral head — separate from osteoporosis; due to vascular occlusion from fat emboli and adipocyte proliferation",
+        "Cushing's syndrome features mnemonic CUSHINGOID: Central obesity, Ulcers (peptic), Skin changes (striae, acne), Hypertension, Infections↑, Necrosis (avascular), Growth arrest, Osteoporosis, Insulin resistance/Diabetes"
+      ]
+    },
+    {
+      "id": "q011",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pharmacology",
+      "stem": "A 49-year-old woman with a history of hypertension is treated with spironolactone. She has good blood pressure control and in the last 6 months has shown an improvement in her hirsutism. What is the most likely explanation for these findings?",
+      "choices": [
+        "Androgen receptor inhibition of the hair follicle",
+        "Drug toxicity",
+        "Hypoaldosteronism",
+        "Testosterone levels are elevated",
+        "Idiopathic effect"
+      ],
+      "answer": 0,
+      "explanation": "Spironolactone is an antihypertensive drug that competitively antagonizes the mineralocorticoid (aldosterone) receptor in the collecting duct, inhibiting sodium resorption. Importantly, spironolactone also antagonizes androgen receptors at the hair follicle — this is why it is useful in the treatment of hirsutism (excess hair growth) in women, particularly in conditions such as PCOS. By blocking androgen receptor binding at the hair follicle, spironolactone reduces testosterone-driven hair follicle stimulation, reducing hirsutism. It does not represent toxicity, nor is it because of hypoaldosteronism (aldosterone inhibition would cause hyperkalemia, not affect hair). Testosterone levels are typically normal or mildly elevated in PCOS.",
+      "keypoints": [
+        "⭐ Spironolactone dual action: (1) mineralocorticoid receptor antagonist → ↓ Na⁺ reabsorption, ↑ K⁺ retention (K⁺-sparing diuretic); (2) androgen receptor antagonist at hair follicle → ↓ hirsutism",
+        "Spironolactone uses: HTN, hyperaldosteronism (Conn's), heart failure (RALES trial: ↓ mortality), PCOS (hirsutism/acne), ascites in cirrhosis (with furosemide)",
+        "Spironolactone adverse effects: hyperkalemia (most dangerous — avoid with CKD, ACEi), gynecomastia and menstrual irregularities (from antiandrogenic effects), breast pain",
+        "Eplerenone: more selective mineralocorticoid antagonist (less antiandrogenic) → fewer sexual side effects; used in heart failure post-MI"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology (Cross-cutting)",
+      "contentType": "Pharmacology",
+      "stem": "A 37-year-old woman who is a kidney transplant recipient has been taking daily prednisone for the past 2 months since her transplant. With only a few doses of prednisone left, she gets snowed in to her house and cannot refill her prescription (but she has enough of the other medications to last a few more weeks). Which of the following classes do steroids belong to?",
+      "choices": [
+        "Biogenic amine",
+        "Catecholamine",
+        "Ion",
+        "Lipid",
+        "Peptide"
+      ],
+      "answer": 3,
+      "explanation": "Steroids are built on a cholesterol backbone and are highly lipophilic (lipid-soluble). This lipid nature allows them to easily diffuse across cellular membranes without requiring surface receptors or transport proteins. Because they can cross the lipid bilayer, steroid receptors are found intracellularly — most commonly in the cytoplasm, though some are found in the nucleus. Once a steroid binds its cytoplasmic receptor, the complex translocates to the nucleus to act as a transcription factor. Biogenic amines (histamine, serotonin, catecholamines) are chemically modified amino acids. Catecholamines (dopamine, norepinephrine, epinephrine) are a subset of biogenic amines made from tyrosine. Ions (Na⁺, Ca²⁺) carry a charge. Peptide hormones (oxytocin, insulin, vasopressin) are amino acid chains and cannot freely cross cell membranes.",
+      "keypoints": [
+        "⭐ Steroids = lipid-derived hormones (cholesterol backbone); lipophilic → freely diffuse across membranes → intracellular receptors (cytoplasm/nucleus) → act as transcription factors",
+        "Hormone receptor locations by class: Peptides/catecholamines → surface receptors (cannot cross membrane); Steroids/thyroid hormones → intracellular receptors (cross membrane)",
+        "Steroid hormones include: glucocorticoids (cortisol), mineralocorticoids (aldosterone), sex steroids (estrogen, progesterone, testosterone), vitamin D, bile acids",
+        "Steroid synthesis pathway: cholesterol → pregnenolone (rate-limiting step by ACTH via StAR protein) → progesterone → cortisol/aldosterone/sex steroids (depending on cell type)"
+      ]
+    }
+  ]
+}
