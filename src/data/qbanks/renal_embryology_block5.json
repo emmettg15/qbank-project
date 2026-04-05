@@ -1,0 +1,705 @@
+{
+  "config": {
+    "title": "Renal Embryology \u2014 High Yield Step 1",
+    "subtitle": "Nephrogenic systems, molecular signaling, ascent, cloaca, and congenital anomalies",
+    "passingFraction": 0.75,
+    "tags": {
+      "renal": {
+        "label": "Renal/Urinary",
+        "color": "#3b82f6"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A developmental biology researcher ablates the intermediate mesoderm in a mouse embryo at the cervical somite level during the third week of development. Which of the following structures would be most directly prevented from forming by this intervention?",
+      "choices": [
+        "Metanephric mesenchyme and ureteric bud",
+        "Urorectal septum and cloacal membrane",
+        "Glomerular capillary endothelium and mesangial cells",
+        "Pronephric tubules and the initial nephric duct",
+        "Collecting duct epithelium of the definitive kidney"
+      ],
+      "answer": 3,
+      "explanation": "The pronephros arises first from the intermediate mesoderm (IM) near the cervical somites during week 3. The nephric duct initially forms as a condensation of the IM and begins growing caudally from this region. Without the IM at this level, neither the pronephric tubules nor the initial segment of the nephric duct can form. The metanephric mesenchyme and ureteric bud (choice B) arise from pelvic IM much later in development. The urorectal septum and cloacal membrane (choice C) are endodermal structures. Glomerular capillary endothelium (choice D) is vasculogenic, derived from lateral plate mesoderm. The definitive collecting duct (choice E) forms from the ureteric bud, which branches off the mesonephric duct \u2014 but this branching cannot occur if the duct itself never forms.",
+      "keypoints": [
+        "\u2b50 All three nephrogenic systems (pronephros, mesonephros, metanephros) arise from intermediate mesoderm",
+        "\u2b50 Nephric duct begins as a cranial IM condensation and grows caudally, inducing tubule formation in the adjacent nephric cord",
+        "Pronephros is found near cervical somites; never functional in humans; degenerates cranially to caudally",
+        "Lateral plate mesoderm contributes vasculature; neural crest contributes to adrenal medulla"
+      ]
+    },
+    {
+      "id": "q002",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A knockout mouse model completely lacks functional PAX2 expression. A second model lacks functional LIM1 expression. Which of the following best predicts the phenotypes of each model, respectively?",
+      "choices": [
+        "No collecting system formed; no nephrons formed",
+        "No ureteric bud branching; no metanephric mesenchyme induction",
+        "No nephrons formed; no collecting system formed",
+        "No glomeruli formed; no proximal tubules formed",
+        "Bilateral renal agenesis in both models due to redundant function"
+      ],
+      "answer": 2,
+      "explanation": "PAX2 and LIM1 are transcription factors expressed in the intermediate mesoderm, both required for mature kidney formation. Experimental knockout data show that PAX2-null mice form no nephrons (the excretory units derived from metanephric mesenchyme), while LIM1-null mice form no collecting system (the ductal apparatus derived from the ureteric bud lineage). This dissociation illustrates that nephron formation vs. collecting system formation depend on distinct transcriptional programs, even though both originate from the IM. Choice B reverses the phenotypes. Choices C and D are mechanistically imprecise. Choice E is incorrect because PAX2 and LIM1 have distinct, non-redundant roles.",
+      "keypoints": [
+        "\u2b50 PAX2 KO \u2192 no nephrons; PAX2 mutations cause Renal Coloboma Syndrome and Papillorenal Syndrome",
+        "\u2b50 LIM1 KO \u2192 no collecting system",
+        "Separating the intermediate mesoderm from the paraxial mesoderm prevents PAX2 and LIM1 expression",
+        "Signaling from adjacent paraxial mesoderm is required to specify the IM toward renal fate"
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A second-year medical student is reviewing the fate of the three embryonic kidney systems. She is asked to identify which embryonic kidney makes true nephrons, produces urine transiently, and ultimately contributes permanent structures to the male reproductive tract. Which kidney system fits all three criteria?",
+      "choices": [
+        "Pronephros",
+        "Mesonephros",
+        "Metanephros",
+        "Ureteric bud",
+        "Metanephric mesenchyme"
+      ],
+      "answer": 1,
+      "explanation": "The mesonephros is the only system that satisfies all three criteria. It contains approximately 30 true nephrons (functional filtration units) that produce urine for about 4 weeks. Its urine drains into the mesonephric (Wolffian) duct, which is patent to the cloaca. After the mesonephric nephrons degenerate, the mesonephric duct and portions of the tubules persist and differentiate into the epididymis, ductus deferens, and ejaculatory duct in males. The pronephros (choice B) is rudimentary and never functional. The metanephros (choice C) forms the definitive kidney but does not contribute to the reproductive tract in the way described. The ureteric bud and metanephric mesenchyme (choices D and E) are components of the definitive kidney, not separate nephrogenic systems.",
+      "keypoints": [
+        "\u2b50 Mesonephros: spans thoracic\u2013lumbar levels, ~30 true nephrons, produces urine for ~4 weeks, then degenerates",
+        "\u2b50 Mesonephric (Wolffian) duct \u2192 epididymis, ductus deferens, ejaculatory duct (males); regresses in females due to absence of testosterone",
+        "Some mesonephric tubules near the testes become efferent ductules",
+        "In females, M\u00fcllerian ducts (paramesonephric) form the uterus, fallopian tubes, and upper vagina"
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "During development of the metanephros, the ureteric bud must branch extensively to form the collecting apparatus. A mutation abolishes expression of a ligand secreted by the metanephric mesenchyme that binds to the RET receptor tyrosine kinase on the ureteric bud. Which of the following molecular changes would directly result from loss of this ligand?",
+      "choices": [
+        "Loss of WNT11 signaling, preventing autocrine proliferation of the bud diverticulum",
+        "Loss of BMP4 signaling, eliminating the push forces needed for branching",
+        "Loss of HGF signaling, impairing MET-dependent elongation of collecting tubules",
+        "Loss of WNT9b signaling, preventing condensation of mesenchymal caps into vesicles",
+        "Loss of GDNF signaling, impairing ureteric bud formation and branching"
+      ],
+      "answer": 4,
+      "explanation": "The metanephric mesenchyme secretes GDNF (glial cell line-derived neurotrophic factor), which binds RET receptors on the ureteric bud. GDNF/RET signaling is essential for the initial localization of the ureteric bud diverticulum and for maintaining branching at the bud tips (the 'pull' signal). Loss of GDNF signaling would prevent proper bud formation and branching, ultimately causing renal agenesis \u2014 analogous to GDNF signaling defects implicated in unilateral renal agenesis. WNT11 (choice B) provides autocrine proliferative signaling at the bud itself but does not bind RET. BMP4 (choice C) is the 'push' signal from the middle stalk, not a mesenchyme-to-bud signal via RET. HGF (choice D) binds MET, a separate receptor, and is not the ligand described. WNT9b (choice E) is secreted by the collecting duct to condense mesenchymal caps into vesicles, a later step.",
+      "keypoints": [
+        "\u2b50 GDNF (from metanephric mesenchyme) \u2192 RET receptor on ureteric bud \u2192 tip 'pull' signal driving branching",
+        "\u2b50 Defective GDNF signaling \u2192 unilateral renal agenesis (more common in males)",
+        "HGF (mesenchyme) \u2192 MET (bud) is a parallel pathway also promoting bud-mesenchyme interaction",
+        "WNT11 autocrine signaling maintains proliferation and expansion of the ureteric bud diverticulum"
+      ]
+    },
+    {
+      "id": "q005",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Researchers studying renal branching morphogenesis find that two opposing signals regulate the push-pull dynamics of ureteric bud outgrowth. A pharmacologic agent selectively blocks the signal that originates from the mid-stalk region of the bud and limits over-branching. What is the primary expected consequence of blocking this signal?",
+      "choices": [
+        "Failure of the initial ureteric bud to sprout from the nephric duct",
+        "Arrest of mesenchymal-to-epithelial transition at the vesicle stage",
+        "Loss of GDNF expression in the metanephric mesenchyme, collapsing tip signaling",
+        "Uncontrolled branching of the ureteric bud due to loss of BMP4-mediated restraint",
+        "Impaired renal ascent due to defective IMA remodeling"
+      ],
+      "answer": 3,
+      "explanation": "Branching morphogenesis of the ureteric bud is governed by a push-pull mechanism: GDNF/RET at the tips provides 'pull' driving outgrowth, while BMP4 in the mid-stalk region provides 'push' restraint preventing ectopic branching. Blocking BMP4 at the stalk removes this restraint, allowing unchecked branching and potential supernumerary collecting ducts. Choice B describes loss of GDNF or HOX11/FOXC1/2 signaling required for initial bud sprouting. Choice C describes loss of WNT4 autocrine signaling at the vesicle stage. Choice D confuses cause and effect \u2014 BMP4 is in the stalk, not the mesenchyme tip. Choice E relates to vascular remodeling during ascent, not branching.",
+      "keypoints": [
+        "\u2b50 Branching morphogenesis: GDNF/RET at tips (pull) + BMP4 at mid-stalk (push) = controlled dichotomous branching",
+        "\u2b50 Each branching cycle generates one more order of collecting ducts, calyces, and renal pelvis",
+        "Ureteric bud branches form collecting ducts (water-resorbing, near nephron) and conduction-only tubules (farther from nephron)",
+        "Abnormal branching \u2192 supernumerary ureters, bifid ureters, or renal dysplasia"
+      ]
+    },
+    {
+      "id": "q006",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A researcher uses a genetic system to express WT1 ectopically in a non-renal mesenchymal tissue. The tissue immediately begins to differentiate toward a nephron fate. Which of the following best explains the transcriptional hierarchy that normally leads to WT1 expression in the developing kidney?",
+      "choices": [
+        "PAX2 and LIM1 are expressed first, which upregulate WNT11, which in turn induces WT1",
+        "HOX11 and FOXC1/2 are expressed in pelvic intermediate mesoderm, driving WT1 expression, which then confers nephron-forming competence",
+        "GDNF from the metanephric mesenchyme signals through RET to induce WT1 in the ureteric bud",
+        "WNT4 autocrine signaling in mesenchymal vesicles upregulates WT1 to drive epithelialization",
+        "BMP4 from the mid-stalk activates WT1 transcription in the mesenchymal caps"
+      ],
+      "answer": 1,
+      "explanation": "The normal transcriptional hierarchy for metanephros formation is: HOX11 and FOXC1/2 transcription factors are required for positioning the metanephrogenic mesenchyme in the pelvic region. Their expression in pelvic IM drives expression of WT1, a transcription factor that confers full competence to form a true kidney in any tissue expressing it \u2014 explaining why ectopic WT1 expression is sufficient to redirect non-renal tissue. PAX2 and LIM1 (choice B) control nephron vs. collecting system formation, acting upstream of individual lineages but are not the direct HOX11 targets. GDNF signals to the ureteric bud (choice C), not the other way around, and does not induce WT1. WNT4 (choice D) acts at a later vesicle stage. BMP4 (choice E) is a branching restraint signal, not a WT1 inducer.",
+      "keypoints": [
+        "\u2b50 HOX11 + FOXC1/2 \u2192 WT1 expression \u2192 confers nephron-forming competence to metanephric mesenchyme",
+        "\u2b50 WT1 is a transcription factor encoded at chromosome 11p13; loss-of-function mutations cause Wilms tumor",
+        "WT1 expression is maintained in mesenchymal caps by BMP and FGF secreted from branching collecting duct tips",
+        "WAGR syndrome = Wilms tumor, Aniridia, Genitourinary anomalies, Retardation \u2014 from large 11p13 deletions including WT1 and PAX6"
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "During reciprocal induction between collecting duct tips and metanephric mesenchyme, the mesenchymal caps condense into vesicles. A knockout mouse lacks WNT4 expression only in these vesicles. Which of the following steps in nephron formation would be most directly impaired?",
+      "choices": [
+        "Epithelialization of vesicles into tubular nephron segments, marked by E-cadherin upregulation",
+        "Initial condensation of mesenchymal caps from a diffuse mesenchyme",
+        "Elongation and lumenization of nascent tubules connecting to the collecting duct",
+        "Expression of WT1 in the mesenchymal caps, preventing their renal specification",
+        "Branching of the ureteric bud beyond the first dichotomy"
+      ],
+      "answer": 0,
+      "explanation": "WNT9b and WNT6 from collecting duct cells drive the initial condensation of mesenchymal caps into vesicles. Once vesicles form, WNT4 acts in an autocrine fashion within the vesicles themselves to drive mesenchymal-to-epithelial transition (MET). This epithelialization is marked by upregulation of E-cadherin, Laminin, Type IV collagen, and Syndecan. Without vesicle-autonomous WNT4, the mesenchyme would condense (step preserved, driven by WNT9b/6) but fail to epithelialize. Choice B (initial condensation) depends on WNT9b/6, not WNT4. Choice C (elongation and lumenization) is downstream of epithelialization and would be secondarily impaired. Choice D involves WT1 regulation by BMP/FGF, not WNT4. Choice E is a branching morphogenesis step unrelated to WNT4.",
+      "keypoints": [
+        "\u2b50 WNT9b/6 (from collecting duct) \u2192 cap condensation into vesicles; WNT4 (autocrine in vesicle) \u2192 MET/epithelialization",
+        "\u2b50 MET markers: E-cadherin, Laminin, Type IV collagen, Syndecan",
+        "Mesenchymal-to-epithelial transition is required to generate the tubular architecture of the nephron",
+        "Nephron accumulation is slow (weeks 10\u201318), then more rapid (weeks 18\u201332); final nephron number is set by birth"
+      ]
+    },
+    {
+      "id": "q008",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A newborn is found to have kidneys located at the level of the pelvic brim bilaterally, with vessels arising from the common iliac arteries and hila facing anteriorly. The infant is otherwise healthy. What is the most likely explanation for these findings?",
+      "choices": [
+        "Horseshoe kidney with fusion of inferior poles and IMA impeding migration",
+        "Bilateral ectopic ureters with retrograde implantation pulling the kidneys downward",
+        "Failure of renal ascent and rotation from the original pelvic position",
+        "Premature cessation of ureteric bud branching preventing superior displacement",
+        "Bilateral renal agenesis with compensatory cystic remnants in the pelvis"
+      ],
+      "answer": 2,
+      "explanation": "Normally, the metanephros forms in the pelvic region with renal vessels arising from the common iliac vessels and the hilum facing ventrally. Ascent from the pelvis to the upper lumbar region requires progressive formation of new cranial vessels and regression of more caudal ones, accompanied by 90\u00b0 medial rotation of the hilum. This patient has bilateral failure of ascent (ectopic kidneys in the pelvis) and failure of rotation (hila still ventral). The vessels remain connected to the common iliac arteries because new cranial vascular connections were never established. Horseshoe kidney (choice B) specifically involves inferior pole fusion and arrested ascent at the inferior mesenteric artery \u2014 the hila would face more anteriorly but the key feature is the isthmus. Choice C is anatomically implausible. Choice D is incorrect as branching does not drive ascent. Choice E is excluded by the presence of bilateral kidneys.",
+      "keypoints": [
+        "\u2b50 Kidneys form in the pelvis \u2192 ascend to upper lumbar; hilum rotates from ventral to medial",
+        "\u2b50 Ascent: old iliac vessels regress, new aortic branches form; suprarenal glands stop normal ascent",
+        "Ectopic kidneys retain vessels from their last vascular station (often iliac arteries)",
+        "Accessory renal vessels (25% of people) = persistent fetal vessels; can cross ureter \u2192 hydronephrosis"
+      ]
+    },
+    {
+      "id": "q009",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A patient is found incidentally to have kidneys whose inferior poles are fused across the midline by a parenchymal isthmus. Imaging shows that the fused kidney sits lower than normal. Which embryologic structure most likely impeded further ascent of this fused kidney?",
+      "choices": [
+        "Inferior vena cava",
+        "Inferior mesenteric artery",
+        "Urorectal septum",
+        "Suprarenal gland",
+        "Common iliac artery"
+      ],
+      "answer": 1,
+      "explanation": "Horseshoe kidney results when the inferior renal poles fuse in the midline during embryonic development, typically before or during ascent. The fused isthmus then catches on the root of the inferior mesenteric artery (IMA) as the kidney attempts to ascend, stopping it lower than its normal position. This is why horseshoe kidneys typically sit at the L3\u2013L5 level rather than T12\u2013L2. The IVC (choice B) is lateral and does not typically obstruct midline structures. The urorectal septum (choice C) divides the cloaca and is not in the retroperitoneum along the ascent path. Suprarenal glands (choice D) stop normal kidney ascent, but only when each kidney ascends individually \u2014 they would not be the relevant barrier for a fused midline mass. Common iliac arteries (choice E) are inferior to the IMA and would be encountered earlier in ascent.",
+      "keypoints": [
+        "\u2b50 Horseshoe kidney: inferior pole fusion \u2192 ascent arrested by the inferior mesenteric artery at ~L3\u2013L5",
+        "\u2b50 Prevalence ~1:500; most are asymptomatic; strongly associated with Turner syndrome (45,X)",
+        "Complications: urinary stasis \u2192 stones, UTIs; increased risk of Wilms tumor and transitional cell carcinoma",
+        "Normal ascent is stopped by suprarenal glands (only for individually ascending kidneys)"
+      ]
+    },
+    {
+      "id": "q010",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "A 16-week fetal ultrasound reveals severe oligohydramnios. No structural cardiac or pulmonary anomalies are detected. A fetal MRI demonstrates absent renal parenchyma bilaterally with hypoplastic lung fields. Which of the following best explains the causal chain producing this fetal constellation?",
+      "choices": [
+        "Primary pulmonary hypoplasia \u2192 reduced thoracic movement \u2192 oligohydramnios \u2192 secondary renal dysplasia",
+        "Urethral obstruction \u2192 bladder distension \u2192 hydronephrosis \u2192 secondary renal failure \u2192 oligohydramnios",
+        "Bilateral renal agenesis \u2192 no fetal urine output \u2192 oligohydramnios \u2192 lack of fluid-driven lung expansion \u2192 pulmonary hypoplasia",
+        "Bilateral ADPKD \u2192 cystic replacement of renal parenchyma \u2192 anuria \u2192 oligohydramnios \u2192 lung hypoplasia",
+        "Urorectal septum defect \u2192 cloaca persists \u2192 urine cannot enter amniotic space \u2192 oligohydramnios"
+      ],
+      "answer": 2,
+      "explanation": "Potter sequence (formerly Potter syndrome) is the classic result of bilateral renal agenesis. Fetal kidneys begin producing urine by approximately 10\u201311 weeks, and by the second trimester, fetal urine is the primary source of amniotic fluid. Without functional kidneys, no urine is produced (anuria), amniotic fluid is severely reduced (oligohydramnios), and the fetus lacks the fluid needed to mechanically distend the developing lungs. This absence of stretch-induced growth leads to pulmonary hypoplasia, which is the cause of death \u2014 infants are born with lungs too small to support adequate gas exchange. Choice B reverses cause and effect. Choice C describes posterior urethral valves, which also produce oligohydramnios but via obstruction, not agenesis. Choice D (ADPKD) manifests in adulthood, not this severely in the fetus. Choice E describes a cloacal anomaly not associated with absent renal parenchyma.",
+      "keypoints": [
+        "\u2b50 Potter sequence: bilateral renal agenesis \u2192 anuria \u2192 oligohydramnios \u2192 pulmonary hypoplasia (lethal) + Potter facies (flattened nose, low-set ears, limb deformities)",
+        "\u2b50 Bilateral renal agenesis: 1:10,000 births; incompatible with life; linked to defective GDNF signaling",
+        "Fetal urine = primary source of amniotic fluid after ~16 weeks; lung expansion requires adequate fluid volume",
+        "Unilateral renal agenesis is often asymptomatic; more common in male offspring; remaining kidney undergoes compensatory hypertrophy"
+      ]
+    },
+    {
+      "id": "q011",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "A 6-year-old boy presents with a painless abdominal mass crossing the midline. Urinalysis shows microscopic hematuria. Imaging demonstrates a large intrarenal mass replacing the left kidney. Genetic analysis reveals a missense mutation in a gene on chromosome 11p13. What is the most likely molecular consequence of this mutation?",
+      "choices": [
+        "Gain-of-function mutation in PAX2, driving uncontrolled nephron proliferation",
+        "Loss of WT1 tumor suppressor function, impairing transcriptional regulation of renal progenitor differentiation",
+        "Homozygous deletion of PKHD1, resulting in dysregulated collecting duct epithelium",
+        "Truncating mutation in Polycystin-1, preventing tubular cell mechanosensation",
+        "Loss of GDNF expression, causing arrest of ureteric bud branching with secondary hyperplasia"
+      ],
+      "answer": 1,
+      "explanation": "This presentation is classic for Wilms tumor (nephroblastoma), the most common renal malignancy in children. It arises from mutations in the WT1 gene on chromosome 11p13. WT1 is a tumor suppressor and transcription factor essential for normal metanephric mesenchyme differentiation; loss of its function allows renal progenitor cells to proliferate without differentiating. Denys-Drash syndrome also arises from WT1 mutations. PAX2 gain-of-function (choice B) does not cause Wilms tumor; PAX2 mutations cause Renal Coloboma Syndrome. PKHD1 mutations (choice C) cause autosomal recessive polycystic kidney disease, not a solid tumor. Polycystin-1 mutations (choice D) cause autosomal dominant PKD, which presents in adulthood with flank pain and cysts, not a solid mass in a child. GDNF loss (choice E) causes renal agenesis, not a tumor.",
+      "keypoints": [
+        "\u2b50 Wilms tumor (nephroblastoma): most common renal malignancy in children; WT1 gene mutation (11p13)",
+        "\u2b50 WAGR syndrome = Wilms tumor + Aniridia + Genitourinary anomalies + intellectual disability; larger 11p13 deletion (includes WT1 + PAX6)",
+        "Denys-Drash syndrome: WT1 mutation \u2192 Wilms tumor + pseudohermaphroditism + diffuse mesangial sclerosis",
+        "Beckwith-Wiedemann syndrome (IGF2 overgrowth): also associated with Wilms tumor; gigantism, macroglossia, omphalocele"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "A 35-year-old man presents with bilateral flank pain and hematuria. Imaging reveals multiple large cysts in both kidneys. He reports that his father underwent dialysis in his 50s. Genetic testing identifies a mutation in the gene encoding Polycystin-1. Which of the following best explains why loss of Polycystin-1 leads to cyst formation?",
+      "choices": [
+        "Loss of Polycystin-1 causes mislocalization of WNT4, leading to ectopic MET throughout the nephron",
+        "Absence of Polycystin-1 prevents ureteric bud branching, causing dilated blind-ended tubules to accumulate fluid",
+        "Polycystin-1 normally suppresses GDNF secretion; its loss causes uncontrolled ureteric bud proliferation",
+        "Polycystin-1 is required for apoptosis of collecting duct cells; its loss results in fluid-filled persistence of progenitor tubules",
+        "Loss of mechanosensation in primary cilia impairs flow-sensing, disrupting planar cell polarity and tubular growth regulation"
+      ],
+      "answer": 4,
+      "explanation": "Polycystic kidney disease is classified as a ciliopathy. Polycystin-1 (and Polycystin-2) are proteins that localize to primary cilia on renal tubular epithelial cells. These cilia sense fluid flow through the tubule; mechanosensation through this complex maintains normal planar cell polarity and regulates tubular elongation vs. dilation. When Polycystin-1 is lost, flow sensing is disrupted, cells lose directional growth cues, and tubular epithelial cells proliferate circumferentially rather than longitudinally \u2014 dilating the tubule into a cyst. Choice B misapplies WNT4 signaling, which governs MET during early nephrogenesis, not cyst formation in the mature kidney. Choice C describes renal dysplasia from branching failure, not PKD. Choices D and E are mechanistically incorrect; Polycystin-1 is not a regulator of GDNF or collecting duct apoptosis.",
+      "keypoints": [
+        "\u2b50 ADPKD: autosomal dominant; Polycystin-1 (PKD1, ~85%) or Polycystin-2 (PKD2, ~15%) mutations; manifests in adulthood",
+        "\u2b50 PKD is a ciliopathy \u2014 primary cilia mediate flow-sensing; loss \u2192 cyst expansion driven by fluid secretion + abnormal proliferation",
+        "ARPKD: PKHD1 gene (Fibrocystin/Polyductin); presents in infancy/childhood; prevalence 1:20,000",
+        "ADPKD associations: cerebral berry aneurysms, hepatic cysts, mitral valve prolapse"
+      ]
+    },
+    {
+      "id": "q013",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "Parents bring their newborn to the pediatric nephrology clinic after a fetal ultrasound at 28 weeks showed severely enlarged, echogenic kidneys with decreased corticomedullary differentiation. The child now shows signs of renal insufficiency. Genetic testing reveals a homozygous null mutation. Which gene and pattern of inheritance most likely explains this presentation?",
+      "choices": [
+        "PKD1 (Polycystin-1); autosomal dominant",
+        "PKD2 (Polycystin-2); autosomal dominant",
+        "WT1; autosomal dominant with variable penetrance",
+        "GDNF; X-linked recessive",
+        "PKHD1 (Fibrocystin/Polyductin); autosomal recessive"
+      ],
+      "answer": 4,
+      "explanation": "Autosomal recessive polycystic kidney disease (ARPKD) presents in infancy or childhood with enlarged, echogenic kidneys on prenatal ultrasound and early-onset renal failure. It is caused by null or missense mutations in PKHD1, encoding the Fibrocystin/Polyductin protein, and follows autosomal recessive inheritance \u2014 requiring a homozygous null mutation. The prevalence is approximately 1:20,000. ADPKD due to PKD1 (choice B) or PKD2 (choice C) is autosomal dominant and manifests with renal difficulties typically in adulthood (3rd\u20135th decade), not infancy. WT1 mutations (choice D) cause Wilms tumor and related syndromes, not cystic kidney disease. GDNF mutations (choice E) cause renal agenesis and are not X-linked.",
+      "keypoints": [
+        "\u2b50 ARPKD: PKHD1 (Fibrocystin/Polyductin) mutations; presents in neonates/infancy; renal failure + hepatic fibrosis",
+        "\u2b50 ADPKD: PKD1 or PKD2 mutations; autosomal dominant; presents in adulthood; 1:400\u20132500 embryos affected",
+        "ARPKD prevalence ~1:20,000; if severe, oligohydramnios + Potter sequence possible",
+        "Both ADPKD and ARPKD are ciliopathies affecting tubular epithelial cilia proteins"
+      ]
+    },
+    {
+      "id": "q014",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A medical student is tracing the embryologic origin of each portion of the adult urinary bladder. She learns that the bladder receives contributions from more than one germ layer. Which of the following correctly identifies the germ layer contributions to the urinary bladder and urethra, respectively?",
+      "choices": [
+        "Bladder: endoderm only; urethra: mesoderm only",
+        "Bladder: intermediate mesoderm only; urethra: endoderm only",
+        "Bladder: lateral plate mesoderm; urethra: intermediate mesoderm",
+        "Bladder: endoderm and mesoderm; urethra: endoderm and mesoderm",
+        "Bladder: endoderm; urethra: ectoderm and endoderm"
+      ],
+      "answer": 3,
+      "explanation": "The urinary bladder and urethra both receive contributions from two germ layers. The bladder wall musculature and connective tissue are derived from splanchnic (lateral plate) mesoderm, while the mucosal lining (urothelium/transitional epithelium) is derived from endoderm \u2014 specifically from the cranial/vesicular portion of the urogenital sinus. Similarly, the urethra is lined by endoderm and surrounded by mesodermally derived smooth muscle. The kidneys and ureters are derived primarily from intermediate mesoderm (nephric cord and nephric duct). Choice B incorrectly assigns single germ layer derivation. Choice C attributes bladder exclusively to intermediate mesoderm, which is incorrect \u2014 the IM contributes ureters, not bladder. Choices D and E contain incorrect attribution patterns.",
+      "keypoints": [
+        "\u2b50 Kidneys: intermediate mesoderm; Ureters: intermediate mesoderm (nephric duct); Bladder: endoderm + mesoderm; Urethra: endoderm + mesoderm",
+        "\u2b50 Adrenal gland: cortex from intermediate mesoderm; medulla from neural crest cells (ectoderm)",
+        "Urogenital sinus (vesicular/cranial portion) \u2192 bladder; pelvic portion \u2192 urethra; caudal/phallic portion \u2192 penile urethra or vaginal vestibule",
+        "All urinary structures receive contributions from at least two germ layers except the nephrons (pure IM)"
+      ]
+    },
+    {
+      "id": "q015",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A 4-week-old female infant presents with a foul-smelling, yellowish discharge from the umbilicus. Ultrasound reveals a tubular fluid-filled structure connecting the umbilicus to the dome of the bladder. There is no fever and WBC is normal. Which of the following best explains the embryologic basis of this finding?",
+      "choices": [
+        "Persistent vitelline (omphalomesenteric) duct draining intestinal secretions to the umbilicus",
+        "Failure of the urorectal septum to divide the cloaca, leaving a cloacal remnant patent to the skin",
+        "Incomplete closure of the urachus (allantois remnant), creating a patent urachal fistula with the bladder",
+        "Patent processus vaginalis communicating with the peritoneal cavity and bladder dome",
+        "Incomplete regression of the mesonephric duct with fistulization to the anterior abdominal wall"
+      ],
+      "answer": 2,
+      "explanation": "The urachus is the embryologic remnant of the allantois, a structure continuous with the hindgut and involved in early waste disposal in the embryo. After birth, the urachus normally obliterates to form the median umbilical ligament. Incomplete closure results in a patent urachus \u2014 a fistula between the bladder dome and the umbilicus. The fluid would be urine-like in composition (the question notes yellowish fluid without leukocytes, consistent with urine). This is a urachal fistula. A urachal cyst can occur anywhere along the length of the median umbilical ligament and may drain from the umbilicus if it becomes patent superiorly. The vitelline duct (choice B) connects the midgut to the yolk sac and, if patent, drains small intestinal contents \u2014 distinguishable by its content and location. Choice C describes a more severe defect. Choices D and E are anatomically incorrect for this presentation.",
+      "keypoints": [
+        "\u2b50 Urachus = allantois remnant; normally obliterates \u2192 median umbilical ligament; failure \u2192 patent urachus (fistula) or urachal cyst",
+        "\u2b50 Patent urachus: urine leakage at umbilicus; diagnose with ultrasound \u00b1 voiding cystourethrogram; confirm fluid is urine",
+        "Urachal cyst: anywhere along median umbilical ligament; may become infected; does not drain urine unless patent at one end",
+        "Distinguish from patent vitelline duct (Meckel diverticulum spectrum): that drains intestinal content"
+      ]
+    },
+    {
+      "id": "q016",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "During a second-trimester ultrasound, a fetus is found to have markedly distended loops of bowel, a massively enlarged bladder, and minimal peristalsis. Genetic testing reveals a chromosomal abnormality. Which chromosome is most likely affected, and what is the primary developmental defect underlying the bladder abnormality?",
+      "choices": [
+        "Chromosome 11p13 deletion causing WT1 loss and cystic bladder expansion",
+        "Chromosome 21 trisomy with associated duodenal atresia and vesicoureteral reflux",
+        "X-chromosome deletion (Turner syndrome) with horseshoe kidney and secondary bladder dysmotility",
+        "Chromosome 7 deletion with Williams syndrome and associated renal artery stenosis causing neurogenic bladder",
+        "Chromosome 18 mutation associated with megacystis, causing abnormally large bladder due to urethral valve deformity or persistent urogenital septum"
+      ],
+      "answer": 4,
+      "explanation": "Megacystis (abnormally large bladder) combined with microcolon and intestinal hypoperistalsis constitutes the Megacystis-Microcolon-Intestinal Hypoperistalsis Syndrome (MMIHS). Per the lecture notes, megacystis has been linked to chromosome 18 mutations and results from urethral valve deformities or a persistent urogenital septum causing outflow obstruction. The distended bladder, dilated bowel, and poor peristalsis form the classic triad. This can be detected by prenatal ultrasound. Chromosome 11p13 deletion (choice B) causes WAGR syndrome, not megacystis. Trisomy 21 (choice C) is associated with duodenal atresia but not megacystis specifically. Turner syndrome (choice D) is associated with horseshoe kidney, not megacystis. Williams syndrome (choice E) involves aortic and renal vascular anomalies but not this triad.",
+      "keypoints": [
+        "\u2b50 Megacystis: abnormally large bladder; causes include urethral valve deformity or persistent urogenital septum; detectable by fetal ultrasound",
+        "\u2b50 Megacystis-Microcolon-Intestinal Hypoperistalsis Syndrome (MMIHS) linked to chromosome 18 mutations",
+        "Posterior urethral valves (males) = common cause of megacystis + bilateral hydronephrosis + oligohydramnios in boys",
+        "Megacystis must be distinguished from normal transient bladder distension seen on routine fetal ultrasound"
+      ]
+    },
+    {
+      "id": "q017",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A male newborn is found to have the posterior bladder wall exposed through a defect in the anterior abdominal wall, with urine leaking directly from the exposed mucosa. Which of the following correctly identifies this defect and its relative incidence compared to the more severe variant?",
+      "choices": [
+        "Cloacal exstrophy (~1:30,000); rarer than bladder exstrophy (~2:10,000)",
+        "Bladder exstrophy (~2:10,000); rarer than cloacal exstrophy (~1:30,000)",
+        "Epispadias (~1:10,000); more common than hypospadias (~1:300)",
+        "Patent urachus (~1:5,000); more common than bladder exstrophy (~1:50,000)",
+        "Bladder exstrophy (~1:1,000); comparable in frequency to horseshoe kidney (~1:500)"
+      ],
+      "answer": 0,
+      "explanation": "The question describes bladder exstrophy \u2014 a ventral wall defect where the posterior bladder wall is exposed (everted) through the lower anterior abdominal wall, causing direct urine leakage. Bladder exstrophy has a prevalence of approximately 2:10,000 births. Cloacal exstrophy is a more severe defect involving both urorectal septal defects and abnormal external genitalia, with a prevalence of approximately 1:30,000 births \u2014 making it rarer. Therefore, bladder exstrophy is more common than cloacal exstrophy. Choice A has the relationship correct but inverts which is called 'rarer' \u2014 the question asks for the correct identification of both defects and their incidence. Choice B correctly identifies cloacal exstrophy as rarer (1:30,000) than bladder exstrophy (2:10,000). Choices C\u2013E describe unrelated conditions or incorrect incidences.",
+      "keypoints": [
+        "\u2b50 Bladder exstrophy: 2:10,000 births; posterior bladder wall exposed through ventral abdominal wall defect; urine leaks externally",
+        "\u2b50 Cloacal exstrophy: 1:30,000 births; urorectal septal defect + abnormal external genitalia; more severe, rarer",
+        "Both are ventral wall defects arising from failure of proper mesodermal migration to close the infraumbilical wall",
+        "Bladder exstrophy is associated with epispadias and pubic symphysis diastasis"
+      ]
+    },
+    {
+      "id": "q018",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "A 24-year-old woman with a history of poorly controlled hypertension was taking lisinopril when she discovered she was pregnant. She discontinued the drug at 6 weeks but continued it unknowingly until 10 weeks. Now at 28 weeks, fetal ultrasound shows echogenic kidneys with reduced amniotic fluid. Which of the following best explains the teratogenic mechanism of ACE inhibitors on the developing kidney?",
+      "choices": [
+        "Direct inhibition of GDNF signaling in the metanephric mesenchyme, blocking ureteric bud formation",
+        "Inhibition of carbonic anhydrase in nascent proximal tubule cells, causing tubular dysgenesis",
+        "Impaired renal perfusion due to loss of angiotensin II-mediated efferent arteriolar tone, combined with a possible role in disrupting ECM remodeling in the fetal kidney interstitium",
+        "Upregulation of BMP4 signaling in the ureteric bud stalk, causing arrest of branching morphogenesis",
+        "Premature activation of WNT4 in the metanephric vesicles, driving precocious epithelialization and cystic change"
+      ],
+      "answer": 2,
+      "explanation": "ACE inhibitors are well-established teratogens of the renal system, particularly dangerous in the second and third trimesters. The precise mechanism is incompletely understood, but the leading hypothesis involves impaired renal perfusion: ACE inhibitors block angiotensin II-dependent efferent arteriolar constriction, reducing intraglomerular pressure and thus fetal GFR. Recent evidence also suggests a role for ACE in ECM deposition and remodeling in the fetal kidney's interstitium \u2014 loss of this function may disrupt normal interstitial architecture during a critical window. The result is fetal renal tubular dysgenesis and oligohydramnios. ACE inhibitors do not directly inhibit GDNF (choice B), carbonic anhydrase (choice C, that is acetazolamide), BMP4 (choice D), or WNT4 (choice E). They should be avoided in the 2nd and 3rd trimesters; first-trimester exposure is less clearly teratogenic to the kidney.",
+      "keypoints": [
+        "\u2b50 ACE inhibitors are teratogens of the renal system; avoid in 2nd and 3rd trimesters",
+        "\u2b50 Mechanism: impaired renal perfusion (loss of Ang II efferent tone) \u00b1 disrupted ECM remodeling in fetal kidney interstitium",
+        "Consequences: fetal renal tubular dysgenesis, oligohydramnios, neonatal renal failure, skull hypoplasia",
+        "Safe antihypertensives in pregnancy: methyldopa, labetalol, nifedipine; avoid ACEi, ARBs, direct renin inhibitors"
+      ]
+    },
+    {
+      "id": "q019",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "An anatomy professor asks students to trace the structures that arise from each of the three subdivisions of the urogenital sinus. A student correctly identifies that the pelvic subdivision contributes to the urethra in both sexes. What do the vesicular and caudal/phallic subdivisions contribute to in males and females, respectively?",
+      "choices": [
+        "Vesicular: bladder (male), vagina (female); Caudal/phallic: penile urethra (male), clitoris (female)",
+        "Vesicular: renal pelvis (both sexes); Caudal/phallic: urethra (both sexes)",
+        "Vesicular: bladder (both sexes); Caudal/phallic: urethra (both sexes)",
+        "Vesicular: bladder (both sexes); Caudal/phallic: penile urethra (male), portions of vaginal vestibule (female)",
+        "Vesicular: bladder trigone (both sexes); Caudal/phallic: penile urethra (male), Bartholin glands (female)"
+      ],
+      "answer": 3,
+      "explanation": "The urogenital sinus is divided into three regions. The vesicular (cranial) portion becomes the bladder in both sexes \u2014 this is the primary contribution. The pelvic portion becomes the urethra in both sexes. The caudal/phallic portion is sexually dimorphic: in males it forms the penile (spongy) urethra, and in females it contributes to portions of the vaginal vestibule (including the distal vagina and vaginal opening). Choice B incorrectly assigns the vagina to the vesicular portion (vagina arises primarily from M\u00fcllerian ducts and the sinovaginal bulb, not the vesicular UGS). Choice C incorrectly assigns the renal pelvis to the vesicular portion (renal pelvis forms from ureteric bud branching). Choice D collapses all three regions into only two destinations. Choice E confuses the bladder trigone (which has a mesonephric duct contribution) with the vesicular UGS alone.",
+      "keypoints": [
+        "\u2b50 Urogenital sinus: Vesicular (cranial) \u2192 bladder; Pelvic \u2192 urethra; Caudal/phallic \u2192 penile urethra (male) or vaginal vestibule (female)",
+        "Urorectal septum divides the cloaca into urogenital sinus (anterior) and anorectal canal (posterior)",
+        "Cloaca is specified by HOX13 expression; closed externally by the cloacal membrane/proctodeum",
+        "Bladder trigone has dual origin: smooth muscle from intermediate mesoderm (mesonephric duct); epithelium from endoderm of UGS"
+      ]
+    },
+    {
+      "id": "q020",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A patient is found to have a duplicated left ureter that inserts ectopically into the vagina rather than the trigone, causing continuous urinary dribbling despite normal voiding. Which of the following embryologic abnormalities best explains this finding?",
+      "choices": [
+        "Formation of two ureteric buds from the mesonephric duct, with the ectopic bud migrating to an abnormal insertion site",
+        "Abnormal branching of a single ureteric bud after it has already entered the metanephric mesenchyme",
+        "Failure of the urorectal septum to partition the cloaca, leaving the ureter draining into a persistent cloacal remnant",
+        "Ectopic expression of GDNF in the vaginal mesenchyme attracting the ureteric bud toward that region",
+        "Fusion of the left ureteric bud with the M\u00fcllerian duct during their parallel caudal migration"
+      ],
+      "answer": 0,
+      "explanation": "Duplicated ureters arise from two distinct mechanisms. A bifid ureter results from abnormal branching after the initial bud has formed; a truly duplicated ureter with separate upper and lower pole drainage results from formation of two separate ureteric buds from the mesonephric duct. The Weigert-Meyer rule states that when two ureters drain a single kidney, the upper pole ureter inserts more inferiorly and medially \u2014 often ectopically, sometimes into the vagina (females) or seminal vesicle (males). The ectopic insertion is explained by abnormal integration of the second ureteric bud into cloacal derivatives. Abnormal branching of a single bud (choice B) produces bifid ureter with a common distal insertion, not vaginal ectopia. Choice C describes a cloacal abnormality unrelated to a duplicated bud. Choice D is not an established mechanism. Choice E describes an implausible anatomic fusion.",
+      "keypoints": [
+        "\u2b50 Two ureteric buds \u2192 completely duplicated ureters; Weigert-Meyer rule: upper pole ureter inserts lower/medially (ectopic); lower pole ureter inserts normally",
+        "\u2b50 Ectopic ureter in females: inserts below external urethral sphincter \u2192 continuous dribbling with normal voiding",
+        "Bifid ureter: single bud with early branching; both ureters share a common distal trunk; usually asymptomatic",
+        "Ectopic insertions may drain to vagina, uterus, seminal vesicle (males), or other cloacal structures"
+      ]
+    },
+    {
+      "id": "q021",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "A 28-year-old woman with a history of unilateral renal agenesis presents for preconception counseling. Genetic testing reveals a heterozygous loss-of-function variant in a gene encoding a secreted factor. She asks about the risk of renal anomalies in her children. Which genetic pathway is most likely affected, and why is unilateral renal agenesis more commonly diagnosed in male offspring?",
+      "choices": [
+        "WT1 transcription factor; males have Y-linked modifier genes that amplify haploinsufficiency effects",
+        "PAX2 signaling; renal coloboma syndrome is X-linked and preferentially expressed in males",
+        "GDNF signaling pathway; in males, the mesonephric (Wolffian) duct persists and requires ureteric bud signaling, making the phenotype more apparent when bud formation fails",
+        "WNT4 signaling; males lack WNT4-mediated collecting duct induction, making them more susceptible to agenesis",
+        "BMP4 signaling; males have lower BMP4 expression in the ureteric bud stalk, reducing branching restraint"
+      ],
+      "answer": 2,
+      "explanation": "Unilateral renal agenesis is linked to defective GDNF signaling \u2014 the ligand secreted by metanephric mesenchyme that induces ureteric bud formation by binding RET receptors. When GDNF signaling fails unilaterally, the ureteric bud does not form on that side, and the metanephric mesenchyme cannot be induced, resulting in renal agenesis. The association with male offspring relates to the mesonephric (Wolffian) duct: in males, this duct must persist to form the sperm conduction system (epididymis, vas deferens). If GDNF-driven ureteric bud formation fails, the entire signaling axis is disrupted \u2014 potentially taking the mesonephric duct with it \u2014 and this disruption is unmasked more dramatically in males because the Wolffian duct serves essential reproductive functions. In females, the M\u00fcllerian duct predominates and the Wolffian duct regresses, so the phenotype may be less apparent. PAX2 mutations (choice C) cause Renal Coloboma Syndrome but are not X-linked.",
+      "keypoints": [
+        "\u2b50 Unilateral renal agenesis: linked to defective GDNF/RET signaling; more common in male offspring",
+        "\u2b50 Compensatory hypertrophy of remaining kidney maintains near-normal total GFR",
+        "Unilateral agenesis often asymptomatic; found incidentally; at risk for hyperfiltration injury over decades",
+        "Bilateral agenesis (incompatible with life) vs. unilateral agenesis (generally survivable) have different severity of GDNF pathway disruption"
+      ]
+    },
+    {
+      "id": "q022",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A fetal ultrasound at 22 weeks shows a right kidney in the pelvis with a vessel arising from the right common iliac artery. A left kidney is identified in normal position. No other abnormalities are found. The parents ask whether this will cause problems. Which of the following is the most accurate characterization of this finding and its most common complication?",
+      "choices": [
+        "Horseshoe kidney variant; most common complication is IMA compression of the isthmus",
+        "Crossed renal ectopia; most common complication is hydronephrosis from ureteral kinking",
+        "Supernumerary kidney from a second ureteric bud; most common complication is infection of the extra renal unit",
+        "Pelvic kidney from failed rotation; most common complication is renal artery stenosis from iliac vessel compression",
+        "Ectopic kidney from incomplete ascent; most common complication is urinary obstruction or stasis due to abnormal ureteral angulation"
+      ],
+      "answer": 4,
+      "explanation": "This describes a pelvic ectopic kidney \u2014 incomplete renal ascent leaving the kidney in the pelvis, with its blood supply from the common iliac artery (the vascular station at which ascent stopped). The hilum may face anteriorly due to incomplete rotation. Ectopic kidneys are typically asymptomatic but are prone to urinary stasis and obstruction because the ureter may be angulated, kinked, or have an abnormal course to the bladder. This creates risk for hydronephrosis, recurrent UTIs, and nephrolithiasis. Horseshoe kidney (choice B) involves bilateral inferior pole fusion with an isthmus \u2014 not a single unilateral pelvic kidney. Crossed renal ectopia (choice C) is when a kidney crosses the midline and sits on the contralateral side. Supernumerary kidney (choice D) is extremely rare and represents a third kidney. Choice E mislabels the entity and the mechanism of RAS.",
+      "keypoints": [
+        "\u2b50 Ectopic kidney: incomplete ascent; vessel from the last vascular station (often common iliac); hilum may be ventral",
+        "Most common complication: urinary stasis \u2192 hydronephrosis, stones, UTIs",
+        "Accessory renal vessels (25% of kidneys): can cross the ureter and cause intermittent obstruction \u2192 hydronephrosis",
+        "Most ectopic kidneys are detected incidentally; unilateral ectopic kidney with contralateral normal kidney is usually asymptomatic"
+      ]
+    },
+    {
+      "id": "q023",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A pathology resident reviewing fetal kidney specimens notes that newborn kidneys appear lobulated with a bumpy external surface, while adult kidneys are smooth. She also notes that fetal kidneys contain the final number of nephrons present throughout life. Which of the following best explains both of these observations?",
+      "choices": [
+        "Nephron formation is complete by birth; postnatal smooth appearance and growth result from interstitial tissue accumulation and lengthening of tubules and vessels",
+        "Nephrons continue to form postnatally from residual metanephric mesenchyme, smoothing out the lobulated surface",
+        "The lobulated appearance reflects unresolved ureteric bud branch points that remodel after birth",
+        "Postnatal GFR-driven flow through newly formed nephrons promotes tubular elongation and surface smoothing",
+        "The smooth adult surface reflects hypertrophy of the adrenal glands which compress the renal cortex"
+      ],
+      "answer": 0,
+      "explanation": "Fetal kidneys have a characteristic lobulated (bumpy) appearance because nephron formation occurs in discrete waves around branching collecting duct tips, creating visible lobules. It is believed that the final number of nephrons is established by birth (or shortly before, with most active nephrogenesis occurring between weeks 18\u201332). After birth, renal growth occurs not through generation of new nephrons but through interstitial tissue deposition and elongation of existing tubules and vessels \u2014 this progressive filling of interstitial space smooths out the lobulations and accounts for the large size of adult kidneys. Choice B is incorrect \u2014 postnatal nephrogenesis does not occur in humans. Choice C misidentifies the structural basis of lobulations. Choice D is an invented mechanism with no basis in renal embryology. Choice E is anatomically incorrect.",
+      "keypoints": [
+        "\u2b50 Final nephron number (~0.7\u20131.5 million per kidney) is set by birth; no postnatal nephrogenesis occurs in humans",
+        "\u2b50 Postnatal renal growth = interstitial tissue accumulation + tubular and vascular elongation (not new nephron formation)",
+        "Low nephron endowment at birth (prematurity, intrauterine growth restriction) \u2192 increased lifetime risk of hypertension and CKD",
+        "Rapid nephron accumulation occurs between weeks 18\u201332 gestation; slow accumulation weeks 10\u201318"
+      ]
+    },
+    {
+      "id": "q024",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A genetics professor presents a case of a child with intellectual disability, aniridia, genitourinary anomalies, and a Wilms tumor discovered at age 2. Cytogenetic analysis reveals a large chromosomal deletion. Which of the following best explains why both aniridia and Wilms tumor occur together in this syndrome?",
+      "choices": [
+        "A WT1 gain-of-function mutation simultaneously promotes both lens and renal progenitor proliferation",
+        "Loss of PAX2 at 11q causes both renal dysplasia and retinal coloboma, mimicking WAGR phenotype",
+        "A single point mutation in WT1 has pleiotropic effects on both ocular and renal development through shared transcriptional targets",
+        "Chromosome 11p13 deletion removes both WT1 and PAX2, with PAX2 being responsible for normal iris development",
+        "A contiguous gene deletion at 11p13 removes both WT1 (causing Wilms tumor) and PAX6 (causing aniridia)"
+      ],
+      "answer": 4,
+      "explanation": "WAGR syndrome (Wilms tumor, Aniridia, Genitourinary anomalies, intellectual Retardation/disability) results from a large contiguous gene deletion at chromosome 11p13 that encompasses both the WT1 gene (loss \u2192 Wilms tumor and genitourinary anomalies) and the PAX6 gene (loss \u2192 aniridia and intellectual disability). This is the paradigm for a contiguous gene deletion syndrome, where the phenotype is caused not by a single gene but by the combined haploinsufficiency of multiple adjacent genes. WT1 alone (a single point mutation) causes Wilms tumor and Denys-Drash syndrome (choice D), but not aniridia \u2014 PAX6, not WT1, is the aniridia gene. PAX2 (choices C and E) mutations cause Renal Coloboma Syndrome, not aniridia; and PAX2 is located at 10q, not 11p13.",
+      "keypoints": [
+        "\u2b50 WAGR syndrome: contiguous deletion 11p13 removing WT1 + PAX6; Wilms tumor + Aniridia + GU anomalies + intellectual disability",
+        "\u2b50 PAX6 (11p13) = aniridia gene; WT1 (11p13) = Wilms tumor/renal progenitor differentiation gene",
+        "Denys-Drash: WT1 missense mutation \u2192 Wilms tumor + diffuse mesangial sclerosis + pseudohermaphroditism (no aniridia)",
+        "Beckwith-Wiedemann (11p15.5, IGF2): Wilms tumor + macroglossia + omphalocele + hemihyperplasia"
+      ]
+    },
+    {
+      "id": "q025",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A radiologist reviewing a renal angiogram notes that a patient has three separate renal arteries supplying the right kidney, one of which crosses anterior to the ureter before entering the lower pole. The patient has been experiencing intermittent right flank pain and recurrent UTIs. What is the embryologic basis of this vascular anomaly, and what is the most likely mechanism of the patient's symptoms?",
+      "choices": [
+        "Aneurysmal dilation of the right renal artery during ascent; arterial pulsation compresses the ureter periodically",
+        "Persistent accessory renal vessels from incomplete vascular remodeling during ascent; the crossing vessel compresses the ureter causing intermittent obstruction and urine stasis",
+        "Horseshoe kidney with aberrant IMA branches; isthmus compresses the right ureter",
+        "Bifid right ureter passing posterior to the renal artery during caudal migration; ureteral kinking causing obstruction",
+        "Fenestrated inferior vena cava encircling the right ureter; venous compression during Valsalva"
+      ],
+      "answer": 1,
+      "explanation": "Accessory renal vessels occur in approximately 25% of people and represent persistent embryonic vessels that formed during renal ascent but failed to regress as the dominant renal artery was established. During normal ascent, the kidney progressively shifts its blood supply from caudal vessels (common iliac, aortic branches at lower levels) to more cranial aortic branches, with regression of the lower ones. When a lower-pole accessory vessel persists and courses anterior to the ureter, it can intermittently compress the ureter (ureteropelvic junction obstruction or mid-ureteral compression), causing intermittent hydronephrosis, flank pain, and urinary stasis predisposing to stones and infection. This is distinct from horseshoe kidney (choice C), where the isthmus \u2014 not a vessel \u2014 is the obstruction. Choice B (aneurysm) and choice D (bifid ureter) do not explain the angiographic finding of three separate arteries. Choice E describes a retroaortic or circumaortic left renal vein variant.",
+      "keypoints": [
+        "\u2b50 Accessory renal vessels: ~25% of kidneys; persistent embryonic vessels from incomplete vascular remodeling during ascent",
+        "\u2b50 Accessory lower-pole artery crossing the ureter \u2192 intermittent UPJ or ureteral obstruction \u2192 hydronephrosis, stones, recurrent UTIs",
+        "Accessory vessels are end arteries \u2014 no collaterals; iatrogenic injury during nephrectomy can infarct a renal segment",
+        "Treatment of symptomatic obstruction: pyeloplasty with vessel transposition or endopyelotomy"
+      ]
+    },
+    {
+      "id": "q026",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A developmental biologist is studying how the collecting duct near the end of the ureteric bud tree differs functionally from collecting ducts farther from the nephron. She notes that portions near the nephron resorb water, while more distal portions are purely conductive. This specialization requires localized molecular signals. What is the embryologic basis of this regional functional specialization?",
+      "choices": [
+        "The water-resorbing segment arises from the metanephric mesenchyme directly, while the conductive portions arise entirely from the ureteric bud",
+        "Cells near the nephron receive WNT signals from the metanephric mesenchyme that upregulate aquaporin expression, while more distal cells differentiate as simple conduit epithelium under BMP4 signaling",
+        "Proximal collecting duct water resorption is an intrinsic property of all ureteric bud derivatives regardless of position",
+        "ADH receptor expression is regulated by WT1 in a position-dependent manner, being higher near the nephron",
+        "The water-resorbing collecting duct is lined by principal cells derived from neural crest, distinct from the ureteric bud-derived conductive epithelium"
+      ],
+      "answer": 1,
+      "explanation": "According to the Spudich lecture notes, portions of collecting ducts near the nephron are specialized to resorb water, while portions farther from the nephron function only as conduit, eventually fusing to form calyces and the renal pelvis. The molecular basis involves local signaling: cells at the tips of ureteric bud branches that are in contact with the mesenchymal caps receive signals (including WNTs) from the condensing mesenchyme, which may drive expression of water-handling machinery including aquaporins. More distal segments, farther from this inductive mesenchyme and under the influence of BMP4 in the stalk, differentiate into conductive epithelium. Choice B incorrectly assigns the water-resorbing segment to metanephric mesenchyme \u2014 all collecting ducts arise from the ureteric bud. Choice C is incorrect as not all collecting duct cells reabsorb water equally. Choices D and E are fabricated mechanisms not supported by the embryology curriculum.",
+      "keypoints": [
+        "\u2b50 Collecting duct portions near the nephron: water-resorbing (express AQP2 regulated by ADH/vasopressin)",
+        "\u2b50 Collecting duct portions farther from the nephron: conductive only \u2192 fuse to form minor calyces, major calyces, renal pelvis, ureter",
+        "All collecting ducts arise from the ureteric bud; nephrons arise from metanephric mesenchyme \u2014 key boundary between these lineages",
+        "The ureteric bud/metanephric mesenchyme boundary is called the uretero-nephron junction (future connecting tubule region)"
+      ]
+    },
+    {
+      "id": "q027",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A 3-year-old child presents with urinary incontinence and recurrent UTIs. Voiding cystourethrogram reveals a very large bladder with wall thickening. Cystoscopy identifies a membrane-like valve in the posterior urethra. Which of the following best describes the embryologic mechanism most likely responsible for this defect?",
+      "choices": [
+        "Failure of the urorectal septum to reach the cloacal membrane, leaving a combined urogenital opening",
+        "Bilateral GDNF deficiency resulting in bilateral hydroureteronephrosis and secondary bladder distension",
+        "Incomplete closure of the allantois with posterior ureteral insertion into the bladder dome",
+        "Abnormal persistence of the urogenital membrane or incomplete canalization of the posterior urethra, causing outflow obstruction and secondary bladder hypertrophy",
+        "Ectopic mesonephric duct insertion below the external sphincter, causing obstruction of the posterior urethra"
+      ],
+      "answer": 3,
+      "explanation": "Posterior urethral valves (PUV) are the most common cause of severe obstructive uropathy in male children. They consist of abnormal tissue leaflets in the posterior urethra that obstruct outflow. The embryologic mechanism involves abnormal persistence or malformation of tissue in the posterior urethra \u2014 possibly related to incomplete canalization or aberrant integration of the mesonephric duct orifices during urogenital sinus development. Chronic outflow obstruction leads to massive bladder hypertrophy (megacystis) and, if severe enough, bilateral hydronephrosis, renal dysplasia, oligohydramnios, and pulmonary hypoplasia (a pattern called LUTO \u2014 lower urinary tract obstruction). Failure of the urorectal septum (choice B) produces cloacal abnormalities, not isolated PUV. GDNF deficiency (choice C) causes renal agenesis, not obstruction. Urachal anomaly (choice D) and mesonephric duct ectopia (choice E) are distinct entities.",
+      "keypoints": [
+        "\u2b50 Posterior urethral valves: most common severe obstructive uropathy in males; membrane-like tissue in posterior urethra",
+        "\u2b50 Complications: bladder hypertrophy/megacystis \u2192 bilateral hydronephrosis \u2192 renal dysplasia \u2192 oligohydramnios \u2192 pulmonary hypoplasia (if severe)",
+        "Megacystis on prenatal ultrasound in a male fetus should prompt evaluation for PUV",
+        "Treatment: fetal vesico-amniotic shunting (severe cases) or postnatal endoscopic valve ablation"
+      ]
+    },
+    {
+      "id": "q028",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A medical student is asked to explain why the pronephros is considered rudimentary in humans while the mesonephros and metanephros are not. Which of the following accurately contrasts the functional capacity of the three embryonic kidney systems in humans?",
+      "choices": [
+        "Pronephros: never functional, degenerates rapidly; Mesonephros: produces urine transiently for ~4 weeks with true nephrons; Metanephros: forms definitive kidney with permanent nephrons",
+        "Pronephros: briefly functional in the first week, then degenerates; Mesonephros: produces urine throughout gestation; Metanephros: begins function at birth only",
+        "Pronephros: functional but rudimentary; Mesonephros: never functional; Metanephros: produces all fetal urine from week 5",
+        "All three systems form true nephrons but only the metanephros persists; the others degenerate by week 6",
+        "Pronephros and mesonephros both produce urine in the first trimester; only the metanephros persists postnatally"
+      ],
+      "answer": 0,
+      "explanation": "In humans, the pronephros is the first kidney to form (cervical region, week 3) but is rudimentary and never functional \u2014 its nephric duct induces tubule formation in the adjacent nephric cord, but no filtration occurs. It degenerates in a cranial-to-caudal fashion. The mesonephros (thoracic to lumbar, week 4) does contain approximately 30 true nephrons that produce urine for about 4 weeks before largely degenerating. The metanephros (pelvic region, later) forms the definitive kidney with permanent nephrons and persists throughout life. Choice B is incorrect \u2014 the pronephros is never functional, and metanephric function begins prenatally (around week 10\u201312), not at birth. Choice C inverts the functional status of the mesonephros. Choice D is incorrect \u2014 pronephros and mesonephros do not all form true nephrons (pronephros tubules are not true nephrons). Choice E overstates pronephric function.",
+      "keypoints": [
+        "\u2b50 Pronephros (week 3, cervical): rudimentary, never functional in humans; degenerates cranially to caudally",
+        "\u2b50 Mesonephros (week 4, thoracic\u2013lumbar): ~30 true nephrons, produces urine ~4 weeks, then mostly degenerates",
+        "\u2b50 Metanephros (pelvic, later): definitive kidney; functional ~week 10\u201312; nephrons accumulate through week 32",
+        "Mnemonic: Pro-Meso-Meta = Primitive-Middling-Mature"
+      ]
+    },
+    {
+      "id": "q029",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathophysiology",
+      "stem": "A 25-year-old woman with a history of Turner syndrome (45,X) is found to have an incidental renal anomaly on ultrasound. Which of the following renal anomalies is most strongly associated with Turner syndrome, and what is the underlying embryologic mechanism?",
+      "choices": [
+        "Horseshoe kidney; inferior pole fusion occurs when the closely positioned pelvic kidneys are in abnormal proximity during the period of ascent",
+        "Bilateral renal agenesis; haploinsufficiency of X-linked GDNF causes bilateral ureteric bud failure",
+        "Autosomal dominant polycystic kidney disease; the SHOX gene on the X chromosome regulates PKD1 expression",
+        "Duplex collecting system; X-chromosome haploinsufficiency disrupts WNT11 autocrine signaling in the ureteric bud",
+        "Bilateral renal ectopia; estrogen-dependent renal ascent is impaired by estrogen deficiency in Turner syndrome"
+      ],
+      "answer": 0,
+      "explanation": "Horseshoe kidney is one of the most well-recognized renal anomalies associated with Turner syndrome (45,X), occurring in approximately 10\u201315% of Turner patients compared to 1:500 in the general population. The mechanism involves the abnormal pelvic positioning and spacing of the developing kidneys during early ascent: in Turner syndrome, developmental anomalies increase the likelihood that the inferior poles of the kidneys come into contact and fuse before they have ascended sufficiently to be separated by midline structures. Once fused, the isthmus catches on the inferior mesenteric artery during ascent, leading to a low-riding horseshoe kidney. This is a positional/mechanical explanation for why the incidence is elevated in Turner syndrome. Choice B is incorrect \u2014 GDNF is not X-linked and bilateral agenesis is not a feature of Turner syndrome. Choices C, D, and E are fabricated mechanisms.",
+      "keypoints": [
+        "\u2b50 Turner syndrome (45,X) is associated with horseshoe kidney (and also coarctation of the aorta, bicuspid aortic valve)",
+        "\u2b50 Horseshoe kidney: inferior pole fusion \u2192 arrested ascent at IMA; prevalence 1:500 general population, ~10\u201315% in Turner syndrome",
+        "Other renal anomalies in Turner: rotational anomalies, duplicated collecting systems, renal ectopia",
+        "Cardiovascular and renal screening is recommended for all patients with Turner syndrome"
+      ]
+    },
+    {
+      "id": "q030",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A researcher studying renal development performs an experiment in which she separates the intermediate mesoderm from the paraxial mesoderm at the thoracic level in a mouse embryo at day 9. Which of the following consequences is most directly predicted by the known molecular effects of this manipulation?",
+      "choices": [
+        "Loss of GDNF expression in the metanephric mesenchyme, preventing ureteric bud formation",
+        "Loss of WT1 expression in the intermediate mesoderm, preventing HOX11 upregulation",
+        "Loss of WNT9b expression in the collecting duct, preventing vesicle condensation",
+        "Loss of PAX2 and LIM1 expression in the intermediate mesoderm, impairing mesonephric nephron and duct formation on that side",
+        "Loss of BMP4 expression in the ureteric bud stalk, resulting in uncontrolled branching"
+      ],
+      "answer": 3,
+      "explanation": "The lecture notes explicitly state that separating the intermediate mesoderm from the paraxial mesoderm prevents the expression of transcription factors PAX2 and LIM1 in the IM \u2014 because signaling from the adjacent paraxial mesoderm is needed to drive specification of the IM and induce these factors. At the thoracic level, this separation would impair mesonephric development: PAX2 is required for nephron formation and LIM1 is required for collecting system formation. Without paraxial mesoderm signaling, neither factor is expressed, and the mesonephric nephrons and mesonephric duct would fail to form properly on that side. GDNF loss (choice B) occurs from defects in the metanephric mesenchyme, which is in the pelvic region, not from paraxial-IM separation at the thoracic level. WT1 is downstream of HOX11 (choice C reverses this relationship). WNT9b (choice D) and BMP4 (choice E) are not regulated by paraxial-IM interaction.",
+      "keypoints": [
+        "\u2b50 Paraxial mesoderm signaling \u2192 PAX2 and LIM1 expression in the intermediate mesoderm (IM)",
+        "\u2b50 Without paraxial mesoderm signals, IM is not properly specified \u2192 PAX2/LIM1 absent \u2192 no nephrons (PAX2) and no collecting system (LIM1)",
+        "Transcriptional hierarchy: Paraxial signal \u2192 PAX2/LIM1 \u2192 IM specification \u2192 HOX11/FOXC1/2 (pelvic IM) \u2192 WT1 \u2192 metanephros competence",
+        "This experiment defines the 'community effect' in tissue patterning \u2014 cell fate is specified by neighboring tissue interactions, not cell-autonomous programs alone"
+      ]
+    }
+  ]
+}

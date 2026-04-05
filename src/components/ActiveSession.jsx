@@ -431,12 +431,9 @@ export default function ActiveSession({ sessionId, questionsOverride, onNavigate
               <div className="question-image-wrap">
                 <img
                   src={currentQ.image}
-                  alt={currentQ.imageAlt || 'Clinical image'}
+                  alt="Clinical image"
                   className="question-image"
                 />
-                {currentQ.imageCaption && (
-                  <div className="question-image-caption">{currentQ.imageCaption}</div>
-                )}
               </div>
             )}
 
