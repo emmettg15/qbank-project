@@ -11,7 +11,7 @@ export default function Guide({ onNavigate }) {
           </button>
           <h2 style={{ fontSize: 22 }}>Guide</h2>
           <div style={{ fontSize: 13, color: 'var(--muted)', marginTop: 2 }}>
-            Everything you need to know about QBank Forge
+            Everything you need to know about QForge. Created with Claude Code.
           </div>
         </div>
         <button className="btn btn-primary btn-sm" onClick={generateGuidePdf}>
@@ -123,8 +123,7 @@ export default function Guide({ onNavigate }) {
       <div className="card" style={{ marginBottom: 20 }}>
         <div className="section-title" style={{ marginBottom: 14 }}>Data & Privacy</div>
         <div style={{ fontSize: 14, lineHeight: 1.6, color: 'var(--text)' }}>
-          All data is stored locally in your browser's localStorage. Nothing leaves your computer.
-          To back up data, export any session as JSON from the analysis page.
+          Data is stored locally, and backed up to supabase. Account tracking allows for users to view data from past sessions and access Qforge from multiple devices. Individual performance data is only visible to the user.
         </div>
       </div>
 
@@ -132,8 +131,7 @@ export default function Guide({ onNavigate }) {
       <div className="card" style={{ marginBottom: 20 }}>
         <div className="section-title" style={{ marginBottom: 14 }}>Generating Questions with Claude</div>
         <div style={{ fontSize: 14, lineHeight: 1.6, color: 'var(--text)' }}>
-          You can generate USMLE-style question banks using Claude. See the project README for a complete copy-pasteable prompt
-          that produces properly formatted JSON files ready for upload.
+          You can generate USMLE-style question banks using Claude (or your LLM of choice). Download the PDF linked at the top of this page, and upload course documents or simply specify a subject area. Upload the generated .json file to Qforge for custom qbanks.
         </div>
       </div>
     </div>

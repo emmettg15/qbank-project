@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react'
 import TagBadge from './shared/TagBadge.jsx'
 import SessionConfig from './SessionConfig.jsx'
 import { JEFFMD_CATALOG } from '../data/jeffmd-catalog.js'
+import { TAGS, getTagLabel } from '../data/taggingSystem.js'
 import { useStorage } from '../hooks/useStorage.js'
 import { v4 as uuid } from '../utils/uuid.js'
 
@@ -88,6 +89,28 @@ export default function QBanksPage({ onNavigate }) {
   const storage = useStorage()
   const [configTarget, setConfigTarget] = useState(null)
   const [loading, setLoading] = useState(null) // catalogId being loaded
+  const [search, setSearch] = useState('')
+  const [filterTag, setFilterTag] = useState('')
+
+  // All tag IDs used across catalog entries
+  const allTags = useMemo(() => TAGS.map(t => t.id), [])
+  const usedTags = useMemo(() => {
+    const set = new Set()
+    for (const entry of JEFFMD_CATALOG) {
+      for (const t of entry.tags || []) set.add(t)
+    }
+    return set
+  }, [])
+
+  // Filter catalog by search + tag
+  const filteredCatalog = useMemo(() => {
+    return JEFFMD_CATALOG.filter(entry => {
+      const matchesSearch = !search || entry.title.toLowerCase().includes(search.toLowerCase())
+        || entry.description?.toLowerCase().includes(search.toLowerCase())
+      const matchesTag = !filterTag || entry.tags?.includes(filterTag)
+      return matchesSearch && matchesTag
+    })
+  }, [search, filterTag])
 
   // Build progress map: catalogId → { completed, inProgress }
   const progressMap = useMemo(() => {
@@ -201,8 +224,37 @@ export default function QBanksPage({ onNavigate }) {
         Your progress is saved locally in your browser.
       </div>
 
+      {/* Search + Tag Filter */}
+      <div style={{ display: 'flex', gap: 10, marginBottom: 16, flexWrap: 'wrap', alignItems: 'center' }}>
+        <input
+          className="form-input"
+          style={{ maxWidth: 240 }}
+          placeholder="Search QBanks…"
+          value={search}
+          onChange={e => setSearch(e.target.value)}
+        />
+        <select
+          className="form-input"
+          style={{ maxWidth: 200 }}
+          value={filterTag}
+          onChange={e => setFilterTag(e.target.value)}
+        >
+          <option value="">All Topics</option>
+          {allTags.map(t => (
+            <option key={t} value={t} disabled={!usedTags.has(t)}>
+              {usedTags.has(t) ? '' : '○ '}{getTagLabel(t)}
+            </option>
+          ))}
+        </select>
+      </div>
+
       <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-        {JEFFMD_CATALOG.map(entry => (
+        {filteredCatalog.length === 0 && (
+          <div style={{ textAlign: 'center', color: 'var(--muted)', padding: '24px 20px' }}>
+            No QBanks match your search.
+          </div>
+        )}
+        {filteredCatalog.map(entry => (
           <CatalogCard
             key={entry.catalogId}
             entry={entry}

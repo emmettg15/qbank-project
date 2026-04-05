@@ -2,6 +2,7 @@ import React, { useState, useRef, useCallback } from 'react'
 import DonutChart from './shared/DonutChart.jsx'
 import TagBadge from './shared/TagBadge.jsx'
 import SessionConfig from './SessionConfig.jsx'
+import FeedbackModal from './Feedback.jsx'
 import { useStorage } from '../hooks/useStorage.js'
 import { generateGuidePdf } from '../utils/generateGuidePdf.js'
 
@@ -147,7 +148,7 @@ function RecentSessionCard({ session, onNavigate }) {
 }
 
 // ─── Welcome Banner ──────────────────────────────────────────────────────────
-function WelcomeBanner({ onNavigate }) {
+function WelcomeBanner({ onNavigate, onFeedback }) {
   return (
     <div style={{
       display: 'flex', alignItems: 'center', justifyContent: 'space-between',
@@ -156,11 +157,14 @@ function WelcomeBanner({ onNavigate }) {
       borderRadius: 'var(--radius)',
     }}>
       <div style={{ fontSize: 14, color: 'var(--text)' }}>
-        Welcome to <strong style={{ color: 'var(--accent)' }}>QBank Forge</strong> — your offline USMLE-style question bank. Upload a question bank or use the pre-loaded questions to get started.
+        Welcome to <strong style={{ color: 'var(--accent)' }}>QForge</strong>, a free, open-source USMLE-style question bank. Upload a custom qbank or configure an existing one to get started.
       </div>
       <div style={{ display: 'flex', gap: 8, flexShrink: 0, marginLeft: 16 }}>
         <button className="btn btn-ghost btn-sm" onClick={() => onNavigate('guide')}>
           View Guide →
+        </button>
+        <button className="btn btn-ghost btn-sm" onClick={onFeedback}>
+          Feedback
         </button>
         <button className="btn btn-ghost btn-sm" onClick={generateGuidePdf}>
           Download Guide (PDF)
@@ -239,6 +243,7 @@ export default function Dashboard({ onNavigate }) {
   const [allSessions,   setAllSessions]   = useState(() => storage.getSessions())
   const [stats, setStats] = useState(() => storage.getAggregateStats())
   const [showReset, setShowReset] = useState(false)
+  const [showFeedback, setShowFeedback] = useState(false)
   const [confirmDeleteQBank, setConfirmDeleteQBank] = useState(null)
 
   const inProgress = allSessions.filter(s => !s.completed && s.status !== 'completed')
@@ -288,7 +293,10 @@ export default function Dashboard({ onNavigate }) {
   return (
     <div className="view-enter">
       {/* ── Welcome Banner ── */}
-      <WelcomeBanner onNavigate={onNavigate} />
+      <WelcomeBanner onNavigate={onNavigate} onFeedback={() => setShowFeedback(true)} />
+
+      {/* ── Feedback Modal ── */}
+      {showFeedback && <FeedbackModal onClose={() => setShowFeedback(false)} />}
 
       {/* ── Reset Modal ── */}
       {showReset && <ResetModal onConfirm={handleResetConfirm} onClose={() => setShowReset(false)} />}
