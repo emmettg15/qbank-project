@@ -220,8 +220,7 @@ export default function QBanksPage({ onNavigate }) {
         padding: '12px 20px', background: 'var(--surface2)', border: '1px solid var(--border)',
         borderRadius: 'var(--radius)',
       }}>
-        Curated USMLE-style question banks. Click a QBank to configure and start a session.
-        Your progress is saved locally in your browser.
+        JeffMD relevant Lippencott questions, as well as AI-generated qbanks referenced from JeffMD curriculum materials. Click a qbank to configure and start a session.
       </div>
 
       {/* Search + Tag Filter */}
