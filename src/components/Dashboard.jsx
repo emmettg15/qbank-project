@@ -1,4 +1,5 @@
 import React, { useState, useRef, useCallback } from 'react'
+import { createPortal } from 'react-dom'
 import DonutChart from './shared/DonutChart.jsx'
 import TagBadge from './shared/TagBadge.jsx'
 import SessionConfig from './SessionConfig.jsx'
@@ -181,7 +182,7 @@ function ResetModal({ onConfirm, onClose }) {
   const setCount      = storage.getQuestionSets().length
   const ratingCount   = Object.keys(storage.getQuestionRatings()).length
 
-  return (
+  return createPortal(
     <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
       <div className="modal" style={{ maxWidth: 440 }}>
         <div className="modal-title" style={{ color: 'var(--wrong)' }}>⚠ Reset All Data?</div>
@@ -210,13 +211,14 @@ function ResetModal({ onConfirm, onClose }) {
           <button className="btn btn-danger" onClick={onConfirm}>Reset Everything</button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
 
 // ─── Delete QBank Confirmation Modal ──────────────────────────────────────────
 function DeleteQBankModal({ set, onConfirm, onClose }) {
-  return (
+  return createPortal(
     <div className="modal-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
       <div className="modal" style={{ maxWidth: 440 }}>
         <div className="modal-title" style={{ color: 'var(--wrong)' }}>Remove Question Bank?</div>
@@ -231,7 +233,8 @@ function DeleteQBankModal({ set, onConfirm, onClose }) {
           <button className="btn btn-danger" onClick={() => onConfirm(set)}>Remove</button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
 

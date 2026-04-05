@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react'
+import { createPortal } from 'react-dom'
 import { useSession } from '../hooks/useSession.js'
 import { useStorage } from '../hooks/useStorage.js'
 import TagBadge from './shared/TagBadge.jsx'
@@ -606,7 +607,7 @@ export default function ActiveSession({ sessionId, questionsOverride, onNavigate
       )}
 
       {/* ── Completion overlay ── */}
-      {isComplete && (
+      {isComplete && createPortal(
         <div className="modal-overlay">
           <div className="modal" style={{ textAlign: 'center', maxWidth: 540, padding: '36px 40px' }}>
             <div className="modal-title" style={{ fontSize: 22, marginBottom: 24 }}>Session Complete!</div>
@@ -644,7 +645,8 @@ export default function ActiveSession({ sessionId, questionsOverride, onNavigate
               </button>
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </div>
   )

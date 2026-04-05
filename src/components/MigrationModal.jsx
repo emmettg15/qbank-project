@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { createPortal } from 'react-dom'
 import { useStorage } from '../hooks/useStorage.js'
 
 export default function MigrationModal() {
@@ -19,7 +20,7 @@ export default function MigrationModal() {
     }
   }
 
-  return (
+  return createPortal(
     <div className="modal-overlay">
       <div className="modal" style={{ maxWidth: 440 }}>
         <div className="modal-title">Import Existing Data?</div>
@@ -47,6 +48,7 @@ export default function MigrationModal() {
           </button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body
   )
 }
