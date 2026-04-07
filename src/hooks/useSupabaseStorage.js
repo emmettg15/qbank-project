@@ -156,6 +156,18 @@ function rowsToQuestionSet(setRow, questionRows) {
   }
 }
 
+export async function getQuestionSetsMeta(userId) {
+  const { data: sets, error: setsErr } = await supabase
+    .from('question_sets')
+    .select('id, title, date, source, user_id')
+    .eq('user_id', userId)
+    .order('date', { ascending: false })
+  if (setsErr) throw setsErr
+
+  // Return metadata only (no questions) — callers hydrate from localStorage
+  return (sets || []).map(s => rowsToQuestionSet(s, []))
+}
+
 export async function getQuestionSets(userId) {
   const { data: sets, error: setsErr } = await supabase
     .from('question_sets')
@@ -215,12 +227,7 @@ export async function saveQuestionSet(userId, qs) {
     }, { onConflict: 'id' })
   if (setErr) throw setErr
 
-  // Delete existing questions and re-insert (simplest for reorder/edit)
-  await supabase
-    .from('questions')
-    .delete()
-    .eq('question_set_id', qs.id)
-
+  // Upsert questions and remove any that were deleted from the set
   if (qs.questions && qs.questions.length > 0) {
     const rows = qs.questions.map((q, i) => ({
       id: (q.id && isValidUuid(q.id)) ? q.id : uuid(),
@@ -240,12 +247,28 @@ export async function saveQuestionSet(userId, qs) {
       image_caption: q.imageCaption || null,
     }))
 
-    // Batch insert in chunks of 100
+    // Batch upsert in chunks of 100
     for (let i = 0; i < rows.length; i += 100) {
       const chunk = rows.slice(i, i + 100)
-      const { error: qErr } = await supabase.from('questions').insert(chunk)
+      const { error: qErr } = await supabase.from('questions').upsert(chunk, { onConflict: 'id' })
       if (qErr) throw qErr
     }
+
+    // Delete only questions that are no longer in the set
+    const currentIds = rows.map(r => r.id)
+    const { data: existing } = await supabase
+      .from('questions')
+      .select('id')
+      .eq('question_set_id', qs.id)
+    const removedIds = (existing || [])
+      .map(r => r.id)
+      .filter(id => !currentIds.includes(id))
+    if (removedIds.length > 0) {
+      await supabase.from('questions').delete().in('id', removedIds)
+    }
+  } else {
+    // No questions — delete all for this set
+    await supabase.from('questions').delete().eq('question_set_id', qs.id)
   }
 
   return qs
@@ -325,19 +348,16 @@ export async function getQuestionRating(userId, questionId) {
 }
 
 export async function setQuestionRating(userId, questionId, rating) {
-  const current = await getQuestionRating(userId, questionId)
-  const merged = { ...current, ...rating }
-
   const { error } = await supabase
     .from('question_ratings')
     .upsert({
       user_id: userId,
       question_id: questionId,
-      needs_review: merged.needsReview,
-      validity_concern: merged.validityConcern,
+      needs_review: rating.needsReview ?? false,
+      validity_concern: rating.validityConcern ?? false,
     }, { onConflict: 'user_id,question_id' })
   if (error) throw error
-  return merged
+  return rating
 }
 
 // ─── Catalog Imports ─────────────────────────────────────────────────────────

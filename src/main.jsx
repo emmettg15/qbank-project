@@ -7,6 +7,7 @@ import { SEED_CONFIG, SEED_QUESTIONS } from './data/seedQuestions.js'
 import AuthGate from './components/AuthGate.jsx'
 import { StorageProvider } from './hooks/useStorage.js'
 import MigrationModal from './components/MigrationModal.jsx'
+import AnnouncementModal from './components/AnnouncementModal.jsx'
 
 // ── Seed before first render so Dashboard sees the data immediately ──────────
 if (getQuestionSets().length === 0) {
@@ -23,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       {({ user, mode }) => (
         <StorageProvider user={user} mode={mode}>
           <MigrationModal />
+          <AnnouncementModal />
           <App />
         </StorageProvider>
       )}

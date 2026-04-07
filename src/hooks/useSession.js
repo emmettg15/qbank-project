@@ -134,7 +134,7 @@ export function useSession(sessionId, questionsOverride) {
       }
       storage.saveSession(updated)
       setSession(updated)
-    }, 300)
+    }, 2000)
   }, [answers, revealed, eliminated, timePerQ, isComplete])
 
   // ── Navigation ────────────────────────────────────────────────────────────

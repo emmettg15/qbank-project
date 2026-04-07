@@ -32,13 +32,28 @@ export function StorageProvider({ user, mode, children }) {
       setLoading(true)
       try {
         if (isRemote) {
-          const [s, qs, qr, ci] = await Promise.all([
+          const [s, qsMeta, qr, ci] = await Promise.all([
             remote.getSessions(userId),
-            remote.getQuestionSets(userId),
+            remote.getQuestionSetsMeta(userId),
             remote.getQuestionRatings(userId),
             remote.getCatalogImports(userId),
           ])
           if (cancelled) return
+
+          // Hydrate questions from localStorage (avoids fetching all questions from Supabase on startup)
+          const localSetsMap = {}
+          for (const ls of local.getQuestionSets()) { localSetsMap[ls.id] = ls }
+          const missingFromLocal = qsMeta.some(meta => !localSetsMap[meta.id])
+
+          let qs
+          if (missingFromLocal) {
+            // New device or cleared browser — must do full fetch from Supabase
+            qs = await remote.getQuestionSets(userId)
+            // Populate localStorage for future fast loads
+            for (const q of qs) { local.saveQuestionSet(q) }
+          } else {
+            qs = qsMeta.map(meta => ({ ...meta, questions: localSetsMap[meta.id].questions }))
+          }
 
           // Check if migration is needed (Supabase empty, localStorage has data)
           const localSessions = local.getSessions()
@@ -282,7 +297,7 @@ export function StorageProvider({ user, mode, children }) {
     const merged = { ...current, ...rating }
     setQuestionRatings(prev => ({ ...prev, [questionId]: merged }))
     local.setQuestionRating(questionId, rating)
-    remoteDo(() => remote.setQuestionRating(userId, questionId, rating))
+    remoteDo(() => remote.setQuestionRating(userId, questionId, merged))
     return merged
   }, [userId, questionRatings, remoteDo])
 
