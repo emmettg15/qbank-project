@@ -80,6 +80,17 @@ export async function getSession(userId, id) {
 
 export async function saveSession(userId, session) {
   const row = sessionToRow(userId, session)
+
+  // Verify FK reference exists before writing (prevents FK constraint violations)
+  if (row.question_set_id) {
+    const { data } = await supabase
+      .from('question_sets')
+      .select('id')
+      .eq('id', row.question_set_id)
+      .single()
+    if (!data) row.question_set_id = null
+  }
+
   const { error } = await supabase
     .from('sessions')
     .upsert(row, { onConflict: 'id' })

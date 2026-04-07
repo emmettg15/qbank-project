@@ -9,6 +9,7 @@
 import React, { createContext, useContext, useState, useEffect, useCallback, useRef } from 'react'
 import * as local from './useLocalStorage.js'
 import * as remote from './useSupabaseStorage.js'
+import { supabase } from '../lib/supabase.js'
 import { v4 as uuid } from '../utils/uuid.js'
 
 const StorageContext = createContext(null)
@@ -94,7 +95,24 @@ export function StorageProvider({ user, mode, children }) {
                     local.saveSession(sess)
                   }
                 }
-                // Also update remote sessions
+              }
+              // Await question set save so it exists before session saves reference it
+              try {
+                await remote.saveQuestionSet(userId, normalized)
+              } catch (err) {
+                console.error('Failed to sync local question set to Supabase:', err)
+              }
+              qs = [...qs, normalized]
+              remoteSetIds.add(normalized.id)
+            }
+
+            // Now update remote sessions that reference remapped question IDs
+            for (const ls of missingLocal) {
+              const idMap = {}
+              for (const q of (ls.questions || [])) {
+                if (q.id && !UUID_RE.test(q.id)) idMap[q.id] = uuid()
+              }
+              if (Object.keys(idMap).length > 0) {
                 for (const sess of s) {
                   if (sess.questionSetId === ls.id && sess.questionIds) {
                     const remapped = { ...sess, questionIds: sess.questionIds.map(id => idMap[id] || id) }
@@ -102,19 +120,21 @@ export function StorageProvider({ user, mode, children }) {
                   }
                 }
               }
-              remote.saveQuestionSet(userId, normalized).catch(err =>
-                console.error('Failed to sync local question set to Supabase:', err)
-              )
-              qs = [...qs, normalized]
             }
           }
 
-          // Also merge any local sessions missing from Supabase
+          // Merge local sessions missing from Supabase
+          // Build set of all known question set IDs (remote + just-synced)
+          const knownSetIds = new Set(qs.map(q => q.id))
           const remoteSessionIds = new Set(s.map(sess => sess.id))
           const missingSessions = localSessions.filter(ls => !remoteSessionIds.has(ls.id))
           if (missingSessions.length > 0) {
             for (const ls of missingSessions) {
-              remote.saveSession(userId, ls).catch(err =>
+              // Null out question_set_id if the referenced set doesn't exist in Supabase (prevents FK violation)
+              const safeSession = ls.questionSetId && !knownSetIds.has(ls.questionSetId)
+                ? { ...ls, questionSetId: null }
+                : ls
+              remote.saveSession(userId, safeSession).catch(err =>
                 console.error('Failed to sync local session to Supabase:', err)
               )
             }
@@ -173,9 +193,16 @@ export function StorageProvider({ user, mode, children }) {
   const dismissMigration = useCallback(() => setMigrationNeeded(false), [])
 
   // ─── Helper: run remote write in background, log errors ──────────────────
+  // Ensures auth session is fresh before writing (prevents RLS violations from stale JWTs)
   const remoteDo = useCallback((fn) => {
     if (!isRemote) return
-    fn().catch(err => console.error('Supabase write error:', err))
+    supabase.auth.getSession().then(({ data: { session } }) => {
+      if (!session) {
+        console.warn('Supabase write skipped — no active session')
+        return
+      }
+      return fn()
+    }).catch(err => console.error('Supabase write error:', err))
   }, [isRemote])
 
   // ─── Sessions ────────────────────────────────────────────────────────────
