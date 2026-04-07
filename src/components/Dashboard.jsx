@@ -10,7 +10,24 @@ import { generateGuidePdf } from '../utils/generateGuidePdf.js'
 // ─── Sync Indicator ───────────────────────────────────────────────────────────
 function SyncIndicator() {
   const { syncStatus, syncPending, mode } = useStorage()
-  if (mode !== 'supabase') return null
+  if (mode === 'local') return null
+
+  // local-pending: user skipped login, waiting for auth to resolve
+  if (mode === 'local-pending') {
+    return (
+      <div style={{
+        display: 'flex', alignItems: 'center', gap: 6,
+        fontSize: 12, color: 'var(--accent2)', fontFamily: 'IBM Plex Mono',
+      }}>
+        <div style={{
+          width: 7, height: 7, borderRadius: '50%',
+          background: 'var(--accent2)',
+          animation: 'pulse 1.2s ease-in-out infinite',
+        }} />
+        Offline — sign in to sync
+      </div>
+    )
+  }
 
   const config = {
     idle:    { color: 'var(--muted)',   label: 'Synced' },

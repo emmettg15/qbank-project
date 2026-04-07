@@ -42,7 +42,9 @@ export function StorageProvider({ user, mode, children }) {
 
   const userId = user?.id || null
   const isRemote = mode === 'supabase' && userId
+  const isPending = mode === 'local-pending'
   const skipRef = useRef(false)
+  const hadLocalLoad = useRef(false)
   const [syncPending, setSyncPending] = useState(0)
   const [syncStatus, setSyncStatus] = useState('idle') // 'idle' | 'syncing' | 'done' | 'error'
   const syncTimerRef = useRef(null)
@@ -61,7 +63,11 @@ export function StorageProvider({ user, mode, children }) {
     let cancelled = false
 
     async function load() {
-      setLoading(true)
+      // If we already loaded from localStorage (local-pending) and are now
+      // transitioning to supabase mode, sync in the background without spinner
+      const backgroundSync = hadLocalLoad.current && isRemote
+      if (!backgroundSync) setLoading(true)
+
       try {
         if (isRemote) {
           const [s, qsMeta, qr, ci] = await Promise.all([
@@ -177,11 +183,12 @@ export function StorageProvider({ user, mode, children }) {
           setQuestionRatings(qr)
           setCatalogImports(ci)
         } else {
-          // Local mode
+          // Local or local-pending mode
           setSessions(local.getSessions())
           setQuestionSets(local.getQuestionSets())
           setQuestionRatings(local.getQuestionRatings())
           setCatalogImports(local.getCatalogImports())
+          hadLocalLoad.current = true
         }
       } catch (err) {
         console.error('Storage load error, falling back to localStorage:', err)
@@ -195,7 +202,7 @@ export function StorageProvider({ user, mode, children }) {
 
     load()
     return () => { cancelled = true }
-  }, [isRemote, userId])
+  }, [isRemote, isPending, userId])
 
   // ─── Migration ───────────────────────────────────────────────────────────
   const runMigration = useCallback(async () => {

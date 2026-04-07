@@ -8,11 +8,17 @@ export default function AuthGate({ children }) {
   const [sent, setSent] = useState(false)
   const [error, setError] = useState('')
   const [submitting, setSubmitting] = useState(false)
-  const [offlineMode, setOfflineMode] = useState(false)
+  const [skipWait, setSkipWait] = useState(false)
 
-  // Skip auth entirely if Supabase isn't configured or user chose offline
-  if (!supabase || offlineMode) {
+  // Supabase not configured — pure local mode
+  if (!supabase) {
     return children({ user: null, mode: 'local' })
+  }
+
+  // User skipped the login screen — load app immediately with localStorage,
+  // but keep auth listener running so if a session resolves we can sync
+  if (skipWait && !user) {
+    return children({ user: null, mode: 'local-pending' })
   }
 
   if (loading) {
@@ -133,7 +139,7 @@ export default function AuthGate({ children }) {
         <button
           className="btn btn-ghost"
           style={{ width: '100%' }}
-          onClick={() => setOfflineMode(true)}
+          onClick={() => setSkipWait(true)}
         >
           Continue Offline
         </button>

@@ -50,7 +50,7 @@ export default function NavBar({ view, onNavigate }) {
           >
             Sign Out
           </button>
-        ) : mode === 'local' ? (
+        ) : (mode === 'local' || mode === 'local-pending') ? (
           <span style={{ fontSize: 11, color: 'var(--muted)', fontFamily: 'IBM Plex Mono' }}>
             offline
           </span>
