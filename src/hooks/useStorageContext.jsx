@@ -43,6 +43,9 @@ export function StorageProvider({ user, mode, children }) {
   const userId = user?.id || null
   const isRemote = mode === 'supabase' && userId
   const skipRef = useRef(false)
+  const [syncPending, setSyncPending] = useState(0)
+  const [syncStatus, setSyncStatus] = useState('idle') // 'idle' | 'syncing' | 'done' | 'error'
+  const syncTimerRef = useRef(null)
 
   function skipToLocal() {
     skipRef.current = true
@@ -224,13 +227,30 @@ export function StorageProvider({ user, mode, children }) {
   // Ensures auth session is fresh before writing (prevents RLS violations from stale JWTs)
   const remoteDo = useCallback((fn) => {
     if (!isRemote) return
+    setSyncPending(n => n + 1)
+    setSyncStatus('syncing')
+    clearTimeout(syncTimerRef.current)
     supabase.auth.getSession().then(({ data: { session } }) => {
       if (!session) {
         console.warn('Supabase write skipped — no active session')
         return
       }
       return fn()
-    }).catch(err => console.error('Supabase write error:', err))
+    }).then(() => {
+      setSyncPending(n => {
+        const next = n - 1
+        if (next <= 0) {
+          setSyncStatus('done')
+          syncTimerRef.current = setTimeout(() => setSyncStatus('idle'), 3000)
+        }
+        return Math.max(0, next)
+      })
+    }).catch(err => {
+      console.error('Supabase write error:', err)
+      setSyncPending(n => Math.max(0, n - 1))
+      setSyncStatus('error')
+      syncTimerRef.current = setTimeout(() => setSyncStatus('idle'), 5000)
+    })
   }, [isRemote])
 
   // ─── Sessions ────────────────────────────────────────────────────────────
@@ -492,6 +512,10 @@ export function StorageProvider({ user, mode, children }) {
     clearAllData: clearAllDataAction,
     exportAll: exportAllAction,
     importAll: importAllAction,
+
+    // Sync status
+    syncStatus,
+    syncPending,
   }
 
   if (loading) {

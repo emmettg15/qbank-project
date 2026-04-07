@@ -7,6 +7,47 @@ import FeedbackModal from './Feedback.jsx'
 import { useStorage } from '../hooks/useStorage.js'
 import { generateGuidePdf } from '../utils/generateGuidePdf.js'
 
+// ─── Sync Indicator ───────────────────────────────────────────────────────────
+function SyncIndicator() {
+  const { syncStatus, syncPending, mode } = useStorage()
+  if (mode !== 'supabase') return null
+
+  const config = {
+    idle:    { color: 'var(--muted)',   label: 'Synced' },
+    syncing: { color: 'var(--accent)',  label: `Syncing${syncPending > 1 ? ` (${syncPending})` : ''}...` },
+    done:    { color: 'var(--correct)', label: 'Synced' },
+    error:   { color: 'var(--wrong)',   label: 'Sync error' },
+  }[syncStatus] || { color: 'var(--muted)', label: '' }
+
+  return (
+    <div style={{
+      display: 'flex', alignItems: 'center', gap: 6,
+      fontSize: 12, color: config.color, fontFamily: 'IBM Plex Mono',
+      transition: 'color .3s',
+    }}>
+      <div style={{
+        width: 7, height: 7, borderRadius: '50%',
+        background: config.color,
+        transition: 'background .3s',
+        ...(syncStatus === 'syncing' ? { animation: 'pulse 1.2s ease-in-out infinite' } : {}),
+      }} />
+      {config.label}
+      {syncStatus === 'syncing' && (
+        <div style={{
+          width: 48, height: 3, borderRadius: 2,
+          background: 'var(--surface2)', overflow: 'hidden',
+        }}>
+          <div style={{
+            height: '100%', borderRadius: 2,
+            background: config.color,
+            animation: 'sync-bar 1.2s ease-in-out infinite',
+          }} />
+        </div>
+      )}
+    </div>
+  )
+}
+
 function formatDate(iso) {
   if (!iso) return '—'
   const d = new Date(iso)
@@ -307,13 +348,16 @@ export default function Dashboard({ onNavigate }) {
       {/* ── Stats Overview ── */}
       <div className="section-header" style={{ marginBottom: 20 }}>
         <h2 style={{ fontSize: 22 }}>Dashboard</h2>
-        <button
-          className="btn btn-ghost btn-sm"
-          style={{ color: 'var(--wrong)', borderColor: 'rgba(239,83,80,.3)' }}
-          onClick={() => setShowReset(true)}
-        >
-          ⚠ Reset Data
-        </button>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+          <SyncIndicator />
+          <button
+            className="btn btn-ghost btn-sm"
+            style={{ color: 'var(--wrong)', borderColor: 'rgba(239,83,80,.3)' }}
+            onClick={() => setShowReset(true)}
+          >
+            ⚠ Reset Data
+          </button>
+        </div>
       </div>
 
       <div className="stat-grid">
