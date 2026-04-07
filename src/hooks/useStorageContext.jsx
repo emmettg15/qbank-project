@@ -14,6 +14,24 @@ import { v4 as uuid } from '../utils/uuid.js'
 
 const StorageContext = createContext(null)
 
+function SkipButton({ onClick }) {
+  const [show, setShow] = useState(false)
+  useEffect(() => {
+    const t = setTimeout(() => setShow(true), 2000)
+    return () => clearTimeout(t)
+  }, [])
+  if (!show) return null
+  return (
+    <button
+      onClick={onClick}
+      className="btn"
+      style={{ marginTop: 16, fontSize: 13, color: 'var(--muted)' }}
+    >
+      Use offline data instead
+    </button>
+  )
+}
+
 export function StorageProvider({ user, mode, children }) {
   const [sessions, setSessions] = useState([])
   const [questionSets, setQuestionSets] = useState([])
@@ -24,6 +42,16 @@ export function StorageProvider({ user, mode, children }) {
 
   const userId = user?.id || null
   const isRemote = mode === 'supabase' && userId
+  const skipRef = useRef(false)
+
+  function skipToLocal() {
+    skipRef.current = true
+    setSessions(local.getSessions())
+    setQuestionSets(local.getQuestionSets())
+    setQuestionRatings(local.getQuestionRatings())
+    setCatalogImports(local.getCatalogImports())
+    setLoading(false)
+  }
 
   // ─── Initial Load ────────────────────────────────────────────────────────
   useEffect(() => {
@@ -39,7 +67,7 @@ export function StorageProvider({ user, mode, children }) {
             remote.getQuestionRatings(userId),
             remote.getCatalogImports(userId),
           ])
-          if (cancelled) return
+          if (cancelled || skipRef.current) return
 
           // Hydrate questions from localStorage (avoids fetching all questions from Supabase on startup)
           const localSetsMap = {}
@@ -472,6 +500,7 @@ export function StorageProvider({ user, mode, children }) {
         <div className="auth-card">
           <div className="auth-spinner" />
           <p style={{ color: 'var(--muted)', marginTop: 12 }}>Loading your data...</p>
+          {isRemote && <SkipButton onClick={skipToLocal} />}
         </div>
       </div>
     )
