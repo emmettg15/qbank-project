@@ -1,6 +1,24 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useAuth } from '../hooks/useAuth.js'
 import { supabase } from '../lib/supabase.js'
+
+function DelayedSkipButton({ onClick }) {
+  const [show, setShow] = useState(false)
+  useEffect(() => {
+    const t = setTimeout(() => setShow(true), 2000)
+    return () => clearTimeout(t)
+  }, [])
+  if (!show) return null
+  return (
+    <button
+      onClick={onClick}
+      className="btn"
+      style={{ marginTop: 16, fontSize: 13, color: 'var(--muted)' }}
+    >
+      Use offline data instead
+    </button>
+  )
+}
 
 export default function AuthGate({ children }) {
   const { user, loading, signIn, signInWithGoogle } = useAuth()
@@ -27,6 +45,7 @@ export default function AuthGate({ children }) {
         <div className="auth-card">
           <div className="auth-spinner" />
           <p style={{ color: 'var(--muted)', marginTop: 12 }}>Loading...</p>
+          <DelayedSkipButton onClick={() => setSkipWait(true)} />
         </div>
       </div>
     )
