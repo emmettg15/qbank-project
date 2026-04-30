@@ -94,4 +94,14 @@ export const JEFFMD_CATALOG = [
   version: 1,
   addedDate: '2026-04-30',
 },
+{
+  catalogId: 'op_id_only_qbank',
+  title: 'GI Parasites - Organism Identification (generated w/Claude)',
+  description: 'Identify the parasite from microscopic findings and clinical history - questions relevant to JeffMD GI week 3 parasite LO',
+  questionCount: 25,
+  tags: ['GI'],
+  examLevel: 'step1',
+  version: 1,
+  addedDate: '2026-04-30',
+},
 ]
