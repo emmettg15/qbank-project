@@ -1,0 +1,590 @@
+{
+  "config": {
+    "title": "Global Topics in Diarrhea — Stool O&P Parasitology",
+    "subtitle": "Protozoa, nematodes, cestodes, and trematodes: microscopic findings, clinical history, and pathogenesis",
+    "passingFraction": 0.75,
+    "tags": {
+      "id": {
+        "label": "Immunology/ID",
+        "color": "#7c3aed"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A 28-year-old man presents to clinic with a 3-week history of foul-smelling, greasy, floating stools accompanied by bloating, upper abdominal cramping, and a 4 lb weight loss. He recently returned from a backpacking trip in New Hampshire where he drank from mountain streams. Stool O&P examination reveals a pear-shaped, binucleate trophozoite measuring 12 µm with a large ventral sucker and four pairs of flagella, described as having an 'owl-face' appearance on iron-hematoxylin stain. Which of the following best explains the intestinal malabsorption seen in this patient?",
+      "choices": [
+        "Production of a heat-labile enterotoxin that activates adenylyl cyclase and increases intracellular cAMP",
+        "Trophozoite-mediated apoptosis of enterocytes with shortening of brush-border microvilli and disaccharidase deficiency",
+        "Invasion of the colonic mucosa with formation of flask-shaped submucosal ulcers",
+        "Intracellular residence within the brush border disrupting sodium-glucose cotransport",
+        "Lectin-mediated cytolysis of mucosal cells leading to colonic dysentery"
+      ],
+      "answer": 1,
+      "explanation": "Giardia lamblia trophozoites attach to the brush border of the upper small intestine via the ventral sucker. Contact between the trophozoite and enterocytes induces apoptosis, disrupts tight junctions, and activates CD8+ lymphocytes. The net result is shortening of brush-border microvilli and loss of disaccharidases and absorptive enzymes, producing a malabsorption syndrome characterized by fatty, greasy, foul-smelling stools — the classic presentation here. Heat-labile enterotoxin activating cAMP describes ETEC. Flask-shaped submucosal ulcers with lectin-mediated cytolysis describe Entamoeba histolytica. Intracellular brush-border residence describes Cryptosporidium, which does not cause significant malabsorption in immunocompetent hosts.",
+      "keypoints": [
+        "⭐ Giardia trophozoite: pear-shaped, 9–21 µm, 2 nuclei, 4 pairs of flagella, large ventral sucker — 'owl face' on stain",
+        "⭐ Trophozoites in diarrheal stool; cysts (4 nuclei, 8–12 µm) in formed stool",
+        "Mechanism of malabsorption: apoptosis + tight junction disruption + CD8+ activation → shortened microvilli → disaccharidase deficiency",
+        "Treatment: metronidazole, tinidazole, or nitazoxanide; cysts resistant to chlorination and standard water filtration"
+      ]
+    },
+    {
+      "id": "q002",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Diagnosis",
+      "stem": "A 34-year-old woman presents with bloody diarrhea, lower abdominal cramping, and fever for 10 days. She recently returned from a trip to rural Mexico. Stool O&P examination is performed with iron-hematoxylin stain and reveals 25 µm trophozoites containing ingested erythrocytes within their cytoplasm. A cyst stage is also noted with a small karyosome centrally located within each nucleus and peripheral chromatin granules along the nuclear membrane. Which of the following pathological lesions is most directly caused by this organism's trophozoite stage?",
+      "choices": [
+        "Watery diarrhea from cAMP-mediated chloride secretion in the small intestine",
+        "Non-bloody malabsorptive diarrhea from brush-border microvilli shortening",
+        "Flask-shaped ulcers with a narrow mucosal neck and wide submucosal body in the colon",
+        "Barrel-shaped eggs with bipolar mucus plugs found in cecal mucosa",
+        "Intracellular oocysts disrupting enterocyte sodium-glucose cotransport"
+      ],
+      "answer": 2,
+      "explanation": "Entamoeba histolytica trophozoites adhere to colonic mucosa via lectin-mediated binding, lyse cells, and penetrate the mucosal crypts. As they contact the muscularis mucosa, they spread laterally in the submucosa, producing the classic flask-shaped ulcer: a narrow mucosal neck with a large submucosal body. The presence of ingested RBCs within the trophozoite cytoplasm ('erythrophagocytosis') is pathognomonic on O&P. cAMP-mediated secretion describes ETEC. Malabsorption with microvilli shortening describes Giardia. Barrel-shaped eggs with bipolar plugs describes Trichuris trichiura. Intracellular oocysts describe Cryptosporidium.",
+      "keypoints": [
+        "⭐ Pathognomonic O&P finding: trophozoites with ingested (endocytosed) RBCs in cytoplasm",
+        "⭐ Trophozoite is the pathologic stage; cysts (10–20 µm, up to 4 nuclei) are the infectious stage",
+        "Flask-shaped ulcer = narrow mucosal neck + wide submucosal body → risk of bloody dysentery and abscess",
+        "Extraintestinal: amebic liver abscess (RUQ pain, fever); treat with metronidazole for invasive disease, paromomycin for luminal/noninvasive"
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A 45-year-old man with AIDS (CD4 count 38 cells/µL) presents with profuse watery diarrhea producing up to 10 liters per day, severe abdominal cramping, and a 20 lb weight loss over 6 weeks. Stool examination using a modified acid-fast stain reveals small (4–5 µm) round oocysts that stain pink-red against a blue background. The organism resides in an intracellular but extra-cytoplasmic location under the cell membrane of intestinal microvilli. Which of the following best describes why this patient's disease course differs so severely from that of an immunocompetent host?",
+      "choices": [
+        "The organism switches to a more virulent sexual reproductive cycle exclusively in immunocompromised hosts",
+        "Immunocompromised hosts mount an exaggerated TH2 response that promotes mast cell degranulation and fluid secretion",
+        "In immunocompromised hosts, the organism invades the colonic submucosa and produces flask-shaped ulcers",
+        "Impaired humoral immunity allows the organism to evade opsonization and proliferate in the bloodstream",
+        "Immunocompromised hosts cannot clear the organism due to impaired cell-mediated immunity, enabling internal autoinfection and dissemination throughout the GI tract"
+      ],
+      "answer": 4,
+      "explanation": "In immunocompetent hosts, Cryptosporidium parvum causes self-limited watery diarrhea lasting 8–10 days; neither relapse nor reinfection occurs. In immunocompromised hosts (particularly HIV/AIDS with low CD4 counts), impaired cell-mediated immunity prevents clearance, and internal autoinfection allows the organism to persist and spread throughout the entire GI tract — including stomach, biliary tree, lungs, and liver — producing cholangiopathy and catastrophic fluid losses. Flask-shaped ulcers are characteristic of E. histolytica, not Cryptosporidium. The organism does not produce disease through TH2 responses or bloodstream invasion.",
+      "keypoints": [
+        "⭐ O&P finding: small (4–5 µm) round oocysts on modified acid-fast stain (pink-red on blue); organism is intracellular but extra-cytoplasmic",
+        "⭐ Immunocompetent: self-limited 8–10 days; Immunocompromised (AIDS): chronic, voluminous (up to 20 L/day), potentially fatal",
+        "Oocysts resistant to chlorine; filtration is required for water purification",
+        "Treatment: nitazoxanide (FDA-approved for immunocompetent); effectiveness in AIDS patients unclear — antiretroviral therapy is key"
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Diagnosis",
+      "stem": "A 31-year-old woman presents with watery diarrhea, fatigue, and a 5 lb weight loss for 3 weeks following a trip to Peru. She recalls eating fresh produce at a local market. Stool examination using a modified acid-fast stain reveals oocysts measuring 8–10 µm — roughly double the size of those seen in Cryptosporidium — and the laboratory notes they also exhibit autofluorescence under ultraviolet light. Which of the following organisms is most consistent with these findings?",
+      "choices": [
+        "Cryptosporidium parvum",
+        "Cystoisospora belli",
+        "Dientamoeba fragilis",
+        "Giardia lamblia",
+        "Cyclospora cayetanensis"
+      ],
+      "answer": 4,
+      "explanation": "Cyclospora cayetanensis oocysts measure 8–10 µm — approximately twice the diameter of Cryptosporidium parvum oocysts (4–5 µm) — and are distinguished by their autofluorescence under UV light and variable acid-fast staining. Outbreaks are classically linked to imported fresh produce (raspberries, basil, cilantro) and travel to endemic regions including Peru and Nepal. Cryptosporidium oocysts are smaller (4–5 µm) and do not autofluoresce. Cystoisospora belli oocysts are much larger (25–30 µm) and elongated. Dientamoeba fragilis has no oocyst stage. Giardia is diagnosed by trophozoites or cysts, not acid-fast oocysts.",
+      "keypoints": [
+        "⭐ Cyclospora oocysts: 8–10 µm, acid-fast with variable staining, autofluoresce under UV — distinguishes from Cryptosporidium",
+        "⭐ Epidemiology: imported fresh produce (raspberries, basil), travel to Peru/Nepal/Haiti",
+        "Treatment: TMP-SMX (drug of choice); no effective alternative in sulfa-allergic patients",
+        "Unlike Cryptosporidium, Cyclospora oocysts are NOT immediately infectious when passed in stool — require days in environment to sporulate"
+      ]
+    },
+    {
+      "id": "q005",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Diagnosis",
+      "stem": "A 38-year-old man with HIV (CD4 count 52 cells/µL) presents with chronic watery diarrhea and significant weight loss for 2 months. Stool O&P examination reveals large, elongated oocysts measuring approximately 28 µm containing a single sporoblast. Modified acid-fast stain confirms the oocysts stain uniformly pink-red. Which of the following organisms is responsible for this patient's diarrhea?",
+      "choices": [
+        "Cyclospora cayetanensis",
+        "Cryptosporidium parvum",
+        "Balantidium coli",
+        "Cystoisospora belli",
+        "Entamoeba histolytica"
+      ],
+      "answer": 3,
+      "explanation": "Cystoisospora belli (formerly Isospora belli) produces the largest oocysts of the intestinal coccidia — measuring 25–30 µm — and they are elongated (elliptical) rather than spherical. Each oocyst contains a single sporoblast when freshly passed. Like Cryptosporidium and Cyclospora, the oocysts stain acid-fast, but the large size and elongated shape are distinctive. This organism primarily causes disease in immunocompromised patients (HIV/AIDS) with chronic profuse watery diarrhea. Cyclospora oocysts are 8–10 µm and spherical. Cryptosporidium oocysts are 4–5 µm. Balantidium coli is a ciliated protozoan identified by a large kidney-shaped macronucleus, not an oocyst. E. histolytica does not produce oocysts.",
+      "keypoints": [
+        "⭐ Cystoisospora belli oocysts: 25–30 µm, elongated/elliptical, single sporoblast, uniformly acid-fast — largest of the intestinal coccidia",
+        "⭐ Immunocompromised host (HIV/AIDS) with chronic watery diarrhea — classic clinical scenario",
+        "Treatment: TMP-SMX (drug of choice); ciprofloxacin as alternative",
+        "Eosinophilia may be present — unusual for other intestinal protozoa"
+      ]
+    },
+    {
+      "id": "q006",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Diagnosis",
+      "stem": "A 7-year-old boy is brought to his pediatrician with intermittent diarrhea, abdominal pain, and fatigue for 6 weeks. He attends daycare. His stool O&P examination, performed with permanent trichrome stain, reveals binucleate trophozoites measuring 9–12 µm with fragmented chromatin granules in each nucleus. No cyst stage is identified. Which of the following is the most accurate statement about the organism causing this infection?",
+      "choices": [
+        "It produces acid-fast oocysts transmitted via contaminated water",
+        "It exists only as a trophozoite with no cyst stage and requires trichrome staining for identification",
+        "Its trophozoites contain ingested erythrocytes and cause flask-shaped colonic ulcers",
+        "Its cysts contain 4 nuclei and are infective when passed in formed stool",
+        "It is the only ciliated intestinal protozoan known to infect humans"
+      ],
+      "answer": 1,
+      "explanation": "Dientamoeba fragilis is unique among intestinal protozoa in that it has no known cyst stage — only trophozoites are identified. Because trophozoites are fragile and disintegrate rapidly outside the host, permanent staining (trichrome or iron-hematoxylin) is required for reliable identification; wet mounts are often insufficient. The organism classically presents in children and daycare settings with non-dysenteric diarrhea and abdominal pain. Acid-fast oocysts describe Cryptosporidium, Cyclospora, or Cystoisospora. Ingested RBCs in trophozoites is pathognomonic for E. histolytica. 4-nucleated infective cysts describe Giardia or E. histolytica. The only ciliated intestinal pathogen is Balantidium coli.",
+      "keypoints": [
+        "⭐ Dientamoeba fragilis: binucleate trophozoite only — NO cyst stage; trichrome stain required for diagnosis",
+        "⭐ Epidemiology: children, daycare centers; may be transmitted via Enterobius vermicularis eggs",
+        "Presents with non-bloody, non-dysenteric diarrhea, abdominal pain, fatigue — often subtle",
+        "Treatment: metronidazole, iodoquinol, or paromomycin"
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A 52-year-old pig farmer in rural Latin America presents with bloody diarrhea and abdominal cramping. Stool O&P examination reveals very large (50–100 µm) trophozoites with prominent surface cilia and a large kidney-shaped macronucleus (macronucleus) along with a smaller micronucleus. This organism is the only member of its taxonomic class known to infect humans. Which of the following best describes the characteristic nuclear finding used to identify this organism on microscopy?",
+      "choices": [
+        "A large kidney-shaped macronucleus paired with a smaller micronucleus",
+        "Two equal-sized nuclei giving an 'owl-face' appearance",
+        "Up to four nuclei with central karyosomes and peripheral chromatin granules",
+        "A single nucleus with a large eccentric karyosome and no peripheral chromatin",
+        "Binucleate form with fragmented chromatin giving a granular appearance"
+      ],
+      "answer": 0,
+      "explanation": "Balantidium coli is the only ciliated protozoan (class Ciliophora) known to cause intestinal disease in humans. Its trophozoites are the largest of all intestinal protozoa (50–200 µm), covered in cilia, and contain two morphologically distinct nuclei: a large kidney-shaped macronucleus (visible in wet mount) and a smaller micronucleus nestled adjacent to it. Pigs are the primary reservoir host. The 'owl-face' binucleate appearance describes Giardia lamblia trophozoites. Four nuclei with central karyosomes and peripheral chromatin describe E. histolytica cysts. A large eccentric karyosome is a feature seen in other amoebae. Fragmented binucleate trophozoites without a cyst stage describe Dientamoeba fragilis.",
+      "keypoints": [
+        "⭐ Balantidium coli: only ciliated protozoan pathogen of humans; largest intestinal protozoan (50–200 µm trophozoite)",
+        "⭐ Diagnostic O&P finding: large trophozoite with surface cilia + kidney-shaped macronucleus + micronucleus",
+        "Reservoir: pigs; risk factor is pig farming or exposure to pig feces",
+        "Can cause dysenteric colitis resembling E. histolytica; treat with tetracycline or metronidazole"
+      ]
+    },
+    {
+      "id": "q008",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 6-year-old girl in rural Bangladesh presents with a protuberant abdomen and failure to thrive. Stool O&P examination reveals large, oval, mammillated (bumpy outer coat) eggs measuring approximately 60 × 45 µm with a thick, bile-stained corticated shell. Her physician notes that in prior infections the larvae underwent pulmonary migration causing a transient eosinophilia and shifting pulmonary infiltrates. Which of the following best describes the pulmonary syndrome caused by larval migration of this organism in a previously sensitized host?",
+      "choices": [
+        "Löffler's syndrome: transient eosinophilia with shifting pulmonary infiltrates that spontaneously resolve within two weeks",
+        "Tropical pulmonary eosinophilia: chronic nocturnal cough with bilateral reticulonodular opacities persisting for months",
+        "Pulmonary amebiasis: extension of a hepatic abscess through the diaphragm into the right lower lobe",
+        "Hyperinfection syndrome: massive larval invasion of the lung with hemorrhagic pneumonitis in immunosuppressed patients",
+        "Hydatid disease: formation of a slowly enlarging pulmonary cyst with laminated membranes"
+      ],
+      "answer": 0,
+      "explanation": "Ascaris lumbricoides larvae hatch in the duodenum and migrate via the portal system through the liver, right heart, and pulmonary vasculature before breaking out of the alveoli, ascending the trachea, and being swallowed back into the intestine. In primary infections, this migration is minimally symptomatic. In previously sensitized hosts (subsequent infections), an intense eosinophilic inflammatory response is mounted around the migrating larvae in the lungs, producing Löffler's syndrome: transient peripheral eosinophilia, scattered shifting pulmonary infiltrates that vary from day to day, productive cough with eosinophils and larvae in sputum, and spontaneous resolution within approximately two weeks. The mammillated, corticated egg with a thick outer coat on stool O&P is diagnostic. Hyperinfection syndrome describes Strongyloides stercoralis.",
+      "keypoints": [
+        "⭐ Ascaris egg on O&P: large (60×45 µm), oval, mammillated corticated shell; bile-stained brown appearance",
+        "⭐ Löffler's syndrome: transient eosinophilia + shifting pulmonary infiltrates (larvae + eosinophils in sputum) → resolves in ~2 weeks",
+        "Larval migration path: duodenum → portal vein → liver → right heart → pulmonary vessels → alveoli → trachea → swallowed → intestine",
+        "Treatment: mebendazole, albendazole, or ivermectin; do NOT treat during pulmonary phase (dead larvae worsen inflammation)"
+      ]
+    },
+    {
+      "id": "q009",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Diagnosis",
+      "stem": "A 9-year-old boy in rural sub-Saharan Africa presents with chronic dysentery, weight loss, and rectal prolapse. Peripheral blood smear shows eosinophilia, and his stool contains Charcot-Leyden crystals (bipyramidal hexagonal crystals). Stool O&P examination reveals characteristic eggs with a distinctive morphology. Which of the following egg descriptions is most consistent with the causative organism?",
+      "choices": [
+        "Barrel-shaped egg with bipolar mucus plugs at each end",
+        "Oval egg with a thin shell containing a segmented embryo in the 4-cell stage",
+        "Large oval egg with a mammillated, bile-stained corticated outer coat",
+        "Elongated egg with a single operculum (lid) at one end",
+        "Round egg with a 6-hooked oncosphere surrounded by polar filaments between two shells"
+      ],
+      "answer": 0,
+      "explanation": "Trichuris trichiura (whipworm) produces pathognomonic barrel-shaped (football-shaped) eggs with distinctive bipolar mucus plugs at each end, measuring approximately 50–55 × 22–23 µm. Heavy worm burdens cause bloody dysentery, weight loss, and — in children — rectal prolapse due to straining from colonic irritation. Eosinophilia and Charcot-Leyden crystals (products of eosinophil breakdown) in the stool are characteristic. Thin-shelled eggs with a segmented embryo describe hookworm. Large mammillated corticated eggs describe Ascaris lumbricoides. Operculated eggs describe Diphyllobothrium latum or liver flukes. Round eggs with polar filaments describe Hymenolepis nana.",
+      "keypoints": [
+        "⭐ Trichuris trichiura egg: barrel/football-shaped with bipolar mucus plugs — pathognomonic O&P finding",
+        "⭐ Heavy infection: bloody dysentery, chronic anemia (from friable mucosa), rectal prolapse in children",
+        "Charcot-Leyden crystals in stool = marker of eosinophilic inflammation; seen before eggs appear",
+        "Treatment: mebendazole, albendazole, or ivermectin; only symptomatic patients require treatment"
+      ]
+    },
+    {
+      "id": "q010",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Diagnosis",
+      "stem": "A 5-year-old boy presents with intense perianal pruritus that worsens at night, preventing him from sleeping. His mother reports seeing small white worms crawling near the anus. Standard stool O&P examination is negative. A cellophane tape test performed on the perianal skin at night reveals flattened-on-one-side, D-shaped eggs measuring 55 × 25 µm with an albuminous outer coating. Which of the following best explains why stool O&P is typically negative in this infection?",
+      "choices": [
+        "The eggs are destroyed by bile salts in the intestine before passing into the stool",
+        "The female worm migrates out of the rectum to lay eggs on perianal skin, not in the stool",
+        "The organism exists only as larvae in the stool; eggs are not released by the adult worm",
+        "Eggs are deposited exclusively in the appendix and cecum and cannot reach the stool lumen",
+        "The organism's eggs are too small to be detected by standard concentration techniques"
+      ],
+      "answer": 1,
+      "explanation": "Enterobius vermicularis (pinworm) females migrate from the cecum and appendix down the rectum and crawl out onto the perianal skin — typically at night — where they deposit eggs. Because eggs are laid on the perianal skin rather than in the stool, standard stool O&P examination is unreliable and frequently negative. The cellophane tape test (applied to perianal skin in the morning before bathing) is the diagnostic method of choice and recovers the characteristic D-shaped, flattened-on-one-side eggs with an albuminous coat. The eggs become infective within hours of being laid and can be transmitted by self-infection, environmental contamination, or airborne spread.",
+      "keypoints": [
+        "⭐ Diagnosis: cellophane tape test (perianal skin, morning) — NOT stool O&P; eggs are D-shaped, flattened on one side",
+        "⭐ Clinical: nocturnal perianal pruritus; insomnia; white worms visible near anus",
+        "Transmission: fecal-oral self-infection, environmental contamination, airborne; entire household must be treated",
+        "Treatment: mebendazole or albendazole; repeat dose in 2 weeks to account for environmental eggs; treat all household members"
+      ]
+    },
+    {
+      "id": "q011",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 61-year-old man with a history of renal transplant on chronic prednisone develops worsening abdominal pain, diarrhea, and sepsis. His blood cultures grow gram-negative enteric rods. Stool examination reveals rhabditiform larvae with a short buccal cavity. Chest X-ray shows bilateral pulmonary infiltrates. The treating team suspects that the immunosuppression has led to an uncontrolled acceleration of this organism's life cycle within the host. Which of the following best describes the mechanism by which this patient developed disseminated disease from a single initial infection acquired decades earlier?",
+      "choices": [
+        "Hypersensitivity: prior sensitization causes an exaggerated TH2 response to migrating larvae that overwhelms clearance mechanisms",
+        "Autoinfection: first-stage larvae develop into infective larvae within the intestine and reinfect the host, bypassing external transmission; glucocorticoid therapy removes host immune control of this cycle",
+        "External reinfection: infective larvae from the environment penetrate the skin at high inoculum due to immunosuppression",
+        "Sexual amplification: adult male worms develop within the host for the first time, exponentially increasing egg production",
+        "Encystation failure: larvae that would normally encyst in skeletal muscle are instead forced into the circulation by immunosuppression"
+      ],
+      "answer": 1,
+      "explanation": "Strongyloides stercoralis is unique among intestinal nematodes in its capacity for autoinfection: first-stage (rhabditiform) larvae can develop into infective (filariform) larvae within the intestinal lumen and penetrate the colonic wall to reinfect the host without leaving the body. Under normal immune conditions, this cycle is tightly controlled at a low level — allowing lifelong chronic infection from a single exposure. When cell-mediated immunity is compromised by glucocorticoids, HTLV-1 infection, or malignancy, autoinfection becomes uncontrolled (hyperinfection syndrome), with massive numbers of larvae migrating to the lungs, liver, heart, and CNS while carrying enteric bacteria with them — explaining the gram-negative bacteremia seen here. Rhabditiform larvae with a short buccal cavity (vs. long buccal cavity in hookworm) in stool is the key diagnostic O&P finding.",
+      "keypoints": [
+        "⭐ Strongyloides stercoralis O&P: rhabditiform LARVAE in stool (not eggs); short buccal cavity distinguishes from hookworm larvae",
+        "⭐ Autoinfection → lifelong infection from single exposure; hyperinfection with immunosuppression (steroids, HTLV-1) → fatal dissemination",
+        "Gram-negative bacteremia/sepsis occurs because larvae carry enteric bacteria through the intestinal wall",
+        "Treatment: ivermectin (drug of choice); ALL infected individuals must be treated regardless of symptoms; screen before starting immunosuppression"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Diagnosis",
+      "stem": "A 19-year-old college student from rural Appalachia presents with fatigue, pallor, and periorbital edema. Labs reveal iron-deficiency anemia and hypoalbuminemia. He walks barefoot outdoors. Stool O&P examination shows oval, thin-shelled eggs approximately 60 × 40 µm containing an embryo in the 4-cell (cleavage) stage. The laboratory notes the specimen was not stored promptly, and hatched larvae are also visible. Which of the following correctly differentiates these larvae from those of Strongyloides stercoralis on O&P?",
+      "choices": [
+        "Hookworm larvae are filariform; Strongyloides larvae are rhabditiform in the stool",
+        "Hookworm larvae are acid-fast; Strongyloides larvae are identified by trichrome stain",
+        "Hookworm larvae have a long buccal cavity; Strongyloides rhabditiform larvae have a short buccal cavity",
+        "Hookworm larvae contain ingested erythrocytes; Strongyloides larvae do not",
+        "Hookworm larvae measure less than 10 µm; Strongyloides larvae exceed 200 µm"
+      ],
+      "answer": 2,
+      "explanation": "Both hookworm (Necator americanus / Ancylostoma duodenale) and Strongyloides stercoralis produce rhabditiform larvae that can appear in stool when specimens are not processed promptly (hookworm) or as a normal finding in fresh stool (Strongyloides). The critical morphological differentiator on O&P is buccal cavity length: hookworm rhabditiform larvae have a long buccal cavity, whereas Strongyloides rhabditiform larvae have a short buccal cavity. This distinction is clinically important because confusing them would lead to missed Strongyloides diagnosis and potential failure to treat before immunosuppression. Hookworm eggs in fresh stool show a thin shell with a 4–8 cell embryo — the primary diagnostic finding. Anemia and hypoalbuminemia result from the worm's anticoagulant secretion causing chronic blood loss at the intestinal attachment site.",
+      "keypoints": [
+        "⭐ Hookworm egg on O&P: thin-shelled, oval, embryo in 4-cell stage (fresh stool); larvae hatch if stool not processed promptly",
+        "⭐ Larval differentiation: hookworm = long buccal cavity; Strongyloides = short buccal cavity",
+        "Pathogenesis: anticoagulant secreted by worm → chronic intestinal blood loss → iron-deficiency anemia + hypoalbuminemia",
+        "Acquired by skin penetration of filariform larvae in contaminated soil; Treatment: mebendazole or albendazole"
+      ]
+    },
+    {
+      "id": "q013",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A 55-year-old woman from Kenya presents with mild abdominal discomfort and reports noticing white, ribbon-like segments actively crawling out of her anus. She regularly eats undercooked beef. Stool O&P reveals eggs with a radially striated outer shell containing a 6-hooked (hexacanth) oncosphere. Proglottid examination reveals 18 lateral uterine branches. Which of the following correctly identifies this organism and its distinguishing morphological feature from its closest species-level relative?",
+      "choices": [
+        "Taenia solium; 15–20 lateral uterine branches and a scolex with 4 suckers and a double crown of hooks",
+        "Taenia saginata; 15–20 lateral uterine branches and a scolex with 4 suckers but NO hooks — differentiates from T. solium which has 8–12 branches and a hooked rostellum",
+        "Taenia saginata; identical proglottid morphology to T. solium; species differentiation requires serology",
+        "Diphyllobothrium latum; proglottid with 15–20 uterine branches and a scolex with 4 suckers and no hooks",
+        "Hymenolepis nana; proglottid with 18 lateral uterine branches infecting via the fecal-oral route without an intermediate host"
+      ],
+      "answer": 1,
+      "explanation": "Taenia saginata (beef tapeworm) proglottids characteristically contain 15–20 lateral uterine branches, and the scolex bears 4 suckers but NO hooks (unarmed scolex). Taenia solium (pork tapeworm) has only 8–12 uterine branches and a scolex armed with a double crown of hooks (armed scolex). Crucially, T. saginata and T. solium eggs are morphologically identical on O&P — radially striated shells with a 6-hooked hexacanth oncosphere — making proglottid examination essential for species differentiation. Diphyllobothrium latum has a scolex with grooves (bothria) rather than suckers, and produces operculated eggs. Hymenolepis nana is the dwarf tapeworm and its eggs have polar filaments, not lateral uterine branches.",
+      "keypoints": [
+        "⭐ T. saginata vs T. solium eggs: IDENTICAL on O&P — differentiation requires proglottid examination",
+        "⭐ T. saginata proglottid: 15–20 uterine branches; scolex = 4 suckers, NO hooks (unarmed)",
+        "⭐ T. solium proglottid: 8–12 uterine branches; scolex = 4 suckers + double crown of hooks (armed)",
+        "T. saginata: only intestinal adult disease (no cysticercosis in humans); T. solium: both adult worm + cysticercosis risk"
+      ]
+    },
+    {
+      "id": "q014",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 27-year-old man from rural Mexico presents to the ED with new-onset seizures. He has no prior seizure history. Brain MRI reveals multiple ring-enhancing cystic lesions within the parenchyma. He recalls eating street food, including pork products, on regular basis. His stool O&P from the same visit reveals eggs with a 6-hooked oncosphere within a radially striated shell. Which of the following best explains how both the stool O&P findings and the brain lesions can occur simultaneously in the same patient?",
+      "choices": [
+        "Ingestion of undercooked pork containing larval cysticerci causes both adult intestinal infection and direct neurological invasion",
+        "Internal autoinfection: T. solium proglottids are regurgitated into the stomach, where egg digestion releases oncospheres that penetrate the gut wall and seed the brain",
+        "Coinfection with a separate neurotropic helminth is required to explain the CNS lesions alongside intestinal tapeworm infection",
+        "The cystic brain lesions represent amebic abscesses from concurrent Entamoeba histolytica infection acquired from the same food source",
+        "External autoinfection: the patient ingests Taenia solium eggs from fecal contamination, causing both intestinal adult tapeworm infection and systemic cysticercosis as larvae hatch in the duodenum and migrate hematogenously to the CNS"
+      ],
+      "answer": 4,
+      "explanation": "Taenia solium has two distinct infection routes that can occur simultaneously. Eating undercooked pork containing cysticerci results in an adult tapeworm in the intestine (taeniasis) — explaining the positive stool O&P. Separately, ingestion of T. solium eggs (from fecal-oral contamination — even autocontamination) causes cysticercosis: eggs hatch in the duodenum, oncospheres penetrate the intestinal wall and enter mesenteric vessels, and larvae disseminate hematogenously to muscle, subcutaneous tissue, and most importantly the CNS, where they develop into 1 cm cysticerci. Death of the cysticerci triggers inflammatory reactions causing seizures, hydrocephalus, or strokes. This is why T. solium proglottids must be expelled intact with praziquantel — disintegration risks internal autoinfection with egg release.",
+      "keypoints": [
+        "⭐ Neurocysticercosis = most common cause of acquired epilepsy in the developing world; caused by T. solium EGGS, not cysticerci",
+        "⭐ Two routes: eating pork cysticerci → adult intestinal worm; ingesting T. solium eggs → cysticercosis",
+        "Brain MRI: ring-enhancing cystic lesions; dead cysticerci calcify (seen on X-ray)",
+        "Treatment: adult worm: praziquantel (expel intact proglottids); cysticercosis: albendazole ± dexamethasone ± surgery"
+      ]
+    },
+    {
+      "id": "q015",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Diagnosis",
+      "stem": "A 4-year-old boy from an overcrowded urban shelter presents with abdominal cramping and diarrhea. He lives in close quarters with many other children. Stool O&P examination reveals round eggs measuring 30–45 µm containing a 6-hooked oncosphere; between the two shells, the laboratory notes the presence of filamentous polar filaments radiating from the inner shell. This is identified as the smallest tapeworm infection in humans and is distinctive in that it can complete its entire life cycle within a single human host. Which of the following correctly describes why this organism is unique among tapeworms in its transmission?",
+      "choices": [
+        "It requires an obligate arthropod intermediate host (flour beetle) for cysticercoid development before humans can be infected",
+        "It is acquired exclusively by ingestion of raw freshwater fish containing plerocercoid larvae",
+        "It can undergo internal autoinfection by releasing oncospheres that penetrate intestinal villi and develop into cysticercoid larvae within the same host, then re-emerge as adult tapeworms — no intermediate host required",
+        "Its oncospheres directly penetrate the skin without requiring ingestion, unlike all other cestodes",
+        "It requires two sequential vertebrate intermediate hosts before completing development in the definitive human host"
+      ],
+      "answer": 2,
+      "explanation": "Hymenolepis nana (dwarf tapeworm) is the smallest tapeworm to infect humans (~15–40 mm) and is unique because it is the only tapeworm that does not require an intermediate host — it can complete its entire life cycle within a single human host via internal autoinfection. Oncospheres released from eggs can penetrate intestinal villi, develop into cysticercoid larvae within villous tissue, and then re-emerge into the intestinal lumen to mature into adult tapeworms. This allows for direct person-to-person transmission and autoinfection without passage through an arthropod or animal host, making it highly prevalent in crowded, low-hygiene settings. The polar filaments between the two egg shells are the pathognomonic O&P finding. H. nana can also cycle through grain beetles as an intermediate host, but this is not required.",
+      "keypoints": [
+        "⭐ Hymenolepis nana egg: round (30–45 µm), 6-hooked oncosphere, polar filaments between inner and outer shells — pathognomonic",
+        "⭐ Only tapeworm with no obligate intermediate host; internal autoinfection possible within single human host",
+        "Smallest human tapeworm; spreads fecal-orally in crowded settings; commonly affects children",
+        "Treatment: praziquantel (drug of choice)"
+      ]
+    },
+    {
+      "id": "q016",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 44-year-old man from Finland presents with megaloblastic anemia and mild diarrhea. He regularly eats raw salmon and pike. Stool O&P examination reveals large, oval eggs measuring 70 × 45 µm with a yellow-brown shell and a distinct operculum (lid) at one end. The scolex of the adult worm is described as having two longitudinal groove-like bothria rather than suckers. Which of the following best explains the mechanism of anemia in this patient?",
+      "choices": [
+        "The worm's anticoagulant secretion causes chronic intestinal blood loss leading to iron-deficiency anemia",
+        "Oncospheres hematogenously seed the bone marrow, suppressing erythroid progenitor proliferation",
+        "Vitamin B12 deficiency results from destruction of gastric parietal cells by worm-derived proteases",
+        "The adult worm preferentially absorbs vitamin B12 in the proximal small intestine, competing with the host and causing pernicious-like anemia with megaloblastic changes",
+        "The worm's proglottids obstruct the terminal ileum, preventing intrinsic factor-B12 complex absorption"
+      ],
+      "answer": 3,
+      "explanation": "Diphyllobothrium latum (fish tapeworm) competes with the human host for dietary vitamin B12 by absorbing it directly across its body wall in the proximal small intestine — where B12 is normally absorbed. This results in megaloblastic anemia clinically indistinguishable from pernicious anemia. Notably, D. latum–associated anemia appears to be geographically variable (70% of Finnish cases develop anemia; lower rates in Europe and Japan), likely reflecting dietary B12 intake. The operculated egg is the key O&P finding — unlike all other tapeworm eggs, which contain a hexacanth oncosphere within a striated shell. The scolex with bothria (grooves) rather than suckers further distinguishes D. latum from Taenia species. Iron-deficiency anemia from anticoagulant secretion describes hookworm.",
+      "keypoints": [
+        "⭐ Diphyllobothrium latum egg: operculated (has a lid) — only cestode with an operculated egg; resembles a fluke egg",
+        "⭐ Mechanism of anemia: B12 competition in proximal small intestine → megaloblastic (macrocytic) anemia",
+        "Scolex: 2 longitudinal grooves (bothria) — no suckers, no hooks; acquired from raw freshwater fish (salmon, pike, trout)",
+        "Treatment: praziquantel; replete B12; largest human tapeworm (up to 32 feet, 4,000 proglottids)"
+      ]
+    },
+    {
+      "id": "q017",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Diagnosis",
+      "stem": "A 38-year-old man returns from a 3-month humanitarian mission in sub-Saharan Africa. He presents with hematuria, dysuria, and terminal hematuria but no diarrhea. A urine examination reveals large eggs (150 × 60 µm) with a sharp terminal spine. A colleague from the same mission who worked in a different region presents with bloody diarrhea; his stool O&P reveals eggs with a prominent lateral spine. Both patients had extensive freshwater exposure. Which of the following correctly matches each patient's presentation to its causative Schistosoma species?",
+      "choices": [
+        "Terminal spine in stool = Schistosoma mansoni; lateral spine in urine = Schistosoma haematobium",
+        "Terminal spine in urine = Schistosoma japonicum; lateral spine in stool = Schistosoma mansoni",
+        "Terminal spine in urine = Schistosoma haematobium; lateral spine in stool = Schistosoma mansoni",
+        "Lateral spine in stool = Schistosoma haematobium; terminal spine in stool = Schistosoma japonicum",
+        "Both species produce lateral-spined eggs; the anatomical site of egg deposition is the only distinguishing feature"
+      ],
+      "answer": 2,
+      "explanation": "Schistosoma species are distinguished primarily by the morphology and location of their eggs. S. haematobium inhabits the vesical (bladder) plexus and produces eggs with a terminal spine found in urine — causing hematuria and, chronically, squamous cell carcinoma of the bladder. S. mansoni inhabits the inferior mesenteric veins and produces eggs with a prominent lateral spine found in stool — causing bloody diarrhea and hepatic periportal fibrosis. S. japonicum inhabits the superior mesenteric veins, produces eggs with only a rudimentary small lateral knob (not a prominent spine), and is also found in stool. Both S. mansoni and S. japonicum eggs are detectable on stool O&P; S. haematobium eggs are found in urine, not stool.",
+      "keypoints": [
+        "⭐ S. haematobium: terminal-spined egg in URINE → hematuria → bladder SCC (chronic); Africa, Middle East",
+        "⭐ S. mansoni: lateral-spined egg in STOOL → bloody diarrhea → hepatic periportal (pipestem) fibrosis",
+        "S. japonicum: rudimentary lateral knob in STOOL → most eggs per worm; greatest risk of hepatosplenic disease",
+        "All Schistosoma: acquired via cercariae penetrating skin in freshwater; Treatment: praziquantel"
+      ]
+    },
+    {
+      "id": "q018",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A 25-year-old woman presents with a 4-week history of explosive, profuse watery diarrhea, abdominal cramping, and nausea following a hiking trip in Vermont. She reports drinking from a brook. Her stool O&P reveals oval cysts measuring 10 µm with 4 nuclei and a smooth, thin wall. No trophozoites are seen in this formed stool sample. Which of the following morphological features of the trophozoite stage would be expected if diarrheal stool had been submitted instead?",
+      "choices": [
+        "Trophozoite with ingested erythrocytes and a central karyosome with peripheral chromatin granules",
+        "Binucleate trophozoite with fragmented chromatin and no identifiable cyst stage",
+        "Large ciliated trophozoite with a kidney-shaped macronucleus and a smaller micronucleus",
+        "Pear-shaped trophozoite with two nuclei, four pairs of flagella, and a large ventral sucker",
+        "Trophozoite measuring 2–3 µm residing intracellularly beneath the brush-border cell membrane"
+      ],
+      "answer": 3,
+      "explanation": "Giardia lamblia cysts in formed stool are oval, thin-walled, measure 8–12 µm, and contain 4 nuclei. In diarrheal stool, the trophozoite stage is typically found: a pear-shaped (stingray-shaped) organism measuring 9–21 µm with two nuclei, four pairs of flagella, and a large ventral sucker used for attachment to intestinal epithelium — classically described as an 'owl face' or 'falling leaf motility' on trichrome stain. Trophozoites with ingested RBCs describe E. histolytica. Binucleate trophozoites with no cyst stage describe Dientamoeba fragilis. A large ciliated trophozoite with a macronucleus describes Balantidium coli. Intracellular brush-border organisms describe Cryptosporidium, which does not produce trophozoites visible on standard O&P wet mount.",
+      "keypoints": [
+        "⭐ Giardia cyst (formed stool): 8–12 µm, oval, thin-walled, 4 nuclei",
+        "⭐ Giardia trophozoite (diarrheal stool): 9–21 µm, pear-shaped, 2 nuclei, 4 pairs of flagella, ventral sucker; 'owl-face' on stain",
+        "Cysts are the infectious stage; resistant to chlorine and standard filtration; endemic in beaver populations (zoonosis)",
+        "Diagnosis: antigen detection EIA has higher sensitivity than microscopy alone"
+      ]
+    },
+    {
+      "id": "q019",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 35-year-old man with no significant medical history presents with right upper quadrant pain, fever, and point tenderness over the liver. He recently traveled to rural India. Liver ultrasound reveals a single large hypoechoic lesion in the right lobe. Serology is positive. He recalls an episode of bloody diarrhea 3 months prior that resolved without treatment. Which of the following best describes how this organism reached the liver from the intestine?",
+      "choices": [
+        "Cysts are transported hematogenously from the colonic lumen directly to the hepatic sinusoids",
+        "Larvae penetrate the intestinal wall and travel via the thoracic duct to the hepatic artery",
+        "Adult worms migrate through the ileocecal valve into the portal vein during febrile illness",
+        "Oocysts sporulate in the portal bloodstream and release sporozoites that invade hepatocytes",
+        "Trophozoites penetrate the colonic mucosa, enter mesenteric venules, and are carried via the portal circulation to the liver"
+      ],
+      "answer": 4,
+      "explanation": "Entamoeba histolytica trophozoites — the pathologic stage — can penetrate the colonic mucosa via their cytolytic lectin-mediated activity. Once in the submucosa, they gain access to mesenteric venules and are transported via the portal circulation to the liver, where they cause liquefaction necrosis, producing the classic amebic liver abscess. This presents as RUQ pain, fever, and point tenderness, typically developing within 5 months of intestinal infection. Approximately 5% of symptomatic intestinal infections have extraintestinal spread. Serological testing is the preferred diagnostic modality for extraintestinal amebiasis (stool O&P may be negative). Cysts are never transported hematogenously — only trophozoites are invasive. Larvae traveling via the thoracic duct describes helminths, not protozoa.",
+      "keypoints": [
+        "⭐ Amebic liver abscess: trophozoites travel portal circulation → liquefaction necrosis of liver (RUQ pain, fever, point tenderness)",
+        "⭐ Serology preferred for extraintestinal amebiasis; stool O&P may be negative at this stage",
+        "Pulmonary amebiasis: extension through diaphragm from hepatic abscess — rare",
+        "Treatment: metronidazole for invasive disease followed by paromomycin to eliminate luminal cysts"
+      ]
+    },
+    {
+      "id": "q020",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Epidemiology",
+      "stem": "A physician evaluates two patients in a refugee camp with limited access to clean water. Patient A has diarrhea, and stool O&P reveals oval cysts with 4 nuclei and centrally located karyosomes with peripheral chromatin. Patient B has diarrhea with oocysts that stain acid-fast but are twice the size of Cryptosporidium. The physician notes that both organisms are resistant to standard water chlorination. Which of the following correctly pairs each patient's infection with a statement about the water treatment implications?",
+      "choices": [
+        "Patient A has Giardia lamblia (cysts eliminated by boiling but not chlorination); Patient B has Cryptosporidium parvum (oocysts eliminated by chlorination)",
+        "Patient A has Entamoeba histolytica (cysts eliminated by UV light only); Patient B has Cyclospora cayetanensis (oocysts eliminated by boiling only)",
+        "Patient A has Giardia lamblia (cysts eliminated by filtration but not boiling); Patient B has Cystoisospora belli (oocysts eliminated by standard chlorination)",
+        "Patient A has Entamoeba histolytica (cysts killed by temperatures above 20°C); Patient B has Cryptosporidium parvum (oocysts eliminated by filtration if membranes are intact)",
+        "Patient A has Entamoeba histolytica (cysts survive chlorination and temperatures up to 55°C); Patient B has Cyclospora cayetanensis (oocysts not eliminated by chlorination; requires filtration)"
+      ],
+      "answer": 4,
+      "explanation": "Patient A's cysts with 4 nuclei and centrally placed karyosomes with peripheral chromatin are characteristic of Entamoeba histolytica. Per Abraham's lecture notes, E. histolytica cysts survive environmental temperatures up to 55°C and are resistant to chlorinated drinking water — control relies on proper fecal disposal, water filtration, and handwashing. Patient B's acid-fast oocysts twice the size of Cryptosporidium (8–10 µm) identify Cyclospora cayetanensis, whose oocysts are also not eliminated by chlorination and require filtration for water purification. These environmental survival characteristics make both organisms particularly problematic in resource-limited settings. Cryptosporidium oocysts are also chlorine-resistant but are smaller (4–5 µm). Giardia cysts are chlorine-resistant but are inactivated by boiling.",
+      "keypoints": [
+        "⭐ E. histolytica cysts: survive chlorination and up to 55°C; control requires filtration + sanitation",
+        "⭐ Cyclospora and Cryptosporidium oocysts: resistant to chlorine; require filtration (intact membranes) for water safety",
+        "Giardia cysts: chlorine-resistant; inactivated by boiling; zoonotic reservoir in beavers",
+        "Boiling water reliably kills all intestinal parasitic cysts and oocysts — the most universally effective field method"
+      ]
+    },
+    {
+      "id": "q021",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 10-year-old boy in rural Nigeria presents with pallor, failure to thrive, and a protuberant abdomen. Stool O&P reveals large (60 × 45 µm) mammillated, corticated eggs. The physician also notes a productive cough with sputum. Sputum examination reveals eosinophils. The boy's mother reports that this is a new infection. Which of the following best characterizes why the pulmonary findings in this primary infection differ from those expected in a previously sensitized individual?",
+      "choices": [
+        "In primary infection, larvae encyst in the lungs and cause a chronic granuloma; in subsequent infections, larvae bypass the pulmonary circulation entirely",
+        "In primary infection, the cough reflex is suppressed by larval proteases; in subsequent infections, larvae are directly cytotoxic to alveolar macrophages",
+        "In primary infection, larval migration through the liver and lungs provokes minimal inflammatory change; in subsequent infections, sensitized hosts mount an intense eosinophilic granulomatous response causing Löffler's syndrome",
+        "In both primary and subsequent infections, the pulmonary response is identical; severity depends only on worm burden",
+        "In primary infection, larvae remain in the intestinal lumen and never migrate; pulmonary findings indicate a separate pulmonary pathogen"
+      ],
+      "answer": 2,
+      "explanation": "Ascaris lumbricoides larvae undergo obligate hepatopulmonary migration regardless of prior infection status. However, the immune response differs critically by sensitization history. In primary (first) infections, the migration produces no remarkable inflammatory change because the host has not yet mounted an adaptive response to larval antigens. In subsequent (repeat) infections, the sensitized host mounts an intense eosinophilic and granulomatous response around migrating larvae in both the liver (focal eosinophilia, periportal fibrosis in heavy burden) and lungs (eosinophilic pneumonitis = Löffler's syndrome), characterized by shifting pulmonary infiltrates, peripheral eosinophilia, and productive cough containing eosinophils and larvae. The sputum eosinophils in this case suggest the boy has had prior exposure, consistent with the high prevalence in endemic areas.",
+      "keypoints": [
+        "⭐ Primary Ascaris infection: larval migration clinically silent; subsequent infections → Löffler's syndrome (eosinophilic pneumonitis)",
+        "⭐ Löffler's syndrome: peripheral eosinophilia + shifting pulmonary infiltrates + eosinophils/larvae in sputum; self-resolves in ~2 weeks",
+        "Adult worm burden >50 can cause intestinal obstruction, especially with febrile illness that triggers worm migration",
+        "Eggs viable in soil for up to 6 years; worldwide distribution with ~1 billion infected; highest burden in tropics"
+      ]
+    },
+    {
+      "id": "q022",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Management",
+      "stem": "A 30-year-old woman from El Salvador recently diagnosed with Taenia solium intestinal infection (adult tapeworm) is to begin treatment with praziquantel. Her physician explains that the proglottids must be expelled in complete, intact form. Which of the following best explains the specific risk that would arise if proglottids were to disintegrate during treatment in a host with an intestinal T. solium infection?",
+      "choices": [
+        "Disintegrating proglottids release cercariae that penetrate mesenteric venules and cause hepatic fibrosis",
+        "Disintegrating proglottids stimulate mast cell degranulation and anaphylaxis from antigen spillage",
+        "Disintegrating proglottids produce proteases that digest the intestinal mucosa, creating a portal of entry for enteric bacteria",
+        "Disintegrating proglottids release eggs into the intestinal lumen, which can hatch and release oncospheres that penetrate the gut wall and cause cysticercosis in the same host",
+        "Disintegrating proglottids release metacercariae that encyst in skeletal muscle causing trichinosis-like myopathy"
+      ],
+      "answer": 3,
+      "explanation": "Taenia solium is uniquely dangerous because humans can serve as both the definitive host (adult intestinal tapeworm from eating pork cysticerci) and the intermediate host (cysticercosis from ingesting T. solium eggs). If proglottids disintegrate during treatment, the released eggs — already fully developed and immediately infective — are exposed to the intestinal environment where they can hatch, release hexacanth oncospheres, penetrate the intestinal wall, and disseminate hematogenously to the CNS, muscle, and other tissues, causing cysticercosis (external autoinfection within the intestine). This is why praziquantel is used to paralyze and expel proglottids intact, and why antiemetics are sometimes co-administered. Cercariae and metacercariae are stages of trematodes (flukes), not cestodes.",
+      "keypoints": [
+        "⭐ T. solium proglottid disintegration → egg release → internal autoinfection → cysticercosis (including neurocysticercosis)",
+        "⭐ Praziquantel goal: paralyze and expel proglottids INTACT to prevent egg spillage in the intestine",
+        "This risk is unique to T. solium — T. saginata does NOT cause cysticercosis in humans",
+        "Neurocysticercosis treatment: albendazole ± dexamethasone ± anti-epileptics; surgery for obstructive hydrocephalus"
+      ]
+    },
+    {
+      "id": "q023",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A research parasitologist is comparing the scolex morphology of three tapeworm species. Organism A has 4 cup-shaped suckers and a rostellum armed with a double crown of hooks. Organism B has 4 cup-shaped suckers but no rostellum and no hooks. Organism C has two longitudinal groove-like bothria and no suckers. Which of the following correctly identifies organisms A, B, and C respectively?",
+      "choices": [
+        "Taenia solium; Taenia saginata; Diphyllobothrium latum",
+        "Taenia saginata; Taenia solium; Diphyllobothrium latum",
+        "Taenia solium; Diphyllobothrium latum; Taenia saginata",
+        "Diphyllobothrium latum; Taenia solium; Taenia saginata",
+        "Hymenolepis nana; Taenia saginata; Diphyllobothrium latum"
+      ],
+      "answer": 0,
+      "explanation": "Scolex morphology is a high-yield distinguishing feature of tapeworms. Taenia solium (pork tapeworm) has 4 suckers and an armed rostellum with a double crown of hooks — the 'armed scolex' — enabling firm attachment. Taenia saginata (beef tapeworm) has 4 suckers but no rostellum and no hooks — the 'unarmed scolex.' Diphyllobothrium latum (fish tapeworm) has neither suckers nor hooks; instead, it has two longitudinal groove-like structures called bothria that allow it to grip the intestinal mucosa. These three morphological patterns are tested as a comparative group on Step 1 and can be remembered as: T. solium = armed; T. saginata = unarmed; D. latum = grooved (bothria).",
+      "keypoints": [
+        "⭐ T. solium scolex: 4 suckers + double crown of hooks (armed rostellum)",
+        "⭐ T. saginata scolex: 4 suckers, NO hooks (unarmed) — most reliable differentiator from T. solium at the scolex level",
+        "⭐ D. latum scolex: 2 longitudinal bothria (grooves), no suckers, no hooks",
+        "Hymenolepis nana scolex: 4 suckers + single crown of hooks; smallest tapeworm infecting humans"
+      ]
+    },
+    {
+      "id": "q024",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A medical student is reviewing stool O&P slides from five patients. Slide 1 shows rhabditiform larvae with a short buccal cavity in fresh stool. Slide 2 shows thin-shelled oval eggs with a 4-cell embryo. Slide 3 shows D-shaped, flattened-on-one-side eggs with an albuminous coat from a cellulose tape preparation. Slide 4 shows barrel-shaped eggs with bipolar mucus plugs. Slide 5 shows large, mammillated, corticated oval eggs. Which of the following correctly matches each slide to the causative organism in the correct order?",
+      "choices": [
+        "Hookworm; Strongyloides stercoralis; Enterobius vermicularis; Ascaris lumbricoides; Trichuris trichiura",
+        "Strongyloides stercoralis; Ascaris lumbricoides; Enterobius vermicularis; Trichuris trichiura; hookworm",
+        "Hookworm; Enterobius vermicularis; Strongyloides stercoralis; Trichuris trichiura; Ascaris lumbricoides",
+        "Strongyloides stercoralis; hookworm; Enterobius vermicularis; Trichuris trichiura; Ascaris lumbricoides",
+        "Strongyloides stercoralis; hookworm; Trichuris trichiura; Enterobius vermicularis; Ascaris lumbricoides"
+      ],
+      "answer": 3,
+      "explanation": "Each nematode has a pathognomonic O&P morphology. Slide 1 (rhabditiform larvae, short buccal cavity in fresh stool) = Strongyloides stercoralis — the only nematode that routinely sheds larvae rather than eggs in fresh stool; the short buccal cavity distinguishes it from hookworm larvae. Slide 2 (thin-shelled oval eggs, 4-cell embryo) = hookworm (Necator/Ancylostoma) — eggs passed in stool; larvae hatch in improperly stored stool and have a long buccal cavity. Slide 3 (D-shaped, flattened-on-one-side eggs from cellulose tape) = Enterobius vermicularis (pinworm) — eggs laid on perianal skin, recovered by tape test not standard O&P. Slide 4 (barrel-shaped with bipolar mucus plugs) = Trichuris trichiura (whipworm). Slide 5 (large mammillated corticated eggs) = Ascaris lumbricoides.",
+      "keypoints": [
+        "⭐ Strongyloides: larvae (short buccal cavity) in fresh stool; hookworm larvae (long buccal cavity) only if stool improperly stored",
+        "⭐ Hookworm: thin-shelled oval egg, 4-cell embryo; Trichuris: barrel-shaped + bipolar plugs; Ascaris: mammillated corticated egg",
+        "⭐ Enterobius: D-shaped egg from cellulose tape — NOT found on standard stool O&P",
+        "All five nematodes cause eosinophilia during tissue-invasive larval stages"
+      ]
+    },
+    {
+      "id": "q025",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 22-year-old male Peace Corps volunteer in sub-Saharan Africa presents after wading in a river with a pruritic, papular rash on his feet and ankles ('swimmer's itch') followed 6 weeks later by bloody diarrhea. Stool O&P reveals eggs with a prominent lateral spine measuring approximately 115 × 65 µm. Peripheral eosinophilia is present. Which of the following correctly describes the route by which the infectious stage of this organism enters the human host?",
+      "choices": [
+        "Cercariae released from freshwater snails penetrate intact skin without requiring ingestion",
+        "Embryonated eggs in contaminated water are ingested and hatch in the duodenum",
+        "Metacercariae encysted in raw freshwater fish are ingested and excyst in the small intestine",
+        "Infective larvae in contaminated soil penetrate the skin between toes following barefoot walking",
+        "Sporulated oocysts in contaminated water are ingested and release sporozoites that invade intestinal epithelium"
+      ],
+      "answer": 0,
+      "explanation": "Schistosoma species have a distinctive transmission route among helminths: free-swimming cercariae — released from freshwater snail intermediate hosts — directly penetrate intact human skin without requiring ingestion. This produces 'swimmer's itch' (cercarial dermatitis) at the site of penetration. The cercariae then transform into schistosomula, enter dermal capillaries, travel to the pulmonary vasculature, migrate to the portal circulation, and mature into adult worms in the mesenteric venules (S. mansoni) or vesical plexus (S. haematobium). The eggs found in this patient's stool (lateral spine) identify S. mansoni. This skin-penetration route — without any arthropod vector or ingestion — is unique among the trematodes causing GI disease. Metacercariae in raw fish describe Diphyllobothrium or liver flukes. Soil-transmitted larval penetration describes hookworm and Strongyloides.",
+      "keypoints": [
+        "⭐ Schistosoma transmission: cercariae from freshwater snails penetrate intact skin (no ingestion required) → 'swimmer's itch'",
+        "⭐ S. mansoni: lateral-spined egg in stool; S. haematobium: terminal-spined egg in urine; S. japonicum: rudimentary lateral knob in stool",
+        "Chronic S. mansoni: hepatic periportal (pipestem) fibrosis → portal hypertension; chronic S. haematobium: bladder SCC",
+        "Treatment: praziquantel (all species); prevention: avoid freshwater exposure in endemic areas"
+      ]
+    }
+  ]
+}
