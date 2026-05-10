@@ -1,0 +1,1196 @@
+{
+  "config": {
+    "title": "Lippincott Histology Ch13 - GI (JeffMD GI relevant)",
+    "subtitle": "Gastrointestinal tract histology: mucosa, gastric glands, intestinal specializations, lymphoid tissue, and large intestine",
+    "passingFraction": 0.75,
+    "tags": {
+      "gi": {
+        "label": "Gastrointestinal"
+      },
+      "immuno": {
+        "label": "Immunology/ID"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The gastrointestinal (GI) tract is compartmentalized into organs that are specialized for digestion of food and absorption of nutrients. Most variation and specialization along the length of the GI tract occur in which of the following tissue layers?",
+      "choices": [
+        "Epithelium of mucosa",
+        "Lamina propria",
+        "Muscularis externa",
+        "Muscularis mucosae",
+        "Submucosa"
+      ],
+      "answer": 0,
+      "explanation": "The GI tract is composed of four layers: mucosa, submucosa, muscularis externa, and serosa/adventitia. The mucosa is subdivided into lining epithelium, lamina propria, and muscularis mucosae. Lining epithelial cells regulate barrier functions, secretion of enzymes and hormones, and absorption of nutrients—all of which vary enormously from the esophagus to the rectum. The other layers exhibit regional variation but far less than the epithelium of the mucosa.",
+      "keypoints": [
+        "⭐ GI wall layers (mucosal → outermost): mucosa (epithelium + lamina propria + muscularis mucosae) → submucosa → muscularis externa → serosa/adventitia",
+        "⭐ Greatest histologic variation along GI tract = epithelium of mucosa (e.g., stratified squamous in esophagus → simple columnar with villi in small intestine → simple columnar without villi in colon)",
+        "Muscularis externa is relatively constant: inner circular + outer longitudinal smooth muscle throughout (exception: striated muscle in upper esophagus)",
+        "Serosa = peritoneal organs; adventitia = retroperitoneal organs (e.g., esophagus, duodenum, ascending/descending colon)"
+      ]
+    },
+    {
+      "id": "q002",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "During a small group discussion, you are asked to explain structural and functional differences between rugae, villi, microvilli, plicae circulares, teniae coli, and haustra. Rugae are found in which of the following segments of the GI tract?",
+      "choices": [
+        "Esophagus",
+        "Large intestine",
+        "Rectum/anal canal",
+        "Small intestine",
+        "Stomach"
+      ],
+      "answer": 4,
+      "explanation": "Rugae are longitudinal folds of the stomach wall that allow distension as the stomach fills with food. Ménétrier disease is characterized by enlarged rugae. Plicae circulares, villi, and microvilli are structural elaborations of the small intestine mucosa/submucosa that maximize absorptive surface area. Teniae coli are longitudinal bands of smooth muscle in the colon; haustra are large sacculations of the large intestine wall.",
+      "keypoints": [
+        "⭐ Surface area amplifiers: microvilli (600×) → villi (10×) → plicae circulares (3×) — all in small intestine",
+        "⭐ Rugae = stomach (allow distension); Plicae circulares = small intestine (best developed in jejunum); Haustra + Teniae coli = large intestine",
+        "Ménétrier disease: hyperplastic hypersecretory gastropathy with giant rugae → protein-losing enteropathy",
+        "Teniae coli = 3 equally spaced longitudinal bands of outer muscularis externa that gather colon into haustra"
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 70-year-old man undergoes chemotherapy for liver cancer, develops sepsis, and dies of multiorgan system failure. The patient's visceral organs are examined at autopsy. The plastic-embedded section shown in the image was obtained from what segment of the GI tract?",
+      "choices": [
+        "Appendix",
+        "Esophagus",
+        "Large intestine",
+        "Small intestine",
+        "Stomach"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch13/lippincott histo ch13 q3.png",
+      "imageAlt": "Plastic-embedded section of GI tract showing intestinal villi with columnar absorptive cells and goblet cells",
+      "imageCaption": "Plastic-embedded section of small intestine showing tall villi lined by columnar enterocytes with basal nuclei and interspersed goblet cells",
+      "explanation": "Histologic features of the small intestine include tall villi lined by columnar enterocytes with microvilli (brush border) and mucus-secreting goblet cells. The small intestine is the principal site for nutrient absorption. The appendix and large intestine lack villi and microvilli. Gastric mucosa features surface mucous cells and gastric pits, not villi. The esophagus is lined by stratified squamous epithelium.",
+      "keypoints": [
+        "⭐ Small intestine ID: villi + enterocytes with brush border + goblet cells; no villi = colon/appendix",
+        "⭐ Jejunum has the tallest/most numerous villi; ileum has shorter villi + Peyer patches",
+        "Enterocytes: tall columnar cells, basally placed nuclei, abundant microvilli (brush border) for absorption",
+        "Goblet cells: mucus-secreting; most numerous in ileum and colon, least numerous in duodenum"
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Examination of the lamina propria of the organ identified in Question 3 reveals which of the following key histologic features of the GI tract?",
+      "choices": [
+        "Brunner glands",
+        "Lacteals",
+        "Meissner plexuses",
+        "Myenteric plexuses",
+        "Pyloric glands"
+      ],
+      "answer": 1,
+      "explanation": "The lamina propria of the small intestine is characterized by large lymphatic channels called lacteals. Enterocytes take up dietary fatty acids, convert them to triglycerides, and package them into chylomicrons (with apolipoprotein B48) that enter the lacteals for transport via the thoracic duct to the systemic circulation. Brunner glands are submucosal glands in the proximal duodenum. Meissner and myenteric plexuses are located in the submucosa and muscularis externa, respectively.",
+      "keypoints": [
+        "⭐ Lacteals = central lymphatic vessels in each intestinal villus; transport dietary lipids (chylomicrons) to thoracic duct",
+        "⭐ Fat absorption pathway: fatty acids → enterocyte → triglycerides + cholesterol + ApoB48 → chylomicrons → lacteals → thoracic duct → left subclavian vein",
+        "Meissner (submucosal) plexus = sensory + motor to mucosa; Auerbach (myenteric) plexus = motor to muscularis externa",
+        "Brunner glands: submucosal glands exclusive to proximal duodenum; secrete bicarbonate-rich alkaline mucus"
+      ]
+    },
+    {
+      "id": "q005",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 69-year-old man with a history of gastroesophageal reflux develops a pulmonary saddle embolus and expires. The patient's esophagus is examined at autopsy (shown in the image). Which of the following types of epithelium lines the proximal portion of this autopsy specimen?",
+      "choices": [
+        "Pseudostratified columnar with cilia and goblet cells",
+        "Pseudostratified columnar with goblet cells",
+        "Simple columnar with goblet cells",
+        "Stratified squamous, keratinized",
+        "Stratified squamous, nonkeratinized"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch13/lippincott histo ch13 q5.png",
+      "imageAlt": "Gross specimen of esophagus showing normal pale squamous mucosa on left and irregular brownish Barrett mucosa with rugae on right",
+      "imageCaption": "Gross autopsy specimen of esophagus showing normal nonkeratinized stratified squamous mucosa (proximal, left) transitioning to Barrett intestinal metaplasia (distal, right) with adjacent gastric rugae",
+      "explanation": "The normal esophagus is lined throughout by nonkeratinized stratified squamous epithelium. This autopsy specimen shows evidence of chronic gastroesophageal reflux: the normal squamous mucosa on the left transitions to intestinal-type columnar epithelium with goblet cells (Barrett esophagus) on the right. The distal esophagus meets the stomach at the esophagogastric junction, where rugae are visible. Pseudostratified columnar epithelium lines the respiratory tract, not the esophagus.",
+      "keypoints": [
+        "⭐ Esophagus: nonkeratinized stratified squamous epithelium throughout (protective, not absorptive)",
+        "⭐ Barrett esophagus: chronic GERD → intestinal metaplasia (stratified squamous → simple columnar with goblet cells) in distal esophagus; risk factor for adenocarcinoma",
+        "Upper third esophagus muscularis externa = skeletal muscle; lower third = smooth muscle; middle third = mixed",
+        "Esophageal submucosal glands (mucous) present throughout; cardiac glands only at esophagogastric junction"
+      ]
+    },
+    {
+      "id": "q006",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "Microscopic examination of the distal portion of the autopsy specimen provided for Question 5 reveals intestine-like glandular epithelium with goblet cells. These histopathologic findings are associated with which of following adaptations to chronic persistent cell injury?",
+      "choices": [
+        "Atrophy",
+        "Dysplasia",
+        "Hyperplasia",
+        "Hypertrophy",
+        "Metaplasia"
+      ],
+      "answer": 4,
+      "explanation": "Metaplasia is the conversion of one differentiated cell type to another in response to chronic sublethal injury. In Barrett esophagus, the normal nonkeratinized stratified squamous epithelium is replaced by columnar epithelium with goblet cells (intestinal metaplasia) due to chronic acid reflux. Barrett esophagus is more resistant to acidic injury than squamous epithelium and represents an adaptive mechanism, but it carries significantly increased risk of esophageal adenocarcinoma. Dysplasia refers to disordered cellular growth with nuclear atypia, not a type change.",
+      "keypoints": [
+        "⭐ Metaplasia = conversion of one cell type to another (via stem cell reprogramming), NOT direct transformation; reversible if stimulus removed",
+        "⭐ Barrett esophagus: squamous → intestinal metaplasia (goblet cells required for diagnosis); GERD → reflux esophagitis → Barrett → dysplasia → adenocarcinoma",
+        "Cellular adaptations to sublethal injury: atrophy (↓ cell size/number), hypertrophy (↑ size), hyperplasia (↑ number), metaplasia (type change), dysplasia (disordered growth = premalignant)",
+        "Dysplasia is NOT a type of metaplasia — it involves nuclear atypia, pleomorphism, abnormal mitoses"
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A section of a normal distal esophagus is examined in the histology laboratory. Identify the layer of the GI tract indicated by the arrows (shown in the image).",
+      "choices": [
+        "Lamina propria",
+        "Mucosa",
+        "Muscularis externa",
+        "Muscularis mucosae",
+        "Submucosa"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch13/lippincott histo ch13 q7.png",
+      "imageAlt": "H&E section of distal esophagus showing all wall layers with arrows indicating a thin band of smooth muscle",
+      "imageCaption": "H&E section of normal distal esophagus showing (from lumen outward) stratified squamous epithelium, lamina propria, muscularis mucosae (arrows), submucosa with esophageal glands, and muscularis externa with myenteric plexus (oval)",
+      "explanation": "The muscularis mucosae is a thin layer of smooth muscle fibers running longitudinally beneath the lamina propria in the esophagus. Contraction of this layer generates ripples in the mucosa that facilitate food movement during swallowing. A myenteric plexus (Auerbach) is visible between the inner circular and outer longitudinal layers of the muscularis externa (oval). The mucosa (choice B) encompasses three sublayers: surface epithelium + lamina propria + muscularis mucosae. The submucosa is the dense irregular connective tissue between muscularis mucosae and muscularis externa.",
+      "keypoints": [
+        "⭐ Muscularis mucosae = thin smooth muscle layer at base of mucosa; contraction generates mucosal folds to aid peristalsis",
+        "GI wall layers mnemonic (mucosal to serosal): Epithelium → Lamina Propria → Muscularis Mucosae → Submucosa → Muscularis Externa → Serosa",
+        "Auerbach (myenteric) plexus = between inner circular + outer longitudinal muscularis externa; controls peristalsis",
+        "Meissner (submucosal) plexus = in submucosa; controls glandular secretion and muscularis mucosae"
+      ]
+    },
+    {
+      "id": "q008",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 45-year-old man complains of difficulty swallowing and a tendency to regurgitate his food. Further studies demonstrate a complete absence of peristalsis and failure of the lower esophageal sphincter to relax upon swallowing. These clinicopathologic findings are explained as a deficiency (or absence) of which of the following structures in the distal esophagus?",
+      "choices": [
+        "Ganglion cells in the Auerbach plexus",
+        "Ganglion cells in the Meissner plexus",
+        "Presynaptic parasympathetic nerves",
+        "Presynaptic sympathetic nerves",
+        "Smooth muscle in the muscularis externa"
+      ],
+      "answer": 0,
+      "explanation": "This patient has achalasia, characterized by failure of LES relaxation and absent peristalsis, due to loss or absence of inhibitory ganglion cells in the myenteric (Auerbach) plexus of the distal esophagus. These postsynaptic parasympathetic neurons normally release NO and VIP to cause LES relaxation. The Meissner plexus (choice B) controls secretion and muscularis mucosae, not peristalsis. Smooth muscle itself (choice E) is intact in achalasia.",
+      "keypoints": [
+        "⭐ Achalasia: failure of LES relaxation + absent esophageal peristalsis → food accumulation → dysphagia to solids AND liquids (unlike mechanical obstruction = solids first)",
+        "⭐ Cause: loss of inhibitory ganglion cells (VIP/NO-producing) in Auerbach plexus; idiopathic OR Chagas disease (Trypanosoma cruzi)",
+        "Manometry: ↑ LES resting pressure, incomplete relaxation with swallowing, aperistalsis",
+        "Treatment: pneumatic dilation, botulinum toxin injection, laparoscopic Heller myotomy"
+      ]
+    },
+    {
+      "id": "q009",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Digital slides illustrating various organs of the GI tract are examined in the histology laboratory. The specimen shown in the image was obtained from which of the following anatomic locations?",
+      "choices": [
+        "Esophagogastric junction",
+        "Fundus of the stomach",
+        "Gastroduodenal junction",
+        "Ileocecal junction",
+        "Pylorus of the stomach"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch13/lippincott histo ch13 q9.png",
+      "imageAlt": "H&E section showing abrupt transition from stratified squamous epithelium to mucinous columnar epithelium with gastric pits, with lymphoid tissue in the submucosa",
+      "imageCaption": "H&E of esophagogastric junction showing abrupt transition from nonkeratinized stratified squamous epithelium (right) to mucinous columnar epithelium with gastric pits (left); lymphoid tissue visible in submucosa",
+      "explanation": "The esophagogastric junction is identified histologically by an abrupt transition from nonkeratinized stratified squamous epithelium (esophagus) to mucinous columnar epithelium with gastric pits (stomach). Diffuse lymphatic tissue in the submucosa provides immune surveillance at this junction. The gastroduodenal junction (choice C) is characterized by submucosal Brunner glands. The fundus and pylorus show gastric glands but no stratified squamous epithelium.",
+      "keypoints": [
+        "⭐ Esophagogastric (Z-line) junction: abrupt squamous-to-columnar transition; histologically abrupt unlike gradual transitions elsewhere",
+        "Barrett esophagus = pathologic proximal displacement of this junction with intestinal metaplasia (goblet cells present above Z-line)",
+        "Gastroduodenal junction: identified by submucosal Brunner glands on duodenal side",
+        "Ileocecal junction: identified by transition from small intestinal mucosa (villi) to large intestinal mucosa (no villi), with lymphoid tissue"
+      ]
+    },
+    {
+      "id": "q010",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The organs identified in Question 9 are examined at higher magnification. Identify the structures indicated by the arrows (shown in the image).",
+      "choices": [
+        "Brunner glands",
+        "Cardiac glands",
+        "Gastric pits",
+        "Intestinal glands",
+        "Pyloric glands"
+      ],
+      "answer": 2,
+      "image": "/images/histo_ch13/lippincott histo ch13 q10.png",
+      "imageAlt": "Higher magnification of gastric mucosa showing surface mucous cells interrupted by deep depressions (gastric pits) with a thick layer of visible mucus at the surface",
+      "imageCaption": "Higher magnification of gastric mucosa at the esophagogastric junction showing thick surface mucus layer secreted by columnar mucous cells, interrupted by gastric pits (arrows) that drain underlying cardiac glands",
+      "explanation": "At higher magnification, the gastric surface epithelium is interrupted by deep depressions called gastric pits, into which gastric glands empty their secretions. The surface mucous cells are filled with mucinous granules occupying most of the apical cytoplasm. The thick mucus gel-like coating protects surface epithelial cells from acidic gastric juice and mechanical abrasion. Cardiac glands (choice B) are present in the lamina propria and open into the bottom of these pits at the esophagogastric junction.",
+      "keypoints": [
+        "⭐ Gastric pit = invagination of surface epithelium into lamina propria; gastric glands open into the base of pits",
+        "Gastric regions differ by gland type: cardia → cardiac glands (mucous); fundus/body → fundic (oxyntic) glands (parietal + chief cells); pylorus → pyloric glands (mucous + G cells)",
+        "Surface mucous cells: columnar, apical mucin granules, line pits and surface; secrete neutral pH mucus + bicarbonate",
+        "Gastric pit depth varies: shallow in fundus/body, deeper in antrum/pylorus"
+      ]
+    },
+    {
+      "id": "q011",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Biochemistry",
+      "stem": "The visible mucus identified in Question 10 contains a high concentration of which of the following biomolecules?",
+      "choices": [
+        "Bicarbonate and potassium",
+        "Hydrochloric acid",
+        "Lysozyme",
+        "Polypeptide hormones",
+        "Proteases"
+      ],
+      "answer": 0,
+      "explanation": "Surface mucous cells secrete heavily glycosylated mucins along with bicarbonate ions and potassium. These create an alkaline pH microenvironment near the epithelial surface that neutralizes gastric acid and protects the mucosa. Hydrochloric acid (choice B) is generated by parietal cells. Lysozyme (choice C) and proteases (choice E) are secreted by Paneth cells in the small intestine. Polypeptide hormones (choice D) are secreted by enteroendocrine cells.",
+      "keypoints": [
+        "⭐ Gastric mucosal barrier: surface mucous cells secrete mucus (glycoproteins) + HCO3⁻ → alkaline gel layer (pH ~7 at epithelial surface despite luminal pH ~2)",
+        "Prostaglandins (PGE2) maintain mucus layer thickness and bicarbonate secretion → NSAIDs inhibit COX → ↓ PGs → erosion of mucosal barrier",
+        "Parietal cells: HCl + intrinsic factor; Chief cells: pepsinogen; Enteroendocrine cells (G cells): gastrin; Mucous cells: mucus + HCO3⁻",
+        "Treatment principle: PPI → block H+/K+ ATPase on parietal cells → ↓ HCl → allow mucosal healing"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 58-year-old woman with a history of indigestion after meals and \"heartburn\" presents with upper abdominal pain. She is currently being treated with proton pump inhibitors for gastroesophageal reflux disease (GERD). Which of the following types of epithelial cells has proton pumps and generates hydrochloric acid (HCl) within the lumen of the stomach?",
+      "choices": [
+        "Chief cells",
+        "Enterocytes",
+        "Goblet cells",
+        "Paneth cells",
+        "Parietal cells"
+      ],
+      "answer": 4,
+      "explanation": "Parietal (oxyntic) cells in the fundic glands generate HCl via an H+/K+ ATPase (proton pump) in their intracellular canaliculi. Proton pump inhibitors (omeprazole, pantoprazole) irreversibly block this enzyme, reducing acid secretion. Parietal cells also secrete intrinsic factor required for vitamin B12 absorption. Chief cells secrete pepsinogen. Goblet cells and enterocytes are intestinal absorptive cells. Paneth cells secrete antimicrobial proteins (lysozyme, defensins).",
+      "keypoints": [
+        "⭐ Parietal cells: large, round, intensely eosinophilic; intracellular canaliculi; H+/K+ ATPase → HCl; ALSO secrete intrinsic factor",
+        "⭐ PPIs (omeprazole, etc.): irreversibly inhibit H+/K+ ATPase on parietal cells; require acid activation (prodrug); best taken before meals",
+        "Parietal cell stimulation: gastrin (via CCK-B receptor), histamine (H2 receptor), acetylcholine (M3 receptor)",
+        "H2 blockers (ranitidine, famotidine): block histamine H2 receptor → ↓ HCl; less potent than PPIs"
+      ]
+    },
+    {
+      "id": "q013",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "During a clinical conference, you are asked to discuss physiological mechanisms that protect the stomach from the acidity of gastric juice and from mechanical abrasion. Which of the following small molecules plays an important role in maintaining bicarbonate secretion by surface mucous cells and increasing the thickness of the surface mucus layer in the stomach?",
+      "choices": [
+        "Histamine",
+        "Kinins",
+        "Nitric oxide",
+        "Prostaglandins",
+        "Serotonin"
+      ],
+      "answer": 3,
+      "explanation": "Prostaglandins (especially PGE2) are the key regulators of the physiologic gastric mucosal barrier. They are synthesized in the gastric mucosa and stimulate bicarbonate secretion, increase mucus layer thickness, and maintain mucosal blood flow. NSAIDs inhibit cyclooxygenase (COX-1/COX-2), reducing prostaglandin synthesis and compromising the mucosal barrier, which can lead to acute erosive gastritis. Histamine (choice A) stimulates acid secretion via H2 receptors on parietal cells rather than protecting the mucosa.",
+      "keypoints": [
+        "⭐ Prostaglandins (PGE2) = key gastric cytoprotectants: ↑ mucus, ↑ HCO3⁻, ↑ mucosal blood flow; NSAIDs → ↓ PGs → mucosal injury",
+        "⭐ Misoprostol (PGE1 analog): used to prevent NSAID-induced ulcers; also used for cervical ripening/labor induction",
+        "Sucralfate: aluminium sucrose sulfate → forms protective coating over ulcer base; does NOT neutralize acid",
+        "COX-1 = constitutive (gastric protection, platelet aggregation); COX-2 = inducible (inflammation); selective COX-2 inhibitors (celecoxib) spare GI mucosa but ↑ CV risk"
+      ]
+    },
+    {
+      "id": "q014",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "You are analyzing patterns of stem cell renewal and terminal differentiation in the GI tract. As part of your research, you generate monoclonal antibodies that identify specific populations of gastric epithelial cells. One of your antibodies recognizes a protease found in zymogen granules. Which of the following cells is characterized by the presence of zymogen secretory granules?",
+      "choices": [
+        "Chief cells",
+        "Enteroendocrine cells",
+        "Mucous cells",
+        "Parietal cells",
+        "Plasma cells"
+      ],
+      "answer": 0,
+      "explanation": "Chief (peptic) cells store pepsinogen in intracellular zymogen secretory granules. Upon contact with acidic gastric juice, pepsinogen is autocatalytically cleaved to pepsin—an aspartate protease that initiates protein digestion. Chief cells are located in the deeper parts of fundic glands and have abundant rough ER (basophilic cytoplasm). Parietal cells (choice D) are eosinophilic and contain intracellular canaliculi, not zymogen granules. Enteroendocrine cells (choice B) have small basal granules containing polypeptide hormones.",
+      "keypoints": [
+        "⭐ Chief cells: basophilic, abundant RER, apical zymogen granules containing pepsinogen → activated to pepsin at pH < 2",
+        "Pepsin = aspartate protease; inactive at pH > 5 (inactivated in duodenum by bicarbonate from Brunner glands and pancreas)",
+        "Zymogen granules: membrane-bound secretory vesicles containing inactive enzyme precursors (zymogens); also found in pancreatic acinar cells",
+        "Gastric gland cell types by location: isthmus (stem cells), neck (mucous neck cells), fundus/base (chief cells), neck-mid region (parietal cells), throughout (enteroendocrine cells)"
+      ]
+    },
+    {
+      "id": "q015",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Another of your monoclonal antibodies identifies proliferating stem cells in the gastric mucosa. You hope to use this antibody to isolate these progenitor cells using fluorescence-activated cell sorting (FACS). Which of the following locations in the mucosa provides a niche for multipotent gastric stem cells?",
+      "choices": [
+        "Fundus of glandular epithelium",
+        "Gastric pit",
+        "Isthmus of glandular epithelium",
+        "Lamina propria",
+        "Neck of glandular epithelium"
+      ],
+      "answer": 2,
+      "explanation": "Gastric stem cells reside in the isthmus—the short connecting segment between the gastric pit and the neck of the glandular epithelium. Cells destined to become mucous cells migrate upward toward the gastric pit, while cells that will become parietal and chief cells migrate downward toward the fundus of the gland. The neck region (choice E) connects the isthmus to the gland fundus but is not the primary stem cell niche. Lamina propria (choice D) is connective tissue and does not harbor epithelial stem cells.",
+      "keypoints": [
+        "⭐ Gastric gland stem cell niche = isthmus (short zone connecting pit to glandular neck); bidirectional migration from isthmus",
+        "Upward migration: → mucous cells (replenish surface epithelium every 3-7 days)",
+        "Downward migration: → parietal cells, chief cells, enteroendocrine cells (longer lifespan, months to years)",
+        "Small intestinal stem cells: base of crypts of Lieberkühn (Wnt/Notch signaling, Lgr5+ stem cells)"
+      ]
+    },
+    {
+      "id": "q016",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 25-year-old woman suffers massive trauma and internal bleeding in a motorcycle accident and expires. The patient's visceral organs are examined at autopsy. Identify the segment of the GI tract shown in the image.",
+      "choices": [
+        "Cardia of the stomach",
+        "Esophagogastric junction",
+        "Fundus of the stomach",
+        "Gastroduodenal junction",
+        "Ileocecal junction"
+      ],
+      "answer": 2,
+      "image": "/images/histo_ch13/lippincott histo ch13 q16.png",
+      "imageAlt": "H&E section of fundic stomach showing fundic (oxyntic) glands with parietal cells in the neck and chief cells at the base emptying into gastric pits",
+      "imageCaption": "Low-power H&E section of fundic stomach showing branched tubular fundic glands containing abundant parietal cells (large eosinophilic, mid-gland) and chief cells (basophilic, base) emptying into shallow gastric pits",
+      "explanation": "The fundus and body of the stomach are identified by fundic (oxyntic) glands populated by large eosinophilic parietal cells in the neck region and basophilic chief cells at the base, emptying into shallow gastric pits. These glands produce nearly 2 L of gastric juice per day. The cardia and pylorus contain predominantly mucous glands without parietal or chief cells. The gastroduodenal junction is identified by Brunner glands in the submucosa.",
+      "keypoints": [
+        "⭐ Fundic (oxyntic) glands = in fundus + body; contain parietal cells (HCl + IF) and chief cells (pepsinogen); highest density of acid-secreting cells",
+        "Gastric regions by gland type: Cardia → cardiac glands (mucous only); Fundus/Body → fundic/oxyntic glands; Pyloric antrum → pyloric glands (mucous + G cells/gastrin)",
+        "Chief cells = basophilic, basal (bottom of gland); Parietal cells = eosinophilic, mid-gland (neck); both absent in cardia and pylorus",
+        "Clinical: parietal cell mass determines maximal acid output; H. pylori and NSAIDs preferentially affect antrum and body, respectively"
+      ]
+    },
+    {
+      "id": "q017",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The organ identified in Question 16 is examined at higher magnification (shown in the image). Name the round eosinophilic cells in these mucosal glands.",
+      "choices": [
+        "Chief cells",
+        "Enteroendocrine cells",
+        "Mucous cells",
+        "Paneth cells",
+        "Parietal cells"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch13/lippincott histo ch13 q17.png",
+      "imageAlt": "High magnification of fundic glands showing large round eosinophilic parietal cells in the mid-gland and basophilic chief cells at the base",
+      "imageCaption": "High magnification of fundic glands showing large round eosinophilic parietal cells (arrows) in the neck region and smaller basophilic chief cells clustered at the base of the glands",
+      "explanation": "Parietal cells are large, round cells with intensely eosinophilic (pink) cytoplasm due to their abundance of mitochondria that power the H+/K+ ATPase. They have extensive intracellular membrane folds (canaliculi) that provide increased surface area for proton secretion. They are located primarily in the neck-middle region of fundic glands. Chief cells (choice A) are basophilic (abundant RER). Mucous cells (choice C) have pale mucinous cytoplasm. Paneth cells (choice D) are found only at the base of intestinal crypts.",
+      "keypoints": [
+        "⭐ Parietal cells: large, round, INTENSELY eosinophilic (abundant mitochondria + intracellular canaliculi); secrete HCl + intrinsic factor",
+        "⭐ Autoimmune gastritis: antibodies against parietal cells → atrophic gastritis + ↓ intrinsic factor → pernicious anemia (vitamin B12 malabsorption)",
+        "Parietal cell canaliculi: extensive membrane folds → ↑ surface area for H+/K+ ATPase; activated by gastrin, histamine, ACh",
+        "Eosinophilic cytoplasm = lots of mitochondria (energy-intensive HCl production); also numerous smooth ER in activated state"
+      ]
+    },
+    {
+      "id": "q018",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "For the autopsy specimen described in Question 17, identify the basophilic cells clustered at the base of the gastric glands (lower right corner, shown in the image).",
+      "choices": [
+        "Chief cells",
+        "Enteroendocrine cells",
+        "Mucous cells",
+        "Paneth cells",
+        "Parietal cells"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch13/lippincott histo ch13 q17.png",
+      "imageAlt": "High magnification of fundic glands showing large round eosinophilic parietal cells and basophilic chief cells at the gland base",
+      "imageCaption": "High magnification of fundic glands; chief cells (basophilic, lower right) are clustered at the base of glands, identifiable by their basophilic cytoplasm (abundant RER) and apical zymogen granules",
+      "explanation": "Chief (peptic) cells are located at the base of fundic glands and appear basophilic due to their abundant rough endoplasmic reticulum (reflecting their role as protein secretory cells). They store pepsinogen in apical zymogen granules. Pepsin (the active enzyme) cleaves proteins to peptides, which are further digested in the small intestine. Enteroendocrine cells would be difficult to identify without special stains. Paneth cells (choice D) are intestinal cells with large intensely eosinophilic granules.",
+      "keypoints": [
+        "⭐ Chief cells: BASOPHILIC (abundant RER), at BASE of fundic glands; store pepsinogen in zymogen granules",
+        "Pepsinogen → pepsin: requires acidic pH (< 5); autocatalytic activation; pepsin = aspartate protease",
+        "Chief cells vs Paneth cells: chief cells in STOMACH base; Paneth cells in INTESTINAL crypt base (both at base but different locations)",
+        "Chief cell mnemonic: 'Chief at the BASE makes PEPsinogen' — basophilic, at base, pepsinogen"
+      ]
+    },
+    {
+      "id": "q019",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 34-year-old man presents with a 5-month history of weakness and fatigue. A peripheral blood smear shows megaloblastic anemia. Further laboratory studies demonstrate vitamin B12 deficiency. This patient's anemia is most likely caused by autoantibodies directed against which of the following GI cells?",
+      "choices": [
+        "Chief cells",
+        "Enteroendocrine cells",
+        "Microfold cells",
+        "Paneth cells",
+        "Parietal cells"
+      ],
+      "answer": 4,
+      "explanation": "Pernicious anemia is an autoimmune condition in which autoantibodies are directed against parietal cells and intrinsic factor. Parietal cell destruction leads to atrophic gastritis; loss of intrinsic factor (a parietal cell glycoprotein) prevents vitamin B12 absorption in the terminal ileum. B12 deficiency causes megaloblastic anemia (macrocytosis, hypersegmented neutrophils) and subacute combined degeneration of the spinal cord. None of the other GI cell types secrete intrinsic factor.",
+      "keypoints": [
+        "⭐ Pernicious anemia: autoimmune anti-parietal cell / anti-intrinsic factor antibodies → ↓ IF → ↓ B12 absorption in terminal ileum → megaloblastic anemia",
+        "⭐ B12 deficiency: megaloblastic anemia + subacute combined degeneration (dorsal columns + lateral corticospinal tracts) → ataxia, weakness, paresthesias",
+        "Intrinsic factor: secreted by parietal cells; IF-B12 complex absorbed by cubilin receptors in terminal ileum",
+        "Treatment: B12 replacement IM (if IF absent, oral B12 cannot be absorbed); also important in vegans, gastric bypass patients, metformin use"
+      ]
+    },
+    {
+      "id": "q020",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 74-year-old woman complains of weakness and fatigue. She states that her stools have recently become black after taking a new nonsteroidal anti-inflammatory drug (NSAID). Gastroscopy reveals superficial, bleeding mucosal defects. What is the most likely mechanism for the development of acute erosive gastritis in this patient?",
+      "choices": [
+        "Activation of Hageman factor",
+        "Activation of serum kallikrein",
+        "Generation of membrane attack complex",
+        "Inhibition of cyclooxygenase",
+        "Mast cell degranulation"
+      ],
+      "answer": 3,
+      "explanation": "NSAIDs cause acute hemorrhagic (erosive) gastritis primarily by inhibiting cyclooxygenase (COX), which reduces prostaglandin synthesis in the gastric mucosa. Prostaglandins (especially PGE2) are essential for maintaining the gastric mucosal barrier by stimulating mucus and bicarbonate secretion. Loss of this barrier allows acidic gastric juice to injure the mucosa, causing necrosis, erosions, and bleeding (melena = black tarry stools). Aspirin additionally has a direct topical toxic effect and irreversibly inhibits platelet COX-1.",
+      "keypoints": [
+        "⭐ NSAIDs → inhibit COX-1/COX-2 → ↓ PGE2 → ↓ mucus/HCO3⁻ secretion → mucosal barrier breakdown → erosive gastritis/peptic ulcer",
+        "⭐ Melena = black tarry stools = digested blood from upper GI bleeding (proximal to ligament of Treitz); hematochezia = bright red blood = lower GI",
+        "ASA additionally causes direct mucosal injury and irreversibly inhibits platelet TXA2 → ↑ bleeding risk",
+        "Prevention: add PPI or misoprostol (PGE1 analog) when prescribing NSAIDs long-term, especially in high-risk patients"
+      ]
+    },
+    {
+      "id": "q022",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "You are investigating the activation of smooth muscle in the muscularis mucosae of the stomach and its role in assisting outflow from gastric glands. The cell bodies for visceral motor fibers that innervate the muscularis mucosae are present in which of the following anatomic locations?",
+      "choices": [
+        "Auerbach plexus",
+        "Celiac ganglion",
+        "Meissner plexus",
+        "Nucleus ambiguous of the CNS",
+        "Sympathetic trunk"
+      ],
+      "answer": 2,
+      "explanation": "Visceral motor fibers that stimulate the muscularis mucosae and mucosal glands are postsynaptic neurons whose cell bodies reside in the Meissner (submucosal) plexus. Visceral motor fibers first pass through the Auerbach (myenteric) plexus (choice A) and then form the Meissner plexus as a secondary submucosal plexus. The Auerbach plexus contains cell bodies of neurons that innervate the muscularis externa (peristalsis), not the muscularis mucosae.",
+      "keypoints": [
+        "⭐ Meissner (submucosal) plexus: postsynaptic parasympathetic neurons; innervate muscularis mucosae + glandular secretion",
+        "⭐ Auerbach (myenteric) plexus: between inner circular + outer longitudinal muscularis externa; controls peristalsis; absent → achalasia (esophagus) or Hirschsprung (colon)",
+        "Enteric nervous system = 'second brain': ~100 million neurons; can function independently of CNS; uses same neurotransmitters as brain",
+        "Hirschsprung disease: absence of Auerbach AND Meissner plexus in affected bowel segment → failure of neural crest cell migration"
+      ]
+    },
+    {
+      "id": "q023",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 44-year-old woman presents with burning epigastric pain that usually occurs between meals. The pain can be relieved with antacids. The patient also reports a recent history of tarry stools. Gastroscopy reveals a bleeding mucosal defect in the antrum measuring 1.5 cm in diameter. Which of the following is the most likely underlying cause of peptic ulcer disease in this patient?",
+      "choices": [
+        "Alcohol abuse",
+        "Aspirin use",
+        "Emotional stress",
+        "Infection",
+        "Tumor"
+      ],
+      "answer": 3,
+      "explanation": "Helicobacter pylori infection is the most common cause of peptic ulcer disease, isolated from the gastric antrum of virtually all duodenal ulcer patients and ~75% of gastric ulcer patients. H. pylori causes chronic gastritis that disrupts mucosal defense, allowing acid-induced injury. Eradication of H. pylori is curative in most cases. While alcohol (choice A) and aspirin/NSAIDs (choice B) can cause erosive gastritis, they are less common causes of a large, chronic peptic ulcer. A gastrinoma (Zollinger-Ellison syndrome, choice E) would cause multiple ulcers refractory to treatment.",
+      "keypoints": [
+        "⭐ Peptic ulcer disease etiology: H. pylori (most common, ~70-90% of duodenal ulcers) > NSAIDs > Zollinger-Ellison syndrome (gastrinoma)",
+        "⭐ H. pylori: gram-negative spiral rod; colonizes gastric antrum; urease → ammonia cloud (survives acid); test with urea breath test or stool antigen",
+        "Duodenal ulcer: pain relieved by food/antacids; occurs 2-4 h after meals; H. pylori > NSAIDs; ↑ acid secretion",
+        "Treatment: H. pylori eradication = triple therapy (PPI + amoxicillin + clarithromycin × 14 days); confirm eradication with breath or stool test"
+      ]
+    },
+    {
+      "id": "q024",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Microbiology",
+      "stem": "A 76-year-old woman with a history of chronic infectious gastritis suffers a ruptured abdominal aortic aneurysm and expires. At autopsy, a silver stain of the patient's gastric mucosa reveals Helicobacter pylori (small curved rods, shown in the image). What bacterial enzyme allows these pathogens to survive in the acidic environment of the gastric lumen?",
+      "choices": [
+        "Chymotrypsin",
+        "Pepsin",
+        "Secretase",
+        "Streptokinase",
+        "Urease"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch13/lippincott histo ch13 q24.png",
+      "imageAlt": "Silver stain of gastric mucosa showing small curved rod-shaped H. pylori bacteria in the mucus layer above gastric surface epithelium",
+      "imageCaption": "Silver stain (Warthin-Starry or modified Giemsa) of gastric mucosa showing H. pylori as small curved dark rods in the mucus overlying surface mucous cells",
+      "explanation": "H. pylori possesses urease, which hydrolyzes urea to generate ammonia (NH3) and carbon dioxide. The ammonia creates an alkaline 'cloud' surrounding the bacterium that neutralizes gastric acid, allowing it to survive and colonize the mucus layer. This urease activity forms the basis of the urea breath test used for diagnosis. H. pylori also produces vacuolating cytotoxin (VacA) and CagA protein that contribute to mucosal damage.",
+      "keypoints": [
+        "⭐ H. pylori virulence: urease (acid survival) + CagA (oncoprotein, injected into host cells) + VacA (cytotoxin, forms vacuoles) + flagella (motility through mucus)",
+        "⭐ H. pylori diagnostics: urea breath test (non-invasive, best for confirmation of eradication); stool antigen; endoscopic biopsy (CLO test, histology, culture)",
+        "H. pylori complications: peptic ulcer disease, chronic atrophic gastritis → ↑ risk gastric adenocarcinoma + MALT lymphoma",
+        "Silver stains used for H. pylori in histology: Warthin-Starry, Steiner, or modified Giemsa"
+      ]
+    },
+    {
+      "id": "q025",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 3-week-old boy is brought to the physician by his parents who report that he vomits forcefully immediately after nursing. Imaging studies reveal concentric enlargement of the pyloric canal. Which of the following best explains the pathogenesis of congenital pyloric stenosis in this infant?",
+      "choices": [
+        "Deviation of the septum transversum",
+        "Hypertrophy of smooth muscle",
+        "Incomplete canalization of the primitive gut tube",
+        "Malrotation of the primitive gut tube",
+        "Persistence of the vitelline duct"
+      ],
+      "answer": 1,
+      "explanation": "Congenital pyloric stenosis is caused by hypertrophy (and hyperplasia) of the circular smooth muscle of the pyloric canal, obstructing gastric outflow. It is the most common indication for abdominal surgery in the first 6 months of life and presents with projectile, non-bilious vomiting at 3-6 weeks of life. Males are affected 4× more than females. Septum transversum deviation (choice A) causes congenital diaphragmatic hernia. Persistence of the vitelline duct (choice E) = Meckel diverticulum.",
+      "keypoints": [
+        "⭐ Pyloric stenosis: hypertrophy of pyloric circular smooth muscle → projectile non-bilious vomiting at 3-6 weeks; palpable 'olive-shaped' mass in RUQ",
+        "⭐ Labs: hypochloremic, hypokalemic metabolic alkalosis (from loss of HCl-rich gastric contents); initial compensatory respiratory acidosis",
+        "Treatment: surgical pyloromyotomy (Ramstedt procedure) — correct metabolic alkalosis FIRST before surgery",
+        "Ultrasound: pyloric wall thickness > 4 mm, canal length > 17 mm = diagnostic"
+      ]
+    },
+    {
+      "id": "q026",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various GI organs are examined at a multiheaded microscope in the pathology department. The pathology resident asks you to comment on the glandular tissue located within the lines (shown in the image). These mucosal glands empty into which of the following segments of the GI tract?",
+      "choices": [
+        "Colon",
+        "Duodenum",
+        "Ileum",
+        "Jejunum",
+        "Stomach"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch13/lippincott histo ch13 q26.png",
+      "imageAlt": "H&E section of gastric mucosa showing pyloric glands with surface mucous cells, gastric pits, and coiled mucous glands in the lamina propria",
+      "imageCaption": "H&E section of pyloric stomach showing surface mucous cells, prominent gastric pits (occupying nearly half the mucosal thickness), and coiled pyloric glands secreting neutral pH mucus into the pits",
+      "explanation": "This specimen shows pyloric glands—coiled mucosal glands that secrete neutral pH mucus into the bottom of deep gastric pits. Pyloric glands also contain G cells (enteroendocrine cells) that secrete gastrin, which stimulates acid secretion. Pyloric glands are found exclusively in the pyloric antrum of the stomach. The gastroduodenal junction features Brunner glands in the SUBMUCOSA, not the mucosa. None of the intestinal segments feature this combination of gastric pits and mucous glands.",
+      "keypoints": [
+        "⭐ Pyloric glands: mucous glands in antrum + pylorus; harbor G cells (gastrin-secreting); pits are DEEP (~half mucosal thickness, vs shallow in fundus)",
+        "Gastrin (from G cells in pyloric antrum): stimulates parietal cells → HCl; stimulates chief cells → pepsinogen; trophic to gastric mucosa",
+        "Zollinger-Ellison syndrome: gastrinoma (usually in duodenum/pancreas) → excess gastrin → refractory peptic ulcers + secretory diarrhea",
+        "Pyloric glands vs cardiac glands: both mucous-only, but cardiac glands have SHALLOW pits; pyloric glands have DEEP pits + G cells"
+      ]
+    },
+    {
+      "id": "q027",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various organs of the GI tract are examined in the histology laboratory. Identify the glandular structures located between the double arrows (shown in the image).",
+      "choices": [
+        "Brunner glands",
+        "Cardiac glands",
+        "Fundic glands",
+        "Intestinal glands",
+        "Pyloric glands"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch13/lippincott histo ch13 q27.png",
+      "imageAlt": "H&E section of proximal duodenum showing intestinal villi lined by columnar enterocytes and submucosal Brunner glands between double arrows",
+      "imageCaption": "H&E of proximal duodenum showing intestinal villi (surface) and Brunner glands (double arrows) — seromucinous glands located in the submucosa, external to the muscularis mucosae, a distinguishing feature of the proximal duodenum",
+      "explanation": "Brunner glands are seromucinous submucosal glands found exclusively in the proximal duodenum. They secrete an alkaline, bicarbonate-rich mucus that neutralizes acidic gastric chyme entering the duodenum. This alkaline pH also establishes optimal conditions for pancreatic enzyme activity. These glands are located in the submucosa (external to the muscularis mucosae), distinguishing them from all other GI glands, which are in the mucosa. The duodenum also has intestinal villi lined by columnar enterocytes.",
+      "keypoints": [
+        "⭐ Brunner glands: SUBMUCOSAL glands ONLY in proximal duodenum; secrete alkaline mucus (HCO3⁻) to neutralize gastric acid",
+        "⭐ Brunner gland hyperplasia: associated with Zollinger-Ellison syndrome (excess gastrin → hypertrophy); also seen in chronic peptic ulcer disease",
+        "Only two sites in GI tract with submucosal glands: esophagus (esophageal mucous glands) and proximal duodenum (Brunner glands)",
+        "Histologic key: Brunner glands are external to muscularis mucosae (submucosal); all other GI glands are in lamina propria (mucosal)"
+      ]
+    },
+    {
+      "id": "q028",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Biochemistry",
+      "stem": "Which of the following is an essential secretory product of the submucosal glands identified in Question 27?",
+      "choices": [
+        "Amylase",
+        "Bicarbonate ions",
+        "Hydrochloric acid",
+        "Lipase",
+        "Pepsinogen"
+      ],
+      "answer": 1,
+      "explanation": "Brunner glands secrete a bicarbonate-rich alkaline mucus that neutralizes the acidity of gastric chyme entering the duodenum and establishes the neutral pH optimal for pancreatic enzyme activity. Amylase and lipase (choices A and D) are exocrine pancreatic products entering the duodenum at the ampulla of Vater. Parietal cells secrete HCl (choice C), and gastric chief cells secrete pepsinogen (choice E).",
+      "keypoints": [
+        "⭐ Brunner glands secrete: alkaline mucus + HCO3⁻ → raises luminal pH for pancreatic enzymes; also secrete urogastrone (= EGF), which inhibits gastric acid secretion",
+        "Pancreatic exocrine secretion via ampulla of Vater: amylase, lipase, elastase, phospholipase A2, + trypsinogen/chymotrypsinogen (activated by enterokinase/brush border)",
+        "Duodenal pH neutralization: pancreatic HCO3⁻ (main) + Brunner gland HCO3⁻ + bile; secretin stimulates pancreatic HCO3⁻ secretion",
+        "Enterokinase (enteropeptidase): brush border enzyme of duodenal enterocytes; activates trypsinogen → trypsin → cascade activation of all pancreatic zymogens"
+      ]
+    },
+    {
+      "id": "q029",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 68-year-old man undergoes surgery to remove a gastric adenocarcinoma. A portion of the proximal duodenum at the tumor margin is examined for evidence of malignant cells. Identify the structure within the oval (shown in the image).",
+      "choices": [
+        "Meissner plexus",
+        "Myenteric plexus",
+        "Peyer patch",
+        "Primary lymphoid nodule",
+        "Secondary lymphoid nodule"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch13/lippincott histo ch13 q29.png",
+      "imageAlt": "H&E section of duodenal wall showing ganglion cells embedded in connective tissue between inner circular and outer longitudinal layers of muscularis externa (oval)",
+      "imageCaption": "H&E section of duodenum showing myenteric (Auerbach) plexus (oval) — ganglion cells of postsynaptic parasympathetic neurons embedded in loose connective tissue between inner circular and outer longitudinal layers of the muscularis externa",
+      "explanation": "The myenteric (Auerbach) plexus is located between the inner circular and outer longitudinal layers of the muscularis externa throughout the GI tract. It contains ganglion cells of postsynaptic parasympathetic neurons that control peristalsis. The Meissner plexus (choice A) is in the submucosa, not between muscle layers. Peyer patches (choice C) are aggregates of lymphoid tissue in the mucosa and submucosa of the ileum, not within the muscularis externa.",
+      "keypoints": [
+        "⭐ Auerbach (myenteric) plexus location: between inner circular + outer longitudinal muscularis externa; everywhere in GI tract",
+        "⭐ Absent Auerbach ganglion cells → achalasia (esophagus) or Hirschsprung disease (colon/rectum); both caused by failure of inhibitory neurotransmission",
+        "Meissner plexus: submucosa; controls mucosal secretion and muscularis mucosae; sparse ganglion cells (hard to see on H&E)",
+        "Enteric nervous system contains more neurons than the spinal cord; uses acetylcholine, VIP, substance P, NO as neurotransmitters"
+      ]
+    },
+    {
+      "id": "q030",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 45-year-old man describes burning epigastric pain 2 to 3 hours after eating. Foods, antacids, and over-the-counter medications provide no relief, and prescribed inhibitors of acid secretion are only moderately effective. Endoscopy reveals multiple gastric and duodenal peptic ulcers. An abdominal CT scan reveals a pancreatic tumor. What polypeptide hormone is most likely secreted by this pancreatic islet cell neoplasm?",
+      "choices": [
+        "Cholecystokinin",
+        "Gastrin",
+        "Ghrelin",
+        "Motilin",
+        "Secretin"
+      ],
+      "answer": 1,
+      "explanation": "This patient has Zollinger-Ellison syndrome caused by a gastrin-secreting tumor (gastrinoma), most commonly located in the pancreatic islets or duodenum. Tumor-derived gastrin stimulates maximal acid secretion, leading to multiple refractory peptic ulcers in the stomach and proximal duodenum. Gastrinomas are the second most common functional islet cell tumor (after insulinomas). Diarrhea is also a common presenting symptom due to acid inactivation of pancreatic enzymes and bile salts.",
+      "keypoints": [
+        "⭐ Zollinger-Ellison syndrome: gastrinoma (in duodenum > pancreas) → excess gastrin → refractory peptic ulcers + secretory diarrhea + ↑ basal acid output",
+        "⭐ Gastrinoma triangle: junction of (1) cystic duct + CBD, (2) 2nd + 3rd duodenum, (3) neck + body of pancreas — where 90% of gastrinomas found",
+        "~25% of gastrinomas are part of MEN1 (hyperparathyroidism + pituitary tumor + pancreatic endocrine tumor)",
+        "Diagnosis: fasting serum gastrin > 1000 pg/mL + ↑ basal acid output; secretin stimulation test (paradoxical ↑ gastrin with secretin injection)"
+      ]
+    },
+    {
+      "id": "q031",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 68-year-old man with a history of intestinal malabsorption suffers a stroke and expires. Portions of the patient's small intestine are collected at autopsy, stained with H&E, and examined at low magnification. Identify the distinctive submucosal folds indicated by the arrows (shown in the image).",
+      "choices": [
+        "Haustra",
+        "Plicae circulares",
+        "Rugae",
+        "Teniae coli",
+        "Villi"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch13/lippincott histo ch13 q31.png",
+      "imageAlt": "Low-power H&E section of jejunum showing large permanent circular submucosal folds (plicae circulares) projecting into the intestinal lumen",
+      "imageCaption": "Low-power H&E of jejunum showing plicae circulares (arrows) — permanent circular folds of mucosa and submucosa extending partially around the lumen to increase absorptive surface area; intestinal villi visible on the fold surfaces",
+      "explanation": "Plicae circulares (valves of Kerckring) are permanent circular folds of the mucosa and submucosa in the small intestine. They are most prominent in the jejunum and extend partially around the lumen. They increase the absorptive surface area approximately 3-fold. Haustra (choice A) and teniae coli (choice D) are features of the large intestine. Rugae (choice C) are gastric folds. Villi (choice E) are mucosal projections on the surface of the plicae.",
+      "keypoints": [
+        "⭐ Plicae circulares (valves of Kerckring): permanent circular folds of mucosa + submucosa; most prominent in jejunum; 3× surface area increase",
+        "Small intestine surface area hierarchy: microvilli (brush border, ×600) > villi (×10) > plicae circulares (×3) = total ~600× flat tube",
+        "Celiac disease: autoimmune villous atrophy (anti-tissue transglutaminase, anti-endomysial antibodies) → loss of villi and plicae circulares → malabsorption",
+        "Key SI landmarks: duodenum (Brunner glands, no plicae), jejunum (tallest villi + most prominent plicae), ileum (Peyer patches, shortest villi)"
+      ]
+    },
+    {
+      "id": "q032",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The autopsy specimen described in Question 31 is examined at high magnification. Identify the delicate apical membrane feature indicated by the arrows (shown in the image).",
+      "choices": [
+        "Basal lamina",
+        "Glycocalyx",
+        "Lamina densa",
+        "Lamina propria",
+        "Striated brush border"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch13/lippincott histo ch13 q32.png",
+      "imageAlt": "High magnification of jejunal epithelium showing the striated brush border (dense apical staining) on the luminal surface of enterocytes",
+      "imageCaption": "High magnification of jejunal enterocytes showing the striated brush border (arrows) — the appearance of thousands of tightly packed microvilli under light microscopy, which increase absorptive surface area 600-fold",
+      "explanation": "The striated brush border is the light microscopic appearance of thousands of microvilli on the apical membrane of enterocytes. Microvilli are actin-filled membrane projections that increase the absorptive surface area of the small intestine 600-fold. They are covered by a carbohydrate-rich glycocalyx (choice B) that cannot be identified on routine H&E. The glycocalyx provides a microenvironment for membrane-bound hydrolytic enzymes (disaccharidases, peptidases). Basal lamina and lamina densa (choices A, C) are extracellular matrix structures at the base of epithelial cells.",
+      "keypoints": [
+        "⭐ Striated brush border = light microscopic appearance of enterocyte microvilli; ×600 surface area increase",
+        "⭐ Glycocalyx: carbohydrate-rich coat on microvilli; harbors disaccharidases (lactase, sucrase, maltase) and peptidases; NOT visible on H&E",
+        "Lactase deficiency: most common enzyme deficiency worldwide; secondary lactase deficiency after GI injury (rotavirus, Giardia) is more common than primary",
+        "Celiac disease: autoimmune attack on villous epithelium → villous atrophy → loss of brush border enzymes → malabsorption of fat-soluble vitamins, iron, calcium"
+      ]
+    },
+    {
+      "id": "q033",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A section of the jejunum described in Questions 31 and 32 is stained for carbohydrate using periodic acid–Schiff (PAS). Parallel arrays of intestinal villi are examined at high magnification (shown in the image). Identify the PAS-positive cells revealed in this tissue section.",
+      "choices": [
+        "Chief cells",
+        "Goblet cells",
+        "Histiocytes",
+        "Paneth cells",
+        "Parietal cells"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch13/lippincott histo ch13 q33.png",
+      "imageAlt": "PAS-stained section of jejunal villi showing intensely magenta goblet cells interspersed among blue-staining enterocytes, with a lacteal visible in the lamina propria",
+      "imageCaption": "PAS stain of jejunal villi showing magenta goblet cells (PAS-positive due to mucin glycoproteins) interspersed among absorptive enterocytes; lacteal visible as empty space in lamina propria (arrowhead)",
+      "explanation": "Periodic acid–Schiff (PAS) stain identifies polysaccharides and glycoproteins, staining them magenta. Goblet cells are PAS-positive because they are filled with mucin glycoproteins. Mucins provide a protective coating over the intestinal epithelium and lubricate luminal contents. This section also reveals a beautiful example of a lacteal (large lymphatic channel lined by squamous endothelium) in the lamina propria. Paneth cells (choice D) are also PAS-positive but are located at the base of crypts, not on villi.",
+      "keypoints": [
+        "⭐ PAS stain: detects polysaccharides, glycoproteins, glycogen → magenta/pink color; goblet cells = intensely PAS-positive (mucin)",
+        "⭐ Goblet cells: increase in density from duodenum → ileum → colon; produce mucins (MUC2) for lubrication and barrier protection",
+        "Lacteals: central lymphatic vessels in each villus; dilate postprandially; transport chylomicrons; drain to thoracic duct",
+        "PAS-positive structures: goblet cells, Paneth cell granules, basement membrane, fungi (Candida, PCP), glycogen in cells"
+      ]
+    },
+    {
+      "id": "q035",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "After your lecture, a colleague asks you to comment on recent drug discovery efforts to regulate nutrient uptake in the small intestine. What hormone stimulates gallbladder contraction and pancreatic enzyme secretion?",
+      "choices": [
+        "Cholecystokinin",
+        "Gastrin",
+        "Ghrelin",
+        "Leptin",
+        "Secretin"
+      ],
+      "answer": 0,
+      "explanation": "Cholecystokinin (CCK) is released by enteroendocrine I cells in the duodenum and jejunum in response to fatty acids and amino acids in the duodenal lumen. CCK stimulates gallbladder contraction (releasing bile salts) and pancreatic enzyme secretion (lipase, amylase, proteases). It also inhibits gastric emptying. Secretin (choice E) stimulates pancreatic bicarbonate secretion but not enzyme release. Gastrin (choice B) stimulates gastric acid secretion, not gallbladder contraction.",
+      "keypoints": [
+        "⭐ CCK (from I cells, duodenum/jejunum): stimulates gallbladder contraction + pancreatic enzyme secretion + delays gastric emptying",
+        "⭐ Secretin (from S cells, duodenum): released by acidic chyme → stimulates pancreatic HCO3⁻ secretion + inhibits gastric acid",
+        "GI hormone mnemonic: CCK = Calls for Contraction + Kills gastric emptying; Secretin = Stops acid + Squirts bicarbonate",
+        "CCK also acts on hypothalamus to signal satiety; CCK antagonists studied as obesity treatments"
+      ]
+    },
+    {
+      "id": "q036",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 55-year-old man undergoes abdominal surgery to remove a neuroendocrine tumor (carcinoid) of the small intestine. Normal intestinal mucosa at the margin of the tumor is embedded in plastic, sectioned at 1.5 μm, and examined at high magnification. Identify the secretory cells within the box (shown in the image).",
+      "choices": [
+        "Enterocytes",
+        "Goblet cells",
+        "Macrophages",
+        "Paneth cells",
+        "Plasma cells"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch13/lippincott histo ch13 q36.png",
+      "imageAlt": "High magnification of intestinal crypt base showing Paneth cells with large intensely eosinophilic apical secretory granules clustered at the crypt base",
+      "imageCaption": "Plastic-embedded section (1.5 μm) of small intestinal crypt base showing Paneth cells (box) with large intensely eosinophilic apical granules containing antimicrobial proteins (lysozyme and defensins)",
+      "explanation": "Paneth cells are found at the base of the intestinal crypts of Lieberkühn throughout the small intestine. They are identified by their large, intensely eosinophilic apical secretory granules, making them among the most visually distinctive cells in the GI tract. They synthesize and secrete antibacterial proteins including lysozyme, defensins (cryptdins), and phospholipase A2, regulating the intestinal microbiome. Goblet cells (choice B) have pale mucinous cytoplasm. Macrophages (choice C) are not epithelial and have kidney-shaped nuclei.",
+      "keypoints": [
+        "⭐ Paneth cells: at BASE of intestinal crypts (small intestine only); large INTENSELY eosinophilic granules; secrete lysozyme + α-defensins (cryptdins) + PLA2",
+        "⭐ Paneth cell dysfunction: linked to Crohn's disease (especially ileal), NOD2 mutations → impaired defensin secretion → dysbiosis",
+        "Paneth cells are long-lived (60-day lifespan); do NOT migrate upward like other intestinal epithelial cells",
+        "Paneth vs Chief cells: both have eosinophilic granules, but Paneth = intestinal crypts; Chief = gastric gland base; both make proteases"
+      ]
+    },
+    {
+      "id": "q037",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The internal organs of a 78-year-old woman who died of metastatic cancer are examined at low magnification. Identify the segment of the GI tract that is shown in the image.",
+      "choices": [
+        "Cecum",
+        "Duodenum",
+        "Ileum",
+        "Jejunum",
+        "Rectum"
+      ],
+      "answer": 2,
+      "image": "/images/histo_ch13/lippincott histo ch13 q37.png",
+      "imageAlt": "Low-power H&E section of ileum showing large aggregates of lymphoid tissue (Peyer patches) in the mucosa and submucosa",
+      "imageCaption": "Low-power H&E of ileum showing characteristic Peyer patches — large submucosal aggregates of secondary lymphoid nodules with germinal centers, interrupting the muscularis mucosae and extending into the mucosa",
+      "explanation": "Peyer patches are large aggregates of secondary lymphoid nodules characteristic of the distal ileum. They are located in the mucosa and submucosa and interrupt the muscularis mucosae. The pale-staining regions (germinal centers) represent active B-lymphocyte proliferation. Peyer patches participate in adaptive mucosal immunity. The jejunum (choice D) lacks Peyer patches but has the most prominent villi and plicae circulares. Cecum (choice A) and rectum (choice E) are in the large intestine.",
+      "keypoints": [
+        "⭐ Peyer patches: lymphoid aggregates in DISTAL ILEUM (mucosa + submucosa); secondary lymphoid follicles with germinal centers; covered by FAE (follicle-associated epithelium) containing M cells",
+        "⭐ M cells in FAE overlying Peyer patches: professional antigen-sampling cells; transport antigens via transcytosis to underlying lymphocytes",
+        "Typhoid fever (Salmonella typhi): invades M cells → infects Peyer patches → systemic bacteremia; complication = ileal perforation at Peyer patch sites",
+        "Peyer patches vs MALT: Peyer patches = organized structures; MALT = diffuse lymphoid tissue throughout GI lamina propria"
+      ]
+    },
+    {
+      "id": "q038",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "During your examination of the specimen described in Question 37, you are asked to discuss microfold (M) cells and mucosa-associated lymphoid tissue. What is the principal function of M cells in the distal ileum?",
+      "choices": [
+        "Antigen uptake",
+        "Fluid transport",
+        "Gastrin secretion",
+        "Histamine release",
+        "Chemoreception"
+      ],
+      "answer": 0,
+      "explanation": "Microfold (M) cells are specialized epithelial cells that cover Peyer patches in the distal ileum. Their apical membranes are folded to provide greater surface area for sampling luminal contents. M cells internalize antigens (pathogens, food antigens) via pinocytosis and phagocytosis and transfer them to lymphoid cells residing in cellular recesses on their basolateral side. They are professional antigen-uptake and -presenting cells that initiate mucosal immune responses. Chemoreception (choice E) is the function of 'open' enteroendocrine cells.",
+      "keypoints": [
+        "⭐ M (microfold) cells: in follicle-associated epithelium (FAE) overlying Peyer patches; principal function = antigen UPTAKE + transcytosis to underlying lymphocytes",
+        "⭐ M cells express MHC class II → present antigens to helper T cells → stimulate B-cell proliferation/differentiation → secretory IgA production",
+        "Pathogens that exploit M cells: Salmonella, Shigella, Yersinia, Vibrio cholerae, poliovirus, HIV — use M cells as entry portals",
+        "M cells vs enterocytes: M cells have fewer/irregular microvilli, no glycocalyx, deep surface recesses for lymphocytes; no secretory function"
+      ]
+    },
+    {
+      "id": "q039",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "What cell surface glycoprotein found on M cells suggests that these phagocytic cells present antigens to lymphocytes in the GI tract?",
+      "choices": [
+        "CD4",
+        "CD8",
+        "IgM",
+        "MHC class I",
+        "MHC class II"
+      ],
+      "answer": 4,
+      "explanation": "M cells express MHC class II molecules, which present peptide antigens to helper (CD4+) T cells. Activated helper T cells then secrete cytokines that stimulate B-cell proliferation and differentiation into IgA-secreting plasma cells. CD4 (choice A) is an antigen coreceptor on helper T cells, not M cells. CD8 (choice B) is on cytotoxic T cells. MHC class I (choice D) is present on virtually all nucleated cells and presents to cytotoxic T cells. IgM (choice C) is the B-cell antigen receptor.",
+      "keypoints": [
+        "⭐ MHC class II: expressed on APCs (M cells, dendritic cells, macrophages, B cells); presents EXOGENOUS antigens to CD4+ helper T cells",
+        "⭐ MHC class I: on ALL nucleated cells; presents ENDOGENOUS antigens (viral, tumor) to CD8+ cytotoxic T cells",
+        "Mucosal IgA production pathway: M cell antigen uptake → CD4+ T cell activation → B cell stimulation → plasma cell IgA secretion → transported across enterocytes as sIgA",
+        "MHC class II deficiency (bare lymphocyte syndrome): failure to activate CD4+ T cells → combined immunodeficiency"
+      ]
+    },
+    {
+      "id": "q040",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The autopsy specimen described in Question 37 is examined at higher magnification. Identify the glandular structures located between the lines (shown in the image).",
+      "choices": [
+        "Brunner glands",
+        "Cardiac glands",
+        "Crypts of Lieberkühn",
+        "Fundic glands",
+        "Pyloric glands"
+      ],
+      "answer": 2,
+      "image": "/images/histo_ch13/lippincott histo ch13 q40.png",
+      "imageAlt": "Higher magnification of ileum/large intestine mucosa showing straight tubular crypts of Lieberkühn in cross-section between lines",
+      "imageCaption": "Higher magnification of large intestinal mucosa showing crypts of Lieberkühn (intestinal glands, lines) — simple tubular glands extending from the mucosal surface to the muscularis mucosae, lined by absorptive colonocytes and goblet cells",
+      "explanation": "Crypts of Lieberkühn are simple tubular mucosal glands present throughout the small and large intestine, emptying at the base of intestinal villi. In the large intestine, they are the only glandular structures present (no villi). They are lined by absorptive enterocytes, goblet cells, enteroendocrine cells, and (in the small intestine) Paneth cells at their base. Brunner glands (choice A) are submucosal glands of the proximal duodenum.",
+      "keypoints": [
+        "⭐ Crypts of Lieberkühn = intestinal glands; present in BOTH small and large intestine; in colon = only glandular structure (no villi)",
+        "Intestinal stem cells: at base of crypts (small intestine: also Paneth cells); Lgr5+ stem cells; rapid proliferation every 3-5 days",
+        "Colon vs small intestine: colon has no villi, no Paneth cells, no plicae circulares; has crypts (deeper than SI crypts), abundant goblet cells, no brush border",
+        "Colorectal cancer: starts in crypts (APC mutation → adenoma → carcinoma pathway); early detection by colonoscopy"
+      ]
+    },
+    {
+      "id": "q041",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Further examination of the specimen provided for Question 40 reveals arterioles and venules (arrows, shown in the image). These blood vessels are located within which of the following layers of the GI tract?",
+      "choices": [
+        "Adventitia",
+        "Lamina propria",
+        "Mucosa",
+        "Muscularis externa",
+        "Submucosa"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch13/lippincott histo ch13 q40.png",
+      "imageAlt": "Intestinal wall section showing arterioles and venules in the submucosa between the muscularis mucosae and muscularis externa",
+      "imageCaption": "Intestinal wall section showing blood vessels (arterioles and venules, arrows) in the submucosa — the dense connective tissue layer that bridges the mucosa and muscularis externa, serving as the vascular conduit for mucosal blood supply",
+      "explanation": "The submucosa is composed of dense irregular connective tissue containing nerves, blood vessels (arterioles and venules), lymphatic channels, and glands in specific regions (esophagus and proximal duodenum). The submucosa provides a pathway for vessels and nerves to enter or exit the GI wall layers. Vessels in the lamina propria (choice B) are capillaries, not arterioles and venules. The muscularis externa (choice D) contains the Auerbach plexus but its vasculature is smaller.",
+      "keypoints": [
+        "⭐ Submucosa: dense irregular connective tissue; contains arterioles/venules, lymphatics, Meissner plexus, and glands (esophagus + duodenum only)",
+        "GI blood supply hierarchy: celiac artery (stomach, duodenum, liver, spleen) → SMA (small intestine + proximal colon) → IMA (distal colon + rectum)",
+        "Submucosal vessels enter mucosa via muscularis mucosae → capillary beds in villi → venules drain into portal system",
+        "Ischemic colitis: most common at splenic flexure (watershed between SMA + IMA territories) → pain + bloody diarrhea"
+      ]
+    },
+    {
+      "id": "q042",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "An intestinal villus is examined at high magnification. Goblet cells appear to be secreting mucus into the lumen of the gut (arrows, shown in the image). Macrophages and lymphocytes visible in this slide specimen are located primarily within which of the following layers of the GI tract?",
+      "choices": [
+        "Epithelium of mucosa",
+        "Lamina propria",
+        "Muscularis externa",
+        "Muscularis mucosae",
+        "Submucosa"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch13/lippincott histo ch13 q42.png",
+      "imageAlt": "High magnification of intestinal villus showing goblet cells secreting mucus (arrows) with mononuclear cells (macrophages and lymphocytes) visible in the lamina propria core",
+      "imageCaption": "High magnification of small intestinal villus showing goblet cells (arrows) secreting mucus, with macrophages and lymphocytes visible in the lamina propria — the loose connective tissue core of each villus",
+      "explanation": "The core of each intestinal villus is an extension of the lamina propria. This loose connective tissue contains fibroblasts, smooth muscle cells, capillaries, the central lacteal, and abundant immune cells including macrophages, lymphocytes, and plasma cells. Macrophages in the lamina propria ingest pathogens, present antigens, and modulate immune responses. They exit blood from postcapillary (high endothelial) venules. Immune cells are NOT primarily in the muscularis externa or submucosa.",
+      "keypoints": [
+        "⭐ Lamina propria core of villi: contains lacteal (central lymphatic), capillaries, smooth muscle cells, macrophages, lymphocytes, plasma cells (IgA-secreting)",
+        "Intraepithelial lymphocytes (IELs): CD8+ T cells located between enterocytes in the epithelium; ↑ in celiac disease (>30 IELs per 100 enterocytes = abnormal)",
+        "Smooth muscle fibers in villus core: extend from muscularis mucosae → contraction pumps lacteal lymph; regulated by Meissner plexus",
+        "Lamina propria immune surveillance: macrophages + DCs sample luminal antigens via transepithelial dendrites; tolerogenic under normal conditions"
+      ]
+    },
+    {
+      "id": "q044",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "During a small group seminar, you are asked to discuss humoral immunity in the GI tract. Plasma cells in the lamina propria secrete primarily which of the following classes of immunoglobulin?",
+      "choices": [
+        "IgA",
+        "IgD",
+        "IgE",
+        "IgG",
+        "IgM"
+      ],
+      "answer": 0,
+      "explanation": "Plasma cells in the lamina propria of the GI tract (as well as the respiratory and genitourinary tracts) predominantly secrete dimeric IgA. Although IgG is the most abundant immunoglobulin in serum, secretory IgA (sIgA) is the most abundant immunoglobulin at mucosal surfaces. sIgA cross-links pathogens, masks pathogen adhesion molecules, and neutralizes toxins within the gut lumen without triggering inflammatory responses. The other immunoglobulins mediate humoral immunity but are not the primary form secreted into the GI lumen.",
+      "keypoints": [
+        "⭐ sIgA: most abundant Ig at mucosal surfaces; dimeric IgA + J chain + secretory component (from pIgR on enterocytes)",
+        "⭐ sIgA functions: immune exclusion (cross-link pathogens, neutralize toxins) WITHOUT activating complement → non-inflammatory mucosal defense",
+        "Selective IgA deficiency: most common primary immunodeficiency; recurrent sinopulmonary infections + GI infections; anaphylaxis risk with blood products (anti-IgA antibodies)",
+        "IgE: mast cell/basophil sensitization → immediate hypersensitivity (type I); prominent in parasitic infections and allergy; not secreted into GI lumen"
+      ]
+    },
+    {
+      "id": "q045",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "During the seminar, you are asked to discuss the cellular mechanisms that mediate antibody transport across the epithelial barrier of the GI tract. Which of the following cells transports IgA from the lamina propria of the mucosa to the lumen of the gut?",
+      "choices": [
+        "Enterocytes",
+        "Goblet cells",
+        "Microfold cells",
+        "Paneth cells",
+        "Plasma cells"
+      ],
+      "answer": 0,
+      "explanation": "Enterocytes transport dimeric IgA (dIgA) from the lamina propria to the intestinal lumen via a polymeric immunoglobulin receptor (pIgR). The pIgR binds dIgA on the basolateral membrane, undergoes receptor-mediated endocytosis, and transports the complex to the apical membrane where proteolytic cleavage releases secretory IgA (sIgA) into the lumen. Microfold cells (choice C) transport antigens from lumen to lamina propria (opposite direction). Plasma cells (choice E) secrete dIgA but cannot transport it across epithelium.",
+      "keypoints": [
+        "⭐ IgA transcytosis: plasma cells secrete dimeric IgA (dIgA) → binds pIgR on enterocyte basolateral membrane → endocytosis + transport → apical cleavage → sIgA released into lumen",
+        "⭐ pIgR (polymeric Ig receptor): expressed on enterocytes + respiratory epithelium; cleaved portion becomes secretory component (protects sIgA from proteases)",
+        "M cells: transport antigens from lumen → lamina propria (antigen-uptake direction); enterocytes: transport sIgA from lamina propria → lumen (effector direction)",
+        "sIgA half-life in lumen: ~5-6 days (secretory component protects from luminal proteases)"
+      ]
+    },
+    {
+      "id": "q046",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various organs of the GI tract are examined at low magnification in the histology laboratory. Identify the structure indicated by the arrow (shown in the image).",
+      "choices": [
+        "Adventitia",
+        "Haustra coli",
+        "Omental appendices",
+        "Plicae circulares",
+        "Teniae coli"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch13/lippincott histo ch13 q46.png",
+      "imageAlt": "Low-magnification H&E of colon showing the outer longitudinal muscularis externa condensed into a distinct band (teniae coli, arrow)",
+      "imageCaption": "Low-magnification H&E of colon showing teniae coli (arrow) — one of three equally spaced bands of outer longitudinal smooth muscle in the muscularis externa, visible as a prominent focal thickening of the outer muscle coat",
+      "explanation": "Teniae coli are three equally spaced bands of outer longitudinal smooth muscle of the colon muscularis externa, visible macroscopically and microscopically. Their contractions mediate segmentation and peristalsis, moving colonic contents. Haustra coli (choice B) are sacculations on the external surface of the large intestine formed by the contractions of teniae coli. Omental appendices (choice C) are fatty projections on the serosal surface. Plicae circulares (choice D) are submucosal folds of the small intestine.",
+      "keypoints": [
+        "⭐ Teniae coli: 3 equally spaced longitudinal bands of outer muscularis externa (colonic outer layer NOT continuous); gather colon wall into haustra",
+        "Haustra = sacculations between teniae coli; visible on CT as colonic 'pouches'; absent in small intestine",
+        "Colonic landmarks: teniae coli + haustra + omental appendages (epiploic appendices) = distinguish colon from small intestine on gross inspection",
+        "Toxic megacolon: loss of haustra and teniae coli muscle tone in UC/Crohn's → massive colonic dilation → risk of perforation"
+      ]
+    },
+    {
+      "id": "q047",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 2-year-old girl with a history of chronic constipation since birth is brought to the emergency room because of nausea and vomiting. Physical examination shows marked abdominal distension. Abdominal radiography reveals distended bowel loops. Which of the following developmental defects explains the pathogenesis of congenital megacolon in this patient?",
+      "choices": [
+        "Failure of neural crest migration",
+        "Hypertrophy of smooth muscle",
+        "Incomplete canalization of the primitive gut tube",
+        "Malrotation of the primitive gut tube",
+        "Persistence of the vitelline duct"
+      ],
+      "answer": 0,
+      "explanation": "Hirschsprung disease (congenital megacolon) results from failure of neural crest cells to migrate into the distal large intestine, leaving the rectum (and variable lengths of colon) without Auerbach and Meissner plexus ganglion cells. The aganglionic segment fails to relax, causing functional obstruction and proximal dilation (megacolon). Hypertrophy of smooth muscle (choice B) causes pyloric stenosis. Incomplete canalization (choice C) causes intestinal atresia. Persistence of the vitelline duct (choice E) causes Meckel diverticulum.",
+      "keypoints": [
+        "⭐ Hirschsprung disease: absent ganglion cells (Auerbach + Meissner) in rectosigmoid colon → failed neural crest migration → functional obstruction → proximal megacolon",
+        "⭐ Classic presentation: failure to pass meconium in first 24-48 hours of life; chronic constipation; risk of enterocolitis (life-threatening)",
+        "Diagnosis: rectal suction biopsy (gold standard) → absence of ganglion cells + hypertrophy of nerve fibers; contrast enema shows transition zone",
+        "Associated with RET proto-oncogene mutations; also seen in Down syndrome (trisomy 21)"
+      ]
+    },
+    {
+      "id": "q048",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Digital slides of the GI tract are examined in the histology laboratory. The double arrow (shown in the image) indicates which of the following layers of the large intestine?",
+      "choices": [
+        "Lamina propria",
+        "Muscularis mucosae",
+        "Mucosa",
+        "Muscularis externa",
+        "Submucosa"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch13/lippincott histo ch13 q48.png",
+      "imageAlt": "H&E section of colon showing the muscularis externa (double arrow) composed of inner circular and outer longitudinal smooth muscle layers with Auerbach plexus between them",
+      "imageCaption": "H&E of colon showing muscularis externa (double arrow) with inner circular and outer longitudinal smooth muscle layers; arrowheads indicate myenteric (Auerbach) plexus between the two muscle layers",
+      "explanation": "The muscularis externa (propria) of the colon consists of an inner circular and outer longitudinal layer, with the myenteric (Auerbach) plexus between them (arrowheads). The outer longitudinal layer is condensed into three bands (teniae coli) in the colon. The muscularis mucosae (choice B) is a thin smooth muscle layer at the base of the mucosa (between lamina propria and submucosa). The mucosa (choice C) includes epithelium + lamina propria + muscularis mucosae.",
+      "keypoints": [
+        "⭐ Muscularis externa (propria): inner CIRCULAR + outer LONGITUDINAL smooth muscle; Auerbach plexus between layers; controls peristalsis",
+        "Colon muscularis externa: outer longitudinal layer condensed into 3 teniae coli (not a complete layer); inner circular layer = continuous",
+        "Hirschsprung: biopsy must be > 2 cm from dentate line to avoid normal physiologic hypoganglionosis",
+        "Muscularis externa vs muscularis mucosae: externa = thick, outer; mucosae = thin, at mucosal base — do NOT confuse on boards"
+      ]
+    },
+    {
+      "id": "q049",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Your classmate opens a new digital slide and you study it together on the computer monitor. Identify the segment of the GI tract that is shown in the image.",
+      "choices": [
+        "Appendix",
+        "Duodenum",
+        "Ileum",
+        "Jejunum",
+        "Rectum"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch13/lippincott histo ch13 q49.png",
+      "imageAlt": "Low-magnification H&E cross-section of appendix showing a small lumen with abundant secondary lymphoid nodules extending from mucosa into submucosa",
+      "imageCaption": "Cross-section of vermiform appendix showing its characteristic feature: abundant secondary lymphoid nodules (with germinal centers) extending through the mucosa and into the submucosa, surrounding the narrow lumen",
+      "explanation": "The vermiform appendix is identified by its small diameter and the characteristic large number of secondary lymphoid nodules that extend through the mucosa into the submucosa. Aside from its small size and lymphoid hyperplasia, the histologic features of the appendix are similar to the colon (no villi, straight tubular glands, abundant goblet cells). The ileum (choice C) is identified by Peyer patches and villi. The duodenum (choice B) has Brunner glands in the submucosa.",
+      "keypoints": [
+        "⭐ Appendix histology: colonic-type mucosa + abundant secondary lymphoid follicles extending into submucosa; key distinguishing feature",
+        "⭐ Appendicitis: obstruction of appendiceal lumen (fecalith, lymphoid hyperplasia) → bacterial overgrowth → inflammation → ischemia → perforation → peritonitis",
+        "McBurney's point: 1/3 of the way from ASIS to umbilicus; maximal tenderness in acute appendicitis",
+        "Appendix is immunologically active in childhood; role as lymphoid organ decreases with age; may serve as 'safe house' for gut microbiota"
+      ]
+    },
+    {
+      "id": "q050",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 69-year-old woman undergoes a routine colonoscopy. During the procedure, a 2-cm mass is identified and resected. Microscopic examination shows irregular crypts lined by a pseudostratified epithelium. Normal tissue is evident at the tumor margin (shown in the image). In addition to mucin-producing goblet cells, these normal colonic glands are composed of which of the following epithelial cells?",
+      "choices": [
+        "Chief cells",
+        "Enterocytes",
+        "Enteroendocrine cells",
+        "Paneth cells",
+        "Parietal cells"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch13/lippincott histo ch13 q50.png",
+      "imageAlt": "H&E cross-section of colonic glands showing circular crypts lined by tall columnar absorptive enterocytes and pale goblet cells",
+      "imageCaption": "H&E cross-sections of normal colonic crypts showing tall columnar enterocytes (absorptive colonocytes) with basal nuclei and interspersed pale goblet cells; lumens appear small; surrounded by lamina propria",
+      "explanation": "Normal colonic glands (crypts of Lieberkühn) are lined primarily by enterocytes (absorptive colonocytes) and goblet cells. The principal function of colonocytes is water and electrolyte absorption. Enteroendocrine and Paneth cells (choices C and D) are present in small numbers but are not the major cell type. Chief cells (choice A) and parietal cells (choice E) are gastric cells with no presence in the colon.",
+      "keypoints": [
+        "⭐ Colon epithelial cells: colonocytes (absorptive, majority) + goblet cells (mucin) + enteroendocrine cells + occasional Paneth cells (mainly cecum/ascending colon)",
+        "⭐ Colorectal cancer progression: APC mutation → hyperplastic epithelium → tubular adenoma → tubulovillous → villous adenoma → carcinoma (APC-K-ras-SMAD4-TP53 sequence)",
+        "Villous adenomas: highest malignant potential; can cause secretory diarrhea with massive fluid/electrolyte loss",
+        "Pseudostratified epithelium in colonic crypts = adenoma/dysplasia; normal colonic crypts have a SINGLE layer of columnar cells"
+      ]
+    },
+    {
+      "id": "q051",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "You are invited to shadow a GI pathologist. A surgical specimen is examined using a double-headed microscope. This normal tissue was obtained from which of the following locations in the GI tract?",
+      "choices": [
+        "Colorectal junction",
+        "Esophagogastric junction",
+        "Gastroduodenal junction",
+        "Ileocecal junction",
+        "Rectoanal junction"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch13/lippincott histo ch13 q51.png",
+      "imageAlt": "H&E section showing abrupt transition from colonic glandular epithelium on the left to stratified squamous epithelium on the right, with diffuse lymphoid tissue at the junction",
+      "imageCaption": "H&E of rectoanal junction showing transition from colonic glandular epithelium with tubular crypts (left) to nonkeratinized stratified squamous epithelium of the anal canal (right); diffuse lymphoid tissue visible at the transition zone (pectinate/dentate line)",
+      "explanation": "The rectoanal junction (pectinate/dentate line) is identified histologically by the abrupt transition from colonic glandular epithelium (on the left) to stratified squamous epithelium (on the right), with diffuse lymphoid tissue at the transition. The stratified squamous epithelium of the anal canal becomes keratinized as it blends with external skin. The esophagogastric junction (choice B) also has stratified squamous epithelium, but the other side is columnar gastric mucosa (not colonic glands).",
+      "keypoints": [
+        "⭐ Rectoanal (pectinate/dentate) line junction: columnar rectal mucosa → stratified squamous anal canal; lymphoid tissue at transition",
+        "⭐ Dentate line clinical significance: above = internal hemorrhoids (visceral pain-insensitive), rectal adenocarcinoma, lymphatics to internal iliac nodes; below = external hemorrhoids (somatic pain), anal squamous cell carcinoma, lymphatics to inguinal nodes",
+        "Internal hemorrhoids: above dentate line; covered by columnar mucosa; painless bright red rectal bleeding; treated with rubber band ligation",
+        "Anal fistulas/abscesses: commonly communicate between anal glands (at dentate line) and perianal skin; common complication of Crohn's disease"
+      ]
+    }
+  ]
+}

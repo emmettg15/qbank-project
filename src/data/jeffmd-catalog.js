@@ -94,4 +94,14 @@ export const JEFFMD_CATALOG = [
   version: 1,
   addedDate: '2026-04-30',
 },
+{
+  catalogId: 'lippencott_histo_ch13_gi_qbank',
+  title: 'Lippincott Histology Ch13 - GI (JeffMD GI relevant)',
+  description: 'Gastrointestinal tract histology: mucosa, gastric glands, intestinal specializations, lymphoid tissue, and large intestine',
+  questionCount: 51,
+  tags: ['GI'],
+  examLevel: 'step1',
+  version: 1,
+  addedDate: '2026-05-10',
+},
 ]
