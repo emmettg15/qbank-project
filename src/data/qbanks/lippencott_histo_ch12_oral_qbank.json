@@ -1,0 +1,222 @@
+{
+  "config": {
+    "title": "Lippincott Histology Ch12 (Oral Cavity & Salivary Glands) - GI (JeffMD GI relevant)",
+    "subtitle": "Oral cavity histology: minor salivary glands, parotid, submandibular, sublingual glands, ductal system, and salivary immunology",
+    "passingFraction": 0.75,
+    "tags": {
+      "head_neck": {
+        "label": "Head & Neck"
+      },
+      "immuno": {
+        "label": "Immunology/ID"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q002",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "A lip biopsy is sectioned and prepared with routine H&E staining (shown in the image). Identify the structures indicated by the arrows.",
+      "choices": [
+        "Fordyce spots",
+        "Minor salivary gland",
+        "Sebaceous gland",
+        "Sublingual gland",
+        "Submandibular gland"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch12/lippincott histo ch12 q2.png",
+      "imageAlt": "H&E section of lip showing structures indicated by arrows in the submucosa",
+      "imageCaption": "H&E-stained lip biopsy; arrows indicate glandular structures in the submucosa of the inner lip",
+      "explanation": "Minor salivary glands are located in the submucosa of different portions of the oral cavity, including the inner surfaces of the lip and cheeks and inferior aspect of the tongue. They are named by location (labial, buccal, lingual, palatine glands) and drain via short ducts directly into the oral cavity. The sublingual and submandibular glands (choices D and E) are major salivary glands not located within the lip. Sebaceous glands (choice C) are associated with hair follicles in skin and are occasionally found at the corners of the mouth as Fordyce spots (choice A).",
+      "keypoints": [
+        "⭐ Minor salivary glands (labial, buccal, lingual, palatine) are located in oral cavity submucosa; drain via short ducts directly into the oral cavity without traversing a major duct",
+        "⭐ Three major salivary gland pairs: parotid (purely serous, largest), submandibular (mixed, serous predominant), sublingual (mixed, mucous predominant, smallest)",
+        "Fordyce spots = ectopic sebaceous glands in oral submucosa near corners of mouth; normal variant, NOT minor salivary glands",
+        "Mucocele = mucus retention cyst from trauma to minor salivary gland duct; presents as bluish translucent cyst on lower lip"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "A 47-year-old man presents with a painless, moveable firm mass near the angle of his left mandible. Needle biopsy reveals a pleomorphic adenoma of the parotid gland, and the tumor is surgically excised. Normal glandular tissue at the margin of the surgical specimen is examined in the pathology department (shown in the image). Identify the area/structure indicated by the arrow.",
+      "choices": [
+        "Acinus",
+        "Alveolus",
+        "Islet",
+        "Lobe",
+        "Lobule"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch12/lippincott histo ch12 q12.png",
+      "imageAlt": "Low-magnification H&E section of parotid gland showing lobular architecture with connective tissue septa",
+      "imageCaption": "H&E section of parotid gland at low magnification; arrow indicates a lobule bounded by connective tissue septa",
+      "explanation": "Parotid glands are the largest of the three pairs of major salivary glands. The tough dense connective tissue capsule continues as septa that penetrate and separate the parenchyma into lobes and lobules. Multiple lobules comprise a lobe (choice D). Connective tissue septa convey blood vessels, lymphatic channels, and nerves to and from secretory acini. The secretory unit of the parotid is the acinus (choice A)—not to be confused with the organizing unit of the lobule.",
+      "keypoints": [
+        "⭐ Parotid organizational hierarchy: capsule → septa → lobes → lobules → acini; connective tissue septa carry vasculature and nerves",
+        "⭐ Parotid = purely serous gland (no mucous cells); secretes salivary amylase, lysozyme, lactoferrin, IgA",
+        "Facial nerve (CN VII) exits stylomastoid foramen and travels within the parotid gland → surgical risk of Bell palsy during parotidectomy",
+        "Pleomorphic adenoma = most common benign parotid tumor; composed of ductal epithelial + myoepithelial cells in myxoid/chondroid stroma"
+      ]
+    },
+    {
+      "id": "q014",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "The parotid gland described in Question 12 is examined at high magnification (shown in the image). Identify the structure indicated by the arrow.",
+      "choices": [
+        "Intercalated duct",
+        "Mixed acinus",
+        "Mucous acinus",
+        "Serous acinus",
+        "Serous demilune"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch12/lippincott histo ch12 q14.png",
+      "imageAlt": "High-magnification H&E of parotid gland showing pyramidal serous cells arranged around a small lumen",
+      "imageCaption": "Parotid gland at high magnification; arrow indicates a serous acinus composed of pyramidal cells with basophilic basal cytoplasm and eosinophilic apical secretory granules",
+      "explanation": "Parotid gland acini are composed almost entirely of serous cells that produce fluid along with digestive enzymes and other proteins. Serous cells are pyramidal in shape, with a broad base resting on the basal lamina and a narrow apical surface facing the lumen. In H&E preparations, the basal domain stains more deeply with hematoxylin (due to abundant rough ER and free ribosomes), while eosinophilic secretory granules are located apically. Contractile myoepithelial cells are found between serous cells and the basal lamina.",
+      "keypoints": [
+        "⭐ Parotid = purely serous acini (zymogen granules containing amylase, proteases); basophilic basal domain + eosinophilic apical granules on H&E",
+        "⭐ Myoepithelial (basket) cells: surround acini and intercalated ducts; contractile, expel secretions; identified by spindle-shaped nuclei at acinar periphery",
+        "Parotitis (mumps) caused by paramyxovirus; presents with painful parotid swelling; can cause orchitis and sterility in post-pubertal males",
+        "Serous demilunes in submandibular gland = artifact of formalin fixation; not true demilunes in native tissue"
+      ]
+    },
+    {
+      "id": "q015",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "Another microscopic field of the parotid gland described in Question 12 is shown in the image. Identify the structure indicated by the arrow.",
+      "choices": [
+        "Excretory duct",
+        "Intercalated duct",
+        "Mucous acinus",
+        "Serous acinus",
+        "Striated duct"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch12/lippincott histo ch12 q15.png",
+      "imageAlt": "H&E section of parotid gland showing a narrow duct with low cuboidal lining adjacent to serous acini",
+      "imageCaption": "Parotid gland section; arrow indicates an intercalated duct lined by squamous to low cuboidal epithelium with a lumen smaller than or equal to the adjacent acini",
+      "explanation": "Intercalated ducts are the first and smallest segment of the ductal system, draining secretory acini directly. They are lined by squamous to low cuboidal epithelium, and their diameter is smaller than or equal to that of the acini they drain. Multiple intercalated ducts join to form a larger striated duct. Intercalated ducts are most well developed in the parotid glands, which distinguishes parotid from submandibular gland histology.",
+      "keypoints": [
+        "⭐ Salivary duct hierarchy: acinus → intercalated duct (squamous/low cuboidal) → striated duct (simple columnar with basal striations) → excretory duct (stratified columnar)",
+        "⭐ Intercalated ducts most extensive in parotid; least in sublingual — useful for differentiating glands histologically",
+        "Striated ducts modify saliva: reabsorb Na+, secrete K+ and HCO3−; basolateral infoldings with mitochondria give striated appearance",
+        "Excretory ducts: lined by stratified columnar epithelium; travel in interlobular septa; converge into main parotid (Stensen's) duct"
+      ]
+    },
+    {
+      "id": "q017",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "A submandibular gland is examined at autopsy (shown in the image). Identify the structure within the circle.",
+      "choices": [
+        "Intercalated duct",
+        "Mixed acinus",
+        "Mucous acinus",
+        "Serous acinus",
+        "Striated duct"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch12/lippincott histo ch12 q17.png",
+      "imageAlt": "H&E section of submandibular gland showing a mixed acinus with pale mucous cells and a serous demilune cap",
+      "imageCaption": "Submandibular gland section; circle indicates a mixed seromucous acinus with pale-staining mucous cells capped by a serous demilune (the serous cells at the periphery)",
+      "explanation": "Submandibular glands exhibit mixed serous and mucous tubuloacinar glands, with serous acini predominating. Mixed seromucous acini are scattered among the serous acini. In H&E-stained paraffin sections, the mucous cells appear empty because their mucus is removed during tissue processing. In mixed acini, serous cells form a cap on the basal aspect of the mucous cells; these caps are called serous demilunes. Recent studies show that serous demilunes are artifacts of conventional fixation—with improved methods, mucous and serous cells are found aligned in the same row.",
+      "keypoints": [
+        "⭐ Submandibular gland: mixed (serous predominant, ~60% serous acini); most prominent striated duct system of all major salivary glands",
+        "⭐ Serous demilunes = artifact of formalin fixation; appear as caps of dark serous cells on pale mucous acini in H&E",
+        "Sublingual gland: predominantly mucous, fewest intercalated ducts, drains via multiple ducts of Rivinus",
+        "Wharton's duct (submandibular) opens at sublingual caruncle on the floor of the mouth; prone to sialolithiasis (stone formation)"
+      ]
+    },
+    {
+      "id": "q018",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "Another region of the submandibular gland described in Question 17 is examined at high magnification (shown in the image). Identify the structure indicated by the arrow.",
+      "choices": [
+        "Excretory duct",
+        "Intercalated duct",
+        "Small artery",
+        "Small vein",
+        "Striated duct"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch12/lippincott histo ch12 q18.png",
+      "imageAlt": "High-magnification H&E of submandibular gland showing a duct lined by columnar cells with basolateral striations",
+      "imageCaption": "Submandibular gland at high magnification; arrow indicates a striated duct identified by simple columnar epithelium with basolateral striations (infolded plasma membrane + mitochondria)",
+      "explanation": "Striated ducts provide conduits between intercalated ducts and excretory ducts. Simple cuboidal to columnar epithelial cells line striated ducts. The basal plasma membrane forms numerous infoldings that contain longitudinally oriented mitochondria, giving the cells a striated appearance. These cells reabsorb Na+ and secrete K+ and HCO3−. Striated ducts are most extensive in submandibular glands and least developed in sublingual glands.",
+      "keypoints": [
+        "⭐ Striated ducts: named for basolateral membrane infoldings containing mitochondria (energy-dependent ion transport)",
+        "⭐ Striated duct function: reabsorb Na+, secrete K+ and HCO3− → saliva becomes hypotonic and slightly alkaline vs. plasma",
+        "Striated ducts most extensive in submandibular gland; absent/minimal in sublingual",
+        "Intralobular ducts = within lobule (intercalated + striated); interlobular/interlobar = excretory ducts between lobules"
+      ]
+    },
+    {
+      "id": "q019",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "The submandibular gland described in Questions 17 and 18 is examined further (shown in the image). The epithelium indicated by the arrows lines which of the following structures?",
+      "choices": [
+        "Excretory duct",
+        "Intercalated duct",
+        "Small artery",
+        "Small vein",
+        "Striated duct"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch12/lippincott histo ch12 q19.png",
+      "imageAlt": "H&E section of submandibular gland showing a large duct lined by stratified columnar epithelium within interlobular connective tissue",
+      "imageCaption": "Submandibular gland section; arrows indicate an excretory duct lined by stratified columnar epithelium traveling within interlobular connective tissue",
+      "explanation": "The intralobular striated ducts join to form larger excretory ducts that travel within the interlobular and interlobar connective tissue septa. As the diameters of the excretory ducts gradually increase, the lining epithelium changes from simple cuboidal (small excretory ducts) to stratified columnar (large excretory ducts, as shown in the image). The excretory ducts eventually unite to form Wharton's duct that opens into the oral cavity at the sublingual caruncle.",
+      "keypoints": [
+        "⭐ Excretory ducts: lined by stratified columnar epithelium (large ducts); run in interlobular connective tissue septa",
+        "⭐ Duct epithelium progression by lumen size: simple cuboidal → simple columnar → stratified columnar — all in excretory duct system",
+        "Stensen's duct (parotid) opens opposite upper 2nd molar; Wharton's duct (submandibular) opens at sublingual caruncle",
+        "Sialolithiasis (salivary stones): 80–90% occur in Wharton's duct due to high Ca/mucin content and tortuous path"
+      ]
+    },
+    {
+      "id": "q020",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Physiology",
+      "stem": "Laboratory studies demonstrate the presence of immunoglobulin A (IgA) in saliva obtained from healthy individuals. This antibody is synthesized and secreted by which of the following cells?",
+      "choices": [
+        "Fibroblasts in surrounding connective tissue",
+        "Mucous cells in acini",
+        "Myoepithelial cells in acini",
+        "Plasma cells in surrounding connective tissue",
+        "Serous cells in acini"
+      ],
+      "answer": 3,
+      "explanation": "The plasma cells in the loose connective tissue surrounding the secretory acini synthesize dimeric IgA antibodies. Secretory IgA binds to a receptor (poly-Ig receptor) on the basal surface of acinar cells and is transcytosed to the apical plasma membrane where it is released into the lumen as secretory IgA. Salivary IgA provides natural immunity against bacterial and viral infections in the oral cavity. Serous cells (choice E) secrete lysozyme and lactoferrin, but not IgA.",
+      "keypoints": [
+        "⭐ Secretory IgA pathway: plasma cells (in connective tissue) synthesize dimeric IgA → binds poly-Ig receptor on acinar basal surface → transcytosis → secretory component added → secretory IgA released into saliva",
+        "⭐ sIgA = most abundant antibody in mucosal secretions (saliva, tears, breast milk, GI secretions, genitourinary secretions); resists proteolysis",
+        "Serous cells secrete innate immunity proteins: lysozyme (cleaves bacterial cell wall peptidoglycan), lactoferrin (sequesters iron from bacteria), salivary amylase",
+        "Sjögren syndrome: autoimmune (anti-Ro/SSA, anti-La/SSB antibodies) destruction of salivary and lacrimal glands → xerostomia + keratoconjunctivitis sicca"
+      ]
+    }
+  ]
+}

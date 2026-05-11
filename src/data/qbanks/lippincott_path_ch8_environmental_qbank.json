@@ -1,0 +1,152 @@
+{
+  "config": {
+    "title": "Lippincott Path Ch8 \u2013 Environmental & Nutritional Pathology",
+    "subtitle": "Environmental exposures, occupational hazards, nutritional deficiencies, and metabolic effects of toxic agents",
+    "passingFraction": 0.75,
+    "tags": {
+      "environmental": {
+        "label": "Environmental & Nutritional"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q003",
+      "tag": "environmental",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "mechanismOfDisease",
+      "stem": "A 47-year-old man presents with a 6-week history of increasing fatigue and dark-colored stools. Complete blood count shows hemoglobin of 8.6 g/dL and microcytic, hypochromic RBCs. Upper gastrointestinal endoscopy reveals a peptic ulcer along the lesser curvature of the stomach. This patient's anemia is most likely caused by deficiency of which of the following?",
+      "choices": [
+        "Folic acid",
+        "Iron",
+        "Thiamine",
+        "Vitamin B12",
+        "Zinc"
+      ],
+      "answer": 1,
+      "explanation": "Gastrointestinal hemorrhage from a peptic ulcer causes ongoing loss of heme iron at a rate faster than it can be replaced from dietary sources, resulting in iron-deficiency anemia. The hallmark laboratory findings are microcytic (small) and hypochromic (pale) red blood cells, reflecting reduced hemoglobin synthesis due to insufficient iron for heme production. Folic acid (A) and vitamin B12 (D) deficiencies produce macrocytic (large cell) anemia, not microcytic. Dark stools (melena) indicate upper GI bleeding.",
+      "keypoints": [
+        "\u2b50 Iron deficiency from GI blood loss produces microcytic, hypochromic anemia",
+        "Dark/tarry stools (melena) indicate upper GI bleeding (proximal to ligament of Treitz)",
+        "\u2b50 Folic acid and B12 deficiencies cause macrocytic anemia, not microcytic",
+        "Iron is required for heme synthesis; deficiency limits hemoglobin production"
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "environmental",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "mechanismOfDisease",
+      "stem": "A 50-year-old man presents for a routine physical examination, which demonstrates an enlarged liver. During the visit, he describes memos from his supervisor at work regarding chronic exposure to vinyl chloride. The patient has an elevated risk for which of the following tumors?",
+      "choices": [
+        "Angiosarcoma of the liver",
+        "Carcinoid tumor",
+        "Hepatic adenoma",
+        "Lymphoma",
+        "Metastatic colon cancer"
+      ],
+      "answer": 0,
+      "explanation": "Occupational exposure to vinyl chloride, used in the production of plastics (polyvinyl chloride, PVC), is associated with the development of angiosarcoma of the liver\u2014a malignant tumor of hepatic endothelial cells. This is also associated with exposure to arsenic (in pesticides) and Thorotrast (a radioactive contrast medium). Hepatic adenoma (C) is associated with oral contraceptive use, not vinyl chloride. The other choices have no known association with vinyl chloride exposure.",
+      "keypoints": [
+        "\u2b50 Vinyl chloride (PVC production) \u2192 hepatic angiosarcoma",
+        "Other causes of hepatic angiosarcoma: arsenic and Thorotrast",
+        "\u2b50 Hepatic adenoma is associated with oral contraceptive use, not vinyl chloride",
+        "Angiosarcoma is a malignant tumor of vascular endothelial cells"
+      ]
+    },
+    {
+      "id": "q020",
+      "tag": "environmental",
+      "examLevel": "step1",
+      "system": "musculoskeletal",
+      "contentType": "mechanismOfDisease",
+      "stem": "A 45-year-old woman with longstanding Crohn disease and severe fat malabsorption experiences a fracture of the femoral neck after a minor contusion. This woman most likely has a deficiency of which of the following vitamins?",
+      "choices": [
+        "Vitamin B1 (thiamine)",
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin K",
+        "Niacin"
+      ],
+      "answer": 2,
+      "explanation": "Fat malabsorption from longstanding Crohn disease impairs absorption of all fat-soluble vitamins (A, D, E, K). Vitamin D deficiency in adults leads to osteomalacia\u2014inadequate mineralization of newly formed bone matrix\u2014weakening the skeleton and predisposing to pathological fractures. Vitamin D deficiency in children causes rickets. Fat-soluble vitamin absorption requires bile salts and intact small bowel mucosa; both may be compromised in Crohn disease. Vitamin K deficiency (D) would present with coagulopathy, not bone fragility.",
+      "keypoints": [
+        "\u2b50 Fat malabsorption \u2192 vitamin D deficiency \u2192 osteomalacia (adults) or rickets (children)",
+        "Crohn disease can impair absorption of all fat-soluble vitamins (A, D, E, K)",
+        "\u2b50 Osteomalacia features inadequate bone mineralization and pathological fractures",
+        "Vitamin K deficiency presents with coagulopathy (prolonged PT/INR), not bone disease"
+      ]
+    },
+    {
+      "id": "q021",
+      "tag": "environmental",
+      "examLevel": "step1",
+      "system": "neurologic",
+      "contentType": "mechanismOfDisease",
+      "stem": "A homeless man, who is a chronic alcoholic, is brought to the hospital in a wasted state. He is noted to have a peripheral neuropathy, difficulty balancing, and dementia. He dies suddenly of an arrhythmia, and at autopsy, lesions are found in the mamillary bodies and the vicinity of the third ventricle. The vitamin deficiency associated with these signs and symptoms is which of the following?",
+      "choices": [
+        "Vitamin B1 (thiamine)",
+        "Vitamin B12",
+        "Vitamin D",
+        "Niacin",
+        "Pyridoxine"
+      ],
+      "answer": 0,
+      "explanation": "This patient has classic Wernicke-Korsakoff syndrome combined with beri-beri, both caused by thiamine (vitamin B1) deficiency. Thiamine deficiency in chronic alcoholics results in encephalopathy, peripheral neuropathy, and cardiovascular manifestations (wet beri-beri). The pathognomonic autopsy finding is atrophy of the mamillary bodies with loss of ganglion cells and rupture of small blood vessels. Vitamin B12 (B) deficiency causes macrocytic anemia and subacute combined degeneration of the cord. Niacin (D) deficiency causes pellagra (dermatitis, diarrhea, dementia).",
+      "keypoints": [
+        "\u2b50 Thiamine (B1) deficiency in alcoholics causes Wernicke-Korsakoff syndrome: encephalopathy + peripheral neuropathy",
+        "Wernicke encephalopathy pathology: mamillary body atrophy, third ventricle lesions",
+        "\u2b50 Beri-beri = thiamine deficiency: wet (cardiac) or dry (neurologic) forms",
+        "Niacin deficiency \u2192 pellagra (3 Ds: dermatitis, diarrhea, dementia)"
+      ]
+    },
+    {
+      "id": "q025",
+      "tag": "environmental",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "diagnostics",
+      "stem": "A starving, 4-year-old, African boy presents with apathy, generalized edema, and an enlarged fatty liver. The physician notes that, despite generalized growth failure, subcutaneous fat is preserved. What is the appropriate diagnosis?",
+      "choices": [
+        "Beri-beri",
+        "Kwashiorkor",
+        "Marasmus",
+        "Pellagra",
+        "Scurvy"
+      ],
+      "answer": 1,
+      "explanation": "Kwashiorkor results from protein deficiency in a diet relatively high in carbohydrates. Key features include: edema (from hypoalbuminemia), enlarged fatty liver, apathy, skin depigmentation, and relative preservation of subcutaneous fat (unlike marasmus). It typically occurs in children weaned to protein-poor diets. In contrast, marasmus (C) is caused by total caloric deprivation and presents with profound wasting of both fat and muscle, without edema. The other choices represent specific vitamin deficiencies (beri-beri = B1, pellagra = niacin, scurvy = vitamin C).",
+      "keypoints": [
+        "\u2b50 Kwashiorkor = protein deficiency: edema, fatty liver, preserved subcutaneous fat",
+        "Marasmus = total caloric deprivation: muscle and fat wasting, NO edema",
+        "\u2b50 Kwashiorkor edema is caused by hypoalbuminemia (protein loss \u2192 low oncotic pressure)",
+        "Fatty liver in kwashiorkor results from impaired lipoprotein synthesis due to protein deficiency"
+      ]
+    },
+    {
+      "id": "q027",
+      "tag": "environmental",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "diagnostics",
+      "stem": "A 6-year-old girl is examined at a clinic in central Africa. Physical examination reveals wasting of muscle and fat, and a protuberant abdomen. Her pulse, blood pressure, and temperature are low. The face appears wrinkled. There is no evidence of generalized edema. What is the appropriate diagnosis?",
+      "choices": [
+        "Beri-beri",
+        "Kwashiorkor",
+        "Marasmus",
+        "Pellagra",
+        "Scurvy"
+      ],
+      "answer": 2,
+      "explanation": "Marasmus results from deficiency of all dietary elements\u2014total caloric deprivation. Clinical features include profound wasting of both muscle and subcutaneous fat (no preserved fat as in kwashiorkor), a wrinkled face resembling a 'shrunken old person,' protuberant abdomen, and low vital signs. Crucially, there is NO edema (distinguishing it from kwashiorkor). Immune impairment leads to recurrent infections. If untreated, these children fail to reach adult stature. The other choices represent specific nutritional deficiencies without the pan-deficiency pattern.",
+      "keypoints": [
+        "\u2b50 Marasmus = total caloric deprivation: profound muscle AND fat wasting, NO edema",
+        "Key distinction: marasmus has no edema; kwashiorkor has edema (hypoalbuminemia)",
+        "\u2b50 Wrinkled, 'shrunken old person' appearance is characteristic of marasmus",
+        "Marasmus causes immune deficiency, recurrent infections, and permanent growth failure"
+      ]
+    }
+  ]
+}

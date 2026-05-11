@@ -1,0 +1,283 @@
+{
+  "config": {
+    "title": "Lippincott Histology Ch21 (Introduction to Histopathology) - GI (JeffMD GI relevant)",
+    "subtitle": "Histopathology image comparison: metaplasia, varices, ulcers, cirrhosis, malabsorption, steatosis, diverticulosis, glomerulonephritis, neoplasia, and diabetic nephropathy",
+    "passingFraction": 0.75,
+    "tags": {
+      "gi": {
+        "label": "Gastrointestinal"
+      },
+      "hep_biliary": {
+        "label": "Hepatobiliary"
+      },
+      "renal": {
+        "label": "Renal/Urinary"
+      },
+      "path": {
+        "label": "Pathology"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q024",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathology",
+      "stem": "An endoscopic biopsy of the distal esophagus is obtained from a 50-year-old man with a history of chronic epigastric pain (heartburn). How does the histologic appearance of the patient's biopsy (image on right) differ from that of a normal esophagus (image on left)?",
+      "choices": [
+        "The cell type of the surface epithelium has changed.",
+        "The esophageal mucosa has been eroded.",
+        "There has been a neoplastic change in the epithelium.",
+        "There is a foreign material within the epithelium.",
+        "There is an infectious process within the epithelium."
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch21/lippincott histo ch21 q24.png",
+      "imageAlt": "Biopsy of distal esophagus showing glandular surface epithelium with abundant goblet cells (large pale intracellular vacuoles) — Barrett esophagus",
+      "imageCaption": "Distal esophageal biopsy (pathological): intestinal metaplasia with glandular epithelium and numerous goblet cells (large pale vacuoles) replacing the normal stratified squamous epithelium — Barrett esophagus",
+      "explanation": "This biopsy of the distal esophagus reveals a glandular surface epithelium with numerous goblet cells (cells with large, pale intracellular vacuoles). A reversible change in cell differentiation in response to injury is termed metaplasia. Intestinal metaplasia with goblet cells in the distal esophagus is referred to as Barrett esophagus. This pathologic condition is typically seen in patients with chronic gastroesophageal reflux. The lesion is characterized histologically by intestine-like epithelium composed of goblet cells and incompletely intestinalized gastric mucosa.",
+      "keypoints": [
+        "⭐ Barrett esophagus: intestinal metaplasia (goblet cells) replacing normal stratified squamous epithelium of distal esophagus; caused by chronic GERD; H&E hallmark = goblet cells (large pale cytoplasmic vacuoles)",
+        "⭐ Metaplasia = reversible replacement of one adult cell type by another; an adaptive response to persistent injury; Barrett is squamous → columnar (intestinal) metaplasia",
+        "Barrett esophagus → risk of esophageal adenocarcinoma (dysplasia → carcinoma sequence); surveillance endoscopy with biopsies",
+        "GERD pathophysiology: transient LES relaxation → gastric acid reflux → mucosal injury → metaplasia; exacerbated by obesity, hiatal hernia, fatty meals, alcohol, nicotine"
+      ]
+    },
+    {
+      "id": "q025",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathology",
+      "stem": "A 55-year-old alcoholic presents with upper gastrointestinal bleeding and expires. The distal esophagus is examined at autopsy. Compared to a normal esophagus (image on left), the patient's esophagus (image on right) shows which of the following histopathologic changes?",
+      "choices": [
+        "Accumulation of inflammatory cells in the submucosa",
+        "Alteration of the submucosal vasculature",
+        "Erosion of the esophageal mucosa",
+        "New uncontrolled growth of the lining epithelium",
+        "Thickening of the muscular wall of the esophagus"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch21/lippincott histo ch21 q25.png",
+      "imageAlt": "Autopsy section of distal esophagus showing markedly dilated submucosal veins (varices) protruding into the lumen",
+      "imageCaption": "Distal esophagus (pathological): esophageal varices — markedly dilated submucosal veins (collateral vessels from portal hypertension) that protrude into the lumen and are prone to life-threatening rupture",
+      "explanation": "This autopsy specimen shows varices (varicose veins) in the esophageal submucosa. These dilated veins arise in the lower third of the esophagus in patients with portal hypertension, secondary to hepatic cirrhosis. Engorged collateral veins in the submucosa of the lower esophagus become dilated and protrude into the lumen. When esophageal varices become greater than 5 mm in diameter, they are likely to rupture causing life-threatening hemorrhage. The prognosis of patients with bleeding esophageal varices is poor, with a 40% mortality rate.",
+      "keypoints": [
+        "⭐ Esophageal varices: dilated submucosal veins from portosystemic collateral circulation; portal hypertension (cirrhosis) → blood shunts via left gastric → esophageal submucosal veins",
+        "⭐ Portal hypertension collateral sites: esophageal varices, caput medusae (periumbilical), hemorrhoids, retroperitoneal collaterals",
+        "Rupture of varices: catastrophic UGI hemorrhage; treatment = banding/sclerotherapy, TIPS (transjugular intrahepatic portosystemic shunt), propranolol (prophylaxis)",
+        "Cirrhosis → portal hypertension via: (1) increased resistance to portal flow through fibrotic liver, (2) increased portal blood flow from splanchnic vasodilation"
+      ]
+    },
+    {
+      "id": "q026",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathology",
+      "stem": "A 56-year-old woman suffers major trauma in a motor vehicle accident and expires. An incidental finding is observed at autopsy. How does the histologic appearance of the patient's stomach (image on right) differ from that of the normal stomach (image on left)?",
+      "choices": [
+        "The cell type of the surface epithelium has been changed.",
+        "The gastric mucosa has been eroded.",
+        "The muscular wall of the stomach is thickened.",
+        "The submucosal vasculature has been altered.",
+        "There has been a neoplastic change in the epithelium."
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch21/lippincott histo ch21 q26.png",
+      "imageAlt": "Autopsy stomach section showing focal destruction of the mucosa with replacement of muscularis mucosae by collagen-rich connective tissue — peptic ulcer",
+      "imageCaption": "Stomach (pathological): peptic (gastric) ulcer showing focal mucosal erosion with full-thickness replacement of the muscularis mucosae by collagen-rich scar tissue extending to deeper layers",
+      "explanation": "An incidental peptic ulcer is identified in the distal stomach. Histologic examination shows focal destruction of the mucosa and full-thickness replacement of the muscularis with collagen-rich connective tissue. Gastric ulcers are usually single and less than 2 cm in diameter. Ulcers on the lesser curvature are commonly associated with chronic gastritis (H. pylori), whereas those on the greater curvature are often related to use of NSAIDs. Ulcers penetrate to at least the muscularis mucosae (distinguishing from superficial erosions).",
+      "keypoints": [
+        "⭐ Peptic ulcer: mucosal defect penetrating through muscularis mucosae into submucosa or deeper; floor shows necrotic debris + neutrophils + granulation tissue + fibrosis (4 zones)",
+        "⭐ H. pylori: gram-negative urease-positive spiral bacterium; colonizes antrum; damages mucosa via urease (NH3), cytotoxins (VacA, CagA); associated with 95% of duodenal and 70% of gastric ulcers",
+        "Gastric ulcer complications: bleeding (most common), perforation (peritonitis), penetration into pancreas, gastric outlet obstruction",
+        "NSAID-induced ulcers: inhibit COX-1 → decreased mucosal prostaglandins (PGE2, PGI2) → decreased mucus/bicarbonate secretion + decreased mucosal blood flow; often silent until complication"
+      ]
+    },
+    {
+      "id": "q027",
+      "tag": "hep_biliary",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathology",
+      "stem": "A 50-year-old woman with a history of chronic hepatitis C presents with jaundice and chronic fatigue. A liver biopsy is stained with Masson trichrome and examined by light microscopy. How does the histologic appearance of the patient's liver (image on right) differ from that of the normal liver (image on left)?",
+      "choices": [
+        "The bile canaliculi are dilated by bile plugs.",
+        "The hepatic architecture has been distorted by scar tissue.",
+        "There is a vascular alteration within the liver.",
+        "There is excess iron deposition in the hepatocytes.",
+        "There is fat accumulation within the hepatocytes."
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch21/lippincott histo ch21 q27.png",
+      "imageAlt": "Masson trichrome-stained liver biopsy showing hepatic nodules of various sizes surrounded by irregular blue-staining fibrous septa — cirrhosis",
+      "imageCaption": "Liver biopsy, Masson trichrome (pathological): cirrhosis with hepatic regenerative nodules (pink hepatocytes) surrounded by irregular fibrous septa (blue collagen) distorting normal lobular architecture",
+      "explanation": "This liver biopsy shows hepatic nodules of various sizes surrounded by irregular fibrous septa (blue on Masson trichrome). Chronic liver injury (e.g., chronic viral hepatitis B or C) is associated with the development of collagenous scars within the hepatic parenchyma. The end stage of chronic injury is cirrhosis. Hepatocytes form regenerative nodules that lack central veins and expand to obstruct blood vessels and bile flow, causing portal hypertension and jaundice.",
+      "keypoints": [
+        "⭐ Cirrhosis: end-stage liver disease = replacement of normal lobular architecture by fibrous septa + regenerative nodules (no central veins); Masson trichrome = blue collagen; H&E = pink fibrosis",
+        "⭐ Causes of cirrhosis: alcohol (most common in US), chronic HBV/HCV, NAFLD/NASH, hemochromatosis, Wilson disease, primary biliary cholangitis, autoimmune hepatitis",
+        "Consequences of cirrhosis: portal hypertension → varices, splenomegaly, ascites; synthetic dysfunction → coagulopathy (↓ PT factors), hypoalbuminemia; hepatic encephalopathy",
+        "Hepatocellular carcinoma (HCC): major complication of cirrhosis; AFP elevation; arises from hepatocytes within regenerative nodules; HBV/HCV and alcohol are major risk factors"
+      ]
+    },
+    {
+      "id": "q028",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathology",
+      "stem": "A 4-year-old child is brought to the family physician with parental concerns regarding diarrhea and growth retardation. Laboratory studies demonstrate intestinal malabsorption. A biopsy of the child's proximal small intestine is obtained. How does the histologic appearance of the patient's intestinal biopsy (image on right) differ from that of a normal intestine (image on left)?",
+      "choices": [
+        "The absorptive surface has been attenuated.",
+        "The cell type of the surface epithelium has been changed.",
+        "The submucosal vasculature has been altered.",
+        "There is an infectious process within the epithelium.",
+        "There is erosion of the surface epithelium."
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch21/lippincott histo ch21 q28.png",
+      "imageAlt": "Duodenal/jejunal biopsy showing villous atrophy (blunted villi) with crypt hyperplasia and lymphocytic infiltrate in lamina propria — celiac disease",
+      "imageCaption": "Proximal small intestinal biopsy (pathological): celiac sprue showing villous atrophy (blunted, absent villi), crypt hyperplasia, and increased intraepithelial lymphocytes with chronic inflammatory cells in the lamina propria",
+      "explanation": "The child's biopsy reveals blunting and attenuation of intestinal villi. The mucosal surface shows loss of tall, slender intestinal villi and infiltration of the lamina propria by chronic inflammatory cells. These histopathologic findings are seen in patients with celiac sprue (gluten-sensitive enteropathy). The hallmark is a flat mucosa with blunting of intestinal villi, damaged epithelial cells, intraepithelial T cells, and increased plasma cells in the lamina propria.",
+      "keypoints": [
+        "⭐ Celiac disease (gluten-sensitive enteropathy): immune-mediated villous atrophy triggered by gliadin (gluten protein); proximal small intestine most affected; presents with malabsorption, diarrhea, failure to thrive",
+        "⭐ Histology: villous atrophy + crypt hyperplasia + increased intraepithelial lymphocytes (IELs) + lamina propria plasma cells; Marsh classification grades severity",
+        "Antibodies: anti-tissue transglutaminase (anti-tTG IgA) = most sensitive/specific test; anti-endomysial IgA, anti-gliadin; HLA-DQ2 (90%) or HLA-DQ8 (10%)",
+        "Complications: osteoporosis (Ca/Vit D malabsorption), anemia (Fe/folate/B12), dermatitis herpetiformis (intensely pruritic vesicles on extensor surfaces), enteropathy-associated T cell lymphoma"
+      ]
+    },
+    {
+      "id": "q029",
+      "tag": "hep_biliary",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathology",
+      "stem": "A liver biopsy is obtained from a 45-year-old man with mildly elevated liver enzymes (aminotransferases). Compared to a normal liver (image on left), the patient's liver biopsy (image on right) shows which of the following histopathologic changes?",
+      "choices": [
+        "Bile canaliculi dilated by bile plugs",
+        "Deposition of lipofuscin in hepatocytes",
+        "Excess iron deposition in hepatocytes",
+        "Fat accumulation within hepatocytes",
+        "Vascular alteration within the liver"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch21/lippincott histo ch21 q29.png",
+      "imageAlt": "Liver biopsy showing hepatocytes distended by large clear intracellular fat vacuoles displacing nuclei to the cell periphery — steatosis",
+      "imageCaption": "Liver biopsy (pathological): macrovesicular steatosis (alcoholic fatty liver) showing hepatocytes distended by large, clear fat vacuoles that displace the nucleus to the cell periphery",
+      "explanation": "This biopsy reveals hepatocytes that are distended by large, intracellular fat vacuoles that push nuclei to the periphery (macrovesicular steatosis). Excessive alcohol consumption induces fat accumulation within hepatocytes, enlarging the liver to as much as three times the normal weight. The amount of fat deposited varies with the amount of alcohol consumed, hormonal status, and diet. Triglyceride accumulation by itself is not ordinarily damaging, and the condition is fully reversible upon discontinuation of alcohol (abstinence).",
+      "keypoints": [
+        "⭐ Alcoholic fatty liver (steatosis): macrovesicular fat vacuoles displace nuclei to periphery; reversible with abstinence; earliest and most common hepatic response to alcohol",
+        "⭐ Alcoholic liver disease progression: steatosis → alcoholic hepatitis (Mallory bodies + neutrophils) → cirrhosis; progression requires continued alcohol use",
+        "NAFLD/NASH: identical histology to alcoholic liver disease but in non-drinkers; associated with obesity, insulin resistance, metabolic syndrome; NASH can progress to cirrhosis",
+        "Macrovesicular vs microvesicular steatosis: macro = one large vacuole/cell (alcohol, NAFLD); micro = many small vacuoles (Reye syndrome, fatty liver of pregnancy, tetracycline toxicity)"
+      ]
+    },
+    {
+      "id": "q030",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathology",
+      "stem": "A 68-year-old woman with varicose veins of her legs develops acute pulmonary thromboembolism. Despite treatment, the patient develops multiple organ system failure and expires. An incidental finding is discovered at autopsy. Compared to a normal colon (image on left), the patient's colon (image on right) shows which of the following histopathologic findings?",
+      "choices": [
+        "Alteration of submucosal vasculature",
+        "Benign neoplasm of the epithelium",
+        "Defect in the wall of the colon",
+        "Submucosal collagen deposition",
+        "Superficial inflammatory membranes"
+      ],
+      "answer": 2,
+      "image": "/images/histo_ch21/lippincott histo ch21 q30.png",
+      "imageAlt": "Colon section showing herniation of mucosa and muscularis mucosae through defects in the bowel wall forming outpouchings (diverticula)",
+      "imageCaption": "Colon (pathological): diverticulosis showing segments of mucosa (including muscularis mucosae) herniated through defects in the muscularis externa forming diverticula — outpouchings of the colonic wall",
+      "explanation": "Examination of the patient's colon reveals segments of mucosa (including muscularis mucosae) that have herniated through defects in the bowel wall, producing diverticula. Diverticulosis is generally asymptomatic. Diverticulitis results from the irritation caused by retained fecal material that obstructs the lumen of a diverticulum. Diverticula are most common in the sigmoid colon, which is affected in 95% of cases. Rupture, followed by peritonitis and sepsis, are serious complications.",
+      "keypoints": [
+        "⭐ Diverticulosis: false diverticula (pulsion type) = herniation of mucosa + muscularis mucosae through points of weakness in muscularis externa where blood vessels penetrate; NOT all bowel wall layers",
+        "⭐ Risk factors: low-fiber diet → increased intraluminal pressure → mucosal herniation; most common in sigmoid colon; prevalence increases with age (60% by age 80)",
+        "Diverticulitis (inflammation of diverticulum): LLQ pain, fever, leukocytosis; treat with bowel rest + antibiotics; complications = perforation, abscess, fistula, obstruction",
+        "True diverticula (all bowel layers): Meckel diverticulum (remnant of omphalomesenteric duct, 2 feet from ileocecal valve, 2% of population, rule of 2s)"
+      ]
+    },
+    {
+      "id": "q031",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathology",
+      "stem": "A 34-year-old woman with a recent history of sore throat complains of a recent change in the color of her urine. Physical examination reveals soft tissue swelling (generalized edema). Laboratory studies demonstrate hematuria and moderate renal insufficiency (elevated serum levels of creatinine). A percutaneous renal biopsy is stained with Masson trichrome and examined by light microscopy. How does the microscopic appearance of the patient's glomerulus (image on right) differ from that of the normal control (image on left)?",
+      "choices": [
+        "The glomerulus appears normal.",
+        "The glomerulus is hypercellular.",
+        "The glomerulus shows marked atrophy.",
+        "There is diffuse necrosis of the glomerulus.",
+        "There is thickening of the glomerular capillary loops."
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch21/lippincott histo ch21 q31.png",
+      "imageAlt": "Renal biopsy showing a hypercellular glomerulus with numerous neutrophils filling the capillary loops and increased mesangial cells — poststreptococcal glomerulonephritis",
+      "imageCaption": "Renal biopsy (pathological): poststreptococcal glomerulonephritis showing a hypercellular glomerulus with neutrophil infiltration and mesangial cell proliferation filling capillary lumens compared to normal glomerular cellularity (left)",
+      "explanation": "The patient's glomerulus appears hypercellular because it contains numerous neutrophils and increased numbers of mesangial cells. This case is illustrative of nephritic syndrome in the setting of poststreptococcal glomerulonephritis. Nephritic syndrome is characterized by hematuria, variable degrees of proteinuria, and decreased glomerular filtration. It results in elevations of BUN and serum creatinine, oliguria, salt and water retention, edema, and hypertension.",
+      "keypoints": [
+        "⭐ Poststreptococcal GN: 2–4 weeks after group A strep pharyngitis or impetigo; nephritic syndrome = hematuria (RBC casts), hypertension, oliguria, proteinuria; hypercellular glomeruli on biopsy",
+        "⭐ Nephritic pattern: hypercellular glomeruli (neutrophil + mesangial proliferation); treat underlying cause; most children recover completely; some adults develop CKD",
+        "Pathogenesis: immune complex (type III hypersensitivity) deposition in glomerular basement membrane + mesangium → complement activation → neutrophil recruitment",
+        "Light microscopy: diffuse glomerular hypercellularity; immunofluorescence: granular 'lumpy bumpy' IgG + C3 deposits; EM: subepithelial 'humps' (immune complexes)"
+      ]
+    },
+    {
+      "id": "q032",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathology",
+      "stem": "A colon biopsy is obtained from a 58-year-old man with a history of intermittent rectal bleeding. How does the histologic appearance of the patient's colon biopsy (image on right) differ from that of a normal colon (image on left)?",
+      "choices": [
+        "The submucosal vasculature has been altered.",
+        "There has been a neoplastic change in the epithelium.",
+        "There is a defect in the wall of the colon.",
+        "There is an increase in submucosal collagen.",
+        "There is destruction of the glandular epithelium."
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch21/lippincott histo ch21 q32.png",
+      "imageAlt": "Colon biopsy showing an adenomatous polyp with villous and tubular architecture and a focus of invasive adenocarcinoma in the stalk",
+      "imageCaption": "Colon biopsy (pathological): adenomatous polyp (tubulovillous) showing neoplastic glandular epithelium with architectural disarray and a focus of invasive mucus-producing adenocarcinoma in the stalk",
+      "explanation": "The patient's colon biopsy reveals a neoplasm referred to as an adenomatous polyp. Villous and tubular elements are observed in this polyp (tubulovillous adenoma). Microscopic examination of the stalk further reveals a focus of mucus-producing adenocarcinoma. As long as dysplastic foci remain confined to the polyp mucosa, these lesions are almost always cured by surgical resection. Once invasion occurs through the muscularis mucosae, the risk of lymph node metastasis increases significantly.",
+      "keypoints": [
+        "⭐ Adenomatous polyp (adenoma): neoplastic colonic epithelium; types = tubular (80%, lower malignant potential), villous (10%, highest risk), tubulovillous (10%); ALL have malignant potential",
+        "⭐ Adenoma-carcinoma sequence: normal colon → hyperproliferative epithelium → adenoma → carcinoma; driven by APC → KRAS → SMAD4 → TP53 mutations (Vogelstein model)",
+        "Familial adenomatous polyposis (FAP): APC mutation → hundreds of polyps by age 20 → 100% risk of CRC by age 40; prophylactic colectomy required",
+        "Colorectal carcinoma: left-sided (descending/sigmoid) → obstructing (apple-core on imaging), blood in stool; right-sided (ascending) → iron-deficiency anemia, occult blood, rarely obstructing"
+      ]
+    },
+    {
+      "id": "q033",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal/Urinary",
+      "contentType": "Pathology",
+      "stem": "A 60-year-old obese woman (BMI = 34 kg/m²) complains of excessive thirst and urine production (polydipsia and polyuria). Laboratory studies reveal glucosuria and proteinuria. A renal biopsy is obtained and stained with PAS reagent. How does the microscopic appearance of the patient's glomerulus (image on right) differ from that of the normal control (image on left)?",
+      "choices": [
+        "There is acute inflammation of the glomerulus.",
+        "There is diffuse necrosis of the glomerulus.",
+        "There is expansion of the mesangium forming nodular lesions.",
+        "There is hemorrhage into the urinary space.",
+        "There is marked atrophy of the glomerulus."
+      ],
+      "answer": 2,
+      "image": "/images/histo_ch21/lippincott histo ch21 q33.png",
+      "imageAlt": "PAS-stained renal biopsy showing expanded mesangial matrix forming nodular lesions (Kimmelstiel-Wilson nodules) — diabetic glomerulosclerosis",
+      "imageCaption": "Renal biopsy, PAS stain (pathological): diabetic glomerulosclerosis showing prominent increase in mesangial matrix (PAS-positive) forming several nodular lesions (Kimmelstiel-Wilson nodules) compared to normal glomerular architecture",
+      "explanation": "The patient's renal biopsy reveals a prominent increase in the mesangial matrix, forming several nodular lesions (Kimmelstiel-Wilson nodules). These findings are seen in patients with diabetic glomerulosclerosis. PAS reagent stains complex carbohydrates conjugated to extracellular matrix proteins via nonenzymatic glycosylation—a reaction that occurs at an accelerated rate in diabetics with hyperglycemia. Diabetes mellitus is the leading cause of end-stage renal disease in the United States.",
+      "keypoints": [
+        "⭐ Diabetic nephropathy (glomerulosclerosis): diffuse mesangial matrix expansion + nodular lesions (Kimmelstiel-Wilson nodules); PAS-positive mesangial material; leading cause of ESRD in US",
+        "⭐ Pathogenesis: hyperglycemia → nonenzymatic glycosylation of BM proteins + activation of PKC + oxidative stress → GBM thickening + mesangial expansion → proteinuria → ESRD",
+        "Earliest sign: microalbuminuria (30–300 mg/day albumin); progresses to macroalbuminuria → nephrotic syndrome → ESRD; ACE inhibitors slow progression",
+        "Also in diabetic nephropathy: afferent AND efferent arteriolar hyalinosis (pathognomonic of diabetes); tubular basement membrane thickening; Armanni-Ebstein lesion (glycogen in tubular cells)"
+      ]
+    }
+  ]
+}

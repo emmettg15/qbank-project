@@ -1,0 +1,296 @@
+{
+  "config": {
+    "title": "Lippincott Path Ch9 \u2013 Infectious & Parasitic Diseases",
+    "subtitle": "Infectious and parasitic diseases: bacterial toxins, parasitic GI infections, sexually transmitted organisms, and tropical diseases",
+    "passingFraction": 0.75,
+    "tags": {
+      "infectious": {
+        "label": "Infectious Disease"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q006",
+      "tag": "infectious",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "mechanismOfDisease",
+      "stem": "A 24-year-old man, who has just returned from a trip to India, complains of fatigue and severe, unremitting, watery diarrhea. Laboratory studies show severe hypernatremia and hypokalemia. Which of the following metabolic changes in enterocytes is chiefly responsible for the pathogenesis of this patient's acute gastrointestinal disorder?",
+      "choices": [
+        "Decreased intracellular calcium",
+        "Decreased plasma membrane biosynthesis",
+        "Decreased water secretion",
+        "Increased intracellular cAMP",
+        "Increased intracellular water"
+      ],
+      "answer": 3,
+      "explanation": "This patient has cholera, caused by Vibrio cholerae, which is endemic in India. The AB toxin binds to ganglioside GM1 on intestinal epithelial cells and permanently activates adenylate cyclase, massively increasing intracellular cAMP. Elevated cAMP stimulates chloride secretion and inhibits sodium absorption, leading to profuse watery diarrhea ('rice-water stools') and rapid dehydration. The mucosa shows no significant pathologic injury. Without treatment, death from hypovolemic shock can occur within hours. The other choices do not reflect the mechanism of cholera toxin.",
+      "keypoints": [
+        "\u2b50 Cholera toxin increases enterocyte cAMP \u2192 massive chloride/water secretion",
+        "Cholera AB toxin binds ganglioside GM1 and permanently activates adenylate cyclase",
+        "\u2b50 'Rice-water stools' = profuse watery diarrhea without mucosal invasion",
+        "Treatment is oral rehydration; cholera does not cause mucosal pathology"
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "infectious",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "etiology",
+      "stem": "A 12-year-old girl develops fever, abdominal pain, and bloody diarrhea 1 to 2 days after eating a hamburger at a fast food restaurant. Physical examination reveals an extensive purpuric skin rash. The patient develops oliguria, and laboratory studies show elevated serum levels of BUN and creatinine. Which of the following is the most likely etiologic agent responsible for this patient's condition?",
+      "choices": [
+        "Campylobacter jejuni",
+        "Escherichia coli O157:H7",
+        "Salmonella typhi",
+        "Shigella dysenteriae",
+        "Yersinia pestis"
+      ],
+      "answer": 1,
+      "explanation": "This presentation of bloody diarrhea after hamburger consumption followed by purpuric rash, oliguria, and elevated BUN/creatinine describes hemolytic-uremic syndrome (HUS) caused by Enterohemorrhagic E. coli (EHEC) serotype O157:H7. EHEC adheres to colonic mucosa and releases a Shiga-like toxin (verotoxin) that destroys vascular endothelial cells. HUS is the triad of microangiopathic hemolytic anemia, thrombocytopenia, and acute renal failure. Undercooked ground beef is the classic vehicle. Campylobacter (A) and Shigella (D) cause bloody diarrhea but not the HUS triad.",
+      "keypoints": [
+        "\u2b50 E. coli O157:H7 causes bloody diarrhea + hemolytic-uremic syndrome (HUS)",
+        "HUS triad: microangiopathic hemolytic anemia + thrombocytopenia + acute renal failure",
+        "\u2b50 Undercooked ground beef is the classic vehicle for E. coli O157:H7",
+        "Shiga-like toxin (verotoxin) destroys vascular endothelium causing microthrombi"
+      ]
+    },
+    {
+      "id": "q008",
+      "tag": "infectious",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "etiology",
+      "stem": "A 65-year-old man undergoes cardiac bypass surgery and is placed on postoperative, broad-spectrum, antibiotic prophylaxis. Several days later, he develops fever, abdominal pain, and bloody diarrhea. Colonoscopic biopsy demonstrates a thick mucopurulent exudate. Which of the following is the most likely etiology of this patient's gastrointestinal disorder?",
+      "choices": [
+        "Clostridium botulinum",
+        "Clostridium difficile",
+        "Clostridium perfringens",
+        "Clostridium tetani",
+        "Escherichia coli O157:H7"
+      ],
+      "answer": 1,
+      "explanation": "Antibiotic use disrupts normal gut flora, allowing Clostridium difficile to proliferate and produce toxins A and B that cause pseudomembranous colitis. Broad-spectrum antibiotics (especially clindamycin and cephalosporins) are the most common trigger. Colonoscopy reveals characteristic yellow-green pseudomembranes (thick mucopurulent exudate) overlying the colonic mucosa. C. perfringens (C) causes food poisoning and gas gangrene, while C. botulinum (A) produces a preformed neurotoxin causing flaccid paralysis. C. tetani (D) causes spastic paralysis via tetanospasmin.",
+      "keypoints": [
+        "\u2b50 C. difficile causes antibiotic-associated pseudomembranous colitis",
+        "Classic trigger antibiotics: clindamycin, fluoroquinolones, cephalosporins",
+        "\u2b50 Pseudomembranes = yellow-green plaques of fibrin, necrotic debris, and neutrophils on colon mucosa",
+        "C. perfringens is the most common cause of gas gangrene and food poisoning (not C. difficile)"
+      ]
+    },
+    {
+      "id": "q035",
+      "tag": "infectious",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "etiology",
+      "stem": "A 25-year-old man, who recently returned from a trip to Central America, presents with right upper quadrant pain and fever of 3 weeks in duration. A CT scan of the abdomen shows a large cystic cavity of the liver, after which a 12-cm abscess is excised (shown in the image). Histologic examination of the lesion reveals chocolate-colored, odorless debris, surrounded by a shaggy fibrin lining, scant inflammatory reaction, and organisms attached to adjacent cells. Which of the following pathogens is responsible for this patient's liver abscess?",
+      "choices": [
+        "Clonorchis sinensis",
+        "Entamoeba histolytica",
+        "Giardia lamblia",
+        "Schistosoma mansoni",
+        "Streptococcus pyogenes"
+      ],
+      "answer": 1,
+      "image": "/images/path_ch9/lippincott_path_ch9_q035.png",
+      "imageAlt": "Excised liver abscess with chocolate-brown necrotic material and shaggy fibrin lining",
+      "imageCaption": "Amebic liver abscess showing characteristic 'anchovy paste' (chocolate-colored, odorless) necrotic debris with a fibrinous wall.",
+      "explanation": "Entamoeba histolytica is a fecal-oral protozoan that colonizes the colon, invades submucosal veins, enters the portal circulation, and reaches the liver. Amebae kill hepatocytes, forming a slowly expanding necrotic cavity filled with 'anchovy paste'\u2014dark brown, odorless material. The lesion typically shows a shaggy fibrin lining with scant inflammatory cells, as the organism evades the immune response. Clonorchis (A) causes biliary obstruction. Giardia (C) causes small bowel malabsorption. Schistosoma mansoni (D) causes hepatic fibrosis, not abscess.",
+      "keypoints": [
+        "\u2b50 Entamoeba histolytica causes hepatic amebic abscess with 'anchovy paste' contents",
+        "Amebae travel via portal circulation from colon to liver",
+        "\u2b50 Amebic abscess: chocolate-brown odorless necrosis, fibrin lining, scant inflammation",
+        "Giardia causes small intestine malabsorption; Schistosoma causes hepatic fibrosis"
+      ]
+    },
+    {
+      "id": "q036",
+      "tag": "infectious",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "mechanismOfDisease",
+      "stem": "A 24-year-old woman presents with severe vomiting, abdominal cramps, and diarrhea 2 hours after dining at a local restaurant. Many of the customers that night reported similar symptoms. Which of the following mechanisms of disease is chiefly responsible for the development of gastrointestinal symptoms in this patient?",
+      "choices": [
+        "Activation of membrane-associated tyrosine kinase",
+        "Exposure to preformed enterotoxin",
+        "IgE-mediated mast cell degranulation",
+        "Immune-complex deposition and complement activation",
+        "Receptor-mediated stimulation of intracellular cAMP"
+      ],
+      "answer": 1,
+      "explanation": "The onset of vomiting and diarrhea within 2 hours of a communal meal is classic for Staphylococcus aureus food poisoning, caused by ingestion of preformed, heat-stable enterotoxin B. Food handlers contaminate foods like dairy, meat, and pastries with infected wounds or nasal secretions. The toxin acts directly on the GI tract and on the vagal nerve, causing rapid symptom onset. Symptoms typically resolve within 12 hours. Receptor-mediated cAMP stimulation (E) is the mechanism of cholera toxin, which causes later-onset watery diarrhea without vomiting.",
+      "keypoints": [
+        "\u2b50 S. aureus food poisoning: preformed heat-stable toxin \u2192 symptoms within 1-6 hours",
+        "Rapid onset (2 hours) with vomiting + diarrhea = preformed toxin (S. aureus or Bacillus cereus)",
+        "\u2b50 Cholera toxin works via cAMP; S. aureus toxin acts directly on mucosa and vagal nerve",
+        "S. aureus toxin is heat-stable\u2014cooking the contaminated food does not prevent illness"
+      ]
+    },
+    {
+      "id": "q040",
+      "tag": "infectious",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "etiology",
+      "stem": "A 50-year-old woman presents with sudden-onset, crampy abdominal pain and watery diarrhea. She also complains of low-grade fever with chills, nausea, and vomiting. She ate partially cooked eggs 24 hours prior to the onset of these symptoms. Which of the following pathogens is most likely responsible for this patient's gastrointestinal disorder?",
+      "choices": [
+        "Clostridium perfringens",
+        "Escherichia coli",
+        "Hepatitis A virus",
+        "Salmonella sp.",
+        "Staphylococcus aureus"
+      ],
+      "answer": 3,
+      "explanation": "Nontyphoidal Salmonella species commonly contaminate poultry and eggs, including partially cooked eggs. Symptoms begin 12\u201324 hours after ingestion as Salmonella proliferates in the small intestine and invades enterocytes, producing toxins that cause mucosal inflammation and occasional ulceration of the ileum and colon. The self-limited illness lasts 1\u20133 days. S. aureus food poisoning (E) has a shorter incubation (1\u20136 hours) with prominent vomiting. C. perfringens (A) also has an 8\u201316 hour onset but presents without vomiting. Hepatitis A (C) presents with jaundice after 2\u20136 weeks.",
+      "keypoints": [
+        "\u2b50 Salmonella from poultry/eggs causes diarrhea 12-24 hours after ingestion",
+        "Salmonella invades enterocytes \u2192 inflammation and occasional colonic ulceration",
+        "\u2b50 S. aureus acts fastest (1-6 hrs); Salmonella acts in 12-24 hrs; Hepatitis A in 2-6 weeks",
+        "Nontyphoidal Salmonella is self-limited; antibiotics are not routinely recommended"
+      ]
+    },
+    {
+      "id": "q045",
+      "tag": "infectious",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "etiology",
+      "stem": "A 12-year-old farm boy from Mexico complains of generalized weakness and abdominal pain. Physical examination shows pallor and pitting edema of the lower extremities. A CBC reveals severe microcytic, hypochromic anemia (hemoglobin = 8.2 g/dL). Which of the following pathogens is the most likely cause of anemia in this patient?",
+      "choices": [
+        "Ascaris lumbricoides",
+        "Giardia lamblia",
+        "Hookworm (Ancylostoma duodenale)",
+        "Pinworm (Enterobius vermicularis)",
+        "Whipworm (Trichuris trichiura)"
+      ],
+      "answer": 2,
+      "explanation": "Hookworms (Ancylostoma duodenale and Necator americanus) are intestinal nematodes that attach to duodenal mucosa and feed on blood. With heavy infections, chronic blood loss results in iron-deficiency anemia, manifesting as microcytic, hypochromic anemia with pallor and peripheral edema (from hypoalbuminemia). Hookworm is a major cause of childhood iron deficiency in tropical developing countries, especially where open-field defecation occurs. Ascaris (A) causes obstructive symptoms but not significant blood loss. Giardia (B) causes malabsorption but not iron-deficiency anemia. Pinworm (D) causes perianal pruritus.",
+      "keypoints": [
+        "\u2b50 Hookworm (Ancylostoma duodenale) = most common cause of parasitic iron-deficiency anemia",
+        "Hookworm attaches to small bowel mucosa and consumes blood \u2192 microcytic hypochromic anemia",
+        "\u2b50 Peripheral edema in hookworm infection = hypoalbuminemia from protein malabsorption",
+        "Hookworm larvae penetrate bare feet in soil contaminated by human feces"
+      ]
+    },
+    {
+      "id": "q049",
+      "tag": "infectious",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "etiology",
+      "stem": "A 6-year-old girl presents with intense perianal itching, especially at night. Physical examination reveals perianal excoriation. An adhesive tape test is positive for worms. Which of the following is the most likely parasite in this patient?",
+      "choices": [
+        "Ancylostoma duodenale",
+        "Ascaris lumbricoides",
+        "Enterobius vermicularis",
+        "Necator americanus",
+        "Toxocara canis"
+      ],
+      "answer": 2,
+      "explanation": "Enterobius vermicularis (pinworm) is the most common intestinal nematode in temperate regions. Nocturnal perianal pruritus results from female pinworms migrating to the perianal skin at night to lay eggs. The adhesive tape (Scotch tape) test, applied to the perianal region in the morning, is the diagnostic method of choice for visualizing eggs or worms. Infection is most common in children and spreads by the fecal-oral route. Ancylostoma (A) and Necator (D) are hookworms causing anemia. Ascaris (B) causes intestinal obstruction. Toxocara (E) causes visceral larva migrans.",
+      "keypoints": [
+        "\u2b50 Pinworm (Enterobius vermicularis): nocturnal perianal pruritus diagnosed by adhesive tape test",
+        "Female pinworms migrate to perianal skin at night to deposit eggs",
+        "\u2b50 Most common intestinal nematode infection in temperate climates; most common in children",
+        "Hookworms (Ancylostoma, Necator) cause iron-deficiency anemia, not perianal pruritus"
+      ]
+    },
+    {
+      "id": "q056",
+      "tag": "infectious",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "etiology",
+      "stem": "A 6-year-old boy presents with a 10-month history of diarrhea, crampy abdominal pain, and progressive weight loss. He recently immigrated to the United States from Mexico. Physical examination shows mild abdominal distension and evidence of malabsorption. The stool guaiac test is negative. Which of the following is the most likely etiology of this child's gastrointestinal disease?",
+      "choices": [
+        "Campylobacter jejuni",
+        "Escherichia coli",
+        "Giardia lamblia",
+        "Shigella dysenteriae",
+        "Staphylococcus aureus"
+      ],
+      "answer": 2,
+      "explanation": "Giardia lamblia is a flagellated protozoan that infects the small intestine and causes giardiasis\u2014chronic, nonbloody diarrhea with crampy abdominal pain, malabsorption, and weight loss. The negative stool guaiac test (no blood) distinguishes it from invasive bacterial pathogens. G. lamblia is acquired from contaminated water or food and is common in developing countries and among travelers. Organisms are identified in stool specimens, duodenal aspirates, or biopsies. Campylobacter (A) and Shigella (D) cause bloody diarrhea (positive guaiac). S. aureus (E) causes acute, short-duration food poisoning.",
+      "keypoints": [
+        "\u2b50 Giardia lamblia: chronic nonbloody malabsorptive diarrhea from contaminated water/food",
+        "Giardia infects the small intestine; does not invade mucosa \u2192 no blood in stool",
+        "\u2b50 Negative stool guaiac distinguishes Giardia from invasive bacterial pathogens",
+        "Diagnosis: stool O&P exam, antigen testing, or duodenal biopsy"
+      ]
+    },
+    {
+      "id": "q059",
+      "tag": "infectious",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "etiology",
+      "stem": "A 36-year-old woman presents with a 2-day history of fever, myalgias, headache, and watery diarrhea (5 to 10 per day) that contains some blood. A stool smear shows leukocytes and Gram-negative curved bacilli. The patient reports drinking raw milk 7 days ago. Which of the following microorganisms is the most likely cause of this woman's gastrointestinal disorder?",
+      "choices": [
+        "Campylobacter jejuni",
+        "Escherichia coli",
+        "Salmonella typhi",
+        "Shigella dysenteriae",
+        "Staphylococcus aureus"
+      ],
+      "answer": 0,
+      "explanation": "Campylobacter jejuni is a Gram-negative curved (comma-shaped) bacillus transmitted through contaminated raw milk, poultry, and water. It causes an acute inflammatory diarrheal illness with onset 2\u20135 days after exposure. Stool examination shows leukocytes, erythrocytes, and the characteristic curved bacilli. C. jejuni causes superficial enterocolitis primarily involving the terminal ileum and colon, with focal necrosis and acute inflammatory infiltrate. It is a major cause of travelers' diarrhea. Staphylococcus (E) presents within hours without leukocytes in stool. Salmonella typhi (C) causes typhoid fever, not typical gastroenteritis.",
+      "keypoints": [
+        "\u2b50 Campylobacter jejuni: curved Gram-negative rod; raw milk/poultry; 2-5 day incubation",
+        "Stool shows leukocytes, RBCs, and comma-shaped bacilli",
+        "\u2b50 C. jejuni is a leading cause of infectious diarrhea and traveler's diarrhea worldwide",
+        "Complication: post-infectious Guillain-Barr\u00e9 syndrome (molecular mimicry)"
+      ]
+    },
+    {
+      "id": "q060",
+      "tag": "infectious",
+      "examLevel": "step1",
+      "system": "musculoskeletal",
+      "contentType": "etiology",
+      "stem": "A 45-year-old construction worker suffers a penetrating wound of the left leg, which is cleaned and sutured. Three days later, the patient presents with sudden onset of severe pain at the site of injury. Physical examination shows darkening of the surrounding skin, hemorrhage, and cutaneous necrosis. The wound shows a thick serosanguinous discharge with gas bubbles and a fragrant odor. Which of the following is the most likely etiology of this patient's wound infection?",
+      "choices": [
+        "Clostridium botulinum",
+        "Clostridium perfringens",
+        "Staphylococcus aureus",
+        "Staphylococcus epidermidis",
+        "Streptococcus pyogenes"
+      ],
+      "answer": 1,
+      "explanation": "Gas gangrene (clostridial myonecrosis) is a rapidly progressive, life-threatening necrotizing infection caused by Clostridium perfringens under anaerobic conditions. The organism produces myotoxins (lecithinase/phospholipase C) that destroy cell membranes, causing rapid tissue necrosis, gas production (CO2, hydrogen), and a characteristic sweet/fragrant odor. Predisposing conditions include deep penetrating wounds with devitalized tissue. Without prompt surgical debridement, the disease is fatal within hours. C. botulinum (A) causes flaccid paralysis via a preformed neurotoxin. S. aureus (C) and S. pyogenes (E) cause cellulitis but not gas production.",
+      "keypoints": [
+        "\u2b50 Gas gangrene = C. perfringens myonecrosis: gas bubbles in tissue + sweet odor + rapid necrosis",
+        "C. perfringens lecithinase (alpha-toxin) destroys cell membranes and red blood cells",
+        "\u2b50 Requires anaerobic conditions\u2014deep wounds with devitalized/necrotic tissue",
+        "Treatment: emergency surgical debridement + hyperbaric oxygen + penicillin"
+      ]
+    },
+    {
+      "id": "q061",
+      "tag": "infectious",
+      "examLevel": "step1",
+      "system": "neurologic",
+      "contentType": "etiology",
+      "stem": "A 32-year-old man presents with the sudden onset of tonic-clonic seizures and dies the next day. The brain at autopsy is shown in the image. This patient most likely contracted which of the following infectious diseases?",
+      "choices": [
+        "Aspergillosis",
+        "Clonorchiasis",
+        "Cysticercosis",
+        "Fascioliasis",
+        "Paragonimiasis"
+      ],
+      "answer": 2,
+      "image": "/images/path_ch9/lippincott_path_ch9_q061.png",
+      "imageAlt": "Brain at autopsy showing multiple spherical white cysts in a 'Swiss cheese' pattern",
+      "imageCaption": "Neurocysticercosis: multiple cysticerci in the brain parenchyma giving a 'Swiss cheese' appearance.",
+      "explanation": "Cysticercosis results from human ingestion of Taenia solium eggs (from human feces, not pork). Oncospheres penetrate the gut wall, enter the bloodstream, and lodge in tissues, differentiating into cysticerci (fluid-filled cysts with an invaginated scolex). Multiple cysticerci in the brain ('Swiss cheese' appearance at autopsy) cause neurocysticercosis, the most common cause of adult-onset seizures in endemic regions. Clonorchis (B) infects bile ducts. Fasciola (D) infects the liver. Paragonimus (E) infects the lungs. Aspergillosis (A) causes invasive fungal pneumonia, not cystic brain lesions.",
+      "keypoints": [
+        "\u2b50 Cysticercosis = Taenia solium eggs (fecal-oral) \u2192 brain cysts \u2192 seizures",
+        "Most common cause of adult-onset seizures in Latin America and other endemic areas",
+        "\u2b50 'Swiss cheese' brain at autopsy is pathognomonic of neurocysticercosis",
+        "Distinct from taeniasis (eating undercooked pork) which causes intestinal tapeworm"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "config": {
+    "title": "Lippincott Path Ch5 \u2013 Neoplasia",
+    "subtitle": "Neoplasia: tumor biology, oncogenes, tumor suppressors, metastasis, tumor markers, and hereditary cancer syndromes",
+    "passingFraction": 0.75,
+    "tags": {
+      "neoplasia": {
+        "label": "Neoplasia"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q016",
+      "tag": "neoplasia",
+      "examLevel": "step1",
+      "system": "general_pathology",
+      "contentType": "mechanismOfDisease",
+      "stem": "A 58-year-old woman with colon cancer presents with 3 months of increasing shortness of breath. A chest X-ray reveals numerous, bilateral, round masses in both lungs. Histologic examination of an open-lung biopsy discloses malignant gland-like structures nearly identical to the colon primary. Which of the following changes in cell behavior was the first step in the process leading to tumor metastasis from the colon to the lung?",
+      "choices": [
+        "Arrest within the circulating blood or lymph",
+        "Exit from the circulation into a new tissue",
+        "Invasion of the underlying basement membrane",
+        "Penetration of vascular or lymphatic channels",
+        "Stimulation of angiogenesis within the pulmonary metastases"
+      ],
+      "answer": 2,
+      "explanation": "The first event in tumor cell invasion is breach of the basement membrane separating epithelium from the underlying mesenchyme. After penetrating this barrier, malignant cells invade the interstitial tissue and then enter lymphatic or vascular channels (D). Lymph node communications allow access to the systemic circulation. Arrest within the vasculature (A) and exit into new tissue (B) are later steps. Stimulation of angiogenesis (E) sustains growth at the metastatic site but is not the initiating event.",
+      "keypoints": [
+        "\u2b50 Invasion of the basement membrane is the first step in tumor metastasis",
+        "Metastasis sequence: BM invasion \u2192 vascular/lymphatic penetration \u2192 circulation \u2192 arrest \u2192 exit \u2192 colonization",
+        "\u2b50 Angiogenesis supports growth at metastatic sites but is not the initial event",
+        "Matrix metalloproteinases and plasminogen activators facilitate BM degradation"
+      ]
+    },
+    {
+      "id": "q017",
+      "tag": "neoplasia",
+      "examLevel": "step1",
+      "system": "general_pathology",
+      "contentType": "mechanismOfDisease",
+      "stem": "A 68-year-old man complains of recent changes in bowel habits and blood-tinged stools. Colonoscopy reveals a 3-cm mass in the sigmoid colon. Biopsy of the mass shows infiltrating malignant glands. These neoplastic cells have most likely acquired a set of mutations that cause which of the following changes in cell behavior?",
+      "choices": [
+        "Decreased cellular motility",
+        "Enhanced stem cell differentiation",
+        "Increased cell-cell adhesion",
+        "Increased susceptibility to apoptosis",
+        "Loss of cell cycle restriction point control"
+      ],
+      "answer": 4,
+      "explanation": "Cancer cells characteristically acquire loss of cell cycle restriction point control through mechanisms such as overexpression of cyclin D1, loss of CDK inhibitors, or inactivation of pRb or p53 proteins. The p53 tumor suppressor gene is deleted or mutated in approximately 75% of colorectal cancers. In contrast, malignant cells typically show increased (not decreased) motility, decreased differentiation, reduced cell-cell adhesion (loss of E-cadherin), and resistance (not susceptibility) to apoptosis.",
+      "keypoints": [
+        "\u2b50 p53 is deleted or mutated in ~75% of colorectal cancers",
+        "Loss of cell cycle restriction point control is a hallmark of malignancy",
+        "Cancer cells show decreased cell-cell adhesion (E-cadherin loss), not increased",
+        "\u2b50 Cyclin D1 overexpression, CDK inhibitor loss, or pRb/p53 inactivation drive uncontrolled proliferation"
+      ]
+    },
+    {
+      "id": "q024",
+      "tag": "neoplasia",
+      "examLevel": "step1",
+      "system": "general_pathology",
+      "contentType": "diagnostics",
+      "stem": "A 59-year-old man complains of progressive weakness. He reports that his stools are very dark. Physical examination demonstrates fullness in the right lower quadrant. Laboratory studies show iron deficiency anemia with a serum hemoglobin of 7.4 g/dL. Stool specimens are positive for occult blood. Colonoscopy discloses an ulcerating lesion of the cecum. Which of the following serum tumor markers is most likely to be useful for following this patient after surgery?",
+      "choices": [
+        "Alpha-fetoprotein",
+        "Carcinoembryonic antigen",
+        "Chorionic gonadotropin",
+        "Chromogranin",
+        "Coagulation factor VIII"
+      ],
+      "answer": 1,
+      "explanation": "Carcinoembryonic antigen (CEA) is the primary serum tumor marker used to monitor colorectal cancer after resection. Rising CEA levels postoperatively suggest recurrence. CEA is also elevated in pancreatic, lung, and ovarian cancers. Alpha-fetoprotein (A) is expressed by hepatocellular carcinoma and yolk sac tumors. Chorionic gonadotropin (C) is secreted by choriocarcinoma. Chromogranin (D) is a marker of neuroendocrine tumors. Iron deficiency anemia from occult GI blood loss is a classic presentation of right-sided colon cancer.",
+      "keypoints": [
+        "\u2b50 CEA is the primary tumor marker for monitoring colorectal cancer recurrence",
+        "Iron deficiency anemia with occult blood loss is classic for right-sided (cecal) colon cancer",
+        "\u2b50 AFP is the marker for hepatocellular carcinoma, not colorectal cancer",
+        "CEA is not specific to colorectal cancer\u2014also elevated in pancreatic and lung cancers"
+      ]
+    },
+    {
+      "id": "q025",
+      "tag": "neoplasia",
+      "examLevel": "step1",
+      "system": "general_pathology",
+      "contentType": "mechanismOfDisease",
+      "stem": "Laboratory studies of the surgical specimen obtained from the patient described in Question 24 demonstrate hypermethylation of the p53 gene. Which of the following best characterizes this biochemical change in the neoplastic cells?",
+      "choices": [
+        "Epigenetic modification",
+        "Gene amplification",
+        "Insertional mutagenesis",
+        "Nonreciprocal translocation",
+        "Protooncogene mutation"
+      ],
+      "answer": 0,
+      "explanation": "DNA hypermethylation of tumor suppressor genes is an epigenetic modification\u2014a heritable change in gene expression that does not alter the DNA sequence itself. Hypermethylation silences genes including p53 and can serve as an 'epigenetic second hit' leading to loss of heterozygosity. Unlike genetic mutations, epigenetic changes are reversible, making them therapeutic targets for demethylating agents. Gene amplification (B) increases gene copy number. Insertional mutagenesis (C) involves viral DNA integration. Translocation (D) moves chromosomal segments. Protooncogene mutation (E) activates growth-promoting genes.",
+      "keypoints": [
+        "\u2b50 DNA hypermethylation is an epigenetic mechanism that silences tumor suppressor genes",
+        "Epigenetic changes are reversible, unlike DNA sequence mutations",
+        "\u2b50 Hypermethylation of p53 can serve as an epigenetic 'second hit'",
+        "Demethylating agents are being investigated as cancer therapeutics"
+      ]
+    },
+    {
+      "id": "q044",
+      "tag": "neoplasia",
+      "examLevel": "step1",
+      "system": "general_pathology",
+      "contentType": "pathophysiology",
+      "stem": "A 28-year-old man with a familial disease affecting the gastrointestinal tract undergoes a colectomy. The surgical specimen is shown in the image. Molecular studies demonstrate a germline mutation in the APC gene. The normal product of this gene (protooncogene) primarily regulates which of the following cell behaviors?",
+      "choices": [
+        "Apoptosis",
+        "Autophagy",
+        "Cell cycle",
+        "Differentiation",
+        "Motility"
+      ],
+      "answer": 2,
+      "image": "/images/path_ch5/lippincott_path_ch5_q044.png",
+      "imageAlt": "Colectomy specimen showing thousands of small adenomatous polyps covering the mucosal surface",
+      "imageCaption": "Gross specimen of resected colon in familial adenomatous polyposis (FAP), demonstrating innumerable adenomatous polyps.",
+      "explanation": "The specimen shows thousands of small adenomatous polyps\u2014the hallmark of familial adenomatous polyposis (FAP), caused by germline mutation in the APC tumor suppressor gene. Normal APC protein downregulates signals from E-cadherin to \u03b2-catenin to nuclear transcription factors (myc and cyclin D) that drive cell cycle progression. Without functional APC, \u03b2-catenin accumulates and constitutively activates cell cycle entry. FAP carries a near-100% lifetime risk of colorectal cancer, with a mean symptom onset at age 36.",
+      "keypoints": [
+        "\u2b50 APC regulates cell cycle via the Wnt/\u03b2-catenin signaling pathway",
+        "FAP is caused by germline APC mutations and presents with hundreds to thousands of colonic adenomas",
+        "\u2b50 Without APC, \u03b2-catenin accumulates and activates oncogenic transcription (myc, cyclin D)",
+        "FAP carries near-100% lifetime risk of colorectal cancer if untreated"
+      ]
+    }
+  ]
+}

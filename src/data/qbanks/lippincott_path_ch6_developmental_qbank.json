@@ -1,0 +1,106 @@
+{
+  "config": {
+    "title": "Lippincott Path Ch6 \u2013 Developmental & Genetic Diseases",
+    "subtitle": "Developmental and genetic pathology: cystic fibrosis, morphogenesis errors, and teratogenesis",
+    "passingFraction": 0.75,
+    "tags": {
+      "genetic": {
+        "label": "Genetic & Developmental"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q011",
+      "tag": "genetic",
+      "examLevel": "step1",
+      "system": "pulmonary",
+      "contentType": "mechanismOfDisease",
+      "stem": "A 4-year-old boy is admitted to the hospital with pneumonia and respiratory distress. The nurses report that the child's bowel movements are greasy and have a pungent odor. A sweat-chloride test is positive. Which of the following mechanisms of disease is the most likely cause of steatorrhea in this child?",
+      "choices": [
+        "Abnormal dietary intake",
+        "Bacterial overgrowth",
+        "Hyperbilirubinemia with kernicterus",
+        "Lack of pancreatic enzyme secretion",
+        "Obstruction caused by meconium ileus"
+      ],
+      "answer": 3,
+      "explanation": "This child has cystic fibrosis (CF), confirmed by positive sweat-chloride test. In CF, viscous mucus obstructs pancreatic ducts, preventing delivery of lipases and proteases to the duodenum. Lack of pancreatic enzyme secretion causes malabsorption of fats, leading to steatorrhea\u2014greasy, foul-smelling stools. All pathologic consequences of CF stem from abnormally thick mucus secretions produced by defective chloride channel function. Bacterial overgrowth (B) and abnormal dietary intake (A) are not the primary cause in CF.",
+      "keypoints": [
+        "\u2b50 CF causes exocrine pancreatic insufficiency \u2192 lack of lipase/protease \u2192 steatorrhea",
+        "All CF complications stem from abnormally viscous mucus blocking ductal systems",
+        "\u2b50 Positive sweat-chloride test (>60 mEq/L) is diagnostic of CF",
+        "CF affects pancreas, lungs, intestines, liver, and reproductive tract"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "genetic",
+      "examLevel": "step1",
+      "system": "pulmonary",
+      "contentType": "mechanismOfDisease",
+      "stem": "The patient described in Question 11 carries mutations in the gene that encodes which of the following types of protein?",
+      "choices": [
+        "Membrane ion channel",
+        "Mitochondrial transport protein",
+        "Na+/K+ ATPase",
+        "Nuclear transport protein",
+        "Receptor tyrosine kinase"
+      ],
+      "answer": 0,
+      "explanation": "The CF gene encodes CFTR (cystic fibrosis transmembrane conductance regulator), a member of the ATP-binding cassette family of membrane transporter proteins that functions as a chloride ion channel in epithelial cells. Chloride secretion by mucous-secreting epithelia controls parallel fluid secretion and, consequently, mucus viscosity. Defective CFTR leads to thick, dehydrated mucus. CF is the most common lethal autosomal recessive disorder in white populations, with an incidence of 1 in 2,500 newborns.",
+      "keypoints": [
+        "\u2b50 CFTR is a chloride ion channel encoded by the CFTR gene on chromosome 7",
+        "CFTR belongs to the ATP-binding cassette (ABC) transporter superfamily",
+        "\u2b50 CF is the most common lethal autosomal recessive disease in whites (1:2,500 births)",
+        "Defective chloride secretion \u2192 reduced fluid secretion \u2192 viscous mucus"
+      ]
+    },
+    {
+      "id": "q036",
+      "tag": "genetic",
+      "examLevel": "step1",
+      "system": "gastrointestinal",
+      "contentType": "pathophysiology",
+      "stem": "The mother of a newborn boy is alarmed that her baby regurgitates at every feeding. An endoscopic examination reveals that the child's esophagus is almost completely occluded. This finding represents an example of which of the following errors of morphogenesis?",
+      "choices": [
+        "Aplasia",
+        "Atresia",
+        "Dysplasia",
+        "Dysraphic anomaly",
+        "Ectopia"
+      ],
+      "answer": 1,
+      "explanation": "Atresia refers to defects caused by incomplete formation of a lumen. Many hollow organs originate as solid strands of cells whose centers are programmed to die (apoptosis), forming a central lumen. Esophageal atresia results when this canalization is incomplete, causing partial or complete luminal occlusion. Aplasia (A) means absence of an organ. Dysplasia (C) refers to abnormal cellular organization. A dysraphic anomaly (D) involves failure of neural tube closure. Ectopia (E) means displacement of tissue to an abnormal location.",
+      "keypoints": [
+        "\u2b50 Atresia = incomplete formation of a hollow organ's lumen (failure of canalization)",
+        "Esophageal atresia often co-occurs with tracheoesophageal fistula (TEF)",
+        "Aplasia = complete absence of an organ or tissue",
+        "\u2b50 Hollow organs form by canalization of solid cellular cords; failure \u2192 atresia"
+      ]
+    },
+    {
+      "id": "q042",
+      "tag": "genetic",
+      "examLevel": "step1",
+      "system": "reproductive",
+      "contentType": "mechanismOfDisease",
+      "stem": "A 27-year-old woman presents for a pregnancy test. She recalls drinking heavily during the week in which she may have conceived. What is the most likely consequence of toxic exposure to the conceptus during early (preimplantation) development?",
+      "choices": [
+        "Conjoined twins",
+        "Embryonic lethality",
+        "Placenta accreta",
+        "Neural tube defect",
+        "Ventricular-septal defect"
+      ],
+      "answer": 1,
+      "explanation": "During the preimplantation stage, all blastomeres are totipotent and interchangeable. If a toxin damages some blastomeres, the remaining cells can compensate and development proceeds normally. However, if the damage is extensive, the entire conceptus dies\u2014often passing unnoticed as a slightly late or heavy menstrual period. This is the 'all-or-none' principle of preimplantation toxicology. Specific malformations (neural tube defects, cardiac defects) require organ-specific embryonic development that occurs after implantation.",
+      "keypoints": [
+        "\u2b50 Preimplantation toxic exposure follows the 'all-or-none' principle: death or normal development",
+        "Blastomeres are totipotent; surviving cells compensate for damaged ones",
+        "Specific teratogenic malformations require post-implantation organogenesis",
+        "\u2b50 Neural tube defects occur during weeks 3-4; cardiac defects during weeks 3-7 post-conception"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1287 @@
+{
+  "config": {
+    "title": "Lippincott Anatomy & Embryology Ch4 + Ch5 (Selected) - GI (JeffMD GI relevant)",
+    "subtitle": "Abdomen (all except #30) and Pelvis & Perineum (selected questions) from Lippincott's Q&A Review of Anatomy and Embryology",
+    "passingFraction": 0.75,
+    "tags": {
+      "abdomen": {
+        "label": "Abdomen"
+      },
+      "anatomy": {
+        "label": "Anatomy"
+      },
+      "cardio": {
+        "label": "Cardiovascular"
+      },
+      "gi": {
+        "label": "Gastrointestinal"
+      },
+      "neuro": {
+        "label": "Neuroscience"
+      },
+      "repro": {
+        "label": "Reproductive/Urinary"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "ch4_q001",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The given T1-weighted gradient echo of the abdomen demonstrates a malignant pancreatic islet cell tumor of the pancreas near the junction of the pancreatic body and tail. The pancreatic islet cells involved with this tumor are derived from which of the following embryonic sources?",
+      "choices": [
+        "Ectoderm",
+        "Endoderm",
+        "Somatic mesoderm",
+        "Visceral mesoderm",
+        "Neural crest"
+      ],
+      "answer": 1,
+      "explanation": "Endoderm. The primitive gut tube extends from the oropharyngeal membrane cranially to the cloacal membrane caudally. It is divided into three main parts: foregut, midgut, and hindgut. The epithelial lining of the entire primitive gut tube and its derivatives, including specifi c glandular cells (e.g., the endocrine and exocrine cells of the pancreas), is derived from endoderm. Choice A (Ectoderm) is incorrect. The primitive oral cavity (stomodeum) and the primitive lower anal canal (proctodeum) are formed from surface invaginations and are lined with ectoderm. With breakdown of the oropharyngeal and cloacal membranes, these areas become continuous with the foregut and hindgut, respectively. Choice C (Somatic mesoderm) is incorrect. The somatic (parietal) mesoderm lines the intraembryonic body cavity. It assumes a close relation with the overlying ectoderm, and together, these layers form the lateral body folds. The mesoderm forms the dermis of the skin and the bones and connective tissues in the body wall and limbs. Choice D (Visceral mesoderm) is incorrect. The visceral (splanchnic) mesoderm lines the organs formed within the intraembryonic body cavity (e.g., the gut tube and its derivatives). It joins closely with the endoderm to form the wall of the gut tube. The mesoderm forms the muscle, connective tissues, peritoneal layer, and the stroma of the glands in the gut wall. Choice E (Neural crest) is incorrect. Neural crest cells migrate into the primitive gut tube, where they form the parasympathetic ganglia in the wall of the gut. Thus, they form major components of the enteric nervous system. Neural crest cells also form the sympathetic chain, preaortic ganglia, and the adrenal medullary cells.",
+      "keypoints": [
+        "⭐ Endoderm: Endoderm. The primitive gut tube extends from the oropharyngeal membrane cranially to the cloacal membrane caudally. It is divided into three main parts: foregut, midgut, and hindg",
+        "⭐ Somatic mesoderm is NOT the answer: The somatic (parietal) mesoderm lines the intraembryonic body cavity.",
+        "It is divided into three main parts: foregut, midgut, and hindgut"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch4 q1.png",
+      "imageAlt": "Clinical image for question 1",
+      "imageCaption": "See question 1 stem for description."
+    },
+    {
+      "id": "ch4_q002",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Management",
+      "stem": "Following involvement in a car crash, a 20-year-old undergoes a splenectomy due to a lacerated spleen secondary to blunt abdominal trauma. During the procedure, the surgeon ligates the blood supply of the spleen at its hilum. Improper placement of the ligature may lead to damage to the arterial supply of which of the following structures?",
+      "choices": [
+        "Fundic portion of the stomach",
+        "Kidney",
+        "Pyloric portion of stomach",
+        "Head of pancreas",
+        "Splenic fl exure of colon"
+      ],
+      "answer": 0,
+      "explanation": "Fundic portion of the stomach. Improper placement of a ligature on the splenic artery near the hilum of the spleen can compromise the blood supply in two additional arteries, the short gastric and left gastroomental, which branch off the splenic artery at this location. The short gastric artery leaves the hilum of the spleen, travels within the gastrosplenic ligament, and ultimately supplies the fundic portion of the stomach. The left gastroomental artery leaves the hilum of the spleen, travels within the gastrosplenic ligament, and supplies the left portion of the greater curvature of the stomach. Therefore, improper placement of a ligature during a splenectomy could damage the fundus and left greater curvature of the stomach by compromising the blood supply to these areas. Choice B (Kidney) is incorrect. The kidney is supplied by the renal arteries, which branch directly off the abdominal aorta. An improper placement of the ligature at the hilum of the spleen would not affect blood supply to the kidney. Choice C (Pyloric portion of the stomach) is incorrect. The pyloric portion of the stomach is supplied by branches of the gastroduodenal artery. Because of its blood supply and its location on the right side of the abdomen, the pyloric portion of the stomach would not be affected by improper ligature placement at the hilum of the spleen. Choice D (Head of the pancreas) is incorrect. The head of the pancreas is supplied by the superior and inferior pancreaticoduodenal arteries, which arise off the gastroduodenal and superior mesenteric arteries, respectively. Because of its blood supply and its location on the right side of the abdomen, the head of the pancreas would not be affected. Choice E (Splenic fl exure of the colon) is incorrect. The splenic (left) fl exure of the colon is mesocolon is derived from the dorsal mesentery. Initially, the dorsal mesentery extends most of the length of the primitive gut tube, attaching it to the dorsal (posterior) body wall. Later, it narrows somewhat but remains quite extensive. Choice B (Mesentery of the small intestine) is incorrect. The mesentery of the small intestine is derived from the dorsal mesentery. Choice C (Greater omentum) is incorrect. The greater omentum is derived from the dorsal mesentery. Choice E (Transverse mesocolon) is incorrect. The transverse mesocolon is derived from the dorsal mesentery.",
+      "keypoints": [
+        "⭐ Fundic portion of the stomach: Fundic portion of the stomach. Improper placement of a ligature on the splenic artery near the hilum of the spleen can compromise the blood supply in two additional arteries, the",
+        "⭐ Kidney is NOT the answer: The kidney is supplied by the renal arteries, which branch directly off the abdominal aorta.",
+        "The short gastric artery leaves the hilum of the spleen, travels within the gastrosplenic ligament, and ultimately supplies the fundic portion of the stomach"
+      ]
+    },
+    {
+      "id": "ch4_q003",
+      "tag": "abdomen",
+      "examLevel": "step1",
+      "system": "Abdomen/Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "After moving heavy equipment at a construction site, a 42year-old man goes to his family physician with a bulge in his left groin that does not descend into the scrotum. 47 en The patient reports the bulge becomes more prominent when he is standing up, defecating, and coughing. On examination, the doctor places his fi nger in the location of the bulge and notes that his fi nger feels like it can pass into the abdominal cavity. Given his presentation and history, what is the most likely diagnosis?",
+      "choices": [
+        "Direct inguinal hernia",
+        "Indirect inguinal hernia",
+        "Femoral hernia",
+        "Lymphadenitis of superfi cial inguinal nodes",
+        "Hydrocele testis"
+      ],
+      "answer": 0,
+      "explanation": "Direct inguinal hernia. A direct inguinal hernia is an acquired hernia that results when abdominal cavity contents herniate through a weakness in the anterior abdominal wall in the inguinal (Hesselbach) triangle. The borders of the inguinal triangle are the inferior epigastric artery located laterally, semilunar line of the rectus sheath medially, and the inguinal ligament inferiorly. A direct inguinal hernia exits through the superfi cial inguinal ring, but it does not usually descend into the scrotum, as seen in an indirect inguinal hernia. When comparing the direct inguinal hernia to an indirect inguinal hernia, remember that a direct inguinal hernia rarely descends into the scrotum, passes medial to the inferior epigastric artery, is not covered by the internal spermatic fascia, and is usually an acquired (not congenital) hernia. Groin hernias are 25 times more likely in men. Choice B (Indirect inguinal hernia) is incorrect. Indirect inguinal hernias are usually congenital herniae that result when abdominal cavity contents herniate through a patent processus vaginalis, or in an adult, the inguinal canal. An indirect inguinal hernia passes through the deep and superfi cial inguinal rings to descend into the scrotum of males. Indirect inguinal hernias are two to three times more common than direct inguinal hernias, but the location of the hernia (not descended into the scrotum) and the palpated weakness within the anterior abdominal wall would make a direct inguinal hernia more likely in this patient. Choice C (Femoral hernia) is incorrect. Femoral hernias enter into the femoral canal and often contain abdominal viscera. This type of hernia is more common in females due to their wider pelves. A femoral hernia is also more susceptible to strangulation (interruption of the blood supply of the herniated abdominal viscera) due to the sharp boundaries of the femoral ring, particularly the lacunar ligament. Strangulation can lead to ischemia, sharp pain, and necrosis of impinged tissue, which is not reported in this patient. Because this patient is male and no symptoms of bowel obstruction are reported, a femoral hernia is unlikely. It should be noted that the location of the globular mass of a femoral hernia would be hard to distinguish between an indirect or direct inguinal hernia. However, several studies suggest CT imaging can differentiate between these hernia types. Choice D (Lymphadenitis of superfi cial inguinal nodes) is incorrect. Lymphadenitis (swollen lymph nodes) of the superfi cial inguinal nodes could be responsible for a bulge in the groin. However, a recent bacterial or viral infection, which would cause these lymph nodes to be tender and swollen, is not reported in this patient. Moreover, the location of the weakness in the anterior abdominal wall reported by the doctor rules out this option. Choice E (Hydrocele testis) is incorrect. A hydrocele testis is a pathological accumulation of serous fl uids around the testis. It is due to serous secretions from a remnant piece of peritoneum (tunica vaginalis) or a direct communication between the scrotum and the abdomen (persistent processus vaginalis). Patients with a hydrocele testis present with a painless, swollen testis that feels like a water balloon. A hydrocele testis can be drained by ANSWERS AND DISCUSSION",
+      "keypoints": [
+        "⭐ Direct inguinal hernia: Direct inguinal hernia. A direct inguinal hernia is an acquired hernia that results when abdominal cavity contents herniate through a weakness in the anterior abdominal wall in the",
+        "⭐ Indirect inguinal hernia is NOT the answer: Indirect inguinal hernias are usually congenital herniae that result when abdominal cavity contents herniate through a patent processus vaginalis, or",
+        "The borders of the inguinal triangle are the inferior epigastric artery located laterally, semilunar line of the rectus sheath medially, and the inguinal ligament inferiorly"
+      ]
+    },
+    {
+      "id": "ch4_q004",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 67-year-old woman comes to the ER after experiencing 2 days of red blood in her feces. She reports no vomiting of blood (hematemesis). The given arteriogram shows a stain of contrast material, indicated by the white arrow, at a bleeding diverticulum. What artery gives off direct branches to supply the bleeding portion of the gastrointestinal (GI) tract?",
+      "choices": [
+        "Abdominal aorta",
+        "Celiac trunk",
+        "Superior mesenteric",
+        "Inferior mesenteric",
+        "External iliac"
+      ],
+      "answer": 3,
+      "explanation": "Inferior mesenteric. A catheter is passed into the origin of the inferior mesenteric artery (IMA) to produce the given arteriogram. This plain fi lm shows a bleeding diverticulum, stained by contrast material, in the descending colon. This fi nding leads to the lower GI bleed and associated symptoms in this patient. Lower GI bleeds lead to blood in the fecal matter of the patient and do not present with vomiting of blood (hematemesis), which is indicative of an upper GI bleed. The origin of the IMA is off the abdominal aorta at the third lumbar (L3) vertebral level, which is identifi ed by the catheter in this arteriogram. The IMA supplies blood to the embryonic hindgut from the distal portion of the transverse colon to the superior aspect of the rectum. Branches off the IMA, specifi cally the left colic artery, supply the perforated descending colon in this patient. Choice A (Abdominal aorta) is incorrect. The abdominal aorta gives rise to the IMA at the third lumbar (L3) vertebral level. Because this question asks for direct branches of the artery involved with the bleeding diverticulum in the descending colon, the IMA is the best answer. Choice B (Celiac trunk) is incorrect. The celiac trunk arises from the abdominal aorta immediately after this artery traverses the diaphragm at the 12th thoracic (T12) vertebral level. The celiac artery supplies blood to the embryonic foregut extending between the lower esophagus and the second part of the duodenum. It does not supply blood to the descending colon, so it is not responsible for the lower GI bleed in this patient. Furthermore, damage to the celiac trunk would cause an upper GI bleed, which presents with hematemesis and melena (thick, black stool with a tar-like consistency due to the presence of altered blood), which is not reported in this patient. Choice C (Superior mesenteric) is incorrect. The superior mesenteric artery (SMA) arises from the abdominal aorta at the fi rst lumbar (L1) vertebral level to supply the midgut extending from the second part of the duodenum to the distal portion of the transverse colon. Because it does not supply direct branches to the descending colon, the SMA is not the direct source of the lower GI bleed in this patient. Choice E (External iliac) is incorrect. The external iliac artery supplies blood to the iliac region and the anterior abdominal wall. This artery becomes the femoral artery, a major lower limb artery, after it passes under the inguinal ligament. Because it does not supply direct branches to the descending colon, the external iliac artery is not the source of the lower GI bleed in this patient.",
+      "keypoints": [
+        "⭐ Inferior mesenteric: Inferior mesenteric. A catheter is passed into the origin of the inferior mesenteric artery (IMA) to produce the given arteriogram. This plain fi lm shows a bleeding diverticulum,",
+        "⭐ Abdominal aorta is NOT the answer: The abdominal aorta gives rise to the IMA at the third lumbar (L3) vertebral level.",
+        "This plain fi lm shows a bleeding diverticulum, stained by contrast material, in the descending colon"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch4 q4.png",
+      "imageAlt": "Clinical image for question 4",
+      "imageCaption": "See question 4 stem for description."
+    },
+    {
+      "id": "ch4_q005",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Which of the following structures is a remnant of the embryonic ventral mesentery?",
+      "choices": [
+        "Sigmoid mesocolon",
+        "Mesentery of the small intestine",
+        "Greater omentum",
+        "Falciform ligament",
+        "Transverse mesocolon"
+      ],
+      "answer": 3,
+      "explanation": "Falciform ligament. The primitive gut tube is suspended from the dorsal and ventral walls of the embryonic peritoneal cavity (intraembryonic body cavity) by dorsal and ventral mesenteries, which give rise to all the adult mesenteries. The ventral mesentery is relatively short in that it extends only along part of the foregut. Growth of the liver subdivides the ventral mesentery into the falciform ligament, lesser omentum, and the coronary and triangular ligaments of the liver. The umbilical vein traverses the free margin of the falciform ligament to pass from the umbilicus to the liver. Its postnatal remnant, the round ligament of the liver (ligamentum teres hepatis), can be readily located in this position. Choice A (Sigmoid mesocolon) is incorrect. The sigmoid Choice A (Lower duodenum) is incorrect. The duodenum is formed from the terminal end of the foregut and the cranial end of the midgut. The vitelline duct is located at the apex of the primary intestinal loop. Thus, the lower (distal) duodenum is well removed from the structure that produces the ileal diverticulum. Choice B (Middle jejunum) is incorrect. Due to its length, the primary intestinal loop folds into cranial and caudal limbs, with the vitelline duct at the apical bend between the two. The cranial limb of the loop gives rise to the lower duodenum, entire jejunum, and upper ileum. Thus, the middle jejunum is well removed from the vitelline duct. Choice D (Cecum) is incorrect. The cecum forms from the caudal limb of the primary intestinal loop, along with the lower (distal) ileum, appendix, ascending colon, and proximal 2/3 of the transverse colon. The cecum is well removed from the vitelline duct, so it is not positioned to produce a Meckel diverticulum. Choice E (Transverse colon) is incorrect. The transverse colon is formed from the distal end of the midgut and the proximal end of the hindgut. As with the duodenum, it is far removed from the apex of the primary intestinal loop and the site of the vitelline duct.",
+      "keypoints": [
+        "⭐ Falciform ligament: Falciform ligament. The primitive gut tube is suspended from the dorsal and ventral walls of the embryonic peritoneal cavity (intraembryonic body cavity) by dorsal and ventral",
+        "⭐ Sigmoid mesocolon is NOT the answer: The sigmoid Choice A (Lower duodenum) is incorrect.",
+        "The ventral mesentery is relatively short in that it extends only along part of the foregut"
+      ]
+    },
+    {
+      "id": "ch4_q006",
+      "tag": "anatomy",
+      "examLevel": "step1",
+      "system": "Anatomy",
+      "contentType": "Diagnosis",
+      "stem": "A 13-year-old girl is brought to the ER after falling from a horse onto her left side. Her pulse is 120/min, blood pressure is 90/60 mm Hg, and respirations are 30/min. Physical examination reveals cold and clammy skin, bruising, and fractured 9th and 10th ribs on her left side at the posterior axillary line. Which of the following organs is most likely damaged in this patient?",
+      "choices": [
+        "Stomach",
+        "Kidney",
+        "Lung",
+        "Liver",
+        "Spleen"
+      ],
+      "answer": 4,
+      "explanation": "Spleen. Though it is afforded the protection of the ninth through eleventh ribs on the left side of the fl ank, the spleen is the most frequently injured organ in the abdomen. The given axial CT reveals a splenic laceration, indicated by the white arrow, in proximity to the reported left 9th and 10th rib fractures. In addition to the location of the injury, the low blood pressure suggests blood loss within the systemic arterial circulation. The increased pulse and the rapid respiration rate are secondary to the pain that the patient is experiencing. A mnemonic for the spleen is the odd numbers “1, 3, 5, 7, 9, 11”, which corresponds to various features of the spleen, including its size as 1 × 3 × 5 in., its weight as approximately 7 lb, and its relation with ribs 9 to 11. Note the relationship of the 9th through 11th ribs to the spleen in the CT. Choice A (Stomach) is incorrect. Due to the location of the injury on the left fl ank at the posterior axillary line, the stomach is not likely damaged because it resides anterior to this location. In the given axial CT scan, the radiodense appearance of the stomach is located anterior to the lacerated spleen. Unless a major artery was damaged, a laceration of the stomach would not account for the low blood pressure seen in this patient. Choice B (Kidney) is incorrect. Due to the damage to the left 9th and 10th ribs, the kidney is not likely damaged. As seen in the given axial CT scan, the superior pole of the left kidney is closely related to the 11th and 12th ribs. Because it resides below the injured area, the left kidney is not likely damaged. Encapsulated by a substantial amount of pararenal and perirenal fat, the kidneys are also afforded additional insulation from injury, when compared to the spleen. Choice C (Lung) is incorrect. The inferior border of the left lung usually resides at the 8th rib in the midaxillary line, so it is located above the injured area and is not likely to be damaged. Choice D (Liver) is incorrect. The liver resides on the right side of the body, so it is not likely damaged due to location of the damage being on the left side of the body. aspiration with a hollow needle (cannula) or surgery. However, in this patient, the groin bulge did not descend into the scrotum, which rules out this diagnosis.",
+      "keypoints": [
+        "⭐ Spleen: Spleen. Though it is afforded the protection of the ninth through eleventh ribs on the left side of the fl ank, the spleen is the most frequently injured organ in the abdomen. The",
+        "⭐ Stomach is NOT the answer: Due to the location of the injury on the left fl ank at the posterior axillary line, the stomach is not likely damaged because it resides anterior to t",
+        "The given axial CT reveals a splenic laceration, indicated by the white arrow, in proximity to the reported left 9th and 10th rib fractures"
+      ]
+    },
+    {
+      "id": "ch4_q007",
+      "tag": "abdomen",
+      "examLevel": "step1",
+      "system": "Abdomen/Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 2-year-old boy is brought to the emergency room with cramping abdominal pain, fever, and vomiting. His parents say these symptoms began 12 hours ago and have progressively worsened. Abdominal radiology indicates a bowel obstruction that appears related to an abnormal intestinal outpocketing connected to the anterior abdominal wall. The consulting surgeon makes a diagnosis of Meckel diverticulitis and recommends surgery to resolve the problem. At which of the following sites does the surgeon expect to fi nd the diverticulum responsible for this condition?",
+      "choices": [
+        "Lower duodenum",
+        "Middle jejunum",
+        "Lower ileum",
+        "Cecum",
+        "Transverse colon"
+      ],
+      "answer": 2,
+      "explanation": "Lower ileum. Meckel (ileal) diverticulum is a persistent remnant of the embryonic vitelline duct (yolk stalk). The vitelline duct is the connection between the apex of the primary intestinal loop of the midgut and the yolk sac. The primary intestinal loop is the highly elongated embryonic midgut. When present, an ileal diverticulum is an outpocketing located on the antimesenteric border of the distal ileum, usually 2 ft proximal to the ileocecal junction in children. The diverticulum may be short or long (2 to 15 cm), and it may be free or connected to the umbilicus via a fi brous cord or fi stula. There may be heterotrophic gastric or pancreatic mucosa in the diverticulum that can lead to ulceration, perforation, obstruction, or other abdominal problems that resemble acute appendicitis. A mnemonic for an ileal diverticulum is the “rule of 2,” which says this type of diverticulum is 2 in. long, found 2 ft proximal to the ileocecal valve, and is present in approximately 2% of the population, with males more frequently experiencing symptoms. Of the 2% of the population with an ileal diverticulum, only 2% become symptomatic. So, remember the “rule of 2” mnemonic when discussing an ileal diverticulum. Umbilical artery Dorsal mesocolon Inferior mesenteric artery Mesentery proper Superior mesenteric artery Dorsal mesoduodenum Celiac artery Dorsal mesogastrium Lesser omentum Bare area of liver Diaphragm Falciform ligament Vitelline duct Allantois Cloaca Cephalic limb of primiary intestinal loop Caudal limb of primary intestinal loop Superior mesenteric artery Duodenum Stomach Vitelline duct",
+      "keypoints": [
+        "⭐ Lower ileum: Lower ileum. Meckel (ileal) diverticulum is a persistent remnant of the embryonic vitelline duct (yolk stalk). The vitelline duct is the connection between the apex of the primar",
+        "The vitelline duct is the connection between the apex of the primary intestinal loop of the midgut and the yolk sac",
+        "Ch4 – A 2-year-old boy is brought to the emergency room with cramping abdominal pain, fever, and vomitin"
+      ]
+    },
+    {
+      "id": "ch4_q008",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 58-year-old woman presents with pain in her side that radiates to the suprapubic (hypogastric) region of her abdomen, hematuria (blood in urine), and a reported history of urinary tract infections. The given axial CT scan verifi es advanced polycystic kidney disease. Which of the following nerves would convey visceral sensory fi bers from the stretched renal capsule and cause referred pain to the skin of the suprapubic region of her abdomen?",
+      "choices": [
+        "Greater splanchnic",
+        "Lesser splanchnic",
+        "Least splanchnic",
+        "Pelvic splanchnic",
+        "Vagus"
+      ],
+      "answer": 2,
+      "explanation": "Least splanchnic. The least splanchnic nerve carries presynaptic sympathetic nerve fi bers derived from the T12 spinal level. Visceral afferent fi bers traveling along with the least splanchnic nerve refer pain to the T12 dermatome, which is located in the suprapubic region of the abdomen and is consistent with the presentation of this patient. Furthermore, the renal nerve plexus is supplied primarily from the least splanchnic nerve, with contributions from the lumbar splanchnic nerves derived from L1 and L2. Therefore, visceral sensory fi bers conveying pain from the distension of the renal capsule, secondary to the polycystic kidney disease, would follow sympathetic nerves retrograde to the spinal ganglia at the T12-L2 vertebral levels. Choice A (Greater splanchnic nerve) is incorrect. The greater splanchnic nerve carries presynaptic sympathetic nerve fi bers derived from the T5-9 spinal levels. Visceral sensory fi bers, associated with the greater splanchnic nerve and traveling retrograde with these visceral motor fi bers, refer pain to the T5-9 dermatomes, which corresponds to the anterolateral chest wall and epigastric region of the anterior abdominal wall. Choice B (Lesser splanchnic nerve) is incorrect. The lesser splanchnic nerve carries presynaptic sympathetic nerve fi bers derived from the T10-11 spinal levels. Visceral afferent fi bers traveling along with the lesser splanchnic nerve refer pain to the T10-11 dermatomes. These dermatomes correspond to the umbilical region of the anterior abdominal wall, which is slightly higher than the reported level of pain in this patient. Choice D (Pelvic splanchnic) is incorrect. The pelvic splanchnic nerves carry presynaptic parasympathetic fi bers derived from the S2-4 spinal levels. Visceral sensory fi bers traveling along with the pelvic splanchnic nerve refer pain to the S2-4 dermatomes, which is located well below the suprapubic region of the abdomen. The pelvic splanchnic nerves receive visceral sensory fi bers from pelvic organs located below the peritoneum. Choice E (Vagus nerve) is incorrect. The vagus nerve conveys presynaptic parasympathetic nerve fi bers to supply the gastrointestinal tract down to the distal transverse colon. It also conveys visceral afferent fi bers, but these fi bers are mainly for unconscious sensations associated with refl exes. Therefore, these fi bers are not responsible for pain radiating to the suprapubic region of the abdomen.",
+      "keypoints": [
+        "⭐ Least splanchnic: Least splanchnic. The least splanchnic nerve carries presynaptic sympathetic nerve fi bers derived from the T12 spinal level. Visceral afferent fi bers traveling along with the least",
+        "⭐ Greater splanchnic nerve is NOT the answer: The greater splanchnic nerve carries presynaptic sympathetic nerve fi bers derived from the T5-9 spinal levels.",
+        "Visceral afferent fi bers traveling along with the least splanchnic nerve refer pain to the T12 dermatome, which is located in the suprapubic region of the abdomen and is consistent with the presentati"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch4 q8.png",
+      "imageAlt": "Clinical image for question 8",
+      "imageCaption": "See question 8 stem for description."
+    },
+    {
+      "id": "ch4_q009",
+      "tag": "anatomy",
+      "examLevel": "step1",
+      "system": "Anatomy",
+      "contentType": "Diagnosis",
+      "stem": "A breastfeeding 22-day-old infant was suddenly unable to hold down any milk after 3 weeks of normal feeding. In the pediatrician’s offi ce, the baby is obviously famished, presents with abdominal pain, appears slightly dehydrated, and has loose, watery stools. His mother nurses him in the offi ce, and approximately 20 minutes later, the infant projectile vomits. The doctor notes the nonbilious and nonbloody vomitus. What is the most likely diagnosis for this infant?",
+      "choices": [
+        "Esophageal atresia",
+        "Pyloric stenosis",
+        "Upper gastrointestinal (GI) bleed",
+        "Lower GI bleed",
+        "Intestinal obstruction"
+      ],
+      "answer": 1,
+      "explanation": "Pyloric stenosis. Pyloric stenosis is a thickening of the pyloric sphincter, which prevents the contents of the stomach from emptying into the duodenum. Children with pyloric stenosis usually present with the listed symptoms approximately 2 to 3 weeks after birth. The key to the diagnosis in this patient is the appearance of the vomitus. Nonbilious vomitus implies the milk did not reach the second part of the duodenum where the biliary tract empties bile into the duodenum. Nonbloody vomitus rules out the possibility of a GI bleed. Pediatricians have noted a tendency for pyloric stenosis to occur in fi rst-born Caucasian boys. Because this newborn is healthy until the onset of the projective vomiting 2 to 3 weeks after birth, pyloric stenosis is the most likely diagnosis. Confi rmation of pyloric stenosis can be achieved with an abdominal ultrasound, a blood chemistry panel to look for an electrolyte imbalance, and a barium X-ray (see the given fi gure), which reveals an abnormally dilated stomach and narrowed pylorus. Surgical intervention to rectify a pyloric stenosis is called pyloromyotomy. In this procedure, the overdeveloped pyloric sphincter muscles are split to allow food passage into the duodenum. Choice A (Esophageal atresia) is incorrect. Esophageal atresia is a congenital disorder in which the esophagus ends in a blind-ending pouch and is not connected to the stomach. A baby with esophageal atresia is unable to swallow food, so this defect is often detected during the fi rst attempted feeding. Due to the late onset (21 to 22 days) of the symptoms and the time that elapsed between the feeding in the offi ce and the projectile vomiting (~20 minutes), esophageal atresia is highly unlikely. Choice C (Upper gastrointestinal [GI] bleed) is incorrect. An upper GI bleed presents with hematemesis (vomiting blood) and melena (thick, black stool with a tar-like consistency due to the presence of altered blood), which were not reported in this patient. The nonbloody vomitus rules out the possibility of a GI bleed, and the nonbilious vomitus implies the milk never reached the second part of the duodenum. Therefore, an upper GI bleed is unlikely in this infant. Choice D (Lower GI bleed) is incorrect. A lower GI bleed presents with blood in the fecal matter, but this infant emits loose, watery stools. Furthermore, the nonbilious vomitus implies the milk never reached the second part of the duodenum, so a lower GI bleed is unlikely. Choice E (Intestinal obstruction) is incorrect. The bile, produced by the liver, is emptied into the second portion of the duodenum by the biliary system. Due to the nonbilious vomitus, the obstruction is located proximal to the second part of the duodenum. Therefore, an intestinal obstruction is highly unlikely.",
+      "keypoints": [
+        "⭐ Pyloric stenosis: Pyloric stenosis. Pyloric stenosis is a thickening of the pyloric sphincter, which prevents the contents of the stomach from emptying into the duodenum. Children with pyloric steno",
+        "⭐ Esophageal atresia is NOT the answer: Esophageal atresia is a congenital disorder in which the esophagus ends in a blind-ending pouch and is not connected to the stomach.",
+        "Children with pyloric stenosis usually present with the listed symptoms approximately 2 to 3 weeks after birth"
+      ]
+    },
+    {
+      "id": "ch4_q010",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 27-year-old woman comes to the hospital in the early stages of labor. She is 37 weeks pregnant in her fi rst pregnancy, which has been normal. She has no notable past medical history, does not smoke or drink, and is not taking any medications. The examination in the labor and delivery unit is normal, and all appears well with the fetus. At this time, which of the following fetal vessels is carrying the highest concentration of oxygen?",
+      "choices": [
+        "Abdominal aorta",
+        "Umbilical arteries",
+        "Pulmonary artery",
+        "Umbilical vein",
+        "Pulmonary veins"
+      ],
+      "answer": 3,
+      "explanation": "Umbilical vein. The umbilical vein runs from the placenta, through the umbilicus, and to the liver. Prenatally, this vessel carries blood with the highest oxygen saturation (~80%) in the fetal circulation, as it is the direct line from the placenta. Most of the blood in the umbilical vein is shunted around the liver through the ductus venosus into the inferior vena cava. Postnatally, both the umbilical vein and the ductus venosus are obliterated. The umbilical vein, located in the free margin of the falciform ligament, forms the round ligament of the liver (ligamentum teres hepatis). The ductus venosus forms the ligamentum venosum. Choice A (Abdominal aorta) is incorrect. Prenatally, blood in the abdominal aorta has low oxygen saturation. This artery carries blood distal to all the fetal circulatory shunts, except one (the umbilical arteries). Its fl ow has been mixed with deoxygenated blood in the liver, right atrium, left atrium, and distal arch of the aorta (at the junction with the ductus arteriosus). Choice B (Umbilical arteries) is incorrect. The paired umbilical arteries carry blood from the internal iliac arteries, through the umbilicus, and to the placenta. Because they are the exit routes from the fetal circulation to the placenta, these arteries carry blood with the lowest oxygen saturation (~58%) in the fetus. Postnatally, the proximal parts of the umbilical arteries remain patent and form the superior vesical arteries to the urinary bladder. The distal parts of the vessels gradually obliterate and form the fi brous strands in the medial umbilical folds of the anterior abdominal wall. Choice C (Pulmonary artery) is incorrect. The pulmonary artery carries blood out of the right ventricle into the pulmonary circuit. Blood in the right ventricle has been mixed with deoxygenated blood in the liver, inferior vena cava, and right atrium. Thus, this fl ow is desaturated. Most of the blood in the pulmonary artery is shunted around the lungs through the ductus arteriosus and into the distal arch of the aorta. Postnatally, the ductus arteriosus obliterates and forms the ligamentum arteriosum. Choice E (Pulmonary veins) is incorrect. The pulmonary veins carry blood from the lungs into the left atrium. Because the prenatal pulmonary circuit carries a low volume of mixed blood, these veins carry a desaturated fl ow.",
+      "keypoints": [
+        "⭐ Umbilical vein: Umbilical vein. The umbilical vein runs from the placenta, through the umbilicus, and to the liver. Prenatally, this vessel carries blood with the highest oxygen saturation (~80%)",
+        "⭐ Abdominal aorta is NOT the answer: Prenatally, blood in the abdominal aorta has low oxygen saturation.",
+        "Prenatally, this vessel carries blood with the highest oxygen saturation (~80%) in the fetal circulation, as it is the direct line from the placenta"
+      ]
+    },
+    {
+      "id": "ch4_q011",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A woman brings her 4-year-old daughter to the pediatrician because of continuing problems with vomiting, constipation, and abdominal distension. Extensive examination results in a diagnosis of an aganglionic colon. The girl has a defi ciency in which of the following neural cell types?",
+      "choices": [
+        "Pseudounipolar sensory neurons",
+        "Presynaptic sympathetic neurons",
+        "Presynaptic parasympathetic neurons",
+        "Postsynaptic sympathetic neurons",
+        "Postsynaptic parasympathetic neurons"
+      ],
+      "answer": 4,
+      "explanation": "Postsynaptic parasympathetic neurons. Congenital megacolon (Hirschsprung disease) is the congenital absence of enteric ganglia in the colon (usually the distal portion) due to failure of neural crest cell migration into the colon to form the myenteric (Auerbach) plexus. The myenteric (intrinsic) ganglia are normally composed of postsynaptic (postganglionic) parasympathetic neurons that regulate gut motility. In this condition, the affected gut segment is aganglionic and inactive, causing the functioning proximal segment to dilate, sometimes into a severe megacolon. Classic symptoms include constipation, vomiting, poor appetite and weight gain, and abdominal distension. The usual treatment is surgical removal of the affected segment and connection of the normal proximal gut to the rectum or anus. Choice A (Pseudounipolar sensory neurons) is incorrect. Pseudounipolar sensory neurons carry information (touch, pain, temperature, etc.) to the central nervous system, composed of the brain and spinal cord. These neurons include general and visceral sensory (afferent) neurons. The general sensory neurons carry information from the body wall and limbs. Visceral sensory neurons carry visceral sensations from the gut tube and other internal organs. The latter neurons travel",
+      "keypoints": [
+        "⭐ Postsynaptic parasympathetic neurons: Postsynaptic parasympathetic neurons. Congenital megacolon (Hirschsprung disease) is the congenital absence of enteric ganglia in the colon (usually the distal portion) due to fa",
+        "⭐ Pseudounipolar sensory neurons is NOT the answer: Pseudounipolar sensory neurons carry information (touch, pain, temperature, etc.",
+        "The myenteric (intrinsic) ganglia are normally composed of postsynaptic (postganglionic) parasympathetic neurons that regulate gut motility"
+      ]
+    },
+    {
+      "id": "ch4_q012",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 12-year-old boy is brought to the emergency room with a fever, nausea, and pain in his abdomen. Acute appendicitis is the preliminary diagnosis due to his symptoms and an elevated white blood cell count (leukocytosis). The given axial CT reveals an infl amed radiodense appendix in the retrocecal position, exhibiting a thickened wall and surrounding edema. The boy is taken to the operating room for a laparoscopic appendectomy. Branches of what artery will need to be ligated during the procedure to alleviate excessive bleeding?",
+      "choices": [
+        "Celiac",
+        "Superior epigastric",
+        "Superior mesenteric",
+        "Inferior epigastric",
+        "Inferior mesenteric"
+      ],
+      "answer": 2,
+      "explanation": "Superior mesenteric artery. The superior mesenteric artery arises from the abdominal aorta at the fi rst lumbar (L1) vertebral level, and it supplies the midgut from the second part of the duodenum to the distal portion of the transverse colon. The appendix is an outpocketing of the embryonic midgut connected to the cecum, located in the lower right quadrant of the abdomen in proximity to the ileocecal junction. Because the vermiform appendix is derived from the midgut, its blood supply arises from a branch of the superior mesenteric artery, specifi cally the appendicular artery arising off the ileocolic artery. The appendicular artery would need to be ligated to alleviate excessive bleeding during a laparoscopic appendectomy. The given photo shows a laparoscopic view of the appendix. Choice A (Celiac) is incorrect. The celiac artery (trunk) arises from the abdominal aorta immediately after this artery traverses the diaphragm at the 12th thoracic (T12) vertebral level. The celiac artery supplies blood to the embryonic foregut from approximately the lower esophagus to the second part of the duodenum. It does not supply blood to the appendix and is not ligated in a laparoscopic appendectomy. Choice B (Superior epigastric artery) is incorrect. The superior epigastric artery arises from the internal thoracic artery at approximately the 6th intercostal space and courses inferior to supply the rectus sheath and its contents. It anastomoses with the inferior epigastric artery near the umbilicus. It does not supply blood to the appendix, so it is not ligated in a laparoscopic appendectomy. Choice D (Inferior mesenteric) is incorrect. The inferior mesenteric artery arises from the abdominal aorta at the third lumbar (L3) vertebral level and supplies blood to the embryonic hindgut from approximately the distal portion of the transverse colon to the superior aspect of the rectum. It does not supply blood to the appendix, so it is not ligated in a laparoscopic appendectomy. Choice E (Inferior epigastric artery) is incorrect. The inferior epigastric artery arises from the external iliac artery just superior to the inguinal ligament and courses toward the rectus sheath to supply it and its contents. Once within the rectus sheath, the inferior epigastric artery ascends posterior to the rectus abdominis muscle to anastomose with the superior epigastric artery near the umbilicus. the distal part of the splenic artery. It passes along the greater curvature of the stomach and forms an anastomotic arc with the right gastroomental artery. Choice D (Splenic) is incorrect. The splenic artery is the largest branch of the celiac trunk. It weaves along the superior border of the pancreas, giving branches to the pancreas, fundus and greater curvature of the stomach, and greater omentum before terminating in the spleen. Choice E (Left gastric) is incorrect. The left gastric artery is the smallest branch of the celiac trunk. It ascends to the left (superior) aspect of the lesser curvature of the stomach and then follows along the lesser curvature. This vessel forms an anastomotic arc with the right gastric artery along the lesser curvature of the stomach.",
+      "keypoints": [
+        "⭐ Superior mesenteric: Superior mesenteric artery. The superior mesenteric artery arises from the abdominal aorta at the fi rst lumbar (L1) vertebral level, and it supplies the midgut from the second pa",
+        "⭐ Celiac is NOT the answer: The celiac artery (trunk) arises from the abdominal aorta immediately after this artery traverses the diaphragm at the 12th thoracic (T12) vertebral",
+        "The appendix is an outpocketing of the embryonic midgut connected to the cecum, located in the lower right quadrant of the abdomen in proximity to the ileocecal junction"
+      ]
+    },
+    {
+      "id": "ch4_q013",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Failure of differentiation of the individual organs derived from the embryonic foregut would cause malformation of which of the following organs?",
+      "choices": [
+        "Spleen",
+        "Gall bladder",
+        "Ascending colon",
+        "Ileum",
+        "Descending colon"
+      ],
+      "answer": 1,
+      "explanation": "Gall bladder. The primitive gut tube extends from the oropharyngeal membrane cranially to the cloacal membrane caudally. It is divided into three main parts: foregut, midgut, and hindgut. The foregut gives rise to the esophagus, stomach, proximal duodenum, liver, gall bladder, biliary ducts, and pancreas. Choice A (Spleen) is incorrect. The spleen is not a derivative of the gut tube. It is a large, highly vascular lymphoid organ located in close association with the organs derived from the foregut. Choice C (Ascending colon) is incorrect. The ascending colon is derived from the midgut. Other derivatives of the midgut include the distal duodenum, jejunum, ileum, cecum, appendix, and proximal 2/3 of the transverse colon. Choice D (Ileum) is incorrect. The ileum is derived from the midgut. Other derivatives of the midgut include the distal duodenum, jejunum, cecum, appendix, ascending colon, and proximal 2/3 of the transverse colon. Choice E (Descending colon) is incorrect. The descending colon is derived from the hindgut. Other hindgut derivatives include the distal 1/3 of the transverse colon, sigmoid colon, rectum, and upper anal canal.",
+      "keypoints": [
+        "⭐ Gall bladder: Gall bladder. The primitive gut tube extends from the oropharyngeal membrane cranially to the cloacal membrane caudally. It is divided into three main parts: foregut, midgut, and h",
+        "⭐ Spleen is NOT the answer: The spleen is not a derivative of the gut tube.",
+        "It is divided into three main parts: foregut, midgut, and hindgut"
+      ]
+    },
+    {
+      "id": "ch4_q014",
+      "tag": "abdomen",
+      "examLevel": "step1",
+      "system": "Abdomen/Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "An infant is born with a large defect in the central tendon of the diaphragm. This condition is most likely the result of malformation of which of the following structures?",
+      "choices": [
+        "Dorsal mesentery of the esophagus",
+        "Ventral mesentery of the gut tube",
+        "Pleuroperitoneal folds",
+        "Septum transversum",
+        "Cervical somites"
+      ],
+      "answer": 3,
+      "explanation": "Septum transversum. The central tendon of the diaphragm is the expansive tendinous area into which the diaphragmatic muscle inserts and acts upon to produce respiratory movements. Also, it provides passage of the inferior vena cava, which traverses the diaphragm at the 8th thoracic (T8) vertebral level. The central tendon is formed from the embryonic septum transversum. The initial intraembryonic coelom is a single continuous area spanning the length of the trunk. Formation of the diaphragm separates the thoracic and peritoneal cavities. The diaphragm forms from fusion of tissues that originate from four different sources: septum transversum, paired pleuroperitoneal membranes, dorsal mesentery of the esophagus, and cervical somites. The septum transversum is a mesodermal wall that forms between the primitive heart tube and developing liver. It forms most of the diaphragm. Choice A (Dorsal mesentery of the esophagus) is incorrect. This portion of the dorsal mesentery of the gut tube forms the crura of the diaphragm. These muscular legs attach the diaphragm to the vertebral column and form the margins of the in close company with visceral motor (autonomic) neurons. Choice B (Presynaptic sympathetic neurons) is incorrect. The presynaptic sympathetic neurons that supply the gut tube run from the spinal cord to a series of prevertebral (preaortic) ganglia, where they synapse with postsynaptic neurons. Sympathetic neurons are not part of the enteric nervous system. Choice C (Presynaptic parasympathetic neurons) is incorrect. These neurons feed into the enteric ganglia but are not components of the enteric nervous system. The neural crest insuffi ciency in Hirschsprung disease typically results in absence of the enteric ganglia, with the presynaptic elements intact. Choice D (Postsynaptic sympathetic neurons) is incorrect. Sympathetic neurons are not components of the enteric ganglia or the enteric nervous system. Thus, they are not involved in an aganglionic colon.",
+      "keypoints": [
+        "⭐ Septum transversum: Septum transversum. The central tendon of the diaphragm is the expansive tendinous area into which the diaphragmatic muscle inserts and acts upon to produce respiratory movements",
+        "⭐ Dorsal mesentery of the esophagus is NOT the answer: This portion of the dorsal mesentery of the gut tube forms the crura of the diaphragm.",
+        "Also, it provides passage of the inferior vena cava, which traverses the diaphragm at the 8th thoracic (T8) vertebral level"
+      ]
+    },
+    {
+      "id": "ch4_q015",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The given coronal MR arteriogram, taken after an appropriate time lapse, demonstrates abdominal venous anatomy. Which of the indicated veins drains the embryonic midgut?",
+      "choices": [
+        "Hepatic portal vein",
+        "Branches of the portal vein",
+        "Superior mesenteric vein",
+        "Splenic vein",
+        "Inferior mesenteric vein"
+      ],
+      "answer": 2,
+      "explanation": "Superior mesenteric vein. The hepatic portal system collects blood from the abdominal gut tube and spleen and directs that fl ow into the liver. The superior mesenteric vein collects the venous fl ow from the embryonic midgut and empties it into the portal vein. Therefore, the distal duodenum, jejunum, ileum, cecum, appendix, ascending colon, and proximal 2/3 of the transverse colon drain via this route. Choice A (Hepatic portal vein) is incorrect. The hepatic portal vein (portal vein) receives the blood fl ow from the entire hepatic portal system and directs that blood into the liver. The portal vein is formed by the union of the splenic and superior mesenteric veins posterior to the neck of the pancreas. Choice B (Branches of the portal vein) is incorrect. At or close to the porta hepatis, the portal vein divides into right and left primary branches that supply the right and left lobes of the liver. These branches quickly divide further to supply the fi ner divisions of the liver. Choice D (Splenic vein) is incorrect. The splenic vein receives blood from the spleen and much of the foregut. The left gastric vein also collects blood from the foregut but typically empties directly into the portal vein. Choice E (Inferior mesenteric vein) is incorrect. The inferior mesenteric vein collects blood from the hindgut. This vessel usually drains into the splenic vein. However, it may end in the superior mesenteric vein or at the junction of the splenic and superior mesenteric veins.",
+      "keypoints": [
+        "⭐ Superior mesenteric vein: Superior mesenteric vein. The hepatic portal system collects blood from the abdominal gut tube and spleen and directs that fl ow into the liver. The superior mesenteric vein collect",
+        "⭐ Hepatic portal vein is NOT the answer: The hepatic portal vein (portal vein) receives the blood fl ow from the entire hepatic portal system and directs that blood into the liver.",
+        "The superior mesenteric vein collects the venous fl ow from the embryonic midgut and empties it into the portal vein"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch4 q15.png",
+      "imageAlt": "Clinical image for question 15",
+      "imageCaption": "See question 15 stem for description."
+    },
+    {
+      "id": "ch4_q016",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 35-year-old man suffers sharp abdominal pain accompanied by hematemesis (vomiting of blood) for 2 days. He dies without seeking medical help. Autopsy fi ndings reveal a perforated ulcer in the posterior wall of the fi rst part of the duodenum, which damaged the artery in close proximity. Which of the following arteries was most likely ruptured?",
+      "choices": [
+        "Short gastric",
+        "Left gastroomental",
+        "Gastroduodenal",
+        "Splenic",
+        "Left gastric"
+      ],
+      "answer": 2,
+      "explanation": "Gastroduodenal. The gastroduodenal artery is one of the terminal branches of the common hepatic artery (the proper hepatic artery is the other). It descends immediately posterior to the fi rst part of the duodenum, gives branches to the duodenum, and terminates by splitting into two branches: right gastroomental (gastroepiploic) and superior pancreaticoduodenal. Its close relation to the second part of the duodenum makes this vessel susceptible to lesions such as the perforating ulcer described in this case. Choice A (Short gastric) is incorrect. The short gastric arteries are branches of the distal part of the splenic artery. These vessels supply the fundus of the stomach on its greater curvature aspect. Choice B (Left gastroomental) is incorrect. The left gastroomental (gastroepiploic) artery is a large branch of is the fetal shunt from the umbilical vein to the inferior vena cava, thus bypassing the liver. Its remnant, the ligamentum venosum, may be found near the porta hepatis, in the umbilical (left sagittal) fi ssure on the visceral (posterior) surface of the liver. Choice E (Obliterated inferior epigastric vessels) is incorrect. The inferior epigastric vessels do not normally obliterate. Rather, they form signifi cant vascular lines from the external iliac vessels upward into the anterior abdominal wall. These vessels are contained within the lateral umbilical folds, located lateral to the medial umbilical folds. Thus, the lateral umbilical folds are the only umbilical folds that bleed when cut. The lateral umbilical folds also mark the lateral boundary of the inguinal (Hesselbach) triangle and serve as a key landmark in differentiating direct from indirect inguinal hernias.",
+      "keypoints": [
+        "⭐ Gastroduodenal: Gastroduodenal. The gastroduodenal artery is one of the terminal branches of the common hepatic artery (the proper hepatic artery is the other). It descends immediately posterior",
+        "⭐ Short gastric is NOT the answer: The short gastric arteries are branches of the distal part of the splenic artery.",
+        "It descends immediately posterior to the fi rst part of the duodenum, gives branches to the duodenum, and terminates by splitting into two branches: right gastroomental (gastroepiploic) and superior"
+      ]
+    },
+    {
+      "id": "ch4_q017",
+      "tag": "anatomy",
+      "examLevel": "step1",
+      "system": "Anatomy",
+      "contentType": "Diagnosis",
+      "stem": "A 24-year-old man is brought to the ER with a knife wound located in the 9th intercostal space at the right midaxillary line. Given the location of the penetration wound, what structure is most likely damaged?",
+      "choices": [
+        "Stomach",
+        "Kidney",
+        "Lung",
+        "Liver",
+        "Spleen"
+      ],
+      "answer": 3,
+      "explanation": "Liver. The liver resides on the right side of the body, and its entire surface is afforded the protection of the thoracic cage in healthy individuals. The liver is the most likely damaged organ due to the location of the knife wound in the right 9th intercostal space. In fact, the liver can extend superior to approximately the level of the nipple, depending on the infl ation state of the right lung. The given axial CT shows the damaged liver below the level of the entry wound. Choice A (Stomach) is incorrect. The stomach is seen on the given CT scan, and due to gut rotation, it resides on the left side of the body. Therefore, the stomach is not likely damaged by the knife wound in the right 9th intercostal space. Choice B (Kidney) is incorrect. The right kidney is located below the entry wound in this patient because the superior pole of the right kidney is closely related to the 12th rib. The kidney also lies deep to the liver, so the liver is more likely to be damaged in this patient. Choice C (Lung) is incorrect. The inferior border of the right lung would reside approximately at the 8th rib in the midaxillary line. The parietal pleura of the lung, which lines the pulmonary cavity, extends inferiorly to the tenth rib in the midaxillary line, but the lung itself would not descend to this level unless it was completely infl ated at the time of the injury. Therefore, the liver is more likely to be injured in this patient, especially because breathing diffi culties are not reported in this patient. Choice E (Spleen) is incorrect. The spleen resides on the left side of the body. Due to penetration wound being located on the right, the spleen is not damaged. aortic hiatus. Additionally, the right crus forms the esophageal hiatus. Choice B (Ventral mesentery of the gut tube) is incorrect. The ventral mesentery of the gut tube is not related to formation of the diaphragm. It gives rise to the lesser omentum, falciform ligament, and the coronary and triangular ligaments of the liver. Choice C (Pleuroperitoneal folds) is incorrect. The paired pleuroperitoneal folds are extensions from the posterolateral body wall. They form much of the posterolateral aspect of the diaphragm that is not derived from the septum transversum or the dorsal esophageal mesentery. Choice E (Cervical somites) is incorrect. The septum transversum is initially located along cervical somites and spinal cord segments C3-5. Differential rates of body growth between the trunk and internal organs cause shifting and repositioning of the diaphragm to its fi nal thoracolumbar position. However, myoblasts from the cervical somites invade the initial diaphragmatic folds and form the muscular parts of the diaphragm. Further, the cervical spinal cord segments give rise to the phrenic nerves that provide motor innervation to the diaphragm.",
+      "keypoints": [
+        "⭐ Liver: Liver. The liver resides on the right side of the body, and its entire surface is afforded the protection of the thoracic cage in healthy individuals. The liver is the most likely",
+        "⭐ Stomach is NOT the answer: The stomach is seen on the given CT scan, and due to gut rotation, it resides on the left side of the body.",
+        "The liver is the most likely damaged organ due to the location of the knife wound in the right 9th intercostal space"
+      ]
+    },
+    {
+      "id": "ch4_q018",
+      "tag": "repro",
+      "examLevel": "step1",
+      "system": "Reproductive/Urinary",
+      "contentType": "Diagnosis",
+      "stem": "A 45-year-old man presents with pain in his left lower abdomen and proximal medial thigh, but the pain also radiates to his left shoulder. Physical examination of the left shoulder reveals no structural abnormalities or paresis (weakness). The given plain abdominal fi lm reveals a left renal and perirenal abscess. Which of the following organs is irritated by the abscess, resulting in the radiating pain to the left shoulder?",
+      "choices": [
+        "Transverse colon",
+        "Diaphragm",
+        "Pancreas",
+        "Duodenum",
+        "Liver"
+      ],
+      "answer": 1,
+      "explanation": "Diaphragm. Spread of the abscess superior would cause visceral pain derived from the diaphragm because the diaphragm is closely related to the superior pole of the left kidney. The visceral sensory fi bers conveying pain from the kidney are derived from the T12-L1 vertebral levels, which leads to referred pain in the lower abdomen and proximal medial thigh. Remember, visceral pain is often perceived as cutaneous pain in an area supplied by the same spinal cord level as the affected abdominal organ. Involvement of the diaphragm would refer pain to the left lower cervical and shoulder regions because the phrenic nerve, derived from vertebral levels C3-5, innervates the diaphragm. Choice A (Transverse colon) is incorrect. The lesser splanchnic nerve, derived from spinal levels T10-11, innervates the transverse colon. Therefore, visceral sensory fi bers extending from the transverse colon cause pain within the T10-11 dermatomes, which does not explain the pain specifi c to the left shoulder region. Furthermore, the transverse colon is located well anterior to the left kidney in the abdomen, so its involvement is unlikely based upon the given radiograph. Choice C (Pancreas) is incorrect. The greater splanchnic nerve, derived from spinal levels T5-9, innervates the pancreas. Therefore, visceral sensory fi bers, extending from the pancreas, cause pain within the T5-9 dermatomes, which does not explain the pain specifi c to the left shoulder region. The body of the pancreas is located anterior to the left kidney, so spread of the abscess could affect the pancreas; however, this involvement would not explain the pain in the left shoulder. Choice D (Duodenum) is incorrect. The greater splanchnic nerve, derived from spinal levels T5-9, innervates the duodenum. Therefore, visceral sensory fi bers extending from the duodenum cause pain within the T5-9 dermatomes, which does not account for the pain specifi c to the left shoulder region. Furthermore, the duodenum is located primarily on the right side of the body where it envelopes the head of the pancreas, so this abscess of the left kidney would not involve the duodenum. Choice E (Liver) is incorrect. The liver receives sensory innervation from the greater splanchnic nerve derived from the T5-9 nerves, so pain associated with the liver is referred to the T5-9 dermatomes and would not be localized in the right shoulder region. Furthermore, the liver is located primarily on the right side, far from the left kidney.",
+      "keypoints": [
+        "⭐ Diaphragm: Diaphragm. Spread of the abscess superior would cause visceral pain derived from the diaphragm because the diaphragm is closely related to the superior pole of the left kidney. The",
+        "⭐ Transverse colon is NOT the answer: The lesser splanchnic nerve, derived from spinal levels T10-11, innervates the transverse colon.",
+        "The visceral sensory fi bers conveying pain from the kidney are derived from the T12-L1 vertebral levels, which leads to referred pain in the lower abdomen and proximal medial thigh"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch4 q18.png",
+      "imageAlt": "Clinical image for question 18",
+      "imageCaption": "See question 18 stem for description."
+    },
+    {
+      "id": "ch4_q019",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 25-year-old woman visits her obstetrician one year after a normal pregnancy and vaginal delivery of healthy twins. Following a physical examination, the physician informs the woman she is in good health and that all postnatal conditions are occurring as they should. At this time, the medial umbilical folds contain which of the following structures?",
+      "choices": [
+        "Obliterated umbilical vein",
+        "Obliterated urachus",
+        "Obliterated umbilical arteries",
+        "Obliterated ductus venosus",
+        "Obliterated inferior epigastric vessels"
+      ],
+      "answer": 2,
+      "explanation": "Obliterated umbilical arteries. The internal surface of the anterior abdominal wall presents fi vefolds of peritoneum that run from the pelvic region to the umbilicus: a single, midline median umbilical fold, paired medial umbilical folds, and paired lateral umbilical folds. The medial umbilical folds lie lateral to the median umbilical fold and cover the obliterated distal portions of the umbilical arteries. The proximal parts of the umbilical arteries (branches of the internal iliac arteries) remain patent and form the superior vesicle arteries, which supply part of the urinary bladder. Choice A (Obliterated umbilical vein) is incorrect. The obliterated umbilical vein is the round ligament of the liver (ligamentum teres hepatis). This structure is located in the free margin of the falciform ligament, running from the umbilicus to the liver. Choice B (Obliterated urachus) is incorrect. The urachus is the remnant of the embryonic allantois. It is contained in the median umbilical fold, running superiorly in the midline from the apex of the bladder to the umbilicus. Choice D (Obliterated ductus venosus) is incorrect. The ductus venosus into the duodenum. Thus, it regulates the fl ow of bile and pancreatic juice into the duodenum and prevents refl ux of duodenal contents into the ampulla. It also could be affected by autonomic insuffi ciency.",
+      "keypoints": [
+        "⭐ Obliterated umbilical arteries: Obliterated umbilical arteries. The internal surface of the anterior abdominal wall presents fi vefolds of peritoneum that run from the pelvic region to the umbilicus: a single, mid",
+        "⭐ Obliterated umbilical vein is NOT the answer: The obliterated umbilical vein is the round ligament of the liver (ligamentum teres hepatis).",
+        "The medial umbilical folds lie lateral to the median umbilical fold and cover the obliterated distal portions of the umbilical arteries"
+      ]
+    },
+    {
+      "id": "ch4_q020",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 58-year-old woman with a history of hypercholesterolemia came to the ER with severe abdominal pain, nausea, and vomiting. She is diagnosed with advanced atherosclerosis after radiologic imaging reveals atherosclerotic plaque narrowing the blood vessel supplying the embryonic foregut and its derivatives. What blood vessel is most likely affected?",
+      "choices": [
+        "Celiac artery",
+        "Superior mesenteric artery",
+        "Inferior mesenteric artery",
+        "Portal vein",
+        "Umbilical vein"
+      ],
+      "answer": 0,
+      "explanation": "Celiac artery. The primitive gut tube extends from the oropharyngeal membrane, cranially, to the cloacal membrane, caudally. It is divided into three main parts: foregut, midgut, and hindgut. Each of these three segments is supplied by a single (unpaired) major arterial branch of the abdominal aorta. Most of the foregut is supplied by the celiac artery (trunk). Thus, occlusion of this vessel will obstruct blood fl ow to the lower esophagus, stomach, liver, gall bladder, pancreas, and proximal duodenum. Also, the celiac artery supplies the spleen, even though the spleen is not a derivative of the foregut. Most of the esophagus is located outside the abdomen and is supplied by local branches in the neck and thorax (e.g., esophageal branches of the thoracic aorta). Expansion of the anastomosis between the superior pancreaticoduodenal arteries (branches of the celiac axis) and the inferior pancreaticoduodenal arteries (branches of the superior mesenteric axis) in the head of the pancreas may help relieve some of the ischemia produced by occlusion of the celiac trunk. Choice B (Superior mesenteric artery) is incorrect. The superior mesenteric artery supplies the midgut. Occlusion here deprives the caudal duodenum, jejunum, ileum, cecum, appendix, ascending colon, and most of the transverse colon. Anastomoses occur between the superior mesenteric axis and both the celiac axis (see above) and inferior mesenteric axis. The anastomosis with the inferior mesenteric tract is via connections between the middle colic artery (superior mesenteric axis) and the left colic artery (inferior mesenteric axis), along the margin of the transverse and descending colon. Choice C (Inferior mesenteric artery) is incorrect. The inferior mesenteric artery supplies most of the hindgut. Occlusion here blocks fl ow to the distal transverse colon, descending colon, sigmoid colon, and upper rectum. The superior rectal branch of the inferior mesenteric artery anastomoses with middle rectal branches of the internal iliac arteries around the rectal walls. Choice D (Portal vein) is incorrect. The portal vein collects blood from all three portions of the gut tube and directs that fl ow into the liver. Thus, the hepatic portal system overlaps the three arterial axes but drains them rather than supplies them. Choice E (Umbilical vein) is incorrect. The umbilical vein carries blood from the placenta to the liver and into a liver bypass (the ductus venosus) in the fetus. It does not supply the gut tube.",
+      "keypoints": [
+        "⭐ Celiac artery: Celiac artery. The primitive gut tube extends from the oropharyngeal membrane, cranially, to the cloacal membrane, caudally. It is divided into three main parts: foregut, midgut, a",
+        "⭐ Superior mesenteric artery is NOT the answer: The superior mesenteric artery supplies the midgut.",
+        "It is divided into three main parts: foregut, midgut, and hindgut"
+      ]
+    },
+    {
+      "id": "ch4_q021",
+      "tag": "abdomen",
+      "examLevel": "step1",
+      "system": "Abdomen/Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A fetal ultrasound examination of a 28-year-old pregnant woman reveals a defect in the anterior abdominal wall of the fetus. Further radiologic tests are ordered. The given sagittal T2-weight MRI demonstrates a midline defect involving the umbilical cord, which contains intestinal loops and part of the liver within a membranous sac. What developmental defect is depicted in this MRI?",
+      "choices": [
+        "Gastroschisis",
+        "Congenital umbilical hernia",
+        "Ileal diverticulum",
+        "Omphalocele",
+        "Prune belly syndrome"
+      ],
+      "answer": 3,
+      "explanation": "Omphalocele. An omphalocele is a defect in the development of the muscles of the anterior abdominal wall in which intestinal loops and often parts of the liver remain outside the abdomen. The distinguishing characteristic of an omphalocele is a midline defect through the umbilicus in which",
+      "keypoints": [
+        "⭐ Omphalocele: Omphalocele. An omphalocele is a defect in the development of the muscles of the anterior abdominal wall in which intestinal loops and often parts of the liver remain outside the a",
+        "The distinguishing characteristic of an omphalocele is a midline defect through the umbilicus in which",
+        "Ch4 – A fetal ultrasound examination of a 28-year-old pregnant woman reveals a defect in the anterior abdo"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch4 q21.png",
+      "imageAlt": "Clinical image for question 21",
+      "imageCaption": "See question 21 stem for description."
+    },
+    {
+      "id": "ch4_q022",
+      "tag": "neuro",
+      "examLevel": "step1",
+      "system": "Neuroscience",
+      "contentType": "Anatomy",
+      "stem": "Familial dysautonomia is a rare genetic disorder of the autonomic nervous system. Problems include diffi culty in feeding and respiration, vasomotor instability, insensitivity to pain, and ataxia (an unsteady gait). Patients with this syndrome have low numbers of autonomic neurons, probably related to defects in production and/or survival of the neural crest precursors of these neurons. Which of the following structures would not be affected by this disorder?",
+      "choices": [
+        "Pyloric sphincter",
+        "Abdominal aorta",
+        "Teniae coli",
+        "Diaphragm",
+        "Hepatopancreatic sphincter"
+      ],
+      "answer": 3,
+      "explanation": "Diaphragm. The diaphragm is composed of skeletal muscle and is innervated by somatic nerves fi bers in the phrenic nerves. It is not affected by autonomic dysfunction, so its function is spared in familial dysautonomia. Choice A (Pyloric sphincter) is incorrect. The pyloric sphincter is the smooth muscle sphincter at the gastroduodenal junction. It is supplied by both sympathetic and parasympathetic fi bers, so its function could be affected by autonomic insuffi ciency. Choice B (Abdominal aorta) is incorrect. This large vessel has a distinct smooth muscle component. Therefore, it could be affected by autonomic insuffi ciency. Choice C (Teniae coli) is incorrect. The teniae coli are the three narrow bands of longitudinal smooth muscle that run the length of the colon. They are distinguishing features of the exterior surface of the colon. The teniae coli could be affected by autonomic insuffi ciency. Choice E (Hepatopancreatic sphincter) is incorrect. This structure is the smooth muscle sphincter around the hepatopancreatic (greater duodenal) ampulla, at the point where the bile and pancreatic ducts join and empty is incorrect. Parasympathetic supply to the posterior stomach is derived directly from the posterior (right) vagus nerve as it descends from the esophagus. Further parasympathetic distribution to the foregut runs mainly from the posterior vagus through the celiac plexus and follows the celiac arterial axis. Choice C (Lymph drainage from the liver) is incorrect. Lymphatic drainage of the abdominopelvic organs mainly parallels the arterial supply to those organs, so lymphatic drainage of the liver fl ows toward the celiac nodes. Lymph drainage from the midgut organs fl ows to the superior mesenteric nodes, where it could be affected by a tumor invading this area. Choice D (Venous drainage from the transverse colon) is incorrect. The transverse colon is mostly related to midgut origins. However, venous drainage of the gut tube is primarily into the hepatic portal system rather than directly into systemic veins. Thus, most of the gut tube drains into the liver via the portal vein. Choice E (Visceral afferents from the proximal duodenum) is incorrect. The visceral afferents from the foregut and midgut regions mainly parallel the sympathetic supply to those organs. Thus, afferents from the proximal duodenum pass mainly through the celiac ganglia.",
+      "keypoints": [
+        "⭐ Diaphragm: Diaphragm. The diaphragm is composed of skeletal muscle and is innervated by somatic nerves fi bers in the phrenic nerves. It is not affected by autonomic dysfunction, so its functi",
+        "⭐ Pyloric sphincter is NOT the answer: The pyloric sphincter is the smooth muscle sphincter at the gastroduodenal junction.",
+        "It is not affected by autonomic dysfunction, so its function is spared in familial dysautonomia"
+      ]
+    },
+    {
+      "id": "ch4_q023",
+      "tag": "cardio",
+      "examLevel": "step1",
+      "system": "Cardiovascular",
+      "contentType": "Anatomy",
+      "stem": "Following a radical mastectomy, a plastic surgeon uses a pedicled myocutaneous fl ap of the suprapubic portion of the rectus abdominis muscle to reconstruct the breast. What artery, supplying blood to the myocutaneous fl ap, needs to be isolated, transected, and later grafted to the reconstruction site?",
+      "choices": [
+        "Superfi cial epigastric artery",
+        "Superior epigastric artery",
+        "Inferior epigastric artery",
+        "Inferior mesenteric artery",
+        "Musculophrenic artery"
+      ],
+      "answer": 2,
+      "explanation": "Inferior epigastric artery. The suprapubic aspect of the rectus abdominis muscle is supplied by the inferior epigastric artery. Therefore, this artery would need to be isolated, transected, and later grafted to the reconstruction site to ensure viable breast reconstruction. The inferior epigastric artery arises from the external iliac artery just superior to the inguinal ligament and courses toward the rectus sheath. During its course to the rectus sheath of the anterior abdominal wall, it lies along the inferomedial margin of the superfi cial inguinal ring. At this location, the inferior epigastric artery can be used to distinguish between direct and indirect inguinal hernias. If the inguinal hernia passes lateral to this artery, it is an indirect inguinal hernia, which traverses both the deep and superfi cial inguinal rings. Once within the rectus sheath, the inferior epigastric artery ascends posterior to the rectus abdominis muscle to anastomose with the superior epigastric artery near the umbilicus. Choice A (Superfi - cial epigastric artery) is incorrect. The superfi cial epigastric artery arises from the femoral artery, below the inguinal ligament, and courses superior to supply the superfi cial inguinal lymph nodes and the superfi cial fascia and skin of the anterior abdominal wall. It may anastomose with the inferior epigastric artery, but the caliber of this artery is not adequate for blood supply to a myocutaneous fl ap. Furthermore, the superfi cial epigastric artery is not the main blood supply of the suprapubic aspect of the rectus abdominis muscle. Choice B (Superior epigastric artery) is incorrect. The superior epigastric artery arises from the internal thoracic artery at approximately the 6th intercostal space, and courses inferior to supply the rectus sheath, including the superior aspect of the rectus abdominis muscle. It anastomoses with the inferior epigastric artery near the umbilicus; however, the caliber of this artery is often considered inadequate for blood supply to a myocutaneous fl ap. Furthermore, the superior epigastric artery is not the main blood supply of the suprapubic aspect of the rectus abdominis muscle. Choice D (Inferior mesenteric) is incorrect. The inferior mesenteric artery arises from the abdominal aorta and supplies blood to the embryonic hindgut from approximately the distal portion of the transverse colon to the superior aspect of the rectum. It does not supply blood to the anterior abdominal wall, so it is not involved with a myocutaneous fl ap of the suprapubic portion of the rectus abdominis muscle. Choice E (Musculophrenic artery) is incorrect. The musculophrenic artery arises from the internal thoracic artery at approximately the 6th intercostal space and courses inferolateral along the superior aspect of the costal margin of the ribcage. It supplies blood to the anterior 7th to 9th intercostal spaces, the diaphragm, and the inferior aspect of the pericardium. Due to its location, it does not supply blood to the rectus sheath, so it is not involved with this myocutaneous fl ap.",
+      "keypoints": [
+        "⭐ Inferior epigastric artery: Inferior epigastric artery. The suprapubic aspect of the rectus abdominis muscle is supplied by the inferior epigastric artery. Therefore, this artery would need to be isolated,",
+        "⭐ Superfi - cial epigastric artery is NOT the answer: The superfi cial epigastric artery arises from the femoral artery, below the inguinal ligament, and courses superior to supply the superfi cial ingui-",
+        "Therefore, this artery would need to be isolated, transected, and later grafted to the reconstruction site to ensure viable breast reconstruction"
+      ]
+    },
+    {
+      "id": "ch4_q024",
+      "tag": "neuro",
+      "examLevel": "step1",
+      "system": "Neuroscience",
+      "contentType": "Anatomy",
+      "stem": "During inspections of a secret government biological warfare laboratory, a team of investigators discovers a genetically engineered virus that selectively attacks the cells bodies of postsynaptic parasympathetic neurons. In which of the following locations would this virus be found in the highest density if it were introduced into the body?",
+      "choices": [
+        "Celiac plexus",
+        "Paravertebral ganglia",
+        "Myenteric plexus",
+        "Hypogastric plexuses",
+        "Gray matter of sacral spinal cord segments"
+      ],
+      "answer": 2,
+      "explanation": "Myenteric plexus. The cell bodies of postsynaptic (postganglionic) parasympathetic neurons populate the myenteric (Auerbach) plexus in the walls of the gut tube. These plexuses are located between the circular and longitudinal smooth muscle layers and regulate gut motility, including the protruding organs (liver and intestine usually) remain in a sac composed of peritoneum, which can be appreciated in the given fi gure. In contrast to gastroschisis, the herniated organs in an omphalocele are surrounded by a membranous sac. Choice A (Gastroschisis) is incorrect. Gastroschisis is a defect of the anterior abdominal wall located off the midline, typically to the right of the umbilicus. Intestinal loops protrude through the defect into the amniotic cavity, where they fl oat freely in the amniotic fl uid. In gastroschisis, the umbilical cord is not involved and the protruding organs are not enclosed in a membranous sac composed of peritoneum. Choice B (Congenital umbilical hernia) is incorrect. Congenital umbilical hernia refers to a weakness in the umbilical region that allows abdominal contents to protrude through the abdominal wall. However, the abdominal contents are covered by skin, so the patient presents with a bulge in the umbilical region. Choice C (Ileal diverticulum) is incorrect. Ileal (Meckel) diverticulum is a persistent remnant of the embryonic vitelline duct (yolk stalk), which connects the apex of the primary intestinal loop of the midgut to the yolk sac. An ileal diverticulum is a remnant of the vitelline duct, and it is usually not detected by radiographic imaging in a fetus. Choice E (Prune belly syndrome) is incorrect. Prune belly syndrome is characterized by an extremely thin, distended abdominal wall due to an absence of abdominal musculature. Organs are often visible through the skin, but in Prune Belly syndrome, the abdominal wall defects do not allow protrusion of the liver out of the abdominal cavity.",
+      "keypoints": [
+        "⭐ Myenteric plexus: Myenteric plexus. The cell bodies of postsynaptic (postganglionic) parasympathetic neurons populate the myenteric (Auerbach) plexus in the walls of the gut tube. These plexuses a",
+        "⭐ Gastroschisis is NOT the answer: Gastroschisis is a defect of the anterior abdominal wall located off the midline, typically to the right of the umbilicus.",
+        "These plexuses are located between the circular and longitudinal smooth muscle layers and regulate gut motility, including the protruding organs (liver and intestine usually) remain in a sac compose"
+      ]
+    },
+    {
+      "id": "ch4_q025",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 47-year-old woman has lost 15 lb over the last 2 months and presents with upper abdominal pain that radiates to the middle and upper back. During physical examination, the doctor notes the sclera of her eyes are icteric (yellow in color), as seen on the given photo. An abdominal CT reveals a tumor within the head of the pancreas. The exocrine secretions of which of the following organs is being blocked leading directly to icteric sclera in this patient?",
+      "choices": [
+        "Duodenum",
+        "Liver",
+        "Gall bladder",
+        "Pancreas",
+        "Stomach"
+      ],
+      "answer": 1,
+      "explanation": "Liver. The tumor within the head of the pancreas is leading to obstruction of the lower biliary tract, specifi cally the draining of the common bile duct. The common bile duct drains bile, produced in the liver, into the second part of the duodenum. This interruption of the biliary system by the pancreatic tumor blocks the fl ow of bile from the liver. One of the main components of bile is bilirubin, and as bilirubin levels increase within the liver due to the obstruction, the patient’s sclera becomes icterus, a symptom of being jaundiced. The head of the pancreas is closely associated with the drainage site of the common bile duct, so this pancreatic tumor is causing posthepatic (or obstructive) jaundice, which is also called cholestasis. Choice A (Duodenum) is incorrect. The second part of the duodenum is the termination site of the common bile duct. It does not produce the bile, which when obstructed can ultimately lead to the icteric sclera and jaundiced appearance of this patient. Choice C (Gall bladder) is incorrect. The gall bladder stores and concentrates the bile produced in the liver. It does not produce its own secretory product. Choice D (Pancreas) is incorrect. Though the exocrine ducts of the pancreas may also be blocked by the presence of a tumor within the head of the pancreas, the obstruction of the secretory products of the pancreas would not lead to the patient’s icteric sclera. Choice E (Stomach) is incorrect. The stomach is not involved with the biliary tract. Furthermore, blockage of the secretions of the stomach would not lead to the jaundiced appearance of this patient.",
+      "keypoints": [
+        "⭐ Liver: Liver. The tumor within the head of the pancreas is leading to obstruction of the lower biliary tract, specifi cally the draining of the common bile duct. The common bile duct dra",
+        "⭐ Duodenum is NOT the answer: The second part of the duodenum is the termination site of the common bile duct.",
+        "The common bile duct drains bile, produced in the liver, into the second part of the duodenum"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch4 q25.png",
+      "imageAlt": "Clinical image for question 25",
+      "imageCaption": "See question 25 stem for description."
+    },
+    {
+      "id": "ch4_q026",
+      "tag": "abdomen",
+      "examLevel": "step1",
+      "system": "Abdomen/Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 60-year-old man is diagnosed with a posterior abdominal wall tumor that is causing lesions in the superior mesenteric plexus. Which of the following pathways is most likely affected?",
+      "choices": [
+        "Parasympathetic supply to the posterior aspect of the stomach",
+        "Sympathetic supply to the ascending colon",
+        "Lymph drainage from the liver",
+        "Venous drainage from the transverse colon",
+        "Visceral afferents from the proximal duodenum"
+      ],
+      "answer": 1,
+      "explanation": "Sympathetic supply to the ascending colon. The superior mesenteric plexus (ganglia) is an autonomic network around the base of the superior mesenteric artery. Presynaptic sympathetic fi bers synapse at this location, and postsynaptic sympathetic fi bers follow branches of this artery to distribute to the midgut organs, including the ascending colon. Presynaptic parasympathetic fi bers from the vagus nerve and visceral afferents also pass through this plexus en route to and from the midgut. Choice A (Parasympathetic supply to the posterior aspect of the stomach) to repair. Therefore, it is usually removed in a splenectomy to prevent the patient from bleeding to death. Luckily, the spleen is not an essential organ, in that an individual can live without it. Choice A (Liver) is incorrect. The liver is the largest visceral organ, and it is highly vascularized. It is located mainly in the upper right quadrant of the abdomen, under the right dome of the diaphragm and deep to ribs 7 to 11. Thus, the liver is located on the opposite side of the body from the injury and is not likely the injured organ. The liver is an essential organ that cannot be removed in its entirety. Choice B (Stomach) is incorrect. The label is on an air space above contrast material in the stomach. The stomach is very mobile and distensible. Its base position is in the left upper quadrant of the abdomen, under the left dome of the diaphragm. However, it typically extends into the right upper quadrant. Because of its pliability, the stomach is rarely ruptured by fractured ribs. Also, it is not so vascular as to produce the level of internal bleeding seen in splenic injuries. Choice D (Erector spinae) is incorrect. The erector spinae is the largest component of the deep muscle layer in the back. It gives rise to three individual muscle columns: spinalis, longissimus, and iliocostalis. Choice E (Abdominal aorta) is incorrect. The abdominal aorta is slightly offset to the left anterior aspect of the vertebral body. It would not be damaged by fractured ribs. If ruptured in an automobile accident, as described here, the patient would likely have died before reaching the emergency room.",
+      "keypoints": [
+        "⭐ Sympathetic supply to the ascending colon: Sympathetic supply to the ascending colon. The superior mesenteric plexus (ganglia) is an autonomic network around the base of the superior mesenteric artery. Presynaptic sympath",
+        "⭐ Liver is NOT the answer: The liver is the largest visceral organ, and it is highly vascularized.",
+        "Presynaptic sympathetic fi bers synapse at this location, and postsynaptic sympathetic fi bers follow branches of this artery to distribute to the midgut organs, including the ascending colon"
+      ]
+    },
+    {
+      "id": "ch4_q027",
+      "tag": "neuro",
+      "examLevel": "step1",
+      "system": "Neuroscience",
+      "contentType": "Anatomy",
+      "stem": "In anticipation for a medical school swimming party, a 60-year-old male professor squeezes into last year’s bikini bathing suit despite gaining 25 lb over the winter. Following a day of “impressing” his students and colleagues, he notices numbness, tingling, and a burning sensation in the lateral aspect of his left upper thigh. His symptoms are exacerbated by applying pressure near the left anterior superior iliac spine. What nerve is most likely affected?",
+      "choices": [
+        "Lateral femoral cutaneous nerve",
+        "Femoral branch of genitofemoral nerve",
+        "Anterior cutaneous branches of femoral nerve",
+        "Ilioinguinal nerve",
+        "Iliohypogastric nerve"
+      ],
+      "answer": 0,
+      "explanation": "Lateral femoral cutaneous nerve. This misguided professor presents with classic signs and symptoms of entrapment of the lateral femoral cutaneous nerve, which passes under the inguinal ligament in proximity to the anterior superior iliac spine, demonstrated in the given fi gure. Impingement of the lateral femoral cutaneous nerve is called meralgia paresthetica or bikini brief syndrome and results in abnormal sensations of burning, pain, and numbness in the lateral portion of the upper thigh. In the case of this progressive professor, his fashionable swimwear compressed the lateral femoral cutaneous nerve near the anterior superior iliac spine. Moreover, meralgia paresthetica is seen in individuals who have gained considerable weight (e.g., pregnancy) in a short period. Choice B (Femoral branch of the genitofemoral nerve) is incorrect. The femoral branch of the genitofemoral nerve is formed by the anterior rami of the L1-2 spinal nerves. This nerve supplies the upper medial aspects of the thigh. Due to the location of the patient’s symptoms in the lateral aspect of his left upper thigh, this nerve is not involved. Choice C (Anterior cutaneous branches of femoral nerve) is incorrect. The anterior cutaneous branches of femoral nerve supply the upper medial aspect of the thigh. These nerves are derived from L2-4, and they are located too medial to elicit the symptoms in this fashion-conscious professor. Choice D (Ilioinguinal nerve) is incorrect. The ilioinguinal nerve arises from the lumbar plexus from the anterior ramus of the L1 spinal nerve. This nerve supplies the upper medial aspects of the thigh and gives off the anterior scrotal nerves involved in the afferent limb of the cremasteric refl ex. Due to the location of the patient’s symptoms in the lateral aspect of his left upper thigh, this nerve is not involved. Choice E (Iliohypogastric nerve) is incorrect. The iliohypogastric nerve arises primarily from the ventral ramus of L1, with possible contributions from T12. This nerve runs above the anterior superior iliac spine within the anterolateral muscular wall of the abdomen. However, if this nerve were involved, the abnormal sensations would have been located in the suprapubic region of the abdomen. peristalsis. The myenteric plexus is a major component of the enteric nervous system. Choice A (Celiac plexus) is incorrect. The celiac plexus houses the cell bodies of postsynaptic sympathetic neurons. It is a preaortic plexus located around the base of the celiac trunk and serves as a synapse point in sympathetic distribution to the abdominal viscera. Presynaptic parasympathetic and visceral afferent fi bers do pass through the preaortic ganglia but do not synapse within the celiac plexus. Choice B (Paravertebral ganglia) is incorrect. The paravertebral ganglia compose the sympathetic chain ganglia located on the sides of the vertebral column. They contain cell bodies of postsynaptic sympathetic neurons. Choice D (Hypogastric plexuses) is incorrect. The hypogastric plexuses are located on the posterior walls of the pelvic cavity. They mainly convey postsynaptic sympathetic fi bers into the pelvis and presynaptic parasympathetic fi bers out of the pelvis to the abdominal hindgut region. Choice E (Gray matter of sacral spinal cord segments) is incorrect. The gray matter of spinal cord segments S2-4 houses the cell bodies of presynaptic parasympathetic neurons that form the sacral parasympathetic outfl ow.",
+      "keypoints": [
+        "⭐ Lateral femoral cutaneous nerve: Lateral femoral cutaneous nerve. This misguided professor presents with classic signs and symptoms of entrapment of the lateral femoral cutaneous nerve, which passes under the in",
+        "⭐ Femoral branch of the genitofemoral nerve is NOT the answer: The femoral branch of the genitofemoral nerve is formed by the anterior rami of the L1-2 spinal nerves.",
+        "Impingement of the lateral femoral cutaneous nerve is called meralgia paresthetica or bikini brief syndrome and results in abnormal sensations of burning, pain, and numbness in the lateral portion of"
+      ]
+    },
+    {
+      "id": "ch4_q028",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Management",
+      "stem": "A 62-year-old woman undergoes a Nissen fundoplication, in which the fundus of the stomach is completely sutured around the gastroesophageal junction, to treat a severe case of gastroesophageal refl ux disease (GERD). During the procedure, the surgeon accidentally damages the right (posterior) vagal trunk while inserting staples into the stomach. Which of the following organs is most likely affected?",
+      "choices": [
+        "Esophagus",
+        "Urinary bladder",
+        "Descending colon",
+        "Prostate gland",
+        "Second part of the duodenum"
+      ],
+      "answer": 4,
+      "explanation": "Second part of the duodenum. The vagus nerve conveys parasympathetic fi bers to the gut tube and its derivatives as far distally as the left (splenic) fl exure of the transverse colon. The second part of the duodenum is the only listed organ distal to the iatrogenic injury to the stomach but proximal to the left colic fl exure. Thus, this organ would suffer loss of parasympathetic input. Choice A (Esophagus) is incorrect. Damaging the vagal trunk at the stomach would affect organs distal to the stomach but proximal to the left colic fl exure, thus sparing the esophagus. Choice B (Urinary bladder) is incorrect. The urinary bladder is located below the level of supply of the vagus nerves. Therefore, it receives its parasympathetic innervation from nerves derived from sacral spinal cord outfl ow (S2-4) via the pelvic splanchnic nerves. Choice C (Descending colon) is incorrect. The descending colon is located distal to the supply of the vagus nerves. Therefore, it receives its parasympathetic innervation from nerves derived from sacral spinal cord outfl ow (S2-4) via the pelvic splanchnic nerves. Choice D (Prostate gland) is incorrect. The prostate is located below the level of supply of the vagus nerves. It also receives its parasympathetic innervation from the pelvic splanchnic nerves, derived from S2-4.",
+      "keypoints": [
+        "⭐ Second part of the duodenum: Second part of the duodenum. The vagus nerve conveys parasympathetic fi bers to the gut tube and its derivatives as far distally as the left (splenic) fl exure of the transverse colo",
+        "⭐ Esophagus is NOT the answer: Damaging the vagal trunk at the stomach would affect organs distal to the stomach but proximal to the left colic fl exure, thus sparing the esophagus",
+        "The second part of the duodenum is the only listed organ distal to the iatrogenic injury to the stomach but proximal to the left colic fl exure"
+      ]
+    },
+    {
+      "id": "ch4_q029",
+      "tag": "anatomy",
+      "examLevel": "step1",
+      "system": "Anatomy",
+      "contentType": "Management",
+      "stem": "A 65-year-old woman is injured in an automobile accident. Examination indicates she suffers fractures of left ribs 8 to 10 and profuse internal bleeding. Which of the structures indicated in the given CT scan of the abdomen will likely need to be surgically removed?",
+      "choices": [
+        "Liver",
+        "Stomach",
+        "Spleen",
+        "Erector spinae",
+        "Abdominal aorta"
+      ],
+      "answer": 2,
+      "explanation": "Spleen. The spleen is a large, highly vascular lymphatic organ located in the upper left quadrant of the abdomen, behind the stomach and deep to ribs 9 to 11. In its normal state, the spleen (as with the heart) is approximately the size of its owner’s clenched fi st on the handed side (e.g., right hand if right-handed). The spleen is frequently ruptured by fractured ribs or severe blows to the left upper quadrant of the abdomen, resulting in copious internal bleeding. Once ruptured, the spleen is very diffi cult omental foramen. Choice D (Abdominal aorta) is incorrect. The abdominal aorta lies to the left of the IVC. Thus, the aorta lies posterior to the lesser sac but not posterior to the omental foramen. Choice E (Head of the pancreas) is incorrect. The head of the pancreas lies cradled in the C-shaped concavity of the duodenum. The fi rst part of the duodenum forms the inferior boundary of the omental foramen. Thus, the head of the pancreas is situated well below the omental foramen.",
+      "keypoints": [
+        "⭐ Spleen: Spleen. The spleen is a large, highly vascular lymphatic organ located in the upper left quadrant of the abdomen, behind the stomach and deep to ribs 9 to 11. In its normal state",
+        "⭐ Abdominal aorta is NOT the answer: The abdominal aorta lies to the left of the IVC.",
+        "In its normal state, the spleen (as with the heart) is approximately the size of its owner’s clenched fi st on the handed side (e.g., right hand if right-handed)"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch4 q29.png",
+      "imageAlt": "Clinical image for question 29",
+      "imageCaption": "See question 29 stem for description."
+    },
+    {
+      "id": "ch4_q031",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "During a splenectomy, a surgeon carefully dissects the peritoneal ligament containing the splenic vessels at the hilum of the spleen. Which of the following peritoneal ligaments is being dissected by the surgeon?",
+      "choices": [
+        "Hepatoduodenal ligament",
+        "Coronary ligament",
+        "Transverse mesocolon",
+        "Lienorenal ligament",
+        "Gastrolienal ligament"
+      ],
+      "answer": 3,
+      "explanation": "Lienorenal ligament. The lienorenal (splenorenal) ligament is the portion of the greater omentum that connects the hilum of the spleen with the left kidney. It conveys the splenic vessels and also contains the tail of the pancreas. The mesenteries are double layers of peritoneum that support the abdominopelvic viscera and transmit associated neurovascular structures. The splenic artery is the largest branch of the celiac trunk. It weaves along the superior border of the pancreas and enters the splenorenal ligament to reach the spleen. In its course, it gives branches to the pancreas, fundus and greater curvature of the stomach, and greater omentum. Choice A (Hepatoduodenal ligament) is incorrect. The hepatoduodenal ligament is the portion of the lesser omentum that attaches the porta hepatis of the liver to the fi rst part of the duodenum. Its free margin forms the anterior wall of the epiploic foramen and conveys three signifi cant structures: proper hepatic artery, bile duct, and portal vein. Choice B (Coronary ligament) is incorrect. The coronary ligament connects the diaphragmatic surface of the liver to the diaphragm. It defi nes the bare area of the liver but does not transmit any major neurovascular structures. Choice C (Transverse mesocolon) is incorrect. The transverse mesocolon attaches the transverse colon to the posterior abdominal wall. It transmits the middle colic vessels and associated nerves and lymphatics. Choice E (Gastrolienal ligament) is incorrect. The gastrolienal (gastrosplenic) ligament is the portion of the greater omentum that runs from the left part of the greater curvature of the stomach to the hilum of the spleen. It carries the short gastric and the left gastroomental (gastroepiploic) vessels.",
+      "keypoints": [
+        "⭐ Lienorenal ligament: Lienorenal ligament. The lienorenal (splenorenal) ligament is the portion of the greater omentum that connects the hilum of the spleen with the left kidney. It conveys the spleni",
+        "⭐ Hepatoduodenal ligament is NOT the answer: The hepatoduodenal ligament is the portion of the lesser omentum that attaches the porta hepatis of the liver to the fi rst part of the duodenum.",
+        "It conveys the splenic vessels and also contains the tail of the pancreas"
+      ]
+    },
+    {
+      "id": "ch4_q032",
+      "tag": "abdomen",
+      "examLevel": "step1",
+      "system": "Abdomen/Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 52-year-old woman presents with severe upper right quadrant abdominal pain. She is jaundiced, obese, and has a history of gallstones. Further examination indicates acute cholecystitis, and she undergoes an open abdominal cholecystectomy (removal of gall bladder). During the surgery, the doctor inserts her index fi nger into the omental (epiploic) foramen to palpate the structures in the hepatoduodenal ligament. Which of the following structures lies immediately posterior to her fi nger?",
+      "choices": [
+        "Bile duct",
+        "Liver",
+        "Inferior vena cava (IVC)",
+        "Abdominal aorta",
+        "Head of the pancreas"
+      ],
+      "answer": 2,
+      "explanation": "Inferior vena cava (IVC). The omental (epiploic) foramen is the opening lying posterior to the hepatoduodenal ligament (the free edge of the lesser omentum). This passage connects the greater and lesser peritoneal sacs. The posterior boundary of the omental foramen is formed by the IVC and the right crus of the diaphragm, both of which lie retroperitoneally. Thus, pressure exerted posteriorly in the omental foramen can compress the IVC. Choice A (Bile duct) is incorrect. The anterior boundary of the omental foramen is formed by the hepatoduodenal ligament, which contains the bile duct, proper hepatic artery, and portal vein. These structures can be readily palpated and pinched between the index fi nger and the thumb when the index fi nger is inserted into the omental foramen. In Pringle’s maneuver, the hepatoduodenal ligament is intermittently clamped to control hepatic bleeding during liver surgery. Choice B (Liver) is incorrect. The liver forms the superior boundary of the omental foramen. This opening can be located by tracing along the gall bladder until reaching the foramen. However, the gall bladder itself is not a boundary of the cystic artery. The proper hepatic artery supplies the gallbladder, liver, and upper biliary tract. Within the hepatoduodenal ligament, it parallels the bile duct and the portal vein. These three structures, collectively termed the portal triad, are enveloped within the free edge of the lesser omentum, specifi cally its hepatoduodenal component. Choice A (Celiac) is incorrect. The celiac artery (trunk) arises from the abdominal aorta immediately after this artery traverses the diaphragm at the 12th thoracic (T12) vertebral level. The celiac artery supplies blood to the embryonic foregut from approximately the lower esophagus to the second part of the duodenum. While clamping this artery would reduce loss of blood from the cut edge of the cystic artery, this artery does not reside in the free edge of the hepatoduodenal ligament of the lesser omentum. Due to its deep origin from the aorta, compression of this artery is not feasible and would affect many organs, due to its extensive blood supply to the embryonic foregut. Choice B (Splenic) is incorrect. The splenic artery arises off the celiac trunk to supply the body of the pancreas, spleen, and greater curvature and fundic portion of the stomach. The splenic artery does not reside in free edge of the hepatoduodenal ligament of the lesser omentum, and compression of this artery would not limit bleeding from the cystic artery. Choice C (Gastroduodenal) is incorrect. The gastroduodenal artery arises off the common hepatic artery to supply the stomach, head of the pancreas, and fi rst part of the duodenum. The gastroduodenal artery is not located in the hepatoduodenal ligament, and its compression would not control the bleeding of the cystic artery. Choice D (Common hepatic) is incorrect. Branches of the common hepatic artery do supply the gallbladder via the",
+      "keypoints": [
+        "⭐ Inferior vena cava (IVC): Inferior vena cava (IVC). The omental (epiploic) foramen is the opening lying posterior to the hepatoduodenal ligament (the free edge of the lesser omentum). This passage conne",
+        "⭐ Bile duct is NOT the answer: The anterior boundary of the omental foramen is formed by the hepatoduodenal ligament, which contains the bile duct, proper hepatic artery, and portal",
+        "This passage connects the greater and lesser peritoneal sacs"
+      ]
+    },
+    {
+      "id": "ch4_q033",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Management",
+      "stem": "A 58-year-old man with a history of alcoholism arrives at the ER vomiting blood. The given endoscopy reveals esophageal varices, secondary to portal hypertension. Which of the following surgical venous anastomoses could relieve this patient’s symptoms of portal hypertension in the short term?",
+      "choices": [
+        "Inferior mesenteric to superior mesenteric",
+        "Left gastric to splenic",
+        "Superior mesenteric to right renal",
+        "Right gastric to left gastric",
+        "Right testicular to right renal"
+      ],
+      "answer": 2,
+      "explanation": "Superior mesenteric to right renal. To lower venous pressure within the portal system and temporarily alleviate symptoms secondary to portal hypertension, surgical venous anastomoses can connect a large caliber vein within the portal system to a similar vein within the systemic (caval) venous circulation. The portal vein drains blood from the gastrointestinal (GI) tract and the spleen, and it is formed by the union of the superior mesenteric and splenic veins posterior to the neck of the pancreas. A fi gure of the hepatic portal venous system is enclosed. Diseases of the liver, such as liver cirrhosis, can lead to a stenosis of the portal system, causing portal hypertension. Out of the listed choices, the only surgical venous anastomosis suggested which lowers the portal hypertension would be grafting the superior mesenteric vein to the right renal vein, creating an anastomosis between the portal and the systemic venous systems, respectively. Choice A (Inferior mesenteric to superior mesenteric) is incorrect. Surgical venous anastomoses between the inferior mesenteric and superior mesenteric veins, which are both components of the portal system, would not alleviate the signs and symptoms of portal hypertension. The inferior mesenteric vein usually drains into the splenic vein, but it has a common variation in which it drains directly into the superior mesenteric vein. To alleviate portal hypertension, surgical venous anastomoses must connect the portal system to the systemic (or caval) venous circulation. Choice B (Left gastric to splenic) is incorrect. As seen on the given fi gure, surgical venous anastomoses between the left gastric and splenic veins would not alleviate the signs and symptoms of portal hypertension because these veins are components of the portal venous system. To be effective, surgical venous anastomoses must connect the portal system to the systemic (or caval) venous circulation. Choice D (Right gastric to left gastric) is incorrect. As seen on the given fi gure, surgical venous anastomoses between the left gastric and gastric veins would not alleviate the signs and symptoms of portal hypertension because these veins are components of the portal venous system. Surgical venous anastomoses between the portal and systemic venous circulations need to be established. Choice E (Right testicular to right renal) is incorrect. Surgical venous anastomoses between the right testicular and right renal veins would not alleviate the signs and symptoms of portal hypertension because these veins are components of the systemic (caval) venous system. A surgical shunt between these veins would not alleviate the portal hypertension signs and symptoms. The quadratus lumborum lies in the posterior abdominal wall, connecting the 12th rib with the iliac crest. It is a skeletal muscle, innervated by somatic efferent neurons in spinal nerves T12-L3.",
+      "keypoints": [
+        "⭐ Superior mesenteric to right renal: Superior mesenteric to right renal. To lower venous pressure within the portal system and temporarily alleviate symptoms secondary to portal hypertension, surgical venous anastom",
+        "⭐ Inferior mesenteric to superior mesenteric is NOT the answer: Surgical venous anastomoses between the inferior mesenteric and superior mesenteric veins, which are both components of the portal system, would not",
+        "The portal vein drains blood from the gastrointestinal (GI) tract and the spleen, and it is formed by the union of the superior mesenteric and splenic veins posterior to the neck of the pancreas"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch4 q33.png",
+      "imageAlt": "Clinical image for question 33",
+      "imageCaption": "See question 33 stem for description."
+    },
+    {
+      "id": "ch4_q034",
+      "tag": "neuro",
+      "examLevel": "step1",
+      "system": "Neuroscience",
+      "contentType": "Diagnosis",
+      "stem": "An 18-year-old boy is brought to the ER after suffering a gunshot wound to his back. Radiographic imaging reveals extensive damage to the neural arches of the L1 and L2 vertebrae, with bone and bullet fragments lodged in the vertebral canal at these levels. Comprehensive neurologic examination indicates destruction of the sacral segments of the spinal cord. Which of the following functional outcomes is most likely present?",
+      "choices": [
+        "Reduced sweat gland secretion in the abdominal wall",
+        "Decreased motility in the duodenum",
+        "Increased motility in the ileum",
+        "Paralysis of the psoas major muscle",
+        "Relaxation of the teniae coli in the descending colon"
+      ],
+      "answer": 4,
+      "explanation": "Relaxation of the teniae coli in the descending colon. Destruction of the sacral spinal cord will eliminate parasympathetic outfl ow to the hindgut, pelvic organs, and perineum as well as somatic innervation to much of the pelvis and lower limbs. Because it stimulates gut motility and tone, loss of parasympathetic input will result in relaxation and inactivity of the teniae coli in the descending colon. Choice A (Reduced sweat gland secretion in the abdominal wall) is incorrect. Sweat gland secretion is controlled by the sympathetic system, without parasympathetic balance. Sympathetic outfl ow is from the thoracolumbar spinal cord (T1-L2), and it would not be affected by loss of the sacral spinal cord segments. Choice B (Decreased motility in the duodenum) is incorrect. Decreased gut motility may be the result of loss of parasympathetic input. However, the duodenum is innervated by the vagus nerves, not the sacral spinal cord. Choice C (Increased motility in the ileum) is incorrect. Increased gut motility may result from the interruption of sympathetic input. However, the ileum receives its sympathetic input from the thoracolumbar spinal cord (T1-L2/3), not the sacral spinal cord. Choice D (Paralysis of the psoas major muscle) is incorrect. The psoas major is a large muscle in the posterior abdominal wall. It is a skeletal muscle supplied by somatic motor fi bers via spinal nerves L2-3. Thus, the psoas major is not affected by loss of the sacral spinal cord segments.",
+      "keypoints": [
+        "⭐ Relaxation of the teniae coli in the descending colon: Relaxation of the teniae coli in the descending colon. Destruction of the sacral spinal cord will eliminate parasympathetic outfl ow to the hindgut, pelvic organs, and perineum as w",
+        "⭐ Reduced sweat gland secretion in the abdominal wall is NOT the answer: Sweat gland secretion is controlled by the sympathetic system, without parasympathetic balance.",
+        "Because it stimulates gut motility and tone, loss of parasympathetic input will result in relaxation and inactivity of the teniae coli in the descending colon"
+      ]
+    },
+    {
+      "id": "ch4_q035",
+      "tag": "abdomen",
+      "examLevel": "step1",
+      "system": "Abdomen/Gastrointestinal",
+      "contentType": "Management",
+      "stem": "During surgery to remove the gallbladder (cholecystectomy), a surgery resident damages the cystic artery before a clamp is properly placed. The attending physician applies pressure to the free edge of the hepatoduodenal ligament of the lesser omentum to control the bleeding until the damaged artery is clamped and ligated. Which of the following arteries was compressed by the attending physician?",
+      "choices": [
+        "Celiac",
+        "Splenic",
+        "Gastroduodenal",
+        "Common hepatic",
+        "Proper hepatic"
+      ],
+      "answer": 4,
+      "explanation": "Proper hepatic. The proper hepatic artery travels within the free edge of the hepatoduodenal ligament of the lesser omentum. Compression of this artery by an astute surgeon would reduce blood loss from the cut surface of the Inferior vena cava Stomach Spleen Pancreas Descending colon Inferior mesenteric vein Small intestine Splenic vein Hepatic veins Liver Hepatic portal vein Superior mesenteric vein Ascending colon embryonic hindgut. It is not related to the primary intestinal loop or the physiologic umbilical herniation. Choice B (Stomach) is incorrect. The stomach is derived from the embryonic foregut. It is not related to the primary intestinal loop or the physiologic umbilical herniation. However, the stomach does undergo an important developmental rotation of 90 degrees clockwise about its longitudinal axis. This rotation affects the entire foregut and accounts for the placement of all its derived organs. Choice C (Spleen) is incorrect. The spleen is a lymphoid organ, which is not derived from any part of the gut tube. However, it is closely related to the foregut and is infl uenced by its rotation. Choice D (Fourth part of the duodenum) is incorrect. The duodenum is divided into four parts: superior (fi rst) part, descending (second) part, horizontal (third) part, and ascending (fourth) part. The fi rst two (upper or proximal) parts of the duodenum are derived from the foregut. The third and fourth (lower or distal) parts of the duodenum are derived from the midgut. The lower duodenum is derived from the cranial limb of the primary intestinal loop but is not affected by disorders of the caudal limb.",
+      "keypoints": [
+        "⭐ Proper hepatic: Proper hepatic. The proper hepatic artery travels within the free edge of the hepatoduodenal ligament of the lesser omentum. Compression of this artery by an astute surgeon would r",
+        "⭐ Stomach is NOT the answer: The stomach is derived from the embryonic foregut.",
+        "Compression of this artery by an astute surgeon would reduce blood loss from the cut surface of the Inferior vena cava Stomach Spleen Pancreas Descending colon Inferior mesenteric vein Small intestine"
+      ]
+    },
+    {
+      "id": "ch4_q036",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "An axial CT of a 52-year-old man reveals a cancerous lesion in the middle aspect of the transverse colon compressing the lumen of the otherwise radiolucent colon. Based upon the location of the tumor, which of the following lymph node groups would fi rst receive metastasizing cells from this cancerous lesion?",
+      "choices": [
+        "Ileocolic",
+        "Superior mesenteric",
+        "Celiac",
+        "Internal iliac",
+        "Inferior mesenteric"
+      ],
+      "answer": 1,
+      "explanation": "Superior mesenteric. Cancer cells from a lesion within the middle aspect of the transverse colon would likely metastasize in the superior mesenteric lymph nodes in advanced cancer staging. The superior mesenteric lymph nodes lie in the mesentery along the superior mesenteric artery and receive lymphatic drainage from the embryonic midgut. Because most lymphatic vessels supplying abdominal viscera follow arteries retrograde, lymph from the middle portion of the transverse colon, which receives arterial blood from the middle colic artery off the superior mesenteric artery, travels to the superior mesenteric nodes after traversing paracolic and middle colic lymph nodes. Therefore, cancer cells from a lesion of the middle aspect of the transverse colon may metastasize to the superior mesenteric nodes. Remember, when considering spread of cancer with abdominal visceral organs, it is crucial to remember the arterial supply of the organ in question. Choice A (Ileocolic) is incorrect. The ileocolic lymph nodes receive lymphatic drainage from the ascending colon and distal portion of the ileum of the small intestine and carry lymph to the superior mesenteric lymph nodes. Because these lymph nodes do not receive lymph from the middle aspect of the transverse colon, the ileocolic lymph nodes are not involved. Choice C (Celiac) is incorrect. The celiac lymph nodes are located along the celiac artery (trunk) and receive lymphatic drainage from the embryonic foregut, including the stomach, proximal duodenum, pancreas, spleen, gall bladder, and biliary tract. Because this cancerous lesion is located in a derivative of the embryonic midgut, the celiac lymph nodes are not involved. Choice D (Internal iliac) is incorrect. The internal iliac lymph nodes, which are located along the internal iliac artery and its branches, receive lymphatic drainage from the pelvic viscera, gluteal region, and deep parts of the perineum. Therefore, the internal iliac lymph nodes are not involved with the spread of cancer originating in the transverse colon. Choice E (Inferior mesenteric) is incorrect. The inferior mesenteric lymph nodes, which are located along the inferior mesenteric artery, receive lymphatic drainage from the descending colon, sigmoid colon, and superior aspect of the rectum. Therefore, the inferior mesenteric lymph nodes are not involved with the spread of cancer originating in the transverse colon.",
+      "keypoints": [
+        "⭐ Superior mesenteric: Superior mesenteric. Cancer cells from a lesion within the middle aspect of the transverse colon would likely metastasize in the superior mesenteric lymph nodes in advanced cancer",
+        "⭐ Ileocolic is NOT the answer: The ileocolic lymph nodes receive lymphatic drainage from the ascending colon and distal portion of the ileum of the small intestine and carry lymph t",
+        "The superior mesenteric lymph nodes lie in the mesentery along the superior mesenteric artery and receive lymphatic drainage from the embryonic midgut"
+      ]
+    },
+    {
+      "id": "ch4_q037",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Which of the following organs may be directly affected by malrotation of the caudal limb of the primary intestinal loop?",
+      "choices": [
+        "Descending colon",
+        "Stomach",
+        "Spleen",
+        "Fourth part of the duodenum",
+        "Ascending colon"
+      ],
+      "answer": 4,
+      "explanation": "Ascending colon. The primary intestinal loop is the highly elongated, U-shaped embryonic midgut. The limbs of the “U” form cranial and caudal limbs in the midgut, with the vitelline duct residing at the apical bend. The caudal limb ultimately forms the lower (distal) ileum, cecum, appendix, ascending colon, and proximal 2/3 of the transverse colon. The cranial limb gives rise to the distal duodenum, jejunum, and upper (proximal) ileum. During its development, the primary intestinal loop undergoes a normal physiologic umbilical herniation through the umbilicus and into the extraembryonic coelom. As it returns to the fetal abdominal cavity, the loop rotates 270 degrees counterclockwise around the superior mesenteric artery and differentiates into its specifi c organ derivatives, which take their positions in the abdomen. Thus, malrotation of the reducing physiologic umbilical herniation can affect the proper formation and/or position of components of the midgut. Choice A (Descending colon) is incorrect. The descending colon is derived from the peritoneal cavity is through the epiploic (omental) foramen. Choice A (Supracolic part of greater peritoneal sac) is incorrect. The supracolic part of greater peritoneal sac is located above the transverse mesocolon. Digestive enzymes emanating from a lacerated pancreas would only reach this space if the fl uids traveled through the epiploic foramen. Remember, these fl uids initially spill into the omental bursa. Choice B (Infracolic part of greater peritoneal sac) is incorrect. The infracolic part of greater peritoneal sac is located below the transverse mesocolon. Digestive enzymes emanating from a lacerated pancreas could only reach this space if the fl uids traveled inferiorly via the right paracolic gutter to reach this lower aspect of the peritoneal cavity. However, these pancreatic enzymes would initially spill into the omental bursa. Choice C (Subhepatic space) is incorrect. The subhepatic space is a recess in the supracolic part of the greater peritoneal sac located between the visceral surface of the liver and the transverse colon. Digestive enzymes emanating from the anterior pancreas initially spill into the omental bursa. Choice E (Subphrenic space) is incorrect. The subphrenic space is a recess located in the anterior part of the liver and the diaphragm. Therefore, it is a component of the supracolic part of the greater peritoneal sac. Due to the superior location of the damaged organ, the subphrenic space is not a likely location to fi nd the emitted pancreatic enzymes.",
+      "keypoints": [
+        "⭐ Ascending colon: Ascending colon. The primary intestinal loop is the highly elongated, U-shaped embryonic midgut. The limbs of the “U” form cranial and caudal limbs in the midgut, with the vitellin",
+        "⭐ Descending colon is NOT the answer: The descending colon is derived from the peritoneal cavity is through the epiploic (omental) foramen.",
+        "The limbs of the “U” form cranial and caudal limbs in the midgut, with the vitelline duct residing at the apical bend"
+      ]
+    },
+    {
+      "id": "ch4_q038",
+      "tag": "anatomy",
+      "examLevel": "step1",
+      "system": "Anatomy",
+      "contentType": "Anatomy",
+      "stem": "Which of the following structures is indicated with the letter “X” in this coronal CT?",
+      "choices": [
+        "Right kidney",
+        "Liver",
+        "Stomach",
+        "Spleen",
+        "Psoas major"
+      ],
+      "answer": 0,
+      "explanation": "Right kidney. The image is a coronal CT scan of the abdomen and pelvis. The kidneys lie retroperitoneally, against the posterior abdominal wall, extending from approximately vertebrae T12-L3. The right kidney is normally slightly lower than the left due to the superior position of the large liver. Choice B (Liver) is incorrect. The liver is the largest visceral organ. It is located mainly in the upper right quadrant of the abdomen, under the right dome of the diaphragm, underlying ribs 7 to 11. Choice C (Stomach) is incorrect. The stomach is very mobile and distensible. Its base position is in the left upper quadrant of the abdomen, under the left dome of the diaphragm. However, it typically extends into the right upper quadrant. Choice D (Spleen) is incorrect. The spleen is a large, highly vascular lymphoid organ. It is located deep to ribs 9 to 11 in the upper left quadrant of the abdomen, or lateral and posterior to the stomach. Choice E (Psoas major) is incorrect. The psoas major muscle lies against the posterior abdominal wall and runs from its origin at vertebrae T12-L5 to insert into the lesser trochanter of the femur. Together with the iliacus muscle, it forms the iliopsoas, the major fl exor of the hip. This muscle is also important in fl exing the trunk against the lower limb. cystic artery. However, this artery is not located in the free edge of the hepatoduodenal ligament of the lesser omentum, so it was not the artery compressed by the attending surgeon.",
+      "keypoints": [
+        "⭐ Right kidney: Right kidney. The image is a coronal CT scan of the abdomen and pelvis. The kidneys lie retroperitoneally, against the posterior abdominal wall, extending from approximately vert",
+        "⭐ Liver is NOT the answer: The liver is the largest visceral organ.",
+        "The kidneys lie retroperitoneally, against the posterior abdominal wall, extending from approximately vertebrae T12-L3"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch4 q38.png",
+      "imageAlt": "Clinical image for question 38",
+      "imageCaption": "See question 38 stem for description."
+    },
+    {
+      "id": "ch4_q039",
+      "tag": "neuro",
+      "examLevel": "step1",
+      "system": "Neuroscience",
+      "contentType": "Anatomy",
+      "stem": "During a physical examination of a 35-year-old man with a spinal cord injury, the neurologist lightly strokes the right upper medial side of the thigh to test the integrity of the L1-2 spinal cord segments. He notes the cremasteric refl ex is absent. Which of the following nerves carries the efferent limb of this refl ex arc?",
+      "choices": [
+        "Iliohypogastric",
+        "Genital branch of the genitofemoral",
+        "Femoral branch of the genitofemoral",
+        "Femoral",
+        "Ilioinguinal"
+      ],
+      "answer": 1,
+      "explanation": "Genital branch of the genitofemoral. The genitofemoral nerve is a branch of the lumbar plexus, arising from the anterior rami of the L1-2 spinal nerves. Its genital branch runs through the inguinal canal within the spermatic cord to innervate the cremaster muscle and lateral aspect of the scrotum (or labium majus in women). The cremaster muscle is a thin layer of skeletal muscle surrounding the spermatic cord, which is derived from the internal abdominal oblique muscle. The cremaster contracts in response to cold temperature and cutaneous stimuli to raise the testicle upward, closer to the superfi cial inguinal ring. Choice A (Iliohypogastric) is incorrect. The iliohypogastric nerve originates from the lumbar plexus (L1). It supplies the internal oblique and transversus abdominis muscles in the anterolateral abdominal wall, and it has a cutaneous territory in the suprapubic (hypogastric) region of the anterior abdominal wall. Choice C (Femoral branch of the genitofemoral) is incorrect. The femoral branch of the genitofemoral nerve is formed by the anterior rami of the L1-2 spinal nerves. This nerve supplies the upper medial aspects of the thigh and the skin overlying the femoral triangle. Choice D (Femoral) is incorrect. The femoral nerve is a large branch of the lumbar plexus arising from the anterior rami of the L2-4 spinal nerves. It has extensive motor and cutaneous territories in the thigh and leg, but it is not responsible for the efferent limb of the cremasteric refl ex. Choice E (Ilioinguinal) is incorrect. This nerve arises from the lumbar plexus from the anterior ramus of the L1 spinal nerve. It is the main route for the afferent limb of the cremasteric refl ex. Its cutaneous territory is the upper medial thigh and anterior scrotum/labium majus.",
+      "keypoints": [
+        "⭐ Genital branch of the genitofemoral: Genital branch of the genitofemoral. The genitofemoral nerve is a branch of the lumbar plexus, arising from the anterior rami of the L1-2 spinal nerves. Its genital branch runs thr",
+        "⭐ Iliohypogastric is NOT the answer: The iliohypogastric nerve originates from the lumbar plexus (L1).",
+        "Its genital branch runs through the inguinal canal within the spermatic cord to innervate the cremaster muscle and lateral aspect of the scrotum (or labium majus in women)"
+      ]
+    },
+    {
+      "id": "ch4_q040",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Management",
+      "stem": "The given contrast radiograph of the small intestine shows a barium-fi lled diverticulum of the ileum identifi ed by the white arrow. Branches of what artery will need to be ligated during surgical removal of this diverticulum?",
+      "choices": [
+        "Celiac",
+        "Renal",
+        "Superior mesenteric",
+        "Inferior mesenteric",
+        "Umbilical"
+      ],
+      "answer": 2,
+      "explanation": "Superior mesenteric. The superior mesenteric artery supplies the embryological midgut from the second part of the duodenum to the distal one third of the transverse colon. Branches of this artery, specifi cally ileal branches, need to be ligated before surgical repair of this diverticulum occurs. The ileal (Meckel) diverticulum depicted in this contrast radiograph is a true congenital diverticulum that is a vestigial remnant of the vitelline duct located in the distal ileum. Choice A (Celiac) is incorrect. The celiac artery supplies the embryological foregut from the distal portion of the esophagus to the second part of the duodenum. This artery does not supply blood to the distal ileum. Choice B (Renal) is incorrect. The renal arteries supply blood to the kidneys, the inferior aspects of the adrenal glands, and the proximal part of the ureters. Ligating this artery does not prevent bleeding of the distal ileum. Choice D (Inferior mesenteric) is incorrect. The inferior mesenteric artery supplies the embryological hindgut from the distal 1/3 of the transverse colon to the superior aspect of the rectum. Ligating this artery does not prevent bleeding in the distal ileum. Choice E (Umbilical) is incorrect. The umbilical arteries are usually not patent in adults and do not supply blood to the distal ileum.",
+      "keypoints": [
+        "⭐ Superior mesenteric: Superior mesenteric. The superior mesenteric artery supplies the embryological midgut from the second part of the duodenum to the distal one third of the transverse colon. Branch",
+        "⭐ Celiac is NOT the answer: The celiac artery supplies the embryological foregut from the distal portion of the esophagus to the second part of the duodenum.",
+        "Branches of this artery, specifi cally ileal branches, need to be ligated before surgical repair of this diverticulum occurs"
+      ]
+    },
+    {
+      "id": "ch4_q041",
+      "tag": "abdomen",
+      "examLevel": "step1",
+      "system": "Abdomen/Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The anterior abdominal wall of a 21-year-old woman impacts the steering wheel during a head-on car collision. The blunt trauma resulted in a lacerated pancreas with digestive enzyme spilling anterior. Which of the following locations would initially receive the contents of the lacerated pancreas?",
+      "choices": [
+        "Supracolic part of greater peritoneal sac",
+        "Infracolic part of greater peritoneal sac",
+        "Subhepatic space",
+        "Omental bursa",
+        "Subphrenic space"
+      ],
+      "answer": 3,
+      "explanation": "Omental bursa. The omental bursa (or lesser peritoneal sac) is an isolated part of the peritoneal cavity, which lies posterior to the stomach and anterior to the pancreas. Because of its location, the omental bursa would receive digestive enzymes emanating from the lacerated section of the anterior pancreas. The only connection between the omental bursa and the remaining aspects of the",
+      "keypoints": [
+        "⭐ Omental bursa: Omental bursa. The omental bursa (or lesser peritoneal sac) is an isolated part of the peritoneal cavity, which lies posterior to the stomach and anterior to the pancreas. Because",
+        "Because of its location, the omental bursa would receive digestive enzymes emanating from the lacerated section of the anterior pancreas",
+        "Ch4 – The anterior abdominal wall of a 21-year-old woman impacts the steering wheel during a head-on car c"
+      ]
+    },
+    {
+      "id": "ch4_q042",
+      "tag": "abdomen",
+      "examLevel": "step1",
+      "system": "Abdomen/Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The given photo shows a large left bulge in the inguinal canal and a swelling of the left scrotum in a newborn male. Ultrasound examination reveals a portion of the small intestine within the scrotal swelling. What is the deepest layer of the abdominal wall involved with this herniated bowel?",
+      "choices": [
+        "Transverse abdominal muscle",
+        "External oblique muscle",
+        "Internal oblique muscle",
+        "Rectus abdominis muscle",
+        "Transversalis fascia"
+      ],
+      "answer": 4,
+      "explanation": "Transversalis fascia. The herniated small bowel would be covered by internal spermatic fascia, which is derived from the transversalis fascia of the abdominal wall. Therefore, the transversalis fascia is the deepest layer of the abdominal wall involved with this hernia. This baby boy presents with a congenital indirect inguinal hernia in which contents of the abdominal cavity, specifi cally the small intestine, herniate through a patent processus vaginalis to reside in the scrotum (see fi gure). The herniated bowel traverses the deep and superfi cial inguinal rings of the inguinal canal. Choice A (Transverse abdominal muscle) is incorrect. The transverse abdominal muscle is the deepest (of three) muscle of the anterolateral abdominal wall. Due to its position, the transverse abdominal muscle does not contribute a layer to the inguinal canal. Choice B (External oblique muscle) is incorrect. The external oblique muscle is the most superfi cial (of three) muscle of the anterolateral abdominal wall. As the testis descends into the scrotum, a derivative of this muscle called the external spermatic fascia forms a fascial layer of the spermatic cord. Due to its superfi cial location, the external oblique muscle is not the deepest layer of the abdominal wall associated with the herniated bowel. Choice C (Internal oblique muscle) is incorrect. The internal oblique muscle is the second (of three) muscle of the anterolateral abdominal wall. As the testicle descends into the scrotum, a derivative of this muscle called the cremasteric (or middle spermatic) fascia forms a fascial layer of the spermatic cord. Due to its intermediate location, the internal oblique muscle is not the deepest layer of the abdominal wall associated with the herniated bowel. Choice D (Rectus abdominis muscle) is incorrect. The rectus abdominis muscle is located within the rectus sheath, which is not associated with the inguinal canal. Therefore, this muscle does not contribute a derivative that would be involved with the herniated bowel.",
+      "keypoints": [
+        "⭐ Transversalis fascia: Transversalis fascia. The herniated small bowel would be covered by internal spermatic fascia, which is derived from the transversalis fascia of the abdominal wall. Therefore, the",
+        "⭐ Transverse abdominal muscle is NOT the answer: The transverse abdominal muscle is the deepest (of three) muscle of the anterolateral abdominal wall.",
+        "Therefore, the transversalis fascia is the deepest layer of the abdominal wall involved with this hernia"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch4 q42.png",
+      "imageAlt": "Clinical image for question 42",
+      "imageCaption": "See question 42 stem for description."
+    },
+    {
+      "id": "ch4_q043",
+      "tag": "abdomen",
+      "examLevel": "step1",
+      "system": "Abdomen/Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 55-year-old woman develops a hiatal hernia in which the fundus of the stomach protrudes through the esophageal hiatus of the diaphragm into the thorax. Which of the following structures is/are at greatest risk of injury during surgical repair of this hernia?",
+      "choices": [
+        "Thoracic duct",
+        "Azygos vein",
+        "Vagus nerves",
+        "Sympathetic chains",
+        "Superior epigastric vessels ANSWERS AND DISCUSSION"
+      ],
+      "answer": 2,
+      "explanation": "Vagus nerves. The vagus nerves are intimately wrapped around the esophagus and onto the stomach as they follow the gut tube into the abdomen. These nerves must be given close attention and care during repairs of the esophageal hiatus. Choice A (Thoracic duct) is incorrect. The thoracic duct passes through the aortic hiatus of the diaphragm, along the anterior aspect of the vertebral column, in its course from the abdomen into the thorax. Choice B (Azygos vein) is incorrect. The azygos vein passes through the aortic hiatus of the diaphragm, next to the thoracic duct, in its course from the abdomen into the thorax. Choice D (Sympathetic chains) is incorrect. The sympathetic chains pass behind the medial arcuate ligaments of the diaphragm, on the anterior surfaces of the psoas major muscles. Choice E (Superior epigastric vessels) is incorrect. The superior epigastric vessels pass through the sternocostal hiatus, at the anterior aspect of the diaphragm, in descending from the thorax into the abdomen. Skin Dartos muscle External spermatic fascia Cremaster muscle Internal spermatic fascia Internal oblique muscle External oblique muscle Transversus abdominis muscle Transversalis fascia Peritoneum Extraperitoneal tissue Inferior epigastric artery and vein Rectus abdominis muscle Tunica vaginalis (parietal layer) Coverings of the cord Rectus abdominis muscle Tunica vaginal (parietal layer) A B",
+      "keypoints": [
+        "⭐ Vagus nerves: Vagus nerves. The vagus nerves are intimately wrapped around the esophagus and onto the stomach as they follow the gut tube into the abdomen. These nerves must be given close atten",
+        "⭐ Azygos vein is NOT the answer: The azygos vein passes through the aortic hiatus of the diaphragm, next to the thoracic duct, in its course from the abdomen into the thorax.",
+        "These nerves must be given close attention and care during repairs of the esophageal hiatus"
+      ]
+    },
+    {
+      "id": "ch5_q006",
+      "tag": "repro",
+      "examLevel": "step1",
+      "system": "Reproductive/Urinary",
+      "contentType": "Diagnosis",
+      "stem": "A 24-year-old man comes to his family physician with an irregular scrotal swelling on his left, as seen in the given photo. He reports aching pain within the scrotum and a feeling of heaviness in his left testis. During the physical examination, the physician reports that the scrotal mass feels like a bag of worms. What is the most likely diagnosis?",
+      "choices": [
+        "Hydrocele",
+        "Varicocele",
+        "Testicular cancer",
+        "Indirect inguinal hernia",
+        "Spermatocele"
+      ],
+      "answer": 1,
+      "explanation": "Varicocele. A varicocele is an abnormal dilation of the pampiniform plexus of veins, which travels within the spermatic cord. This scrotal mass often resembles and feels like a “bag of worms” on physical examination, as seen in the photo. Idiopathic varicocele is usually caused by defective one-way valves within the pampiniform plexus, which cause dilatation of these veins near the testis. However, a secondary varicocele will be seen following compression of the venous drainage of the testis due to the presence of a pelvic or abdominal malignancy, and this possibility must be ruled out by the physician. Varicoceles are found in the left side in approximately 98% of cases, can develop in 15% to 20% of all males, and are most frequently diagnosed between 15 and 25 years of age. Choice A (Hydrocele) is incorrect. A hydrocele testis is a pathological accumulation of serous fl uids within the spermatic cord due to serous secretions from a remnant piece of peritoneum, termed the tunica vaginalis. Patients with a hydrocele testis present with a painless swollen testis that feels like a water balloon, which may be corrected via drainage with a needle (aspiration) or surgery. To identify a hydrocele, a diagnostic technique called transillumination (shining a light through the enlarged portion of the scrotum) can be implemented. If the scrotum is full of clear fl uid, the scrotum will light up. A hydrocele testis is not likely in this patient due to the irregular nature of the scrotal mass seen within the photo. Choice C (Testicular cancer) is incorrect. Testicular cancer presents with a lump on or hardening of the testis leading to unilateral enlargement of the affected testis, abnormal sensitivity within the testes, dull pain within the lower back, abdomen, or groin, loss of libido, and general weakness and tiredness. The extent of the scrotal mass and its irregular nature make the diagnosis of testicular cancer unlikely. If testicular cancer were present, it would not grow to this size without the patient noticing its presence. Moreover, the cardinal sign for testicular cancer is unilateral enlargement of the testis; however, in a varicocele, the testis is usually smaller on the affected side. Choice D (Indirect inguinal hernia) is incorrect. An indirect inguinal hernia is usually a congenital hernia that results when abdominal cavity contents herniate through a patent processus vaginalis, or in an adult, travel through the inguinal canal. The hernia traverses the deep and superfi cial inguinal functional units in the kidney). Choice A (Proximal convoluted tubules) is incorrect. The metanephric mesoderm forms the nephrons in the kidney, including Bowman capsule, the proximal convoluted tubule, loop of Henle, and distal convoluted tubule. Nephrons are formed throughout prenatal development. Choice B (Renal glomeruli) is incorrect. Renal glomeruli are small capillary bundles that form in association with Bowman capsule. They are not derived from either the ureteric bud or the metanephric mesoderm. Choice C (Urinary bladder) is incorrect. The urinary bladder is derived from the cloaca. The cloaca divides into a urogenital sinus and an anal canal, which are located anterior and posterior, respectively. The urogenital sinus subsequently differentiates into the urinary bladder and urethra. Choice D (Uterine tube) is incorrect. The uterine tube is formed from the paramesonephric duct. More caudally, the paired paramesonephric ducts join together to form the uterus, cervix, and cranial third of the vagina.",
+      "keypoints": [
+        "⭐ Varicocele: Varicocele. A varicocele is an abnormal dilation of the pampiniform plexus of veins, which travels within the spermatic cord. This scrotal mass often resembles and feels like a “",
+        "⭐ Hydrocele is NOT the answer: A hydrocele testis is a pathological accumulation of serous fl uids within the spermatic cord due to serous secretions from a remnant piece of peritone",
+        "This scrotal mass often resembles and feels like a “bag of worms” on physical examination, as seen in the photo"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch5 q6.png",
+      "imageAlt": "Clinical image for question 6",
+      "imageCaption": "See question 6 stem for description."
+    },
+    {
+      "id": "ch5_q010",
+      "tag": "neuro",
+      "examLevel": "step1",
+      "system": "Neuroscience",
+      "contentType": "Anatomy",
+      "stem": "A 25-year-old woman suffers a severe back injury in an automobile accident. Thorough examination in the ER reveals a fracture dislocation of T12 on L1 with a complete spinal cord transection that severes the sacral segments of the spinal cord, as noted by the black arrow on the given MRI. This patient will likely experience which of the following outcomes?",
+      "choices": [
+        "Loss of voluntary control of defecation",
+        "Intact ability to achieve erection of the clitoris",
+        "Intact voluntary control of micturition",
+        "Loss of ovulation",
+        "Loss of sensation in the skin overlying the urinary bladder"
+      ],
+      "answer": 0,
+      "explanation": "Loss of voluntary control of defecation. The sacral part of the spinal cord (segments S2-4) gives rise to the pudendal nerve. This nerve leaves the pelvic cavity and passes into the perineum, where it has a wide distribution. The fi rst major branch of the pudendal nerve is the inferior anal (rectal) nerve to the inferior end of the anal canal, external anal sphincter, and perianal skin. The external anal sphincter is the voluntary anal sphincter, controlled by somatic motor fi bers. It acts to constrict the end of the anal canal, resisting defecation. Thus, loss of the sacral segments of the spinal cord results in loss of voluntary control of defecation, as well as loss of sensation in the anal canal inferior to the pectinate line and in the perianal skin. Involuntary control of defecation is governed by the internal anal sphincter, a thickening of the circular smooth muscle layer in the wall of the upper part of the anal canal, which is controlled by autonomic (visceral motor) fi bers. Choice B (Intact ability to achieve erection of the clitoris) is incorrect. Erection of the clitoris (and penis) is controlled by parasympathetic outfl ow from the sacral segments of the spinal cord (S2-4). Thus, destruction of the sacral cord results in loss of erection rather than intact control. Choice C (Intact voluntary control of micturition) is incorrect. The pudendal nerve also controls the external sphincter muscle of the urethra, which is the voluntary sphincter that regulates urination (micturition), via its perineal branches. Thus, loss of the sacral spinal cord segments will cause loss of voluntary control of urination rather than intact voluntary control. Choice D (Loss of ovulation) is incorrect. Ovulation is not controlled by direct neural input. Thus, loss of the sacral spinal cord will not affect ovulation. Choice E (Loss of sensation in the skin overlying the urinary bladder) is incorrect. The skin overlying the urinary bladder is that of the pubic (suprapubic; hypogastric) region of the lower abdominal wall. Cutaneous sensation here is conveyed by the ilioinguinal and iliohypogastric nerves, both branches of the fi rst lumbar segment of the spinal cord. Because only the sacral segments of the spinal cord were destroyed by the transection of the spinal cord, this sensation in the pubic region of the lower abdominal wall would remain intact. Remember, the medullary cone (conus medullaris) of the spinal cord typically lies within the T12-L3 vertebral levels, so only the sacral segments of the spinal cord were destroyed in this injury. viscera. Moreover, femoral hernias are more susceptible to strangulation, wherein the blood supply to the herniated viscera can be interrupted due to the sharp boundaries of the femoral ring, particularly the lacunar ligament. Strangulation can lead to ischemia, sharp pain, and necrosis of the impinged tissue. However, a patient with a femoral hernia would not present with sharp cutting pain in the medial aspect of the thigh or a positive Howship-Romberg sign (exacerbation of this pain after extending and medially rotating the thigh at the hip joint).",
+      "keypoints": [
+        "⭐ Loss of voluntary control of defecation: Loss of voluntary control of defecation. The sacral part of the spinal cord (segments S2-4) gives rise to the pudendal nerve. This nerve leaves the pelvic cavity and passes into th",
+        "⭐ Intact ability to achieve erection of the clitoris is NOT the answer: Erection of the clitoris (and penis) is controlled by parasympathetic outfl ow from the sacral segments of the spinal cord (S2-4).",
+        "This nerve leaves the pelvic cavity and passes into the perineum, where it has a wide distribution"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch5 q10.png",
+      "imageAlt": "Clinical image for question 10",
+      "imageCaption": "See question 10 stem for description."
+    },
+    {
+      "id": "ch5_q011",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 20-year-old woman delivers a stillborn infant with bilateral agenesis of the kidneys. During the later stages of pregnancy, the fetus likely also had which of the following conditions?",
+      "choices": [
+        "Polyhydramnios",
+        "Oligohydramnios",
+        "Renal hypoplasia",
+        "Pelvic kidneys",
+        "Polycystic kidneys"
+      ],
+      "answer": 1,
+      "explanation": "Oligohydramnios. Oligohydramnios is a diminution in the volume of amniotic fl uid as a result of the fetus’ failure to excrete urine into the amniotic sac, for example, as resulting from renal agenesis or urethral obstruction. Renal agenesis occurs when the ureteric bud fails to develop, thus preventing formation of the kidney. Normally, the fetus produces urine and excretes it into the amniotic cavity, where it mixes with the amniotic fl uid. The fetus drinks amniotic fl uid, which is absorbed into the bloodstream, fi ltered at the placenta, and excreted by the fetus. Thus, the prenatal kidneys are not necessary for waste exchange but are important in regulating the volume of amniotic fl uid. In renal agenesis (no kidneys), urine is not produced and not secreted, thus reducing the volume of fl uid in the amniotic sac (oligohydramnios). The given obstetric sonographic image, an ultrasound-based diagnostic imaging technique, depicts severe oligohydramnios associated with bilateral renal agenesis. In this image, the spine (Sp) of the infant is noted, and the shadow, which is highlighted by the black arrowheads, corresponds to the adrenal gland. The kidneys are absent. Bilateral renal agenesis is relatively rare, with a usual ultimate outcome of stillbirth or death soon after birth. Unilateral renal agenesis is relatively more common, often asymptomatic, and compatible with life, as the remaining kidney typically hypertrophies and produces an appropriate volume of urine. Choice A (Polyhydramnios) is incorrect. Polyhydramnios is an increased volume of amniotic fl uid in the amniotic sac. In this case, the kidneys are normal, and urine is produced and excreted into the amniotic sac. However, obstruction (atresia) of the gut tube prevents the fetus from drinking and/or absorbing that fl uid, resulting in accumulation of greater volume of fl uid in the amniotic sac. Choice C (Renal hypoplasia) is incorrect. Renal hypoplasia is a condition of abnormally small kidneys. In renal agenesis, the kidneys are not formed. Choice D (Pelvic kidneys) is incorrect. In the case of pelvic kidneys, the kidneys are formed; however, one or both fail to ascend from their origination point in the pelvis. Thus, they are ectopic, located in the pelvis or lower lumbar region, and fully functional. Choice E (Polycystic kidneys) is incorrect. Here, the kidneys are formed. However, the collecting ducts and tubules are dilated, forming multiple, large fl uidfi lled cysts within the kidney parenchyma.",
+      "keypoints": [
+        "⭐ Oligohydramnios: Oligohydramnios. Oligohydramnios is a diminution in the volume of amniotic fl uid as a result of the fetus’ failure to excrete urine into the amniotic sac, for example, as resulting",
+        "⭐ Polyhydramnios is NOT the answer: Polyhydramnios is an increased volume of amniotic fl uid in the amniotic sac.",
+        "Renal agenesis occurs when the ureteric bud fails to develop, thus preventing formation of the kidney"
+      ]
+    },
+    {
+      "id": "ch5_q012",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The given pelvic CT scan of a 65-year-old man who has been suffering from colon cancer reveals recurrent perirectal masses, indicated by the white arrows, which compress the pelvic splanchnic nerves. Damage to these nerves could affect the organs supplied by which of the following arteries?",
+      "choices": [
+        "Right colic artery",
+        "Left colic artery",
+        "Renal arteries",
+        "Testicular arteries",
+        "Lumbar arteries"
+      ],
+      "answer": 1,
+      "explanation": "Left colic artery. The pelvic splanchnic nerves provide the sacral parasympathetic outfl ow that supplies the gut tube below the left colic fl exure, the pelvic viscera, and the perineum. Part of the distribution route for the parasympathetic nerves to the descending colon, sigmoid colon, of the metanephric cap that forms the kidney parenchyma and the nephrons (i.e., the excretory units in the kidney).",
+      "keypoints": [
+        "⭐ Left colic artery: Left colic artery. The pelvic splanchnic nerves provide the sacral parasympathetic outfl ow that supplies the gut tube below the left colic fl exure, the pelvic viscera, and the pe",
+        "Part of the distribution route for the parasympathetic nerves to the descending colon, sigmoid colon, of the metanephric cap that forms the kidney parenchyma and the nephrons (i.e., the excretory un",
+        "Ch5 – The given pelvic CT scan of a 65-year-old man who has been suffering from colon cancer reveals recur"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch5 q12.png",
+      "imageAlt": "Clinical image for question 12",
+      "imageCaption": "See question 12 stem for description."
+    },
+    {
+      "id": "ch5_q013",
+      "tag": "repro",
+      "examLevel": "step1",
+      "system": "Reproductive/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A male infant is born with undescended testes that remain intra-abdominal 5 months later (cryptorchidism). Each testis possesses an elongate, distinctive gubernaculum testis running into the scrotum. Which of the following structures in female anatomy is homologous to the gubernaculum testis?",
+      "choices": [
+        "Uterine tube",
+        "Ureter",
+        "Labium minus",
+        "Round ligament of the uterus",
+        "Vestibular bulb"
+      ],
+      "answer": 3,
+      "explanation": "Round ligament of the uterus. Both the round ligament of the uterus and the ovarian ligament are the homologues of the gubernaculum testis. In males, the testes descend along a path formed by the caudal genital ligament and gubernaculum testis. In females, the same structures guide the ovaries in their descent. However, the upward growth of the reproductive tract and different hormonal infl uences disrupt full ovarian descent. When the ovaries settle into their fi nal position in the lateral aspect of the true pelvis, the remnants of the caudal genital ligament and gubernaculum are retained as the ovarian ligament and round ligament of the uterus. The round ligament extends through the inguinal canal and into the labium majus, marking what would be the full descent pathway in males. Choice A (Uterine tube) is incorrect. The uterine tubes (and uterus, cervix, and superior third of the vagina) are derived from the embryonic paramesonephric ducts. In males, the paramesonephric ducts are suppressed, and the only remnant is the vestigial appendix of the testis. Choice B (Ureter) is incorrect. The ureter is formed from the ureteric bud, an outgrowth of the mesonephric duct. Overall, the ureteric bud gives rise to the renal collecting ducts, including the ureter, renal pelvis, renal calyces, and collecting tubules. Choice C (Labium minus) is incorrect. The labia minora are formed from the embryonic urethral (urogenital) folds. In males, these folds fuse in the midline to form the ventral (anterior) aspect of the penis enclosing the penile urethra. In females, the folds do not fuse, forming the separate labia minora. Choice E (Vestibular bulb) is incorrect. The vestibular bulbs are formed from the more posterior part of the embryonic phallus, which is continuous with the urethral folds. In males, this area fuses in the midline to form the corpus spongiosum and bulb of the penis. In females, the structures remain separate and form the bulbs of the vestibule, underlying the labia minora.",
+      "keypoints": [
+        "⭐ Round ligament of the uterus: Round ligament of the uterus. Both the round ligament of the uterus and the ovarian ligament are the homologues of the gubernaculum testis. In males, the testes descend along a pat",
+        "⭐ Uterine tube is NOT the answer: The uterine tubes (and uterus, cervix, and superior third of the vagina) are derived from the embryonic paramesonephric ducts.",
+        "In males, the testes descend along a path formed by the caudal genital ligament and gubernaculum testis"
+      ]
+    },
+    {
+      "id": "ch5_q024",
+      "tag": "repro",
+      "examLevel": "step1",
+      "system": "Reproductive/Urinary",
+      "contentType": "Anatomy",
+      "stem": "A young boy has a chronic problem with urine dripping from abnormal openings on the underside (anterior or ventral side) of the glans and body of the penis, similar to those shown in the given photograph. Which of the following structures most likely did not fuse normally during development?",
+      "choices": [
+        "Mesonephric ducts",
+        "Paramesonephric ducts",
+        "Urethral folds",
+        "Scrotal swellings",
+        "Genital tubercle"
+      ],
+      "answer": 2,
+      "explanation": "Urethral folds. In male fetuses, the urethral (urogenital) folds close over the urethral groove and fuse in the midline to form the ventral (anterior) aspect of the penis. This enclosure of the urethral groove forms the penile urethra. Incomplete fusion of the urethral folds results in abnormal openings of the penile urethra along the underside of the penis. This condition is termed hypospadias and may include one or more openings anywhere from the glans to the base of through the hypogastric plexuses to the hindgut, pelvic viscera, and perineum. These neurons synapse with postsynaptic cells in the intramural (terminal) ganglia in the walls of the target organs. The postsynaptic neurons make up a large component of the enteric nervous system in the walls of the gut tube. Choice D (Somatic motor neurons) is incorrect. Somatic motor neurons supply skeletal muscles in the pelvic walls and fl oor and perineum. They are conveyed via the branches of the sacral plexus (e.g., pudendal nerve) which, strictly speaking, are not components of the hypogastric plexuses. Choice E (General sensory neurons) is incorrect. General sensory (general somatic afferent) neurons from the pelvic walls and fl oor as well as the perineum travel through the branches of the sacral plexus, in company with the somatic motor fi bers to those areas. However, the visceral sensory fi bers from pelvic viscera travel with visceral motor (autonomic) fi bers through the hypogastric plexuses.",
+      "keypoints": [
+        "⭐ Urethral folds: Urethral folds. In male fetuses, the urethral (urogenital) folds close over the urethral groove and fuse in the midline to form the ventral (anterior) aspect of the penis. This enc",
+        "⭐ Somatic motor neurons is NOT the answer: Somatic motor neurons supply skeletal muscles in the pelvic walls and fl oor and perineum.",
+        "This enclosure of the urethral groove forms the penile urethra"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch5 q24.png",
+      "imageAlt": "Clinical image for question 24",
+      "imageCaption": "See question 24 stem for description."
+    },
+    {
+      "id": "ch5_q025",
+      "tag": "neuro",
+      "examLevel": "step1",
+      "system": "Neuroscience",
+      "contentType": "Anatomy",
+      "stem": "Familial dysautonomia is a rare genetic disorder characterized by abnormal functioning of the autonomic nervous system. Problems include diffi culty in feeding and respiration, vasomotor instability, insensitivity to pain, and ataxia (an unsteady gait). Patients with this syndrome have low numbers of autonomic (visceral motor) neurons, probably related to defects in production and/or survival of the neural crest precursors of these neurons. Such a disorder could directly affect the innervation of the muscle cells in which of the following structures?",
+      "choices": [
+        "Pelvic diaphragm",
+        "External anal sphincter",
+        "Urogenital diaphragm",
+        "Internal urethral sphincter",
+        "Levator ani"
+      ],
+      "answer": 3,
+      "explanation": "Internal urethral sphincter. Familial dysautonomia is an autonomic disorder that affects control of smooth muscle. The internal urethral sphincter is a thickening of the circular layer of smooth muscle at the internal urethral orifi ce. It is the involuntary sphincter that regulates urination (micturition) and is the only smooth muscle structure of the choices provided. It is supplied by both sympathetic (for contraction) and parasympathetic (for relaxation) fi bers through the hypogastric plexuses in the pelvis. Choice A (Pelvic diaphragm) is incorrect. The pelvic diaphragm is a musculofascial sheet that forms a large part of the pelvic fl oor. It is composed of two main parts: the levator ani and the coccygeus. Because it is composed of skeletal muscle, it is innervated by somatic motor fi bers. These nerves branch directly off the sacral plexus and off the perineal branches of the pudendal nerve. Choice B (External anal sphincter) is incorrect. The external anal sphincter is the skeletal muscle complex surrounding the lower anal canal that forms the voluntary sphincter, regulating defecation. It is innervated by somatic motor fi bers of the inferior anal (rectal) nerves (branches of the pudendal nerves). Choice C (Urogenital diaphragm) is incorrect. Traditionally, the urogenital diaphragm has been described as a threelayered, triangular structure that makes up the deep perineal pouch within the urogenital triangle. The middle layer is a skeletal muscle zone composed mainly of the external urethral sphincter (sphincter muscle of urethra) and the deep transverse perineal muscles. However, current concepts describe this area as a much more complex region, with the muscle and fascial components arranged in three-dimensional relations rather than in a fl at sandwich-like manner. In either case, the muscles here receive somatic motor innervation from the perineal nerves, which are branches of the pudendal nerve. Readers are advised to reference the most current texts for a proper and better understanding of this region. Choice E (Levator ani) is incorrect. The levator ani is the larger of the foramen to reach the greater trochanter of the femur. The piriformis does not cross the pelvic brim. It forms the posterolateral wall of the true pelvis and is not affected by a fracture of the lateral wall.",
+      "keypoints": [
+        "⭐ Internal urethral sphincter: Internal urethral sphincter. Familial dysautonomia is an autonomic disorder that affects control of smooth muscle. The internal urethral sphincter is a thickening of the circular",
+        "⭐ Pelvic diaphragm is NOT the answer: The pelvic diaphragm is a musculofascial sheet that forms a large part of the pelvic fl oor.",
+        "The internal urethral sphincter is a thickening of the circular layer of smooth muscle at the internal urethral orifi ce"
+      ]
+    },
+    {
+      "id": "ch5_q027",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Multiple tumors in the pelvic cavity cause widespread destruction through the hypogastric plexuses in a 67-year-old man. The nerve fi bers that degenerate as a result of these lesions are mainly those of which of the following?",
+      "choices": [
+        "Presynaptic sympathetic neurons",
+        "Presynaptic parasympathetic neurons",
+        "Postsynaptic parasympathetic neurons",
+        "Somatic motor neurons",
+        "General sensory neurons"
+      ],
+      "answer": 1,
+      "explanation": "Presynaptic parasympathetic neurons. The hypogastric plexuses are an extensive network of visceral motor (autonomic—both sympathetic and parasympathetic) and visceral sensory fi bers within the pelvic cavity that supply the pelvic viscera and the perineum. The parasympathetic components are mainly presynaptic neurons derived from the pelvic splanchnic nerves, which synapse in the intramural ganglia of the target organs. The sympathetic components are mainly postsynaptic neurons derived from the aortic (intermesenteric) plexuses in the abdomen, where they synapsed with presynaptic elements. Choice A (Presynaptic sympathetic neurons) is incorrect. The presynaptic sympathetic neurons that signal to pelvic viscera originate in the low thoracic and upper lumbar segments of the spinal cord and send axonal processes through the lumbar splanchnic nerves to the aortic (intermesenteric) plexuses, where they synapse with postsynaptic elements. Choice C (Postsynaptic parasympathetic neurons) is incorrect. The pelvic splanchnic nerves send presynaptic fi bers Pelvis and Perineum 87 would most likely metastasize to the internal iliac lymph nodes. The sacral lymph nodes may also receive lymphatic drainage from the prostate, so these nodes should also be checked for metastases. Remember, when considering spread of cancer from pelvic organs, it is crucial to remember the arterial supply of the organ in question. Choice A (Lumbar) is incorrect. Lumbar lymph nodes, which are located anterior to the lumbar vertebrae and surrounding the inferior vena cava and abdominal aorta, receive lymphatic drainage directly from the posterior abdominal wall, gonads (ovaries and testes), kidneys, ureters, uterus, and uterine tubes. Unless metastasis is in advanced stages by spreading through several sets of lymph nodes, the lumbar lymph nodes would not be affected because they do not directly receive lymphatic drainage from a prostatic adenocarcinoma. Choice B (Deep inguinal) is incorrect. Deep inguinal lymph nodes, which are located deep to the fascia lata and medial to the femoral vein, receive lymphatic drainage directly from the glans penis, the distal spongy urethra of the penis, and deep structures of the lower limb and indirect lymphatic drainage from the superfi cial inguinal lymph nodes. Since the prostate is a pelvic organ, it does not have lymphatic drainage to the deep inguinal lymph nodes. Choice C (Superfi cial inguinal) is incorrect. Superfi cial inguinal lymph nodes, which are located in the subcutaneous tissue near the termination of the great saphenous vein, receive lymphatic drainage from the lower abdominal wall, buttock, lower limb, and all of the perineum and external genitalia, except for the glans penis and its distal spongy urethra. Since the prostate is a pelvic organ, it does not have lymphatic drainage to the superfi cial inguinal lymph nodes. Choice E (External iliac) is incorrect. The external iliac lymph nodes, which are associated with the external iliac vein, receive lymphatic drainage from pelvic organs in direct contact with the peritoneum, including the superior bladder and superior pelvic ureters. Since the prostate is situated well below the peritoneum in the pelvis, it does not drain to the external iliac lymph nodes.",
+      "keypoints": [
+        "⭐ Presynaptic parasympathetic neurons: Presynaptic parasympathetic neurons. The hypogastric plexuses are an extensive network of visceral motor (autonomic—both sympathetic and parasympathetic) and visceral sensory fi b",
+        "⭐ Presynaptic sympathetic neurons is NOT the answer: The presynaptic sympathetic neurons that signal to pelvic viscera originate in the low thoracic and upper lumbar segments of the spinal cord and sen",
+        "The parasympathetic components are mainly presynaptic neurons derived from the pelvic splanchnic nerves, which synapse in the intramural ganglia of the target organs"
+      ]
+    },
+    {
+      "id": "ch5_q029",
+      "tag": "anatomy",
+      "examLevel": "step1",
+      "system": "Anatomy",
+      "contentType": "Anatomy",
+      "stem": "A 65-year-old woman suffers chronic constipation. Which of the following events occurs when she strains heavily in attempting to pass her stool?",
+      "choices": [
+        "Relaxation of the pubococcygeus",
+        "Relaxation of the puborectalis",
+        "Relaxation of the coccygeus",
+        "Contraction of the external anal sphincter",
+        "Contraction of the internal anal sphincter"
+      ],
+      "answer": 1,
+      "explanation": "Relaxation of the puborectalis. The puborectalis is the component of the levator ani that joins with its opposite side mate to form a U-shaped sling around the anorectal junction, as shown in the given fi gure. Tension of this muscle produces the anorectal angle (perineal fl exure), which aids signifi cantly in resisting fecal movement. Relaxation of the puborectalis sling causes the anorectal junction to straighten, thus allowing defecation to proceed. The other parts of the levator ani normally contract during defecation. This action raises the pelvic fl oor and assists the abdominal wall muscles in increasing intra-abdominal pressure and compressing the abdominopelvic contents, thus assisting in expelling feces during defecation. Thus, the complementary actions of relaxation of the puborectalis plus contraction of the remainder of the levator ani are important in voluntary control of defecation. Choice A (Relaxation of the pubococcygeus) is incorrect. The pubococcygeus is the major component of the levator ani. It contracts to raise the pelvic fl oor during defecation and other actions requiring increased intra-abdominal pressure (e.g., forced expiration, sneezing, vomiting, and urination). Choice C (Relaxation of the coccygeus) is incorrect. The coccygeus is the most posterior component of the pelvic diaphragm. However, it is not part of the levator ani portion of the pelvic diaphragm. Even so, it contracts in the same fashion as the levator ani during defecation to raise and tense the pelvic fl oor. Choice D (Contraction of the external anal sphincter) is incorrect. The external anal sphincter is the voluntary sphincter surrounding the lower anal canal. It must relax in order to allow dilation of the anal canal and passage of feces. Choice E (Contraction of the internal anal sphincter) is incorrect. The internal anal sphincter is the involuntary sphincter in the lower rectal wall. It relaxes during defecation to allow passage of feces into the anal canal.",
+      "keypoints": [
+        "⭐ Relaxation of the puborectalis: Relaxation of the puborectalis. The puborectalis is the component of the levator ani that joins with its opposite side mate to form a U-shaped sling around the anorectal junction",
+        "⭐ Relaxation of the pubococcygeus is NOT the answer: The pubococcygeus is the major component of the levator ani.",
+        "Tension of this muscle produces the anorectal angle (perineal fl exure), which aids signifi cantly in resisting fecal movement"
+      ]
+    },
+    {
+      "id": "ch5_q031",
+      "tag": "repro",
+      "examLevel": "step1",
+      "system": "Reproductive/Urinary",
+      "contentType": "Anatomy",
+      "stem": "During dissection of deep pelvic lymph nodes in a 60yearold man, the surgeon accidentally severs the internal pudendal artery at its origin. Which of the following structures will maintain its normal blood supply immediately following this lesion?",
+      "choices": [
+        "Penis",
+        "Urinary bladder",
+        "Anal canal",
+        "Scrotum",
+        "Urogenital diaphragm"
+      ],
+      "answer": 1,
+      "explanation": "Urinary bladder. In males, the urinary bladder is supplied by the superior and inferior vesicle arteries, both of which usually are branches of the anterior division of the internal iliac artery. The internal pudendal artery is usually a terminal branch of the anterior division of the internal iliac artery. However, rather than supplying pelvic viscera, it exits the pelvis, enters the posterolateral aspect of the perineum, and provides the main supply to that entire region. Severing the internal pudendal artery usually does not alter blood fl ow to the bladder. However, remember that the internal iliac arterial tract is the most variable branching network of all the arteries. In this variation pattern, the internal pudendal artery may be closely related to the inferior vesicle artery, or, may be well removed from it. Choice A (Penis) is incorrect. The penis is supplied by terminal branches of the internal pudendal artery within the perineum. Thus, it will be deprived of blood in case of lesion at the origin of the internal pudendal artery. Choice C (Anal canal) is incorrect. The anal canal is supplied by the inferior anal (rectal) branches of the internal pudendal artery within the perineum. It will be deprived of blood in case of lesion at the origin of the internal pudendal artery. Choice D (Scrotum) is incorrect. The scrotum is supplied by posterior scrotal branches of the internal pudendal artery and anterior scrotal branches of the external pudendal artery (a branch of the femoral artery). Thus, lesion of the internal pudendal",
+      "keypoints": [
+        "⭐ Urinary bladder: Urinary bladder. In males, the urinary bladder is supplied by the superior and inferior vesicle arteries, both of which usually are branches of the anterior division of the inter",
+        "⭐ Penis is NOT the answer: The penis is supplied by terminal branches of the internal pudendal artery within the perineum.",
+        "The internal pudendal artery is usually a terminal branch of the anterior division of the internal iliac artery"
+      ]
+    },
+    {
+      "id": "ch5_q034",
+      "tag": "repro",
+      "examLevel": "step1",
+      "system": "Reproductive/Urinary",
+      "contentType": "Diagnosis",
+      "stem": "During the physical examination of a newborn male, a pediatrician noted a painless, tense, fl uctuant scrotal mass on the left side. Shining a light toward the enlarged scrotal mass caused the left side of the scrotum to light up, as depicted in the given fi gure. What is the most likely diagnosis?",
+      "choices": [
+        "Hydrocele",
+        "Varicocele",
+        "Indirect inguinal hernia",
+        "Direct inguinal hernia",
+        "Spermatocele"
+      ],
+      "answer": 0,
+      "explanation": "Hydrocele. A hydrocele testis is an accumulation of serous fl uids within the spermatic cord of the testis. This pathology may be due to serous secretions from a remnant piece of peritoneum (tunica vaginalis), or due to communication with the abdomen via a persistent processus vaginalis. Patients with a hydrocele testis present with a painless swollen testis that feels like a water balloon, which may be corrected via drainage with a needle (aspiration) or surgery. Verifi cation of a hydrocele can be accomplished by the diagnostic technique of transillumination, in which a light is placed near the enlarged portion of the scrotum. If the scrotum is full of clear fl uid and a hydrocele testis is present, the scrotum will light up on the affected side, which was seen in this newborn. Choice B (Varicocele) is incorrect. A varicocele is an abnormal dilation of the pampiniform plexus of veins within the spermatic cord. This scrotal mass often resembles and feels like a “bag of worms” on physical examination (see photo in question 6). Idiopathic varicocele is usually caused by defective one-way valves within the pampiniform plexus, which cause dilatation of these veins near the testis. However, a secondary varicocele will be seen following compression of the venous drainage of the testis due to the presence of a pelvic or abdominal malignancy, and this possibility must be ruled out by the physician. Varicoceles are found in the left side in approximately 98% of cases, can develop in 15% to 20% of all males, and are most frequently diagnosed in males between 15 and 25 years of age. Due to the nature (tense and fl uctuant) of this scrotal mass, the fact that the scrotum is transilluminated, and the age of this newborn, a hydrocele is the most likely diagnosis. Choice C (Indirect inguinal hernia) is incorrect. An indirect inguinal hernia is usually a congenital artery will reduce blood fl ow to the scrotum. Choice E ( Urogenital diaphragm) is incorrect. The structures of the anatomically questionable urogenital diaphragm are supplied by the perineal branches of the internal pudendal artery. Thus, this area will be deprived of blood following lesion of the internal pudendal artery.",
+      "keypoints": [
+        "⭐ Hydrocele: Hydrocele. A hydrocele testis is an accumulation of serous fl uids within the spermatic cord of the testis. This pathology may be due to serous secretions from a remnant piece of",
+        "⭐ Varicocele is NOT the answer: A varicocele is an abnormal dilation of the pampiniform plexus of veins within the spermatic cord.",
+        "This pathology may be due to serous secretions from a remnant piece of peritoneum (tunica vaginalis), or due to communication with the abdomen via a persistent processus vaginalis"
+      ],
+      "image": "/images/anatomy_ch4_ch5/lippincott anatomy ch5 q34.png",
+      "imageAlt": "Clinical image for question 34",
+      "imageCaption": "See question 34 stem for description."
+    },
+    {
+      "id": "ch5_q036",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 31-year-old woman delivers her fi rst child via natural childbirth, without anesthetics. During the delivery, she experiences painful spasms in the muscles in the medial part of her right thigh and paresthesia in the skin in the medial thigh. Following delivery, these conditions gradually dissipate. Which of the following nerves may have been compressed during this childbirth?",
+      "choices": [
+        "Inferior gluteal nerve",
+        "Pudendal nerve",
+        "Obturator nerve",
+        "Sciatic nerve",
+        "Pelvic splanchnic nerves"
+      ],
+      "answer": 2,
+      "explanation": "Obturator nerve. The obturator nerve branches from the lumbar plexus in the false (greater) pelvis of the lower abdomen. It descends into the true pelvis, runs across the surface of the obturator internus muscle on the lateral pelvic wall, and passes through the obturator canal to enter the medial thigh. In the thigh, the obturator nerve supplies the diameter of the pelvic outlet (inferior pelvic aperture), which is not conducive to parturition. In contrast, the ischial tuberosities in the female pelvis are more everted, which increases the diameter of the pelvic outlet. Choice E (Ischial spines close together in the midline) is incorrect. A small interspinous distance, due to inverted ischial spines, is often seen in the male pelvis. This characteristic decreases the diameter of the pelvic outlet (or inferior pelvic aperture), which is not conducive to parturition. In contrast, the distance between the ischial spines in the female pelvis is wider, which increases the diameter of the pelvic outlet.",
+      "keypoints": [
+        "⭐ Obturator nerve: Obturator nerve. The obturator nerve branches from the lumbar plexus in the false (greater) pelvis of the lower abdomen. It descends into the true pelvis, runs across the surface o",
+        "⭐ Ischial spines close together in the midline is NOT the answer: A small interspinous distance, due to inverted ischial spines, is often seen in the male pelvis.",
+        "It descends into the true pelvis, runs across the surface of the obturator internus muscle on the lateral pelvic wall, and passes through the obturator canal to enter the medial thigh"
+      ]
+    },
+    {
+      "id": "ch5_q038",
+      "tag": "repro",
+      "examLevel": "step1",
+      "system": "Reproductive/Urinary",
+      "contentType": "Diagnosis",
+      "stem": "A 26-year-old medical student noticed a lump on his left testis, which was later diagnosed as testicular cancer. To rule out metastases of the testicular cancer, what group of lymph nodes should be checked in the fi rst instance?",
+      "choices": [
+        "Superfi cial inguinal",
+        "Deep inguinal",
+        "Lumbar",
+        "External iliac",
+        "Internal iliac"
+      ],
+      "answer": 2,
+      "explanation": "Lumbar. The lymphatic drainage of the testes goes directly to the lumbar lymph nodes due to their developmental origin in the superoposterior abdominal wall. Lumbar lymph nodes, which are located anterior to the lumbar vertebrae and surrounding the inferior vena cava and abdominal aorta, also receive lymphatic drainage directly from the posterior abdominal wall, kidneys, ovaries, ureters, uterus, and uterine tubes. Because most lymphatic vessels supplying pelvic viscera follow arteries retrograde, lymph from the testes, which receive arterial blood from testicular artery arising off the abdominal aorta at vertebral level L1, terminates primarily hernia that results when abdominal cavity contents herniate through a patent processus vaginalis (open communication between the abdomen and scrotum). The hernia traverses the deep and superfi cial inguinal rings to descend into the scrotum in males. An indirect inguinal hernia often presents as a soft, nontender, reducible bulge in the inguinal canal that can extend into the scrotum. It is located off the midline, especially at times of increased intra-abdominal pressure, and exists as a visible or palpable lump underneath the skin in the groin region, which was seen in this patient. Due to the nature (tense and fl uctuant) of this scrotal mass and the fact that the scrotum is transilluminated by the light used by the physician, a hydrocele is the most likely diagnosis. It should be noted that indirect inguinal hernias may present with a hydrocele, so further diagnosis with an ultrasound can be utilized to rule out a herniation of abdominal contents into the scrotum. Choice D (Direct inguinal hernia) is incorrect. A direct inguinal hernia is an acquired hernia that results when abdominal cavity contents herniate through a weakness in the anterior abdominal wall in the inguinal (Hesselbach) triangle. The hernia exits through the superfi cial inguinal ring and often presents as a soft, nontender, reducible bulge underneath the skin overlying the superfi cial inguinal ring. Given the age of this patient and the presence of the mass that has descended into the scrotum, a direct inguinal hernia is not likely. Choice E (Spermatocele) is incorrect. A spermatocele is a cyst-like mass within the scrotum that develops in a tubule of the rete testis or the head of the epididymis. It usually contains a milky fl uid and spermatozoa. These retention cysts are usually not painful and can be confi rmed by an ultrasound of the scrotum. Given the size of this scrotal mass, the age of the patient, and the fact that the entire scrotum is transilluminated with the light used by the physician, a hydrocele is the most likely diagnosis.",
+      "keypoints": [
+        "⭐ Lumbar: Lumbar. The lymphatic drainage of the testes goes directly to the lumbar lymph nodes due to their developmental origin in the superoposterior abdominal wall. Lumbar lymph nodes,",
+        "⭐ Direct inguinal hernia is NOT the answer: A direct inguinal hernia is an acquired hernia that results when abdominal cavity contents herniate through a weakness in the anterior abdominal wall",
+        "Lumbar lymph nodes, which are located anterior to the lumbar vertebrae and surrounding the inferior vena cava and abdominal aorta, also receive lymphatic drainage directly from the posterior abdom"
+      ]
+    }
+  ]
+}

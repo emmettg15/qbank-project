@@ -1,0 +1,694 @@
+{
+  "config": {
+    "title": "Lippincott Histology Ch14 (Liver, Biliary System & Pancreas) - GI (JeffMD GI relevant)",
+    "subtitle": "Liver lobule anatomy, hepatocytes, Kupffer cells, stellate cells, biliary tree, gallbladder, exocrine and endocrine pancreas",
+    "passingFraction": 0.75,
+    "tags": {
+      "gi": {
+        "label": "Gastrointestinal"
+      },
+      "endo": {
+        "label": "Endocrine"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "You are asked to discuss the gross and microscopic anatomy of the liver during a pathology conference. Classic liver lobules are described as hexagonal prisms that surround which of the following anatomic structures?",
+      "choices": [
+        "Bile duct",
+        "Central vein",
+        "Hepatic artery",
+        "Portal triad",
+        "Portal vein"
+      ],
+      "answer": 1,
+      "explanation": "The classic liver lobule is a six-sided prism with portal triads (bile duct, hepatic artery, portal vein) at its angles and the terminal hepatic venule (central vein) at its center. Blood filters through sinusoids from the periphery to drain into the central vein, which then flows to sublobular veins and ultimately the inferior vena cava. Portal triads (choice D) are located at the corners, not the center. Neither bile ducts, hepatic arteries, nor portal veins occupy the central position.",
+      "keypoints": [
+        "⭐ Classic liver lobule: hexagonal prism centered on the terminal hepatic venule (central vein); portal triads at the six corners",
+        "⭐ Three hepatic lobule concepts: classic lobule (centered on central vein), portal lobule (centered on portal triad), liver acinus (functional unit based on oxygen gradient)",
+        "Hepatocytes form plates (cords) separated by sinusoidal capillaries; blood flows portal triad → sinusoids → central vein",
+        "Glisson capsule = fibrous connective tissue capsule encasing the liver; extends into portal septa"
+      ]
+    },
+    {
+      "id": "q002",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A liver biopsy is examined at a multiheaded microscope in the pathology department. The surgical pathologist asks you questions to assess your understanding of normal liver histology. Identify the structure within the circle (shown in the image).",
+      "choices": [
+        "Arcuate arteries",
+        "Hepatic arteries",
+        "Interlobular arteries",
+        "Sublobular veins",
+        "Terminal hepatic venules"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch14/lippincott histo ch14 q2.png",
+      "imageAlt": "Low-power H&E section of liver showing a portal triad within a circle",
+      "imageCaption": "H&E, low magnification. Identify the structure within the circle.",
+      "explanation": "The circle highlights a portal triad, which is composed of a portal vein (thin-walled, large lumen), a hepatic artery (thick-walled, small lumen), and a bile duct (lined by cuboidal cholangiocytes). The portal triad is held together by loose connective tissue. Sublobular veins (choice D) are larger vessels that drain central veins toward hepatic veins. Arcuate and interlobular arteries (choices A and C) are renal vessels, not liver structures.",
+      "keypoints": [
+        "⭐ Portal triad contents: portal vein (largest lumen, thin wall) + hepatic artery (thick wall, small lumen) + bile duct (cholangiocyte-lined)",
+        "⭐ Portal vein delivers ~75% of hepatic blood flow (nutrient-rich, oxygen-poor); hepatic artery delivers ~25% (oxygen-rich)",
+        "Portal triads are located at the angles of the classic liver lobule (periphery), not the center",
+        "Bile flows opposite to blood: from center (canaliculi) → portal triad bile ducts → hepatic duct"
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A different visual field from the slide described in Question 2 is examined at the same magnification. Identify the structures indicated by the arrows (shown in the image).",
+      "choices": [
+        "Arcuate arteries",
+        "Hepatic arteries",
+        "Interlobular arteries",
+        "Sublobular veins",
+        "Terminal hepatic venules"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch14/lippincott histo ch14 q3.png",
+      "imageAlt": "H&E section of liver showing two central veins with sinusoids converging on them and a portal triad visible between them",
+      "imageCaption": "H&E, low magnification. Arrows point to two structures at the centers of adjacent liver lobules.",
+      "explanation": "The arrows point to terminal hepatic venules (central veins), which lie at the center of each classic liver lobule. Hepatic sinusoids converge on the central vein, which drains into sublobular veins (choice D) and then into hepatic veins emptying into the inferior vena cava. A portal triad is visible between the two lobules. The arcuate and interlobular arteries are renal structures; arcuate and interlobular arteries in the kidney are not hepatic structures.",
+      "keypoints": [
+        "⭐ Terminal hepatic venule (central vein) = center of classic liver lobule; receives blood from sinusoids",
+        "⭐ Drainage sequence: central veins → sublobular veins → hepatic veins → inferior vena cava",
+        "Centrilobular hepatocytes are most susceptible to ischemia and toxic injury because they receive the most oxygen-depleted blood",
+        "Chronic right heart failure → centrilobular congestion and pressure atrophy (nutmeg liver)"
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A neonate born prematurely at 32-weeks' gestation develops yellow skin and sclera (physiological jaundice). Laboratory studies show elevated serum levels of bilirubin (breakdown product of heme). Inadequate bilirubin clearance by the liver in this neonate was most likely caused by organ immaturity. What liver enzyme conjugates serum bilirubin, making it water soluble, for excretion in the bile?",
+      "choices": [
+        "Alanine aminotransferase",
+        "Aspartate transaminase",
+        "Fatty acyltransferase",
+        "Galactosyltransferase",
+        "Glucuronyltransferase"
+      ],
+      "answer": 4,
+      "explanation": "Hepatocytes conjugate unconjugated (indirect) bilirubin with glucuronic acid via UDP-glucuronyltransferase, making it water-soluble for excretion in bile. Premature infants have immature glucuronyltransferase activity, leading to physiological jaundice. High unconjugated bilirubin can cross the blood-brain barrier and cause kernicterus. ALT and AST (choices A and B) are aminotransferases that indicate hepatocyte injury but do not conjugate bilirubin.",
+      "keypoints": [
+        "⭐ Bilirubin conjugation: UDP-glucuronyltransferase in hepatocytes conjugates bilirubin + glucuronic acid → water-soluble conjugated bilirubin",
+        "⭐ Physiological neonatal jaundice: immature glucuronyltransferase + increased RBC breakdown; peaks at day 2–4, resolves by week 2",
+        "Kernicterus: unconjugated bilirubin deposits in basal ganglia → irreversible brain damage; treated with phototherapy",
+        "ALT/AST elevation = hepatocyte damage marker; direct (conjugated) bilirubin elevation = cholestasis marker"
+      ]
+    },
+    {
+      "id": "q005",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 75-year-old man with congestive heart failure complains of increasing shortness of breath. On physical examination, the patient has an enlarged and tender liver and swollen legs. Increased venous pressure due to right-sided heart failure primarily affects which of the following regions of this patient's liver?",
+      "choices": [
+        "Centrilobular hepatocytes",
+        "Periportal hepatocytes",
+        "Intrahepatic bile ducts",
+        "Extrahepatic bile ducts",
+        "Portal vein"
+      ],
+      "answer": 0,
+      "explanation": "Right-sided heart failure causes increased central venous pressure that backs up into the hepatic veins, dilating the central veins and sinusoids and causing pressure atrophy of centrilobular hepatocytes (zone 3 of the acinus). The liver appears mottled—pale periportal areas and dark congested centrilobular areas—giving the classic 'nutmeg liver' appearance. Periportal hepatocytes (choice B) receive freshly oxygenated blood and are least vulnerable. Bile ducts and the portal vein are unaffected by venous back-pressure.",
+      "keypoints": [
+        "⭐ Centrilobular (zone 3) hepatocytes are most susceptible to ischemia and venous congestion; periportal (zone 1) hepatocytes are best oxygenated",
+        "⭐ Nutmeg liver: chronic passive congestion → dark centrilobular congestion + pale periportal fat → mottled gross appearance",
+        "Liver acinus zones: zone 1 (periportal) = most oxygenated; zone 3 (centrilobular) = least oxygenated",
+        "Chronic congestion → cardiac cirrhosis (centrilobular fibrosis)"
+      ]
+    },
+    {
+      "id": "q006",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Digital slides of the liver and the biliary system are examined in the histology laboratory. The sinusoids within this liver lobule (arrows, shown in the image) receive most of their blood from which of the following sources?",
+      "choices": [
+        "Arcuate artery",
+        "Hepatic artery",
+        "Interlobular artery",
+        "Portal vein",
+        "Sublobular vein"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch14/lippincott histo ch14 q6.png",
+      "imageAlt": "H&E section of a liver lobule showing sinusoids radiating from a central vein",
+      "imageCaption": "H&E, medium magnification. Arrows indicate sinusoids converging on the central vein.",
+      "explanation": "Approximately 75% of hepatic blood flow is derived from the hepatic portal vein, which delivers nutrient-rich but oxygen-poor blood from the gastrointestinal tract and spleen. The remaining 25% comes from the hepatic artery (choice B), which provides oxygenated blood. Both sources mix in the hepatic sinusoids. Sublobular veins (choice E) drain central veins and do not supply sinusoids. Arcuate and interlobular arteries are renal vessels.",
+      "keypoints": [
+        "⭐ Dual hepatic blood supply: portal vein (~75%, nutrient-rich) + hepatic artery (~25%, oxygen-rich); both drain into sinusoids",
+        "⭐ Hepatic sinusoids are lined by fenestrated endothelium (no basal lamina) + Kupffer cells; this facilitates exchange with the space of Disse",
+        "Portal hypertension: elevated portal venous pressure → esophageal varices, splenomegaly, caput medusae, ascites",
+        "Sublobular veins drain central veins → hepatic veins → IVC"
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The arrows on the image provided for Question 6 point to the nuclei of endothelial cells that line the hepatic sinusoids. Which of the following cytologic features best characterizes these squamous epithelial cells?",
+      "choices": [
+        "Fenestrations",
+        "Glycogen inclusions",
+        "Secretory granules",
+        "Slit-pore diaphragms",
+        "Stereocilia"
+      ],
+      "answer": 0,
+      "explanation": "Hepatic sinusoidal endothelial cells are characterized by cytoplasmic fenestrations (small windows) and the absence of a continuous basal lamina, creating a highly permeable barrier that allows direct contact between blood plasma and the hepatocyte surface (space of Disse). This discontinuous endothelium facilitates hepatocyte uptake and secretion of macromolecules. Slit-pore diaphragms (choice D) are found in renal podocytes. Stereocilia (choice E) are long microvilli found in the epididymis and inner ear.",
+      "keypoints": [
+        "⭐ Hepatic sinusoidal endothelium: fenestrated + no basal lamina = 'discontinuous' endothelium → maximizes hepatocyte–plasma exchange",
+        "⭐ Space of Disse: perisinusoidal space between endothelial cells and hepatocytes; hepatocyte microvilli project into this space",
+        "Kupffer cells (hepatic macrophages) reside in sinusoids; stellate (Ito) cells reside in the space of Disse",
+        "Cirrhosis → capillarization of sinusoids (loss of fenestrations + deposition of basal lamina) → impaired hepatic function"
+      ]
+    },
+    {
+      "id": "q008",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Your laboratory instructor asks you to discuss endocrine, exocrine, absorptive, and secretory functions of the liver. Secreted proteins such as albumin, clotting factors, and nonimmune globulins enter what microscopic cavity before entering the liver sinusoid?",
+      "choices": [
+        "Duct of Santorini",
+        "Duct of Wirsung",
+        "Rokitansky-Aschoff sinus",
+        "Space of Disse",
+        "Space of Mall"
+      ],
+      "answer": 3,
+      "explanation": "Hepatocytes secrete proteins (albumin, clotting factors, lipoproteins) into the perisinusoidal space of Disse, from which they enter the bloodstream through the fenestrated sinusoidal endothelium. Microvilli on the hepatocyte basal membrane project into the space of Disse, maximizing surface area for exchange. The space of Mall (choice E) is a potential space between hepatocytes and portal connective tissue involved in lymph formation. Ducts of Santorini and Wirsung (choices A and B) are pancreatic ducts. Rokitansky-Aschoff sinuses (choice C) are gallbladder mucosal invaginations.",
+      "keypoints": [
+        "⭐ Space of Disse: perisinusoidal space between hepatocyte basal membrane and sinusoidal endothelium; proteins secreted here enter blood",
+        "⭐ Hepatocyte polarity: sinusoidal (basal) domain faces Disse space; canalicular (apical) domain faces bile canaliculi",
+        "Space of Mall: between hepatocytes and portal tract connective tissue; initial site of lymph formation",
+        "Proteins made by liver: albumin, clotting factors (I, II, V, VII, IX, X), complement, acute-phase reactants"
+      ]
+    },
+    {
+      "id": "q009",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "During a clinical conference, you are asked to discuss iron storage disorders affecting the liver. You explain that iron overload can occur due to increased breakdown of erythrocytes (hemolysis) or increased intestinal absorption. Name the principal iron storage pigment found in hepatocytes.",
+      "choices": [
+        "Bilirubin",
+        "Cytochromes",
+        "Hemoglobin",
+        "Hemosiderin",
+        "Transferrin"
+      ],
+      "answer": 3,
+      "explanation": "Hemosiderin is a partially denatured, aggregated form of ferritin that appears as yellow-brown granules in hepatocyte cytoplasm and stains positively with Prussian blue. Iron is transported in the blood by transferrin (choice E), which delivers iron to hepatocytes via receptor-mediated endocytosis; within cells, iron is bound as ferritin. Bilirubin (choice A) is a heme catabolite that does not store iron. Cytochromes (choice B) contain iron in their heme groups but are mitochondrial proteins, not storage pigments. Hemoglobin (choice C) is the iron-containing pigment of RBCs.",
+      "keypoints": [
+        "⭐ Iron storage: ferritin (soluble, normal storage) → hemosiderin (insoluble aggregates, pathological overload); both stain with Prussian blue",
+        "⭐ Hereditary hemochromatosis: AR mutation in HFE gene → excess iron absorption → iron deposits in liver, heart, pancreas, skin, joints",
+        "Hemochromatosis triad: cirrhosis + diabetes mellitus + skin bronzing ('bronze diabetes')",
+        "Transferrin = plasma iron transport protein; transferrin saturation >45% suggests iron overload"
+      ]
+    },
+    {
+      "id": "q010",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 5-year-old girl presents with yellow skin and sclerae. The parents believe that she recently swallowed a bottle of acetaminophen tablets. A liver biopsy reveals hepatic necrosis. Which of the following enzymes metabolized acetaminophen and generated toxic metabolites in the liver of this young patient?",
+      "choices": [
+        "Catalase",
+        "Cytochrome P450",
+        "Myeloperoxidase",
+        "NADPH oxidase",
+        "Superoxide dismutase"
+      ],
+      "answer": 1,
+      "explanation": "In overdose, normal glucuronidation/sulfation pathways for acetaminophen become saturated. Excess drug is then metabolized by cytochrome P450 (CYP2E1) to the reactive intermediate NAPQI (N-acetyl-p-benzoquinone imine), which depletes glutathione and causes oxidative damage to hepatocyte membranes, leading to centrilobular necrosis. Catalase, myeloperoxidase, NADPH oxidase, and superoxide dismutase are all involved in reactive oxygen species metabolism but do not metabolize acetaminophen. N-acetylcysteine replenishes glutathione and is the antidote.",
+      "keypoints": [
+        "⭐ Acetaminophen toxicity: CYP2E1 → NAPQI → depletes glutathione → centrilobular (zone 3) hepatic necrosis",
+        "⭐ Antidote: N-acetylcysteine (NAC), which replenishes glutathione stores; most effective within 8–10 hours of ingestion",
+        "Zone 3 (centrilobular) hepatocytes have the highest CYP450 concentration and poorest oxygen supply → most vulnerable to toxic injury",
+        "Mixed-function oxidase (CYP450) system in SER also detoxifies ethanol, barbiturates, and many other drugs"
+      ]
+    },
+    {
+      "id": "q011",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Phagocytic cells in the liver of an experimental animal are studied using carbon particles as a vital marker. Five hours after intravenous injection of India ink, the animal is sacrificed and the liver is processed for light microscopy. The black cells shown in the image represent Kupffer cells (macrophages) that have internalized carbon. In addition to foreign particles, Kupffer cells internalize and degrade which of the following components of portal venous blood?",
+      "choices": [
+        "Blood products from the spleen",
+        "Chylomicrons and lipid micelles from the gastrointestinal tract",
+        "Endocrine secretions from the pancreas",
+        "Nutrients from the gastrointestinal tract",
+        "Toxins from the gastrointestinal tract"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch14/lippincott histo ch14 q11.png",
+      "imageAlt": "H&E section of liver lobule showing scattered black-pigmented cells (Kupffer cells with carbon particles) around a central vein",
+      "imageCaption": "H&E, medium magnification. India ink injection reveals carbon-laden Kupffer cells in hepatic sinusoids.",
+      "explanation": "Kupffer cells are resident liver macrophages of the mononuclear phagocytic system. They internalize and degrade senescent and damaged red blood cells (blood products) arriving from the spleen via the portal circulation. This is why the liver, like the spleen, participates in erythrocyte destruction. Nutrients, toxins, lipid micelles, and pancreatic hormones (choices B–E) travel through the portal vein but are not selectively internalized by Kupffer cells.",
+      "keypoints": [
+        "⭐ Kupffer cells: resident hepatic macrophages lining sinusoids; phagocytose senescent RBCs, bacteria, debris from portal blood",
+        "⭐ Kupffer cells are the largest population of fixed macrophages in the body; derived from blood monocytes",
+        "Kupffer cells process and degrade heme from phagocytosed RBCs → contribute to bilirubin production",
+        "Mononuclear phagocytic system includes: Kupffer cells (liver), microglia (brain), alveolar macrophages (lung), osteoclasts (bone)"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 40-year-old woman presents with an 8-month history of generalized itching, weight loss, fatigue, and yellow sclerae. Physical examination reveals mild jaundice. A liver biopsy discloses bile duct injury and inflammation. Which of the following cells forms the lining epithelium of the biliary tree?",
+      "choices": [
+        "Cholangiocytes",
+        "Endothelial cells",
+        "Hepatic stellate cells",
+        "Hepatocytes",
+        "Kupffer cells"
+      ],
+      "answer": 0,
+      "explanation": "Cholangiocytes are cuboidal-to-columnar epithelial cells that line the intrahepatic and extrahepatic bile ducts. They continuously monitor the composition and flow of bile and modify it by secreting bicarbonate. The clinical picture of pruritus, jaundice, and destructive bile duct inflammation suggests primary biliary cholangitis (formerly primary biliary cirrhosis), an autoimmune disease mediated by CD8+ T cells that destroys intrahepatic bile ducts. Endothelial cells line vascular structures; hepatic stellate cells (Ito cells) reside in the space of Disse; Kupffer cells are sinusoidal macrophages.",
+      "keypoints": [
+        "⭐ Cholangiocytes: cuboidal-to-columnar epithelial cells lining bile ducts; modify bile composition (secrete HCO3−, absorb water)",
+        "⭐ Primary biliary cholangitis (PBC): autoimmune destruction of intrahepatic bile ducts; anti-mitochondrial antibodies (AMA); predominantly affects middle-aged women",
+        "Pruritus in cholestasis = bile salt accumulation in skin; jaundice = conjugated hyperbilirubinemia",
+        "Primary sclerosing cholangitis (PSC): fibro-inflammatory stricturing of intra- and extrahepatic bile ducts; associated with IBD (UC)"
+      ]
+    },
+    {
+      "id": "q013",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 50-year-old malnourished man presents with a 6-month history of night blindness. Physical examination reveals corneal ulceration. The patient is subsequently diagnosed with vitamin A deficiency. Which of the following cells in the liver stores vitamin A as retinyl esters?",
+      "choices": [
+        "Cholangiocytes",
+        "Endothelial cells",
+        "Hepatic stellate cells",
+        "Hepatocytes",
+        "Kupffer cells"
+      ],
+      "answer": 2,
+      "explanation": "Hepatic stellate cells (Ito cells) are mesenchymal cells located in the perisinusoidal space of Disse that store vitamin A as retinyl esters in lipid droplets. They secrete retinol bound to retinol-binding protein for systemic distribution. In vitamin A deficiency, squamous metaplasia occurs in multiple epithelia; corneal involvement (keratomalacia) can cause blindness. Upon liver injury, stellate cells activate, lose their vitamin A stores, and differentiate into myofibroblasts that produce collagen — driving hepatic fibrosis and cirrhosis.",
+      "keypoints": [
+        "⭐ Hepatic stellate cells (Ito cells): quiescent state = vitamin A storage (retinyl esters); activated state = myofibroblasts → collagen → fibrosis",
+        "⭐ Vitamin A deficiency: night blindness (rhodopsin deficiency) → Bitot spots → keratomalacia → corneal ulceration/blindness",
+        "Stellate cells are the primary drivers of hepatic fibrosis in alcoholic liver disease, viral hepatitis, NAFLD",
+        "Vitamin A is fat-soluble; stored in liver (90% of body stores); excess → hepatotoxicity (hypervitaminosis A)"
+      ]
+    },
+    {
+      "id": "q014",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Virtual microscope slides illustrating the liver and the biliary system are examined in the histology laboratory. Identify the structure indicated by the arrow (shown in the image).",
+      "choices": [
+        "Bile duct",
+        "Central vein",
+        "Hepatic artery",
+        "Interlobular artery",
+        "Portal vein"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch14/lippincott histo ch14 q14.png",
+      "imageAlt": "H&E section showing a portal triad; an arrow points to the bile duct structure",
+      "imageCaption": "H&E, medium magnification. The arrow indicates one component of the portal triad.",
+      "explanation": "The image shows a portal triad with a portal vein (thin-walled, large lumen marked by an asterisk), bile duct (arrow), and hepatic artery. The intrahepatic bile duct is lined by cholangiocytes with apical microvilli, tight junctions, and a complete basal lamina; their nuclei are basally located, indicating apical specialization for secretion and absorption. The portal vein has a large, thin-walled lumen; the hepatic artery has a smaller lumen with a muscular wall. None of the other structures exhibit the histologic features of a bile duct.",
+      "keypoints": [
+        "⭐ Portal triad identification: bile duct = cuboidal-columnar epithelium, small lumen; hepatic artery = thick muscular wall, small lumen; portal vein = largest lumen, thin wall",
+        "⭐ Bile canaliculi (between hepatocytes) → canals of Herring → intrahepatic bile ducts (in portal triads) → hepatic duct → common bile duct",
+        "Cholangiocytes feature apical microvilli and primary cilia (9+0 axoneme) that sense bile flow",
+        "Intrahepatic bile ducts are destroyed in primary biliary cholangitis (PBC)"
+      ]
+    },
+    {
+      "id": "q015",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "Injury or inflammation affecting the canal of Herring in the liver lobule is associated with which of the following pathologic changes?",
+      "choices": [
+        "Fat droplets within hepatocytes",
+        "Fibrosis of the common bile duct",
+        "Gallstones (cholelithiasis)",
+        "Hypertrophy of smooth muscle in the ampulla of Vater",
+        "Intrahepatic bile lakes"
+      ],
+      "answer": 4,
+      "explanation": "Canals of Herring are short transitional channels lined by both hepatocytes and cholangiocytes that connect bile canaliculi to intrahepatic bile ducts. Obstruction or injury to the canals of Herring (or other intrahepatic bile ducts) causes bile stasis (cholestasis), characterized by accumulation of bile pigment within hepatocytes and dilatation of canaliculi forming bile 'lakes.' Fat droplets (choice A) are seen in steatosis, not cholestasis. Common bile duct fibrosis (choice B) and gallstones (choice C) involve extrahepatic structures. Smooth muscle hypertrophy at the ampulla (choice D) is not associated with canals of Herring injury.",
+      "keypoints": [
+        "⭐ Canal of Herring: transitional channel lined by hepatocytes + cholangiocytes; connects bile canaliculi to portal bile ducts",
+        "⭐ Cholestasis: bile accumulation → intrahepatic bile lakes + bile plugs in canaliculi; clinically: jaundice, pruritus, elevated conjugated bilirubin + alkaline phosphatase",
+        "Hepatic stem cells are believed to reside in the canals of Herring — important for liver regeneration",
+        "Bile canaliculi are intercellular spaces between adjacent hepatocytes sealed by tight junctions; bile flows centripetally (toward portal triads)"
+      ]
+    },
+    {
+      "id": "q017",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A liver biopsy from a 62-year-old alcoholic man discloses regenerative liver nodules surrounded by fibrous scar tissue (histologic features of cirrhosis). The surgical pathologist asks you to comment on the remarkable capacity of the liver to regenerate. Hepatic stem cells that contribute to liver regeneration reside in which of the following locations?",
+      "choices": [
+        "Canal of Herring",
+        "Glisson capsule",
+        "Hepatic sinusoid",
+        "Space of Disse",
+        "Space of Mall"
+      ],
+      "answer": 0,
+      "explanation": "Hepatic stem cells (oval cells) are believed to reside in the canals of Herring — short transitional channels lined by both hepatocytes and cholangiocytes at the junction of bile canaliculi and portal bile ducts. In response to liver injury, these multipotent stem cells proliferate and differentiate to restore hepatic parenchyma. Glisson capsule (choice B) is the fibrous connective tissue coat. The hepatic sinusoid (choice C) is lined by endothelial cells and Kupffer cells. The spaces of Disse and Mall are functional spaces, not stem cell niches.",
+      "keypoints": [
+        "⭐ Hepatic stem cells (oval cells) reside in the canals of Herring; activated during liver injury exceeding hepatocyte regenerative capacity",
+        "⭐ Normal liver regeneration: mature hepatocytes re-enter the cell cycle (driven by HGF, EGF, TNF-α, IL-6) — remarkable regenerative capacity",
+        "Cirrhosis: hepatocellular necrosis + fibrosis (stellate cell activation) + regenerative nodules → loss of normal lobular architecture",
+        "Glisson capsule: fibrous capsule encasing the liver; continuous with portal connective tissue; provides entry/exit for vessels and ducts"
+      ]
+    },
+    {
+      "id": "q018",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 40-year-old woman with a history of indigestion inquires about the location of her gallbladder. She also asks for information regarding risk factors for gallstones. What normal component of bile is associated with the pathogenesis of gallstones?",
+      "choices": [
+        "Bicarbonate",
+        "Cholesterol",
+        "Cholic acid",
+        "Mucin",
+        "Sodium chloride"
+      ],
+      "answer": 1,
+      "explanation": "Cholesterol gallstones form when bile becomes supersaturated with cholesterol, which then precipitates. Risk factors for cholesterol stones are summarized by the 4 Fs: Fat, Female, Forty, Fertile (plus diabetes and estrogen therapy). Bile normally keeps cholesterol soluble through bile salt micelles and phospholipids; when this balance is disrupted, cholesterol crystallizes. Bicarbonate, cholic acid, mucin, and sodium chloride are components of bile but are not associated with stone formation.",
+      "keypoints": [
+        "⭐ Cholesterol gallstones (most common, ~80%): bile supersaturation with cholesterol; risk factors = 4 Fs: Female, Fat, Forty, Fertile",
+        "⭐ Pigment stones: formed from calcium bilirubinate; associated with hemolytic anemia (excess bilirubin) or infection/stasis",
+        "Bile composition: bile salts + phospholipids + cholesterol + conjugated bilirubin + electrolytes + water",
+        "CCK (cholecystokinin) released from duodenum I-cells → gallbladder contraction; secretin → bicarbonate secretion from cholangiocytes"
+      ]
+    },
+    {
+      "id": "q019",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A 52-year-old woman presents with a 10-month history of upper abdominal pain after fatty meals. An ultrasound examination discloses multiple echogenic objects in the gallbladder (gallstones). The gallbladder is removed (cholecystectomy), and the surgical specimen is examined by light microscopy. Identify the normal epithelial structures indicated by the arrows (shown in the image).",
+      "choices": [
+        "Canals of Herring",
+        "Hepatic ducts",
+        "Mucosal folds",
+        "Mucosal glands",
+        "Submucosal glands"
+      ],
+      "answer": 2,
+      "image": "/images/histo_ch14/lippincott histo ch14 q19.png",
+      "imageAlt": "H&E section of gallbladder mucosa showing deep finger-like folds of simple columnar epithelium",
+      "imageCaption": "H&E, low-to-medium magnification. Arrows indicate normal epithelial structures in the gallbladder wall.",
+      "explanation": "The gallbladder mucosa has numerous deep folds that may appear as glands in cross-section but are actually mucosal folds of simple columnar epithelium with an underlying lamina propria. The epithelium is characterized by tight junctions, apical microvilli, and lateral membrane plications that facilitate water absorption. Canals of Herring (choice A) and hepatic ducts (choice B) are liver structures. True mucosal glands (choice D) can be found only in the gallbladder neck; submucosal glands (choice E) are not present in the normal gallbladder.",
+      "keypoints": [
+        "⭐ Gallbladder mucosa: simple columnar epithelium with microvilli + mucosal folds (not true glands); concentrates bile 5–10× by absorbing Na+, HCO3−, and H2O",
+        "⭐ Gallbladder wall layers (from lumen out): mucosa → muscularis externa → perimuscular connective tissue → serosa/adventitia; notably LACKS submucosa and muscularis mucosae",
+        "Rokitansky-Aschoff sinuses: deep mucosal invaginations into/through the muscularis; associated with chronic cholecystitis",
+        "Postcholecystectomy pain: often persists if stones passed into CBD or sphincter of Oddi dysfunction"
+      ]
+    },
+    {
+      "id": "q020",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The surgical pathologist shows you another gallbladder for comparison (shown in the image). In contrast to other organs in the gastrointestinal system, the wall of the gallbladder lacks which of the following layers?",
+      "choices": [
+        "Adventitia",
+        "Lamina propria",
+        "Muscularis externa",
+        "Serosa",
+        "Submucosa"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch14/lippincott histo ch14 q20.png",
+      "imageAlt": "Low-power H&E cross-section of the gallbladder wall showing its layered structure",
+      "imageCaption": "H&E, low magnification. Cross-section of normal gallbladder wall.",
+      "explanation": "The gallbladder wall is distinctive in lacking a muscularis mucosae and a submucosa — structures present in most of the gastrointestinal tract. External to the lamina propria is the muscularis externa (randomly oriented smooth muscle), followed by perimuscular connective tissue, and then either a serosa (on the free surface) or adventitia (where it attaches to the liver). The lamina propria (choice B) and muscularis externa (choice C) are present; serosa and adventitia (choices A and D) are both present on different surfaces.",
+      "keypoints": [
+        "⭐ Gallbladder wall LACKS: muscularis mucosae AND submucosa — distinguishes it from the rest of the GI tract",
+        "⭐ Layers present: mucosa (epithelium + lamina propria) → muscularis externa → perimuscular CT → serosa (free surface) / adventitia (hepatic surface)",
+        "Absence of submucosa means mucosal folds can mimic glands on cross-section (pseudo-glands)",
+        "Gallbladder functions: concentrates bile (5–10×), stores bile between meals, contracts in response to CCK"
+      ]
+    },
+    {
+      "id": "q022",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various peritoneal and retroperitoneal organs are examined using virtual microscope slides in the histology laboratory. Identify the organ shown in the image.",
+      "choices": [
+        "Gallbladder",
+        "Liver",
+        "Pancreas",
+        "Parotid gland",
+        "Submandibular gland"
+      ],
+      "answer": 2,
+      "image": "/images/histo_ch14/lippincott histo ch14 q22.png",
+      "imageAlt": "H&E section showing acinar tissue with pale spherical islets of Langerhans dispersed among darker exocrine acini",
+      "imageCaption": "H&E, medium magnification. Identify this organ.",
+      "explanation": "The image shows the pancreas, identifiable by the presence of both exocrine acini (enzyme-secreting serous cells with apical zymogen granules) and endocrine islets of Langerhans (pale, spherical clusters of polygonal cells). Islets are found primarily in the tail of the pancreas. The gallbladder (choice A) is a simple tubular organ. The liver (choice B) consists of hepatocyte cords and sinusoids. Parotid (choice D) and submandibular (choice E) glands are major salivary glands that lack islets of Langerhans.",
+      "keypoints": [
+        "⭐ Pancreas ID: exocrine acini (serous cells with apical zymogen granules) + endocrine islets of Langerhans (pale spherical clusters)",
+        "⭐ Islet cell types: β cells (most numerous, central, insulin) → α cells (peripheral, glucagon) → δ cells (somatostatin) → PP cells (pancreatic polypeptide)",
+        "Pancreas is a retroperitoneal organ; head nestled in the C-loop of the duodenum; tail contacts the spleen",
+        "Parotid gland = purely serous; submandibular = mixed (mostly serous); sublingual = mixed (mostly mucous)"
+      ]
+    },
+    {
+      "id": "q023",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The organ identified in Question 22 is examined at high magnification. Which of the following terms describes the glandular epithelial cells shown in the image?",
+      "choices": [
+        "Endocrine",
+        "Goblet",
+        "Mucous",
+        "Paracrine",
+        "Serous"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch14/lippincott histo ch14 q23.png",
+      "imageAlt": "High-magnification H&E of pancreatic exocrine acini showing pyramidal cells with basal nuclei and apical eosinophilic zymogen granules",
+      "imageCaption": "H&E, high magnification. Identify the glandular cell type in these pancreatic acini.",
+      "explanation": "Pancreatic exocrine acini are lined by serous cells: pyramidal cells with round basal nuclei, basophilic basal cytoplasm (abundant RER), and apical eosinophilic zymogen granules containing proenzymes. The eosinophilia reflects the abundant protein content of the granules. Endocrine cells (choice A) in the islets lack zymogen granules. Goblet cells (choice B) are unicellular mucous glands in epithelia. Mucous cells (choice C) contain PAS-positive, lightly staining mucin. Paracrine cells (choice D) signal adjacent cells.",
+      "keypoints": [
+        "⭐ Pancreatic acinar cells (serous): pyramidal shape + basophilic base (RER) + apical eosinophilic zymogen granules; secrete digestive proenzymes",
+        "⭐ Centroacinar cells: pale cells at the center of acini, representing the proximal end of intercalated ducts; secrete bicarbonate-rich fluid",
+        "Pancreatic proenzymes activated in duodenum: trypsinogen → trypsin (by enteropeptidase) → activates other proenzymes",
+        "Mumps: viral parotitis causing swollen parotid glands; can also inflame pancreatic acini (pancreatitis)"
+      ]
+    },
+    {
+      "id": "q024",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The pancreas delivers an alkaline pH fluid to the duodenum that helps to neutralize the acidity of gastric juice, protect the small intestine, and provide an optimum pH for hydrolytic enzymes present in the lumen. What portion of the exocrine pancreas secretes most of this bicarbonate- and sodium-rich alkaline fluid?",
+      "choices": [
+        "Intercalated ducts",
+        "Interlobular ducts",
+        "Intralobular ducts",
+        "Pancreatic duct of Santorini",
+        "Pancreatic duct of Wirsung"
+      ],
+      "answer": 0,
+      "explanation": "Intercalated ducts (and their associated centroacinar cells) are the primary source of the bicarbonate-rich alkaline fluid secreted by the exocrine pancreas. These small ducts originate within the acini and respond to secretin by pumping HCO3− into the duct lumen. Interlobular and intralobular ducts (choices B and C) collect and transport secretions but contribute less fluid. The main pancreatic duct of Wirsung (choice E) and the accessory duct of Santorini (choice D) are major conduits that do not produce significant bicarbonate secretion.",
+      "keypoints": [
+        "⭐ Intercalated ducts + centroacinar cells: principal source of pancreatic HCO3−-rich fluid; stimulated by secretin",
+        "⭐ Secretin released from S-cells of duodenum in response to low pH → stimulates pancreatic bicarbonate secretion",
+        "Pancreatic duct hierarchy: intercalated ducts → intralobular ducts → interlobular ducts → main pancreatic duct (Wirsung) → duodenum at ampulla of Vater",
+        "CCK (from duodenal I-cells, triggered by fat/protein) stimulates acinar cell enzyme secretion"
+      ]
+    },
+    {
+      "id": "q025",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "A group of medical students examine a virtual microscope slide of the pancreas at low magnification. Identify the structure indicated by the arrow (shown in the image).",
+      "choices": [
+        "Intercalated duct",
+        "Interlobular duct",
+        "Intralobular duct",
+        "Main pancreatic duct",
+        "Rokitansky-Aschoff sinus"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch14/lippincott histo ch14 q25.png",
+      "imageAlt": "Low-power H&E of pancreas showing a large duct surrounded by dense connective tissue septa between lobules",
+      "imageCaption": "H&E, low magnification. Arrow indicates a duct in the pancreatic interstitium.",
+      "explanation": "The arrow points to an interlobular duct, identifiable by its position within dense connective tissue septa separating pancreatic lobules and its low columnar epithelium. Interlobular ducts are larger than intralobular ducts (choice C), which are located within lobules and lined by cuboidal epithelium. Intercalated ducts (choice A) are tiny, within acini. The main pancreatic duct (choice D) would be larger and more centrally located. Rokitansky-Aschoff sinuses (choice E) are gallbladder structures.",
+      "keypoints": [
+        "⭐ Interlobular duct ID: located in connective tissue septa between lobules; larger lumen; low columnar epithelium",
+        "⭐ Intralobular duct ID: located within a lobule; smaller; cuboidal epithelium; surrounded by acini",
+        "Intercalated ducts are the smallest, originating within acini; lined by centroacinar cells at their proximal end",
+        "Pancreatic duct of Wirsung: main duct joining common bile duct at ampulla of Vater (sphincter of Oddi)"
+      ]
+    },
+    {
+      "id": "q026",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Biochemistry",
+      "stem": "During a small group seminar, you are asked to discuss pancreatic enzymes and their role in the digestion of food. Which of the following enzymes catalyzes the conversion of pancreatic proenzymes to active enzymes within the lumen of the duodenum?",
+      "choices": [
+        "Alkaline phosphatase",
+        "Elastase",
+        "Maltase",
+        "Phospholipase",
+        "Trypsin"
+      ],
+      "answer": 4,
+      "explanation": "Enteropeptidase (enterokinase) in the intestinal brush border cleaves pancreatic trypsinogen to form active trypsin. Trypsin then acts as the master activator, cleaving all other pancreatic proenzymes (chymotrypsinogen, proelastase, prolipase, prophospholipase, procarboxypeptidase) into their active forms. This two-step cascade prevents premature activation (which would cause pancreatitis). Elastase (choice B) and phospholipase (choice D) are themselves pancreatic proenzymes activated by trypsin. Maltase (choice C) is a brush-border enzyme for disaccharide digestion. Alkaline phosphatase (choice A) is a marker of biliary injury.",
+      "keypoints": [
+        "⭐ Proenzyme activation cascade: enteropeptidase (brush border) cleaves trypsinogen → trypsin → trypsin activates ALL other pancreatic proenzymes",
+        "⭐ Acute pancreatitis: premature intrapancreatic activation of trypsinogen → autodigestion of acinar cells; causes: gallstones, alcohol (GET SMASHED mnemonic)",
+        "Trypsin inhibitor (SPINK1): serine protease inhibitor in pancreatic juice; prevents premature trypsin activation within the pancreas",
+        "Pancreatic enzymes: proteases (trypsin, chymotrypsin, elastase) + lipase + amylase + phospholipase A2 + nucleases"
+      ]
+    },
+    {
+      "id": "q027",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "The virtual microscope slide described in Question 25 is examined at higher magnification. Identify the structure indicated by the arrow (shown in the image).",
+      "choices": [
+        "Accessory pancreatic duct",
+        "Intercalated duct",
+        "Interlobular duct",
+        "Intralobular duct",
+        "Main pancreatic duct"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch14/lippincott histo ch14 q27.png",
+      "imageAlt": "Medium-power H&E of pancreas showing a duct surrounded by connective tissue but located within a pancreatic lobule",
+      "imageCaption": "H&E, medium magnification. Arrow indicates a duct within a pancreatic lobule.",
+      "explanation": "The arrow points to an intralobular duct, located entirely within a pancreatic lobule and surrounded by acinar cells and loose connective tissue. Intralobular ducts are lined by cuboidal epithelium and become progressively larger as they coalesce to form interlobular ducts (choice C). The duct in this image is too large to be an intercalated duct (choice B) but too small and lobule-confined to be the main pancreatic duct (choice E). The accessory pancreatic duct (choice A) is a major conduit.",
+      "keypoints": [
+        "⭐ Intralobular duct ID: within a lobule; cuboidal epithelium; no surrounding dense fibrous septa (distinguishes from interlobular)",
+        "Duct hierarchy (small → large): intercalated → intralobular → interlobular → main duct (Wirsung) / accessory duct (Santorini)",
+        "Intralobular ducts are continuous with centroacinar cells at their proximal end",
+        "Pancreatic ductal adenocarcinoma arises from ductal epithelium; associated with KRAS mutation; poor prognosis"
+      ]
+    },
+    {
+      "id": "q028",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 62-year-old alcoholic presents to the emergency room with 8 hours of severe abdominal pain and vomiting. Physical examination discloses exquisite abdominal tenderness. Serum levels of amylase and lipase are elevated. These laboratory data indicate that this patient has suffered injury to which of the following internal organs?",
+      "choices": [
+        "Duodenum",
+        "Gallbladder",
+        "Liver",
+        "Pancreas",
+        "Stomach"
+      ],
+      "answer": 3,
+      "explanation": "Elevated serum amylase and lipase are hallmarks of pancreatic acinar cell injury (pancreatitis). These digestive enzymes are normally secreted into the pancreatic duct lumen; injury releases them into the blood. Lipase is more specific for pancreatic injury (stays elevated longer) than amylase. Alcohol and gallstones are the two most common causes of acute pancreatitis. Injury to the duodenum, gallbladder, liver, or stomach does not produce elevated amylase and lipase.",
+      "keypoints": [
+        "⭐ Acute pancreatitis markers: serum lipase (more specific, elevated longer) + amylase; both >3× upper limit of normal = diagnostic",
+        "⭐ Two most common causes of acute pancreatitis: gallstones (obstruction) + alcohol (toxic/metabolic); remembered as 'GET SMASHED'",
+        "Acute pancreatitis complications: pseudocyst, abscess, necrotizing pancreatitis, hypocalcemia (saponification), ARDS",
+        "Elevated LFTs in pancreatitis suggest gallstone etiology (biliary obstruction); elevated triglycerides >1000 = another cause"
+      ]
+    },
+    {
+      "id": "q029",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 69-year-old man is brought to the emergency room in a disoriented state. Physical examination reveals an odor of alcohol, as well as jaundice and ascites. Serum levels of aspartate aminotransferase (AST), alanine aminotransferase (ALT), alkaline phosphatase, and bilirubin are all elevated. Increased serum levels of alkaline phosphatase are an indicator of injury to which of the following tissues/structures?",
+      "choices": [
+        "Bile ducts",
+        "Centrilobular hepatocytes",
+        "Islets of Langerhans",
+        "Pancreatic exocrine acini",
+        "Periportal hepatocytes"
+      ],
+      "answer": 0,
+      "explanation": "Alkaline phosphatase (ALP) is highly expressed on the apical membrane of cholangiocytes (bile duct epithelial cells). Injury to or obstruction of bile ducts releases ALP into the serum, making it a sensitive marker of biliary disease or cholestasis. In this patient with alcoholic cirrhosis, portal hypertension, and biliary involvement drives ALP elevation. ALT and AST (also elevated) indicate hepatocyte injury. Islets of Langerhans, pancreatic exocrine acini, and regional hepatocytes do not produce ALP in the same quantities.",
+      "keypoints": [
+        "⭐ ALP elevation = biliary/cholestatic injury (bile duct epithelium source); also elevated in bone disease (osteoblasts) — confirm with GGT",
+        "⭐ ALT > AST = viral hepatitis (hepatocyte cytoplasmic injury); AST:ALT > 2:1 = alcoholic hepatitis (mitochondrial damage)",
+        "Jaundice + elevated conjugated bilirubin + elevated ALP → obstructive (cholestatic) pattern",
+        "Ascites in cirrhosis = portal hypertension + low albumin (oncotic pressure) + aldosterone excess (Na+ retention)"
+      ]
+    },
+    {
+      "id": "q030",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrine",
+      "contentType": "Pathophysiology",
+      "stem": "A 44-year-old woman comes to the physician with a 6-week history of episodic hunger and fainting spells. She is currently seeing a psychiatrist because she is irritable and quarreling with her family. Laboratory studies show a serum glucose concentration of 35 mg/dL (normal = 90 mg/dL). A CT scan of the abdomen demonstrates a 1.5-cm mass in the pancreas. An EM study of the tumor reveals membrane-bound, dense-core granules. These secretory vesicles most likely contain which of the following pancreatic hormones?",
+      "choices": [
+        "Glucagon",
+        "Insulin",
+        "Pancreatic polypeptide",
+        "Secretin",
+        "Somatostatin"
+      ],
+      "answer": 1,
+      "explanation": "The clinical triad of hypoglycemia, neuroglycopenic symptoms (confusion, irritability, fainting), and a pancreatic mass is Whipple's triad, pointing to an insulinoma. Insulinomas are the most common functional neuroendocrine tumor of the pancreas; they secrete insulin autonomously, causing hypoglycemia. EM demonstrates membrane-bound, dense-core secretory granules characteristic of neuroendocrine cells. Glucagon (choice A) causes hyperglycemia, not hypoglycemia. Somatostatin (choice E) inhibits most endocrine secretions. Secretin (choice D) is produced by duodenal S-cells, not pancreatic islets.",
+      "keypoints": [
+        "⭐ Insulinoma: most common functional pancreatic neuroendocrine tumor; Whipple's triad = hypoglycemia + symptoms relieved by glucose + serum glucose <55 mg/dL",
+        "⭐ Dense-core secretory granules on EM = neuroendocrine tumor marker; also express chromogranin A and synaptophysin",
+        "Insulinoma: 90% benign, solitary; treated by surgical resection; medical = diazoxide (inhibits insulin release)",
+        "MEN-1 syndrome: parathyroid adenoma + pituitary tumor + pancreatic neuroendocrine tumor (gastrinoma most common in MEN-1)"
+      ]
+    }
+  ]
+}

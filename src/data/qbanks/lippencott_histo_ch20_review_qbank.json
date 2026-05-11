@@ -1,0 +1,595 @@
+{
+  "config": {
+    "title": "Lippincott Histology Ch20 (Comprehensive Review) - GI (JeffMD GI relevant)",
+    "subtitle": "Multi-system histology identification: glandular tissues, GI tract junctions, salivary glands, respiratory system, and organ identification",
+    "passingFraction": 0.75,
+    "tags": {
+      "gi": {
+        "label": "Gastrointestinal"
+      },
+      "head_neck": {
+        "label": "Head & Neck"
+      },
+      "pulm": {
+        "label": "Pulmonary"
+      },
+      "multisystem": {
+        "label": "Multisystem"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q011",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "Multiple organs and tissues are examined at autopsy. Five sections were obtained from cell-rich glandular tissues organized into clusters, acini, or cords (Plate 3). Image 3 represents a section through which of the following organs?",
+      "choices": [
+        "Palatine tonsil",
+        "Pancreas",
+        "Parotid gland",
+        "Sublingual salivary gland",
+        "Submandibular salivary gland"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch20/lippincott histo ch20 q11.png",
+      "imageAlt": "H&E section of a salivary gland showing predominantly pale-staining mucous acini with occasional serous cells",
+      "imageCaption": "Plate 3, Image 3: glandular tissue with predominantly pale-staining mucous acini and minimal intercalated ducts — characteristic of sublingual salivary gland",
+      "explanation": "The sublingual gland contains primarily mucous acini with a small number of serous cells. Mucous cells appear pale in routine H&E preparations because they are filled with heavily glycosylated proteins (mucins) that are poorly stained by H&E. This distinguishes the sublingual gland from the parotid (purely serous, all dark pink acini) and the submandibular gland (mixed, with serous predominance). The sublingual gland also has the least extensive intercalated duct system.",
+      "keypoints": [
+        "⭐ Sublingual gland: predominantly mucous acini (pale H&E), fewest intercalated ducts, multiple excretory ducts (ducts of Rivinus)",
+        "⭐ Parotid: purely serous (all pink-eosinophilic acini); Submandibular: mixed (serous predominant, ~60% serous, serous demilunes); Sublingual: mixed (mucous predominant)",
+        "Intercalated duct density: parotid > submandibular > sublingual; striated duct density: submandibular > parotid > sublingual",
+        "Mucins: O-glycosylated proteins that are poorly stained by H&E; appear as empty/pale cytoplasm in mucous cells after tissue processing"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Pancreas & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "Multiple organs and tissues are examined at autopsy (Plate 3). Identify the structure indicated by the arrow shown in image 4.",
+      "choices": [
+        "Langerhans islet",
+        "Mucous acinus",
+        "Primary lymphoid nodule",
+        "Secondary lymphoid nodule",
+        "Serous acinus"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch20/lippincott histo ch20 q12.png",
+      "imageAlt": "H&E section of pancreas showing pale-staining islet of Langerhans surrounded by darker serous acinar tissue",
+      "imageCaption": "Plate 3, Image 4: pancreas with arrow indicating a pale-staining islet of Langerhans (endocrine tissue) surrounded by darker exocrine serous acini",
+      "explanation": "Image 4 shows clusters of light-stained endocrine epithelial cells (islets of Langerhans) scattered among serous acini. These islets are a unique histologic feature of the pancreas and help distinguish it from the parotid gland (purely serous acini without islets). Endocrine cells in the pancreas do not form acini, and this observation also helps distinguish islets from light-stained mucous acini found in the submandibular gland.",
+      "keypoints": [
+        "⭐ Islets of Langerhans: pale-staining clusters of endocrine cells amid darker exocrine acini; B cells (insulin), A cells (glucagon), D cells (somatostatin), PP cells (pancreatic polypeptide)",
+        "⭐ Pancreas-specific histology: exocrine serous acini + centroacinar cells (unique to pancreas) + Langerhans islets (endocrine)",
+        "Centroacinar cells: modified ductal cells that project into the acinar lumen; secrete bicarbonate-rich fluid (stimulated by secretin)",
+        "Type 1 DM: autoimmune destruction of B cells; Type 2 DM: B cell dysfunction + insulin resistance; both affect islets, not exocrine pancreas"
+      ]
+    },
+    {
+      "id": "q013",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "Multiple organs and tissues are examined at autopsy (Plate 3). Identify the structures indicated by the arrows shown in image 1.",
+      "choices": [
+        "Bile ducts",
+        "Intralobular ducts",
+        "Langerhans islands",
+        "Mucous acini",
+        "Serous acini"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch20/lippincott histo ch20 q13.png",
+      "imageAlt": "H&E section of submandibular gland showing mixed serous and mucous acini with arrows pointing to intralobular ducts",
+      "imageCaption": "Plate 3, Image 1: submandibular gland with arrows indicating intralobular (striated) ducts within the glandular lobules amid mixed serous and mucous acini",
+      "explanation": "Image 1 shows glandular tissue composed of both serous and mucous acini—the characteristic appearance of the submandibular gland. The arrows indicate intralobular ducts located within the lobules of the gland. In the submandibular gland, the most abundant intralobular duct segments are striated ducts. These modify salivary composition by reabsorbing Na+ and secreting K+ and HCO3−.",
+      "keypoints": [
+        "⭐ Submandibular gland key features: mixed (serous predominant), most prominent striated ducts, serous demilunes (fixation artifact)",
+        "⭐ Intralobular ducts = within lobule = intercalated + striated ducts; interlobular/interlobar = excretory ducts in connective tissue septa",
+        "Bile ducts (choice A) are found in hepatic portal triads, not salivary glands; lined by simple cuboidal/columnar epithelium",
+        "Mixed gland tip: mucous cells pale/empty (glycoproteins removed in processing); serous cells dark/granular (zymogen granules retain stain)"
+      ]
+    },
+    {
+      "id": "q014",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Anatomy",
+      "stem": "Multiple organs and tissues are examined at autopsy (Plate 3). Identify the organ that is represented by image 5.",
+      "choices": [
+        "Liver",
+        "Lymph node",
+        "Pancreas",
+        "Parotid gland",
+        "Spleen"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch20/lippincott histo ch20 q14.png",
+      "imageAlt": "H&E section of liver showing anastomosing cords of hepatocytes separated by sinusoidal capillaries",
+      "imageCaption": "Plate 3, Image 5: liver with anastomosing plates (cords) of eosinophilic hepatocytes separated by sinusoidal capillaries; a portal triad is visible at the lobule periphery",
+      "explanation": "Hepatocytes form anastomosing plates that appear as interconnected cords of cells in tissue sections. Sinusoidal capillaries separate the hepatic plates. Classic liver lobules are hexagonal prisms with hepatocyte plates and sinusoids radiating from a central vein (terminal hepatic venule). Portal triads at the peripheral angles contain branches of the portal vein, hepatic artery, and bile duct.",
+      "keypoints": [
+        "⭐ Liver lobule (classic): hexagonal; hepatic cords + sinusoids radiate from central vein → portal triads at periphery; blood flows portal triads → central vein",
+        "⭐ Portal triad contents: portal vein branch, hepatic artery branch, bile duct (+ lymphatics); bile flows OPPOSITE to blood (hepatocytes → bile canaliculi → ductules → bile duct)",
+        "Sinusoidal lining: fenestrated endothelial cells + Kupffer cells (resident macrophages); Space of Disse between endothelium and hepatocytes contains lymph precursor fluid",
+        "Hepatocytes: eosinophilic cytoplasm (abundant mitochondria + smooth ER); perform >500 functions including protein synthesis (albumin, clotting factors), detoxification, bile production"
+      ]
+    },
+    {
+      "id": "q019",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various segments of the gastrointestinal tract are examined at autopsy at low magnification (Plate 5). Identify the organ represented by image 2.",
+      "choices": [
+        "Colon",
+        "Duodenum",
+        "Ileum",
+        "Jejunum",
+        "Stomach"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch20/lippincott histo ch20 q19.png",
+      "imageAlt": "H&E low-magnification section showing straight tubular glands without villi lined by enterocytes and goblet cells",
+      "imageCaption": "Plate 5, Image 2: colon showing straight tubular crypts (no villi) lined by enterocytes and abundant goblet cells; colonic glands extend from surface to muscularis mucosae",
+      "explanation": "This image shows the distinctive morphology of colonic glands in cross section. The straight tubular glands are lined by enterocytes and goblet cells. The principal function of enterocytes in the colon is absorption of water and electrolytes. The lumens of these colonic glands are small. The glands are surrounded by loose connective tissue of the lamina propria. Unlike the small intestine, the colon lacks villi, which is the key distinguishing feature.",
+      "keypoints": [
+        "⭐ Colon identification: NO villi, straight tubular crypts (crypts of Lieberkühn), abundant goblet cells, no Brunner glands, no Peyer patches",
+        "⭐ GI goblet cell density: colon > ileum > jejunum > duodenum; goblet cells are most numerous where mucus protection is most needed",
+        "Teniae coli = 3 longitudinal smooth muscle bands in outer muscularis externa of colon; gather colon into haustra",
+        "Colon absorbs water/electrolytes; goblet cells secrete mucus to lubricate fecal passage; no digestive enzymes produced in colon"
+      ]
+    },
+    {
+      "id": "q020",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various segments of the gastrointestinal tract are examined at autopsy at low magnification (Plate 5). Identify the structures indicated by the arrows shown in image 1.",
+      "choices": [
+        "Brunner glands",
+        "Crypts of Lieberkühn",
+        "Gastric pits",
+        "Myenteric ganglia",
+        "Peyer patches"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch20/lippincott histo ch20 q20.png",
+      "imageAlt": "H&E section of duodenum showing mucosal villi and submucosal glands indicated by arrows",
+      "imageCaption": "Plate 5, Image 1: duodenum showing intestinal villi and arrows indicating Brunner glands in the submucosa (deep to muscularis mucosae)",
+      "explanation": "The glands indicated by the arrows are located in submucosal connective tissue, deep to the muscularis mucosae. These submucosal Brunner glands are a distinguishing feature of the proximal duodenum. In addition to mucus, Brunner glands secrete an alkaline pH fluid that helps neutralize the acidity of gastric juice entering from the stomach. The lamina propria in this specimen is also filled with mucosa-associated lymphoid tissue.",
+      "keypoints": [
+        "⭐ Brunner glands = submucosal glands exclusive to the proximal duodenum; secrete alkaline bicarbonate-rich mucus; stimulated by secretin",
+        "⭐ Duodenum identification: villi + Brunner glands in submucosa; most common site of peptic ulcers (1st portion) and pancreatic/bile duct openings (2nd portion = ampulla of Vater)",
+        "Crypts of Lieberkühn (choice B) = intestinal glands in the lamina propria of entire small and large intestine (NOT in submucosa)",
+        "Gastric pits (choice C) = invaginations of gastric surface epithelium; associated with underlying fundic or pyloric glands"
+      ]
+    },
+    {
+      "id": "q021",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various segments of the gastrointestinal tract are examined at autopsy at low magnification (Plate 5). Identify the organ represented by image 4.",
+      "choices": [
+        "Appendix",
+        "Duodenum",
+        "Esophagus",
+        "Ileum",
+        "Stomach"
+      ],
+      "answer": 4,
+      "image": "/images/histo_ch20/lippincott histo ch20 q21.png",
+      "imageAlt": "H&E section of stomach at low magnification showing gastric glands emptying into gastric pits with eosinophilic parietal cells visible",
+      "imageCaption": "Plate 5, Image 4: stomach (fundus) showing characteristic gastric pits with branched fundic glands containing eosinophilic parietal cells in the neck and basophilic chief cells at the base",
+      "explanation": "This image shows gastric glands emptying into the bottom of the gastric pits. These fundic glands are populated largely by eosinophilic parietal cells in the neck of the gland and basophilic chief cells at the base of the gland. Gastric glands are branched tubular glands that extend from the bottom of the gastric pits down to the muscularis mucosae. This pattern of gastric pits + branched glands distinguishes the stomach from all other GI segments.",
+      "keypoints": [
+        "⭐ Stomach (fundus/body) key features: gastric pits (shallow, ~1/4 mucosal depth) + branched fundic glands with parietal cells (HCl + intrinsic factor) + chief cells (pepsinogen) + mucous neck cells",
+        "⭐ Parietal cells: large eosinophilic cells with central nucleus; contain H+/K+-ATPase on canalicular membrane; stimulated by histamine (H2), gastrin, and ACh",
+        "Chief cells: basophilic cytoplasm (abundant rER + zymogen granules); secrete pepsinogen (activated to pepsin by HCl) and gastric lipase",
+        "Pyloric glands (antrum): deeper pits (~1/2 mucosal depth), coiled mucous glands, G cells (gastrin); no parietal or chief cells"
+      ]
+    },
+    {
+      "id": "q022",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various segments of the gastrointestinal tract are examined at autopsy at low magnification (Plate 5). Identify the structure indicated by the arrow in image 5.",
+      "choices": [
+        "Brunner gland",
+        "Diverticulum",
+        "Gastric gland",
+        "Peyer patch",
+        "Pyloric sphincter"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch20/lippincott histo ch20 q22.png",
+      "imageAlt": "H&E section of ileum at low magnification showing a large aggregate of lymphoid tissue (Peyer patch) in the mucosa and submucosa",
+      "imageCaption": "Plate 5, Image 5: ileum showing a large aggregate of diffuse and nodular lymphatic tissue (Peyer patch) with pale-staining germinal centers extending from mucosa into submucosa",
+      "explanation": "This section of the distal ileum shows a large aggregate of diffuse and nodular lymphatic tissue referred to as a Peyer patch. The pale-staining region within this lymphoid tissue represents an area of B lymphocyte activation and proliferation (germinal center). Peyer patches participate in adaptive immunity and immune surveillance of luminal antigens. They are a distinguishing feature of the mucosa of the distal ileum.",
+      "keypoints": [
+        "⭐ Peyer patches: organized mucosal-associated lymphoid tissue (MALT) in ileum; lymphoid follicles that extend from lamina propria into submucosa; distinctive feature of ileum (not in duodenum/jejunum)",
+        "⭐ M cells (microfold cells): specialized follicle-associated epithelial cells overlying Peyer patches; sample luminal antigens and deliver to underlying immune cells",
+        "Ileum also identified by: shorter/fewer villi than jejunum, abundant goblet cells, Peyer patches; jejunum by: tallest villi + plicae circulares (best developed)",
+        "Typhoid fever (Salmonella typhi): infects M cells of Peyer patches → intestinal ulceration + rose spots on abdomen"
+      ]
+    },
+    {
+      "id": "q023",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various segments of the gastrointestinal tract are examined at autopsy at low magnification (Plate 5). Identify the segment of the gastrointestinal tract represented by image 3.",
+      "choices": [
+        "Anal canal",
+        "Lower esophagus",
+        "Rectum",
+        "Stomach",
+        "Upper esophagus"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch20/lippincott histo ch20 q23.png",
+      "imageAlt": "H&E section showing nonkeratinized stratified squamous epithelium lining a tubular organ with smooth muscle in the wall",
+      "imageCaption": "Plate 5, Image 3: lower esophagus lined by nonkeratinized stratified squamous epithelium; muscularis externa composed entirely of smooth muscle identifies this as the lower (distal) esophagus",
+      "explanation": "The esophagus is lined by a nonkeratinized stratified squamous epithelium. Upper and lower portions of the esophagus can be distinguished by the composition of their muscularis externa: the lower esophagus has entirely smooth muscle, while the upper esophagus has striated skeletal muscle. The anal canal also features stratified squamous epithelium, but would show striated muscle of the external sphincter. The absence of villi, glands, or goblet cells rules out the stomach and intestine.",
+      "keypoints": [
+        "⭐ Esophagus: nonkeratinized stratified squamous epithelium; upper 1/3 = striated muscle (voluntary); lower 1/3 = smooth muscle; middle 1/3 = mixed",
+        "⭐ Esophageal glands proper: submucosal mucous glands throughout esophagus; esophageal cardiac glands: similar glands only at esophageal ends",
+        "Lower esophageal sphincter (LES): physiologic sphincter of smooth muscle; dysfunction → GERD → Barrett esophagus (intestinal metaplasia → risk of adenocarcinoma)",
+        "Anal canal transition: columnar rectal epithelium → stratified squamous epithelium at pectinate/dentate line; above = visceral innervation; below = somatic (painful)"
+      ]
+    },
+    {
+      "id": "q024",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various portions of the digestive tract are examined by light microscopy at low magnification (Plate 6). Which of the images in Plate 6 represents a section through the anorectal junction?",
+      "choices": [
+        "Image 1",
+        "Image 2",
+        "Image 3",
+        "Image 4",
+        "Image 5"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch20/lippincott histo ch20 q24.png",
+      "imageAlt": "H&E section showing an abrupt transition from columnar glandular epithelium on one side to stratified squamous epithelium on the other",
+      "imageCaption": "Plate 6, Image 2: anorectal junction showing abrupt transition from colonic glandular epithelium (left, rectum) to nonkeratinized stratified squamous epithelium (right, anal canal) at the pectinate line",
+      "explanation": "This specimen was obtained from the junction of the rectum and the anal canal. The image shows colonic epithelium on the left (rectum) and a nonkeratinized stratified squamous epithelium on the right (anal canal). The stratified squamous epithelium of the anal canal becomes keratinized as it blends with skin on the external surface of the body. The esophagogastric junction also shows stratified squamous epithelium but not colonic glands.",
+      "keypoints": [
+        "⭐ Anorectal junction (pectinate/dentate line): abrupt transition from simple columnar (rectum) to stratified squamous (anal canal); key histologic landmark",
+        "⭐ Above pectinate line: visceral innervation (pain-insensitive); internal hemorrhoids here. Below pectinate line: somatic innervation (pain-sensitive); external hemorrhoids here",
+        "Anal cancer (squamous cell carcinoma): arises from squamous epithelium below pectinate line; associated with HPV 16/18",
+        "Rectal cancer (adenocarcinoma): arises from glandular epithelium above pectinate line; not HPV-associated"
+      ]
+    },
+    {
+      "id": "q025",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various portions of the digestive tract are examined by light microscopy at low magnification (Plate 6). Image 3 was obtained from what portion of the gastrointestinal tract?",
+      "choices": [
+        "Anorectal junction",
+        "Esophagogastric junction",
+        "Gastroduodenal junction",
+        "Pyloric stomach",
+        "Upper portion of the esophagus"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch20/lippincott histo ch20 q25.png",
+      "imageAlt": "H&E section showing abrupt transition from stratified squamous epithelium to simple columnar mucous epithelium with gastric pits",
+      "imageCaption": "Plate 6, Image 3: esophagogastric (gastroesophageal) junction showing abrupt transition from nonkeratinized stratified squamous epithelium (right, esophagus) to mucous columnar epithelium with gastric pits (left, stomach/cardia)",
+      "explanation": "This specimen was obtained from the esophagogastric junction. The image shows an abrupt transition from a nonkeratinized stratified squamous epithelium (on the right) to a mucous columnar epithelium with gastric pits (on the left). This landmark is also where Barrett esophagus develops—when the squamous epithelium is replaced by intestinal-type columnar epithelium in response to chronic acid exposure.",
+      "keypoints": [
+        "⭐ Esophagogastric (Z-line/squamocolumnar) junction: abrupt transition from stratified squamous (esophagus) to simple columnar with gastric pits (stomach cardia)",
+        "⭐ Barrett esophagus: intestinal metaplasia (goblet cells) at the esophagogastric junction; caused by chronic GERD; risk of esophageal adenocarcinoma",
+        "Esophageal squamous cell carcinoma: arises from squamous epithelium; risk factors = alcohol, smoking, achalasia, caustic ingestion",
+        "Esophageal adenocarcinoma: arises from Barrett metaplasia; risk factors = GERD, obesity, male sex; located at gastroesophageal junction or distal esophagus"
+      ]
+    },
+    {
+      "id": "q026",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various portions of the digestive tract are examined by light microscopy at low magnification (Plate 6). Image 5 was obtained from what segment of the gastrointestinal tract?",
+      "choices": [
+        "Appendix",
+        "Gallbladder",
+        "Gastric cardia",
+        "Gastroduodenal junction",
+        "Ileocecal junction"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch20/lippincott histo ch20 q26.png",
+      "imageAlt": "H&E section showing gastric pyloric glands on the left and intestinal villi with submucosal Brunner glands on the right",
+      "imageCaption": "Plate 6, Image 5: gastroduodenal junction showing gastric pyloric glands (left) adjacent to intestinal villi and submucosal Brunner glands (right, duodenum)",
+      "explanation": "This image reveals gastric pyloric glands on the left and intestinal villi on the right. The junction of the stomach and duodenum is also characterized by the presence of submucosal Brunner glands. Brunner glands are exclusive to the proximal duodenum and are a defining histologic feature not found at any other GI junction.",
+      "keypoints": [
+        "⭐ Gastroduodenal junction: pyloric glands (stomach) → villi + Brunner glands (duodenum); Brunner glands exclusively at this junction/proximal duodenum",
+        "⭐ Pyloric antrum: deep gastric pits, coiled mucous glands, G cells (gastrin production); H. pylori preferentially colonizes antrum → antral gastritis → ulcers",
+        "Peptic ulcer disease: duodenal ulcers (1st portion, anterior wall) > gastric ulcers (lesser curvature); H. pylori in ~95% of duodenal ulcers",
+        "Gastrin (from G cells): stimulates parietal cells via CCK-B receptor → HCl secretion; Zollinger-Ellison syndrome = gastrin-secreting tumor → severe ulcers"
+      ]
+    },
+    {
+      "id": "q027",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Anatomy",
+      "stem": "Various portions of the digestive tract are examined by light microscopy at low magnification (Plate 6). Which of the images in Plate 6 represents a section through the gallbladder?",
+      "choices": [
+        "Image 1",
+        "Image 2",
+        "Image 3",
+        "Image 4",
+        "Image 5"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch20/lippincott histo ch20 q27.png",
+      "imageAlt": "H&E section of gallbladder showing simple columnar epithelium over lamina propria directly adjacent to muscularis externa without submucosa",
+      "imageCaption": "Plate 6, Image 1: gallbladder showing simple columnar epithelium + lamina propria directly overlying the muscularis (no muscularis mucosae, no submucosa) — defining structural feature",
+      "explanation": "The mucosa of the gallbladder features a simple columnar epithelium and a lamina propria of loose connective tissue. In contrast to other segments of the GI tract, the wall of the gallbladder does NOT have a muscularis mucosae or submucosa. The muscularis externa is located immediately external to the lamina propria. This absence of the muscularis mucosae and submucosa is the key histologic feature that distinguishes the gallbladder from other hollow viscera.",
+      "keypoints": [
+        "⭐ Gallbladder wall layers: simple columnar epithelium → lamina propria → muscularis (NO muscularis mucosae, NO submucosa) → perimuscular connective tissue → serosa",
+        "⭐ Gallbladder epithelium: tall columnar cells with lateral membrane folds (interdigitations) for ion/water transport; concentrates bile 10-fold by absorbing water",
+        "Rokitansky-Aschoff sinuses: epithelial herniations through muscularis; seen in chronic cholecystitis",
+        "Cholelithiasis risk factors (5 F's): Fat, Female, Forty, Fertile, Fair-skinned; cholesterol stones most common in US; pigment stones with hemolysis"
+      ]
+    },
+    {
+      "id": "q028",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various portions of the digestive tract are examined by light microscopy at low magnification (Plate 6). Image 4 was obtained from what portion of the gastrointestinal tract?",
+      "choices": [
+        "Appendix",
+        "Esophagus",
+        "Gallbladder",
+        "Ileum",
+        "Rectum"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch20/lippincott histo ch20 q28.png",
+      "imageAlt": "H&E section of appendix at low magnification showing colonic-type mucosa and large lymphoid follicles extending into the submucosa",
+      "imageCaption": "Plate 6, Image 4: appendix showing colonic-type mucosa without villi, with numerous large secondary lymphoid follicles (with germinal centers) extending into the submucosa — the distinguishing feature",
+      "explanation": "The appendix is a small, blind pouch that arises as a diverticulum of the cecum. Its histologic features are similar to the colon (no villi, straight tubular glands, goblet cells). The distinguishing feature of the appendix is the large number of secondary lymphatic nodules that extend into the submucosa. This prominent lymphoid tissue contributes to appendiceal immune surveillance and is the basis for the appendix being called a 'tonsil of the intestine.'",
+      "keypoints": [
+        "⭐ Appendix = colonic-type mucosa + massive submucosal lymphoid follicles (secondary nodules with germinal centers); most lymphoid tissue of any GI segment",
+        "⭐ Appendicitis: fecalith obstruction → bacterial overgrowth → inflammation; McBurney's point tenderness; perforation → peritonitis; most common abdominal surgical emergency",
+        "Carcinoid tumor (neuroendocrine tumor): most common tumor of appendix; arises from enterochromaffin cells; may secrete serotonin → carcinoid syndrome if metastatic",
+        "Appendix lymphoid tissue involutes with age; appendix may have immune surveillance role similar to MALT of tonsils and Peyer patches"
+      ]
+    },
+    {
+      "id": "q040",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "A biopsy of the submandibular gland is examined in the pathology department. Multiple tissue types are observed in a single visual field with five labeled arrows (image shown). What type of epithelium is indicated by arrow 1?",
+      "choices": [
+        "Pseudostratified columnar",
+        "Simple columnar",
+        "Simple cuboidal",
+        "Stratified columnar",
+        "Transitional"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch20/lippincott histo ch20 q40-45.png",
+      "imageAlt": "H&E section of submandibular gland biopsy with five numbered arrows identifying different tissue types including ducts, nerves, blood vessels, and connective tissue",
+      "imageCaption": "Submandibular gland biopsy with arrows 1–5 identifying: (1) excretory duct with stratified columnar epithelium, (2) peripheral nerve, (3) small artery with smooth muscle, (4) blood vessel with simple squamous endothelium, (5) dense irregular connective tissue",
+      "explanation": "Arrow 1 points to a stratified epithelium composed of a basal layer of cuboidal cells and an upper layer of columnar cells. The shape of the uppermost cell layer designates the type of stratified epithelium; since the upper cells are columnar, this is stratified columnar epithelium. This type of epithelium lines the large excretory ducts of salivary glands.",
+      "keypoints": [
+        "⭐ Epithelium naming convention: stratified epithelium = named by the shape of the uppermost (apical) cell layer (squamous, cuboidal, columnar, transitional)",
+        "⭐ Stratified columnar epithelium: rare; found in large excretory ducts of salivary glands and parts of the male urethra",
+        "Transitional epithelium (urothelium): found in urinary tract (bladder, ureters, proximal urethra); dome-shaped apical cells; can stretch",
+        "Pseudostratified columnar epithelium: all cells touch basement membrane but nuclei at different heights → appears layered; found in respiratory tract and epididymis"
+      ]
+    },
+    {
+      "id": "q041",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "For the submandibular gland biopsy described in Question 40 (same image), identify the structure lined by the epithelium indicated by arrow 1.",
+      "choices": [
+        "Artery",
+        "Excretory duct",
+        "Intralobular duct",
+        "Secretory acinus",
+        "Vein"
+      ],
+      "answer": 1,
+      "image": "/images/histo_ch20/lippincott histo ch20 q40-45.png",
+      "imageAlt": "H&E section of submandibular gland biopsy with five numbered arrows",
+      "imageCaption": "Same submandibular gland biopsy image; arrow 1 indicates a large excretory duct lined by stratified columnar epithelium surrounded by dense connective tissue",
+      "explanation": "Arrow 1 points to a section through a large excretory duct lined by stratified columnar epithelium. The duct is surrounded by dense connective tissue. Intralobular ducts (intercalated and striated ducts) within salivary gland lobules are lined by cuboidal to low columnar epithelium depending on their diameter. The large diameter and stratified columnar lining distinguish this as an excretory (interlobar) duct.",
+      "keypoints": [
+        "⭐ Excretory duct: large diameter, stratified columnar epithelium, surrounded by dense connective tissue in interlobular/interlobar septa",
+        "⭐ Intralobular ducts: smaller, within lobule, lined by simple cuboidal-columnar; NOT stratified",
+        "Duct lumen size and epithelial type increase in tandem as saliva moves from acinus to oral cavity",
+        "Main submandibular (Wharton's) duct: ~5 cm long; opens at sublingual papilla (caruncle) on floor of mouth lateral to frenulum"
+      ]
+    },
+    {
+      "id": "q042",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "For the submandibular gland biopsy described in Question 40 (same image), arrow 2 indicates which of the following types of tissue?",
+      "choices": [
+        "Adipose tissue",
+        "Elastic connective tissue",
+        "Loose connective tissue",
+        "Peripheral nerve",
+        "Reticular connective tissue"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch20/lippincott histo ch20 q40-45.png",
+      "imageAlt": "H&E section of submandibular gland biopsy with five numbered arrows",
+      "imageCaption": "Same submandibular gland biopsy image; arrow 2 indicates peripheral nerve identified by wavy axons with pale myelin spaces and Schwann cell nuclei",
+      "explanation": "Arrow 2 indicates an oblique section through a peripheral nerve. The characteristic features include a wavy appearance of the axons and a pale-stained space where lipid-rich myelin was removed in tissue processing. The nuclei within the nerve tissue belong to neural crest–derived Schwann cells. Peripheral nerves are more cellular and more highly organized than adjacent connective tissue.",
+      "keypoints": [
+        "⭐ Peripheral nerve H&E appearance: wavy, pale-staining myelin spaces (lipid extracted) + dark axons + scattered Schwann cell nuclei; surrounded by epineurium",
+        "⭐ Nerve layers: endoneurium (around each axon) → perineurium (around fascicle) → epineurium (around whole nerve); only perineurium visible as dense layer on H&E",
+        "Schwann cells: derived from neural crest; myelinate a single axon segment; produce myelin by wrapping their plasma membrane around axons",
+        "Wallerian degeneration: after axonal injury, distal axon + myelin degrade; Schwann cells form bands of Büngner to guide axonal regrowth (peripheral nerve regenerates, CNS does not)"
+      ]
+    },
+    {
+      "id": "q043",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "For the submandibular gland biopsy described in Question 40 (same image), which of the arrows shown in the image identifies simple squamous epithelium?",
+      "choices": [
+        "Arrow 1",
+        "Arrow 2",
+        "Arrow 3",
+        "Arrow 4",
+        "Arrow 5"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch20/lippincott histo ch20 q40-45.png",
+      "imageAlt": "H&E section of submandibular gland biopsy with five numbered arrows",
+      "imageCaption": "Same submandibular gland biopsy image; arrow 4 indicates a blood vessel lining of simple squamous endothelial cells (endothelium)",
+      "explanation": "Arrow 4 points to the lining epithelium of a blood vessel that is filled with red blood cells. Simple squamous epithelial cells (endothelial cells) line all vascular and lymphatic channels in the body. Endothelium is the thinnest possible epithelium—a single layer of extremely flattened cells. Its thinness facilitates diffusion of gases and nutrients between blood and tissues.",
+      "keypoints": [
+        "⭐ Simple squamous epithelium: single layer of flat cells with disk-shaped nuclei; found in: alveoli (type I pneumocytes), vascular endothelium, mesothelium (pleura, peritoneum), Bowman's capsule parietal layer, thin loop of Henle",
+        "⭐ Endothelium functions: barrier, secretion of NO and prostacyclin (vasodilation), regulation of coagulation (vWF, tissue plasminogen activator), antigen presentation",
+        "Mesothelium (peritoneum, pleura, pericardium) = simple squamous; malignant mesothelioma associated with asbestos exposure",
+        "Simple squamous vs. simple cuboidal: width approximately equals height (squamous has width >> height)"
+      ]
+    },
+    {
+      "id": "q044",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "For the submandibular gland biopsy described in Question 40 (same image), arrow 3 identifies which of the following types of tissue?",
+      "choices": [
+        "Elastic connective tissue",
+        "Loose connective tissue",
+        "Periphery nerve",
+        "Smooth muscle",
+        "Stratified squamous epithelium"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch20/lippincott histo ch20 q40-45.png",
+      "imageAlt": "H&E section of submandibular gland biopsy with five numbered arrows",
+      "imageCaption": "Same submandibular gland biopsy image; arrow 3 identifies smooth muscle in the tunica media of a small artery with spindle-shaped nuclei arranged concentrically",
+      "explanation": "Arrow 3 identifies smooth muscle in the tunica media of a small artery. The myocytes are spindle-shaped cells with central nuclei. The nuclei are generally aligned with the arc of the tunica media. Some nuclei assume a 'corkscrew' appearance due to postmortem contraction of the muscle cells. These nuclear features help distinguish smooth muscle from connective tissue, which has flat heterochromatic fibroblast nuclei.",
+      "keypoints": [
+        "⭐ Smooth muscle identification: spindle-shaped cells with single central oval nuclei; corkscrew nuclei indicate contraction artifact; NO striations; involuntary",
+        "⭐ Vascular smooth muscle (tunica media): concentrically arranged around lumen; larger arteries have more layers; controlled by sympathetic NS, angiotensin, endothelin",
+        "Dense regular connective tissue (tendons): fewer cells (flat fibroblast nuclei), abundant collagen bundles; look for parallel organization",
+        "Leiomyoma (fibroid): benign smooth muscle tumor; most common tumor of uterus; well-circumscribed, whorled smooth muscle bundles on H&E"
+      ]
+    },
+    {
+      "id": "q045",
+      "tag": "head_neck",
+      "examLevel": "step1",
+      "system": "Oral Cavity & Salivary Glands",
+      "contentType": "Anatomy",
+      "stem": "For the submandibular gland biopsy described in Question 40 (same image), arrow 5 identifies which of the following types of tissue?",
+      "choices": [
+        "Dense irregular connective tissue",
+        "Loose connective tissue",
+        "Skeletal muscle",
+        "Smooth muscle",
+        "Stratified squamous epithelium"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch20/lippincott histo ch20 q40-45.png",
+      "imageAlt": "H&E section of submandibular gland biopsy with five numbered arrows",
+      "imageCaption": "Same submandibular gland biopsy image; arrow 5 identifies dense irregular connective tissue with coarse, densely packed collagen bundles running in multiple directions with sparse fibroblast nuclei",
+      "explanation": "Arrow 5 identifies dense irregular connective tissue. Large, coarse, and densely packed collagen bundles with few fibroblast cell nuclei are the characteristic features. The presence of collagen fibers running in many different directions provides evidence of the irregular (random) collagen assembly. This contrasts with dense regular connective tissue (tendons, ligaments), where collagen runs parallel.",
+      "keypoints": [
+        "⭐ Dense irregular connective tissue: densely packed collagen bundles running in multiple directions; few cells; found in dermis of skin, organ capsules (liver, kidney, spleen), fascia, periosteum, perichondrium",
+        "⭐ Dense regular connective tissue: parallel collagen bundles, flat heterochromatic fibroblast nuclei between fibers; found in tendons, ligaments, corneal stroma, aponeuroses",
+        "Loose (areolar) connective tissue: scattered cells (fibroblasts, mast cells, macrophages) in ground substance with loosely arranged collagen + elastic fibers; found in lamina propria, mesentery, around vessels and nerves",
+        "Ehlers-Danlos syndrome: defective collagen synthesis/cross-linking → hyperextensible skin, hypermobile joints, easy bruising"
+      ]
+    },
+    {
+      "id": "q048",
+      "tag": "pulm",
+      "examLevel": "step1",
+      "system": "Pulmonary",
+      "contentType": "Anatomy",
+      "stem": "A lung biopsy is examined in the pathology department. A longitudinal section through the respiratory tree is shown in the image, with five spaces labeled 1 through 5. The space labeled 4 represents which of the following pulmonary structures?",
+      "choices": [
+        "Alveolar duct",
+        "Alveolar sac",
+        "Alveolus",
+        "Respiratory bronchiole",
+        "Terminal bronchiole"
+      ],
+      "answer": 0,
+      "image": "/images/histo_ch20/lippincott histo ch20 q48.png",
+      "imageAlt": "H&E longitudinal section of lung showing the respiratory tree with labeled spaces including bronchioles, alveolar ducts, alveolar sacs, and individual alveoli",
+      "imageCaption": "Lung biopsy longitudinal section with spaces 1–5 labeled: space 4 is an alveolar duct (long thin-walled tubule whose walls are entirely lined by alveolar openings)",
+      "explanation": "Alveolar ducts are long, thin-walled tubules whose walls are entirely lined by openings of alveoli and alveolar sacs. Proximally, alveolar ducts are continuous with respiratory bronchioles. Alveolar ducts differ from respiratory bronchioles in that they lack a true wall—every wall segment opens into an alveolus. Space 1 = respiratory bronchiole, space 2 = terminal bronchiole, space 3 = alveolar sac, space 5 = alveolus.",
+      "keypoints": [
+        "⭐ Conducting zone (no gas exchange): trachea → primary bronchi → secondary bronchi → tertiary bronchi → bronchioles → terminal bronchioles",
+        "⭐ Respiratory zone (gas exchange): respiratory bronchioles (partial alveoli in walls) → alveolar ducts (all walls = alveolar openings) → alveolar sacs (clusters of alveoli opening into common space) → alveoli",
+        "Type I pneumocytes: simple squamous; gas exchange; cover 95% of alveolar surface; cannot replicate",
+        "Type II pneumocytes: cuboidal; secrete surfactant (DPPC); progenitor for type I cells; neonatal respiratory distress syndrome = type II immaturity"
+      ]
+    },
+    {
+      "id": "q061",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Anatomy",
+      "stem": "Various tissues and organs are examined at the autopsy of a 50-year-old man. Identify the organ shown in the image.",
+      "choices": [
+        "Colon",
+        "Duodenum",
+        "Ileum",
+        "Jejunum",
+        "Stomach"
+      ],
+      "answer": 3,
+      "image": "/images/histo_ch20/lippincott histo ch20 q61.png",
+      "imageAlt": "H&E section of small intestine at low magnification showing prominent circular folds (plicae circulares) formed by mucosa and submucosa",
+      "imageCaption": "Autopsy specimen showing jejunum: tall villi on prominent plicae circulares (circular folds of mucosa + submucosa); plicae are best developed in the jejunum and increase surface area for absorption",
+      "explanation": "This autopsy specimen was obtained from the jejunum. In this portion of the GI tract, the mucosa and submucosa are folded extensively to increase surface area for absorption. These submucosal folds are referred to as plicae circulares (valves of Kerckring). They are best developed in the jejunum and are present throughout the small intestine but absent in the colon and stomach.",
+      "keypoints": [
+        "⭐ Jejunum identification: tallest/most prominent plicae circulares (permanent folds of mucosa + submucosa), tallest villi, most abundant Brunner glands at duodenal transition, NO Peyer patches",
+        "⭐ Surface area amplification hierarchy: microvilli (brush border, 600×) → villi (10×) → plicae circulares (3×) — all in small intestine",
+        "Small intestine segments: duodenum (Brunner glands + ampulla of Vater), jejunum (plicae circulares, tallest villi), ileum (Peyer patches, shortest villi, most goblet cells)",
+        "Celiac disease (gluten-sensitive enteropathy): villous atrophy + crypt hyperplasia → malabsorption; anti-tissue transglutaminase (anti-tTG) antibodies; treat with gluten-free diet"
+      ]
+    }
+  ]
+}

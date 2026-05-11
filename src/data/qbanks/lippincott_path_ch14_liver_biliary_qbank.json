@@ -1,0 +1,1077 @@
+{
+  "config": {
+    "title": "Lippincott Path Ch14 \u2013 Liver & Biliary System",
+    "subtitle": "Liver and biliary pathology: cirrhosis, viral hepatitis, metabolic liver disease, gallstones, cholangiopathies, and hepatic neoplasms",
+    "passingFraction": 0.75,
+    "tags": {
+      "hepatic": {
+        "label": "Hepatobiliary"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "A 62-year-old man is brought to the emergency room in a disoriented state. Physical examination reveals signs of poor hygiene and an odor of alcohol, as well as jaundice, splenomegaly, and ascites. The patient has a coarse flapping tremor of the hands, palmar erythema, and diffuse spider angiomata. The abdomen displays dilated paraumbilical veins. Serum levels of ALT, AST, alkaline phosphatase, and bilirubin are all mildly elevated. Soon after admission, the patient vomits a large amount of blood. Which of the following is the most likely underlying cause of hematemesis in this patient?",
+      "choices": [
+        "Acute alcoholic hepatitis",
+        "Acute gastritis",
+        "Cirrhosis",
+        "Hepatic steatosis",
+        "Mallory-Weiss tear"
+      ],
+      "answer": 2,
+      "explanation": "Cirrhosis is the end stage of chronic liver disease characterized by extensive fibrosis and regenerative nodules. Portal hypertension from cirrhosis causes dilation of portal-systemic venous collaterals, including submucosal varices of the lower esophagus and upper stomach, which are prone to rupture and massive hematemesis. The clinical signs here\u2014jaundice, splenomegaly, ascites, palmar erythema, spider angiomata, and caput medusae (dilated paraumbilical veins)\u2014all indicate advanced portal hypertension from cirrhosis. Mallory-Weiss tear (choice E) can cause hematemesis but requires protracted vomiting and does not explain the systemic signs of end-stage liver disease.",
+      "keypoints": [
+        "\u2b50 Esophageal varices = #1 life-threatening complication of portal hypertension; 40% mortality with each bleed",
+        "\u2b50 Spider angiomata, palmar erythema, caput medusae, gynecomastia = classic signs of cirrhosis",
+        "Portal hypertension threshold: >10 mmHg (normal <5 mmHg); varices form when >12 mmHg",
+        "Mallory-Weiss tear: longitudinal mucosal laceration at GEJ from forceful vomiting (not variceal bleeding)"
+      ]
+    },
+    {
+      "id": "q002",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "For the patient described in Question 1, which of the following pathophysiologic mechanisms is most directly associated with the development of ascites?",
+      "choices": [
+        "Decreased aldosterone secretion",
+        "Decreased intravascular volume",
+        "Hyperalbuminemia",
+        "Increased intravascular oncotic pressure",
+        "Increased portal hydrostatic pressure"
+      ],
+      "answer": 4,
+      "explanation": "In cirrhosis, portal hypertension increases hydrostatic pressure in the portal venous system, forcing fluid into the peritoneal cavity and causing ascites. Hypoalbuminemia (decreased oncotic pressure, not hyperalbuminemia) compounds the problem by further reducing intravascular oncotic pressure. Aldosterone secretion is actually increased in cirrhosis (secondary hyperaldosteronism), promoting sodium and water retention that worsens ascites. The net imbalance in Starling forces\u2014elevated hydrostatic plus reduced oncotic pressure\u2014drives transudation into the abdominal cavity.",
+      "keypoints": [
+        "\u2b50 Cirrhotic ascites: portal HTN (\u2191hydrostatic) + hypoalbuminemia (\u2193oncotic) \u2192 transudation",
+        "\u2b50 SAAG \u22651.1 g/dL indicates portal hypertension as the cause (exudate vs. transudate distinction)",
+        "Secondary hyperaldosteronism in cirrhosis \u2192 \u2191Na/H\u2082O retention \u2192 worsens ascites",
+        "Spontaneous bacterial peritonitis (SBP): complication of cirrhotic ascites; PMN >250 cells/\u03bcL diagnostic"
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "An 18-year-old man presents with a 2-week history of yellow skin and sclerae but is otherwise asymptomatic. He recalls a similar episode 2 years previously. His brother also has recurrent jaundice. The serum bilirubin is 5.2 mg/dL, mostly in the unconjugated form. Serum AST and ALT levels are normal, as is the urinalysis. Two weeks later, the jaundice resolves spontaneously. What is the most likely diagnosis?",
+      "choices": [
+        "\u03b11-Antitrypsin deficiency",
+        "Dubin-Johnson syndrome",
+        "Gilbert syndrome",
+        "Hereditary hemochromatosis",
+        "Wilson disease"
+      ],
+      "answer": 2,
+      "explanation": "Gilbert syndrome is a benign, inherited disorder of bilirubin conjugation causing mild, recurrent unconjugated hyperbilirubinemia (<6 mg/dL) with no underlying liver disease, hemolysis, or cholestasis. It runs in families and is exacerbated by fasting, illness, or stress. Liver enzymes and urinalysis are normal because there is no hepatocellular damage or bile duct obstruction. Dubin-Johnson syndrome (choice B) also presents with familial jaundice but features conjugated hyperbilirubinemia and dark pigment in hepatocytes.",
+      "keypoints": [
+        "\u2b50 Gilbert syndrome: \u2193UGT1A1 activity \u2192 unconjugated hyperbilirubinemia, triggered by fasting/stress",
+        "\u2b50 Key distinction: normal LFTs + unconjugated bili + no hemolysis = Gilbert; conjugated = Dubin-Johnson",
+        "Dubin-Johnson: conjugated hyperbilirubinemia, dark melanin-like pigment in hepatocytes, MRP2 mutation",
+        "Crigler-Najjar type I: complete UGT1A1 absence \u2192 kernicterus; type II (Arias): partial deficiency"
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 48-year-old woman has a 3-week history of fatigue as well as yellow skin and sclerae. Physical examination is unremarkable except for mild jaundice. The serum bilirubin level is 3.7 mg/dL, mostly in the unconjugated form. Liver function tests including serum AST, ALT, and alkaline phosphatase are normal. The hemoglobin level is 6.0 g/dL. After corticosteroids are administered, the jaundice resolves. Which of the following diseases is the most likely cause of hyperbilirubinemia in this patient?",
+      "choices": [
+        "Acute hepatitis B infection",
+        "Autoimmune hemolytic anemia",
+        "Gallstone in the common bile duct",
+        "Primary biliary cirrhosis",
+        "Primary sclerosing cholangitis"
+      ],
+      "answer": 1,
+      "explanation": "Autoimmune hemolytic anemia (AIHA) causes antibody-mediated RBC destruction, releasing large amounts of unconjugated bilirubin that exceeds the liver's conjugating capacity. The severe anemia (Hb 6.0 g/dL), unconjugated hyperbilirubinemia with normal liver enzymes, and corticosteroid responsiveness all point to AIHA rather than intrinsic liver disease. Parenchymal liver diseases (hepatitis, PBC, PSC) primarily cause conjugated hyperbilirubinemia and would show abnormal transaminases. Common bile duct stone (choice C) would cause conjugated hyperbilirubinemia with elevated alkaline phosphatase.",
+      "keypoints": [
+        "\u2b50 Unconjugated hyperbilirubinemia + normal LFTs + anemia = hemolytic cause (pre-hepatic jaundice)",
+        "\u2b50 Autoimmune hemolytic anemia: warm IgG antibodies; treat with steroids; Coombs test positive",
+        "Pre-hepatic (hemolytic): unconjugated \u2191, no bilirubinuria; hepatic: both; post-hepatic: conjugated \u2191, bilirubinuria",
+        "Corticosteroid response is a key clue for immune-mediated disorders (AIHA, autoimmune hepatitis)"
+      ]
+    },
+    {
+      "id": "q005",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 20-year-old woman presents with a 2-week history of fever, malaise, and brown-colored urine. She recently visited Mexico. Physical examination reveals jaundice, mild hepatomegaly, and tenderness in the right upper quadrant. The serum bilirubin is 7.8 mg/dL, with 60% in the conjugated form. Serum levels of AST and ALT are markedly elevated (400 and 392 U/L, respectively). Serum albumin and immunoglobulin levels are normal. Serum IgM anti\u2013hepatitis A virus (anti-HAV) is positive. IgG anti\u2013hepatitis B surface antigen (anti-HBsAg) antibodies are positive. Anti\u2013hepatitis C virus antibodies are negative. What is the most likely diagnosis?",
+      "choices": [
+        "Acute viral hepatitis A",
+        "Acute viral hepatitis B",
+        "Acute viral hepatitis C",
+        "Autoimmune hepatitis",
+        "Chronic viral hepatitis B"
+      ],
+      "answer": 0,
+      "explanation": "The positive IgM anti-HAV confirms acute hepatitis A infection; IgM antibodies are the hallmark of acute (not prior) HAV exposure. IgG anti-HBsAg indicates prior immunity to HBV (from prior infection or vaccination) but not active disease. Hepatitis A is an RNA virus transmitted by the fecal-oral route, never pursues a chronic course, and has no carrier state. The clinical picture\u2014recent travel to endemic area, acute onset, markedly elevated transaminases with conjugated hyperbilirubinemia\u2014is consistent with acute hepatitis A.",
+      "keypoints": [
+        "\u2b50 HAV serology: IgM anti-HAV = acute infection; IgG anti-HAV = past infection/immunity",
+        "\u2b50 HBV markers: HBsAg = active infection; anti-HBsAg IgG = immunity; anti-HBcAg IgM = acute; IgG = past",
+        "Hepatitis A: RNA virus, fecal-oral, NO chronic state, NO carrier; lifetime immunity after infection",
+        "Hepatitis E: also fecal-oral RNA virus, NO chronic state; dangerous in pregnancy (up to 20-40% mortality)"
+      ]
+    },
+    {
+      "id": "q006",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "A 3-day-old neonate born after a 32-week gestation develops yellow skin. Physical examination of the infant is unremarkable. Which of the following is most likely to be increased in this neonate's serum?",
+      "choices": [
+        "Alanine aminotransferase",
+        "Carotene",
+        "Conjugated bilirubin",
+        "Galactosyltransferase",
+        "Unconjugated bilirubin"
+      ],
+      "answer": 4,
+      "explanation": "Physiologic neonatal jaundice is caused by immature hepatic conjugation of bilirubin (low UGT1A1 activity), leading to elevated unconjugated bilirubin. This is more pronounced in premature infants due to even greater hepatic immaturity and increased RBC turnover. In utero, bilirubin crosses the placenta to be conjugated and excreted by the mother's liver. Conjugated hyperbilirubinemia in a neonate (choice C) would be pathologic, pointing toward biliary atresia or neonatal hepatitis.",
+      "keypoints": [
+        "\u2b50 Physiologic neonatal jaundice: unconjugated hyperbilirubinemia, day 2-3 of life; worse in premature infants",
+        "\u2b50 Danger: unconjugated bilirubin crosses BBB \u2192 kernicterus (basal ganglia damage); treat with phototherapy",
+        "Conjugated neonatal jaundice = always pathological (biliary atresia, neonatal hepatitis, Crigler-Najjar)",
+        "Biliary atresia: most common cause of neonatal cholestasis requiring surgery; Kasai procedure if early"
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A previously healthy 38-year-old man complains of yellow discoloration of his eyes, abdominal pain, and low-grade fever of 1-month duration. Physical examination demonstrates a distended abdomen, right upper quadrant tenderness, and a palpable liver edge 2 cm below the right costal margin. Total serum bilirubin is 7.4 mg/dL. Serum levels of AST and ALT are elevated (229 and 495 U/L, respectively). The prothrombin time is prolonged (18 seconds). A liver biopsy is shown in the image. The arrows point to Councilman bodies. The pathologic findings are indicative of which of the following liver diseases?",
+      "choices": [
+        "Acute viral hepatitis",
+        "Alcoholic cirrhosis",
+        "Cardiac cirrhosis",
+        "Hemochromatosis",
+        "Primary biliary cirrhosis"
+      ],
+      "answer": 0,
+      "explanation": "Acute viral hepatitis is characterized by hepatocyte ballooning degeneration, disarray of liver cell plates, intracellular and extracellular bile stasis, mononuclear inflammatory infiltrates, and Councilman (apoptotic) bodies\u2014eosinophilic, shrunken hepatocytes undergoing apoptosis. The markedly elevated transaminases with prolonged prothrombin time indicate acute, significant hepatocellular damage. Councilman bodies are apoptotic hepatocytes and are a hallmark of acute viral hepatitis, distinguishing it from chronic liver diseases (choices B-E).",
+      "image": "/images/path_ch14/lippincott_path_ch14_q7.png",
+      "imageAlt": "Liver biopsy showing disarray of hepatocytes and eosinophilic apoptotic (Councilman) bodies",
+      "imageCaption": "Liver biopsy: arrows indicate Councilman bodies (apoptotic hepatocytes) characteristic of acute viral hepatitis",
+      "keypoints": [
+        "\u2b50 Councilman (acidophil) bodies: eosinophilic, shrunken, apoptotic hepatocytes = hallmark of acute viral hepatitis",
+        "\u2b50 Acute hepatitis histology: ballooning degeneration + lobular disarray + mononuclear infiltrates + cholestasis",
+        "Prothrombin time elevation = liver synthetic dysfunction; most sensitive early marker of severity",
+        "Histologic pattern is similar across HAV, HBV, and HCV in acute infection; serology distinguishes them"
+      ]
+    },
+    {
+      "id": "q008",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 30-year-old man presents with a 9-month history of fatigue and recurrent fever. He also complains of yellow skin and sclerae, abdominal tenderness, and dark urine. Physical examination reveals jaundice and mild hepatomegaly. Laboratory studies demonstrate elevated serum bilirubin (3.1 mg/dL), decreased serum albumin (2.5 g/dL), and prolonged prothrombin time (17 seconds). Serologic tests reveal antibodies to hepatitis B core antigen (IgG anti-HBcAg). The serum is positive for HBsAg and HbeAg. A liver biopsy is shown in the image. What is the most likely diagnosis?",
+      "choices": [
+        "Acute hepatitis B",
+        "Alcoholic hepatitis",
+        "Chronic hepatitis B",
+        "Delta virus infection",
+        "Subacute hepatic necrosis secondary to hepatitis B infection"
+      ],
+      "answer": 2,
+      "explanation": "Chronic hepatitis B is defined as HBV infection with necrosis and inflammation persisting for more than 6 months. The presence of HBsAg, HBeAg (indicating active viral replication), and IgG anti-HBcAg (past immune response) along with 9 months of symptoms, hypoalbuminemia, and prolonged PT confirm chronic disease with hepatic dysfunction. The biopsy shows cirrhotic nodules surrounded by fibrous septa. HBeAg positivity correlates with high infectivity and active viral replication, predicting disease progression.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q8.png",
+      "imageAlt": "Liver biopsy showing hepatocellular nodules surrounded by fibrous septa consistent with cirrhosis in chronic hepatitis B",
+      "imageCaption": "Liver biopsy: hepatocellular nodules and chronically inflamed fibrous septa in chronic hepatitis B cirrhosis",
+      "keypoints": [
+        "\u2b50 HBV progression: acute \u2192 10% become chronic \u2192 10-30% of chronic \u2192 cirrhosis/HCC",
+        "\u2b50 HBeAg = active viral replication, high infectivity; anti-HBe = seroconversion, lower replication",
+        "Chronic hepatitis B: IgG anti-HBcAg (not IgM) + HBsAg persisting >6 months",
+        "HBV \u2192 200\u00d7 increased risk of HCC even without cirrhosis (direct oncogenic integration)"
+      ]
+    },
+    {
+      "id": "q009",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "The patient described in Question 8 is most likely to develop which of the following vascular inflammatory diseases?",
+      "choices": [
+        "Allergic angiitis",
+        "Buerger disease",
+        "Giant cell arteritis",
+        "Polyarteritis nodosa",
+        "Wegener granulomatosis"
+      ],
+      "answer": 3,
+      "explanation": "Polyarteritis nodosa (PAN) is a necrotizing arteritis of medium-sized vessels that occurs in up to 30% of patients with chronic hepatitis B due to circulating HBV immune complexes. These complexes deposit in vessel walls, activate complement, and cause neutrophil-mediated inflammatory destruction, potentially leading to aneurysm formation, renal thrombosis, and hemorrhage. None of the other vasculitides listed have an established association with hepatitis B infection.",
+      "keypoints": [
+        "\u2b50 HBV-associated extrahepatic manifestations: polyarteritis nodosa (PAN), membranous nephropathy, cryoglobulinemia",
+        "\u2b50 PAN: necrotizing arteritis of medium vessels; p-ANCA negative; spares pulmonary arteries; HBV-associated",
+        "Mechanism: immune complex deposition \u2192 complement activation \u2192 neutrophilic vessel wall destruction",
+        "HCV more commonly associated with cryoglobulinemia (type II mixed) \u2192 membranoproliferative GN"
+      ]
+    },
+    {
+      "id": "q010",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 40-year-old woman presents with a long history of vague upper abdominal pain and frequent indigestion. Physical examination reveals an obese woman with jaundice and abdominal tenderness. Serum bilirubin is elevated (4.2 mg/dL). There is a mild increase in serum AST and ALT (62 and 57 U/L, respectively) and a moderate increase in alkaline phosphatase (325 U/L). Markers for viral hepatitis are negative. Abdominal ultrasound examination shows echogenic stone-like material within the gallbladder and thickening of the gallbladder wall. An intrahepatic mass is also visualized adjacent to the gallbladder. A cholecystectomy is performed. Histologic examination shows dense fibrosis and glandular structures in the wall of the gallbladder. What is the most likely diagnosis?",
+      "choices": [
+        "Carcinoma of the gallbladder",
+        "Hemangiosarcoma",
+        "Hepatic adenoma",
+        "Hepatocellular carcinoma",
+        "Metastatic carcinoma of the stomach"
+      ],
+      "answer": 0,
+      "explanation": "Adenocarcinoma of the gallbladder arises from mucosal epithelium and is the most common malignant tumor of the biliary tract, often associated with chronic cholelithiasis. It frequently presents as an incidental finding during cholecystectomy. Obstructive jaundice results from invasion of the extrahepatic biliary tree. The elevated alkaline phosphatase disproportionate to transaminases points to biliary obstruction rather than hepatocellular injury. Histologically, it shows invasive glandular structures embedded in dense desmoplastic stroma.",
+      "keypoints": [
+        "\u2b50 Gallbladder carcinoma: #1 risk factor = chronic cholelithiasis (especially large stones >3 cm); female predominance",
+        "\u2b50 Porcelain gallbladder: calcified gallbladder wall \u2192 increased risk of gallbladder carcinoma",
+        "Cholestatic pattern: ALP >> AST/ALT; hepatocellular: AST/ALT >> ALP",
+        "Gallbladder carcinoma: poor prognosis; often found incidentally; 5-year survival <5% if symptomatic"
+      ]
+    },
+    {
+      "id": "q011",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 60-year-old man is found in a state of disorientation and is brought to the emergency room in a comatose state. He lived alone, ate poorly, and drank large amounts of hard liquor. Physical examination reveals an emaciated man with a distended abdomen, jaundice, ascites, and a slightly enlarged liver and spleen. A liver biopsy is shown in the image. What blood test would confirm a diagnosis of hepatic coma?",
+      "choices": [
+        "Alanine aminotransferase",
+        "Alkaline phosphatase",
+        "Ammonia",
+        "Bilirubin",
+        "Urea nitrogen"
+      ],
+      "answer": 2,
+      "explanation": "Hepatic encephalopathy (hepatic coma) results from accumulation of neurotoxic substances, most importantly ammonia, which is normally detoxified to urea by the liver. In cirrhosis, the failing liver cannot clear ammonia from portal blood, and portosystemic shunts bypass hepatic clearance entirely. Elevated serum ammonia is the confirmatory test for hepatic encephalopathy. Transaminases and bilirubin are elevated in many liver diseases but are not specific for encephalopathy; BUN (urea nitrogen) reflects kidney function.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q11.png",
+      "imageAlt": "Liver biopsy showing regenerative nodules of hepatocytes surrounded by fibrous septa consistent with cirrhosis",
+      "imageCaption": "Liver biopsy: micronodular cirrhosis with regenerative hepatocellular nodules enclosed by fibrous septa",
+      "keypoints": [
+        "\u2b50 Hepatic encephalopathy: \u2191serum NH\u2083 \u2192 neurotoxicity; treat with lactulose (acidifies colon, traps NH\u2084\u207a) + rifaximin",
+        "\u2b50 Asterixis (flapping tremor) = characteristic sign of hepatic encephalopathy",
+        "Portosystemic shunting allows NH\u2083 from gut bacteria to bypass liver \u2192 direct CNS toxicity",
+        "Precipitants: GI bleed (protein load), infection, sedatives, hypokalemia, constipation"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 20-year-old woman presents with a 4-week history of dry mouth, fatigue, fever, and yellow sclerae. Physical examination shows mild jaundice and hepatomegaly. Serum total bilirubin is 3.3 mg/dL. Serologic markers for viral hepatitis are negative. The anti-mitochondrial antibody test is negative. A liver biopsy discloses parenchymal and periportal inflammatory cell infiltrates composed primarily of lymphocytes and plasma cells. The patient's signs and symptoms abate following 2 months of treatment with steroids. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Autoimmune hepatitis",
+        "Extrahepatic jaundice",
+        "Primary biliary cirrhosis",
+        "Primary sclerosing cholangitis",
+        "Wilson disease"
+      ],
+      "answer": 0,
+      "explanation": "Autoimmune hepatitis (AIH) is characterized by chronic hepatitis with circulating autoantibodies (ANA, ASMA, anti-LKM), high serum immunoglobulins, and a liver biopsy showing lymphoplasmacytic portal inflammation with interface hepatitis. It predominantly affects young women, responds dramatically to corticosteroids, and is associated with other autoimmune diseases (Sj\u00f6gren syndrome, SLE). Primary biliary cirrhosis (choice C) features anti-mitochondrial antibodies and bile duct destruction, while PSC (choice D) shows 'onion-skin' periductal fibrosis and a beaded biliary tree on imaging.",
+      "keypoints": [
+        "\u2b50 Autoimmune hepatitis: young women, ANA/ASMA (type 1) or anti-LKM1 (type 2), \u2191IgG, responds to steroids",
+        "\u2b50 Interface hepatitis (piecemeal necrosis): lymphoplasmacytic infiltration beyond portal tract = hallmark",
+        "AIH vs PBC: both young women, but PBC = anti-mitochondrial Ab, pruritus, cholestatic LFTs, no steroid response",
+        "AIH associations: Sj\u00f6gren syndrome, autoimmune thyroiditis, SLE, type 1 diabetes"
+      ]
+    },
+    {
+      "id": "q013",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 52-year-old recent immigrant from Vietnam complains of abdominal swelling, weight loss, and upper abdominal pain of 3 weeks in duration. His past medical history includes malaria and infection with the liver fluke Clonorchis sinensis. The liver is hard to palpation. An abdominal CT scan shows a hypoattenuated mass with lobulated margins in the liver. A biopsy discloses well-differentiated neoplastic glands embedded in a dense fibrous stroma. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Carcinoma of the gallbladder",
+        "Cholangiocarcinoma",
+        "Hemangiosarcoma",
+        "Hepatocellular carcinoma",
+        "Metastatic colon adenocarcinoma"
+      ],
+      "answer": 1,
+      "explanation": "Cholangiocarcinoma (biliary tract carcinoma) arises from bile duct epithelium anywhere from the large intrahepatic ducts to peripheral bile ductules. It is strongly associated with infestation by the liver fluke Clonorchis sinensis (endemic in Southeast Asia), which inhabits the biliary tree and causes chronic biliary inflammation. Histologically, it shows well-differentiated glandular structures within a dense desmoplastic (fibrous) stroma. Primary sclerosing cholangitis is another major risk factor. HCC (choice D) typically shows hepatocellular rather than glandular differentiation.",
+      "keypoints": [
+        "\u2b50 Cholangiocarcinoma risk factors: Clonorchis sinensis (SE Asia), primary sclerosing cholangitis, Caroli disease",
+        "\u2b50 Klatskin tumor: cholangiocarcinoma at hepatic duct bifurcation (hilar); most common location",
+        "Histology: adenocarcinoma with dense desmoplastic stroma; CEA/CA 19-9 may be elevated",
+        "Cholangiocarcinoma: poor prognosis; most unresectable at diagnosis"
+      ]
+    },
+    {
+      "id": "q014",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "A 58-year-old man with longstanding alcoholic cirrhosis presents with abdominal pain, fever, and an episode of hematemesis. Physical examination reveals jaundice and a markedly distended abdomen. The patient is disoriented and has a coarse flapping tremor of the hands. Laboratory studies reveal modestly elevated serum levels of AST and ALT (96 and 92 U/L, respectively) and a high serum level of alkaline phosphatase (320 U/L). Prothrombin time is prolonged (20 seconds). The WBC count is 18,000/\u03bcL. Shortly after admission, the patient develops coma, adult respiratory distress syndrome, and renal failure (oliguria and elevated serum levels of BUN and creatinine), leading to death within 3 days. Histologic examination of the patient's kidney at autopsy would most likely show which of the following?",
+      "choices": [
+        "Interstitial nephritis",
+        "Membranous nephropathy",
+        "No histologic changes",
+        "Proliferative glomerulonephritis",
+        "Pyelonephritis"
+      ],
+      "answer": 2,
+      "explanation": "Hepatorenal syndrome (HRS) is a functional renal failure that complicates severe cirrhosis. The kidney appears histologically normal because the failure is caused by intense vasoconstriction and hypoperfusion\u2014not by intrinsic renal damage. Hormones and vasoactive substances not cleared by the failing liver cause splanchnic vasodilation with compensatory renal vasoconstriction. This is confirmed by the fact that kidneys from HRS patients function normally when transplanted into individuals with healthy livers.",
+      "keypoints": [
+        "\u2b50 Hepatorenal syndrome: functional renal failure in cirrhosis; kidney histology NORMAL; no structural damage",
+        "\u2b50 Mechanism: splanchnic vasodilation \u2192 \u2193effective arterial volume \u2192 renal vasoconstriction \u2192 oliguria",
+        "HRS type 1: rapid (<2 weeks) doubling of Cr; HRS type 2: slower, associated with refractory ascites",
+        "Distinction: HRS has low urine Na (<10 mEq/L), unlike ATN (>20 mEq/L)"
+      ]
+    },
+    {
+      "id": "q015",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "A liver biopsy in the patient described in Question 14 would definitely show which of the following pathologic changes?",
+      "choices": [
+        "Dilated bile ducts and portal inflammation",
+        "Fatty liver",
+        "Nodular regeneration and scarring",
+        "Periportal necrosis and peripheral cholestasis",
+        "Scattered single cell necrosis and acidophilic bodies"
+      ],
+      "answer": 2,
+      "explanation": "This patient has longstanding alcoholic cirrhosis, which is defined by the triad of hepatocellular necrosis, fibrosis, and regenerative nodule formation. Approximately 15% of alcoholics progress from steatosis through alcoholic hepatitis to cirrhosis, where nodular regeneration with surrounding fibrous septa is the defining morphologic feature. Fatty liver (choice B) alone is reversible and does not define cirrhosis. Acidophilic bodies and scattered necrosis (choice E) are features of acute hepatitis, not end-stage cirrhosis.",
+      "keypoints": [
+        "\u2b50 Alcoholic liver disease progression: steatosis \u2192 alcoholic hepatitis \u2192 cirrhosis (only 15% reach cirrhosis)",
+        "\u2b50 Cirrhosis defined by: regenerative nodules + bridging fibrosis/scarring (irreversible at this stage)",
+        "Mallory-Weiss hyaline (eosinophilic cytoplasmic inclusions of intermediate filaments): alcoholic hepatitis marker",
+        "Alcoholic hepatitis histology: steatosis + Mallory hyaline + neutrophilic infiltrate + centrilobular necrosis"
+      ]
+    },
+    {
+      "id": "q016",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 40-year-old black woman has frequent indigestion after meals and abdominal pain. Physical examination demonstrates a moderately obese woman in no acute distress. An ultrasound examination demonstrates numerous echogenic objects within the gallbladder. A cholecystectomy is performed, and the surgical specimen is shown in the image. The gallstones seen in this patient are typically associated with which of the following diseases?",
+      "choices": [
+        "Chronic pancreatitis",
+        "Diabetes mellitus",
+        "Familial hypercholesterolemia",
+        "Hyperparathyroidism",
+        "Sickle cell disease"
+      ],
+      "answer": 4,
+      "explanation": "The image shows multiple small, black (pigmented) gallstones, which contain calcium bilirubinate and bilirubin polymers. Pigment stones form when excess unconjugated bilirubin\u2014from chronic hemolysis\u2014is excreted into bile, where it precipitates. Sickle cell disease causes chronic hemolytic anemia, making patients highly susceptible to pigment stone formation. Cholesterol stones (yellow, round, larger) are associated with obesity, female sex, diabetes, and estrogen (the 'fat, fertile, forty, female' mnemonic), not hemolysis.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q16.png",
+      "imageAlt": "Gallbladder specimen opened to show multiple small black pigment gallstones",
+      "imageCaption": "Cholecystectomy specimen: multiple small black (pigmented) gallstones containing calcium bilirubinate",
+      "keypoints": [
+        "\u2b50 Pigment stones (black): calcium bilirubinate; caused by chronic hemolysis (sickle cell, hereditary spherocytosis, thalassemia)",
+        "\u2b50 Cholesterol stones (yellow): supersaturated bile; associated with obesity, female, pregnancy, OCP, rapid weight loss",
+        "Brown pigment stones: infection/stasis in bile ducts (bacteria deconjugate bilirubin \u2192 precipitate)",
+        "Gallstone complications: biliary colic, acute cholecystitis, cholangitis, pancreatitis, gallstone ileus"
+      ]
+    },
+    {
+      "id": "q017",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 25-year-old heroin addict presents in a disoriented state with a 5-day history of fatigue, malaise, and dark-colored urine. Physical examination reveals jaundice and multiple petechial hemorrhages on the upper extremities. Laboratory studies show serum bilirubin of 15.6 mg/dL, mostly in the conjugated form, 10-fold elevations of serum AST and ALT, high levels of blood ammonia, and increased prothrombin time (15 seconds). The patient's condition deteriorates and he develops stage 4 hepatic encephalopathy. A liver biopsy is shown in the image. Which of the following viruses is most likely responsible for the clinical and pathologic findings in this patient?",
+      "choices": [
+        "Cytomegalovirus",
+        "Hepatitis A virus",
+        "Hepatitis B virus",
+        "Hepatitis C virus",
+        "Hepatitis E virus"
+      ],
+      "answer": 2,
+      "explanation": "This heroin addict presents with fulminant hepatic failure (massive hepatic necrosis) \u2014 the most feared complication of acute hepatitis. HBV is the most common cause of massive hepatic necrosis leading to fulminant hepatic failure, particularly in IV drug users who are exposed parenterally. The liver appears shrunken with hemorrhagic necrotic parenchyma and collapsed reticulin framework. HAV, HCV, and HEV rarely cause massive hepatic necrosis; HAV and HEV cannot be transmitted parenterally (fecal-oral route).",
+      "image": "/images/path_ch14/lippincott_path_ch14_q17.png",
+      "imageAlt": "Liver biopsy showing massive hepatic necrosis with hemorrhage and collapsed reticulin framework",
+      "imageCaption": "Liver biopsy: massive hepatic necrosis with hemorrhagic lobules and collapsed reticulin framework (fulminant hepatitis B)",
+      "keypoints": [
+        "\u2b50 Massive hepatic necrosis: most common cause = HBV; liver shrunken, wrinkled capsule, hemorrhagic parenchyma",
+        "\u2b50 Fulminant hepatic failure: encephalopathy + coagulopathy within 8 weeks of acute liver disease; <25% survival without transplant",
+        "HBV transmission: blood/sexual/perinatal \u2014 parenteral route is key in IV drug users",
+        "HDV (delta virus) coinfection or superinfection with HBV dramatically worsens prognosis"
+      ]
+    },
+    {
+      "id": "q018",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "A 25-year-old woman complains of sudden onset of acute abdominal pain. Physical examination shows abdominal distention. Her temperature is 37\u00b0C (98.6\u00b0F), respirations 22 per minute, heart rate 110 per minute, and blood pressure 70/50 mm Hg. A tap of the abdomen returns blood. A CT scan reveals a solitary 20-cm mass of the liver. A surgically resected portion of the liver is shown in the image. This patient's tumor was most likely associated with chronic exposure to which of the following?",
+      "choices": [
+        "Carbon tetrachloride",
+        "Halothane",
+        "L-thyroxine",
+        "Oral contraceptives",
+        "Vinyl chloride"
+      ],
+      "answer": 3,
+      "explanation": "Hepatic adenoma is a benign hepatocellular tumor strongly associated with long-term use of oral contraceptive steroids. It typically presents as a large, solitary, encapsulated mass that can spontaneously rupture into the peritoneal cavity, causing life-threatening hemoperitoneum and hypovolemic shock\u2014as demonstrated by this patient's hypotension and abdominal blood on tap. The tumor is encapsulated and paler than surrounding parenchyma. Vinyl chloride (choice E) causes angiosarcoma of the liver, not adenoma.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q18.png",
+      "imageAlt": "Surgically resected liver specimen showing a large encapsulated hepatic adenoma with hemorrhagic areas",
+      "imageCaption": "Resected hepatic adenoma: large, encapsulated pale mass with hemorrhage in young woman on OCPs",
+      "keypoints": [
+        "\u2b50 Hepatic adenoma: young women on OCPs; benign but can rupture \u2192 hemoperitoneum; resolves with OCP cessation",
+        "\u2b50 Hepatic adenoma vs FNH: adenoma has no central scar, regresses with OCP stoppage; FNH has stellate central scar",
+        "Angiosarcoma of liver: vinyl chloride, thorotrast, arsenic exposure; hemorrhagic, rapidly fatal",
+        "Rupture of hepatic adenoma: #1 complication; presents as acute abdominal emergency with hemodynamic instability"
+      ]
+    },
+    {
+      "id": "q019",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 15-year-old boy complains of a 2-month history of fatigue, abdominal pain, and yellow eyes and skin. Physical examination shows tremor of his hands, lack of coordination, and mild jaundice. The results of an ophthalmic examination are shown in the image. This patient most likely has an inborn error of metabolism associated with tissue overload of which of the following elements?",
+      "choices": [
+        "Copper",
+        "Iron",
+        "Lead",
+        "Magnesium",
+        "Mercury"
+      ],
+      "answer": 0,
+      "explanation": "Wilson disease is an autosomal recessive disorder of copper metabolism (ATP7B mutation) causing toxic accumulation of copper in the liver, brain, and other tissues. The ophthalmic image shows Kayser-Fleischer rings\u2014gold-brown copper deposits in Descemet's membrane of the cornea\u2014which are pathognomonic for Wilson disease. Neuropsychiatric features (tremor, lack of coordination) result from copper deposition in the basal ganglia. The liver in Wilson disease shows chronic hepatitis progressing to cirrhosis.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q19.png",
+      "imageAlt": "Slit-lamp eye examination showing Kayser-Fleischer rings - golden-brown copper deposits at the corneal periphery",
+      "imageCaption": "Slit-lamp examination: Kayser-Fleischer rings (brown copper deposits in Descemet's membrane) \u2014 pathognomonic for Wilson disease",
+      "keypoints": [
+        "\u2b50 Wilson disease: ATP7B mutation \u2192 copper overload; liver + basal ganglia + cornea (Kayser-Fleischer rings)",
+        "\u2b50 Labs: \u2191urine copper, \u2191hepatic copper, \u2193ceruloplasmin (usually), \u2191serum free copper",
+        "Kayser-Fleischer rings = pathognomonic; best seen on slit-lamp; absent in ~50% with only liver disease",
+        "Treatment: D-penicillamine (copper chelation) or zinc (blocks copper absorption)"
+      ]
+    },
+    {
+      "id": "q020",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 49-year-old woman presents with a 1-month history of yellow discoloration of her eyes, abdominal pain, malaise, weight loss, and low-grade fever (38.4\u00b0C, 101\u00b0F). Physical examination shows a distended abdomen with right upper quadrant tenderness and a palpable liver 2 cm below the right costal margin. Laboratory studies reveal decreased serum albumin (2.6 g/dL), elevated serum AST (225 U/L) and ALT (150 U/L), and increased alkaline phosphatase (210 U/L). The prothrombin time is prolonged (15 seconds). A moderate leukocytosis (13,500/\u03bcL, 80% neutrophils) is observed. A liver biopsy is shown in the image. These pathologic findings are most commonly associated with which of the following liver diseases?",
+      "choices": [
+        "Alcoholic hepatitis",
+        "Chronic hepatitis B",
+        "Chronic hepatitis C",
+        "Hemochromatosis",
+        "Primary biliary cirrhosis"
+      ],
+      "answer": 0,
+      "explanation": "The liver biopsy in alcoholic hepatitis shows hepatic steatosis, hydropic swelling of hepatocytes, focal hepatocellular necrosis, neutrophilic infiltration, and cytoplasmic Mallory hyaline bodies (precipitated intermediate filaments). The clinical picture\u2014fever, elevated transaminases with neutrophilic leukocytosis, hypoalbuminemia, and prolonged PT\u2014is classic for alcoholic hepatitis. Mallory bodies can rarely appear in PBC and NASH, but the full histologic constellation (especially the neutrophilic infiltrate) is most characteristic of alcoholic hepatitis.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q20.png",
+      "imageAlt": "Liver biopsy showing steatosis, Mallory hyaline bodies (eosinophilic cytoplasmic inclusions), and neutrophilic infiltration",
+      "imageCaption": "Liver biopsy: alcoholic hepatitis showing steatosis, ballooning hepatocytes with Mallory hyaline, and neutrophilic infiltration",
+      "keypoints": [
+        "\u2b50 Alcoholic hepatitis histology: steatosis + Mallory hyaline (cytokeratin clumps) + neutrophils + centrilobular necrosis",
+        "\u2b50 AST:ALT ratio >2:1 suggests alcoholic liver disease (alcohol inhibits ALT more than AST)",
+        "Mallory-Weiss hyaline: eosinophilic paranuclear inclusions of ubiquitinated intermediate filaments",
+        "Alcoholic hepatitis vs acute viral hepatitis: neutrophilic (alcoholic) vs mononuclear (viral) infiltrate"
+      ]
+    },
+    {
+      "id": "q021",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "A 36-year-old woman presents with a 6-month history of progressive generalized itching, weight loss, fatigue, and yellow sclerae. She denies use of oral contraceptives or any other medication. Physical examination reveals mild jaundice and steatorrhea. Blood studies show a high cholesterol level of 350 mg/dL, elevated serum alkaline phosphatase (240 U/L), and normal levels of AST and ALT. An intravenous cholangiogram shows no evidence of obstruction. An antimitochondrial antibody test is positive; antinuclear antibodies are not present. Which of the following skin manifestations is expected in this patient?",
+      "choices": [
+        "Acanthosis nigricans",
+        "Hyperpigmentation",
+        "Keratoacanthoma",
+        "Seborrheic keratosis",
+        "Xanthoma"
+      ],
+      "answer": 4,
+      "explanation": "Primary biliary cirrhosis (PBC) is a chronic autoimmune liver disease characterized by destruction of intrahepatic bile ducts, leading to cholestasis and secondary hypercholesterolemia. The hallmark is anti-mitochondrial antibodies (AMA), present in >95% of cases. Elevated serum cholesterol in PBC causes xanthoma formation (lipid deposits in skin and tendons). Other features include pruritus, fatigue, steatorrhea (fat malabsorption from cholestasis), and jaundice. PBC has a strong female predominance (10:1).",
+      "keypoints": [
+        "\u2b50 PBC: anti-mitochondrial antibody (AMA) \u226595% sensitive; targets pyruvate dehydrogenase complex",
+        "\u2b50 PBC features: pruritus, cholestatic LFTs (\u2191ALP), xanthomas, steatorrhea, fat-soluble vitamin deficiency",
+        "PBC \u2192 \u2191cholesterol \u2192 xanthelasma (periorbital) and xanthoma (tendons/skin)",
+        "Treatment: ursodeoxycholic acid (UDCA) slows progression; liver transplant for end-stage PBC"
+      ]
+    },
+    {
+      "id": "q022",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "For the patient described in Question 21, a liver biopsy would most likely show which of the following pathologic findings?",
+      "choices": [
+        "Central hyaline sclerosis",
+        "Cholangiocarcinoma",
+        "Hemosiderosis",
+        "Intrahepatic bile duct damage",
+        "Macrovesicular steatosis"
+      ],
+      "answer": 3,
+      "explanation": "Primary biliary cirrhosis is characterized pathologically by chronic destruction of small and medium-sized intrahepatic bile ducts by CD8+ T lymphocytes, plasma cells, and macrophages, with lymphoid follicles and epithelioid granulomas in portal tracts. The progressive destructive cholangitis leads to bile duct disappearance, scarring, biliary fibrosis, and ultimately cirrhosis. The end-stage liver appears dark green and finely nodular from bile stasis. Macrovesicular steatosis (choice E) is characteristic of alcoholic and nonalcoholic fatty liver disease, not PBC.",
+      "keypoints": [
+        "\u2b50 PBC histology: lymphoplasmacytic destruction of intrahepatic bile ducts + epithelioid granulomas in portal tracts",
+        "\u2b50 PBC stages: ductal inflammation \u2192 scarring/fibrosis \u2192 cirrhosis (dark green, finely nodular)",
+        "Bile duct loss (ductopenia) \u2192 cholestasis \u2192 secondary fat-soluble vitamin deficiency (A, D, E, K)",
+        "PBC vs PSC: PBC = intrahepatic small ducts + AMA; PSC = intra+extrahepatic + p-ANCA + IBD association"
+      ]
+    },
+    {
+      "id": "q023",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "A 60-year-old man has a 6-month history of abdominal swelling. On a daily basis, he smokes two packs of cigarettes, drinks five cups of coffee, and reports that he consumes 2 six-packs of beer. Physical examination shows a distended abdomen with a palpable liver 2 cm below the costal margin. A liver biopsy is shown in the image. If this patient becomes abstinent, his liver will most likely do which of the following?",
+      "choices": [
+        "Develop hepatocellular carcinoma",
+        "Progress to cirrhosis",
+        "Progress to inflammatory hepatitis",
+        "Remain unchanged",
+        "Revert to normal"
+      ],
+      "answer": 4,
+      "explanation": "The liver biopsy shows macrovesicular steatosis (alcoholic fatty liver), where hepatocytes are enlarged and filled with fat droplets. Alcoholic fatty liver is the earliest and most reversible stage of alcoholic liver disease. Triglyceride accumulation by itself causes no permanent damage, and the condition fully reverses within weeks of alcohol abstinence. Unlike alcoholic hepatitis or cirrhosis, steatosis alone does not carry an inherent risk of progression without continued alcohol exposure.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q23.png",
+      "imageAlt": "Liver biopsy showing hepatocytes distended with large lipid droplets (macrovesicular steatosis)",
+      "imageCaption": "Liver biopsy: macrovesicular steatosis \u2014 hepatocytes engorged with large fat droplets, consistent with alcoholic fatty liver",
+      "keypoints": [
+        "\u2b50 Alcoholic fatty liver (steatosis): earliest stage; macrovesicular; completely REVERSIBLE with abstinence",
+        "\u2b50 Progression hierarchy: steatosis (reversible) \u2192 alcoholic hepatitis (variable) \u2192 cirrhosis (irreversible, 15%)",
+        "Macrovesicular steatosis: single large fat vacuole displaces nucleus to periphery (vs microvesicular in Reye's, acute fatty liver of pregnancy)",
+        "Fatty liver \u2260 alcoholic hepatitis: no Mallory bodies, no neutrophils, no necrosis in pure steatosis"
+      ]
+    },
+    {
+      "id": "q024",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "A 54-year-old man presents with a 9-month history of progressive skin pigmentation. He passes large amounts of urine and is always thirsty. His father died of liver cancer. Physical examination reveals a dark skin color and an enlarged liver. Laboratory studies show normal serum levels of corticotropin. A glucose tolerance test indicates chemical diabetes. A liver biopsy stained with Prussian blue is shown in the image. If untreated, which of the following conditions is most likely to develop in this patient?",
+      "choices": [
+        "Acute hepatitis",
+        "Addison disease",
+        "Cholangiocarcinoma",
+        "Cholelithiasis",
+        "Hepatocellular carcinoma"
+      ],
+      "answer": 4,
+      "explanation": "Hereditary hemochromatosis (HH) is the most common autosomal recessive genetic disorder in northern Europeans (HFE gene mutation), causing excessive iron absorption and toxic iron accumulation in liver, heart, and pancreas. The Prussian blue stain shows blue iron deposits within hepatocytes. Untreated HH leads to cirrhosis and a markedly elevated incidence of hepatocellular carcinoma. The classic triad is 'bronze diabetes' \u2014 skin hyperpigmentation, diabetes mellitus (pancreatic iron damage), and liver cirrhosis. Addison disease (choice B) also causes skin pigmentation but from adrenal destruction, with low ACTH.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q24.png",
+      "imageAlt": "Prussian blue-stained liver biopsy showing blue iron deposits within hepatocytes in hereditary hemochromatosis",
+      "imageCaption": "Prussian blue stain: blue iron deposits in hepatocytes \u2014 diagnostic of hereditary hemochromatosis",
+      "keypoints": [
+        "\u2b50 Hereditary hemochromatosis: HFE mutation (C282Y); autosomal recessive; iron overload \u2192 liver, pancreas, heart, skin",
+        "\u2b50 Classic triad: 'Bronze diabetes' \u2014 skin hyperpigmentation + diabetes + cirrhosis (\u2192 HCC if untreated)",
+        "Prussian blue stain: specific for iron (blue); distinguish from hemosiderin in other conditions",
+        "Treatment: therapeutic phlebotomy; chelation with deferoxamine; early treatment prevents HCC"
+      ]
+    },
+    {
+      "id": "q025",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 28-year-old woman presents with a 4-day history of abdominal pain and increasing abdominal girth. She does not drink alcoholic beverages, but smokes a pack of cigarettes a day. Except for oral contraceptives, she takes no medications. Physical examination shows hepatomegaly, ascites, and mild jaundice. A liver biopsy is obtained (shown in the image). Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Budd-Chiari syndrome",
+        "Chronic hepatitis B",
+        "Extrahepatic cholestasis",
+        "Primary biliary cirrhosis",
+        "Secondary biliary cirrhosis"
+      ],
+      "answer": 0,
+      "explanation": "Budd-Chiari syndrome is caused by occlusion of the hepatic veins, leading to severe centrilobular congestion, necrosis, and hemorrhage. It is associated with hypercoagulable states\u2014oral contraceptives are a classic precipitant through their prothrombotic effects. The biopsy shows centrilobular hemorrhage and dilated, erythrocyte-filled central vein sinusoids. Clinically, Budd-Chiari presents acutely with abdominal pain, hepatomegaly, and ascites, potentially progressing to fulminant hepatic failure.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q25.png",
+      "imageAlt": "Liver biopsy showing severe centrilobular necrosis and hemorrhage with dilated sinusoids packed with red blood cells",
+      "imageCaption": "Liver biopsy: centrilobular hemorrhagic necrosis with dilated sinusoids \u2014 characteristic of Budd-Chiari syndrome",
+      "keypoints": [
+        "\u2b50 Budd-Chiari syndrome: hepatic vein thrombosis \u2192 centrilobular congestion/necrosis; classic presentation: hepatomegaly + ascites + absent hepatic veins on Doppler",
+        "\u2b50 Risk factors: OCP, polycythemia vera, paroxysmal nocturnal hemoglobinuria, hypercoagulable states, pregnancy",
+        "Pathology: centrilobular (zone 3) hemorrhagic necrosis + dilated sinusoids (nutmeg liver)",
+        "Treatment: anticoagulation, TIPS (transjugular intrahepatic portosystemic shunt), liver transplant"
+      ]
+    },
+    {
+      "id": "q026",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "A 47-year-old woman presents with a 3-month history of vague upper abdominal pain after fatty meals, some abdominal distension, and frequent indigestion. Physical examination shows an obese woman (BMI = 30 kg/m2) with right upper quadrant tenderness. An ultrasound examination discloses multiple echogenic objects in the gallbladder. The opened gallbladder is shown in the image. Which of the following metabolic changes is most likely associated with the formation of gallstones in this patient?",
+      "choices": [
+        "Decreased hepatic bilirubin conjugation",
+        "Decreased serum albumin",
+        "Increased bilirubin uptake by the liver",
+        "Increased hepatic calcium secretion",
+        "Increased hepatic cholesterol secretion"
+      ],
+      "answer": 4,
+      "explanation": "The image shows round, yellow-tan cholesterol gallstones, characteristic of lithogenic bile supersaturated with cholesterol. In obese women, the liver secretes excess cholesterol into bile, and when bile becomes supersaturated with cholesterol (relative to bile acids and lecithin), cholesterol crystallizes and forms stones. Risk factors follow the '5 Fs': fat, female, fertile, forty, and family. Gallbladder stasis (impaired motor function) also promotes stone formation by allowing crystallization.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q26.png",
+      "imageAlt": "Opened gallbladder showing multiple round, yellow-tan cholesterol gallstones",
+      "imageCaption": "Gallbladder opened to reveal multiple round, yellow cholesterol gallstones in an obese woman",
+      "keypoints": [
+        "\u2b50 Cholesterol stones: supersaturation of bile with cholesterol (\u2191secretion or \u2193bile acids/lecithin)",
+        "\u2b50 Risk factors: 5 Fs \u2014 Fat, Female, Fertile, Forty, Family history; also: OCP, rapid weight loss, TPN",
+        "Cholesterol stones are radiolucent (vs calcium-containing pigment stones which are radiopaque)",
+        "Bile = cholesterol + bile acids + lecithin; imbalance \u2192 lithogenic bile"
+      ]
+    },
+    {
+      "id": "q027",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "For the patient described in Question 26, which of the following is a common complication?",
+      "choices": [
+        "Bile peritonitis",
+        "Chronic passive congestion of the liver",
+        "Confluent hepatic necrosis",
+        "Extrahepatic biliary obstruction",
+        "Primary hepatocellular carcinoma"
+      ],
+      "answer": 3,
+      "explanation": "Cholelithiasis most commonly causes complications through biliary obstruction. Stones passing into the cystic duct cause biliary colic (intermittent severe RUQ pain), while lodge in the common bile duct (choledocholithiasis) causes obstructive jaundice, ascending cholangitis (Charcot's triad: fever/chills, jaundice, RUQ pain), and acute pancreatitis. Cholelithiasis increases the risk of acute pancreatitis 25-fold compared to the general population. Bile peritonitis (choice A), confluent hepatic necrosis (choice C), and HCC (choice E) are not standard complications of gallstones.",
+      "keypoints": [
+        "\u2b50 Choledocholithiasis \u2192 Charcot's triad (fever, jaundice, RUQ pain) + Reynold's pentad adds AMS + hypotension",
+        "\u2b50 Gallstones are #1 cause of acute pancreatitis in women; 25\u00d7 increased risk vs. general population",
+        "Gallstone ileus: rare; stone erodes into small bowel \u2192 mechanical SBO; air in biliary tree on X-ray",
+        "Mirizzi syndrome: gallstone compresses common hepatic duct from outside \u2192 obstructive jaundice"
+      ]
+    },
+    {
+      "id": "q028",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 68-year-old man complains of vague abdominal pain, intermittent fever, and a 20-lb (9-kg) weight loss over the past 6 months. For the past 12 years, he has suffered from chronic hepatitis B. On physical examination, the patient shows diffuse abdominal tenderness, hepatomegaly, and mild jaundice. A CT scan of the abdomen reveals a diffusely nodular liver, with a dominant mass measuring 3 cm in diameter. A needle biopsy is shown in the image. Which of the following serum markers is useful for monitoring the progression of disease in this patient?",
+      "choices": [
+        "Alkaline phosphatase",
+        "Alpha-fetoprotein",
+        "Anti-HBc antibody",
+        "Carcinoembryonic antigen",
+        "Human chorionic gonadotropin"
+      ],
+      "answer": 1,
+      "explanation": "Alpha-fetoprotein (AFP) is a glycoprotein synthesized in the fetal liver and yolk sac that is normally absent in adults. Elevated serum AFP is a highly useful tumor marker for monitoring hepatocellular carcinoma (HCC), and AFP levels fall after surgical resection or successful treatment. Chronic hepatitis B confers a 200-fold increased risk of HCC. CEA (choice D) is used for colorectal and GI cancers; hCG (choice E) for gestational and germ cell tumors. Alkaline phosphatase (choice A) is non-specific for HCC.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q28.png",
+      "imageAlt": "Liver needle biopsy showing neoplastic hepatocytes with prominent nucleoli in hepatocellular carcinoma",
+      "imageCaption": "Needle biopsy: hepatocellular carcinoma showing neoplastic hepatocytes with pleomorphic nuclei, in background of chronic HBV cirrhosis",
+      "keypoints": [
+        "\u2b50 AFP: primary tumor marker for HCC; also elevated in germ cell tumors and normal pregnancy",
+        "\u2b50 HCC risk: chronic HBV \u2192 200\u00d7 risk; chronic HCV \u2192 most HCC cases in Western countries",
+        "HCC screening in cirrhosis: ultrasound + AFP every 6 months",
+        "HCC hallmarks: arterial enhancement + venous washout on CT/MRI = diagnostic (no biopsy needed if classic)"
+      ]
+    },
+    {
+      "id": "q029",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 30-year-old man presents with a 3-week history of fatigue, occasional fever, yellow skin and sclerae, tenderness below the right costal margin, and dark urine. Physical examination reveals jaundice and mild hepatomegaly. Laboratory studies show elevated serum levels of bilirubin, decreased albumin, and prolonged prothrombin time. Serologic tests disclose antibodies to hepatitis C virus. Which of the following tests is the most accurate method for assessing the extent of liver disease in this patient?",
+      "choices": [
+        "Liver biopsy",
+        "Serum alkaline phosphatase",
+        "Serum ammonia",
+        "Serum immunoglobulins",
+        "Serum transaminases"
+      ],
+      "answer": 0,
+      "explanation": "Liver biopsy remains the gold standard for assessing the histologic grade (degree of inflammation) and stage (degree of fibrosis) of chronic liver disease, including hepatitis C. It allows direct visualization of hepatocellular injury, inflammatory infiltrates, bile stasis, and fibrosis extent. Serum transaminases (choice E) and alkaline phosphatase (choice B) reflect the degree of liver inflammation and cholestasis, respectively, but do not accurately reflect chronicity or fibrosis stage. Serum ammonia (choice C) monitors encephalopathy risk but not disease extent.",
+      "keypoints": [
+        "\u2b50 Liver biopsy: gold standard for staging fibrosis and grading inflammation in chronic hepatitis",
+        "\u2b50 Non-invasive alternatives: FibroScan (transient elastography), FIB-4 index, APRI \u2014 increasingly used",
+        "HCV: most common cause of HCC in Europe/North America; treated with direct-acting antivirals (cure >95%)",
+        "Chronic HCV: 80% of acute infections become chronic; 20-30% \u2192 cirrhosis over 20-30 years"
+      ]
+    },
+    {
+      "id": "q031",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "A 66-year-old man presents with a 2-week history of abdominal bloating, weight loss, and pain in the right upper quadrant. The patient had a serious motor vehicle accident 16 years ago, in which he required transfusion of 10 U of whole blood. On physical examination, he exhibits massive distension of the abdomen. The liver is hard on palpation and occupies the entire right side of the abdomen. Laboratory studies show a low serum albumin (2.2 g/dL) and a markedly elevated serum alpha-fetoprotein. An abdominal ultrasound examination reveals ascites. The patient expires 6 months later. The liver at autopsy is shown in the image. Which of the following is the most common cause of this disease worldwide?",
+      "choices": [
+        "Alcoholic hepatitis",
+        "Autoimmune hepatitis",
+        "Chronic hepatitis B",
+        "Chronic hepatitis C",
+        "Hepatitis E"
+      ],
+      "answer": 2,
+      "explanation": "This patient developed HCC after acquiring hepatitis C from a blood transfusion (pre-HCV screening era). However, the question asks about the most common cause of HCC worldwide, which is chronic hepatitis B. More than 85% of HCC cases globally occur in HBV-endemic regions (sub-Saharan Africa, Southeast Asia), and one quarter of patients with chronic HBV ultimately develop HCC. In Europe and North America, HCV (choice D) is the predominant cause of HCC, but globally HBV dominates.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q31.png",
+      "imageAlt": "Liver at autopsy showing multiple hepatocellular carcinoma nodules in a background of micronodular cirrhosis",
+      "imageCaption": "Autopsy liver: massive HCC with multiple tumor nodules replacing cirrhotic parenchyma",
+      "keypoints": [
+        "\u2b50 HCC globally: #1 cause = chronic HBV (endemic in Africa, SE Asia); in West = chronic HCV",
+        "\u2b50 HBV \u2192 HCC even without cirrhosis (direct viral oncogenesis via genome integration)",
+        "Pre-1992 blood transfusions: major route of HCV transmission (before screening implemented)",
+        "HCC 5-year survival: <5% overall; only surgical resection or transplant offers cure"
+      ]
+    },
+    {
+      "id": "q032",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 60-year-old woman presents with several years of abdominal pain radiating to her back and a 5-day history of yellow skin and sclerae. She has lost 15 lb during the past several months, and her stools have become lighter in color. On physical examination, the patient is cachectic and jaundiced. The liver edge descends 1 cm below the right costal margin and is nontender. Her right calf is tender and erythematous. Serum AST and ALT are at the upper limits of normal, but alkaline phosphatase is increased to 430 U/L. A CT scan shows a mass in the head of the pancreas. What is the most likely cause of jaundice in this patient?",
+      "choices": [
+        "Acute viral hepatitis",
+        "Alcoholic hepatitis",
+        "\u03b11-Antitrypsin deficiency",
+        "Drug-induced hepatitis",
+        "Extrahepatic biliary obstruction"
+      ],
+      "answer": 4,
+      "explanation": "A mass in the head of the pancreas compresses the common bile duct, causing extrahepatic (post-hepatic) biliary obstruction with painless, progressive jaundice and pale (clay-colored) stools. The cholestatic LFT pattern (markedly elevated ALP with near-normal transaminases) confirms biliary obstruction rather than hepatocellular injury. DVT in the right calf suggests Trousseau syndrome (migratory thrombophlebitis), a paraneoplastic manifestation of pancreatic cancer. This clinical picture is classic for adenocarcinoma of the head of the pancreas.",
+      "keypoints": [
+        "\u2b50 Painless progressive jaundice + palpable gallbladder (Courvoisier sign) + weight loss = pancreatic head cancer",
+        "\u2b50 Trousseau syndrome: migratory superficial thrombophlebitis = paraneoplastic sign of visceral cancer (GI, lung)",
+        "Cholestatic pattern: ALP/GGT >> AST/ALT; hepatocellular: AST/ALT >> ALP",
+        "Pancreatic head cancer: CA 19-9 elevated; median survival 6-12 months; Whipple procedure if resectable"
+      ]
+    },
+    {
+      "id": "q033",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 40-year-old woman complains of having severe back pain for about 3 months and recurrent fever. Her past medical history is significant for ulcerative colitis. On physical examination, the patient is thin and jaundiced. The liver edge descends 1 cm below the right costal margin and is nontender. Laboratory studies show normal serum levels of AST and ALT but elevated serum levels of alkaline phosphatase (420 U/L). Endoscopic retrograde cholangiopancreatography demonstrates a beaded appearance of the extrahepatic biliary tree. Which of the following diseases is a late complication of this patient's condition?",
+      "choices": [
+        "Adenocarcinoma of the gallbladder",
+        "Cholangiocarcinoma",
+        "Hepatic adenoma",
+        "Hepatic angiosarcoma",
+        "Hepatocellular carcinoma"
+      ],
+      "answer": 1,
+      "explanation": "The 'beaded' biliary tree on ERCP, elevated ALP with normal transaminases, and association with ulcerative colitis are diagnostic of primary sclerosing cholangitis (PSC). PSC is an inflammatory and fibrotic obliterative disease of both intrahepatic and extrahepatic bile ducts, causing alternating strictures and dilations that produce the beaded appearance. Cholangiocarcinoma develops in approximately 10-15% of PSC patients and is the most feared long-term complication. Unlike PBC, PSC is associated with IBD (70% of PSC patients have UC) and has a 2:1 male predominance.",
+      "keypoints": [
+        "\u2b50 PSC: obliterative fibrosis of intra/extrahepatic bile ducts; 'onion-skin' periductal fibrosis; beaded ERCP/MRCP",
+        "\u2b50 PSC associations: ulcerative colitis (70% of PSC patients), p-ANCA positive, male predominance (2:1)",
+        "Cholangiocarcinoma: most important late complication of PSC; difficult to detect early (poor prognosis)",
+        "PSC vs PBC: PSC = extrahepatic involvement + IBD + p-ANCA; PBC = only intrahepatic + AMA + female"
+      ]
+    },
+    {
+      "id": "q034",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 32-year-old man presents with a 6-month history of yellow skin and sclerae. Physical examination shows mild jaundice, pitting edema, and ascites. Laboratory studies reveal decreased serum albumin (2.6 g/dL) and increased serum AST and ALT (120 and 140 U/L, respectively). A liver biopsy stained with period acid-Schiff (PAS) reagent and diastase digestion is shown in the image. This patient has which of the following genetic diseases?",
+      "choices": [
+        "\u03b11-Antitrypsin deficiency",
+        "Glycogen storage disease",
+        "Hereditary hemochromatosis",
+        "Hurler syndrome",
+        "Pompe syndrome"
+      ],
+      "answer": 0,
+      "explanation": "\u03b11-Antitrypsin deficiency is the most common genetic cause of liver disease in children and the most frequent genetic indication for liver transplantation. Misfolded \u03b11-antitrypsin protein accumulates in hepatocytes as round-to-oval cytoplasmic globular inclusions that stain red (magenta) with PAS after diastase digestion (which removes glycogen, leaving only the misfolded protein). The liver disease ranges from neonatal hepatitis to cirrhosis. Pulmonary emphysema occurs from loss of protease inhibition in the lung.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q34.png",
+      "imageAlt": "PAS with diastase-stained liver biopsy showing magenta-red globular cytoplasmic inclusions in hepatocytes",
+      "imageCaption": "PAS-diastase stain: magenta globular inclusions in hepatocytes \u2014 diagnostic of \u03b11-antitrypsin deficiency",
+      "keypoints": [
+        "\u2b50 \u03b11-AT deficiency: PiZZ genotype; misfolded protein accumulates in liver (disease) \u2192 lungs lack protease protection (emphysema)",
+        "\u2b50 Liver biopsy: PAS+ diastase-resistant globular inclusions in periportal hepatocytes = pathognomonic",
+        "\u03b11-AT deficiency: #1 genetic cause of liver disease in children; #1 genetic indication for liver transplant",
+        "Lung disease: panacinar emphysema, worse with smoking; lower lobe predominant"
+      ]
+    },
+    {
+      "id": "q036",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A previously healthy, 24-year-old woman presents with a 1-week history of intermittent fever, lethargy, and yellow skin and sclerae. Physical examination shows jaundice. Laboratory studies reveal decreased serum albumin (2.2 g/dL), extremely high levels of AST and ALT (1,200 and 1,800 U/L, respectively), and elevated alkaline phosphatase (300 U/L). Her ceruloplasmin level is normal. She is admitted to the hospital. Her condition progressively deteriorates, and she develops hepatic encephalopathy and hepatorenal syndrome. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Extrahepatic biliary obstruction",
+        "Hereditary hemochromatosis",
+        "Massive hepatic necrosis",
+        "Primary biliary cirrhosis",
+        "Sclerosing cholangitis"
+      ],
+      "answer": 2,
+      "explanation": "Massive hepatic necrosis is characterized by catastrophic destruction of the hepatic parenchyma, causing fulminant hepatic failure. The hallmarks are extremely elevated transaminases (>1,000 U/L), rapid progression to hepatic encephalopathy and multi-organ failure, and a shrunken liver with wrinkled capsule on gross examination. Normal ceruloplasmin rules out Wilson disease. Causes include HBV, drugs (acetaminophen), and idiosyncratic drug reactions. Extrahepatic obstruction (choice A) would show ALP >> transaminases and would not cause encephalopathy acutely.",
+      "keypoints": [
+        "\u2b50 Massive hepatic necrosis = fulminant hepatic failure: transaminases >1000 U/L + rapid encephalopathy + coagulopathy",
+        "\u2b50 Causes: HBV (#1), acetaminophen overdose, halothane, Wilson disease (with low ceruloplasmin)",
+        "Gross: liver shrunken to <1 kg, wrinkled capsule, hemorrhagic parenchyma; micro: collapsed reticulin framework",
+        "Prognosis: <25% survival without transplant; King's College criteria guide transplant listing"
+      ]
+    },
+    {
+      "id": "q037",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 36-year-old, alcoholic woman presents with a 1-week history of yellow skin and sclerae. She has suffered persistent headaches. Her vital signs are normal. Physical examination reveals jaundice. Laboratory studies disclose markedly elevated levels of AST and ALT (956 and 1,400 U/L, respectively). A few days later, she develops hepatic encephalopathy and renal failure. A liver biopsy shows prominent centrilobular necrosis. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Acetaminophen toxicity",
+        "Fatty liver of pregnancy",
+        "Metastatic carcinoma",
+        "Reye syndrome",
+        "Wilson disease"
+      ],
+      "answer": 0,
+      "explanation": "Acetaminophen overdose is the most common cause of drug-induced acute liver failure in the United States. Its toxic metabolite NAPQI, produced via CYP2E1 (upregulated by chronic alcohol use), depletes hepatic glutathione and directly injures centrilobular (zone 3) hepatocytes, where CYP450 enzymes are concentrated. The massively elevated transaminases and centrilobular necrosis are hallmarks. Chronic alcoholism dramatically lowers the toxic threshold for acetaminophen by inducing CYP2E1 and depleting glutathione. Treatment is N-acetylcysteine (NAC) to replenish glutathione.",
+      "keypoints": [
+        "\u2b50 Acetaminophen toxicity: centrilobular (zone 3) necrosis; NAPQI depletes GSH; treat with N-acetylcysteine",
+        "\u2b50 Alcohol + acetaminophen: dangerous synergy \u2014 alcohol induces CYP2E1 (\u2191NAPQI) and depletes GSH",
+        "Toxic dose: >10 g in adults (lower with chronic alcohol); doses as low as 3-4 g can be hepatotoxic in alcoholics",
+        "Reye syndrome: mitochondrial dysfunction in children after aspirin use + viral illness; microvesicular steatosis"
+      ]
+    },
+    {
+      "id": "q038",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 30-year-old man from Mexico presents with a 3-week history of constant pain in his upper right quadrant and epigastrium and persistent cough. The patient also reports a recent history of nausea, vomiting, and bloody diarrhea. Physical examination shows hepatomegaly and tenderness over the right upper quadrant. A liver biopsy displays fibroblastic proliferation and trophozoites (shown in the image). Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Amebic liver abscess",
+        "Cystic hydatid disease",
+        "Hepatic malaria",
+        "Pyogenic liver abscess",
+        "Weil disease"
+      ],
+      "answer": 0,
+      "explanation": "Amebic liver abscess is caused by Entamoeba histolytica, the most common form of extraintestinal amebiasis. The trophozoites visible on biopsy are diagnostic. It presents with RUQ pain, fever, hepatomegaly, and may be preceded by amoebic dysentery (bloody diarrhea). The abscess contains 'anchovy paste' material (necrotic debris). It is endemic in Mexico, Central America, and South Asia. Diagnosis combines radiologic findings (usually solitary RUQ abscess) with serology for E. histolytica. Cystic hydatid disease (choice B) is caused by Echinococcus and shows cyst formation, not trophozoites.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q38.png",
+      "imageAlt": "Liver biopsy showing fibroblastic proliferation and Entamoeba histolytica trophozoites",
+      "imageCaption": "Liver biopsy: amebic liver abscess with trophozoites of Entamoeba histolytica in fibroblastic tissue",
+      "keypoints": [
+        "\u2b50 Amebic liver abscess: E. histolytica, fecal-oral; 'anchovy paste' contents; RUQ abscess; males 10:1",
+        "\u2b50 Serology (anti-Entamoeba IgG) + imaging \u2192 diagnosis without biopsy in most cases",
+        "Echinococcus (hydatid cyst): ring-like calcification on imaging; daughter cysts; do NOT aspirate (anaphylaxis risk)",
+        "Pyogenic liver abscess: polymicrobial (Gram-negative enterics); multiple abscesses; fever/chills/RUQ pain + leukocytosis"
+      ]
+    },
+    {
+      "id": "q039",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 69-year-old woman arrives in the emergency room complaining of weakness, abdominal pain, and a 9 kg (20 lb) weight loss during the past month. Physical examination reveals jaundice, conspicuous hepatomegaly, and ascites. The patient expires, and a section of liver is examined at autopsy (shown in the image). Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Hemangiosarcoma of the liver",
+        "Metastatic carcinoma of the liver",
+        "Miliary tuberculosis",
+        "Primary hepatocellular carcinoma",
+        "Sarcoidosis"
+      ],
+      "answer": 1,
+      "explanation": "Metastatic carcinoma is by far the most common malignant tumor of the liver, occurring in one-third of all metastatic cancers. Common primary sites include colon, breast, lung, pancreas, and stomach. The liver at autopsy typically shows multiple white tumor nodules (umbilicated metastases) scattered throughout the parenchyma. Primary hepatocellular carcinoma (choice D) usually presents as a single or few poorly circumscribed masses in a background of cirrhosis. Hemangiosarcoma (choice A) is hemorrhagic and multifocal but rare.",
+      "image": "/images/path_ch14/lippincott_path_ch14_q39.png",
+      "imageAlt": "Liver at autopsy showing multiple white tumor nodules representing metastatic carcinoma",
+      "imageCaption": "Autopsy liver: multiple white metastatic carcinoma nodules \u2014 the most common malignant tumor of the liver",
+      "keypoints": [
+        "\u2b50 Metastatic carcinoma = #1 malignant liver tumor overall; primary HCC = #1 primary liver malignancy",
+        "\u2b50 Most common primaries metastasizing to liver: colorectal, breast, lung, pancreas, stomach (GI tract most frequent)",
+        "Gross: multiple white umbilicated nodules ('bull's-eye' on imaging); LFTs may be normal until late",
+        "HCC vs metastases: HCC \u2192 cirrhosis background + \u2191AFP; metastases \u2192 normal liver + known primary"
+      ]
+    },
+    {
+      "id": "q041",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "A 22-year-old woman from India presents with a 1-week history of fever, malaise, and nausea. The patient is 6 months pregnant. Physical examination reveals jaundice and right upper quadrant pain. Results of laboratory studies include serum bilirubin of 5.2 mg/dL (60% conjugated), AST of 400 U/L, ALT of 392 U/L, alkaline phosphatase of 70 U/L, anti-HAV antibodies negative, HBsAg negative, and IgM anti\u2013hepatitis E virus (anti-HEV) antibodies positive. The patient is at high risk for which of the following?",
+      "choices": [
+        "Diabetes mellitus",
+        "Fulminant liver failure",
+        "Pulmonary thromboembolism",
+        "Renal failure",
+        "Sclerosing cholangitis"
+      ],
+      "answer": 1,
+      "explanation": "Hepatitis E (RNA virus, fecal-oral transmission, endemic in Asia and South America) typically causes acute self-limited hepatitis similar to HAV. However, in pregnant women\u2014particularly in the third trimester\u2014HEV carries a dramatically elevated mortality rate of 20-40% from fulminant hepatic failure. This makes it uniquely dangerous compared to other forms of viral hepatitis. The patient's IgM anti-HEV confirms acute HEV infection. HEV does not cause chronic hepatitis in immunocompetent patients.",
+      "keypoints": [
+        "\u2b50 Hepatitis E: RNA virus, fecal-oral; endemic in SE Asia/India; NO chronic disease in immunocompetent",
+        "\u2b50 HEV in pregnancy: up to 20-40% mortality from fulminant hepatic failure \u2014 highest risk in 3rd trimester",
+        "IgM anti-HEV = acute infection; mean incubation 35-40 days; symptoms resolve in ~6 weeks",
+        "HEV genotype 3/4: zoonotic (pork), chronic infection in immunocompromised patients (transplant recipients)"
+      ]
+    },
+    {
+      "id": "q042",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 55-year-old, obese man (BMI = 34 kg/m2) comes to the physician for a routine physical examination. His past medical history is significant for type 2 diabetes mellitus that is controlled by medication and diet. The patient neither drinks nor smokes. Physical examination shows mild hepatomegaly. Laboratory studies reveal normal serum levels of albumin and bilirubin and mildly elevated serum levels of AST and ALT (80 and 100 U/L, respectively). The serum level of alkaline phosphatase is normal (70 U/L), and total serum cholesterol is elevated to 290 mg/dL. The CBC is normal. Abdominal ultrasound reveals diffuse fatty infiltration of the liver. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Autoimmune hepatitis",
+        "Cirrhosis of the liver",
+        "Diabetic ketoacidosis",
+        "Glycogen storage disease",
+        "Nonalcoholic fatty liver disease"
+      ],
+      "answer": 4,
+      "explanation": "Nonalcoholic fatty liver disease (NAFLD) encompasses a spectrum from simple steatosis to nonalcoholic steatohepatitis (NASH), fibrosis, and cirrhosis. It is the most common liver disease in Western countries, driven by obesity, type 2 diabetes, and hyperlipidemia\u2014the components of metabolic syndrome. Histologically, it resembles alcoholic fatty liver but occurs without alcohol use. In this patient, obesity (BMI 34), diabetes, and hypercholesterolemia are classic risk factors, and ultrasound showing diffuse fatty infiltration confirms NAFLD.",
+      "keypoints": [
+        "\u2b50 NAFLD risk factors: obesity, type 2 DM, hyperlipidemia (metabolic syndrome); most common liver disease in USA",
+        "\u2b50 NASH: steatosis + hepatitis (Mallory bodies, inflammation, fibrosis) \u2192 may progress to cirrhosis/HCC",
+        "NAFLD histology identical to alcoholic liver disease \u2014 distinguish by history",
+        "Treatment: weight loss, exercise, treat underlying metabolic syndrome; no approved pharmacotherapy yet"
+      ]
+    },
+    {
+      "id": "q043",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 6-month-old girl is brought to the physician by her parents, who noticed gradual enlargement of the child's abdomen. Physical examination reveals massive hepatomegaly. Laboratory studies show normal serum levels of albumin, bilirubin, and hepatic enzymes. Liver biopsy discloses enlarged hepatocytes with PAS-positive inclusions. Laboratory studies reveal the presence of amylopectin. Deposits of this abnormal glycogen are also found in a biopsy of skeletal muscle. Which of the following is the appropriate diagnosis?",
+      "choices": [
+        "Andersen disease",
+        "Fabry disease",
+        "Gaucher disease",
+        "Krabbe disease",
+        "Metachromatic leukodystrophy"
+      ],
+      "answer": 0,
+      "explanation": "Andersen disease (glycogen storage disease type IV) is caused by a deficiency of glycogen-branching enzyme (GBE1 gene), leading to accumulation of abnormal, poorly branched glycogen called amylopectin in the liver, heart, and skeletal muscle. Clinically, it presents in infancy with hepatosplenomegaly and failure to thrive, progressing to hepatic fibrosis and cirrhosis. The PAS-positive inclusions resistant to diastase represent amylopectin deposits. The other answer choices are lysosomal storage diseases involving lipid or sphingolipid metabolism, not glycogen.",
+      "keypoints": [
+        "\u2b50 Andersen disease (GSD IV): glycogen branching enzyme deficiency \u2192 amylopectin accumulation; liver + muscle",
+        "\u2b50 GSD types by organ: liver (I-Pompe VI), muscle (V-McArdle), heart (Pompe/II), all three (IV-Andersen)",
+        "Fabry, Gaucher, Krabbe, Metachromatic leukodystrophy: all lysosomal storage diseases \u2014 lipids, NOT glycogen",
+        "GSD IV: PAS-positive, diastase-resistant inclusions (amylopectin) \u2192 progressive hepatic cirrhosis in children"
+      ]
+    },
+    {
+      "id": "q044",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 20-year-old woman complains of intermittent, colicky abdominal pain, fine tremors of her hands, excess sweating, and a general feeling of restlessness. Laboratory studies reveal an inherited defect in the biosynthesis of heme. This patient's genetic disease is most likely caused by deficiency of which of the following liver enzymes?",
+      "choices": [
+        "Alanine aminotransferase",
+        "Alkaline phosphatase",
+        "Porphobilinogen deaminase",
+        "Uridine diphosphate glucuronyl transferase",
+        "Uroporphyrinogen decarboxylase"
+      ],
+      "answer": 2,
+      "explanation": "Acute intermittent porphyria (AIP) is the most common acute hepatic porphyria, caused by a deficiency of porphobilinogen deaminase (PBGD) \u2014 the enzyme converting porphobilinogen to hydroxymethylbilane in the heme synthesis pathway. This leads to accumulation of ALA and porphobilinogen, which are neurotoxic. Classic neuropsychiatric and autonomic symptoms include colicky abdominal pain, peripheral neuropathy, tachycardia, hypertension, and psychiatric manifestations. Attacks are triggered by fasting, alcohol, certain drugs (CYP450 inducers), and hormonal changes. Uroporphyrinogen decarboxylase deficiency (choice E) causes porphyria cutanea tarda.",
+      "keypoints": [
+        "\u2b50 AIP: porphobilinogen deaminase deficiency; autosomal dominant; \u2191urine ALA + PBG during attacks",
+        "\u2b50 Classic triad: abdominal pain + neuropsychiatric symptoms + autonomic dysfunction (no skin rash)",
+        "Triggers: fasting, alcohol, sulfonamides, barbiturates, oral contraceptives, and other CYP450 inducers",
+        "Porphyria cutanea tarda: uroporphyrinogen decarboxylase deficiency; blistering skin photosensitivity + iron overload"
+      ]
+    },
+    {
+      "id": "q047",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 45-year-old, mildly obese woman presents with a 1-week history of upper abdominal pain, fever, shaking chills, and occasional vomiting. Physical examination shows severe right upper quadrant tenderness. Laboratory studies include serum bilirubin of 1.0 mg/dL, AST of 25 U/L, ALT of 35 U/L, alkaline phosphatase of 220 U/L (high), WBC of 14,000/\u03bcL, and amylase of 95 U/L (normal). An ultrasound examination of the abdomen reveals a normal-appearing liver and bile duct and thickening of the wall of the gallbladder. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Acute cholecystitis",
+        "Acute pancreatitis",
+        "Adenocarcinoma of the gallbladder",
+        "Adenocarcinoma of the pancreas",
+        "Primary biliary cirrhosis"
+      ],
+      "answer": 0,
+      "explanation": "Acute cholecystitis is caused by obstruction of the gallbladder outlet (cystic duct), usually by a gallstone (~90% of cases). It presents with fever, RUQ pain with radiation to the right scapula, nausea/vomiting, and a positive Murphy sign. The elevated ALP with near-normal bilirubin and transaminases indicates gallbladder wall inflammation without common bile duct obstruction. Normal amylase rules out acute pancreatitis. Gallbladder wall thickening on ultrasound confirms cholecystitis. This middle-aged obese woman fits the typical demographic.",
+      "keypoints": [
+        "\u2b50 Acute cholecystitis: 90% due to gallstones; RUQ pain + fever + Murphy sign; ALP \u2191, bili often normal",
+        "\u2b50 Murphy sign: inspiratory arrest on palpation of RUQ (inflamed gallbladder descends into examiner's hand)",
+        "Treatment: cholecystectomy (laparoscopic); antibiotics if complicated (empyema, perforation, emphysematous cholecystitis)",
+        "Acalculous cholecystitis (10%): ICU patients, critical illness, bile stasis; worse prognosis than calculous"
+      ]
+    },
+    {
+      "id": "q048",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Diagnosis",
+      "stem": "A 59-year-old man complains of vague abdominal pain, intermittent fever, and a 9-kg (20-lb) weight loss over the past 8 months. His past medical history is significant for drug abuse, although he claims to be drug free for the past 10 years. On physical examination, the patient shows diffuse abdominal tenderness, hepatomegaly, and mild jaundice. Serologic tests for antibodies to the hepatitis B core antigen (IgG anti-HBcAg) and surface antigen (HBsAg) were negative elsewhere. A CT scan of the abdomen reveals a diffusely nodular liver, with a dominant mass measuring 5 cm in diameter. A liver biopsy shows neoplastic hepatocytes. Which of the following is the most likely underlying cause of this patient's neoplasm?",
+      "choices": [
+        "\u03b11-Antitrypsin deficiency",
+        "Autoimmune hepatitis",
+        "Hemochromatosis",
+        "Hepatitis C virus",
+        "Primary biliary cirrhosis"
+      ],
+      "answer": 3,
+      "explanation": "HCV is the most common cause of HCC in the United States and Western Europe, particularly in former IV drug users. The negative HBV serology (no anti-HBcAg, no HBsAg) effectively rules out HBV as the underlying etiology. HCV causes HCC almost exclusively in the setting of chronic hepatitis and cirrhosis (unlike HBV, which can cause HCC without cirrhosis). \u03b11-Antitrypsin deficiency (choice A) and hemochromatosis (choice C) do increase HCC risk, but they are far less prevalent than HCV in this population.",
+      "keypoints": [
+        "\u2b50 HCV: most common cause of HCC in USA/Europe; HBV = most common worldwide",
+        "\u2b50 HCV \u2192 HCC: almost always via cirrhosis (unlike HBV); HCC surveillance required in all HCV cirrhosis",
+        "IV drug use: major risk factor for HCV transmission; anti-HCV antibody + HCV RNA confirms active infection",
+        "HCV now curable (>95%) with direct-acting antivirals; cure reduces but does not eliminate HCC risk if cirrhosis present"
+      ]
+    },
+    {
+      "id": "q050",
+      "tag": "hepatic",
+      "examLevel": "step1",
+      "system": "Hepatobiliary",
+      "contentType": "Pathophysiology",
+      "stem": "A 65-year-old man is brought to the emergency room in a disoriented state. The patient has an odor of alcohol on his breath. Physical examination reveals palmar erythema, diffuse spider angiomata on the upper trunk and face, and gynecomastia. A liver biopsy shows micronodular cirrhosis, massive steatosis, and Mallory hyaline. Serum levels of ammonia are elevated. Which of the following is the most likely underlying cause of gynecomastia in this patient?",
+      "choices": [
+        "Hyperbilirubinemia",
+        "Hyperestrogenism",
+        "Hypersensitivity vasculitis",
+        "Hypoalbuminemia",
+        "Ketoacidosis"
+      ],
+      "answer": 1,
+      "explanation": "In advanced cirrhosis, the failing liver cannot adequately catabolize estrogens, resulting in hyperestrogenism in men. Elevated estrogen levels cause feminization: gynecomastia, spider angiomata, palmar erythema, testicular atrophy, and female-pattern pubic hair distribution. Spider angiomata and palmar erythema are also attributed to hyperestrogenism-induced peripheral vasodilation. Hypoalbuminemia (choice D) contributes to ascites and edema but not gynecomastia. These are classic signs of chronic alcoholic liver disease and cirrhosis.",
+      "keypoints": [
+        "\u2b50 Cirrhosis in men \u2192 \u2193estrogen catabolism \u2192 hyperestrogenism \u2192 gynecomastia + spider angiomata + palmar erythema",
+        "\u2b50 Other signs of feminization in cirrhosis: testicular atrophy, loss of axillary/pubic hair, female fat distribution",
+        "Spider angiomata: >5 = significant; found in distribution of SVC; blanch with pressure; center = feeding arteriole",
+        "Alcoholic cirrhosis histology: micronodular (vs macronodular in viral hepatitis) + Mallory hyaline + steatosis"
+      ]
+    }
+  ]
+}
