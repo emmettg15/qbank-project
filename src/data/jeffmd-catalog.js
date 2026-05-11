@@ -152,7 +152,7 @@ export const JEFFMD_CATALOG = [
 {
   catalogId: 'lippincott_anatomy_ch4_ch5_qbank',
   title: 'Lippincott Anatomy & Embryology Ch4 + Ch5 (Selected) - GI (JeffMD GI relevant)',
-  description: 'Abdomen (all except #30) and Pelvis & Perineum (selected questions) from Lippincott's Q&A Review of Anatomy and Embryology',
+  description: "Abdomen (all except #30) and Pelvis & Perineum (selected questions) from Lippincott's Q&A Review of Anatomy and Embryology",
   questionCount: 20,
   exam: 'Block 6 — GI',
   tags: ['GI'],

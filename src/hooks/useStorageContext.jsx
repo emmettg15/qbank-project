@@ -70,7 +70,7 @@ export function StorageProvider({ user, mode, children }) {
 
       try {
         if (isRemote) {
-          const [s, qsMeta, qr, ci] = await Promise.all([
+          let [s, qsMeta, qr, ci] = await Promise.all([
             remote.getSessions(userId),
             remote.getQuestionSetsMeta(userId),
             remote.getQuestionRatings(userId),
