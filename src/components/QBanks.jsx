@@ -91,6 +91,16 @@ export default function QBanksPage({ onNavigate }) {
   const [loading, setLoading] = useState(null) // catalogId being loaded
   const [search, setSearch] = useState('')
   const [filterTag, setFilterTag] = useState('')
+  const [expandedExams, setExpandedExams] = useState(() => new Set())
+
+  const toggleExam = (examName) => {
+    setExpandedExams(prev => {
+      const next = new Set(prev)
+      if (next.has(examName)) next.delete(examName)
+      else next.add(examName)
+      return next
+    })
+  }
 
   // All tag IDs used across catalog entries
   const allTags = useMemo(() => TAGS.map(t => t.id), [])
@@ -111,6 +121,21 @@ export default function QBanksPage({ onNavigate }) {
       return matchesSearch && matchesTag
     })
   }, [search, filterTag])
+
+  // Split filtered entries into exam groups + ungrouped flat list
+  const { examGroups, ungrouped } = useMemo(() => {
+    const groups = new Map()
+    const flat = []
+    for (const entry of filteredCatalog) {
+      if (entry.exam) {
+        if (!groups.has(entry.exam)) groups.set(entry.exam, [])
+        groups.get(entry.exam).push(entry)
+      } else {
+        flat.push(entry)
+      }
+    }
+    return { examGroups: Array.from(groups.entries()), ungrouped: flat }
+  }, [filteredCatalog])
 
   // Build progress map: catalogId → { completed, inProgress }
   const progressMap = useMemo(() => {
@@ -248,12 +273,59 @@ export default function QBanksPage({ onNavigate }) {
       </div>
 
       <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-        {filteredCatalog.length === 0 && (
+        {examGroups.length === 0 && ungrouped.length === 0 && (
           <div style={{ textAlign: 'center', color: 'var(--muted)', padding: '24px 20px' }}>
             No QBanks match your search.
           </div>
         )}
-        {filteredCatalog.map(entry => (
+
+        {examGroups.map(([examName, entries]) => {
+          const isOpen = expandedExams.has(examName) || !!search || !!filterTag
+          const totalQuestions = entries.reduce((sum, e) => sum + (e.questionCount || 0), 0)
+          return (
+            <div key={examName} style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+              <div
+                onClick={() => toggleExam(examName)}
+                role="button"
+                tabIndex={0}
+                onKeyDown={e => (e.key === 'Enter' || e.key === ' ') && (e.preventDefault(), toggleExam(examName))}
+                style={{
+                  cursor: 'pointer',
+                  padding: '12px 20px',
+                  background: 'var(--surface2)',
+                  border: '1px solid var(--border)',
+                  borderRadius: 'var(--radius)',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'space-between',
+                  userSelect: 'none',
+                }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                  <span style={{ fontSize: 12, color: 'var(--muted)', width: 12, display: 'inline-block' }}>
+                    {isOpen ? '▼' : '▶'}
+                  </span>
+                  <span style={{ fontWeight: 700, fontSize: 15 }}>{examName}</span>
+                </div>
+                <div style={{ fontSize: 12, color: 'var(--muted)', fontFamily: 'IBM Plex Mono' }}>
+                  {entries.length} qbank{entries.length === 1 ? '' : 's'} · {totalQuestions} questions
+                </div>
+              </div>
+              {isOpen && entries.map(entry => (
+                <div key={entry.catalogId} style={{ marginLeft: 16 }}>
+                  <CatalogCard
+                    entry={entry}
+                    progress={progressMap[entry.catalogId]}
+                    catalogImport={storage.getCatalogImport(entry.catalogId)}
+                    onClick={() => handleSelect(entry)}
+                  />
+                </div>
+              ))}
+            </div>
+          )
+        })}
+
+        {ungrouped.map(entry => (
           <CatalogCard
             key={entry.catalogId}
             entry={entry}
