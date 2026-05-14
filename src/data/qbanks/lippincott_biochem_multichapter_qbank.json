@@ -1,0 +1,497 @@
+{
+  "config": {
+    "title": "Lippincott Q&A Biochemistry – Multi-Chapter QBank (JeffMD GI relevant)",
+    "subtitle": "Selected questions from Chapters 1, 8, 9, 10, 11, and 15 covering biochemical compounds, energy metabolism, hormones, glycolysis, TCA cycle, and amino acid metabolism",
+    "passingFraction": 0.75,
+    "tags": {
+      "biochem": {
+        "label": "Biochemistry"
+      },
+      "endo": {
+        "label": "Endocrinology"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "ch01_q003",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 1 – Biochemical Compounds",
+      "stem": "An African native who is going to college in the United States experiences digestive problems (bloating, diarrhea, and fl atulence) whenever she eats foods containing milk products. She is most likely defi cient in splitting which type of chemical bond?",
+      "choices": [
+        "A sugar bond",
+        "An ester linkage",
+        "A phosphodiester bond",
+        "An amide bond",
+        "A glycosidic bond"
+      ],
+      "answer": 4,
+      "explanation": "A glycosidic bond. The patient is exhibiting the classic signs of lactose intolerance, in which intestinal lactase levels are low, and the major dietary component of milk products (lactose) cannot be digested. Lactase will split the β-1,4 linkage between galactose and glucose in lactose. The lactose thus passes unmetabolized to the bacteria inhabiting the gut, and their metabolism of the disaccharide leads to the observed symptoms. Combining two sugars in a dehydration reaction creates a glycosidic bond. Adding a sugar to the nitrogen of a nitrogenous base also creates an N-glycosidic bond. A sugar bond is not an applicable term in biochemistry. Ester linkages contain an oxygen linked to a carbonyl group. A phosphodiester bond is a phosphate in two ester linkages with two different compounds (such as the 3′–5′ link in the sugar phosphate backbone of DNA and RNA). An amide bond is the joining of an amino group with a carboxylic acid with the loss of water. These types of bonds are shown below. O O H O R C O R' R O P O R' R C N R' O– Ester linkage Amide bond Phosphodiester bond CH2OH CH2OH O OH OH O O OH OH OH OH A b-glycosidic bond, which is cleaved by lactase",
+      "keypoints": [
+        "⭐ Lactose = glucose + galactose linked by β-1,4 glycosidic bond; cleaved by intestinal lactase",
+        "⭐ Lactase deficiency → undigested lactose fermented by gut bacteria → gas, bloating, diarrhea",
+        "Glycosidic bonds join a sugar to another sugar (O-glycosidic) or to a nitrogenous base (N-glycosidic)",
+        "Ester linkages link fatty acids to glycerol; phosphodiester bonds link nucleotides in DNA/RNA"
+      ]
+    },
+    {
+      "id": "ch01_q020",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 1 – Biochemical Compounds",
+      "stem": "Liver catabolism of xenobiotic compounds, such as acetaminophen (Tylenol), is geared toward increasing the solubility of such compounds for safe excretion from the body. This can occur via the addition of which compound below in a covalent linkage with the xenobiotic?",
+      "choices": [
+        "Phenylalanine",
+        "Palmitate",
+        "Linoleate",
+        "Glucuronate",
+        "Cholesterol"
+      ],
+      "answer": 3,
+      "explanation": "Glucuronate. In order to make a xenobiotic more soluble, a hydrophilic group needs to be added to the xenobiotic. Of the possible answer choices, only glucuronic acid (glucose with a carboxylic acid at position 6 instead of an alcohol group) is a hydrophilic molecule. Glucuronic acid is added to the xenobiotic at position 1, using the activated intermediate UDPglucuronate. Once added to the xenobiotic, the highly soluble glucuronate confers enhanced solubility to the adduct. Phenylalanine contains a hydrophobic side chain, and palmitate, linoleate, and cholesterol are all very hydrophobic molecules. Their addition to a xenobiotic would decrease, rather than increase, its solubility.",
+      "keypoints": [
+        "⭐ Glucuronidation: UDP-glucuronate conjugates hydrophobic xenobiotics → water-soluble adducts for urinary/biliary excretion",
+        "⭐ Glucuronic acid = glucose oxidized at C-6; the highly polar carboxylate drives increased solubility",
+        "Phase II biotransformation reactions include glucuronidation, sulfation, acetylation, and glutathione conjugation",
+        "Palmitate, linoleate, and cholesterol are hydrophobic → their addition would decrease, not increase, solubility"
+      ]
+    },
+    {
+      "id": "ch08_q002",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 8 – Energy Metabolism",
+      "stem": "The same patient then describes to you a typical day of eating, which consists of 250 g of carbohydrates, 10 g of fat, and 100 g of protein. She denies any ethanol intake. She also exercises about 2 h/day. Her daily caloric intake is about which of the following?",
+      "choices": [
+        "1,250",
+        "1,500",
+        "1,750",
+        "2,000",
+        "2,250"
+      ],
+      "answer": 1,
+      "explanation": "1,500. Carbohydrates contain 4 cal/g, protein also contains 4 cal/g, and fat contains 9 cal/g (because it is more reduced than either protein or carbohydrates). Given the patient’s diet, she is consuming (250 × 4) + (10 × 9) + (100 × 4), or 1,490 cal/day.",
+      "keypoints": [
+        "⭐ Energy content: fat = 9 kcal/g, protein = 4 kcal/g, carbohydrate = 4 kcal/g, ethanol = 7 kcal/g",
+        "⭐ Fat provides more than twice the energy per gram compared to carbohydrate or protein",
+        "Caloric density of ethanol (7 kcal/g) is between fat and carbohydrate/protein",
+        "Total kcal = (g protein × 4) + (g fat × 9) + (g carb × 4) + (g ethanol × 7)"
+      ]
+    },
+    {
+      "id": "ch08_q010",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 8 – Energy Metabolism",
+      "stem": "Which one of the following diets provides for the largest number of calories?",
+      "choices": [
+        "100 g protein, 100 g fat, 100 g carbohydrate, 25 g ethanol",
+        "50 g protein, 100 g fat, 150 g carbohydrate, 25 g ethanol",
+        "75 g protein, 125 g fat, 50 g carbohydrate, no ethanol",
+        "150 g protein, 75 g fat, 125 g carbohydrate, 20 g ethanol",
+        "150 g protein, 50 g fat, 125 g carbohydrate, no ethanol"
+      ],
+      "answer": 3,
+      "explanation": "150 g protein, 75 g fat, 125 g carbohydrate, 20 g ethanol. To answer this question, one needs to recall that fat contains 9 cal/g, ethanol 7 cal/g, and protein and carbohydrates 4 cal/g each. Using these numbers, diet A contains 1,875 cal, diet B contains 1,875 cal, diet C contains 1,625 cal, diet D contains 1,915 cal, and diet E contains 1,550 cal.",
+      "keypoints": [
+        "⭐ Fat at 9 kcal/g provides the most calories per gram; always maximize fat content when comparing diets",
+        "⭐ To calculate total calories: multiply grams by respective caloric values (P×4, F×9, C×4, Ethanol×7)",
+        "High-fat diets are the most calorie-dense; reducing fat is the most efficient way to reduce caloric intake",
+        "Alcohol contributes 7 kcal/g and is metabolized primarily in the liver to acetaldehyde then acetate"
+      ]
+    },
+    {
+      "id": "ch08_q020",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 8 – Energy Metabolism",
+      "stem": "Assume that beer contains 5% wt./vol. ethanol. How many calories derived from alcohol would 500 mL (about 17 ounces) of beer contain? Choose the closest answer to your calculated value.",
+      "choices": [
+        "100",
+        "140",
+        "180",
+        "220",
+        "260"
+      ],
+      "answer": 2,
+      "explanation": "180. With alcohol at 5% wt./vol., 500 mL of beer would contain 25 g of alcohol (5 g/100 mL). Alcohol contains 7 cal/g, so 7 × 25 = 175 cal. Beer also contains some carbohydrates, so its total caloric content would be even higher than the 175 due to the ethanol alone. In contrast, 12 ounces of a cola product typically contains 150 cal (none from ethanol).",
+      "keypoints": [
+        "⭐ Ethanol provides 7 kcal/g; 500 mL of 5% beer contains 25 g ethanol = ~175 kcal from alcohol alone",
+        "⭐ Calculation: volume (mL) × % concentration = grams of ethanol; multiply by 7 kcal/g",
+        "Ethanol is metabolized by alcohol dehydrogenase (ADH) → acetaldehyde → acetate (via ALDH)",
+        "Excess NADH from ethanol oxidation inhibits gluconeogenesis and fatty acid oxidation"
+      ]
+    },
+    {
+      "id": "ch09_q002",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrinology",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 9 – Hormones and Signaling Molecules",
+      "stem": "A 4-year-old boy went to the shore with his family and ate clams for dinner, but shortly thereafter developed severe watery diarrhea, vomiting, and leg cramps. The molecular basis of his disorder is which of the following?",
+      "choices": [
+        "Inhibition of protein synthesis",
+        "Inhibition of a stimulatory G protein",
+        "Activation of a stimulatory G protein",
+        "Inhibition of an inhibitory G protein",
+        "Activation of an inhibitory G protein"
+      ],
+      "answer": 2,
+      "explanation": "Activation of a stimulatory G protein. The boy has contracted cholera. The bacterium which The bacteria containing the cholera toxin are ingested and travel through the digestive system, and within the intestine their toxin exerts its effects, which leads to severe water and electrolyte loss. Dehydration and hypovolemic shock can result. causes cholera (Vibrio cholerae) produces a toxin that ADP-ribosylates a stimulatory G protein, leading to permanent activation of the G protein (via inhibition of the intrinsic GTPase activity). This leads to constant cAMP production, which in turn leads to the secretion of sodium and water into the lumen of the intestine, producing watery diarrhea. If not treated, dehydration rapidly results, and death can occur. The fi gure below outlines the action of cholera toxin in intestinal epithelial cells.",
+      "keypoints": [
+        "⭐ Cholera toxin ADP-ribosylates Gsα → locks it in active form → constitutive adenylyl cyclase activation → ↑cAMP → massive Cl-/water secretion",
+        "⭐ Vibrio cholerae produces cholera toxin; seafood (clams, shellfish) is a common transmission vehicle",
+        "cAMP activates PKA → phosphorylates CFTR → Cl- secretion into gut lumen → osmotic water loss → watery diarrhea",
+        "Pertussis toxin similarly ADP-ribosylates Giα; both use NAD+ as ADP-ribose donor"
+      ]
+    },
+    {
+      "id": "ch09_q004",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrinology",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 9 – Hormones and Signaling Molecules",
+      "stem": "Considering the patient in the previous question, which of the following medical disorders would you expect this patient to also have?",
+      "choices": [
+        "Low blood pressure",
+        "Polycystic ovary syndrome (PCOS)",
+        "Fatty liver-nonalcoholic hepatitis (NASH–– nonalcoholic steatohepatitis)",
+        "Hypouricemia",
+        "High HDL cholesterol"
+      ],
+      "answer": 2,
+      "explanation": "Fatty liver-nonalcoholic hepatitis (NASH— nonalcoholic steatohepatitis). The full insulin resistance syndrome consists of diabetes mellitus 2, central obesity, hypertension, low HDL, high triglycerides, high PAI-1 (plasminogen activator inhibitor-1, a marker of infl ammation), high uric acid, and NASH. All of these lead to total body atherosclerosis. PCOS is part of this constellation of symptoms, but occurs only in women. These insulinresistant patients most likely also have sleep apnea, but this is probably from the obesity and not from the insulin resistance. The causes of NASH (fatty liver, leading to cirrhosis) are multifactorial, but insulin resistance is one factor that can lead to the development of NASH.",
+      "keypoints": [
+        "⭐ Insulin resistance → hyperinsulinemia → drives de novo lipogenesis in liver → fatty liver (NASH)",
+        "⭐ Hyperinsulinemia also stimulates VLDL secretion; chronically elevated insulin = hepatic fat accumulation",
+        "PCOS is associated with insulin resistance (especially in obese women) but is not the direct consequence here",
+        "Cortisol excess (Cushing) causes central obesity and insulin resistance; glucagon-secreting tumor causes hyperglycemia"
+      ]
+    },
+    {
+      "id": "ch09_q006",
+      "tag": "endo",
+      "examLevel": "step1",
+      "system": "Endocrinology",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 9 – Hormones and Signaling Molecules",
+      "stem": "A patient with a good appetite has been losing weight and has developed lesions and blisters on his feet and legs. Lab analysis demonstrates hyperglycemia under both fed and fasting conditions. A possible explanation for these symptoms is which of the following?",
+      "choices": [
+        "A glucagon-secreting tumor of the pancreas",
+        "An insulin-secreting tumor of the pancreas",
+        "Loss of glucose-6-phosphatase activity",
+        "Defective glucagon receptors",
+        "Destruction of the α cells of the pancreas"
+      ],
+      "answer": 0,
+      "explanation": "A glucagon-secreting tumor of the pancreas. The patient has a glucagonoma in which the pancreas is constantly secreting glucagon, leading to constant gluconeogenesis and fatty acid oxidation, despite the presence of adequate glucose levels in the blood. This leads to weight loss and hyperglycemia, as the liver is pumping out glucose despite normal blood glucose levels. An insulin-secreting tumor would lead to hypoglycemia (stimulation of glucose uptake from the blood even when blood glucose levels are low). As glucagon is released from the α-cells of the pancreas, loss of α-cells would not allow for glucagon secretion, and these symptoms would not appear. A lack of liver glucagon receptors would not allow hyperglycemia to occur (hypoglycemia would be observed instead), as would a lack of glucose-6-phosphatase. The lesions on the feet and legs are due to nonenzymatic glycosylation of nerves and small blood vessels in the periphery, leading to reduced circulation and feeling in the extremities.",
+      "keypoints": [
+        "⭐ Glucagonoma: glucagon-secreting tumor → hyperglycemia, hypoaminoacidemia, necrolytic migratory erythema, weight loss",
+        "⭐ Glucagon stimulates hepatic glycogenolysis and gluconeogenesis → sustained hyperglycemia even when fasting",
+        "Classic triad of glucagonoma: diabetes, necrolytic migratory erythema, weight loss (\"4 D's\": dermatitis, diabetes, DVT, depression)",
+        "Glucagon acts via Gs → ↑cAMP → PKA activation → promotes catabolism (opposes insulin actions)"
+      ]
+    },
+    {
+      "id": "ch10_q005",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 10 – Glycolysis and Gluconeogenesis",
+      "stem": "Mr Smith recently had a bout of fi ve days of severe nausea, vomiting, low-grade fever, and diarrhea. This condition had affl icted a number of people in Mr Smith’s offi ce. After recovering from this disorder, Mr Smith found that he could no longer drink milk before going to bed as he became fl atulent, his stomach hurt, and he would develop diarrhea. If he did not drink milk, these conditions did not occur. He had never experienced these problems before the affl iction. A possible explanation for Mr Smith’s problem is which one of the following?",
+      "choices": [
+        "Mechanical disruption of the intestinal epithelial cells, leading to reduced transcription of the galactokinase gene",
+        "Mechanical disruption of the intestinal epithelial cells, leading to reduced transcription of the fructokinase gene",
+        "Mechanical disruption of the intestinal epithelial cells, leading to loss of lactose transport into the cells",
+        "Mechanical disruption of the intestinal epithelial cells, leading to loss of the glucoamylase complex from their surface",
+        "Mechanical disruption of the intestinal epithelial cells, leading to loss of lactase from their surface"
+      ],
+      "answer": 4,
+      "explanation": "Mechanical disruption of the intestinal epithelial cells, leading to loss of lactase from their surface. Mechanical disruption of the intestinal epithelial cells (as brought about by acute viral gastroenteritis) leads to a loss of cell surface enzymes, but lactase is the most severely affected, as it is present at the lowest levels on these cells. While glucoamylase is also lost, its activity is in vast excess of what is required and its partial loss does not affect its ability to hydrolyze glucose–glucose linkages (it does not hydrolyze lactose). A lack of lactase means that the lactose in the diet passes undigested through the small intestine to the large intestine where the bacterial fl ora metabolize the lactose, producing gases and acids that disrupt the osmotic balance between the lumen of the bowel and the cells lining it. This leads to water secretion by the cells into the lumen of the bowel, resulting in diarrhea. Lactose is not directly transported by intestinal epithelial cells (its components, glucose and galactose, are, after hydrolysis of β-1,4 linkage between the two sugars), and a mechanical disruption of intestinal cells does not alter transcription of galactokinas",
+      "keypoints": [
+        "⭐ Post-viral gastroenteritis → mechanical damage to intestinal epithelium → loss of brush-border lactase (the most vulnerable brush border enzyme)",
+        "⭐ Lactase present at lowest levels among brush-border enzymes → first to be lost and last to recover after mucosal injury",
+        "Glucoamylase is also lost but is present in vast excess; its partial loss does not impair starch digestion",
+        "Secondary (acquired) lactase deficiency can follow any mucosal injury; distinguish from primary (congenital) lactase deficiency"
+      ]
+    },
+    {
+      "id": "ch10_q006",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 10 – Glycolysis and Gluconeogenesis",
+      "stem": "Paramedics bring a patient to the emergency department because he was found unconscious in an alley by passers by. The man was unshaven and dishevelled, and appeared to be about 40 years old. Blood alcohol levels were found to be 0.25% and blood glucose levels 32 mg/dL. IV glucose was initiated, and this enabled the man to regain consciousness, although he was still inebriated. While conscious, a history revealed that the man was a chronic alcoholic, and as far as he could remember, he had been only drinking for the past 2 weeks, with nothing to eat. Analysis of liver enzyme levels in his blood revealed normal readings. Assuming that his liver is still functioning normally, why is this patient hypoglycemic?",
+      "choices": [
+        "Liver glycogen stores were depleted by the high NAD+/NADH ratio",
+        "Liver glycogen stores were depleted by the high NADH/NAD+ ratio",
+        "The high NAD+/NADH ratio impaired gluconeogenesis",
+        "The high NADH/NAD+ ratio impaired gluconeogenesis",
+        "The high NAD+ /NADH ratio impaired glycolysis"
+      ],
+      "answer": 3,
+      "explanation": "The high NADH/NAD+ ratio impaired gluconeogenesis. Ethanol oxidation to acetic acid (via acetaldehyde) generates large amounts of NADH. As liver glycogen stores have been depleted within 36 h of the fast, gluconeogenesis is required to maintain blood glucose levels. The major precursors for gluconeogenesis are glycerol, lactate, and amino acids (which give rise to pyruvate or TCA cycle precursors, which generate oxaloacetate). Because of the high NADH/NAD+ ratio (due to the ethanol metabolism), pyruvate destined for gluconeogenesis is shunted to lactate in order to regenerate NAD+ to allow alcohol metabolism to continue. Similarly, oxaloacetate is shunted to malate, also to regenerate NAD+ for ethanol metabolism. Glycerol, which is converted to glycerol-3-phosphate, cannot go to dihydroxyacetone phosphate due to the high NADH levels in the liver. Thus, the high NADH/NAD+ ratio diverts gluconeogenic precursors from entering gluconeogenesis, and the liver has trouble maintaining adequate blood glucose levels. Liver glycogen stores have been depleted within the fi rst 36 h of the fast, but glycogen regulation is not affected by the NADH/NAD+ ratio. Under conditions in which the liver",
+      "keypoints": [
+        "⭐ Chronic alcohol → high NADH/NAD+ ratio → diverts pyruvate→lactate and OAA→malate → blocks gluconeogenesis",
+        "⭐ Liver glycogen depleted after ~36 hours of fasting; alcoholic relying on gluconeogenesis is vulnerable to hypoglycemia",
+        "Ethanol oxidation: ethanol → acetaldehyde (ADH, consumes NAD+) → acetate (ALDH, consumes NAD+) → massive NADH generation",
+        "High NADH also pushes: OAA → malate (malate dehydrogenase) blocking the TCA cycle and gluconeogenesis"
+      ]
+    },
+    {
+      "id": "ch10_q009",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 10 – Glycolysis and Gluconeogenesis",
+      "stem": "A 50-year-old man has been trying to lose weight, but he enjoyed eating so much that he found it diffi cult to do so. He then reads about a product in the popular press, which guarantees that he can lose weight, as caloric intake due to starch ingestion will be reduced (a starch blocker). The over-the-counter product that he buys is claimed to inhibit which of the following enzymes?",
+      "choices": [
+        "Pancreatic trypsinogen",
+        "Pancreatic lipase",
+        "Salivary amylase",
+        "Gastric amylase",
+        "Intestinal enteropeptidase"
+      ],
+      "answer": 2,
+      "explanation": "Salivary amylase. Starch blockers contain a natural inhibitor of salivary amylase, which will block starch digestion in the mouth. The other amylase that digests starch, pancreatic amylase, would only be inhibited by the starch blocker if the inhibitor would survive the conditions of the acidic stomach without becoming denatured. There is no gastric amylase. Intestinal enteropeptidase activates trypsinogen, which is required for protein digestion, not starch digestion. Pancreatic lipase is required for dietary triglyceride digestion, and is not active toward starch.",
+      "keypoints": [
+        "⭐ Starch digestion begins in mouth with salivary α-amylase; pancreatic amylase continues it in small intestine",
+        "⭐ A \"starch blocker\" inhibits amylase; salivary amylase is the accessible α-amylase target for OTC supplements",
+        "Pancreatic amylase is the major enzyme for starch digestion; trypsinogen and lipase digest protein and fat, respectively",
+        "Enteropeptidase (enterokinase) activates trypsinogen → trypsin; not involved in starch digestion"
+      ]
+    },
+    {
+      "id": "ch10_q017",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 10 – Glycolysis and Gluconeogenesis",
+      "stem": "After eating a meal containing carbohydrates, the monosaccharides must be absorbed from the intestinal lumen. This transport is dependent on which of the following enzymes?",
+      "choices": [
+        "Na+/H+ antiporter",
+        "Glucose-6-phosphate dehydrogenase",
+        "Hexokinase",
+        "Chloride transporter",
+        "Na+, K+ ATPase"
+      ],
+      "answer": 4,
+      "explanation": "Na+, K+ ATPase. Most monosaccharides are transported with sodium from the intestinal Lumen Na+ Glucose Fructose Mucosal side Galactose Glucose Fructose 3 Na+ 2 K+ Galactose Serosal side To capillaries , Na+–glucose cotransporters , Facilitated glucose transporters , Na+,K+-ATPase",
+      "keypoints": [
+        "⭐ SGLT-1 (Na+-glucose cotransporter) drives intestinal glucose absorption using the Na+ gradient generated by Na+/K+-ATPase",
+        "⭐ Na+/K+-ATPase maintains low intracellular Na+ → drives SGLT-1-mediated glucose uptake across the apical membrane",
+        "GLUT-2 on the basolateral membrane then moves glucose into the portal blood (facilitated, energy-independent)",
+        "Oral rehydration therapy exploits SGLT-1: glucose co-transports Na+ and water even in secretory diarrhea"
+      ]
+    },
+    {
+      "id": "ch10_q019",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 10 – Glycolysis and Gluconeogenesis",
+      "stem": "Your 20-year-old male patient received a medical discharge from the US Army. He has had multiple episodes of lightheadedness, sweating, fatigue, tremor, and intense hunger. He had one seizure. During two of these episodes, his blood glucose was 40 mg/dL. Which of the following tests could help you diagnose his problem?",
+      "choices": [
+        "Fasting blood glucose",
+        "HbA1c",
+        "Noncontrast CT scan of the abdomen",
+        "Blood glucose and insulin levels measured while he was symptomatic",
+        "Determining the presence of islet cell antibodies"
+      ],
+      "answer": 3,
+      "explanation": "Blood glucose and insulin levels measured while he was symptomatic. This patient probably has an insulinoma that releases insulin inappropriately at any blood glucose level, which would lead to hypoglycemia. The released insulin would stimulate glucose uptake into the peripheral tissues (muscle and fat), and if the patient had not eaten, blood glucose levels would rapidly fall. The insulin is also inhibiting the liver from producing glucose, either from glycogen degradation or gluconeogenesis, which only compounds the problem. The hypoglycemia and resultant epinephrine release account for all of his symptoms. 88 Chapter 10 To diagnose an insulinoma, a low blood glucose level and an inappropriately high insulin level during symptoms must be documented. A fasting blood glucose and HbA1c could be perfectly normal and do not help in making the diagnosis, as insulinomas do not necessarily constantly secrete insulin; they do so episodically. The presence of islet cell antibodies helps diagnose type 1 diabetes mellitus, but not an insulinoma. A noncontrast CT scan might be used to locate the position of the insulinoma, but it is a very poor test even for location and would only be attempt",
+      "keypoints": [
+        "⭐ Insulinoma: autonomous insulin secretion → hypoglycemia that resolves with dextrose administration; C-peptide elevated",
+        "⭐ Key diagnostic: fasting hypoglycemia + elevated insulin + elevated C-peptide (rules out exogenous insulin injection)",
+        "Whipple triad: symptoms of hypoglycemia + documented low glucose + relief with glucose administration",
+        "C-peptide is co-secreted equimolarly with insulin from β-cells; absent with exogenous insulin use"
+      ]
+    },
+    {
+      "id": "ch11_q001",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 11 – TCA Cycle and Oxidative Phosphorylation",
+      "stem": "A chronic alcoholic, while out on a binge, became very confused and forgetful. The police found the man and brought him to the emergency department. Upon examination, he displayed nystagmus and ataxia. Which enzyme is displaying reduced activity in his brain under these conditions?",
+      "choices": [
+        "Glyceraldehyde-3-phosphate dehydrogenase",
+        "Isocitrate dehydrogenase",
+        "α-ketoglutarate dehydrogenase",
+        "Succinate dehydrogenase",
+        "Malate dehydrogenase"
+      ],
+      "answer": 2,
+      "explanation": "a-ketoglutarate dehydrogenase. The alcoholic has become defi cient in vitamin B1, thiamine, which is converted to thiamine pyrophosphate for use as a coenzyme. One of the symptoms of B1 defi ciency is neurological, due to insuffi cient energy generation within the nervous system. B1 is required for a small number of enzymes, including transketolase, pyruvate dehydrogenase, and α-ketoglutarate dehydrogenase. By reducing the activity of the latter two enzymes, glucose oxidation to generate energy is impaired, and the nervous system suffers because of it.",
+      "keypoints": [
+        "⭐ α-Ketoglutarate dehydrogenase is the rate-limiting TCA cycle enzyme; inhibited by its products NADH and succinyl-CoA",
+        "⭐ Like pyruvate dehydrogenase, α-KG dehydrogenase requires thiamine (B1), lipoate, CoA, NAD+, and FAD",
+        "Arsenic and mercury inhibit lipoate-containing enzymes (pyruvate DH, α-KG DH) → TCA cycle blockade",
+        "Substrate for α-KG dehydrogenase: α-ketoglutarate → succinyl-CoA + CO2 + NADH"
+      ]
+    },
+    {
+      "id": "ch11_q003",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 11 – TCA Cycle and Oxidative Phosphorylation",
+      "stem": "Ethanol ingestion is incapable of supplying carbons for gluconeogenesis. This is due to which of the following?",
+      "choices": [
+        "Ethanol is converted to acetone, and the carbons are lost during exhalation",
+        "Ethanol is lost directly in the urine",
+        "Ethanol cannot enter the liver, where gluconeogenesis predominantly occurs",
+        "Ethanol’s carbons are lost as carbon dioxide before a gluconeogenic precursor can be generated",
+        "Ethanol is converted to lysine, which is strictly a ketogenic amino acid"
+      ],
+      "answer": 3,
+      "explanation": "Ethanol’s carbons are lost as carbon dioxide before a gluconeogenic precursor can be generated. Ethanol is converted to acetaldehyde, which is further oxidized to acetic acid and is then activated to acetyl-CoA. The acetyl-CoA enters the TCA cycle to generate energy, and two carbons are lost for each turn of the cycle as CO2. Thus, ethanol cannot provide carbons for the net synthesis of glucose. Ethanol is not converted CoASH COO– COO– CH2 C HO COO– CH2 Aconitase Citrate COO– CH2 C H COO– HO H COO– C Isocitrate NAD+ CO2 NADH + H+ Isocitrate dehydrogenase COO– CH2 CH2 NADH + H+ C O NAD+ COO– COO– α–Ketoglutarate CH2 CO2 CH2 CoASH α-Ketoglutarate dehydrogenase C O ˜ SCoA to acetone, nor is it directly lost in the urine. Ethanol is primarily oxidized in the liver, and its carbons cannot be used for the biosynthesis of lysine, which is an essential amino acid for humans. Ethanol oxidation is outlined in the fi gure below. CH CH2OH 3 Ethanol + NAD ADH + NADH + H C O CH 3 H Acetaldehyde + NAD ALDH + NADH + H C O CH3 – O Acetate Ethanol metabolism.",
+      "keypoints": [
+        "⭐ Ethanol → acetaldehyde → acetate → acetyl-CoA; acetyl-CoA carbons CANNOT be used for net gluconeogenesis",
+        "⭐ Acetyl-CoA enters TCA as acetyl group (2C) but the two carbons are lost as CO2 within one turn; no net carbon gain for OAA",
+        "In contrast, odd-chain fatty acids yield propionyl-CoA → succinyl-CoA → OAA (gluconeogenic)",
+        "Ethanol does NOT enter the TCA cycle intact; its carbons are completely oxidized to CO2 via acetyl-CoA"
+      ]
+    },
+    {
+      "id": "ch11_q017",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 11 – TCA Cycle and Oxidative Phosphorylation",
+      "stem": "An inactivating mutation in which of the following enzymes would lead to lactic acid accumulation in the liver?",
+      "choices": [
+        "Glucokinase",
+        "Phosphofructokinase-1",
+        "Cytoplasmic malate dehydrogenase",
+        "Pyruvate kinase",
+        "Glycerol-3-phosphate dehydrogenase"
+      ],
+      "answer": 2,
+      "explanation": "Cytoplasmic malate dehydrogenase. The cytoplasmic malate dehydrogenase is required in liver as part of the malate/aspartate shuttle in transferring reducing equivalents across the inner mitochondrial membrane. In the absence of such an activity, NADH levels will build up in the cytoplasm (since the electrons cannot be transferred to the mitochondrial matrix) and will lead to the reduction of pyruvate to lactate to regenerate NAD+ for other cytoplasmic reactions. A defect in glucokinase will block glycolysis, with no pyruvate or lactate formation from glucose. The same is true for an inactivating mutation in PFK-1. If pyruvate kinase were defective, PEP would accumulate, which cannot be converted to lactate without forming pyruvate fi rst. A defect in glycerol-3-phosphate dehydrogenase will prevent the glycerol-3-phosphate shuttle from transferring electrons to the mitochondrial matrix, but the liver uses primarily the malate/aspartate shuttle for this activity. See the fi gure below for an overview of the malate/aspartate shuttle system. Cytosol Mitochondrion Glucose 2 NAD+ Malate 2 NADH Oxaloacetate α-KG 2 Pyruvate TA Glutamate Aspartate Aspartate Inner mitochondrial membrane Answ",
+      "keypoints": [
+        "⭐ Cytoplasmic malate dehydrogenase (MDH1) is required for the malate-aspartate shuttle to transfer NADH into mitochondria",
+        "⭐ Without MDH1, cytoplasmic NADH accumulates → pyruvate is reduced to lactate (by LDH) to regenerate NAD+",
+        "Malate-aspartate shuttle: OAA (cyto) → malate (MDH1) → enters mito → malate → OAA (MDH2) + NADH",
+        "Liver primarily uses malate-aspartate shuttle (yields 2.5 ATP/NADH); muscle uses glycerol-3-phosphate shuttle (1.5 ATP/FADH2)"
+      ]
+    },
+    {
+      "id": "ch15_q003",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 15 – Amino Acid Metabolism and the Urea Cycle",
+      "stem": "A newborn becomes lethargic and drowsy 24 h after birth. Blood analysis shows hyperammonemia, coupled with orotic aciduria. This individual has an enzyme defi ciency that leads to an inability to directly produce which of the following?",
+      "choices": [
+        "Carbamoyl phosphate",
+        "Ornithine",
+        "Citrulline",
+        "Argininosuccinate",
+        "Arginine"
+      ],
+      "answer": 2,
+      "explanation": "Citrulline. The child has ornithine transcarbamoylase (OTC) defi ciency, and cannot condense carbamoyl phosphate with ornithine to produce citrulline (see the fi gure on page 131). The excess carbamoyl phosphate produced leaks into the cytoplasm where it bypasses the regulated enzyme of de novo pyrimidine production, leading to excess orotic acid. Thus, in an OTC defect, carbamoyl phosphate can be produced, but citrulline cannot. Since citrulline cannot be produced, the later products of the urea cycle (argininosuccinate and arginine) are also produced at lower levels than normal, which is an indirect effect due to the inability to produce citrulline. Mitochondrion Cytosol CO2 + H2O HCO3 – + + NH4 Carbamoyl phosphate synthetase I (CPSI) 2 ATP CH2NH2 1 2 ADP + Pi CH2 CH2NH2 CH2 CH2 C H NH2 Ornithine O– P O C O– O O CH2 COOH H2N H C NH2 COOH Carbamoyl phosphate Ornithine transcarbamoylase Ornithine 2 NH2 NH2 Pi C C O NH CH2 NH CH2 CH2 CH2 CH2 CH2 C H NH2 C H NH2 COOH COOH Citrulline Citrulline Answer 3: The urea cycle. Reaction 2 is defective in the disease described in this case.",
+      "keypoints": [
+        "⭐ OTC deficiency: most common urea cycle disorder; X-linked; ammonia and orotic acid elevated; citrulline low/absent",
+        "⭐ OTC catalyzes: carbamoyl phosphate + ornithine → citrulline (in mitochondria); deficiency blocks this step",
+        "Elevated orotic acid: excess carbamoyl phosphate exits mitochondria → cytoplasmic pyrimidine synthesis pathway",
+        "Distinguish from CPS-I deficiency: both elevate ammonia, but only OTC deficiency causes orotic aciduria"
+      ]
+    },
+    {
+      "id": "ch15_q004",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 15 – Amino Acid Metabolism and the Urea Cycle",
+      "stem": "Considering the patient in question 3, orotic acid levels are high in this patient due to which of the following?",
+      "choices": [
+        "Elevated ammonia",
+        "Elevated glutamine",
+        "Bypassing carbamoyl phosphate synthetase II (CPS-II)",
+        "Bypassing aspartate transcarbamoylase",
+        "Inhibition of carbamoyl phosphate synthetase I (CPS-I)"
+      ],
+      "answer": 2,
+      "explanation": "Bypassing carbamoyl phosphate synthetase II (CPS-II). The rate-limiting step for de novo pyrimidine synthesis is carbamoyl phosphate synthetase II (CPS-II), which produces carbamoyl phosphate in the cytoplasm (see the fi gure on page 132). In an OTC defi - ciency, the carbamoyl phosphate produced in the mitochondria leaks into the cytoplasm, leading to orotic acid synthesis as the regulated step of the pathway is being bypassed. The elevated ammonia is not a substrate of Amino Acid Metabolism and the Urea Cycle 131 Urine NH2 C O Urea NH2 C NH H2O NH2 5 NH CH2 Arginase CH2 CH2 C H NH2 COOH COOH Arginine HC CH 4 COOH Argininosuccinate lyase Fumarate NH COOH O C NH CH CH2 NH CH2 COOH CH2 CH2 3 C H NH2 Argininosuccinate synthetase COOH Argininosuccinate ATP AMP + PPi COOH H H2N C CH2 COOH Aspartate CPS-II, and while glutamine is also elevated, and is a substrate of CPS-II, higher glutamine concentrations will not overcome enzyme inhibition by its allosteric inhibitor, UTP. Aspartate transcarbamoylase is the regulated step of pyrimidine biosynthesis in many prokaryotic cells, but not in humans. This step is necessary for pyrimidines to be synthesized starting with carbamoyl phosphate. C",
+      "keypoints": [
+        "⭐ OTC deficiency → carbamoyl phosphate accumulates in mitochondria → enters cytoplasm → feeds pyrimidine synthesis → orotic aciduria",
+        "⭐ Orotic acid is produced when excess carbamoyl phosphate enters the pyrimidine synthesis pathway (bypasses OTC block)",
+        "Normal orotic acid in CPS-I deficiency (because carbamoyl phosphate never forms) vs. elevated in OTC deficiency",
+        "Treatment: low-protein diet, arginine supplementation, sodium benzoate/phenylbutyrate to provide alternate nitrogen disposal"
+      ]
+    },
+    {
+      "id": "ch15_q005",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 15 – Amino Acid Metabolism and the Urea Cycle",
+      "stem": "Considering the patient discussed in the last two questions, a potential treatment for the patient is supplementation with which of the following?",
+      "choices": [
+        "Arginine and glutamine",
+        "Lysine and glutamine",
+        "Arginine and benzoate",
+        "Lysine and benzoate",
+        "Glutamine and phenylbutyrate"
+      ],
+      "answer": 2,
+      "explanation": "Arginine and benzoate. Whenever there is a urea cycle defect, arginine becomes an essential amino acid (as its route of synthesis is the urea cycle). Benzoate, along with phenylbutyrate, is given to patients with urea cycle defects to conjugate with a nitrogen carrying molecule (benzoate conjugates with glycine while phenylbutyrate, after activation to phenylacetate, conjugates with glutamine), which is then excreted. The reactions of benzoate and phenylbutyrate with nitrogen containing amino acids are shown above. The excretion of glycyl-benzoate reduces the glycine levels of the body, forcing more glycine to be produced and providing an alternative pathway for nitrogen disposal in the absence of a functional urea cycle. Giving lysine or glutamine will not help to reduce ammonia levels in the patient. A −SCoA ATP AMP + PPi O (activation) C O O− C SCoA H O NH3 + C C −O (Glycine) H −SCoA C O C O Hippuric acid SCoA NH (excreted) CH2 C O O− B CH2CH2CH2 C O O− CH2 C O O− β-Oxidation Phenylbutyrate Phenylacetate CoAS− CH2 C O ATP SCoA AMP + PPi O NH2 C CH2 CH2 C H NH3 + HSCoA C O O− O O (Glutamine) CH2 CH2CH2 NH2 C NH C H C C O O− Phenylacetylglutamine (excreted) Removal of nitrogen usi",
+      "keypoints": [
+        "⭐ Treatment of OTC deficiency: arginine (becomes essential; restores ornithine supply) + sodium benzoate/phenylbutyrate (alternate nitrogen excretion)",
+        "⭐ Sodium benzoate conjugates glycine → hippurate; sodium phenylbutyrate → phenylacetylglutamine; both excreted in urine, removing nitrogen",
+        "Ornithine supplementation alone is insufficient; arginine restores the urea cycle intermediate pool",
+        "Dialysis used in acute hyperammonemia crisis; long-term management requires dietary protein restriction"
+      ]
+    },
+    {
+      "id": "ch15_q020",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "chapter": "Ch. 15 – Amino Acid Metabolism and the Urea Cycle",
+      "stem": "A 6-year-old boy is slightly anemic and is very sensitive to the sun, to the point where his skin blisters instead of healing normally from sunburn. His condition worsened when he was taking rifampin for a Methicillin Resistant Staph Aureus. The boy most likely has a defect in which of the following biochemical pathways?",
+      "choices": [
+        "Glycogen synthesis",
+        "Fatty acid oxidation",
+        "DNA repair",
+        "Transcription-coupled DNA repair",
+        "Heme synthesis"
+      ],
+      "answer": 4,
+      "explanation": "Heme synthesis. The boy has porphyria, a reduced ability to synthesize heme. The supersensitivity to the sun is due to the presence of heme precursors in skin cells that are easily converted to radical form by the energy in sunlight, and which severely damage the cell. The drug the boy is taking is metabolized via a cytochrome P450 system, which is induced when the drug fi rst enters the circulation. Induction of P450 systems induces the synthesis of heme, leading to increased concentrations of the heme intermediates and an increased sensitivity to the effects of these intermediates as induced by sunlight. The anemia is due to reduced heme levels in the red blood cells. This disorder is not due to defects in DNA repair, glycogen metabolism, or fatty acid metabolism.",
+      "keypoints": [
+        "⭐ Heme synthesis begins and ends in mitochondria (ALA synthase, ferrochelatase); intermediate steps are cytoplasmic",
+        "⭐ Porphyrias: defects in heme synthesis enzymes → accumulation of photosensitive porphyrin intermediates → skin blistering with UV exposure",
+        "ALA synthase (mitochondrial) is the rate-limiting, regulated step; feedback-inhibited by heme",
+        "Lead poisoning inhibits ALA dehydratase and ferrochelatase → ↑ALA and protoporphyrin IX in blood"
+      ]
+    }
+  ]
+}

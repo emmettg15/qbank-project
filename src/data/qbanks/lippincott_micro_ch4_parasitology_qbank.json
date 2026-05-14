@@ -1,0 +1,566 @@
+{
+  "config": {
+    "title": "Lippincott Micro Ch4 - Parasitology (JeffMD GI relevant)",
+    "subtitle": "High-yield Parasitology for USMLE Step 1 — Lippincott's Illustrated Q&A Review of Microbiology & Immunology",
+    "passingFraction": 0.75,
+    "tags": {
+      "micro_parasitology": {
+        "label": "Parasitology"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q005",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A child undergoes an appendectomy, and the pathologist  identifi es a parasite in the surgical biopsy (shown in the  image). What is the most likely parasitic diagnosis?",
+      "choices": [
+        "Amebiasis",
+        "Ascariasis",
+        "Enterobiasis",
+        "Giardiasis",
+        "Hookworm disease"
+      ],
+      "answer": 2,
+      "explanation": "Enterobiasis. Pinworms sometimes  are seen in tissue sections from the appendix. Whether  the parasite is able to induce appendicitis or is merely  incidental to the medical condition is open to debate.  What is real, however, is the fact that pinworm infec- tions in children are often underappreciated. The para- site is capable of producing minute ulcerations in the  intestinal mucosa, and heavy infections have been asso- ciated to perianal pain and pruritus. The worms usually  amass in the ileocecal region but also have the potential  to wander throughout the entire  gastrointestinal tract.  The female will eventually deposit thousands of eggs  on the perianal folds. Infectivity of the eggs may be as  rapid as 6 hours, and the newly hatched juveniles may  then migrate into the reproductive canal of a young girl.  Infections are treatable with pyrantel pamoate, alben- dazole, or mebendazole. Since the eggs are viable for  about a week, treatment should defi nitely be repeated  in order to prevent a recurrence of symptomatic  disease. With regards to the incorrect answers, cross  sections of helminths may be misidentifi ed as proto- zoans (e.g., Entamoeba histolytica, Giardia lamblia) by  the unprepared student. Note that there are no nuclei  or other internal structures common to protozoans.  Hookworms do not commonly involve the  appendix,  and Ascaris lumbricoides is a huge worm when  compared  to the human pinworm.",
+      "keypoints": [
+        "⭐ Enterobius vermicularis (pinworm): most common helminth in US; incidental finding in appendiceal surgical specimens",
+        "⭐ Pinworm clinical: intense perianal pruritus (worse at night); diagnosis by scotch tape test at perianal area",
+        "No tissue invasion → NO eosinophilia with pinworm; eosinophilia = tissue-invasive helminths only",
+        "Treatment: mebendazole or albendazole (single dose, repeat at 2 weeks); treat ALL household members simultaneously"
+      ]
+    },
+    {
+      "id": "q006",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A medical student, who is completing a pathology  rotation, is given an assignment to review the collec- tion of parasite specimens taken from patients with  gastrointestinal disease. On one of the slides, the  label is faded and unreadable. Even so, the specimen  (shown in the image) is well preserved and, according  to the attending pathologist, easy to identify. What is  the identifi cation of this parasite?",
+      "choices": [
+        "Ascaris lumbricoides",
+        "Echinococcus granulosum",
+        "Fasciola hepatica",
+        "Taenia solium",
+        "Toxocara canis"
+      ],
+      "answer": 3,
+      "explanation": "Taenia solium. This is a microscopic  view of the scolex or holdfast organ of the ribbon stage  of a taeniid tapeworm like T. solium. It routinely infects  the small intestine. The suckers and crown of hooks are  characteristic. E. granulosis (echinococcosis) is also a tae- niid; however, it occurs as hydatid sand or protoscolices  (shown in the image) within a liver or pulmonary cyst.  Ascaris and Toxacara are roundworms, and Fasciola is a  fl uke. Roundworms and fl uke do not possess scolices.",
+      "keypoints": [
+        "⭐ Taenia solium scolex (holdfast organ): identifies cestode (tapeworm) infection; scolex has suckers and rostellum with hooks (distinguishes T. solium from T. saginata which lacks hooks)",
+        "⭐ T. solium (pork tapeworm): ingesting undercooked pork → adult worm (taeniasis); ingesting EGGS → cysticercosis (neurocysticercosis)",
+        "Neurocysticercosis: most common cause of acquired epilepsy worldwide; ring-enhancing lesions on MRI with calcification",
+        "Treatment: tapeworm (adult) = praziquantel or niclosamide; neurocysticercosis = albendazole + corticosteroids + anti-epileptic drugs"
+      ]
+    },
+    {
+      "id": "q014",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A woman who emigrated from Asia undergoes a  spontaneous abortion, and in the recovery room she  passes numerous proglottids. The medical technolo- gist injects one of the proglottids with India ink to  delineate the uterus (shown in the image). How did  she become infected with this tapeworm?",
+      "choices": [
+        "Person-to-person or direct fecal-oral exposure",
+        "Consumption of insuffi ciently cooked sirloin",
+        "Consumption of insuffi ciently cooked pork  sausage",
+        "Consumption of sushi",
+        "Fecal contamination of food or drink"
+      ],
+      "answer": 1,
+      "explanation": "Consumption of insuffi  ciently cooked  sirloin. Based on the number of uterine branches  stained by the India ink, the correct identifi cation is  Taenia saginata or commonly referred to as the beef  tapeworm (i.e., a steer or cow serves as the inter- mediate host). The bladderworm or Cysticercus-a  juvenile tapeworm of sorts-is the infective stage  for people, and the vehicle for transmission is insuf- fi ciently cooked beef. The parasite may only produce  vague abdominal discomfort, and the patient becomes  aware of an infection when proglottids are noticed  in the undergarments or after a bowel movement.  T. saginata rarely is transmitted in the United States, but  endemicity is high in Asia, Africa, and Latin America.",
+      "keypoints": [
+        "⭐ Taenia saginata (beef tapeworm): ingesting insufficiently cooked beef containing cysticerci → adult tapeworm in intestine",
+        "⭐ T. saginata vs T. solium: saginata from beef, no hooks, no neurocysticercosis; solium from pork, has hooks, CAN cause neurocysticercosis",
+        "Tapeworm diagnosis: proglottid segments or eggs in stool (T. saginata has >12 uterine branches; T. solium has <12)",
+        "Treatment: praziquantel or niclosamide; T. saginata does NOT cause cysticercosis (unlike T. solium eggs)"
+      ]
+    },
+    {
+      "id": "q015",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "What is an appropriate therapy for the woman in the  above case?",
+      "choices": [
+        "Chloroquine",
+        "Ivermectin",
+        "Metronidazole",
+        "Praziquantel",
+        "Piperazine"
+      ],
+      "answer": 3,
+      "explanation": "Praziquantel. Praziquantel therapy  has a high degree of effi cacy. Chloroquine is an anti- malarial drug; ivermectin is used in fi larial worm  infections; metronidazole is used for anaerobic bacte- rial infections as well as in some protozoal infections,  and piperazine is used for infections with the nema- todes Ascaris vermicularis and Enterobius vermicularis.  Niclosamide is also used for Taenia infections.",
+      "keypoints": [
+        "⭐ Praziquantel: drug of choice for most cestode (tapeworm) and trematode (fluke) infections; causes spastic paralysis and disrupts tegument",
+        "⭐ Praziquantel: DOC for T. saginata, T. solium (intestinal), schistosomiasis, liver flukes (Clonorchis, Fasciola), lung flukes (Paragonimus)",
+        "Albendazole: DOC for neurocysticercosis, echinococcosis, hookworm, pinworm, ascariasis; alternative for many helminths",
+        "Ivermectin: DOC for strongyloidiasis, onchocerciasis, scabies, head lice; NOT for tapeworms"
+      ]
+    },
+    {
+      "id": "q016",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A 65-year-old woman in Finland suffers from a mac- rocytic anemia. Her history is signifi cant for frequent  consumption of pickled fi sh. A stool sample reveals  parasite ova like the one shown in the fi rst image.  Upon treatment, she expels a tapeworm similar to the  stained specimen shown in the second image. With  which tapeworm was she most likely infected?",
+      "choices": [
+        "Diphyllobothrium latum",
+        "Echinococcus granulosus",
+        "Hymenolepis nana",
+        "Taenia saginata",
+        "Taenia solium"
+      ],
+      "answer": 0,
+      "explanation": "Diphyllobothrium latum. This ces- tode, sometimes called the broad fi sh tapeworm, has  the tendency to absorb large quantities of vitamin B12  from the intestinal tract of the human host-thus pro- ducing a tapeworm pernicious anemia. The species is  common in parts of Finland, but similar species occur  elsewhere in northern boreal regions and other areas  of the world. Freshwater fi sh carry infective juvenile  tapeworms, but cooking the fi sh will inactivate these  encysted juveniles. The egg-noted in the stool con- centration-features an anopercular knob, and the  scolex is adorned with bothria (shown in the image)  and not suckers or hooks. These are considered reli- able markers in the identifi cation of the species in the  clinical laboratory.",
+      "keypoints": [
+        "⭐ Diphyllobothrium latum (broad/fish tapeworm): causes macrocytic anemia due to preferential absorption of vitamin B12 from host",
+        "⭐ D. latum: longest human tapeworm (up to 10m); transmitted via raw/undercooked freshwater fish (especially in Finland/Scandinavia)",
+        "Fish tapeworm = B12 deficiency (megaloblastic anemia + neurologic complications); unlike pernicious anemia, anti-IF antibodies are absent",
+        "Treatment: praziquantel; B12 supplementation if deficient; cooking fish to 63°C kills cysticercoids"
+      ]
+    },
+    {
+      "id": "q017",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A 9-year-old patient-a daughter of a migrant farm  laborer-experiences onset of epileptic seizures. The  family has recently arrived in the United States from  Mexico. A few pea-sized lipomalike lesions are unde- niably palpable in her subcutaneous tissue of her torso  and limbs. Excision of two of these lesions reveals  parasites (shown in the image). These parasites are  active when placed in warm saline. MRI demonstrates  similar lesions in the CNS, and an immunoblot assay  is positive for the suspected parasitic disease. Of inter- est is the discovery of taeniid ova in the stool of her  father. Which parasite is most likely the cause of the  child’s illness? Parasitology 83",
+      "choices": [
+        "Echinococcus granulosus",
+        "Onchocerca volvulus",
+        "Taenia saginata",
+        "Taenia solium",
+        "Toxocara canis"
+      ],
+      "answer": 3,
+      "explanation": "Taenia solium. The diagnosis is  cysticercosis. The condition is a result of cysticerci  or bladderworms (sometimes referred to as juvenile  tapeworms) infecting the tissue of the patient. Almost  any tissue can be infected, but intraocular cysticerco- sis and neurocysticercosis pose grave challenges for  the patient. Other serious infections involve cardiac  and parenchymal brain tissue. Seizures are regularly  reported in the CNS patient. Direct visualization of  the juvenile parasites in biopsy or excised tissue can  be done. The immunoblot assay is the test of choice to  confi rm the diagnosis of neurocysticercosis suggested  by CT and MRI fi ndings. Although the cystic form of  the parasite is sensitive to the taeniacidal drugs like  albendazole, the dead and dying worms may promote  adverse infl ammatory reactions. To minimize this sit- uation, coadministration of an antiseizure medication  and a corticosteroid is generally recommended.",
+      "keypoints": [
+        "⭐ Cysticercosis: ingestion of T. solium EGGS (not cysticerci) from fecally-contaminated food → larvae hatch → penetrate gut → travel to tissues",
+        "⭐ Neurocysticercosis (T. solium): #1 cause of acquired seizures worldwide; ring-enhancing lesions with edema on CT/MRI; calcifications in chronic stage",
+        "T. solium life cycle: humans = definitive host (adult worm from pork) AND intermediate host (cysticercosis from eggs)",
+        "Diagnosis: serology (EITB), neuroimaging; treatment: albendazole + dexamethasone + anti-epileptics for neurocysticercosis"
+      ]
+    },
+    {
+      "id": "q018",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "What was the probable source or vehicle of infection  for the child in the above case?",
+      "choices": [
+        "Autoinfection from her own feces",
+        "Consuming rare hamburgers",
+        "Consuming undercooked pork",
+        "Drinking fecal contaminated water at the farm  labor camp",
+        "Ingestion of fecal-contaminated salad vegetables"
+      ],
+      "answer": 4,
+      "explanation": "Ingestion of fecal-contaminated salad  vegetables. This is an imported case of cysticercosis.  The daughter presumably acquired the infection from  a household contact-her father being the likely can- didate. Taenia solium eggs are infectious immediately  when they are passed in feces. Further environmental  development is unnecessary. Therefore, contaminated  salad or possibly other uncooked vegetables is the  most probable means of transmission. Since the child  did not harbor the adult tapeworm, autoinfection will  not occur. Although fairly common in Latin America,  T. solium has a low-degree of endemicity in the United  States. The disease is most prevalent in countries  that are challenged with issues of poor hygiene and  sanitation. Cysticercosis takes approximately 1 year  to develop, which would discount the possibility of  polluted drinking water and the recent eating of raw  pork. Cysticercosis should not be viewed as merely  a medical curiosity but an important and potentially  life-threatening parasitic disease.",
+      "keypoints": [
+        "⭐ Cysticercosis transmission: ingesting T. solium eggs in fecally-contaminated food (vegetables, salads) - NOT from eating pork",
+        "⭐ Key distinction: taeniasis (adult worm) = eating pork with cysticerci; cysticercosis (larvae in tissues) = eating eggs in fecal-contaminated food",
+        "Migrant worker daughter exposed to fecally-contaminated vegetables in endemic area → eggs ingested → cysticercosis",
+        "Autoinfection also possible: person with T. solium tapeworm can infect themselves if eggs reach mouth via fecal-oral route"
+      ]
+    },
+    {
+      "id": "q033",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "Over a 1-week period, several elementary age children,  who are involved in a summer camp in the Pocono  Mountains of Pennsylvania, contract a gastrointesti- nal illness (i.e., they all exhibit similar manifestations  like painful bloating and the passage of loose stools).  A common microbe is present in fresh stool smears  (example shown under oil immersion). Of the fol- lowing means of transmission, which one is the most  likely way each of these children became infected?",
+      "choices": [
+        "Breathing (and swallowing) dust laden with bird  droppings",
+        "Drinking contaminated lake or stream water",
+        "Eating rare or insuffi ciently cooked hamburger",
+        "Eating salad that contains dandelion fl owers  grown in nature",
+        "Poor hygiene practice of urinating while wading  in streams"
+      ],
+      "answer": 1,
+      "explanation": "Drinking contaminated lake or stream  water. The children are infected with the Protozoan  Giardia lamblia. Airborne transmission of dust most  closely fi ts the clinical picture of certain fungal diseases  (e.g., cryptosporidiosis, histoplasmosis). Urinating  while wading in a stream is somewhat nonsensical  since this is clearly an intestinal infection. Although it  is theoretically possible for a patient to be introduced  to Giardia through poor hygiene habits or via contam- inated food, a preponderance of the cases occurs by  ingesting the cystic stage in water. The micrograph is  of the trophozoite (indicating that at least this sam- ple was taken from a patient with signifi cant diarrhea)  and the cystic form of Giardia lamblia.",
+      "keypoints": [
+        "⭐ Giardia lamblia: flagellated protozoan; cysts in contaminated water (streams, lakes, wells); most common intestinal parasite in US",
+        "⭐ Giardia clinical: fatty, foul-smelling, floating diarrhea; bloating; malabsorption (fat-soluble vitamins A, D, E, K); NO blood/fever",
+        "Diagnosis: stool antigen ELISA (most sensitive); stool O&P (trophozoites with 'owl eyes' or cysts with 4 nuclei)",
+        "Treatment: metronidazole or tinidazole (single dose); alternative nitazoxanide; paromomycin for pregnant women"
+      ]
+    },
+    {
+      "id": "q035",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A number of orphan children from a Third World  nation are evaluated for failure to thrive. Some of these  children present with debilitating parasitic diarrhea  (representative stool sample shown in the image) and  exhibit signs of malabsorption. Which of the follow- ing microbial virulence-producing attributes most  accurately explains the pathology of this parasitic  disease?",
+      "choices": [
+        "Development of macrocytic iron-defi ciency  anemia",
+        "Heavy parasite burden covering the epithelial  surface of the duodenum",
+        "Lysis of the epithelial lining in the colon,  resulting in blood in the stools",
+        "Massive infections, resulting in intestinal  blockage and peritonitis",
+        "Perforation of the small intestine and hepatic  abscess formation"
+      ],
+      "answer": 1,
+      "explanation": "Heavy parasite burden covering the  epithelial surface of the duodenum. Giardia is not a  tissue invader. It does not lyse epithelial cells, and  therefore, blood in a stool sample cannot be attrib- uted to giardiasis. Iron-defi ciency anemias are signs  of hookworm disease or diphyllobothriasis. Intestinal  blockage is most often a result of ascariasis. The ven- tral adhesive disc of Giardia allows the parasite to  fi rmly attach to the epithelial lining of the small intes- tine. Oftentimes, the parasitic burden is so great that  this surface is nearly completely covered with proto- zoans, thus mechanically interfering with the diges- tive process. Steatorrhea and stools with mucus are  reliable signs of a heavy infection.",
+      "keypoints": [
+        "⭐ Giardia does NOT invade tissue: attaches to duodenal/jejunal mucosa by ventral disc → mechanical interference → malabsorption",
+        "⭐ Giardia malabsorption mechanism: heavy burden covers epithelial surface of duodenum → interferes with absorption (NOT invasion or lysis)",
+        "Celiac-like presentation: fat malabsorption, weight loss, failure to thrive in children; responds to anti-Giardial treatment",
+        "Giardia risk groups: backpackers (untreated stream water), daycare children, international travelers, immunocompromised (IgA deficiency)"
+      ]
+    },
+    {
+      "id": "q036",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A missionary returns home from South America  because of health problems. Principally, the patient  is suffering from weeks of acute colitis. The diarrheic  stool sample submitted for analysis is positive for  occult blood, trophozoites with ingested erythrocytes  (shown in the fi rst image), and quadrinucleate cysts  (shown in the second image). Based on these clinical  fi ndings, what is the most likely diagnosis? Parasitology 89",
+      "choices": [
+        "Amebiasis",
+        "Balantidiasis",
+        "Cryptosporidiosis",
+        "Cyclosporiasis",
+        "Giardiasis"
+      ],
+      "answer": 0,
+      "explanation": "Amebiasis. Trophozoites that have  engulfed red blood cells and quadrinucleate cysts are  strongly suggestive of amebic dysentery or a case of  Entamoeba histolytica. Untreated infections may lead  to intestinal perforation (due to cysteine proteinases  and other tissue-damaging enzymes), peritonitis, or  a liver abscess. To complicate matters, nonpathogenic  amebae, like E. dyspar, are diffi cult to distinguish from  E. histolytica-except that that nonpathogenic species  do not ingest erythrocytes. Parasite antigen detection  by ELISA is more sensitive and specifi c than examina- tion of stool smears.",
+      "keypoints": [
+        "⭐ Amebiasis (Entamoeba histolytica): flask-shaped colonic ulcers; bloody/mucoid diarrhea; quadrinucleate cysts + erythrophagous trophozoites on O&P",
+        "⭐ Amebic dysentery signs: trophozoites engulfing RBCs (erythrophagocytosis) + quadrinucleate cysts = E. histolytica (pathogenic, not E. dispar)",
+        "E. histolytica is endemic in tropical/subtropical regions (Mexico, Central/South America, Africa, India)",
+        "Treatment: metronidazole (for tissue invasion) + paromomycin/iodoquinol (luminal cysts); both components required to prevent relapse"
+      ]
+    },
+    {
+      "id": "q038",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A 9-year-old child is observed repeatedly scratching  herself around the anal canal. Distinctive microscopic  eggs (shown in the image) are detected via the cello- phane tape technique. What is the correct diagnosis?",
+      "choices": [
+        "Ascariasis",
+        "Enterobiasis",
+        "Strongyloidiasis",
+        "Trichinosis",
+        "Trichuriasis"
+      ],
+      "answer": 1,
+      "explanation": "Enterobiasis. Enterobius vermicularis,  the causative agent of enterobiasis or human pinworm  disease, is a common childhood parasitic infection in  the United States, especially in middle-class families.  The child becomes infected by ingesting embryonated  eggs indoors, usually in a home or school setting.  The human pinworm does not infect household pets;  therefore, dogs and cats are not involved in the life  cycle. Controversy still exists; however, as to the para- site’s medical importance, but most microbiologists  consider infections to be underrated. Treatment is  almost always recommended.",
+      "keypoints": [
+        "⭐ Enterobius vermicularis (pinworm): perianal pruritus + scotch tape test positive for eggs = definitive diagnosis",
+        "⭐ Pinworm is the most prevalent helminth infection in the US; more common in school-aged children; fecal-oral transmission",
+        "Retroinfection: eggs hatch at perianal area, larvae migrate back → self-perpetuating cycle; highly contagious within households",
+        "Treatment: mebendazole or albendazole; repeat in 2 weeks; wash bedding/clothing; treat entire household"
+      ]
+    },
+    {
+      "id": "q049",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "An immigrant from eastern Asia develops a cholan- giocarcinoma. A fecal sample shows evidence of a  parasitic infection which the physician believes to be  linked to malignancy. What did the specimen reveal  that led to this conclusion?",
+      "choices": [
+        "Ameba cyst",
+        "Cryptosporidium oocysts",
+        "Flagellated protozoan trophs",
+        "Fluke eggs",
+        "Nematode larvae"
+      ],
+      "answer": 3,
+      "explanation": "Fluke eggs. Certain parasites like the  Asian liver fl uke (e.g., Clonorchis sinensis) are asso- ciated with neoplastic disease. The patient emigrated  from an endemic region of the world, which further  supports the physician’s supposition. Schistosoma hae- matobium, although not a response to this question, is  a blood fl uke that inhabits the veins around the blad- der and is also believed to promote neoplastic disease,  squamous cell carcinoma of the bladder in this case.",
+      "keypoints": [
+        "⭐ Clonorchis sinensis (Asian liver fluke): associated with cholangiocarcinoma; transmitted via raw freshwater fish (sushi, sashimi in Asia)",
+        "⭐ Liver fluke lifecycle: snail (first intermediate host) → fish (second intermediate host) → human definitive host → bile ducts",
+        "Symptoms: biliary obstruction, recurrent cholangitis, cholangiocarcinoma (long-term); eosinophilia in early infection",
+        "Treatment: praziquantel; prevention: cook freshwater fish thoroughly"
+      ]
+    },
+    {
+      "id": "q050",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "Which of the following modes of transmission accounts  for the development of neurocysticercosis in humans?",
+      "choices": [
+        "Ascarid eggs from soil",
+        "Bladderworms in raw beef",
+        "Cyclosporan oocysts in water",
+        "Fecal-oral taeniid eggs",
+        "Toxoplasma zoitocysts in raw pork"
+      ],
+      "answer": 3,
+      "explanation": "Fecal-oral taeniid eggs. Ingesting the  eggs of the pork tapeworm (Taenia solium) in fecal- contaminated food items is the likely means for trans- mission of cysticercosis. Because of the shape, the  cysticercus is sometimes referred to as bladderworm  (a type of metacestode) and is the stage responsible  for the pathogenesis of neurocysticercosis. To mini- mize the possibility of an autoinfection, it is critical  that the infection be aggressively managed. Ascaris is  a geohelminth and must fi rst embryonate in soil to be  infective, Cyclospora and Toxoplasma produce proto- zoan infections, and raw beef is the vehicle for trans- mission of another tapeworm that is not believed to be  associated with neurocysticercosis.",
+      "keypoints": [
+        "⭐ Cysticercosis (T. solium) transmission: fecal-oral ingestion of taeniid EGGS from contaminated food/water/hands",
+        "⭐ Eating pork → taeniasis (adult intestinal worm); eating eggs → cysticercosis (larval cysts in tissue); these are two different diseases",
+        "Neurocysticercosis: cysticerci in brain → seizures, headache, hydrocephalus; most common preventable cause of epilepsy worldwide",
+        "Control: sanitation to prevent fecal contamination; cook pork thoroughly; treat tapeworm carriers to prevent egg shedding"
+      ]
+    },
+    {
+      "id": "q054",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "What is the most likely vehicle for infection in the  above case?",
+      "choices": [
+        "Drinking water",
+        "Raw fi sh",
+        "Raw hamburger",
+        "Salad greens",
+        "Soil or sewage Parasitology"
+      ],
+      "answer": 1,
+      "explanation": "Raw fi sh. Diphyllobothrium latum and  similar species are transmitted to people when raw or  insuffi ciently cooked fi sh is consumed. The plerocer- coid or the infective stage resides in the fl esh of fresh- water fi sh like trout and salmon. Although human  sewage may play a role in the perpetuation of the life  cycle, a person cannot become infected by ingesting  the tapeworm eggs in drinking water.",
+      "keypoints": [
+        "⭐ Diphyllobothrium latum and related species: transmitted via raw or insufficiently cooked freshwater fish (smoked fish, sashimi)",
+        "⭐ D. latum lifecycle: Cyclops (copepod, 1st intermediate host) → freshwater fish (2nd intermediate host) → human (definitive host)",
+        "Endemic: Finland, Scandinavia, North America (Great Lakes), Russia, Japan; associated with traditional raw fish dishes",
+        "Prevention: freeze fish at -10°C for 7 days or cook to 63°C; praziquantel is curative"
+      ]
+    },
+    {
+      "id": "q055",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "Several individuals present with explosive watery  diarrhea,  mild  fever,  and  profound  fatigue.  Epidemiologically, the common link is the eating of  imported salad greens. Acid-fast preparations of fresh  stools reveal large oocysts. Furthermore, the illness  responds to TMP-SMZ treatment. What is the most  likely pathogen?",
+      "choices": [
+        "Blastocystis",
+        "Cryptosporidium",
+        "Cyclospora",
+        "Entamoeba",
+        "Giardia"
+      ],
+      "answer": 2,
+      "explanation": "Cyclospora. Imported raspberries  from Central America have also been linked to cluster  cases of cyclosporiasis in the United States. More than  likely the use of contaminated river water to wash the  berries or to apply fungicide and insecticide prior to  shipping is a contributing factor. Cyclosporan oocysts  are noticeably larger than those of Cryptosporidium.  Although both Cyclospora and Cryptosporidium have  oocysts that are acid-fast, the sensitivity to the antimi- crobial TMP-SMZ is the distinguishing attribute.",
+      "keypoints": [
+        "⭐ Cyclospora cayetanensis: coccidian protozoan; linked to imported produce (raspberries, basil, mesclun lettuce, cilantro) from Central America",
+        "⭐ Cyclospora: modified acid-fast oocysts (8-10 μm); UV autofluorescent; not visible on standard O&P; prolonged watery diarrhea with fatigue",
+        "Treatment: TMP-SMZ (DOC); no alternative for immunocompromised; Cyclospora causes prolonged/relapsing diarrhea (unlike Crypto)",
+        "Distinguish: Cyclospora (larger, 8-10 μm, autofluorescent, TMP-SMZ) vs Cryptosporidium (4-6 μm, nitazoxanide)"
+      ]
+    },
+    {
+      "id": "q056",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A child with a helminth parasite is found to be ane- mic. Which parasitic worm is linked to microcytic  anemia in children?",
+      "choices": [
+        "Broad fi sh tapeworm",
+        "Hookworm",
+        "Pinworm",
+        "Pork tapeworm",
+        "Schistosome blood fl uke"
+      ],
+      "answer": 1,
+      "explanation": "Hookworm. The consumption and  the oozing of blood from the intestinal site where the  worm attaches explains the iron-defi ciency anemia.  Heavy infections of Trichuris trichiura or the human  whipworm (not a choice in this question) has also  been linked to anemia. Diphyllobothrium latum or the  broad fi sh tapeworm has been noted to produce a type  of pernicious or megaloblastic anemia.",
+      "keypoints": [
+        "⭐ Hookworm (Necator americanus/Ancylostoma duodenale): attaches to small bowel wall, sucks blood → iron-deficiency anemia",
+        "⭐ Hookworm is the leading cause of iron-deficiency anemia in developing world; pale conjunctivae + hypoalbuminemia in heavy infections",
+        "Diagnosis: stool O&P shows thin-shelled oval eggs; peripheral eosinophilia during lung migration (Loeffler syndrome)",
+        "Treatment: mebendazole or albendazole; iron supplementation; prevention = wearing shoes in endemic areas"
+      ]
+    },
+    {
+      "id": "q058",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A young child, who was adopted from an orphanage in  Asia, routinely experiences loose stools. An abundance  of microscopic worms (shown in the image) are noted in  a fecal preparation smear. What is the correct diagnosis?",
+      "choices": [
+        "Ascariasis",
+        "Enterobiasis",
+        "Hookworm disease",
+        "Strongyloidiasis",
+        "Trichuriasis"
+      ],
+      "answer": 3,
+      "explanation": "Strongyloidiasis. The identifi cation  of a Strongyloides stercoralis infection is determined  in part because of the presence of rhabditiform lar- vae in a fecal sample. On the other hand, the labora- tory diagnosis of hookworms, Ascaris, Enterobius, and  Trichuria are based on the recovery of parasite eggs in  the feces. Once in a while, however, a pinworm egg  will hatch on the perianeum and a larva may be seen  in a stool sample. The presence of pinworm larvae in  a stool sample, which has been properly stored and  processed, is a very rare occurrence. A key word in  the stem, therefore, is “abundance” and indicates the  presence of numerous larvae in the stool. Strongyloides  is a common parasite in children who reside in devel- oping nations, especially children who are confi ned to  an orphanage. A pulmonary phase of the Strongyloides  life cycle has been linked with pneumonitis and also  asthmalike manifestations. Enteritis is also a possibil- ity. More than not, intestinal involvement will produce  a benign infection. From time to time, this nematode  is identifi ed from patients in the United States.",
+      "keypoints": [
+        "⭐ Strongyloides stercoralis: unique autoinfection cycle → chronic infection for decades; filariform larvae in stool = diagnostic",
+        "⭐ Strongyloides hyperinfection in immunocompromised (e.g., steroid use): larvae carry gut bacteria → Gram-negative sepsis/meningitis",
+        "Adopted child from Asia with eosinophilia + recurrent GI symptoms = think Strongyloides (or other helminths)",
+        "Treatment: ivermectin (DOC); albendazole alternative; SCREEN for Strongyloides before immunosuppression with serology or stool"
+      ]
+    },
+    {
+      "id": "q060",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "An 8-year-old child, who recently emigrated with the  family from Central America, is taken to the emer- gency department because of a stomach ache that  has persisted for about 24 hours. In fact, the mother  indicates that the pain did not lessen even after the  child vomited up two worms (shown in the image)  the night before. The mother further indicates that for  the past several weeks the child has had little desire to  eat and often complains of diarrhea. Physical exami- nation reveals that the pain is more pronounced in the  right upper quadrant region and directly radiates to  the scapular area of the back. Based on these fi ndings,  what is the most likely diagnosis?",
+      "choices": [
+        "Ascariasis with biliary involvement",
+        "Disseminated strongyloidiasis",
+        "Hemolytic uremic syndrome",
+        "Intestinal and hepatic amebiasis",
+        "Salmonella enterocolitis"
+      ],
+      "answer": 0,
+      "explanation": "Ascariasis with biliary involvement.  More than 1 billion people worldwide are infected with  Ascaris lumbricoides. Children are more likely candi- dates than adults to be infected. The worms commonly  reside in the small intestine, but migration into the bil- iary tract is fairly common. Based on the exquisite radi- ating pain in this case, biliary involvement should be  ruled out, probably though radiographic fi ndings. It is  not unusual for a child to spit up a worm upon being  treated. Children in Latin America will harbor multiple  worms-sometimes hundreds-and intestinal obstruc- tion is a potential complicating factor. Usually, however,  abdominal symptoms are vague with nothing more than  a loss of appetite and occasional episodes of diarrhea.",
+      "keypoints": [
+        "⭐ Ascaris lumbricoides: largest intestinal nematode (up to 35 cm); >1 billion infected worldwide; geohelminth (fecal-oral from soil)",
+        "⭐ Ascariasis biliary involvement: adult worms migrate into biliary tree or pancreatic duct → obstruction → pain, cholangitis, pancreatitis",
+        "Loeffler syndrome: Ascaris larvae in lungs (hepatopulmonary migration) → eosinophilia + pulmonary infiltrates + cough (Loffler pneumonitis)",
+        "Treatment: mebendazole or albendazole; biliary obstruction may require endoscopic or surgical extraction"
+      ]
+    },
+    {
+      "id": "q061",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "With reference to the above question, how did the  child most likely become infected?",
+      "choices": [
+        "Direct fecal contamination from a sibling",
+        "Eating raw or insuffi ciently cooked hamburger",
+        "Ingestion of contaminated soil or water",
+        "Swimming in cercariae-infested lake water",
+        "Walking barefoot on moist soil or grass"
+      ],
+      "answer": 2,
+      "explanation": "Ingestion of contaminated soil or  water. Ascaris lumbricoides is a geohelminth, mean- ing that the eggs that are passed in the stool must fi rst  embryonate in the soil or the environment. The para- site is not commonly transmitted person-to-person  via feces. Consequently, the embryonated egg-not  the unembryonated egg in fresh feces (choice A)-is  the infective stage. Ingesting food and drink contami- nated with these embryonated eggs would be the most  likely way for humans to become infected. Lack of  proper hand washing before eating only compounds  the problem. Choice C has reference to hookworm  disease, D refers to schistosomiasis, and E hemor- rhagic Escherichia coli.",
+      "keypoints": [
+        "⭐ Ascaris lumbricoides: transmission by ingesting embryonated eggs from fecally-contaminated soil, water, or unwashed vegetables",
+        "⭐ Ascaris lifecycle: eggs ingested → larvae hatch → penetrate gut → portal circulation → liver → lungs (coughed up) → swallowed → intestinal worm",
+        "Ascariasis is most prevalent in areas where human feces are used as fertilizer ('night soil'); walking barefoot does NOT spread Ascaris (compare hookworm)",
+        "Control: sanitation, handwashing, washing produce; mass drug administration with albendazole in endemic areas"
+      ]
+    },
+    {
+      "id": "q065",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A fl ight attendant, who works trips to Latin America,  presents with fever, right upper abdominal pain,  fever, and blood-streaked diarrhea. A stained sam- ple under oil immersion reveals the diagnostic stage  (shown in the image). If treatment were to be with- held, what would the fl ight attendant be in danger of  developing? Parasitology 95",
+      "choices": [
+        "A liver abscess",
+        "Aplastic anemia",
+        "Bladder cancer",
+        "Malignancy of the bile duct",
+        "Pancreatitis"
+      ],
+      "answer": 0,
+      "explanation": "A liver abscess. The causative agent  is Entamoeba histolytica. This is the most common  extraintestinal manifestation. Amebic liver abscess  develops as a result of a hematogenous spread (i.e.,  hepatoportal to the liver) and may grow to the size of  a grapefruit. In the majority of the patients, leukocy- tosis occurs. The micrograph depicts a trophozoite.",
+      "keypoints": [
+        "⭐ Amebic liver abscess: most common extraintestinal manifestation of E. histolytica; right lobe; 'anchovy paste' appearance",
+        "⭐ E. histolytica path: cysts ingested → trophozoites in colon → flask-shaped ulcers → hematogenous spread via portal vein → liver abscess",
+        "Diagnosis: serology (anti-amoeba antibody) highly sensitive for liver abscess; ultrasound/CT shows solitary right lobe lesion; stool O&P often negative",
+        "Treatment: metronidazole (tissue) + luminal agent (paromomycin); aspiration for large abscesses (>5cm) at risk of rupture"
+      ]
+    },
+    {
+      "id": "q068",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A nurse who works part time in an elementary school  in rural southern Mississippi notes loss of appetite,  weakness, and poor school performance in a boy. The  child’s weight is below the second percentile, and a  low hemoglobin level is noted in the laboratory fi nd- ings. Of note, the child lives in a rural setting without  adequate toilet or latrine facilities and customarily  goes barefoot. Parasite eggs are observed in the stool  sample (shown in the image). What is the diagnosis?",
+      "choices": [
+        "Ascariasis",
+        "Hookworm disease",
+        "Intestinal amebiasis",
+        "Strongyloidiasis",
+        "Taeniasis"
+      ],
+      "answer": 1,
+      "explanation": "Hookworm disease. Distinctive clues  with this case include the geographic location, socio- economic conditions, the anemia, and most impor- tantly the fragile nature of the egg. Ancylostoma and  Necator hookworms are transmitted when the fi lari- form larvae penetrate bare skin. Parasite eggs are  passed in the stool and, under austere sanitary condi- tions, will contaminate soil. The warm moist soil of  the South favors development of the infective stage  or the fi lariform larva. Protein defi ciency and mental  dullness are clinical manifestations of severe disease.",
+      "keypoints": [
+        "⭐ Hookworm disease: filariform larvae penetrate bare skin on ground → 'ground itch' → lungs → small bowel → iron-deficiency anemia",
+        "⭐ Hookworm epidemiology: tropical/subtropical; socioeconomic poverty + bare feet in fecally-contaminated soil; rural southeastern US historically",
+        "Clinical clues: iron-deficiency anemia + eosinophilia + hypoalbuminemia in child/person from endemic area with bare foot exposure",
+        "Treatment: mebendazole or albendazole + iron supplementation; prevention = shoes, sanitation, avoiding fecal soil contact"
+      ]
+    },
+    {
+      "id": "q072",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "A young child who lives in a rural community in the  Appalachia and who has been ill for 10 days presents  with abdominal pain, anorexia, steatorrhea, and watery  diarrhea. There is no indication of blood in the stool,  but a fecal smear stained with trichrome reveals an  abundance of cystlike structures like the one shown  in the image. What is the agent responsible for the  clinical manifestations?",
+      "choices": [
+        "Cryptosporidium parvum",
+        "Entamoeba histolytica",
+        "Enterotoxigenic Escherichia coli",
+        "Giardia lamblia",
+        "Rotavirus"
+      ],
+      "answer": 3,
+      "explanation": "Giardia lamblia. Mature cysts of G.  lamblia feature four nuclei; however, two of the nuclei  are often not visible because of the limited depth of  fi eld of the micrograph (shown in the image). The  axonemes and the hyaline cyst wall make the diag- nosis irrefutable. The clinical presentation, especially  the watery diarrhea without blood, is consistent with  a giardiasis diagnosis. More than likely the child con- sumed water that was contaminated with Giardia  cysts, a defi nite possibility in a rural setting.",
+      "keypoints": [
+        "⭐ Giardia lamblia: mature cysts have 4 nuclei (often 2 visible); pear-shaped trophozoites with 2 nuclei and ventral disc (sucking disc)",
+        "⭐ Giardia in Appalachia: endemic via contaminated mountain streams; also daycare centers, international travel, immunodeficient patients",
+        "IgA deficiency: predisposition to recurrent Giardia infections (secretory IgA important for intestinal defense against Giardia)",
+        "Diagnosis: stool antigen test (ELISA) most sensitive; stool O&P (cysts in formed stool, trophozoites in diarrheal stool)"
+      ]
+    },
+    {
+      "id": "q074",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "In the summer, CDC investigates a series of outbreaks  of cryptosporidiosis in upstate New York. The clus- ter of cases occurs in separate suburban communities,  which are all upscale and feature a complete range  of city services (e.g., sewage, water, and trash collec- tion). Which of the following is the most plausible  source of transmission for these outbreaks?",
+      "choices": [
+        "Bird-mosquito-human route",
+        "Drinking water contaminated with manure",
+        "Fecal-oral person-to-person route",
+        "Inhalation of dust seeding with bird droppings",
+        "Parasite-infected meat (e.g., beef, mutton)"
+      ],
+      "answer": 1,
+      "explanation": "Drinking water contaminated with  manure. Due of the circumstances of this outbreak,  Cryptosporidium parvum is the likely culprit. The  parasite normally involves livestock, and fl ooded  stockyards contaminating drinking water supplies  probably account for the large-scale epidemics.  Cryptosporidiosis, because it is refractory to treat- ment, is especially serious in AIDS patients.",
+      "keypoints": [
+        "⭐ Cryptosporidium parvum: oocysts in manure-contaminated water; chlorine-resistant; fecal-oral from cattle or person-to-person",
+        "⭐ Cryptosporidiosis outbreaks: contaminated water supplies (Milwaukee 1993: 400,000 cases); UV treatment or filtration required (chlorine-resistant)",
+        "Incubation 2-10 days; watery diarrhea; self-limited (1-2 weeks) in immunocompetent; chronic/severe in AIDS (CD4 <200)",
+        "Treatment: nitazoxanide (immunocompetent); ART to restore immunity is KEY in AIDS; no drug fully eradicates Crypto in AIDS"
+      ]
+    },
+    {
+      "id": "q075",
+      "tag": "micro_parasitology",
+      "examLevel": "step1",
+      "system": "Parasitology",
+      "contentType": "Microbiology",
+      "stem": "An HIV-positive student is considering part-time  work to help with living expenses. Of the follow- ing jobs, which would be the most suitable, espe- cially when considering the potential for contracting  cryptosporidiosis?",
+      "choices": [
+        "Assistant at an animal hospital",
+        "Child day care worker",
+        "Life guard at a public pool",
+        "Pet store attendant",
+        "Print shop worker"
+      ],
+      "answer": 4,
+      "explanation": "Print shop worker. The infective  stage of cryptosporidiosis is the oocyst, and it could  be transmitted to the patient via human or animal  feces. Changing diapers and working with excrement  from animals are risk factors. It is not uncommon  for a child to have an accident in a public pool, and,  unfortunately, the oocysts are resistant to normal lev- els of chlorine. The only job listed that would pose no  risk for ingesting oocysts would be to work in a print  shop.",
+      "keypoints": [
+        "⭐ HIV+ patients should AVOID occupations/activities exposing them to animal feces (Cryptosporidium, Toxoplasma) or large crowds of sick children",
+        "⭐ Cryptosporidiosis risk in HIV: oocysts are infective at very low dose; immunocompromised cannot clear infection; avoid animal barns, daycare work",
+        "Print shop worker: no significant immunosuppressed risk; safer job choice for HIV+ person trying to avoid opportunistic infections",
+        "HIV counseling: avoid cat litter (Toxoplasma), undercooked meat, animal feces, raw oysters (Vibrio), and unpasteurized products"
+      ]
+    }
+  ]
+}
