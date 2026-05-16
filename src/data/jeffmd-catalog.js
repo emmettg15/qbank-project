@@ -124,7 +124,7 @@ exam: 'Block 5 — Renal',
   addedDate: '2026-05-10',
 },
 {
-  catalogId: 'lippencott_histo_ch14_liver_qbank',
+  catalogId: 'lippencott_histo_ch14_liver_qbank_new',
   title: 'Lippincott Histology Ch14 (Liver, Biliary System & Pancreas) - GI (JeffMD GI relevant)',
   description: 'Liver lobule anatomy, hepatocytes, Kupffer cells, stellate cells, biliary tree, gallbladder, exocrine and endocrine pancreas',
   questionCount: 28,
