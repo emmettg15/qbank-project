@@ -1,0 +1,879 @@
+{
+  "config": {
+    "title": "Lippincott Pharm Ch5 + Ch7 (JeffMD GI relevant)",
+    "subtitle": "Ch.5 Drugs Affecting Other Systems (GI/Pulmonary) + Ch.7 Inflammation, Immune Pharmacology & Toxicology",
+    "passingFraction": 0.75,
+    "tags": {
+      "gi": {
+        "label": "Gastrointestinal"
+      },
+      "renal": {
+        "label": "Renal"
+      },
+      "immuno": {
+        "label": "Immunology/ID"
+      },
+      "toxicology": {
+        "label": "Toxicology"
+      },
+      "neuro": {
+        "label": "Neurology"
+      },
+      "pulm": {
+        "label": "Pulmonary"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "ch5q002",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 45-year-old male who is obese presents to his primary care physician complaining of postprandial epi gastric pain. The pain does not appear after every meal. He has noticed the pain especially after eating spicy foods and oatmeal. He is not currently taking any medications. Which of the following drugs pre vents acid secretion by antagonizing a receptor?",
+      "choices": [
+        "Aluminum hydroxide",
+        "Fexofenadine",
+        "Misoprostol",
+        "Omeprazole",
+        "Ranitidine"
+      ],
+      "answer": 4,
+      "explanation": "Ranitidine. Multiple factors contribute to acid secretion by parietal cells in gastric mucosa. Gastrin from G cells, histamine from enterochromaffin- like (ECL) cells (acting on H2 receptors), and acetylcho line from parasympathetic neurons all act directly on parietal cells to induce acid secretion. Prostaglandins from surface mucous cells and somatostatin from D cells directly inhibit acid secretion. Ranitidine is an H2- receptor antagonist, meaning it blocks the proacid effect of endogenous histamine. (A) Aluminum hydroxide does not bind a receptor. It is a base that decreases acid → by a simple chemical reaction: H1 OH2 H2O. 1 (B) Fexofenadine is a second-generation H1 antagonist. It would not be expected to significantly bind H2 recep tors. (C) Misoprostol is a prostaglandin agonist, not antagonist. It decreases acid by mimicking the inhibitory effect of endogenous prostaglandins. (D) Omeprazole does not bind a receptor. It decreases acid secretion by blocking the proton pump on the luminal surface of parietal cells.",
+      "keypoints": [
+        "⭐ H2 blockers (ranitidine, famotidine, cimetidine) competitively block H2 receptors on parietal cells → ↓ acid secretion",
+        "⭐ Ranitidine antagonizes histamine H2 receptor; does NOT antagonize gastrin or muscarinic receptors",
+        "Aluminum hydroxide neutralizes existing acid (not receptor-based); misoprostol is a PGE1 analogue; omeprazole is a PPI",
+        "Fexofenadine blocks H1 receptors (used for allergies, not acid suppression)"
+      ]
+    },
+    {
+      "id": "ch5q017",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 38-year-old businessman is on a trip to Mexico when he develops diarrhea. He has to give a presenta tion in a few hours and needs rapid relief. He takes an antidiarrheal preparation containing loperamide. Which of the following is a property of loperamide that makes it useful in treating diarrhea?",
+      "choices": [
+        "Anticholinergic",
+        "Broad-spectrum antibiotic",
+        "Gram-negative antibiotic",
+        "Inhibitor of myenteric plexus activity",
+        "Sympathetic nervous system stimulant"
+      ],
+      "answer": 3,
+      "explanation": "Inhibitor of myenteric plexus activity. Loperamide is an opioid-receptor agonist but does not affect the central nervous system. It binds to m-receptors on the myenteric plexus and, like other opioids, decreases myenteric plexus activity. By inhib iting the myenteric plexus, GI smooth muscle activity is decreased. Stool transit time is increased, and it is thought that this allows more time for water absorp tion from the feces to decrease diarrhea. (A) Atropine is an example of an anticholinergic that can be used to treat diarrhea. Loperamide does not influence sig naling with acetylcholine. (B) Many antidiarrheals (including loperamide) have no antibiotic capability. They simply increase transit time in the bowels to allow for more water reabsorption. (C) This agent is not an antibiotic. (E) Clonidine is an example of a sympathetic nervous system stimulant that can be used for diarrhea. Data are limited as to its efficacy in treating diarrhea, and it is usually only used in refrac tory cases. Loperamide does not treat diarrhea by modulating sympathetic nervous system activity.",
+      "keypoints": [
+        "⭐ Loperamide acts on μ-opioid receptors in the myenteric plexus → ↓ peristalsis → slows gut transit",
+        "⭐ Loperamide does NOT cross the BBB (poor CNS penetration) — no euphoria, no abuse potential",
+        "Drug of choice for traveler's diarrhea when quick symptom control is needed",
+        "Bismuth subsalicylate also used for traveler's diarrhea but different MOA (anti-secretory)"
+      ]
+    },
+    {
+      "id": "ch5q018",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 37-year-old man complains of chest pain after meals. He says this pain has gone on for a few months and gets only minimal relief from antacid tablets. The physician prescribes a drug that will decrease the amount of acid secreted by binding to and inhib iting an ATPase on the lumenal surface of parietal cells. Which of the following drugs works by this mechanism?",
+      "choices": [
+        "Atropine",
+        "Cimetidine",
+        "Misoprostol",
+        "Octreotide",
+        "Omeprazole"
+      ],
+      "answer": 4,
+      "explanation": "Omeprazole. The ATPase on the lumenal surface of parietal cells described in the ques tion stem is known as the “proton pump.” It uses energy from ATP cleavage to force hydrogen ions out of the cell and potassium ions in. The proton pump inhibitors generally have the suffix, as in -prazole omeprazole. These drugs bind to and inhibit the func tion of the H1/K1 ATPase to significantly reduce acid secretion. (A) Atropine decreases gastric acid secretion by blocking acetylcholine signaling from the vagus nerve to parietal cells. It is not commonly used to treat GERD because of its systemic anticholinergic side effects. (B) Cimetidine decreases gastric acid secretion by blocking histamine signaling from ECL cells to parietal cells. It blocks the H2 receptor. (C) Misoprostol is a prostaglandin analog. Prostaglandins inhibit acid secretion by binding GI receptors, which lead to a decrease in intracellular cAMP and in turn to decreased H1/K1 ATPase activity. They do not bind directly to the proton pump. (D) Octreotide is a somatostatin analog. Although it would decrease gastric acid pro duction, it is not used to treat GERD because of its systemic side effects.",
+      "keypoints": [
+        "⭐ PPIs (omeprazole, pantoprazole, lansoprazole) irreversibly inhibit H+/K+-ATPase (proton pump) → most potent acid suppression",
+        "⭐ PPIs are prodrugs — activated in the acidic canaliculus of the parietal cell",
+        "First-line for GERD, peptic ulcers, and Zollinger-Ellison syndrome",
+        "Side effects with long-term use: hypomagnesemia, ↑ risk C. difficile, ↓ vitamin B12/iron absorption"
+      ]
+    },
+    {
+      "id": "ch5q019",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 56-year-old man who is a chronic alcoholic is brought to the emergency department because of altered mental status. Blood tests reveal normal cre atinine but indicate hyperammonemia. The patient is given lactulose after which his blood ammonia soon drops to a more suitable level. Which of the following organs is lactulose’s site of action?",
+      "choices": [
+        "Brain",
+        "Colon",
+        "Kidney",
+        "Liver",
+        "Spleen"
+      ],
+      "answer": 1,
+      "explanation": "Colon. This patient’s altered mental status was caused by high levels of ammonia in his blood. Normally, the liver converts excess ammonia into water-soluble urea to be excreted by the kidneys; but in patients with impaired liver function, this may not happen. When ammonia cannot be converted to urea, it will build up in the body to toxic and deadly levels unless it can be removed some other way. Lactulose is a synthetic molecule that cannot be digested by human enzymes. Once it arrives in the colon, however, it is converted to various organic acids, which lower the pH of the colonic lumen. Ammonia that diffuses into the colon is converted to ammonium ion (NH41) that cannot diffuse back out. In this way, lactulose works in the colon to ion trap excess ammonia for excretion. (A) Lactulose cannot be broken down or absorbed by the human body. It does not reach the brain. (C) This patient’s kidneys appear to be functioning normally, judging by his creatinine level. Normal kidneys will have no problem Drugs excreting urea. This patient’s problem is that he can not make urea. Lactulose does not work in the kid neys. (D) This man’s liver is not able to metabolize ammonia rapidly enough to prevent its accumulation. Lactulose does not work in the liver and has no effect on the speed at which his liver can produce urea from ammonia. (E) The spleen serves no function in the excretion of ammonia. Lactulose does not work on the spleen.",
+      "keypoints": [
+        "⭐ Chronic alcoholism → thiamine (B1) deficiency → Wernicke encephalopathy (confusion, ataxia, ophthalmoplegia)",
+        "⭐ Alcohol is primarily absorbed in the small intestine (duodenum/jejunum) but also in the colon",
+        "Give thiamine BEFORE glucose in any alcoholic patient to prevent precipitating Wernicke's",
+        "Lactulose traps NH4+ in the gut (used for hepatic encephalopathy, not direct alcohol toxicity)"
+      ]
+    },
+    {
+      "id": "ch5q021",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 74-year-old man with a history of transient ischemic attacks takes a baby aspirin (81 mg) per day at the suggestion of his cardiologist to prevent heart disease. One day, he accidentally takes six baby aspi rins. Which of the following sequelae is most likely to occur?",
+      "choices": [
+        "Cholecystitis",
+        "Gastrointestinal bleeding",
+        "Pancreatitis",
+        "Splenic infarct",
+        "Transient ischemic attack"
+      ],
+      "answer": 1,
+      "explanation": "Gastrointestinal bleeding. “Baby aspirin” or an 81-mg aspirin is most commonly used in the United States. Bleeding time is prolonged by aspirin treatment, causing complications that include an increased incidence of hemorrhagic stroke as well as gastrointestinal (GI) bleeding, especially at higher doses of the drug. Aspirin is frequently used in combination with other drugs having anticlotting properties, such as heparin or clopidogrel. Acetylation of cyclooxygenase 1 by aspirin. (A) Cholecystitis is unlikely to occur with an increased dose of aspirin. (C) Pancreatitis is unlikely to occur with an increased dose of aspirin. (D) Splenic infarct is unlikely to occur with an increased dose of aspirin. (E) Hemorrhagic stroke is a possible complica tion of increased dose of aspirin.",
+      "keypoints": [
+        "⭐ Aspirin irreversibly inhibits COX-1 in gastric mucosa → ↓ PGE2 → ↓ mucus/bicarbonate → GI ulceration and bleeding",
+        "⭐ Low-dose aspirin (81 mg) still carries significant GI bleed risk, especially with long-term use",
+        "Add PPI or misoprostol prophylactically to reduce aspirin-related GI injury",
+        "Aspirin irreversibly acetylates COX (contrast with ibuprofen which is reversible)"
+      ]
+    },
+    {
+      "id": "ch5q026",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 27-year-old man complains of occasional heartburn. His physician makes a few suggestions of diet and lifestyle changes he could make as well as some medica tions he can take for symptom management. The patient decides to try a magnesium hydroxide (MgOH) preparation. Which of the following is a side effect of MgOH that the physician should warn him about?",
+      "choices": [
+        "Constipation",
+        "Diarrhea",
+        "Headache",
+        "Impotence",
+        "Seizures"
+      ],
+      "answer": 1,
+      "explanation": "Diarrhea. Magnesium hydroxide is a base that neutralizes gastric acid. The reaction produces magnesium and chloride ions. The magne sium is not absorbed by the intestine and acts as an osmolyte to retain water in the lumen. This results in increased volume and gut motility that can lead to diarrhea. (A) Magnesium hydroxide is also used to treat constipation because magnesium stays in the gut lumen as an osmolyte. Aluminum hydroxide is a drug used to treat heartburn that can cause con stipation. (C) Cimetidine is a drug used to treat heartburn that causes headache in about 3% of people. It is an H2 blocker usually used to treat more severe cases of heartburn than in this patient. Magnesium hydroxide is not known to cause head aches. (D) Some of the H2 blockers, including cimetidine and ranitidine, can cause impotence. Magnesium hydroxide is not known to cause impo tence. (E) Seizure is a rare complication of both famotidine and lansoprazole. Magnesium hydroxide is not known to cause seizures.",
+      "keypoints": [
+        "⭐ Magnesium-containing antacids (Mg(OH)₂, milk of magnesia) cause osmotic diarrhea",
+        "⭐ Aluminum hydroxide causes constipation; calcium carbonate causes constipation/hypercalcemia",
+        "Mnemonic: \"Mg = Must Go\" (diarrhea), \"Al = Aluminum Alzheimer's + Constipation\"",
+        "For balanced effect, many antacids combine Mg and Al to neutralize GI motility effects"
+      ]
+    },
+    {
+      "id": "ch5q028",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 57-year-old man with chronic gastroesophageal reflux disease on cimetidine presents to a new primary care physician. He states that he has been doing well and has been taking this medication for about 15 years. Which of the following statements is true about therapy with this agent?",
+      "choices": [
+        "Dose adjustment is required in hepatic failure",
+        "Has a long half-life",
+        "70% inactivated in the liver",
+        "30% excreted in the urine"
+      ],
+      "answer": 0,
+      "explanation": "Dose adjustment is required in hepatic failure. Cimetidine and the other H2 antagonists are given orally, distribute widely throughout the body (including into breast milk and across the placenta), and are excreted mainly in urine. Cimetidine normally has a short serum half-life, which is increased in renal failure. Approximately 30% of a dose of cimetidine is slowly inactivated by the liver’s microsomal mixed- function oxygenase system (see p. 14) and can inter fere in the metabolism of many other drugs. The other 70% is excreted unchanged in urine. The dosage of all these drugs must be decreased in patients with hepatic or renal failure. (B) Cimetidine has a short half-life. (C) Thirty percent of a dose of cimetidine is slowly inactivated in the liver. (D) Seventy percent of a dose of cimetidine is excreted unchanged in the urine.",
+      "keypoints": [
+        "⭐ Cimetidine is hepatically metabolized — dose reduction needed in hepatic (not just renal) failure",
+        "⭐ Cimetidine inhibits CYP450 (especially CYP1A2, CYP2C9, CYP3A4) → major drug-drug interactions",
+        "Cimetidine also has antiandrogenic effects (gynecomastia, impotence) unlike ranitidine/famotidine",
+        "Among H2 blockers, cimetidine has the most drug interactions; famotidine is the safest"
+      ]
+    },
+    {
+      "id": "ch5q029",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 37-year-old man with gastroesophageal reflux takes over-the-counter cimetidine. He has no health care insurance and thus does not go to see a physician. This patient must be aware of which of the following side effects of this medication?",
+      "choices": [
+        "Confusion",
+        "Constipation",
+        "Hallucinations",
+        "Headache",
+        "Muscular pain"
+      ],
+      "answer": 4,
+      "explanation": "Muscular pain. The adverse effects of cimetidine are usually minor and are associated mainly with reduced gastric acid production, the major pharmacologic activity of the drug. Side effects occur only in a small number of patients and gener ally do not require discontinuation of the drug. The most common side effects are headache, dizziness, diarrhea, and muscular pain. Other central nervous system effects (such as confusion and hallucinations) occur primarily in elderly patients and after intrave nous administration. (A) Confusion is common in elderly patients after IV infusion of cimetidine. (B) Diarrhea is a common side effect of cimetidine. (C) Hallucinations are common in elderly patients after IV infusion of cimetidine. (D) Headache is a common side effect of nearly all medications.",
+      "keypoints": [
+        "⭐ Cimetidine causes gynecomastia, decreased libido, and impotence via antiandrogenic activity",
+        "⭐ Cimetidine's antiandrogenic effect is unique among H2 blockers (ranitidine/famotidine do not share this)",
+        "Muscular pain (myalgia) is not a typical side effect of cimetidine",
+        "Other cimetidine side effects: confusion in elderly (crosses BBB), drug interactions via CYP inhibition"
+      ]
+    },
+    {
+      "id": "ch5q031",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 42-year-old woman with irritable bowel syndrome with diarrhea predominance presents to her primary care physician for treatment. The physician suggests an exercise regimen, dietary modifications, and a bulk laxative. The likely mechanism of action of this agent would involve which of the following?",
+      "choices": [
+        "Gel formation in the intestine",
+        "Neuromodulation of the S3 nerve root",
+        "Nonabsorbable salt",
+        "Osmotic laxative",
+        "Stimulation of the cholinergic nervous system"
+      ],
+      "answer": 0,
+      "explanation": "Gel formation in the intestine. Bulk laxatives include hydrophilic colloids. They form gels in the large intestine that cause water retention and intestinal distension, which increases peristalsis. This agent should be used with caution because of the potential for intestinal obstruction. (B) Sacral nerve stimulation is a surgical procedure that stimulates the S3 nerve root. (C) Magnesium citrate is a nonabsorb able salt. (D) Lactulose is a semisynthetic sugar that also acts as an osmotic diuretic. (E) Cholinomimetic agents stimulate the cholinergic nervous system.",
+      "keypoints": [
+        "⭐ Psyllium (bulk-forming laxative) absorbs water in the gut → forms a gel → ↑ stool bulk → promotes peristalsis",
+        "⭐ Fiber/bulk laxatives are first-line for IBS-D (irritable bowel with diarrhea) as they normalize stool consistency",
+        "Must take bulk laxatives with plenty of water to prevent esophageal/intestinal obstruction",
+        "Alosetron (5-HT3 antagonist) is used for severe IBS-D in women unresponsive to other therapy"
+      ]
+    },
+    {
+      "id": "ch5q033",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 49-year-old man with a history of peptic ulcer disease and gastroesophageal reflux disorder is being treated with cimetidine for approximately 20 years. He now complains of breast swelling and breast discharge. What is the most likely explanation for these findings?",
+      "choices": [
+        "Abscess",
+        "Antiandrogenic effect",
+        "Inflammatory response",
+        "Neoplastic process",
+        "Overwhelming edema"
+      ],
+      "answer": 1,
+      "explanation": "Antiandrogenic effect. Cimetidine can also have endocrine effects because it acts as a nonste roidal antiandrogen. These effects include gynecomastia and galactorrhea (continuous release/discharge of milk). Drugs such as ketoconazole, which depend on an acidic medium for gastric absorption, may not be effi ciently absorbed if taken with one of these H2 receptor Drugs antagonists. (A) Cimetidine is associated with endo crine effects such as breast swelling and tenderness. This is not caused by an abscess. (C) This process is not inflammatory in nature. This process is an endocrine side effect of cimetidine. (D) This patient has no evi dence by history of examination to suggest breast can cer. (E) This is an overgrowth of breast tissue, not a buildup of interstitial fluid in the chest.",
+      "keypoints": [
+        "⭐ Cimetidine has antiandrogenic properties → gynecomastia, decreased libido, impotence in men",
+        "⭐ This antiandrogenic effect is unique to cimetidine — not seen with ranitidine, famotidine, or nizatidine",
+        "Switching to a different H2 blocker or PPI resolves gynecomastia",
+        "Spironolactone also causes gynecomastia via antiandrogenic mechanism"
+      ]
+    },
+    {
+      "id": "ch5q034",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 67-year-old woman with known peptic ulcer disease found at endoscopy to be on maintenance treat ment with misoprostol at 125% of the recommended dose. The rationale behind this dose is to maximize which of the following?",
+      "choices": [
+        "Decrease in gastric acid secretion",
+        "Improve bicarbonate balance",
+        "Improve gastric emptying",
+        "Improve sphincter tone of the lower esophagus",
+        "Lower gastric luminal pressures"
+      ],
+      "answer": 0,
+      "explanation": "Decrease in gastric acid secretion. Misoprostol, a stable analog of prostaglandin E1, as well as some PPIs, are approved for the prevention of gastric ulcers induced by NSAIDs. It is less effective than H2 antagonists and the PPIs for acute treatment of peptic ulcers. Although misoprostol has cytoprotective actions, it is clinically effective only at higher doses that diminish gastric acid secretion. (B) Misoprostol is an analog of prostaglandin E1 and does not affect bicarbonate balance. (C) Misoprostol does not improve gastric muscular tone. (D) Misoprostol does not alter lower esophageal sphincter tone. (E) Misoprostol does not change gastric luminal pressures.",
+      "keypoints": [
+        "⭐ Misoprostol is a PGE1 analogue → binds EP3 receptors on parietal cells → ↓ cAMP → ↓ acid secretion",
+        "⭐ Misoprostol also stimulates mucus and bicarbonate secretion → dual gastroprotective mechanism",
+        "Misoprostol is combined with NSAIDs (e.g., Arthrotec = diclofenac + misoprostol) to prevent ulcers",
+        "Contraindicated in pregnancy — causes uterine contractions (used to induce labor/abortion)"
+      ]
+    },
+    {
+      "id": "ch5q035",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 78-year-old woman with osteoporosis and occa sional gastroesophageal reflux presents to her primary care physician for follow-up. Physical examination of the heart, lungs, and abdomen are unremarkable. Which of the following agents would be best to treat both of her underlying conditions?",
+      "choices": [
+        "Aluminum hydroxide",
+        "Calcium carbonate",
+        "Magnesium hydroxide",
+        "Sodium bicarbonate",
+        "Warm milk"
+      ],
+      "answer": 1,
+      "explanation": "Calcium carbonate. Aluminum- and magnesium-containing antacids are used for symp tomatic relief of peptic ulcer disease and GERD, and they may also promote healing of duodenal ulcers. However, they are used as last-line therapy for acute gastric ulcers because the evidence for efficacy is less compelling. Calcium carbonate preparations are also used as calcium supplements for the treatment of osteoporosis. (A) Aluminum hydroxide will help with the GERD symptoms but not the osteoporosis. (C) Magnesium hydroxide will help with the GERD symptoms but will not improve bone mineralization as needed in osteoporosis. (D) Sodium bicarbonate is an effective antacid but is not of benefit in the treat ment of osteoporosis. (E) Warm milk may worsen gastroesophageal reflux and will have limited benefit for osteoporosis.",
+      "keypoints": [
+        "⭐ Calcium carbonate antacid is ideal for osteoporosis patients — neutralizes acid AND provides calcium supplementation",
+        "⭐ Calcium carbonate side effects: constipation, hypercalcemia, milk-alkali syndrome with excessive use",
+        "For elderly women with both GERD and osteoporosis, calcium carbonate is the preferred antacid",
+        "Avoid aluminum hydroxide in osteoporosis patients — aluminum binds phosphate → hypophosphatemia → bone loss"
+      ]
+    },
+    {
+      "id": "ch5q036",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 47-year-old man with a history of NSAID-induced ulcers has been placed on sucralfate. He has been on the medicine for 1 year and does complain of inter mittent chest pressure after meals. Upper endoscopy is performed. Which of the following findings is most likely to occur?",
+      "choices": [
+        "Duodenitis",
+        "Duodenal perforation",
+        "Gastric ulcers that appear unhealed",
+        "Normal gastric epithelium",
+        "Normal lower esophageal epithelium"
+      ],
+      "answer": 2,
+      "explanation": "Gastric ulcers that appear unhealed. Sucralfate should not be administered with PPIs, H2 antagonists, or antacids. Little of the drug is absorbed systemically. It is very well tolerated, but it can interfere with the absorption of other drugs by binding to them. This agent does not prevent NSAID-induced ulcers, and it does not heal gastric ulcers. (A) NSAID-induced ulcers are typically gastric and less likely to be duode nal. (B) Duodenal perforation would present with peri toneal signs and significant abdominal pain. (D) Normal gastric epithelium is unlikely to be present because active ulceration would be expected. (E) The lower esophagus likely has inflammatory changes.",
+      "keypoints": [
+        "⭐ Sucralfate requires an acidic environment (pH < 4) to polymerize and form a protective gel coating over ulcers",
+        "⭐ Sucralfate does NOT reduce acid production — it forms a cytoprotective barrier; if ulcers are unhealed, it means inadequate acid suppression is also needed",
+        "Sucralfate can bind and reduce absorption of other drugs (fluoroquinolones, tetracycline, digoxin)",
+        "Take sucralfate 30–60 minutes before meals and at bedtime for maximum mucosal contact"
+      ]
+    },
+    {
+      "id": "ch5q065",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 43-year-old man with a history of peptic ulcer disease has developed hypersensitivity to H2 blockers. He now complains of worsening of his dyspepsia. Physical examination reveals mild tenderness on the midepigastric region. If misoprostol is prescribed to this patient, which of the following mechanisms of action would be most plausible for this agent?",
+      "choices": [
+        "Enhance mucosal resistance",
+        "Inhibition of gastrin secretion",
+        "Inhibition of proton pump secretion",
+        "Inhibition of somatostatin release",
+        "Inhibition of uric acid secretion"
+      ],
+      "answer": 0,
+      "explanation": "Enhance mucosal resistance. Miso prostol is sometimes used to inhibit the secretion of gastric acid and to enhance mucosal resistance to injury in patients with gastric ulcer, who are chroni cally taking nonsteroidal anti-inflammatory agents. Proton pump inhibitors, such as omeprazole, and H2 antihistamines also reduce the risk of gastric ulcer and are better tolerated than misoprostol, which induces intestinal disorders. (B) Misoprostol does not inhibit gastrin release. It does inhibit gastric acid secretion. (C) Proton pump inhibitors inhibit proton pump secretion. (D) Misoprostol does not inhibit somatostatin release. (E) Misoprostol does not inhibit uric acid secretion.",
+      "keypoints": [
+        "⭐ Misoprostol (PGE1 analogue) enhances mucosal resistance by stimulating mucus + bicarbonate production and ↑ mucosal blood flow",
+        "⭐ Used as cytoprotection in patients who cannot take H2 blockers or PPIs",
+        "Misoprostol also suppresses acid secretion via EP3 receptors on parietal cells",
+        "Avoid in pregnancy due to uterotonic effects (can cause miscarriage or preterm labor)"
+      ]
+    },
+    {
+      "id": "ch5q071",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 24-year-old man complains of recurring episodes of bloody diarrhea and abdominal pain. A flexible sigmoidoscopy reveals pseudopolyps and erythema tous, friable mucosa. One of the drugs given to this patient is diphenoxylate. How could diphenoxylate help this patient?",
+      "choices": [
+        "Antimicrobial effects",
+        "Blocks TNF-a signaling",
+        "Inhibition of dihydrofolate reductase",
+        "Inhibition of phospholipase A2",
+        "Slows peristalsis"
+      ],
+      "answer": 4,
+      "explanation": "Slows peristalsis. This patient’s pre sentation suggests ulcerative colitis, a type of inflam matory bowel disease. Pharmacotherapy for ulcerative colitis involves multiple drugs to treat various aspects of the disease. In cases of mild ulcerative colitis, the Drugs frequent diarrhea may be the chief concern. Diphenoxylate may be used in such cases to slow gut motility. (A) Sulfapyridine is an antimicrobial often administered as a compound with mesalamine called sulfasalazine. Diphenoxylate does not possess antimi crobial properties. (B) Many biologics used in the treatment of ulcerative colitis, such as infliximab, bind up TNF-a to prevent its signaling. Diphenoxylate does not block TNF-a signaling. (C) Methotrexate is an inhibitor of dihydrofolate reductase used as an immunosuppressant to treat moderate cases of ulcer ative colitis. Diphenoxylate does not inhibit dihydro folate reductase. (D) Glucocorticoids work in part by increasing lipocortins, which block phospholipase A2, impairing the inflammatory cells’ ability to make prostaglandins. Diphenoxylate does not inhibit phos pholipase A2.",
+      "keypoints": [
+        "⭐ Mesalamine (5-ASA) for IBD reduces inflammation; loperamide (used as adjunct) slows peristalsis via μ-opioid receptors in myenteric plexus",
+        "⭐ Loperamide is contraindicated in infectious diarrhea (can worsen by slowing clearance of pathogens)",
+        "Flexible sigmoidoscopy showing mucosal erythema/friability + bloody diarrhea → ulcerative colitis (UC)",
+        "UC treatment: 5-ASA for mild-moderate; corticosteroids for flares; biologics (infliximab) for severe"
+      ]
+    },
+    {
+      "id": "ch5q072",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 33-year-old woman who is obese complains of postprandial, burning chest pain. Her physician prescribes pantoprazole. Pantoprazole may impair absorption of which of the following nutrients?",
+      "choices": [
+        "Calcium",
+        "Carbohydrates",
+        "Fatty acids",
+        "Vitamin A",
+        "Vitamin D"
+      ],
+      "answer": 0,
+      "explanation": "Calcium. Postprandial (after a meal) chest pain is most likely caused by gastroesophageal reflux disease (GERD), as in this case. The pain is caused by gastric acid irritating the lining of the esophagus. Pantoprazole helps the symptoms of GERD by decreasing the amount of gastric acid through inhibition of proton pumps. Raising the gas tric pH in this manner may impair absorption of diva lent cations such as magnesium and calcium. Some research suggests that prolonged use of proton pump inhibitors may increase the risk for bone fractures, although this relationship is uncertain. (B) Acarbose, a drug used to treat diabetes mellitus, blocks absorp tion of carbohydrates. Pantoprazole does not interfere with carbohydrate absorption. (C) Orlistat is a drug that impairs fatty acid absorption by inhibiting gastric and pancreatic lipases. Pantoprazole does not inter fere with fatty acid absorption. (D) Vitamin A is a fat-soluble vitamin. Its absorption is decreased in cases of fat malabsorption. Pantoprazole does not interfere with vitamin A absorption. (E) Vitamin D is a fat-soluble vitamin. Its absorption is decreased in cases of fat malabsorption. Pantoprazole does not interfere with vitamin D absorption.",
+      "keypoints": [
+        "⭐ PPIs (pantoprazole, omeprazole) require divalent cations (Ca²⁺, Mg²⁺, Zn²⁺) for proper function of H+/K+-ATPase — long-term use → hypocalcemia/hypomagnesemia",
+        "⭐ Calcium supplementation may be needed in patients on long-term PPI therapy",
+        "PPIs are irreversible inhibitors — acid suppression lasts ~24–48 hours even after the drug is cleared",
+        "Best taken 30–60 minutes before a meal to maximize efficacy (proton pumps must be active for drug to work)"
+      ]
+    },
+    {
+      "id": "ch5q073",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 64-year-old woman is hospitalized for COPD exacerbation. While in the hospital, she becomes consti pated. She also takes metoprolol for hypertension and mirtazapine for depression. The physician gives her docusate. Which of the following adverse reactions is most likely to occur as a result of docusate adminis tration in this patient?",
+      "choices": [
+        "Cardiac arrhythmia",
+        "Diarrhea",
+        "Hypertension",
+        "Rash",
+        "Worsening depression"
+      ],
+      "answer": 1,
+      "explanation": "Diarrhea. Docusate is simply a stool softener. It is used to treat constipation and is gener ally well tolerated and has few interactions or side effects. One of its few side effects is that too high a dose can cause diarrhea. Docusate does not interact with metoprolol or mirtazapine, so this case of diar rhea cannot be attributed to an interaction between her medications. (A) Too much metoprolol can cause AV block, but neither docusate alone nor docusate with metoprolol is known to cause arrhythmias. Of the adverse reactions listed, diarrhea is the most likely to be caused by docusate. (C) A drop in this patient’s metoprolol level may result in hypertension, but this is unlikely because docusate does not interact with metoprolol. Of the adverse reactions listed, diarrhea is the most likely to be caused by docusate. (D) There are many drugs that can cause a skin rash, but docusate is not one of them. Of the adverse reactions listed, diarrhea is the most likely to be caused by docusate. (E) If docusate decreased mirtazapine lev els, depression may result, but this is not known to happen. Of the adverse reactions listed, diarrhea is the most likely to be caused by docusate.",
+      "keypoints": [
+        "⭐ Magnesium hydroxide (milk of magnesia) causes osmotic diarrhea — first-line laxative for constipation",
+        "⭐ Safe to use when other laxatives (docusate, stool softeners) are ineffective; rapid onset",
+        "Avoid magnesium-based laxatives in renal failure — risk of hypermagnesemia",
+        "COPD patients on anticholinergic inhalers (ipratropium) have ↑ risk of constipation"
+      ]
+    },
+    {
+      "id": "ch5q074",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 58-year-old male is hospitalized for COPD exacerbation. While in the hospital, he becomes constipated. He has a history of hyperlipidemia and gout. The phy sician gives him docusate. How does docusate work to relieve constipation?",
+      "choices": [
+        "Binds water in the lumen",
+        "Increases chloride secretion into the gut lumen",
+        "Increases water absorption by the stool",
+        "Irritation of the bowel mucosa to stimulate peristalsis",
+        "Stimulation of the myenteric plexus"
+      ],
+      "answer": 2,
+      "explanation": "Increases water absorption by the stool. Constipation can have many causes, ranging from decreased gut motility to altered stool consis tency. It can often be relieved by modifying one of these factors. Docusate is a surfactant and allows water and lipids to penetrate, bulk up, and soften stool without directly stimulating peristalsis. Docusate is therefore classified as a stool softener, not a laxa tive. (A) Agents such as polycarbophil and psyllium draw water into the gut lumen to increase the bulk and water content of the stool. Docusate works simply by allowing water to easily enter the stool itself. (B) This response describes the effect of lubiprostone (and cholera toxin). Docusate works simply by allow ing water to easily enter the stool itself. (D) A soap suds enema works in part by irritating the bowel mucosa to stimulate peristalsis. Docusate works sim ply by allowing water to easily enter the stool itself. (E) Docusate does not directly stimulate the myen teric plexus. By allowing water to easily enter the stool, however, docusate does cause an increase in stool bulk that leads to increased motility.",
+      "keypoints": [
+        "⭐ Docusate (stool softener) acts as a surfactant — allows water/fat to penetrate stool → softer stool; does NOT increase peristalsis or act as osmotic laxative",
+        "⭐ Docusate is the safest laxative for cardiac patients (prevents Valsalva straining) and post-op/post-MI patients",
+        "Sennosides (stimulant laxatives) stimulate the myenteric plexus and increase peristalsis",
+        "Lactulose is an osmotic laxative also used for hepatic encephalopathy"
+      ]
+    },
+    {
+      "id": "ch5q076",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A researcher is creating a novel medication to act at M1 receptors. This agent will likely have which of the following augmentative effects on target organs?",
+      "choices": [
+        "Cardiac muscle contractility",
+        "Constipation",
+        "Diarrhea",
+        "Gastric acid secretion",
+        "Stroke volume"
+      ],
+      "answer": 3,
+      "explanation": "Gastric acid secretion. M1 receptors are found on gastric parietal cells, M2 receptors on cardiac cells and smooth muscle, and M3 receptors on the bladder, exocrine glands, and smooth muscle. Thus, a medication that affects the M1 receptors will produce a change in gastric acid secretion. Drugs with muscarinic actions preferentially stimulate musca rinic receptors on these tissues; but at high concentra tion, they may show some activity at nicotinic receptors. (A) Cardiac muscle contractility is medi ated by the M2 receptors. (B) Constipation is medi ated by the M3 receptors. (C) Diarrhea is mediated by the M3 receptors. (E) Stroke volume is mediated by the M2 receptors.",
+      "keypoints": [
+        "⭐ M1 muscarinic receptors on ECL cells → stimulate histamine release → parietal cell H2 activation → ↑ acid secretion",
+        "⭐ Pirenzepine (M1 antagonist) blocks this pathway → ↓ gastric acid (not commonly used in the US)",
+        "M3 receptors on parietal cells mediate direct ACh stimulation of acid secretion",
+        "Vagal stimulation (cephalic phase) → ACh → M1 on ECL (↑ histamine) + M3 on parietal cells (direct acid)"
+      ]
+    },
+    {
+      "id": "ch5q088",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 45-year-old man who is obese complains of postprandial epigastric pain. The pain does not appear after every meal. He has noticed the pain especially after eating spicy foods. He is not currently taking any medications. You suspect gastroesophageal reflux disease (GERD) and want to try a drug that will lower the amount of acid in his stomach. Which of the fol lowing drugs chemically elevates the pH?",
+      "choices": [
+        "Aluminum hydroxide",
+        "Fexofenadine",
+        "Misoprostol",
+        "Omeprazole",
+        "Ranitidine"
+      ],
+      "answer": 0,
+      "explanation": "Aluminum hydroxide. Multiple fac tors contribute to acid secretion by parietal cells in gastric mucosa. Gastrin from G cells, histamine from enterochromaffin-like (ECL) cells (acting on H2 receptors), and acetylcholine from parasympathetic neurons all act directly on parietal cells to induce acid secretion. Prostaglandins from surface mucous cells and somatostatin from D cells directly inhibit acid secretion. Ranitidine is an H2-receptor antagonist, meaning it blocks the pro-acid effect of endogenous histamine. Aluminum hydroxide is a chemical base that raises the pH by the following reaction to pro → duce water: H1 OH2 H2O. (B) Fexofenadine is a 1 second-generation H1 antagonist. It would not be expected to significantly bind H2 receptors. (C) Miso prostol is a prostaglandin agonist, not antagonist. It decreases acid by mimicking the inhibitory effect of endogenous prostaglandins. (D) Omeprazole does not bind a receptor. It decreases acid secretion by block ing the proton pump on the lumenal surface of pari etal cells. (E) Ranitidine is an H2 receptor blocker. H2 receptors are found on gastric parietal cells, and stimulation causes an increase in acid secretion.",
+      "keypoints": [
+        "⭐ Aluminum hydroxide neutralizes gastric acid, raises pH → also binds phosphate in gut",
+        "⭐ Side effects of aluminum hydroxide: constipation, hypophosphatemia (with prolonged use)",
+        "Used in renal failure patients (binds dietary phosphate to prevent hyperphosphatemia)",
+        "Mg(OH)₂ causes diarrhea, Al(OH)₃ causes constipation — combined in most antacid preparations"
+      ]
+    },
+    {
+      "id": "ch5q092",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 37-year-old female with mild arthritis presents to the clinic for follow-up. She states that she is doing much better because of doubling her dose of ibupro fen. Some days, she even triples her dose throughout the day. The physician warns the patient about peptic ulcers and bleeding from taking too much ibuprofen. She is offered alternatives, but the patient refuses because the ibuprofen works so well. What is the most appropriate therapy for this patient to prevent peptic ulcers?",
+      "choices": [
+        "Bismuth",
+        "Famotidine",
+        "Lansoprazole",
+        "Misoprostol",
+        "Pirenzepine"
+      ],
+      "answer": 3,
+      "explanation": "Misoprostol. Misoprostol is a syn thetic prostaglandin E1 used for the treatment of nonsteroidal anti-inflammatory drug–induced peptic ulcers. Misoprostol inhibits gastric acid secretion from parietal cells at higher doses. At low doses, it increases the production and secretion of gastric mucus. (A) Bismuth is commonly used in triple or quadruple therapy for pylori. It is not commonly Helicobacter used to prevent peptic ulcers. (B) Famotidine is an H2-receptor blocker used to decrease gastric acid pro duction. However, misoprostol is the better treatment for nonsteroidal anti-inflammatory drug induced– peptic ulcers. (C) Lansoprazole is a proton pump inhibitor that decreases gastric acid production. However, misoprostol is the better treatment for nonsteroidal anti-inflammatory drug–induced peptic ulcers. (E) Pirenzepine blocks muscarinic (M1 and M3) receptors to decrease gastric acid production. It is rarely used to prevent peptic ulcers.",
+      "keypoints": [
+        "⭐ Misoprostol (PGE1 analogue) is the drug of choice for NSAID-induced ulcer prophylaxis",
+        "⭐ NSAIDs inhibit COX-1 → ↓ prostaglandin E2/I2 → ↓ mucus, ↓ bicarbonate, ↓ mucosal blood flow → ulceration",
+        "Misoprostol replaces the prostaglandins lost from NSAID use → restores mucosal defenses",
+        "PPIs are also used for NSAID prophylaxis and are better tolerated (misoprostol causes diarrhea)"
+      ]
+    },
+    {
+      "id": "ch5q093",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 48-year-old male presents to the emergency depart ment with chest pain for the past 2 days. The pain is nonradiating and burning in nature. An ECG is nor mal, and serial troponins are negative. The physician makes the diagnosis of GERD. What is the most potent therapy for the prevention of GERD?",
+      "choices": [
+        "Bismuth",
+        "Famotidine",
+        "Misoprostol",
+        "Omeprazole",
+        "Pirenzepine"
+      ],
+      "answer": 3,
+      "explanation": "Omeprazole. The mechanism of action of omeprazole is irreversible inhibition of H1/ K1-ATPase in parietal cells. The secretion of H1 is the last step in acid secretion, and therefore, the irrevers ible inhibition of this step is the most potent therapy for gastric acid reduction. (A) Bismuth does not pre vent the formation of gastric ulcers. Its mechanism of action is to bind to the base of the ulcer and allowing bicarbonate secretion to neutralize stomach pH. (B) Famotidine is a reversible inhibitor of H2 receptors, which decreases the production of gastric acid. It is not as potent as omeprazole. (C) Misoprostol is a prostaglandin E1 analog that, at high doses, decreases the production of gastric acid. It is not as potent as omeprazole. (E) Pirenzepine blocks muscarinic (M1 and M3) receptors to decrease gastric acid production. It is not as potent as omeprazole.",
+      "keypoints": [
+        "⭐ Omeprazole (PPI) is first-line for GERD presenting as atypical chest pain (non-cardiac)",
+        "⭐ PPIs are superior to H2 blockers for healing erosive esophagitis and severe GERD",
+        "Always rule out cardiac cause of chest pain before attributing to GERD",
+        "Alarm symptoms (dysphagia, weight loss, anemia) warrant endoscopy before empiric PPI therapy"
+      ]
+    },
+    {
+      "id": "ch5q119",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 58-year-old man with a history of occasional GERD presents to the clinic with diarrhea for the past 3 months. He has not been sick and feeling quite well otherwise. Further history uncovers that 3 months ago, he switched the type of antacid he uses for reflux. He stopped the antacid and calls back 1 month later, saying he has not had diarrhea since then. Which of the following antacids was most likely causing the patient’s diarrhea?",
+      "choices": [
+        "Aluminum hydroxide",
+        "Bismuth",
+        "Calcium carbonate",
+        "Magnesium hydroxide",
+        "Sodium bicarbonate"
+      ],
+      "answer": 3,
+      "explanation": "Magnesium hydroxide. Of the antacids listed, magnesium hydroxide is the most likely to cause diarrhea. Magnesium is poorly absorbed by the intesti nal tract, so it draws water into the feces. When water is added to magnesium hydroxide, it is known as milk of magnesia, which is used as a laxative. (A) Aluminum hydroxide is more likely to cause constipation than diarrhea. (B) Bismuth can lead to darker colored stools but is not likely to cause diarrhea. (C) Calcium carbon ate is more likely to cause constipation than diarrhea. (E) Sodium bicarbonate is more likely to cause side effects involving the kidneys and cardiovascular system and has little effect on stool quality.",
+      "keypoints": [
+        "⭐ Magnesium hydroxide causes diarrhea as an osmotic laxative — a known side effect when used as antacid",
+        "⭐ Patients on long-term magnesium antacids may develop diarrhea; switching to calcium carbonate resolves this",
+        "Proton pump inhibitors can cause C. difficile-associated diarrhea (different mechanism)",
+        "Always consider medication history when evaluating new-onset diarrhea"
+      ]
+    },
+    {
+      "id": "ch5q122",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 38-year-old businessman is on a trip to Mexico when he develops diarrhea. He has to give a presenta tion in a few hours and needs rapid relief. He takes an antidiarrheal preparation containing diphenoxylate. Which of the following describes diphenoxyate’s mechanism of action?",
+      "choices": [
+        "Anticholinergic",
+        "Broad-spectrum antibiotic",
+        "Gram-negative antibiotic",
+        "Inhibitor of myenteric plexus activity",
+        "Sympathetic nervous system stimulant"
+      ],
+      "answer": 3,
+      "explanation": "Inhibitor of myenteric plexus activity. Diphenoxylate is an opioid-receptor agonist. It binds Drugs to m-receptors on the myenteric plexus and, like other opioids, decreases myenteric plexus activity. By inhib iting the myenteric plexus, GI smooth muscle activity is decreased. Stool transit time is increased, and it is thought that this allows more time for water absorp tion from the feces to decrease diarrhea. (A) Atropine is an example of an anticholinergic that can be used to treat diarrhea. Diphenoxylate does not influence signaling with acetylcholine, although it is commonly administered with atropine that does. (B) Many an tidiarrheals (including diphenoxylate) have no antibi otic activity. They simply increase transit time in the bowels to allow for more water reabsorption—any underlying infection will be left to run its course. Inhibiting diarrhea in a patient with an infection may actually lengthen the patient’s recovery time. (C) Many antidiarrheals (including diphenoxylate) have no antibiotic activity. They simply increase transit time in the bowels to allow for more water reabsorption—any underlying infection will be left to run its course. Inhibiting diarrhea in a patient with an infection may actually lengthen the patient’s recovery time. (E) Clonidine is an example of a sympathetic nervous system stimulant that can be used for diarrhea. Data are limited regarding its efficacy in treating diarrhea, and it is usually only used in refrac tory cases. Diphenoxylate does not treat diarrhea by modulating sympathetic nervous system activity.",
+      "keypoints": [
+        "⭐ Loperamide inhibits myenteric plexus (μ-opioid receptor agonist) → ↓ peristalsis → ↑ gut transit time → antimotility",
+        "⭐ Does not penetrate the CNS → no euphoria or systemic opioid effects",
+        "Diphenoxylate/atropine (Lomotil) is another antimotility agent but DOES penetrate the CNS at high doses",
+        "First-line OTC for non-infectious acute diarrhea; avoid in bloody/febrile diarrhea"
+      ]
+    },
+    {
+      "id": "ch5q126",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 37-year-old man complains of chest pain after meals. He says this pain has gone on for a few months, and he gets only minimal relief from antacid tablets. The physi cian prescribes a drug that will decrease the amount of acid secreted by blocking a histamine receptor. Which of the following drugs works by this mechanism?",
+      "choices": [
+        "Atropine",
+        "Cimetidine",
+        "Misoprostol",
+        "Octreotide",
+        "Omeprazole"
+      ],
+      "answer": 1,
+      "explanation": "Cimetidine. There are many drugs that decrease the amount of acid in the stomach to reduce symptoms of heartburn. One of the stimuli for acid secretion is histamine released from ECL cells binding to H2 receptors on parietal cells. This binding activates the “proton pumps,” which are ATPases on the lumenal surface that force hydrogen ions into the lumen. Cimetidine slows acid production by blocking H2 receptors. (A) Atropine decreases gastric acid secretion by blocking acetylcholine signaling from the vagus nerve to parietal cells. It is not commonly used to treat GERD because of its systemic anticholinergic side effects. (C) Misoprostol is a prostaglandin ana log. Prostaglandins inhibit acid secretion by binding Gi receptors, which lead to a decrease in intracellular cAMP and in turn to decreased H1/K1 ATPase activity. It does not interfere with histamine signaling. (D) Octreotide is a somatostatin analog. Although it would decrease gastric acid production, it is not used to treat GERD because of its systemic side effects. (E) Omeprazole decreases the amount of acid secreted by binding to and inhibiting the ATPase on the lumenal surface of parietal cells responsible for pumping hydrogen ions into the lumen. It does not interfere with histamine signaling.",
+      "keypoints": [
+        "⭐ Cimetidine (H2 blocker) is often tried before PPIs for GERD; less potent but cheaper",
+        "⭐ If symptoms persist on H2 blockers, escalate to PPI (omeprazole, pantoprazole)",
+        "H2 blockers can develop tolerance (tachyphylaxis) with continuous use",
+        "PPIs are superior for healing esophageal erosions and severe GERD vs. H2 blockers"
+      ]
+    },
+    {
+      "id": "ch5q130",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 39-year-old woman with chronic migraine headaches manages her condition with ibuprofen 200 mg. Most days, she does well with 200 to 400 mg. Adverse reac tions to this therapy include which of the following?",
+      "choices": [
+        "Gastrointestinal upset",
+        "Hives",
+        "Seizure disorder",
+        "Teratogenicity",
+        "Throat tightness"
+      ],
+      "answer": 0,
+      "explanation": "Gastrointestinal upset. The most common side effect of ibuprofen is gastrointestinal upset. Bleeding and rash are also common. Patients must be aware of these adverse effects. (B) Rash is more common than hives in patients taking ibupro fen. (C) Seizure disorder is uncommon in patients taking ibuprofen. (D) Teratogenicity is unlikely in patients taking ibuprofen. (E) Throat tightness is unexpected in patients taking ibuprofen.",
+      "keypoints": [
+        "⭐ Most common adverse effect of NSAIDs (ibuprofen) is GI upset/irritation due to COX-1 inhibition",
+        "⭐ COX-1 inhibition → ↓ PGE2/PGI2 → ↓ protective mucus and bicarbonate → gastric irritation",
+        "Take NSAIDs with food or milk to reduce GI irritation; add PPI or misoprostol for high-risk patients",
+        "GI bleed risk: NSAIDs > aspirin; selective COX-2 inhibitors (celecoxib) have less GI toxicity"
+      ]
+    },
+    {
+      "id": "ch5q135",
+      "tag": "renal",
+      "examLevel": "step1",
+      "system": "Renal",
+      "contentType": "Pharmacology",
+      "stem": "A 54-year-old man with hypertension, alcoholic cirrhosis, and HIV disease is hospitalized for abdominal pain, fatigue, and weakness. His ascites and edema are markedly worse. Physical examination reveals a pal pable abdominal fluid wave. Which of the following treatments may be beneficial for this patient?",
+      "choices": [
+        "Acetazolamide",
+        "Chlorthalidone",
+        "Furosemide",
+        "Hydrochlorothiazide",
+        "Spironolactone"
+      ],
+      "answer": 4,
+      "explanation": "Spironolactone. Spironolactone is very effective in the treatment of hepatic edema. These patients are frequently resistant to the diuretic action of loop diuretics, although a combination with spironolactone may be beneficial. (A) Acetazolamide would be helpful in treating hypertension but not the ascites and fluid overload. (B) Chlorthalidone would treat hypertension but not markedly improve the edema. (C) Furosemide may improve peripheral fluid edema but have limited success with central ascites fluid removal. (D) Hydrochlorothiazide would be helpful in management of outpatient hypertension without significant peripheral edema.",
+      "keypoints": [
+        "⭐ Spironolactone (aldosterone antagonist) is the treatment of choice for ascites in cirrhosis",
+        "⭐ Mechanism: blocks aldosterone receptor in collecting duct → ↓ Na+ reabsorption, ↓ K+ excretion → potassium-sparing diuresis",
+        "Side effects: hyperkalemia (especially with renal failure), gynecomastia (antiandrogenic effect)",
+        "HIV patients with ascites and cirrhosis: spironolactone + furosemide is the preferred combination"
+      ]
+    },
+    {
+      "id": "ch7q011",
+      "tag": "toxicology",
+      "examLevel": "step1",
+      "system": "Toxicology",
+      "contentType": "Pharmacology",
+      "stem": "A 22-year-old woman ingests an entire bottle of acet aminophen in an attempted suicide. She unexpectedly feels well for the next 24 h, at which time her boy friend discovers what she has done and takes her to the ER. The toxic metabolite of acetaminophen exerts its deleterious effect by what mechanism?",
+      "choices": [
+        "Depletion of endogenous antioxidant",
+        "Hapten formation leading to autoantibody pro duction",
+        "Inhibition of cytochrome C oxidase",
+        "Ischemia from decreased hepatic blood flow",
+        "Paralysis of gall bladder causing bile stasis"
+      ],
+      "answer": 0,
+      "explanation": "Depletion of endogenous antioxidant. Acetaminophen metabolism follows one of two path ways in the liver. Most (more than 90%) undergoes phase II metabolism directly and is excreted via the kidney. The remainder undergoes phase I metabolism by CYP1A2 or CYP2E1 to produce NAPQI, the toxic metabolite of acetaminophen. NAPQI requires gluta thione for its next step of metabolism. Excess acet aminophen in the body produces so much NAPQI that liver glutathione (a natural, endogenous antioxidant) is depleted. Oxidative damage then occurs. (B) Halothane type II hepatotoxicity involves hapten formation lead ing to autoantibody production. (C) Cyanide inhibits cytochrome C oxidase. This leads to blockage of the electron transport chain in the mitochondria. (D) Neither acetaminophen nor its metabolites pro duce appreciable ischemia. Ischemic damage in the liver is rare regardless because of its dual blood supply. (E) Neither acetaminophen nor its metabolites cause paralysis of the gall bladder.",
+      "keypoints": [
+        "⭐ Acetaminophen overdose → NAPQI (toxic metabolite via CYP2E1) depletes hepatic glutathione → hepatic necrosis",
+        "⭐ Patients feel well for 24–48 hours (\"latent phase\") before hepatotoxicity manifests — classic presentation",
+        "Antidote: N-acetylcysteine (NAC) replenishes glutathione; most effective if given within 8–10 hours",
+        "Toxic dose in adults: >150 mg/kg or >7.5 g; alcoholics and CYP inducers are more susceptible"
+      ]
+    },
+    {
+      "id": "ch7q016",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 21-year-old male presents to the clinic with 6 weeks of painful, bloody stools. Flexible sigmoidoscopy reveals erythema and friability with pseudopolyps. Which of the following drugs used for ulcerative colitis has both anti-inflammatory and antibacterial properties?",
+      "choices": [
+        "Azathioprine",
+        "Cyclosporine",
+        "Sulfasalazine",
+        "Mesalamine",
+        "Olsalazine"
+      ],
+      "answer": 2,
+      "explanation": "Sulfasalazine. Aminosalicylates such as mesalamine are commonly used to treat ulcerative colitis. To be effective, mesalamine must reach the colon. One way to ensure that mesalamine reaches the colon without being absorbed is to conjugate it to another molecule with an azo bond that will only be cleaved by colonic bacterial enzymes. Sulfasalazine and olsalazine are two such formulations. Sulfasalazine is made up of a molecule of mesalamine connected to a molecule of sulfapyridine, an old sulfa antibiotic. The role of antibiotics in ulcerative colitis is unclear; however, sulfapyridine causes enough side effects that sulfasalazine is less favorable than other drugs such as olsalazine. (A) Azathioprine is an immunosuppres sant. It helps with the symptoms of ulcerative colitis by decreasing the immune response. (B) Cyclosporine is an immunosuppressant. It helps with the symptoms of ulcerative colitis by decreasing the immune res ponse. (D) Mesalamine is an anti-inflammatory drug used in ulcerative colitis. A large part of an oral dose of mesalamine is absorbed, preventing it from reach ing its intended target: the colon. There are many ways to get around this problem, including supposi tory form, encapsulated extended-release form, and conjugation with an azo bond. (E) Olsalazine is made up of two molecules of mesalamine conjugated together by an azo bond. This bond is cleaved by colonic bacteria, releasing mesalamine on site.",
+      "keypoints": [
+        "⭐ Sulfasalazine = sulfapyridine + 5-ASA (mesalamine); 5-ASA is the active anti-inflammatory component in the colon",
+        "⭐ Used for mild-moderate ulcerative colitis and Crohn's colitis; mechanism involves ↓ prostaglandin/leukotriene synthesis",
+        "Sulfapyridine portion causes most side effects: hemolytic anemia (G6PD deficiency), folate deficiency, agranulocytosis",
+        "Mesalamine (5-ASA alone) preparations are better tolerated with fewer systemic side effects"
+      ]
+    },
+    {
+      "id": "ch7q018",
+      "tag": "toxicology",
+      "examLevel": "step1",
+      "system": "Toxicology",
+      "contentType": "Pharmacology",
+      "stem": "A 34-year-old man is a chronic alcoholic and is in and out of a rehabilitation center on a monthly basis. His physician administers a blocker of aldehyde dehydro genase. Which of the following effects is most likely to be exhibited by this patient following administration?",
+      "choices": [
+        "Bradycardia",
+        "Elation",
+        "Euphoria",
+        "Nausea",
+        "Urticaria"
+      ],
+      "answer": 3,
+      "explanation": "Nausea. Disulfiram blocks the oxi dation of acetaldehyde to acetic acid by inhibiting aldehyde dehydrogenase. This results in the accumu lation of acetaldehyde in the blood, causing flushing, tachycardia, hyperventilation, and nausea. Disulfiram has found some use in the patient seriously desiring to stop alcohol ingestion. A conditioned avoidance response is induced so that the patient abstains from alcohol to prevent the unpleasant effects of disulfiram-induced acetaldehyde accumulation. (A) This patient would likely exhibit tachycardia. (B) This patient would likely feel quite ill with nausea, flush ing, and even vomiting. (C) This patient would likely feel quite ill from the accumulation of acetaldehyde in the blood. (E) Urticaria would be unlikely in this patient.",
+      "keypoints": [
+        "⭐ Disulfiram inhibits aldehyde dehydrogenase → acetaldehyde accumulates → flushing, nausea, vomiting, tachycardia",
+        "⭐ The disulfiram reaction is mediated by acetaldehyde toxicity — the \"nausea\" is the intended aversive effect",
+        "Disulfiram is used for alcohol use disorder as aversion therapy; requires patient commitment",
+        "Other drugs causing disulfiram-like reactions: metronidazole, cephalosporins (cefoperazone), procarbazine"
+      ]
+    },
+    {
+      "id": "ch7q020",
+      "tag": "toxicology",
+      "examLevel": "step1",
+      "system": "Toxicology",
+      "contentType": "Pharmacology",
+      "stem": "A mother brings her 4-year-old son to the emergency department after discovering him eating her iron supplement. Which of the following should be admin istered to chelate the excess iron in his body?",
+      "choices": [
+        "EDTA",
+        "Deferoxamine",
+        "Dimercaprol",
+        "Penicillamine",
+        "Succimer"
+      ],
+      "answer": 1,
+      "explanation": "Deferoxamine. Chelating agents are (usually) organic compounds that can form multiple coordinate bonds with metal ions by wrapping around them. Chelating the ions prevents toxicity because a chelated ion is inactive chemically and metabolically. Of the agents listed, deferoxamine is commonly used for iron chelation. (A) Ethylenediaminetetraacetic acid is more commonly used for chelation of mercury and lead ions. (C) Dimercaprol is used for chelation of arsenic, mercury, gold, and lead ions. (D) Peni cillamine is used for chelation of copper, arsenic, and gold ions. (E) Succimer is used for chelation of lead ions.",
+      "keypoints": [
+        "⭐ Iron poisoning antidote: deferoxamine — chelates free iron → excreted in urine (orange-red \"vin rosé\" urine)",
+        "⭐ Iron overdose stages: GI toxicity (0–6 h) → latent phase (6–24 h) → systemic toxicity/shock (24–48 h) → hepatic failure (2–5 days)",
+        "Iron is corrosive to GI mucosa — causes hemorrhagic gastroenteritis in acute overdose",
+        "Other chelating agents: dimercaprol (BAL) for lead/arsenic/mercury; EDTA for lead; penicillamine for copper/lead"
+      ]
+    },
+    {
+      "id": "ch7q029",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 39-year-old man who suffered a work-related injury has chronic back pain. A morphine pain pump was implanted to control his chronic pain. Formerly, he had chronic diarrhea which is now much improved. What is the most likely explanation for this finding?",
+      "choices": [
+        "Improved gastrointestinal motility",
+        "Improved intestinal circular muscle tone",
+        "Weakened anal sphincter tone",
+        "Weakened rectal balloon dilation pressure",
+        "Weakened transverse colonic musculature"
+      ],
+      "answer": 1,
+      "explanation": "Improved intestinal circular muscle tone. Morphine relieves diarrhea and dysentery by decreasing the motility and increasing the tone of the intestinal circular smooth muscle. Morphine also increases the tone of the anal sphincter. Overall, mor phine and other narcotics produce constipation, with little tolerance developing. A nonprescription laxative combination of the stool softener docusate with the stimulant laxative senna has been used successfully to treat this opioid-induced constipation. (A) Gastro intestinal motility will decrease. (C) Anal sphincter tone will increase. (D) Rectal balloon dilation pres sure will increase. (E) Transverse colonic musculature tone will increase.",
+      "keypoints": [
+        "⭐ Opioids cause constipation by binding μ-opioid receptors in myenteric plexus → ↓ circular muscle tone → ↓ peristalsis",
+        "⭐ Methylnaltrexone or naloxegol (peripheral μ-opioid antagonists) treat opioid-induced constipation without reversing analgesia",
+        "Opioid-induced constipation (OIC) does NOT develop tolerance — persists throughout therapy",
+        "First-line for OIC: osmotic laxatives (PEG, lactulose) + stimulant laxatives; avoid bulk laxatives alone"
+      ]
+    },
+    {
+      "id": "ch7q030",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 71-year-old man who has chronic back pain after falling from a first-floor apartment 25 years ago is managed with a morphine pump for his chronic pain. He also had a long history of chronic diarrhea that preceded his accident. The pump has been in place for 22 years. Which of the following effects will still likely be maintained by the device at this time?",
+      "choices": [
+        "Analgesia",
+        "Constipation",
+        "Euphoria",
+        "Pupil dilation",
+        "Sedation"
+      ],
+      "answer": 1,
+      "explanation": "Constipation. Repeated use produces tolerance to the respiratory depressant, analgesic, euphoric, and sedative effects of morphine. However, tolerance usually does not develop to the pupil- constricting and constipating effects of the drug. Physical and psychological dependence readily occur with morphine and with some of the other agonists. (A) Tolerance develops to the analgesic effects of morphine. (C) Tolerance develops to the euphoric effects of morphine. (D) Tolerance develops to the pupil-constricting effects of morphine. (E) Tolerance develops to the sedative effects of morphine.",
+      "keypoints": [
+        "⭐ Opioids cause constipation via μ-opioid receptors in the gut — this effect does NOT develop tolerance like analgesia or sedation",
+        "⭐ Constipation is the most common persistent GI side effect of chronic opioid use",
+        "Patients on long-term opioids require a bowel regimen from the start (stimulant laxative ± osmotic laxative)",
+        "Naloxegol/methylnaltrexone: peripherally-acting μ-opioid antagonists that treat OIC without affecting CNS analgesia"
+      ]
+    },
+    {
+      "id": "ch7q115",
+      "tag": "toxicology",
+      "examLevel": "step1",
+      "system": "Toxicology",
+      "contentType": "Pharmacology",
+      "stem": "A 22-year-old woman ingests an entire bottle of acetaminophen in an attempted suicide. She unex pectedly feels well; and when her boyfriend discovers what she has done, he takes her to the emergency department. Which of the following drugs should be given in the ER?",
+      "choices": [
+        "Acetylsalicylic acid",
+        "Acetylcysteine",
+        "Bicarbonate",
+        "Fomepizole",
+        "Penicillamine"
+      ],
+      "answer": 1,
+      "explanation": "Acetylcysteine. Acetaminophen metabolism follows one of two pathways in the liver. Most (more than 90%) undergoes phase II metabo lism directly and is excreted renally. The remainder undergoes phase I metabolism by CYP1A2 or CYP2E1 to produce NAPQI, the toxic metabolite of acetamino phen. NAPQI requires glutathione for its next step of metabolism. Excess acetaminophen in the body pro duces so much NAPQI that liver glutathione (a natu ral, endogenous antioxidant) is depleted, allowing oxidative damage to occur. Treatment with acetylcys teine within 8 h of acetaminophen exposure preserves liver glutathione stores by providing an alternative substrate for the toxic metabolite. (A) Acetylsalicylic acid, or aspirin, would offer the liver no protection against acetaminophen toxicity. Aspirin is used for mild pain and as an antiplatelet drug. (C) Bicarbonate would offer the liver no protection against acetamino phen toxicity. Bicarbonate may be useful in mitigating toxic effects of acids such as salicylates by ion trap ping them in the urine. (D) Fomepizole would offer the liver no protection against acetaminophen toxic ity. It is used to treat toxicity of alcohols such as methanol and ethylene glycol by inhibiting the en zyme that converts these into toxic metabolites. (E) Penicillamine would offer the liver no protection against acetaminophen toxicity. Penicillamine is used to chelate certain metals such as copper to treat metal toxicity.",
+      "keypoints": [
+        "⭐ N-acetylcysteine (NAC) is the antidote for acetaminophen overdose — replenishes glutathione and directly conjugates NAPQI",
+        "⭐ NAC is most effective within 8–10 hours of ingestion; still given up to 24 hours post-overdose",
+        "IV NAC (Acetadote) preferred in patients with vomiting or liver failure; oral NAC (Mucomyst) is equally effective",
+        "Use Rumack-Matthew nomogram to guide NAC therapy based on acetaminophen level and time since ingestion"
+      ]
+    },
+    {
+      "id": "ch7q135",
+      "tag": "toxicology",
+      "examLevel": "step1",
+      "system": "Toxicology",
+      "contentType": "Pharmacology",
+      "stem": "A 63-year-old man presents to the emergency depart ment with altered mental status after ingesting an entire bottle of acetaminophen. The patient’s heart rate is 120 beats/minute, blood pressure is 100/58 mm Hg, and respiration rate is 28/minute. His aspartate aminotransferase and alanine aminotransferase are 4,128 IU and 3,978 IU, respectively. What is the most appropriate treatment for this patient?",
+      "choices": [
+        "Ammonium chloride",
+        "Flumazenil",
+        "N-Acetylcysteine",
+        "Naloxone",
+        "Sodium bicarbonate"
+      ],
+      "answer": 2,
+      "explanation": "N -Acetylcysteine. The patient overdosed on acetaminophen and the antidote is N-acetylcysteine. A toxic metabolite, N-acetyl-p- benzoquinone imine (NAPQI), of acetaminophen is bound by glutathione in the body; however, once these stores are used up, the toxic metabolite damages the liver. N-Acetylcysteine binds to the toxic metabo lite, preventing liver damage. (A) Ammonium chlo ride is used to acidify the urine as an antidote for amphetamine overdose. (B) Flumazenil is used as an antidote for benzodiazepine overdose. (D) Naloxone is used for the treatment of opioid overdose. (E) Sodium bicarbonate is used to alkalinize the urine for the treatment of amphetamine and tricyclic anti depressant overdose.",
+      "keypoints": [
+        "⭐ N-acetylcysteine (NAC) is the specific antidote for acetaminophen overdose regardless of dose ingested",
+        "⭐ NAPQI (N-acetyl-p-benzoquinone imine) is the hepatotoxic metabolite — NAC scavenges NAPQI and restores glutathione",
+        "Activated charcoal can reduce acetaminophen absorption if given within 1–2 hours of ingestion",
+        "Liver transplant may be required in fulminant hepatic failure from acetaminophen overdose"
+      ]
+    },
+    {
+      "id": "ch7q142",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pharmacology",
+      "stem": "A 53-year-old woman with chronic low back pain presents to the emergency department with pain in her left hand. The pain is a 10/10 and began acutely after she tried to catch herself after a fall. Her hand is edematous and bruised. An X-ray confirms a scaphoid bone fracture. She is given opioid pain medications to treat her pain. She has a history of chronic narcotic use for her low back pain. Which of the following side effects from the chronic use of opioids will the patient not develop a tolerance?",
+      "choices": [
+        "CNS depression",
+        "Constipation",
+        "Nausea",
+        "Pain response",
+        "Respiratory depression"
+      ],
+      "answer": 1,
+      "explanation": "Constipation. Tolerance develops as a person chronically uses opioids; however, tolerance never occurs with constipation and miosis. Patients are commonly prescribed stool softeners and laxatives as prophylaxis for constipation when opioids are taken. (A) Tolerance does develop to CNS depres sions. (C) Tolerance does develop to nausea caused by opioids. (D) Tolerance does develop the patients’ pain response. Increased doses of opioids are needed to treat chronic users’ pain. (E) Tolerance does develop to respiratory depression.",
+      "keypoints": [
+        "⭐ Chronic opioid use causes constipation via ↓ GI motility (μ-opioid receptor-mediated) — does NOT develop tolerance",
+        "⭐ For opioid-induced constipation unresponsive to standard laxatives, use peripherally acting μ-antagonists (methylnaltrexone)",
+        "Opioids also cause nausea (central CTZ), urinary retention, and biliary spasm",
+        "Monitor for fecal impaction in patients on long-term opioids who develop new-onset abdominal pain"
+      ]
+    },
+    {
+      "id": "ch7q154",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pharmacology",
+      "stem": "A 31-year-old woman with a sore throat, cough, and rhinitis presents to the ambulatory care clinic for evaluation. She has no known allergies, although she has never taken antibiotics. She is given a prescription for penicillin and develops a maculopapular rash on her hands and swelling of her tongue. The most likely explanation for these findings is",
+      "choices": [
+        "Arachidonic acid",
+        "Macrophages",
+        "Penicillin",
+        "Penicilloic acid",
+        "Xanthine oxidase C Prostaglandin E2 n E2 Gastrin Gastr G i + Ca2+ cAMP + + (activated) + H PARIETAL CELL pump LUMEN OF STOMACH H+ acid"
+      ],
+      "answer": 3,
+      "explanation": "Penicilloic acid. This is the most important adverse effect of the penicillins. The major antigenic determinant of penicillin hypersensitivity is its metabolite, penicilloic acid, which reacts with pro teins and serves as a hapten to cause an immune reac tion. Approximately 5% of patients have some kind of reaction, ranging from maculopapular rash (the most common rash seen with ampicillin hypersensitivity) to angioedema (marked swelling of the lips, tongue, and periorbital area) and anaphylaxis. (A) Penicillin anaphylaxis is caused by the metabolite penicilloic acid. (B) Eosinophils play a role in the anaphylactic reaction. (C) Penicilloic acid, not penicillin, is the metabolite causing this reaction. (E) Xanthine oxi dase does not cause anaphylaxis in patients taking penicillin.",
+      "keypoints": [
+        "⭐ Penicillin → penicilloic acid (major determinant of IgE-mediated allergy); ~10% of penicillin-allergic patients react to cephalosporins (cross-reactivity via beta-lactam ring)",
+        "⭐ True IgE-mediated penicillin allergy: urticaria, angioedema, anaphylaxis — mediated by penicilloic acid hapten",
+        "Penicillin skin testing can risk-stratify patients; most patients with self-reported allergy test negative",
+        "If penicillin is essential in a truly allergic patient: desensitization protocol under ICU monitoring"
+      ]
+    }
+  ]
+}
