@@ -44,13 +44,13 @@
       "contentType": "Anatomy",
       "stem": "A liver biopsy is examined at a multiheaded microscope in the pathology department. The surgical pathologist asks you questions to assess your understanding of normal liver histology. Identify the structure within the circle (shown in the image).",
       "choices": [
-        "Arcuate arteries",
-        "Hepatic arteries",
-        "Interlobular arteries",
-        "Sublobular veins",
-        "Terminal hepatic venules"
+        "Bile duct",
+        "Central vein",
+        "Hepatic artery",
+        "Portal triad",
+        "Portal vein"
       ],
-      "answer": 4,
+      "answer": 3,
       "image": "/images/histo_ch14/lippincott histo ch14 q2.png",
       "imageAlt": "Low-power H&E section of liver showing a portal triad within a circle",
       "imageCaption": "H&E, low magnification. Identify the structure within the circle.",
