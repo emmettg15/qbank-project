@@ -131,7 +131,7 @@ exam: 'Block 5 — Renal',
   exam: 'Block 6 — GI',
   tags: ['GI'],
   examLevel: 'step1',
-  version: 1,
+  version: 2,
   addedDate: '2026-05-11',
 },
 {
