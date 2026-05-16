@@ -1,0 +1,390 @@
+{
+  "config": {
+    "title": "Lippincott Path Ch15 - Pancreas (JeffMD GI relevant)",
+    "subtitle": "Pancreatic pathology: congenital anomalies, pancreatitis, exocrine & endocrine tumors, islet cell neoplasms",
+    "passingFraction": 0.75,
+    "tags": {
+      "gi": {
+        "label": "Pancreas"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "A 1-month-old infant is brought to the physician by her parents. She has had repeated bouts of bilious vomiting over the past month and cannot be fed adequately. She is in the 10th percentile for weight and the 50th percentile for length. An upper GIseries discloses marked narrowing of the midportion of the duodenum. What is the most likely cause of this infant’s GIobstruction?",
+      "choices": [
+        "Annular pancreas",
+        "Duodenal polyp",
+        "Islet cell adenoma",
+        "Pancreatic pseudocyst",
+        "Pyloric stenosis"
+      ],
+      "answer": 0,
+      "explanation": "Annular pancreas. Annular pancreas is a congenital condition in which the head of the pancreas sur- rounds the second portion of the duodenum. The anomaly may be associated with duodenal atresia. Infants present with feeding disorders and growth retardation. Pyloric stenosis (choice E) involves the gastric outlet. Duodenal polyp (choice B) does not occur in infants. Diagnosis: Annular pancreas.",
+      "keypoints": [
+        "⭐ Correct: Annular pancreas",
+        "⭐ Diagnosis: Annular pancreas",
+        "Annular pancreas is a congenital condition in which the head of the pancreas sur- rounds the second portion of the duodenum.",
+        "Duodenal polyp (choice B) does not occur in infants."
+      ]
+    },
+    {
+      "id": "q002",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "A 42-year-old obese woman (BMI = 32 kg/m2) presents with severe abdominal pain that radiates to the back. There is no history of alcohol or drug abuse. The blood pressure is 90/45 mm Hg, respirations are 32 per minute, and pulse is 100 per minute. Physical examination shows abdominal tenderness, guarding, and rigidity. An X-ray film of the chest shows a left pleural effusion. Laboratory studies reveal elevated serum amylase (850 U/L) and lipase (675 U/L), and hypocalcemia (7.8 mg/dL). Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Acute cholecystitis",
+        "Acute pancreatitis",
+        "Alcoholic hepatitis",
+        "Chronic calcifying pancreatitis",
+        "Dissecting aortic aneurysm"
+      ],
+      "answer": 1,
+      "explanation": "Acute pancreatitis. Acute pancreatitis is defined as an inflammatory condition of the exocrine pan- creas that results from injury to acinar cells. The disease pres- ents with a spectrum of signs and symptoms. Severe forms are characterized by the sudden onset of abdominal pain, often accompanied by signs of shock (hypotension, tachypnea, and tachycardia). The release of amylase and lipase from the injured pancreas into the serum provides a sensitive marker for monitoring injury to acinar cells. Left pleural effusion is a common finding in patients with acute pancreatitis due to local irritation below the diaphragm. The other choices do not feature increases in serum amylase and lipase. Diagnosis: Pancreatitis, acute.",
+      "keypoints": [
+        "⭐ Correct: Acute pancreatitis",
+        "⭐ Diagnosis: Pancreatitis, acute",
+        "Acute pancreatitis is defined as an inflammatory condition of the exocrine pan- creas that results from injury to acinar cells.",
+        "The other choices do not feature increases in serum amylase and lipase."
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "Which of the following is most likely associated with the pathogenesis of the condition of the patient described in Question 2?",
+      "choices": [
+        "Carcinoid syndrome",
+        "Cholelithiasis",
+        "Insulinoma",
+        "Pancreatic adenocarcinoma",
+        "Portal hypertension FFeennddeerrssoonn__CChhaapp1155..iinndddd 117755 reas"
+      ],
+      "answer": 1,
+      "explanation": "Cholelithiasis. Some 45% of all patients with acute pancreatitis also have cholelithiasis, and the risk of developing acute pancreatitis in patients with gallstones is 25 times higher than that in the general population. Chronic alcoholism accounts for approximately one third of the cases of acute pancreatitis. Other causes include obstruction of the pancreatic duct by gallstones, intake of drugs, and viral infections. The other choices do not cause acute pancreati- tis. Diagnosis: Pancreatitis, acute; cholelithiasis.",
+      "keypoints": [
+        "⭐ Correct: Cholelithiasis",
+        "⭐ Diagnosis: Pancreatitis, acute; cholelithiasis",
+        "Some 45% of all patients with acute pancreatitis also have cholelithiasis, and the risk of developing acute pancreatitis in patients with gallstones is 25 times higher than that in the general population.",
+        "The other choices do not cause acute pancreati- tis."
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "A 60-year-old alcoholic man presents with a 6-month history of recurrent epigastric pain, progressive weight loss, and foulsmelling diarrhea. The abdominal pain is now almost constant and intractable. An X-ray film of the abdomen reveals multiple areas of calcification in the mid-abdomen. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Carcinoid syndrome",
+        "Chronic pancreatitis",
+        "Crohn disease",
+        "Insulinoma",
+        "Miliary tuberculosis"
+      ],
+      "answer": 1,
+      "explanation": "Chronic pancreatitis. Chronic pancreatitis is characterized by the progressive destruction of the pancreas, with accompanying irregular fibrosis and chronic inflam- mation. Calcification and intraductal calculi often develop. Pancreatic insufficiency results in malabsorption syndrome. Chronic pancreatitis is most commonly seen in patients with a history of alcohol abuse (70% of cases). The other choices are not associated with pancreatic calcifications. Although islets may be affected by chronic pancreatitis, hypoglycemia is an uncommon and late feature of the disease. Diagnosis: Pancreatitis, chronic.",
+      "keypoints": [
+        "⭐ Correct: Chronic pancreatitis",
+        "⭐ Diagnosis: Pancreatitis, chronic",
+        "Chronic pancreatitis is characterized by the progressive destruction of the pancreas, with accompanying irregular fibrosis and chronic inflam- mation.",
+        "Although islets may be affected by chronic pancreatitis, hypoglycemia is an uncommon and late feature of the disease."
+      ]
+    },
+    {
+      "id": "q005",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "Which of the following findings is most likely to be encountered in the patient described in Question 4?",
+      "choices": [
+        "Achlorhydria",
+        "Hypoglycemia",
+        "Melena",
+        "Pernicious anemia",
+        "Steatorrhea"
+      ],
+      "answer": 4,
+      "explanation": "Steatorrhea. Fat malabsorption in the setting of chronic pancreatitis is most often associated with steatorrhea. In patients with steatorrhea, the fecal matter is foul smelling and floats because of a high fat content. Long- standing malabsorptive disease is accompanied by nutritional deficiency, including weight loss, anemia, osteomalacia, and a tendency to bleed. Hypoglycemia (choice B) is incorrect because loss of pancreatic islet cells would be associated with hyperglycemia. Diagnosis: Pancreatitis, chronic; steatorrhea.",
+      "keypoints": [
+        "⭐ Correct: Steatorrhea",
+        "⭐ Diagnosis: Pancreatitis, chronic; steatorrhea",
+        "Fat malabsorption in the setting of chronic pancreatitis is most often associated with steatorrhea.",
+        "Hypoglycemia (choice B) is incorrect because loss of pancreatic islet cells would be associated with hyperglycemia."
+      ]
+    },
+    {
+      "id": "q006",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "A 50-year-old woman complains of persistent abdominal pain, anorexia, and abdominal distention. Her past medical history is significant for a previous hospitalization for acute pancreatitis. Physical examination shows jaundice and a nonpulsatile abdominal mass. Laboratory studies reveal normal serum levels of bilirubin, AST, and ALT. A CTscan of the abdomen shows a fluid-filled cavity in the head of the pancreas. What is the most likely diagnosis?",
+      "choices": [
+        "Acute hemorrhagic pancreatitis",
+        "Insulinoma",
+        "Pancreatic cystadenoma",
+        "Pancreatic islet cell tumor",
+        "Pancreatic pseudocyst 77//1133//22001100 66::4455::0000 PPMM 176"
+      ],
+      "answer": 4,
+      "explanation": "Pancreatic pseudocyst. Pancreatic pseudocyst is a late complication of acute pancreatitis, in which necrotic pancreatic tissue is liquefied through the action of pancreatic enzymes (e.g., peptidases, lipases, and amylase). The necrotic tissue becomes encapsulated by gran- ulation tissue, which then develops into a fibrous capsule. Pseudocysts may enlarge to compress and even obstruct the duodenum. They may become secondarily infected and form an abscess. Choices B, C, and Dare not consequences of acute pancreatitis. Diagnosis: Pancreatic pseudocyst.",
+      "keypoints": [
+        "⭐ Correct: Pancreatic pseudocyst 77//1133//22001100 66::4455::0000 PPMM 176",
+        "⭐ Diagnosis: Pancreatic pseudocyst",
+        "Pancreatic pseudocyst is a late complication of acute pancreatitis, in which necrotic pancreatic tissue is liquefied through the action of pancreatic enzymes (e.g., peptidases, lipases, and amylase).",
+        "Choices B, C, and Dare not consequences of acute pancreatitis."
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "The surgical specimen is shown in the image for the patient described in Question 6. In addition to blood and necrotic debris, which of the following best describes the contents of this cystic lesion?",
+      "choices": [
+        "Bile",
+        "Chylous fluid",
+        "Lymph",
+        "Mucopolysaccharides",
+        "Pancreatic enzymes"
+      ],
+      "answer": 4,
+      "explanation": "Pancreatic enzymes. Pancreatic pseudocysts are lined by connective tissue and contain blood, necrotic debris, and secreted pancreatic enzymes. Reflux of bile (choice A) is not characteristic of a pancreatic pseudocyst. The other choices (B, C, and D) may be present in small quantities. Diagnosis: Pancreatic pseudocyst.",
+      "keypoints": [
+        "⭐ Correct: Pancreatic enzymes",
+        "⭐ Diagnosis: Pancreatic pseudocyst",
+        "Pancreatic pseudocysts are lined by connective tissue and contain blood, necrotic debris, and secreted pancreatic enzymes.",
+        "The other choices (B, C, and D) may be present in small quantities."
+      ],
+      "image": "/images/path_ch15/lippincott pathology ch15 q7.png",
+      "imageAlt": "Pathology image for question 7",
+      "imageCaption": "Histopathology image — see question stem for clinical context"
+    },
+    {
+      "id": "q008",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "A 60-year-old man presents with a 3-week history of weight loss, vague abdominal pain, and progressive yellowing of his skin and sclerae. He also reports the recent onset of intermittent pain in the upper and lower extremities. Laboratory studies show a serum bilirubin level of 15 mg/dL, mostly in the conjugated form. A CTscan of the abdomen reveals a mass in the head of the pancreas. The patient develops sudden shortness of breath and is diagnosed with pulmonary thromboembolism. Which of the following is the most likely cause of thromboembolism in this patient?",
+      "choices": [
+        "Adenocarcinoma of the ampulla of Vater",
+        "Gastrinoma of the pancreas",
+        "Insulinoma of the pancreas",
+        "Pancreatic adenocarcinoma",
+        "Pancreatic pseudocyst"
+      ],
+      "answer": 3,
+      "explanation": "Pancreatic adenocarcinoma. Adenocar- cinoma is the most common malignant tumor of the pan- creas. Although it accounts for only 3% of all cancers in the United States, it is the fourth leading cause of cancer death in men and the fifth leading cause of cancer death in women. Migratory thrombophlebitis, which is also referred to as Trousseau syndrome, may accompany adenocarcinoma of the pancreas as well as other malignancies. The cause of migratory thrombophlebitis is not entirely understood, but it is thought that the tumor releases thrombogenic substances into the circulation (e.g., serine proteases) that initiate the coagulation cascade. The CTscan excludes adenocarcinoma of the ampulla of Vater (choice A). Endocrine tumors of the pancreas (choices Band C) are not expected to induce Trous- seau syndrome. Diagnosis: Pancreatic adenocarcinoma.",
+      "keypoints": [
+        "⭐ Correct: Pancreatic adenocarcinoma",
+        "⭐ Diagnosis: Pancreatic adenocarcinoma",
+        "Pancreatic adenocarcinoma.",
+        "Endocrine tumors of the pancreas (choices Band C) are not expected to induce Trous- seau syndrome."
+      ]
+    },
+    {
+      "id": "q009",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "Despite best efforts at treatment, the patient described in Question 8 subsequently dies. The gross appearance of the pancreas and liver at autopsy is shown in the image. This patient’s tumor most likely arose from which of the following types of cells? FFeennddeerrssoonn__CChhaapp1155..iinndddd 117766",
+      "choices": [
+        "Acinar cells",
+        "Alpha cells",
+        "Beta cells",
+        "Delta cells",
+        "Ductal cells"
+      ],
+      "answer": 4,
+      "explanation": "Ductal cells. The majority of pancreatic carcinomas arise from pancreatic duct epithelium. Acinar cell carcinoma (choice A) is much less common. The other choices represent uncommon islet cell tumors. Diagnosis: Pancreatic adenocarcinoma.",
+      "keypoints": [
+        "⭐ Correct: Ductal cells",
+        "⭐ Diagnosis: Pancreatic adenocarcinoma",
+        "The majority of pancreatic carcinomas arise from pancreatic duct epithelium.",
+        "The other choices represent uncommon islet cell tumors."
+      ],
+      "image": "/images/path_ch15/lippincott pathology ch15 q9.png",
+      "imageAlt": "Pathology image for question 9",
+      "imageCaption": "Histopathology image — see question stem for clinical context"
+    },
+    {
+      "id": "q011",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "Which of the following is the most important risk factor for the neoplasm arising in the patient described in Question 10?",
+      "choices": [
+        "Alcohol abuse",
+        "Cholelithiasis",
+        "Cigarette smoking",
+        "Diabetes mellitus type 1",
+        "High-fat diet"
+      ],
+      "answer": 2,
+      "explanation": "Cigarette smoking. Cigarette smoking is associated with a fivefold increased risk for adenocarcinoma of the pancreas. Cholelithiasis (choice B) and alcohol abuse (choice A) are associated with pancreatitis, not pancreatic adenocarcinoma. Diagnosis: Pancreatic adenocarcinoma.",
+      "keypoints": [
+        "⭐ Correct: Cigarette smoking",
+        "⭐ Diagnosis: Pancreatic adenocarcinoma",
+        "Cigarette smoking is associated with a fivefold increased risk for adenocarcinoma of the pancreas."
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "A 47-year-old man suffers from long-standing peptic ulcer disease, which is largely unresponsive to pharmacologic therapy. Endoscopic examination reveals multiple, nonhealed ulcerations of the duodenum and jejunum. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Carcinoid syndrome",
+        "Insulinoma",
+        "Pancreatic adenocarcinoma",
+        "Verner-Morrison syndrome",
+        "Zollinger-Ellison syndrome"
+      ],
+      "answer": 4,
+      "explanation": "Zollinger-Ellison syndrome. Zollinger- Ellison syndrome is characterized by intractable gastric hypersecretion, severe peptic ulceration of the duodenum and sometimes the jejunum, and elevated levels of gastrin in blood. The tumor responsible for Zollinger-Ellison syndrome is pancreatic gastrinoma composed of Gcells. Gastrinomas are most often located in the pancreas, but they may arise in other parts of the gastrointestinal tract, notably the duode- num. Most gastrinomas are malignant. Carcinoid syndrome (choice A) is a systemic paraneoplastic disease caused by the release of hormones from carcinoid tumors into venous blood. Clinical features of carcinoid tumors (e.g., flushing, bronchial wheezing, watery diarrhea, and abdominal colic) are presumably caused by the release of serotonin, bradyki- nin, and histamine. Diagnosis: Gastrinoma, Zollinger-Ellison syndrome.",
+      "keypoints": [
+        "⭐ Correct: Zollinger-Ellison syndrome",
+        "⭐ Diagnosis: Gastrinoma, Zollinger-Ellison syndrome",
+        "Zollinger-Ellison syndrome.",
+        "Clinical features of carcinoid tumors (e.g., flushing, bronchial wheezing, watery diarrhea, and abdominal colic) are presumably caused by the release of serotonin, bradyki- nin, and histamine."
+      ]
+    },
+    {
+      "id": "q013",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "A 35-year-old woman presents with 6-month history of skin rash and fatigue. Physical examination shows pallor and a necrotizing erythematous skin rash of her lower body. Laboratory studies reveal mild anemia and fasting blood glucose of 160 mg/dL. A CTscan of the abdomen demonstrates a 2-cm mass in the pancreas. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Carcinoid tumor",
+        "Gastrinoma",
+        "Glucagonoma",
+        "Insulinoma",
+        "Pancreatic polypeptide-secreting tumor"
+      ],
+      "answer": 2,
+      "explanation": "Glucagonoma. Necrotizing migratory erythema develops in association with the hypersecretion of glucagon by alpha cell–containing tumors (glucagonomas). These patients also have mild hyperglycemia and anemia. The other choices do not present with these clinical signs and symptoms. Diagnosis: Glucagonoma.",
+      "keypoints": [
+        "⭐ Correct: Glucagonoma",
+        "⭐ Diagnosis: Glucagonoma",
+        "Necrotizing migratory erythema develops in association with the hypersecretion of glucagon by alpha cell–containing tumors (glucagonomas).",
+        "The other choices do not present with these clinical signs and symptoms."
+      ]
+    },
+    {
+      "id": "q014",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "A 40-year-old woman comes to the physician with a 6-week history of episodic hunger and fainting spells. She is currently seeing a psychiatrist because she is irritable and quarreling with her family. Laboratory studies show a serum glucose concentration of 35 mg/dL. A CTscan of the abdomen 77//1133//22001100 66::4455::0000 PPMMdemonstrates a 1.5-cm mass in the pancreas. The gross appearance of the bisected tumor is shown in the image. What is the most likely diagnosis?",
+      "choices": [
+        "Adenocarcinoma",
+        "Gastrinoma",
+        "Glucagonoma",
+        "Insulinoma",
+        "Somatostatinoma"
+      ],
+      "answer": 3,
+      "explanation": "Insulinoma. Insulinoma is the most common islet cell tumor. These tumors of the endocrine pan- creas are low-grade malignant neoplasms. Insulinomas secrete insulin and cause hypoglycemia. Symptoms of hypoglycemia include hunger, sweating, irritability, epileptic seizures, and coma. Infusion of glucose alleviates these symptoms. The other tumors do not cause marked hypoglycemia. Patients with a glucagonoma (choice C) typically present with necro- tizing migratory erythema, mild hyperglycemia, and anemia. Patients with a somatostatinoma (choice E) typically pres- ent with mild diabetes mellitus, gallstones, steatorrhea, and hypochlorhydria. Diagnosis: Insulinoma.",
+      "keypoints": [
+        "⭐ Correct: Insulinoma",
+        "⭐ Diagnosis: Insulinoma",
+        "Insulinoma is the most common islet cell tumor.",
+        "Patients with a somatostatinoma (choice E) typically pres- ent with mild diabetes mellitus, gallstones, steatorrhea, and hypochlorhydria."
+      ],
+      "image": "/images/path_ch15/lippincott pathology ch15 q14.png",
+      "imageAlt": "Pathology image for question 14",
+      "imageCaption": "Histopathology image — see question stem for clinical context"
+    },
+    {
+      "id": "q015",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "A 36-year-old woman complains of a 4-week history of unremitting watery diarrhea. She reports that she is always thirsty and drinks continuously. Laboratory studies show achlorhydria, hypokalemia, and mild acidosis. A CTscan of the abdomen demonstrates a 1.5-cm pancreatic mass. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Carcinoid tumor",
+        "Gastrinoma",
+        "Pancreatic polypeptide-secreting tumor",
+        "Somatostatinoma",
+        "VIPoma"
+      ],
+      "answer": 4,
+      "explanation": "VIPoma. Intractable diarrhea, hypokalemia, and low levels of chloride in gastric juice constitute the syn- drome of “pancreatic cholera.” This disorder is secondary to the secretion of vasoactive intestinal polypeptide (VIP) by an islet cell tumor. VIPstimulates adenylyl cyclase activity, which in turn leads to the production of large amounts of cAMP. The latter causes increased secretion of potassium and water into the intestinal lumen. The ensuing diarrhea results in loss of FFeennddeerrssoonn__CChhaapp1155..iinndddd 117799 water, amounting to as much as 5 Lper day. The other choices do not present with these signs and symptoms. Diagnosis: VIPoma.",
+      "keypoints": [
+        "⭐ Correct: VIPoma",
+        "⭐ Diagnosis: VIPoma",
+        "Intractable diarrhea, hypokalemia, and low levels of chloride in gastric juice constitute the syn- drome of “pancreatic cholera.” This disorder is secondary to the secretion of vasoactive intestinal polypeptide (VIP) by an islet cell tumor.",
+        "The other choices do not present with these signs and symptoms."
+      ]
+    },
+    {
+      "id": "q016",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "A 45-year-old woman complains of right upper quadrant abdominal pain, weight loss, dry mouth, increased urine production, and foul-smelling fatty stools. She has a recent history of mild diabetes mellitus. Abdominal ultrasound examination reveals gallstones and a solitary 1.5-cm mass in the pancreas. Which of the following hormones would most likely be elevated in the blood of this patient?",
+      "choices": [
+        "Calcitonin",
+        "Gastrin",
+        "Insulin",
+        "Somatostatin",
+        "Vasoactive intestinal polypeptide"
+      ],
+      "answer": 3,
+      "explanation": "Somatostatin. Delta cell tumors (soma- tostatinomas) produce a syndrome consisting of mild diabetes mellitus, gallstones, steatorrhea, and hypochlorhydria. These effects result from the inhibitory action of somatostatin on the secretion of hormones by cells of the endocrine pancreas, acinar cells of the pancreas, and certain hormone-secreting cells in the gastrointestinal tract. Somatostatin also inhibits the pituitary release of growth hormone. None of the other choices are associated with mild diabetes or cholelithiasis. Diagnosis: Somatostatinoma, cholelithiasis.",
+      "keypoints": [
+        "⭐ Correct: Somatostatin",
+        "⭐ Diagnosis: Somatostatinoma, cholelithiasis",
+        "Delta cell tumors (soma- tostatinomas) produce a syndrome consisting of mild diabetes mellitus, gallstones, steatorrhea, and hypochlorhydria.",
+        "None of the other choices are associated with mild diabetes or cholelithiasis."
+      ]
+    },
+    {
+      "id": "q019",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Pancreas",
+      "contentType": "Pathophysiology",
+      "stem": "A 65-year-old man with a history of acromegaly complains of recurrent epigastric pain and dark-colored tarry stools. Laboratory studies reveal moderate hypercalcemia, hyperlipidemia, and elevated serum levels of PTHand gastrin. Serum glucose is within normal limits. Abdominal ultrasound shows a mass in the tail of the pancreas. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Glucagonoma",
+        "Insulinoma",
+        "Multiple endocrine neoplasia type 1",
+        "Multiple endocrine neoplasia type 2",
+        "Pancreatic carcinoid 77//1133//22001100 66::4455::0033 PPMM 178"
+      ],
+      "answer": 2,
+      "explanation": "Multiple endocrine neoplasia type 1. The patient exhibits signs and symptoms of MEN-1 (Wermer syndrome), including adenoma of the pituitary (acromegaly), hyperplasia or adenoma of the parathyroids (hypercalce- mia), and adenoma of the endocrine pancreas (gastrinoma). Gastrin-producing tumors of the pancreas may produce Zollinger-Ellison syndrome, characterized by intractable pep- tic ulcers. MEN-1 is caused by mutations in the MEN1 tumor suppressor gene. MEN-2A (Sipple syndrome, choice D) fea- tures medullary thyroid carcinoma and pheochromocytoma, and is associated with RETprotooncogene mutations. Diagnosis: Zollinger-Ellison syndrome, multiple endocrine.",
+      "keypoints": [
+        "⭐ Correct: Multiple endocrine neoplasia type 1",
+        "⭐ Diagnosis: Zollinger-Ellison syndrome, multiple endocrine",
+        "Multiple endocrine neoplasia type 1.",
+        "MEN-2A (Sipple syndrome, choice D) fea- tures medullary thyroid carcinoma and pheochromocytoma, and is associated with RETprotooncogene mutations."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1013 @@
+{
+  "config": {
+    "title": "Lippincott Pathology Ch13 - GI Tract (JeffMD GI relevant)",
+    "subtitle": "Gastrointestinal tract pathology: esophagus, stomach, small intestine, colon, and rectum",
+    "passingFraction": 0.75,
+    "tags": {
+      "gi": { "label": "Gastrointestinal" },
+      "immuno": { "label": "Immunology/ID" },
+      "path": { "label": "Pathophysiology" }
+    }
+  },
+  "questions": [
+    {
+      "id": "q001",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 35-year-old man complains of difficulty swallowing and a tendency to regurgitate his food. Endoscopy does not reveal any esophageal or gastric abnormalities. Manometric studies of the esophagus show a complete absence of peristalsis, failure of the lower esophageal sphincter to relax upon swallowing, and increased intraesophageal pressure. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Achalasia",
+        "Barrett esophagus",
+        "Esophageal stricture",
+        "Mallory-Weiss syndrome",
+        "Schatzki ring"
+      ],
+      "answer": 0,
+      "explanation": "Achalasia is characterized by failure of the lower esophageal sphincter to relax in response to swallowing and absence of peristalsis in the esophageal body. These defects lead to food retention, esophageal hypertrophy, and dilation. The pathologic basis is depletion or absence of ganglion cells in the myenteric (Auerbach) plexuses; in Latin America, Chagas disease (Trypanosoma cruzi) is a common cause. The other choices (Barrett esophagus, stricture, Mallory-Weiss, Schatzki ring) are all associated with visible mucosal abnormalities on endoscopy and do not primarily impair peristalsis.",
+      "keypoints": [
+        "⭐ Achalasia = failure of LES relaxation + absence of esophageal peristalsis → food retention and dilation",
+        "⭐ Pathology = loss of myenteric plexus ganglion cells; Chagas disease (T. cruzi) is the cause in Latin America",
+        "Manometry is diagnostic: absent peristalsis, incomplete LES relaxation, elevated intraesophageal pressure",
+        "Endoscopy is normal in achalasia (no visible mucosal lesions) — this distinguishes it from most other causes of dysphagia"
+      ]
+    },
+    {
+      "id": "q002",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 20-year-old woman presents with a 2-year history of difficulty swallowing and increasing fatigue. A CBC shows iron-deficiency anemia. Upper endoscopy reveals an annular narrowing in the upper third of the esophagus. A mucosal biopsy shows no evidence of inflammation or neoplasia. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Achalasia",
+        "Barrett esophagus",
+        "Diverticulum",
+        "Esophageal web",
+        "Schatzki ring"
+      ],
+      "answer": 3,
+      "explanation": "Esophageal webs are thin mucosal membranes that project into the lumen, causing dysphagia. This presentation — upper-third narrowing plus iron-deficiency anemia in a young woman — is classic for Plummer-Vinson syndrome, which combines a cervical esophageal web, mucosal lesions of the mouth and pharynx, and iron-deficiency anemia. Complications include carcinoma of the oropharynx and upper esophagus. Schatzki ring (choice E) occurs near the gastroesophageal junction, not the upper third. Achalasia affects the LES and does not cause iron-deficiency anemia. Biopsy showing no inflammation or neoplasia rules out Barrett esophagus.",
+      "keypoints": [
+        "⭐ Plummer-Vinson syndrome = cervical esophageal web + iron-deficiency anemia + mucosal lesions of mouth/pharynx",
+        "⭐ Complication of Plummer-Vinson: carcinoma of oropharynx and upper esophagus",
+        "Webs = thin mucosal membranes; rings = thicker and contain smooth muscle",
+        "Schatzki ring occurs at the gastroesophageal junction (lower esophagus), not the upper third"
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 45-year-old woman presents with general discomfort and increasing tightness in the skin of her face. She reports intermittent pain in the tips of her fingers when exposed to the cold. Physical examination shows 'stone facies' and edema of the fingers and hands. Serologic tests for antinuclear and anti-Scl-70 antibodies are both positive. Which of the following gastrointestinal manifestations is expected in this patient?",
+      "choices": [
+        "Adenocarcinoma of the esophagus",
+        "Dysphagia",
+        "Esophageal rupture",
+        "Esophageal varices",
+        "Squamous cell carcinoma of the esophagus"
+      ],
+      "answer": 1,
+      "explanation": "This patient has scleroderma (progressive systemic sclerosis), characterized by vasculopathy and excessive collagen deposition in skin and internal organs, with Raynaud phenomenon and anti-Scl-70 (anti-topoisomerase) antibodies. The most common and troublesome GI complication is esophageal dysfunction due to impairment of the lower esophageal sphincter — the lower esophagus and upper stomach may become indistinguishable functional entities, leading to dysphagia. In advanced cases, there may be complete loss of peristalsis in the entire esophagus. The other choices are not typical GI manifestations of scleroderma.",
+      "keypoints": [
+        "⭐ Scleroderma GI involvement: lower esophageal sphincter is most affected → dysphagia from impaired motility",
+        "⭐ Anti-Scl-70 (anti-topoisomerase I) antibody is virtually specific for scleroderma",
+        "Stone facies (tight facial skin) and Raynaud phenomenon are hallmarks of scleroderma",
+        "Scleroderma can affect any GI segment; esophagus is the most common and clinically significant"
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 54-year-old man with a long history of indigestion after meals and 'heartburn' presents with upper abdominal pain. He was treated with proton-pump inhibitors for gastroesophageal reflux 3 years previously. An endoscopic biopsy of the lower esophagus is shown in the image. Which of the following best describes these pathologic findings?",
+      "choices": [
+        "Candida esophagitis",
+        "Esophageal diverticulum",
+        "Esophageal varices",
+        "Glandular metaplasia",
+        "Schatzki ring"
+      ],
+      "answer": 3,
+      "image": "/images/path_ch13/lippincott path ch13 q4.png",
+      "imageAlt": "Endoscopic biopsy of the lower esophagus showing columnar epithelium with goblet cells replacing squamous epithelium",
+      "imageCaption": "Biopsy of the lower esophagus demonstrating intestinal-type columnar epithelium (Barrett esophagus) replacing the normal squamous epithelium",
+      "explanation": "The biopsy shows Barrett esophagus — replacement of the normal esophageal squamous epithelium by columnar (glandular) epithelium as a result of chronic gastroesophageal reflux. This is defined as glandular metaplasia. Histologically, Barrett esophagus features intestine-like epithelium with goblet cells and surface cells resembling incompletely intestinalized gastric mucosa. This metaplastic epithelium is more resistant to peptic juices than squamous epithelium and appears to be an adaptive mechanism. None of the other choices cause this type of metaplastic transformation.",
+      "keypoints": [
+        "⭐ Barrett esophagus = squamous → columnar (glandular) metaplasia in lower esophagus from chronic GERD",
+        "⭐ Histologic hallmark: intestine-like epithelium with goblet cells in the esophagus",
+        "Barrett esophagus is an adaptive response to acid damage and is more resistant to peptic injury than squamous epithelium",
+        "Major clinical significance: Barrett esophagus markedly increases risk of esophageal adenocarcinoma"
+      ]
+    },
+    {
+      "id": "q005",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "The patient described in Question 4 is at increased risk of developing which of the following diseases of the esophagus?",
+      "choices": [
+        "Achalasia",
+        "Adenocarcinoma",
+        "Candidiasis",
+        "Plummer-Vinson syndrome",
+        "Varices"
+      ],
+      "answer": 1,
+      "explanation": "Barrett esophagus carries a serious risk of malignant transformation to adenocarcinoma. The risk correlates with the length of the involved esophagus and the degree of dysplasia. Virtually all esophageal adenocarcinomas arise in the background of Barrett esophagus metaplastic epithelium. The symptoms and clinical course of adenocarcinoma (dysphagia, pain, bleeding) are similar to those of squamous cell carcinoma. None of the other choices reflect complications of Barrett esophagus.",
+      "keypoints": [
+        "⭐ Barrett esophagus → highest risk is adenocarcinoma of the esophagus",
+        "⭐ Risk correlates with length of Barrett segment and degree of dysplasia — high-grade dysplasia is pre-cancerous",
+        "Virtually all esophageal adenocarcinomas arise in Barrett esophagus",
+        "Adenocarcinoma is now more common than squamous cell carcinoma in the US esophagus (~60%)"
+      ]
+    },
+    {
+      "id": "q006",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 65-year-old woman complains of a 4-month history of bad breath, regurgitation of undigested food, occasional aspiration of food, and change in the sound of her voice. A barium swallow examination shows a posterior, midline pouch greater than 2 cm in diameter arising just above the cricopharyngeal muscle. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Epiphrenic diverticulum",
+        "Intramural pseudodiverticulum",
+        "Meckel diverticulum",
+        "Traction diverticulum",
+        "Zenker diverticulum"
+      ],
+      "answer": 4,
+      "explanation": "Zenker diverticulum (pharyngoesophageal diverticulum) is a false (pulsion) diverticulum that appears high in the esophagus at the pharyngoesophageal junction, just above the cricopharyngeal muscle. It involves disordered cricopharyngeal muscle function and occurs mainly in persons over age 60. Classic symptoms include bad breath (halitosis from retained food), regurgitation of undigested food, aspiration, and voice change. Epiphrenic diverticula (choice A) are located immediately above the diaphragm. Intramural pseudodiverticulum (choice B) consists of numerous small diverticula in the esophageal wall. Traction diverticula (choice D) arise in the midportion of the esophagus.",
+      "keypoints": [
+        "⭐ Zenker diverticulum = posterior pulsion false diverticulum just above cricopharyngeal muscle",
+        "⭐ Classic triad: halitosis + regurgitation of undigested food + aspiration/voice change",
+        "Most patients are >60 years old; involves dysfunction of cricopharyngeal musculature",
+        "Location comparison: Epiphrenic = above diaphragm; Traction = midportion; Zenker = just above cricopharyngeus"
+      ]
+    },
+    {
+      "id": "q007",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 45-year-old man presents with long-standing heartburn and dyspepsia. An X-ray film of the chest shows a retrocardiac, gas-filled structure. This patient most likely has which of the following conditions?",
+      "choices": [
+        "Boerhaave syndrome",
+        "Esophageal varices",
+        "Esophageal webs",
+        "Hiatal hernia",
+        "Mallory-Weiss syndrome"
+      ],
+      "answer": 3,
+      "explanation": "A retrocardiac gas-filled structure on chest X-ray in a patient with heartburn and dyspepsia represents a hiatal hernia — protrusion of the stomach through the enlarged esophageal hiatus. Sliding hiatal hernias involve upward movement of gastric mucosa above the diaphragm; paraesophageal hernias involve herniation of the gastric fundus alongside the esophagus. Heartburn and regurgitation from LES incompetence are typical symptoms. Boerhaave syndrome (choice A) is esophageal rupture from vomiting. Mallory-Weiss (choice E) is mucosal laceration from severe retching. Neither varices nor webs appear as a gas-filled retrocardiac structure.",
+      "keypoints": [
+        "⭐ Hiatal hernia = protrusion of stomach through esophageal hiatus; appears as retrocardiac gas density on X-ray",
+        "⭐ Sliding type: gastric mucosa moves above diaphragm; Paraesophageal type: fundus herniates alongside esophagus",
+        "Heartburn/regurgitation are attributed to LES incompetence with reflux of gastric contents",
+        "Large paraesophageal hernias can cause gastric volvulus or intrathoracic gastric dilation"
+      ]
+    },
+    {
+      "id": "q008",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 3-year-old boy is rushed to the emergency room in acute distress. The child has vague chest pain and difficulty swallowing. He refuses to drink water. Physical examination shows drooling and salivation. Vital signs are normal. The mother states that she saw the boy ingesting a liquid used to clear drains. If this chemical was a strong acid, which of the following histopathologic findings would be expected in the esophagus of this child?",
+      "choices": [
+        "Apoptosis",
+        "Coagulative necrosis",
+        "Fat necrosis",
+        "Hyaline sclerosis",
+        "Liquefactive necrosis"
+      ],
+      "answer": 1,
+      "explanation": "Strong acids cause immediate coagulative necrosis in the esophagus, forming a protective eschar (coagulated protein layer) that limits further chemical penetration. In contrast, strong alkaline solutions (such as lye/drain cleaners) cause liquefactive necrosis (choice E) with inflammation and saponification of membrane lipids — alkaline solutions are particularly insidious because they are odorless and tasteless, allowing large amounts to be ingested before protective reflexes engage. Fat necrosis occurs in pancreatitis. Hyaline sclerosis is not a form of acute injury. Apoptosis is programmed cell death, not a chemical burn response.",
+      "keypoints": [
+        "⭐ Strong acids → coagulative necrosis in esophagus (protective eschar limits penetration)",
+        "⭐ Strong alkalis → liquefactive necrosis (saponification of membrane lipids; more extensive injury)",
+        "Alkalis are odorless/tasteless and therefore easily ingested in large amounts before reflexes occur",
+        "Chemical esophagitis can lead to stricture formation and chronic complications"
+      ]
+    },
+    {
+      "id": "q009",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 70-year-old woman presents with difficulty swallowing and a 9-kg (20-lb) weight loss over the past several months. Endoscopy reveals irregular narrowing of the lower third of the esophagus. A biopsy shows markedly atypical cuboidal cells lining irregular gland-like structures. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Adenocarcinoma",
+        "Esophageal stricture",
+        "Leiomyosarcoma",
+        "Scleroderma",
+        "Squamous cell carcinoma"
+      ],
+      "answer": 0,
+      "explanation": "Adenocarcinoma of the esophagus is now more common (approximately 60%) in the United States than squamous cell carcinoma. It originates in Barrett esophagus glandular metaplasia and is characterized histologically by atypical cuboidal or columnar cells lining irregular gland-like structures — the key distinction from squamous cell carcinoma. The affected region is typically indurated and ulcerated. Squamous cell carcinoma (choice E) would show squamous differentiation (epithelial pearls, keratin). Scleroderma causes dysphagia but is not a neoplasm. Esophageal stricture is not associated with atypical cells.",
+      "keypoints": [
+        "⭐ Esophageal adenocarcinoma: lower third, originates from Barrett esophagus; atypical cuboidal/columnar cells in gland-like structures",
+        "⭐ Adenocarcinoma now exceeds squamous cell carcinoma in US esophageal cancers (~60%)",
+        "Squamous cell carcinoma: upper/middle third, epithelial pearls, associated with alcohol + tobacco",
+        "Common presenting symptom of esophageal cancer = dysphagia — usually indicates unresectable disease by the time it presents"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 50-year-old obese man (BMI = 32 kg/m²) comes to the physician complaining of indigestion after meals, bloating, and heartburn. Vital signs are normal. A CT scan of the abdomen reveals a hiatal hernia of the esophagus. Endoscopic biopsy shows thickening of the basal layer of the squamous epithelium, upward extension of the papillae of the lamina propria, and an increased number of neutrophils and lymphocytes. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Esophageal varices",
+        "Mallory-Weiss syndrome",
+        "Reflux esophagitis",
+        "Schatzki mucosal ring",
+        "Squamous cell carcinoma"
+      ],
+      "answer": 2,
+      "explanation": "Reflux esophagitis is the most common form of esophagitis, typically occurring with a sliding hiatal hernia or an incompetent lower esophageal sphincter. Chronic exposure to gastric juice causes reactive thickening of the squamous epithelium (basal cell hyperplasia), upward extension of lamina propria papillae, and infiltration by neutrophils and lymphocytes. Linear vertical streaks from mucosal erosions may appear. Obesity is a risk factor due to increased intra-abdominal pressure. Mallory-Weiss syndrome involves mucosal tears from retching, not the biopsy findings described. Squamous cell carcinoma would show malignant cells.",
+      "keypoints": [
+        "⭐ Reflux esophagitis biopsy: basal cell hyperplasia + upward papillary extension + neutrophils/lymphocytes",
+        "⭐ Most common cause of esophagitis; associated with hiatal hernia or incompetent LES",
+        "Risk factors: obesity, hiatal hernia, LES incompetence, pregnancy, certain medications",
+        "Chronic reflux → Barrett esophagus → adenocarcinoma (the progression to know)"
+      ]
+    },
+    {
+      "id": "q013",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 30-year-old man with AIDS complains of severe pain on swallowing. Upper GI endoscopy shows elevated, white plaques on a hyperemic and edematous esophageal mucosa. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Barrett esophagus",
+        "Candida esophagitis",
+        "Herpetic esophagitis",
+        "Reflux esophagitis",
+        "Squamous cell carcinoma in situ"
+      ],
+      "answer": 1,
+      "explanation": "Candida esophagitis is the most likely diagnosis in an immunocompromised patient with white plaques on the esophageal mucosa. The pseudomembranes are composed of fungal mycelia, fibrin, and necrotic debris. Involvement of deeper layers can lead to disseminated candidiasis and esophageal stricture. Odynophagia (pain on swallowing) is characteristic. Herpetic esophagitis (choice C) features mucosal vesicles rather than white plaques. Barrett esophagus is a metaplastic condition without plaques. Squamous cell carcinoma in situ would not cause acute plaques.",
+      "keypoints": [
+        "⭐ Candida esophagitis = white plaques on hyperemic esophageal mucosa in immunocompromised patients",
+        "⭐ Pseudomembranes = fungal mycelia + fibrin + necrotic debris",
+        "Herpetic esophagitis features vesicles (not plaques); CMV esophagitis shows large ulcers",
+        "Candida esophagitis also occurs with diabetes, antibiotic use, and steroid therapy (not only AIDS)"
+      ]
+    },
+    {
+      "id": "q014",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 58-year-old woman is brought to the emergency department 4 hours after vomiting blood and experiencing bloody stools. The patient was diagnosed with alcoholic cirrhosis 2 years ago. The patient subsequently goes into shock and expires. The histologic appearance of the esophagus at autopsy is shown in the image. Which of the following is the most likely underlying cause of hematemesis and hematochezia in this patient?",
+      "choices": [
+        "Alcoholic hepatitis",
+        "Ischemia of the gastric mucosa",
+        "Mallory-Weiss syndrome",
+        "Peptic ulcer disease",
+        "Portal hypertension"
+      ],
+      "answer": 4,
+      "image": "/images/path_ch13/lippincott path ch13 q14.png",
+      "imageAlt": "Histologic section of esophagus showing dilated submucosal veins (varices) in a patient with cirrhosis",
+      "imageCaption": "Esophageal varices at autopsy: dilated, thin-walled submucosal veins prone to catastrophic rupture in portal hypertension",
+      "explanation": "Esophageal varices are dilated (varicose) veins immediately beneath the mucosa that arise in the lower third of the esophagus due to portal hypertension secondary to cirrhosis. The lower esophageal veins connect to the portal system through gastroesophageal anastomoses; when portal blood pressure is elevated, these anastomoses dilate. Varices >5 mm in diameter are likely to rupture, causing life-threatening hemorrhage. Alcoholic hepatitis (choice A) by itself does not cause varices; it is the cirrhosis resulting from long-term alcohol abuse that elevates portal pressure and creates varices.",
+      "keypoints": [
+        "⭐ Esophageal varices = dilated submucosal veins from portal hypertension (typically due to cirrhosis)",
+        "⭐ Varices >5 mm are at high risk of rupture → life-threatening upper GI hemorrhage",
+        "Portal hypertension diverts blood through gastroesophageal collateral veins → varices in distal esophagus",
+        "TIPS (transjugular intrahepatic portosystemic shunt) and beta-blockers are used to reduce variceal bleeding risk"
+      ]
+    },
+    {
+      "id": "q015",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 3-week-old boy is brought to the physician by his parents, who report that he vomits forcefully immediately after nursing. Physical examination reveals an 'olive-like' palpable mass and visible peristaltic movements within the infant's abdomen. What is the most likely cause of projectile vomiting in this infant?",
+      "choices": [
+        "Appendicitis",
+        "Congenital pyloric stenosis",
+        "Hirschsprung disease",
+        "Meconium ileus",
+        "Tracheoesophageal fistula"
+      ],
+      "answer": 1,
+      "explanation": "Congenital pyloric stenosis is a concentric enlargement of the pyloric canal that obstructs the gastric outlet, causing projectile vomiting in the first weeks of life. The 'olive-like' palpable mass in the epigastrium and visible gastric peristaltic waves are classic signs. It is the most common indication for abdominal surgery in the first 6 months of life and has a familial tendency (more common in identical twins). The only consistent microscopic abnormality is hypertrophy of the circular muscle layer. Hirschsprung disease (choice C) causes constipation from failure of ganglion cells to migrate to the rectum. Tracheoesophageal fistula presents differently, with respiratory symptoms.",
+      "keypoints": [
+        "⭐ Congenital pyloric stenosis: projectile vomiting at 2–6 weeks of age + palpable 'olive' mass + visible peristaltic waves",
+        "⭐ Most common indication for abdominal surgery in first 6 months of life",
+        "Microscopy: hypertrophy of circular muscle of pylorus; causes gastric outlet obstruction",
+        "Leads to hypochloremic, hypokalemic metabolic alkalosis from loss of HCl in vomit"
+      ]
+    },
+    {
+      "id": "q016",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 50-year-old woman with long-standing rheumatoid arthritis complains of weakness and fatigue. She states that her stools have recently become black after taking a new nonsteroidal anti-inflammatory drug (NSAID). Gastroscopy shows numerous superficial, bleeding mucosal defects. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Acute erosive gastritis",
+        "Early gastric cancer",
+        "Helicobacter pylori gastritis",
+        "Ménétrier disease",
+        "Peptic ulcer disease"
+      ],
+      "answer": 0,
+      "explanation": "Acute erosive (hemorrhagic) gastritis is characterized by mucosal necrosis and is commonly caused by NSAIDs, aspirin, alcohol, or ischemic injury. NSAIDs inhibit prostaglandin synthesis, disrupting the mucosal barrier and allowing acid-induced injury with bleeding from superficial erosions. Mucosal defects may extend deeper to form ulcers. Black stools (melena) indicate upper GI bleeding. H. pylori gastritis (choice C) is chronic and does not cause numerous acute superficial defects related to NSAID use. Ménétrier disease features enlarged rugae. Peptic ulcer disease is a distinct entity typically involving single deeper ulcers.",
+      "keypoints": [
+        "⭐ NSAIDs → acute erosive gastritis by inhibiting COX → decreased prostaglandins → mucosal barrier breakdown",
+        "⭐ Multiple superficial hemorrhagic mucosal erosions (not deep ulcers) is the hallmark of acute erosive gastritis",
+        "Melena (black tarry stools) = upper GI bleeding processed by gastric acid",
+        "Treatment: discontinue NSAID + proton pump inhibitor; misoprostol (prostaglandin analog) can prevent NSAID gastropathy"
+      ]
+    },
+    {
+      "id": "q017",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 34-year-old man presents with a 5-month history of weakness and fatigue. There is no history of drug or alcohol abuse. A CBC shows megaloblastic anemia and a normal reticulocyte count. Further laboratory studies reveal vitamin B12 deficiency. Anemia in this patient is most likely caused by which of the following?",
+      "choices": [
+        "Acute erosive gastritis",
+        "Autoimmune gastritis",
+        "Helicobacter pylori gastritis",
+        "Ménétrier disease",
+        "Peptic ulcer disease"
+      ],
+      "answer": 1,
+      "explanation": "Autoimmune gastritis is a chronic, diffuse inflammatory disease restricted to the body and fundus of the stomach, associated with antibodies to parietal cells and intrinsic factor. Immunologic destruction of parietal cells impairs intrinsic factor secretion → malabsorption of vitamin B12 → megaloblastic anemia (pernicious anemia). All marrow precursor lineages show asynchronous nuclear-cytoplasmic maturation (megaloblastic changes). G-cell hyperplasia causes elevated serum gastrin. Other choices do not primarily cause vitamin B12 deficiency through intrinsic factor destruction.",
+      "keypoints": [
+        "⭐ Autoimmune gastritis (Type A) = restricted to fundus/body; antibodies to parietal cells + intrinsic factor → pernicious anemia",
+        "⭐ Pernicious anemia = megaloblastic anemia from vitamin B12 malabsorption due to intrinsic factor deficiency",
+        "Serum gastrin is elevated in autoimmune gastritis (G-cell hyperplasia from loss of acid feedback)",
+        "Associated with other autoimmune diseases: Hashimoto thyroiditis, Graves disease, Addison disease, Type 1 DM"
+      ]
+    },
+    {
+      "id": "q018",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 40-year-old woman presents with a 2-month history of burning epigastric pain that usually occurs between meals. The pain can be relieved with antacids or food. The patient also reports a recent history of tarry stools. She denies taking aspirin or NSAIDs. Laboratory studies show a microcytic, hypochromic anemia (serum hemoglobin = 8.5 g/dL). Gastroscopy reveals a bleeding mucosal defect in the antrum measuring 1.5 cm in diameter. An endoscopic biopsy shows that the lesion lacks mucosal lining cells and is composed of amorphous, cellular debris and numerous neutrophils. Which of the following is the most important factor in the pathogenesis of this patient's disease?",
+      "choices": [
+        "Achlorhydria",
+        "Acute ischemia",
+        "Autoimmunity",
+        "Gastrinoma",
+        "Helicobacter pylori infection"
+      ],
+      "answer": 4,
+      "explanation": "This patient has a gastric peptic ulcer, and H. pylori infection is the most important pathogenetic factor. H. pylori has been isolated from the gastric antrum of virtually all patients with duodenal ulcers and from about 75% of those with gastric ulcers. H. pylori gastritis is the most common type of gastritis in the US, characterized by prominent chronic inflammation of the antrum. Eradication of H. pylori is curative in most patients with peptic ulcer disease. Achlorhydria (choice A) is incorrect because peptic ulcers require at least some gastric acid for formation. Gastrinoma (choice D) is a rare cause of recalcitrant peptic ulcers.",
+      "keypoints": [
+        "⭐ H. pylori is the #1 cause of peptic ulcer disease: found in virtually all duodenal ulcers and ~75% of gastric ulcers",
+        "⭐ Peptic ulcer biopsy: lacks mucosal lining cells, shows amorphous debris + neutrophils (active ulcer)",
+        "Eradication of H. pylori with triple therapy (PPI + 2 antibiotics) is curative in most PUD",
+        "H. pylori is also a risk factor for gastric adenocarcinoma and MALT lymphoma"
+      ]
+    },
+    {
+      "id": "q019",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 58-year-old woman suffers a massive stroke and expires. The stomach at autopsy is shown in the image. Prior to her death, this patient would most likely have exhibited which of the following?",
+      "choices": [
+        "Dysphagia",
+        "Hypersecretion of gastric acid",
+        "Melena",
+        "Steatorrhea",
+        "Variceal bleeding"
+      ],
+      "answer": 2,
+      "image": "/images/path_ch13/lippincott path ch13 q19.png",
+      "imageAlt": "Gross specimen of the stomach showing a punched-out, rounded peptic ulcer with clean base",
+      "imageCaption": "Gastric peptic ulcer at autopsy: note the punched-out appearance with smooth edges, characteristic of chronic peptic ulcer disease",
+      "explanation": "The image shows a peptic ulcer — a punched-out, rounded mucosal defect in the stomach. Peptic ulcers affect approximately 10% of Western populations and can erode through arteries, causing bleeding and iron-deficiency anemia. Melena (black, tarry stools) results from blood from the upper digestive tract that has been processed by gastric acid. This is the expected clinical symptom from a bleeding gastric peptic ulcer. Unlike duodenal ulcers, most patients with gastric ulcers secrete normal or decreased amounts of gastric acid.",
+      "keypoints": [
+        "⭐ Peptic ulcer gross appearance: punched-out, rounded ulcer with smooth edges (vs. irregular cancer edges)",
+        "⭐ Melena = black tarry stools from upper GI blood digested by gastric juices",
+        "Gastric ulcer patients typically have normal or decreased gastric acid (unlike duodenal ulcer: often increased acid)",
+        "Complications of peptic ulcer: bleeding (most common), perforation, obstruction, penetration"
+      ]
+    },
+    {
+      "id": "q021",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 45-year-old man describes burning epigastric pain 2 to 3 hours after eating. Foods, antacids, and over-the-counter medications provide no relief, and prescribed inhibitors of acid secretion are only moderately effective. Recently, the patient noticed that his stools were black. Physical examination reveals abdominal tenderness. The blood pressure is 120/80 mm Hg supine and 90/50 mm Hg sitting up (orthostatic hypotension). CBC shows a hemoglobin of 6.3 g/dL. Endoscopy reveals multiple gastric and duodenal ulcers. Epigastric pain and anemia are most likely related to a neoplasm arising in which of the following anatomic locations?",
+      "choices": [
+        "Adrenal medulla",
+        "Ampulla of Vater",
+        "Duodenum",
+        "Esophagus",
+        "Pancreas"
+      ],
+      "answer": 4,
+      "explanation": "This presentation — refractory peptic ulcers in multiple locations (gastric and duodenal), poor response to acid suppression, and orthostatic hypotension from blood loss — is characteristic of Zollinger-Ellison syndrome. The responsible neoplasm is a gastrinoma, a gastrin-secreting neuroendocrine tumor that most commonly arises in the pancreatic islets. Pancreatic gastrinomas are the second most common islet cell tumor (after insulinomas). Only about 15% of ZE syndrome cases arise from extrapancreatic gastrinomas (e.g., duodenum). Most gastrinomas are malignant.",
+      "keypoints": [
+        "⭐ Zollinger-Ellison syndrome = refractory peptic ulcers in multiple locations from pancreatic gastrinoma",
+        "⭐ Gastrinoma is the 2nd most common islet cell tumor (after insulinoma); most are pancreatic; most are malignant",
+        "Suspect ZE syndrome when peptic ulcers are multiple, refractory, or in unusual locations (distal duodenum, jejunum)",
+        "Diagnosis: elevated fasting serum gastrin + secretin stimulation test; treatment: PPIs + surgical resection"
+      ]
+    },
+    {
+      "id": "q028",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 60-year-old man presents with epigastric pain after meals, with some nausea and vomiting. A burning sensation in the midepigastrium is relieved by antacids and H2 antagonists. Upper endoscopy demonstrates paired ulcers on both walls of the proximal duodenum. Which of the following represents the most common complication of this patient's duodenal disease?",
+      "choices": [
+        "Bleeding",
+        "Malignant transformation",
+        "Obstruction",
+        "Perforation",
+        "Peritonitis"
+      ],
+      "answer": 0,
+      "explanation": "Bleeding is the most common complication of peptic ulcer disease, occurring in approximately 20% of patients. Chronic blood loss due to occult bleeding is often a feature, while massive hemorrhage is less common. Perforation (choice D) is a serious complication occurring in about 5% of patients, predominantly involving duodenal ulcers. Duodenal peptic ulcers do NOT undergo malignant transformation (choice B) — this is a key distinction from gastric ulcers. Other diseases associated with peptic ulcers include cirrhosis, chronic renal failure, MEN-1, and α1-antitrypsin deficiency.",
+      "keypoints": [
+        "⭐ Most common complication of peptic ulcer disease = BLEEDING (~20% of patients)",
+        "⭐ Duodenal ulcers do NOT undergo malignant transformation (unlike gastric ulcers which carry slight cancer risk)",
+        "Perforation (5%) = second most feared complication; causes peritonitis",
+        "Kissing (paired) ulcers on both walls of duodenum are a radiologic/endoscopic hallmark of duodenal PUD"
+      ]
+    },
+    {
+      "id": "q030",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 5-year-old girl is brought to the physician after her parents noticed red blood in her stool. Physical examination reveals mucocutaneous pigmentation. Small bowel radiography discloses multiple, small- to medium-sized polyps that are diagnosed pathologically as hamartomas. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Congenital teratoma",
+        "Hyperplastic polyp",
+        "Peutz-Jeghers polyp",
+        "Tubular adenoma",
+        "Villous adenoma"
+      ],
+      "answer": 2,
+      "explanation": "Peutz-Jeghers syndrome is an autosomal dominant hereditary disorder characterized by intestinal hamartomatous polyps and mucocutaneous melanin pigmentation, particularly on the face, buccal mucosa, hands, feet, and perianal/genital regions. Histologically, the polyps show a branching network of smooth muscle fibers continuous with the muscularis mucosae that supports the glandular epithelium. Although the polyps themselves are hamartomas (low malignant potential), patients have an increased risk of GI and extraintestinal malignancies. Congenital teratoma does not involve the intestine. Tubular and villous adenomas are principally colonic lesions of luminal epithelial origin.",
+      "keypoints": [
+        "⭐ Peutz-Jeghers syndrome = autosomal dominant; hamartomatous intestinal polyps + mucocutaneous melanin pigmentation",
+        "⭐ Pigmentation sites: lips, buccal mucosa, face, hands, feet, perianal/genital regions",
+        "Histology: smooth muscle branching network supporting glandular epithelium (hamartoma, not adenoma)",
+        "Despite being hamartomas, PJS patients have increased risk of GI and extraintestinal cancers (breast, ovary, pancreas)"
+      ]
+    },
+    {
+      "id": "q031",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 55-year-old man undergoes routine colonoscopy. A small, raised, mucosal nodule measuring 0.4 cm in diameter is identified in the rectum and resected. The surgical specimen is shown in the image. Microscopic examination reveals goblet cells and absorptive cells with exaggerated crypt architecture, but no signs of nuclear atypia. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Adenocarcinoma",
+        "Hyperplastic polyp",
+        "Inflammatory polyp",
+        "Peutz-Jeghers polyp",
+        "Villous adenoma"
+      ],
+      "answer": 1,
+      "image": "/images/path_ch13/lippincott path ch13 q31.png",
+      "imageAlt": "Microscopic section of a small colonic polyp showing elongated crypts with goblet cells and absorptive cells, no dysplasia",
+      "imageCaption": "Hyperplastic polyp of the rectum: exaggerated crypt architecture with goblet cells and absorptive cells, no nuclear atypia or dysplasia",
+      "explanation": "Hyperplastic polyps are small, sessile mucosal excrescences displaying exaggerated crypt architecture. They are the most common polypoid lesions of the colon, particularly frequent in the rectum. Histologically, the crypts are elongated (may show cystic dilations), lined by goblet cells and absorptive cells without any nuclear atypia or dysplasia. The absence of dysplasia distinguishes hyperplastic polyps from adenomas. Villous adenomas (choice E) are considerably larger with prominent thin, tall, finger-like processes. Peutz-Jeghers polyps (choice D) are hamartomas with a smooth muscle stroma.",
+      "keypoints": [
+        "⭐ Hyperplastic polyp = most common colonic polyp; most common in rectum; exaggerated crypt architecture, NO dysplasia",
+        "⭐ Composed of goblet cells + absorptive cells with elongated crypts — no nuclear atypia distinguishes from adenoma",
+        "Hyperplastic polyps have very low malignant potential (unlike tubular or villous adenomas)",
+        "Sessile serrated adenoma/polyp is a related lesion with malignant potential — important to distinguish on pathology"
+      ]
+    },
+    {
+      "id": "q032",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 65-year-old woman undergoes routine colonoscopy. During the procedure, a 2-cm mass is identified in the rectosigmoid region and resected. The surgical specimen is shown in the image. Microscopic examination shows irregular crypts lined by pseudostratified epithelium with hyperchromatic nuclei, without dysplastic features. Which of the following is the most likely diagnosis for this patient's colonic lesion?",
+      "choices": [
+        "Adenocarcinoma",
+        "Carcinoid tumor",
+        "Hyperplastic polyp",
+        "Tubular adenoma",
+        "Villous adenoma"
+      ],
+      "answer": 3,
+      "image": "/images/path_ch13/lippincott path ch13 q32.png",
+      "imageAlt": "Gross and microscopic section of a 2-cm colonic polyp showing tubular architecture with closely packed epithelial glands",
+      "imageCaption": "Tubular adenoma of the rectosigmoid: closely packed irregular tubular glands lined by pseudostratified columnar epithelium",
+      "explanation": "Tubular adenomas constitute about two thirds of benign colonic adenomas. They are typically smooth-surface lesions, usually less than 2 cm in diameter, and often have a stalk. Microscopically, they exhibit closely packed epithelial tubules, which may be uniform or irregularly branched, with pseudostratified nuclei. Although pseudostratification and hyperchromasia may appear worrisome, without frankly dysplastic or invasive features, this represents a benign adenoma. Dysplasia and carcinoma can develop in tubular adenomas. Villous adenomas (choice E) have prominent thin, tall, finger-like processes (villi). Hyperplastic polyps (choice C) lack pseudostratification and appear less dysplastic on low power.",
+      "keypoints": [
+        "⭐ Tubular adenoma = most common colonic adenoma (2/3 of adenomas); smooth surface, often stalked, usually <2 cm",
+        "⭐ Microscopically: closely packed irregular tubular glands with pseudostratified epithelium",
+        "Tubular adenomas can contain foci of dysplasia or even carcinoma; complete resection is curative if confined to mucosa",
+        "Adenoma-carcinoma sequence: normal mucosa → adenoma (APC, Ras) → dysplasia (p53) → invasive carcinoma"
+      ]
+    },
+    {
+      "id": "q033",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 63-year-old woman complains of rectal bleeding of 1 week in duration. Laboratory studies show hypochromic, microcytic anemia (hemoglobin = 7.6 g/dL and MCV = 70 μm³). Colonoscopy reveals a large polypoid mass, which is removed (surgical specimen shown in the image). The arrow points to a malignant tumor. The patient asks about the relative risk of cancer arising in various types of gastrointestinal polyps. Which of the following types of colonic polyps is most likely to undergo malignant transformation?",
+      "choices": [
+        "Hyperplastic polyp",
+        "Lymphoid polyp",
+        "Peutz-Jeghers polyp",
+        "Tubular adenoma",
+        "Villous adenoma"
+      ],
+      "answer": 4,
+      "image": "/images/path_ch13/lippincott path ch13 q33.png",
+      "imageAlt": "Gross surgical specimen of a large colonic polyp with an arrow indicating a focus of malignant transformation",
+      "imageCaption": "Villous adenoma of the colon: large, broad-based lesion with cauliflower-like surface; arrow indicates area of malignant transformation",
+      "explanation": "Villous adenomas have the highest risk of malignant transformation among colonic polyps. They comprise about one third of colonic adenomas, found predominantly in the rectosigmoid region. Grossly, they are large, broad-based, elevated lesions with a shaggy, cauliflower-like surface. Microscopically, they consist of thin, tall, finger-like processes (villi) that superficially resemble small intestinal villi. Compared to tubular adenomas (choice D), villous adenomas more frequently contain foci of carcinoma. Hyperplastic polyps (choice A) have a very low malignant transformation rate. Peutz-Jeghers polyps (choice C) are hamartomas with low intrinsic malignant potential.",
+      "keypoints": [
+        "⭐ Villous adenoma = highest malignant potential of colonic polyps; large, broad-based, cauliflower-like surface",
+        "⭐ Microscopy: thin, tall, finger-like villous processes resembling small bowel villi",
+        "Malignant potential by type: villous > tubulovillous > tubular > hyperplastic",
+        "Villous adenomas can cause secretory diarrhea with hypokalemia and hyponatremia ('secretary villous adenoma')"
+      ]
+    },
+    {
+      "id": "q035",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A portion of the large bowel was removed from a 34-year-old man with a familial disease that affects his gastrointestinal tract. The surgical specimen is shown in the image. This patient most likely carries a germline mutation in which of the following genes?",
+      "choices": [
+        "APC",
+        "C-myc",
+        "DCC",
+        "p53",
+        "Ras"
+      ],
+      "answer": 0,
+      "image": "/images/path_ch13/lippincott path ch13 q35.png",
+      "imageAlt": "Surgical specimen of the large bowel showing hundreds of small adenomatous polyps covering the entire mucosal surface",
+      "imageCaption": "Familial adenomatous polyposis (FAP): innumerable adenomatous polyps carpeting the colorectal mucosa — germline APC mutation",
+      "explanation": "The photograph shows innumerable adenomas of the colon, consistent with familial adenomatous polyposis (FAP), also called adenomatous polyposis coli (APC). This autosomal dominant disease accounts for about 1% of colorectal cancers. Germline mutations in the APC tumor suppressor gene are responsible for FAP. Carcinoma of the colon and rectum is inevitable without prophylactic colectomy, with a mean age of onset of 40 years. The DCC gene ('deleted in colon cancer') is a tumor suppressor gene often missing in sporadic colorectal cancers but is not the germline FAP mutation. Activating Ras mutations occur early in tubular adenomas.",
+      "keypoints": [
+        "⭐ Familial adenomatous polyposis (FAP) = germline APC mutation; autosomal dominant; innumerable colorectal polyps",
+        "⭐ Colorectal carcinoma is inevitable in FAP without prophylactic colectomy; mean age of onset = 40 years",
+        "APC is a tumor suppressor gene on chromosome 5q21; loss of both alleles drives polyp formation (Knudson two-hit)",
+        "Gardner syndrome = FAP + extracolonic manifestations (osteomas, desmoid tumors, congenital hypertrophy of retinal pigment epithelium)"
+      ]
+    },
+    {
+      "id": "q036",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 65-year-old woman presents with a 3-month history of diarrhea and abdominal pain. She has lost 9 kg (20 lb) in the past 6 months. The patient had two benign colonic polyps removed 3 years ago. Laboratory studies reveal mild iron-deficiency anemia, and stool specimens are positive for occult blood. Sigmoidoscopy demonstrates an ulcerated mass, and a biopsy shows malignant glands. A segment of the colon is resected, and the surgical specimen is shown in the image. Based on current models of colonic carcinogenesis, which of the following genes was most likely mutated in the transition from benign adenoma to carcinoma in this patient?",
+      "choices": [
+        "BRCA1",
+        "C-myc",
+        "p53",
+        "Ras",
+        "VHL"
+      ],
+      "answer": 2,
+      "image": "/images/path_ch13/lippincott path ch13 q36.png",
+      "imageAlt": "Gross surgical specimen of the colon showing an ulcerated circumferential mass consistent with invasive adenocarcinoma",
+      "imageCaption": "Colorectal adenocarcinoma: circumferential ulcerated mass arising from a pre-existing adenoma — p53 mutation is the key late event in the adenoma-to-carcinoma sequence",
+      "explanation": "In the multistep adenoma-to-carcinoma sequence, a minimum of 8 to 10 mutational events must accumulate before invasive cancer develops. The APC gene is mutated early (initiating event, creating adenoma). Ras proto-oncogene mutations also occur early in tubular adenomas. The p53 tumor suppressor gene mutation is the key late event in the transition from high-grade dysplasia (adenoma) to invasive carcinoma. BRCA1 mutations are associated with breast and ovarian cancers. VHL mutations drive clear cell renal cell carcinoma.",
+      "keypoints": [
+        "⭐ Adenoma-to-carcinoma sequence: APC mutation (early) → Ras mutation (early) → DCC loss → p53 mutation (late, adenoma→carcinoma)",
+        "⭐ p53 mutation = key late event in colorectal carcinogenesis (transition from adenoma to invasive carcinoma)",
+        "BRCA1 = breast/ovarian cancer; VHL = renal cell carcinoma; C-myc = lymphoma (Burkitt) — not colorectal",
+        "Lynch syndrome (HNPCC) uses microsatellite instability pathway (MMR gene mutations) rather than the APC pathway"
+      ]
+    },
+    {
+      "id": "q039",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 27-year-old woman presents with a 9-month history of bloody diarrhea and crampy abdominal pain. Three weeks ago, she noticed that her left knee was swollen, red, and painful. Her temperature is 38°C (101°F), respirations are 32 per minute, and blood pressure is 130/90 mm Hg. Abdominal palpation reveals tenderness over the left lower quadrant. Laboratory studies show moderate anemia, with a hemoglobin level of 9.3 g/dL. Microscopic examination of the stool reveals numerous red and white blood cells. A diffusely red, bleeding, friable colonic mucosa is visualized by colonoscopy. The colon is subsequently removed and the surgical specimen is shown in the image. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Adenocarcinoma",
+        "Carcinoid tumor",
+        "Crohn disease",
+        "Pseudomembranous colitis",
+        "Ulcerative colitis"
+      ],
+      "answer": 4,
+      "image": "/images/path_ch13/lippincott path ch13 q39.png",
+      "imageAlt": "Surgical specimen of the colon showing diffuse mucosal hemorrhage and friability throughout, consistent with ulcerative colitis",
+      "imageCaption": "Ulcerative colitis: diffuse, continuous mucosal inflammation with hemorrhage and friability — process begins in rectum and extends proximally",
+      "explanation": "Ulcerative colitis (UC) is a chronic inflammatory disease of the large intestine characterized by bloody diarrhea, rectal bleeding, and a pattern of remissions and exacerbations. It is essentially a mucosal disease that extends continuously from the rectum proximally. The diffusely red, bleeding, friable colonic mucosa on colonoscopy and the joint involvement (reactive arthritis is an extraintestinal manifestation) are characteristic. Pseudomembranous colitis (choice D) is typically antibiotic-associated and shows raised irregular plaques. Crohn disease (choice C) typically affects the GI tract in a patchy, transmural distribution and rarely causes the diffuse mucosal friability seen here.",
+      "keypoints": [
+        "⭐ Ulcerative colitis = mucosal disease, continuous from rectum proximally; diffuse hemorrhagic friable mucosa",
+        "⭐ Extraintestinal manifestations: arthritis (25%), uveitis, skin lesions (erythema nodosum, pyoderma gangrenosum), primary sclerosing cholangitis",
+        "UC is confined to colon and rectum; does NOT affect small bowel (except in backwash ileitis)",
+        "Long-standing UC increases colorectal adenocarcinoma risk (extent and duration determine risk)"
+      ]
+    },
+    {
+      "id": "q040",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "The patient described in Question 39 is at increased risk of developing which of the following complications?",
+      "choices": [
+        "Adenocarcinoma",
+        "Fistula",
+        "Granulomatous lymphadenitis",
+        "Transmural inflammation",
+        "Volvulus"
+      ],
+      "answer": 0,
+      "explanation": "Patients with long-standing ulcerative colitis have a significantly higher risk of developing colorectal adenocarcinoma than the general population. This risk is related to the extent of colorectal involvement and the duration of the inflammatory process — those with pancolitis have the greatest risk. Intestinal fistula (choice B) and granulomatous lymphadenitis (choice C) are complications of Crohn disease, not UC. Transmural inflammation (choice D) is also characteristic of Crohn disease; UC is confined to the mucosa. Volvulus is not specifically a complication of UC.",
+      "keypoints": [
+        "⭐ Long-standing UC → increased risk of colorectal adenocarcinoma (risk increases with pancolitis and duration >10 years)",
+        "⭐ Fistulas and transmural inflammation = Crohn disease complications, NOT UC",
+        "Surveillance colonoscopy with biopsies is recommended for UC patients after 8–10 years of disease",
+        "Other local complications of UC: toxic megacolon, perforation, hemorrhage, inflammatory pseudopolyps"
+      ]
+    },
+    {
+      "id": "q041",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 44-year-old woman complains of having yellow eyes, dark urine, and recurrent fever for about 3 months. She has a long history of chronic diarrhea. On physical examination, the patient is thin and jaundiced. The liver edge descends 1 cm below the right costal margin and is nontender. Laboratory studies show elevated serum bilirubin of 3.8 mg/dL, normal levels of AST and ALT, and an elevated level of alkaline phosphatase (440 U/dL). Endoscopic retrograde cholangiopancreatography demonstrates a beaded appearance of the extrahepatic biliary tree. Which of the following is the most likely underlying cause of diarrhea in this patient?",
+      "choices": [
+        "Amebiasis",
+        "Amyloidosis",
+        "Carcinoma of the ampulla of Vater",
+        "Celiac sprue",
+        "Ulcerative colitis"
+      ],
+      "answer": 4,
+      "explanation": "This patient has primary sclerosing cholangitis (PSC) — inflammation and obliterative fibrosis of intrahepatic and extrahepatic bile ducts, causing a characteristic radiographic 'beaded' appearance (alternating strictures and dilations). Approximately 70% of patients with PSC have long-standing ulcerative colitis as an underlying condition. The elevated alkaline phosphatase with normal transaminases reflects biliary obstruction rather than hepatocellular disease. UC is the underlying cause of diarrhea in this setting. The other choices are not specifically associated with PSC.",
+      "keypoints": [
+        "⭐ Primary sclerosing cholangitis (PSC): ~70% of PSC patients have ulcerative colitis",
+        "⭐ PSC labs: elevated alkaline phosphatase (predominant), elevated bilirubin; normal AST/ALT",
+        "Radiographic hallmark: beaded biliary tree from alternating strictures and dilations on ERCP/MRCP",
+        "PSC increases risk of cholangiocarcinoma; liver transplantation is the only definitive treatment"
+      ]
+    },
+    {
+      "id": "q042",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 25-year-old woman is brought to the emergency room with symptoms of acute intestinal obstruction. The patient has an 8-month history of blood-tinged diarrhea and cramping abdominal pain. Her temperature is 38°C (101°F), and respirations are 32 per minute. There is abdominal tenderness to palpation. Laboratory studies show moderate anemia, with serum hemoglobin of 9.3 g/dL. Microscopic examination of the stool reveals numerous RBCs and WBCs. A CT scan of the abdomen shows massive distention of the transverse colon. Which of the following is the most likely underlying cause of this patient's colonic disorder?",
+      "choices": [
+        "Adenocarcinoma",
+        "Carcinoid tumor",
+        "Crohn disease",
+        "Pseudomembranous colitis",
+        "Ulcerative colitis"
+      ],
+      "answer": 4,
+      "explanation": "Massive distention of the transverse colon in the setting of chronic bloody diarrhea and acute obstruction represents toxic megacolon, a life-threatening complication of ulcerative colitis. Local complications of UC include toxic megacolon, perforation, inflammatory pseudopolyps, hemorrhage, and risk of adenocarcinoma. Crohn disease (choice C) is a transmural inflammatory disease associated with fistulas and strictures rather than toxic megacolon in this setting. Pseudomembranous colitis (choice D) can cause toxic megacolon but is usually antibiotic-associated. Adenocarcinoma and carcinoid tumor would not present with this acute inflammatory course.",
+      "keypoints": [
+        "⭐ Toxic megacolon = massive colonic dilation (>6 cm on imaging) — most commonly complicates ulcerative colitis",
+        "⭐ Toxic megacolon is a surgical emergency; risk of perforation and sepsis",
+        "Local complications of UC: toxic megacolon, perforation, pseudopolyps, hemorrhage, adenocarcinoma",
+        "Distinguishing UC from Crohn: UC = mucosal, continuous, rectum upward; Crohn = transmural, skip lesions, can affect any GI segment"
+      ]
+    },
+    {
+      "id": "q043",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 21-year-old man is brought to the emergency room with symptoms of acute intestinal obstruction. His temperature is 38°C (101°F), respirations are 25 per minute, and blood pressure is 120/80 mm Hg. Physical examination reveals a mass in the right lower abdominal quadrant. The patient subsequently undergoes surgery, and a segmental lesion involving the terminal ileum is resected (shown in the image). Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Adenocarcinoma",
+        "Carcinoid tumor",
+        "Crohn disease",
+        "Pseudomembranous colitis",
+        "Ulcerative colitis"
+      ],
+      "answer": 2,
+      "image": "/images/path_ch13/lippincott path ch13 q43.png",
+      "imageAlt": "Resected segment of terminal ileum showing cobblestone mucosal pattern with linear ulcerations and transmural thickening",
+      "imageCaption": "Crohn disease of the terminal ileum: 'cobblestone' appearance from linear ulcerations separated by edematous mucosa, with skip lesions and transmural inflammation",
+      "explanation": "Crohn disease is a transmural, chronic inflammatory disease that most commonly involves the distal small intestine (terminal ileitis) and occasionally the right colon. The cobblestone appearance shown in the image results from linear ulcerations and edema with inflammation of the intervening tissue. Skip lesions are characteristic. Intestinal obstruction and fistulas are the most common intestinal complications. The risk of small bowel cancer is increased threefold in Crohn disease. Pseudomembranous colitis and UC are not associated with fistula formation. Adenocarcinoma rarely arises in the terminal ileum.",
+      "keypoints": [
+        "⭐ Crohn disease = transmural, skip lesions, 'cobblestone' mucosa; most common in terminal ileum and right colon",
+        "⭐ Most common intestinal complications of Crohn: obstruction and fistula formation",
+        "Transmural inflammation leads to fistulas, strictures, and increased risk of small bowel adenocarcinoma (3×)",
+        "Histology of Crohn: transmural inflammation + noncaseating granulomas (in ~60%) + lymphoid aggregates"
+      ]
+    },
+    {
+      "id": "q044",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 24-year-old man is brought to the emergency room with symptoms of acute intestinal obstruction. His temperature is 38°C (101°F), respirations are 25 per minute, and blood pressure is 120/80 mm Hg. Physical examination reveals a mass in the right lower abdominal quadrant. At laparoscopy, there are numerous small bowel strictures and a fistula extending into a loop of small bowel. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Adenocarcinoma",
+        "Carcinoid tumor",
+        "Crohn disease",
+        "Pseudomembranous colitis",
+        "Ulcerative colitis"
+      ],
+      "answer": 2,
+      "explanation": "Bowel strictures and entero-enteric fistulas in the small bowel are characteristic complications of Crohn disease. Crohn disease is a transmural, chronic inflammatory disease that may affect any part of the digestive tract. Intestinal obstruction (from strictures) and fistulas are the most common intestinal complications. Free perforation of the bowel occurs occasionally. Pseudomembranous colitis (choice D) and ulcerative colitis (choice E) are not associated with fistula formation. Adenocarcinoma (choice A) rarely arises in the terminal ileum and would not typically cause multiple strictures.",
+      "keypoints": [
+        "⭐ Crohn disease complications: fistulas (entero-enteric, entero-vesical, entero-cutaneous) + strictures → obstruction",
+        "⭐ Fistulas are a hallmark of Crohn disease (NOT ulcerative colitis)",
+        "Transmural granulomatous inflammation is the mechanism underlying fistula and stricture formation",
+        "Crohn disease triples the risk of small bowel adenocarcinoma compared to the general population"
+      ]
+    },
+    {
+      "id": "q045",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 30-year-old woman presents with 2 days of abdominal cramping and diarrhea. Her temperature is 38°C (101°F), respirations are 32 per minute, and blood pressure is 100/65 mm Hg. Stool culture shows a toxigenic Escherichia coli infection. Which of the following best explains the pathogenicity of this organism in this patient?",
+      "choices": [
+        "Destruction of Peyer patches",
+        "Invasion of the mucosa of the colon",
+        "Invasion of the mucosa of the ileum",
+        "Stimulation of acute inflammation in the superficial bowel mucosa",
+        "Stimulation of fluid transport into the lumen of the intestine"
+      ],
+      "answer": 4,
+      "explanation": "Toxigenic E. coli (like Vibrio cholerae) causes diarrhea by secreting specific toxins that stimulate transmucosal fluid and electrolyte transport into the intestinal lumen. There is minimal or absent damage to the intestinal mucosa (eliminating choices A–D). The organisms remain attached to the mucosa and elaborate toxins (e.g., heat-labile toxin activates adenylate cyclase, increasing cAMP) that drive secretion. Patients may become severely dehydrated. Invasive organisms like Shigella (choice B) and Salmonella cause mucosal invasion with bloody diarrhea and inflammation.",
+      "keypoints": [
+        "⭐ Toxigenic E. coli (ETEC) mechanism: toxin-mediated stimulation of fluid secretion into intestinal lumen — NO mucosal invasion",
+        "⭐ Heat-labile toxin activates adenylate cyclase → increased cAMP → Cl⁻ secretion and inhibits Na⁺ absorption → watery diarrhea",
+        "Contrast: invasive organisms (Shigella, Salmonella) invade mucosa → bloody diarrhea with leukocytes",
+        "ETEC is the most common cause of traveler's diarrhea; V. cholera uses the same secretory mechanism (extreme diarrhea)"
+      ]
+    },
+    {
+      "id": "q046",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 1-year-old girl is brought to the emergency room by her parents who report that she had a fever and diarrhea for 3 days. The child's temperature is 38°C (101°F). The CBC shows a normal WBC count and increased hematocrit. Which of the following microorganisms is the most likely cause of diarrhea in this young child?",
+      "choices": [
+        "Cytomegalovirus",
+        "Rotavirus",
+        "Salmonella typhi",
+        "Shigella dysenteriae",
+        "Yersinia jejuni"
+      ],
+      "answer": 1,
+      "explanation": "Rotavirus is the most common cause of infantile diarrhea worldwide and can be demonstrated in duodenal biopsy specimens in about half of cases of acute diarrhea in hospitalized children under age 2. The increased hematocrit reflects hemoconcentration from dehydration. Normal WBC count argues against bacterial causes. Cytomegalovirus (choice A) causes esophagitis and colitis mainly in immunocompromised individuals. Salmonella typhi, Shigella, and Yersinia can cause diarrhea but are uncommon in developed countries and typically cause bloody diarrhea with leukocytosis.",
+      "keypoints": [
+        "⭐ Rotavirus = most common cause of infantile diarrhea (watery, non-bloody) in children under 2 years",
+        "⭐ Hemoconcentration (elevated hematocrit) from dehydration is a red flag for severity in infantile diarrhea",
+        "Rotavirus vaccine (live oral vaccine) has dramatically reduced rotavirus hospitalization in developed countries",
+        "Mechanism: rotavirus damages small intestinal villous epithelium → decreased absorptive surface area → osmotic + secretory diarrhea"
+      ]
+    },
+    {
+      "id": "q047",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 70-year-old man is rushed to the emergency room complaining of severe abdominal pain and rectal bleeding of 2 hours in duration. He has a history of coronary artery disease. Bowel sounds are absent on physical examination. A CT scan of the abdomen shows distention of the stomach and air-fluid levels in the small bowel. Abdominal pain and bleeding in this patient most likely involved acute occlusion of which of the following arteries?",
+      "choices": [
+        "Celiac trunk",
+        "Gastroduodenal artery",
+        "Inferior mesenteric artery",
+        "Inferior rectal artery",
+        "Superior mesenteric artery"
+      ],
+      "answer": 4,
+      "explanation": "Sudden occlusion of the superior mesenteric artery (SMA) by thrombosis or embolism leads to small bowel infarction before collateral circulation develops. The SMA supplies the entire small intestine; depending on the size of the occlusion, infarction may be segmental or extend to gangrene of virtually the entire small bowel. The small intestine is more susceptible to transmural hemorrhagic infarction than the large intestine. The inferior mesenteric artery (choice C) supplies the colon but is less commonly occluded due to its smaller size and collateral supply. Coronary artery disease implies significant atherosclerosis, which predisposes to SMA occlusion.",
+      "keypoints": [
+        "⭐ SMA occlusion → small bowel infarction; presents with sudden severe abdominal pain + absent bowel sounds + bloody diarrhea",
+        "⭐ Small bowel (SMA-supplied) > large bowel (IMA-supplied) for transmural hemorrhagic infarction risk",
+        "Risk factors: atherosclerosis, atrial fibrillation (embolism), hypercoagulable states",
+        "IMA occlusion causes ischemic colitis, most often in 'watershed' areas (splenic flexure, rectosigmoid junction)"
+      ]
+    },
+    {
+      "id": "q048",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 16-year-old girl complains of chronic abdominal distention, flatulence, and diarrhea after drinking milk. Elimination of milk and other dairy products from the patient's diet relieves these symptoms. This example of malabsorption is caused by a functional deficiency of which of the following enzymes associated with the intestinal brush border membrane?",
+      "choices": [
+        "Disaccharidase",
+        "Glycogen phosphorylase",
+        "Hyaluronidase",
+        "Mannosidase",
+        "Sphingomyelinase"
+      ],
+      "answer": 0,
+      "explanation": "Acquired lactase deficiency is a widespread disorder of carbohydrate malabsorption. Lactase is a disaccharidase located on the intestinal brush border membrane that cleaves lactose (the main disaccharide in dairy products) into free glucose and galactose for absorption. Symptoms typically begin in adolescence. In the absence of lactase, undigested lactose enters the colon, where bacterial fermentation produces gas (flatulence, distension) and organic acids (osmotic diarrhea). None of the other listed enzymes hydrolyze lactose. Congenital lactase deficiency is rare but may be lethal in neonates.",
+      "keypoints": [
+        "⭐ Lactase deficiency = most common disaccharidase deficiency; acquired in adolescence (primary) or secondary to GI disease",
+        "⭐ Mechanism: undigested lactose in colon → bacterial fermentation → gas (bloating, flatulence) + osmotic diarrhea",
+        "Primary lactase deficiency is most prevalent in African, Asian, and Hispanic populations",
+        "Diagnosis: hydrogen breath test (expired H₂ rises after lactose challenge); treatment: lactase supplements or dairy avoidance"
+      ]
+    },
+    {
+      "id": "q049",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 2-year-old girl with a history of chronic constipation since birth is brought to the emergency room because of nausea and vomiting. Physical examination shows marked abdominal distension. Abdominal radiography reveals distended bowel loops with a paucity of air in the rectum. A rectal biopsy shows an absence of ganglion cells. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Acquired megacolon",
+        "Anorectal stenosis",
+        "Hirschsprung disease",
+        "Imperforate anus",
+        "Rectal atresia"
+      ],
+      "answer": 2,
+      "explanation": "Hirschsprung disease (congenital megacolon) results from failure of neural crest cells to migrate into the distal colon and rectum, leading to a congenital absence of ganglion cells (aganglionosis). The aganglionic segment remains contracted and cannot peristalse, causing functional obstruction and dilation of the proximal colon. Classic presentation: chronic constipation from birth + abdominal distension, with paucity of air in the rectum on X-ray. Rectal biopsy showing absence of ganglion cells is diagnostic. Acquired megacolon (choice A) occurs later in life (e.g., in Chagas disease). Other choices are not associated with aganglionosis.",
+      "keypoints": [
+        "⭐ Hirschsprung disease = congenital absence of ganglion cells in rectum (myenteric + submucosal plexus) from failed neural crest migration",
+        "⭐ Diagnosis: rectal biopsy showing absence of ganglion cells; also confirmed by anorectal manometry and contrast enema (transition zone)",
+        "Presents at birth with failure to pass meconium, or later with chronic constipation + abdominal distension",
+        "Treatment: surgical resection of aganglionic segment with pull-through procedure"
+      ]
+    },
+    {
+      "id": "q050",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 25-year-old woman presents with persistent bloody diarrhea of 4 weeks' duration. She has experienced severe abdominal cramping for the past 3 days. Her temperature is 38°C (101°F), respirations are 22 per minute, and blood pressure is 120/70 mm Hg. Physical examination reveals abdominal tenderness and mild abdominal distension. Bowel sounds are diminished. Laboratory studies show mild hypochromic, normocytic anemia. Stool cultures are negative for pathogens, and no ova or parasites are detected. A blood test for Clostridium difficile toxin is negative. Rectosigmoidoscopy shows hemorrhagic mucosal lesions in the distal colorectal region. A biopsy of the colon reveals crypt abscesses, basal lymphoplasmacytosis, and crypt distortion. Which of the following represents the most common extraintestinal manifestation of the colonic disorder in this patient?",
+      "choices": [
+        "Arthritis",
+        "Cystitis",
+        "Gastritis",
+        "Pancreatitis",
+        "Sepsis"
+      ],
+      "answer": 0,
+      "explanation": "This patient has ulcerative colitis (chronic bloody diarrhea, negative stool cultures, crypt abscesses and basal lymphoplasmacytosis on biopsy, hemorrhagic mucosal lesions in the distal colorectum). Arthritis is seen in approximately 25% of UC patients and is the most common extraintestinal manifestation. Uveitis and skin lesions (erythema nodosum, pyoderma gangrenosum) develop in approximately 10%. Liver disease occurs in about 4% (pericholangitis, fatty liver; PSC is the most serious). The other choices are not typical extraintestinal manifestations of UC.",
+      "keypoints": [
+        "⭐ Most common extraintestinal manifestation of UC = arthritis (~25%)",
+        "⭐ UC biopsy hallmarks: crypt abscesses + basal lymphoplasmacytosis + crypt architectural distortion",
+        "Other extraintestinal manifestations of UC: uveitis, erythema nodosum, pyoderma gangrenosum, PSC (most serious)",
+        "These extraintestinal manifestations can also occur in Crohn disease (especially arthritis, uveitis, skin lesions)"
+      ]
+    },
+    {
+      "id": "q051",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "A 10-year-old boy is brought to the emergency room after 48 hours of fever and severe abdominal pain. He had developed edema of the legs several weeks previously. The temperature on admission is 38.7°C (103°F). Physical examination shows rebound tenderness, guarding, and ascites. An abdominal tap returns numerous segmented neutrophils. This child's spontaneous bacterial peritonitis is most often associated with which of the following underlying conditions?",
+      "choices": [
+        "Celiac sprue",
+        "Diverticulosis",
+        "Hirschsprung disease",
+        "Meconium ileus",
+        "Nephrotic syndrome"
+      ],
+      "answer": 4,
+      "explanation": "Spontaneous bacterial peritonitis (SBP) in children without an obvious source of perforation is most often associated with nephrotic syndrome. These children have ascites and a systemic infection that seeds the ascitic fluid with bacteria (most commonly Streptococcus pneumoniae and E. coli). The prior leg edema in this child represents the nephrotic syndrome. In adults, SBP is a feared complication of cirrhosis with ascites. The other choices (celiac sprue, diverticulosis, Hirschsprung disease, meconium ileus) are not specifically associated with the development of SBP.",
+      "keypoints": [
+        "⭐ Spontaneous bacterial peritonitis in children = nephrotic syndrome (ascites seeded by bacteremia)",
+        "⭐ In adults, SBP most commonly complicates cirrhosis with ascites (gram-negative enteric bacteria)",
+        "Diagnosis: ascitic fluid PMN count >250 cells/μL; most common organisms are E. coli and S. pneumoniae",
+        "Leg edema before the current illness = nephrotic syndrome (protein loss → decreased oncotic pressure → edema)"
+      ]
+    },
+    {
+      "id": "q052",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 74-year-old woman presents with 3 weeks of left lower quadrant abdominal pain, changes in bowel habits, and intermittent fever. Her temperature is 38°C (101°F), respirations are 19 per minute, and blood pressure is 130/80 mm Hg. Physical examination shows left lower quadrant tenderness. A CBC reveals neutrophilia. An abdominal-pelvic ultrasound examination is normal. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Appendicitis",
+        "Diverticulitis",
+        "Ovarian carcinoma",
+        "Renal colic",
+        "Uterine leiomyoma"
+      ],
+      "answer": 1,
+      "explanation": "Diverticulitis is the most likely diagnosis in this elderly woman with left lower quadrant pain, fever, and neutrophilia. Diverticular disease involves two entities: diverticulosis (usually asymptomatic) and its inflammatory complication, diverticulitis. Diverticulitis results from irritation and inflammation caused by retained fecal material obstructing the lumen of a diverticulum, leading to microscopic or gross perforation. Diverticula are most common in the sigmoid colon (95% of cases), explaining the left lower quadrant presentation. Appendicitis (choice A) typically presents with right lower quadrant pain. Ovarian carcinoma would not typically cause fever and neutrophilia acutely. Renal colic is usually colicky and associated with hematuria.",
+      "keypoints": [
+        "⭐ Diverticulitis = 'left-sided appendicitis': left lower quadrant pain + fever + leukocytosis in elderly",
+        "⭐ Sigmoid colon is affected in 95% of diverticular disease cases (highest intraluminal pressure)",
+        "Complications of diverticulitis: perforation, peritonitis, abscess, fistula (colovesical = pneumaturia/fecaluria)",
+        "Diverticulosis (asymptomatic) is caused by low-fiber diet, high intraluminal pressure, and mucosal herniation through weak areas"
+      ]
+    },
+    {
+      "id": "q053",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 9-year-old boy undergoes emergency surgery for presumptive acute appendicitis. During the operation, the surgeon notices that the boy's ileocecal lymph nodes are enlarged and matted together. One of the nodes is sent for a frozen section. The pathologist finds granulomatous inflammation with central necrosis. The specimen is cultured. Which of the following pathogens is the most likely cause of lymphadenopathy in this patient?",
+      "choices": [
+        "Campylobacter jejuni",
+        "Shigella dysenteriae",
+        "Toxigenic E. coli",
+        "Vibrio cholerae",
+        "Yersinia enterocolitica"
+      ],
+      "answer": 4,
+      "explanation": "Yersinia enterocolitica can cause mesenteric adenitis presenting as pseudoappendicitis — right lower quadrant pain severe enough that children frequently undergo laparotomy for a mistaken diagnosis of appendicitis. The ileocecal lymph nodes show granulomatous inflammation with central necrosis (distinguishing it from reactive lymphadenopathy). Other symptoms include diarrhea, reactive arthritis (HLA-B27 associated), erythema nodosum, and septicemia. The other choices cause diarrhea but are not associated with granulomatous mesenteric adenitis that mimics appendicitis.",
+      "keypoints": [
+        "⭐ Yersinia enterocolitica = 'pseudoappendicitis': granulomatous mesenteric lymphadenitis in right iliac fossa",
+        "⭐ Key clue: granulomatous lymph node inflammation with central necrosis at ileocecal region",
+        "Extraintestinal manifestations: reactive arthritis, erythema nodosum, septicemia (especially in iron-overloaded patients)",
+        "Yersinia is transmitted by contaminated food (pork products, undercooked meat) and can cause enteric fever-like syndrome"
+      ]
+    },
+    {
+      "id": "q056",
+      "tag": "gi",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 4-year-old girl is brought to the physician because her parents noticed that she has been having pale, fatty, foul-smelling stools. The patient is at the 50th percentile for height and 10th percentile for weight. Her symptoms respond dramatically to a gluten-free diet. Which of the following is the most likely diagnosis?",
+      "choices": [
+        "Celiac sprue",
+        "Cystic fibrosis of the pancreas",
+        "Ménétrier disease",
+        "Tropical sprue",
+        "Whipple disease"
+      ],
+      "answer": 0,
+      "explanation": "Celiac sprue (gluten-sensitive enteropathy) is characterized by generalized malabsorption, small intestinal mucosal lesions, and prompt clinical and histopathologic response to withdrawal of gluten-containing foods. The pale, fatty, foul-smelling stools (steatorrhea) indicate fat malabsorption. Critical factors: genetic predisposition (HLA-DQ2, HLA-DQ8) and gliadin exposure. The hallmark is a flat mucosa with blunted villi, damaged epithelial cells, intraepithelial T cells, and increased plasma cells in the lamina propria. The dramatic response to a gluten-free diet is virtually diagnostic. Cystic fibrosis causes pancreatic insufficiency but is not treated with gluten restriction. Tropical and Whipple disease do not respond to a gluten-free diet.",
+      "keypoints": [
+        "⭐ Celiac disease (gluten-sensitive enteropathy) = response to gluten-free diet is diagnostic hallmark",
+        "⭐ Small bowel biopsy: flat mucosa, villous blunting, increased intraepithelial lymphocytes, crypt hyperplasia",
+        "Associated with HLA-DQ2 (90%) and HLA-DQ8; gliadin (wheat protein) triggers immune-mediated villous atrophy",
+        "Complications: malabsorption, iron/folate/B12 deficiency, osteoporosis, increased risk of T-cell lymphoma"
+      ]
+    },
+    {
+      "id": "q057",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 53-year-old woman complains of acute diarrhea and severe abdominal pain. She was recently treated with broad-spectrum antibiotics for community-acquired pneumonia. A CBC shows a WBC count of 24,000/μL. The patient subsequently develops septic shock and dies. A portion of her colon is shown at autopsy. These findings are typical of which of the following gastrointestinal diseases?",
+      "choices": [
+        "Crohn disease",
+        "Diverticulitis",
+        "Ischemic colitis",
+        "Pseudomembranous colitis",
+        "Ulcerative colitis"
+      ],
+      "answer": 3,
+      "image": "/images/path_ch13/lippincott path ch13 q57.png",
+      "imageAlt": "Colon at autopsy showing raised, irregular yellow-white plaques (pseudomembranes) overlying the colonic mucosa",
+      "imageCaption": "Pseudomembranous colitis: characteristic raised exudative plaques composed of fibrin, mucus, and necrotic debris covering the colonic mucosa — a complication of C. difficile overgrowth after antibiotic use",
+      "explanation": "Pseudomembranous colitis is characterized by exudative plaques on the colonic mucosa following antibiotic therapy. Antibiotics eliminate the normal mixed flora of the colon, facilitating overgrowth of Clostridium difficile. C. difficile exotoxins (toxin A and toxin B) cause intestinal necrosis, with superficial ulcers covered by a thick fibropurulent exudate (the pseudomembranes). The marked leukocytosis (24,000/μL) is typical. The other choices are not related to antibiotic therapy or characterized by these exudative plaques.",
+      "keypoints": [
+        "⭐ Pseudomembranous colitis = C. difficile overgrowth after antibiotics → exudative plaques (pseudomembranes) on colonic mucosa",
+        "⭐ Toxin A (enterotoxin) and Toxin B (cytotoxin) are the virulence factors; Toxin B is more commonly tested",
+        "Diagnosis: C. difficile toxin in stool (PCR most sensitive); endoscopy shows raised yellow-white plaques",
+        "Treatment: oral vancomycin or fidaxomicin (metronidazole for mild cases); fecal microbiota transplant for recurrent disease"
+      ]
+    }
+  ]
+}
