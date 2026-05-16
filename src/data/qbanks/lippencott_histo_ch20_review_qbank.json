@@ -540,32 +540,6 @@
       ]
     },
     {
-      "id": "q048",
-      "tag": "pulm",
-      "examLevel": "step1",
-      "system": "Pulmonary",
-      "contentType": "Anatomy",
-      "stem": "A lung biopsy is examined in the pathology department. A longitudinal section through the respiratory tree is shown in the image, with five spaces labeled 1 through 5. The space labeled 4 represents which of the following pulmonary structures?",
-      "choices": [
-        "Alveolar duct",
-        "Alveolar sac",
-        "Alveolus",
-        "Respiratory bronchiole",
-        "Terminal bronchiole"
-      ],
-      "answer": 0,
-      "image": "/images/histo_ch20/lippincott histo ch20 q48.png",
-      "imageAlt": "H&E longitudinal section of lung showing the respiratory tree with labeled spaces including bronchioles, alveolar ducts, alveolar sacs, and individual alveoli",
-      "imageCaption": "Lung biopsy longitudinal section with spaces 1–5 labeled: space 4 is an alveolar duct (long thin-walled tubule whose walls are entirely lined by alveolar openings)",
-      "explanation": "Alveolar ducts are long, thin-walled tubules whose walls are entirely lined by openings of alveoli and alveolar sacs. Proximally, alveolar ducts are continuous with respiratory bronchioles. Alveolar ducts differ from respiratory bronchioles in that they lack a true wall—every wall segment opens into an alveolus. Space 1 = respiratory bronchiole, space 2 = terminal bronchiole, space 3 = alveolar sac, space 5 = alveolus.",
-      "keypoints": [
-        "⭐ Conducting zone (no gas exchange): trachea → primary bronchi → secondary bronchi → tertiary bronchi → bronchioles → terminal bronchioles",
-        "⭐ Respiratory zone (gas exchange): respiratory bronchioles (partial alveoli in walls) → alveolar ducts (all walls = alveolar openings) → alveolar sacs (clusters of alveoli opening into common space) → alveoli",
-        "Type I pneumocytes: simple squamous; gas exchange; cover 95% of alveolar surface; cannot replicate",
-        "Type II pneumocytes: cuboidal; secrete surfactant (DPPC); progenitor for type I cells; neonatal respiratory distress syndrome = type II immaturity"
-      ]
-    },
-    {
       "id": "q061",
       "tag": "gi",
       "examLevel": "step1",
