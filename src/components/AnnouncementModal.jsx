@@ -11,9 +11,9 @@ const DISMISSED_KEY = 'qbp_last_dismissed_announcement'
  * Set to `null` when there's no active announcement.
  */
 const CURRENT_ANNOUNCEMENT = {
-  id: 'apr-2026-performance',
-  title: "Exam Week Delays",
-  body: "Hey everyone, you may have noticed some long wait times or some inconsistencies with past data. Unfortunately due to the number of people using the site and my (free) backend storage system there may be some delays while traffic is high, but you should still be able to use all of the features of the site once it loads! I made some backend changes to hopefully help with the issue as well. Happy studying!",
+  id: 'may-17-2026-qbank',
+  title: "Lippencott Image Inaccuracy",
+  body: "Hey everyone, you have probably noticed some incorrect/absent images from a lot of the qbanks, so sorry about that. The GI relevant histo questions have been fixed and I'm working on  the rest. If you see that a qbank has been updated, that means it's been fixed. Happy studying!",
 }
 
 export default function AnnouncementModal() {
