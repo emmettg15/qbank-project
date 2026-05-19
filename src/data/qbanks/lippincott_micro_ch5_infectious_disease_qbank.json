@@ -1,0 +1,369 @@
+{
+  "config": {
+    "title": "Lippincott Micro Ch5 - Infectious Diseases (JeffMD GI relevant)",
+    "subtitle": "Infectious disease questions sourced from Lippincott's Illustrated Q&A Review of Microbiology & Immunology",
+    "passingFraction": 0.75,
+    "tags": {
+      "micro": {
+        "label": "Microbiology"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "lipp-micro-ch5-q007",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Treatment",
+      "stem": "A 19-year-old college student had emergency surgery for a ruptured appendix. Prior to surgery, the patient was placed on IV antibiotics. Which of the following is most likely to cause sepsis in this situation and must therefore be covered by the prescribed antibiotics?",
+      "choices": [
+        "Aerobic Gram-negative rods, Gram-positive cocci, and anaerobes",
+        "Aerobic Gram-positive rods and Gram-negative cocci",
+        "Anaerobic Gram-positive rods and Pseudomonas aeruginosa",
+        "Anaerobic Gram-positive cocci and methicillin-resistant Staphylococcus aureus (MRSA)",
+        "Staphylococcus, Streptococcus, and anaerobic Gram-positive rods"
+      ],
+      "answer": 0,
+      "explanation": "Commensal organisms of the gut and appendix include the Enterobacteriaceae family of aerobic Gram-negative rods (e.g., Escherichia coli), Gram-positive cocci such as enterococci, and obligate anaerobes such as Bacteroides sp. A ruptured appendix spills these organisms into the peritoneal cavity, so broad-spectrum empiric antibiotic coverage must address all three groups to prevent polymicrobial peritonitis and sepsis.",
+      "keypoints": [
+        "\u2b50 Appendiceal flora includes aerobic Gram-negative rods (Enterobacteriaceae), Gram-positive cocci (enterococci), and obligate anaerobes (Bacteroides)",
+        "\u2b50 Ruptured appendix causes polymicrobial peritonitis requiring empiric broad-spectrum coverage of all three groups",
+        "Empiric regimens often include a beta-lactam/beta-lactamase inhibitor combination or carbapenem plus metronidazole"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q012",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 7-year-old girl was hospitalized for severe dehydration. She recently traveled with her mother to the Caribbean for a 1-week vacation. Within a few days of her return, she became febrile and had episodes of cramping diarrhea. Her abdominal distress worsened to the point that she now had little desire to eat or drink. Microscopic examination of fresh stool revealed abundant fecal leukocytes. Which of the following diagnoses is most consistent with her clinical presentation?",
+      "choices": [
+        "Adenovirus gastroenteritis",
+        "Campylobacter enterocolitis",
+        "Cholera",
+        "Giardiasis",
+        "Rotavirus gastroenteritis"
+      ],
+      "answer": 1,
+      "explanation": "The presence of fecal leukocytes is a critical clue indicating inflammatory (invasive) diarrhea. Among the choices, only Campylobacter is an invasive pathogen that causes inflammatory colitis. Campylobacter is a common cause of traveler's diarrhea and is also endemic in the United States. Most cases are self-limiting. Adenovirus, rotavirus, and cholera cause non-inflammatory, non-bloody diarrhea without fecal leukocytes. Giardia causes watery, foul-smelling diarrhea also without significant fecal leukocytes.",
+      "keypoints": [
+        "\u2b50 Fecal leukocytes indicate invasive/inflammatory diarrhea \u2014 points to Campylobacter, Shigella, Salmonella, or invasive E. coli",
+        "\u2b50 Campylobacter is an important cause of traveler's diarrhea and febrile, cramping enterocolitis",
+        "Non-inflammatory diarrhea (no fecal leukocytes) is caused by viruses (rotavirus, adenovirus, norovirus), Giardia, and Vibrio cholerae"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q016",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 43-year-old man presents with fever of 104\u00b0F, progressively worsening headache, diffuse abdominal pain, constipation, anorexia, and malaise of 5 days duration. Physical exam revealed hepatosplenomegaly, but no icterus. A rash, described as rose spots, was seen on the trunk. His history is significant for having returned from a mission trip to Haiti 1 week ago. What is the most likely microbial cause of this man's condition?",
+      "choices": [
+        "Entamoeba histolytica",
+        "Giardia lamblia",
+        "Hepatitis A virus",
+        "Salmonella typhi",
+        "Vibrio cholerae"
+      ],
+      "answer": 3,
+      "explanation": "This is a classic presentation of typhoid fever caused by Salmonella typhi. The high fever, rose spots (which are bacterial emboli appearing as faint salmon-colored macules on the trunk), hepatosplenomegaly, constipation, and travel to an endemic area are hallmarks. Rose spots are pathognomonic when detected. Entamoeba presents with bloody diarrhea. Giardia causes watery, foul-smelling diarrhea. Hepatitis A causes abdominal pain and jaundice. Vibrio cholerae causes profuse watery 'rice-water' stools.",
+      "keypoints": [
+        "\u2b50 Rose spots (salmon-colored macules on trunk) + hepatosplenomegaly + high fever + travel to endemic area = typhoid fever (Salmonella typhi)",
+        "\u2b50 Typhoid classically causes constipation (not diarrhea) in early stages due to Peyer patch involvement",
+        "Treatment is fluoroquinolone or third-generation cephalosporin; vaccine available for travelers"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q017",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Treatment",
+      "stem": "A 67-year-old hospitalized woman was treated for 7 days with clindamycin and cefuroxime for a postsurgical infection when she developed profuse, watery diarrhea, cramping abdominal pain, and fever. An enzyme immunoassay of the stool revealed the presence of a bacterial enterotoxin. How should this woman be treated?",
+      "choices": [
+        "Continue clindamycin and cefuroxime",
+        "Amoxicillin plus clavulanate",
+        "Ceftriaxone",
+        "Ciprofloxacin",
+        "Metronidazole"
+      ],
+      "answer": 4,
+      "explanation": "This is antibiotic-associated colitis caused by Clostridium difficile, a classic nosocomial infection. Clindamycin and cephalosporins are among the most common precipitants of C. difficile overgrowth. The EIA detecting a bacterial enterotoxin (toxin A or B) confirms the diagnosis. The offending antibiotics should be stopped. Metronidazole is the first-line treatment for mild-to-moderate C. difficile colitis; oral vancomycin is used for severe cases. Continuing the precipitating antibiotics would worsen the condition.",
+      "keypoints": [
+        "\u2b50 C. difficile colitis is the classic nosocomial diarrhea following clindamycin or cephalosporin therapy",
+        "\u2b50 Diagnosis by EIA for toxins A/B; treatment is metronidazole (mild-moderate) or oral vancomycin (severe)",
+        "C. difficile toxin A (enterotoxin) disrupts tight junctions; toxin B (cytotoxin) depolymerizes actin cytoskeleton"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q018",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Pathophysiology",
+      "stem": "Which virulence factor of the etiologic agent in the above case contributes to its ability to cause nosocomial infections?",
+      "choices": [
+        "Intracellular growth",
+        "Lipopolysaccharide",
+        "Shiga toxin production",
+        "Spore formation",
+        "Type III secretion system"
+      ],
+      "answer": 3,
+      "explanation": "Clostridium difficile is an anaerobic, spore-forming Gram-positive rod. Spores are highly resistant to environmental conditions including most standard hospital disinfectants and hand sanitizers. They persistently contaminate hospital surfaces and equipment, enabling nosocomial spread among patients receiving antibiotics. C. difficile does not grow intracellularly, lacks LPS (it is Gram-positive), does not produce Shiga toxin, and does not use a type III secretion system. Spore formation is the key virulence feature enabling nosocomial persistence.",
+      "keypoints": [
+        "\u2b50 C. difficile spores resist standard hospital disinfectants; chlorine-containing solutions are required for environmental decontamination",
+        "\u2b50 Spore formation allows C. difficile to persist on environmental surfaces for months, causing nosocomial spread",
+        "C. difficile is Gram-positive (no LPS) and does not grow intracellularly; its toxins (A and B) are its pathogenic virulence factors"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q022",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 57-year-old man complains of worsening abdominal pain for the past 2 months, which he describes as heartburn. He notes that the pain improves temporarily with food, or by taking antacids. Definitive diagnosis includes serology to detect antibodies to which organism?",
+      "choices": [
+        "Adenovirus",
+        "Cryptosporidium parvum",
+        "Enteroaggregative Escherichia coli",
+        "Helicobacter pylori",
+        "Proteus vulgaris"
+      ],
+      "answer": 3,
+      "explanation": "The clinical presentation is consistent with peptic ulcer disease (PUD), which is most commonly caused by Helicobacter pylori. Pain that improves with food and antacids is characteristic of duodenal ulcers. H. pylori serology (detecting anti-H. pylori IgG) is a highly sensitive and specific non-invasive diagnostic tool. None of the other organisms listed are associated with peptic ulcer disease. Adenovirus causes respiratory disease or diarrhea; C. parvum causes diarrhea in immunocompromised hosts; Proteus vulgaris causes UTIs.",
+      "keypoints": [
+        "\u2b50 H. pylori is the most common cause of peptic ulcer disease; pain relieved by food/antacids suggests duodenal ulcer",
+        "\u2b50 H. pylori serology (anti-IgG EIA) is highly sensitive and specific for diagnosis",
+        "Other diagnostic options include urea breath test, stool antigen test, and biopsy with rapid urease test (invasive)"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q023",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Treatment",
+      "stem": "What treatment regimen is recommended for the man in the above case (peptic ulcer disease caused by Helicobacter pylori)?",
+      "choices": [
+        "Bismuth and ampicillin",
+        "Metronidazole",
+        "Proton pump inhibitors",
+        "Proton pump inhibitor plus amoxicillin and clarithromycin",
+        "Tetracycline plus metronidazole"
+      ],
+      "answer": 3,
+      "explanation": "Triple therapy is the first-line treatment for H. pylori-associated peptic ulcer disease. The standard regimen is a proton pump inhibitor (PPI) plus two antibiotics \u2014 clarithromycin and amoxicillin (or metronidazole if penicillin-allergic). The PPI reduces gastric acid, optimizing antibiotic efficacy and promoting ulcer healing. Monotherapy with metronidazole or PPIs alone is insufficient for eradication. Bismuth-containing quadruple therapy is used as second-line.",
+      "keypoints": [
+        "\u2b50 H. pylori first-line treatment: PPI + clarithromycin + amoxicillin (triple therapy) for 10\u201314 days",
+        "\u2b50 Dual antibiotic coverage is necessary to prevent resistance and achieve eradication",
+        "Second-line (bismuth quadruple) therapy: bismuth + metronidazole + tetracycline + PPI"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q024",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "How is successful treatment of H. pylori peptic ulcer disease best determined?",
+      "choices": [
+        "Resolution of symptoms",
+        "Endoscopy",
+        "Urea breath test",
+        "Hemoccult test",
+        "Stool culture"
+      ],
+      "answer": 2,
+      "explanation": "The urea breath test (UBT) is the most sensitive and specific non-invasive method for confirming H. pylori eradication after treatment. The patient ingests labeled urea, and H. pylori urease (if present) breaks it down; labeled CO\u2082 is then detected in the breath. Resolution of symptoms is unreliable because symptoms can persist or recur without active infection. Endoscopy is invasive and expensive. The hemoccult test detects blood, not H. pylori. Stool antigen testing is a valid alternative to UBT but stool culture is not routinely used.",
+      "keypoints": [
+        "\u2b50 Urea breath test (UBT) is the most sensitive method to confirm H. pylori eradication post-treatment",
+        "\u2b50 Testing should be done \u22654 weeks after completing antibiotics and \u22652 weeks after stopping PPIs",
+        "Stool antigen test is an alternative non-invasive test for eradication confirmation"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q026",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Multisystem",
+      "contentType": "Treatment",
+      "stem": "A 67-year-old hemodialysis patient with a history of frequent hospitalizations presents with a fever and signs of severe sepsis. Her history is significant for treatment of Clostridium difficile colitis 3 months previously. Enterococcus faecium was isolated from the blood. Which antibiotic would most likely be effective in this patient?",
+      "choices": [
+        "Ampicillin",
+        "Gentamicin",
+        "Linezolid",
+        "TMP\u2013SMZ",
+        "Vancomycin"
+      ],
+      "answer": 2,
+      "explanation": "E. faecium is inherently resistant to a broad range of antibiotics. Prior oral vancomycin therapy for C. difficile colitis can induce vancomycin resistance in enterococci (VRE), making vancomycin ineffective. Ampicillin resistance in E. faecium is common due to altered penicillin-binding proteins or beta-lactamases. Aminoglycosides (gentamicin) and TMP-SMZ have limited efficacy in vivo. Linezolid (an oxazolidinone) and quinupristin/dalfopristin are the drugs of choice for vancomycin-resistant E. faecium infections.",
+      "keypoints": [
+        "\u2b50 Vancomycin-resistant Enterococcus faecium (VRE) is treated with linezolid or quinupristin/dalfopristin",
+        "\u2b50 Prior oral vancomycin use (e.g., for C. diff) can select for VRE \u2014 a key risk factor",
+        "E. faecium is intrinsically more resistant than E. faecalis; hemodialysis patients are high-risk for VRE bacteremia"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q061",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Treatment",
+      "stem": "The Atlanta health department investigates an outbreak of watery, nonbloody diarrhea which occurred in a day care center and affected 25 children 8 to 24 months of age and 3 adult day care providers. The organism shown in the image is found in the stool samples from most of the affected individuals. What is the appropriate treatment?",
+      "choices": [
+        "Amoxicillin",
+        "Amoxicillin\u2013clavulanate",
+        "Erythromycin",
+        "Metronidazole",
+        "Trimethoprim\u2013sulfamethoxazole"
+      ],
+      "answer": 3,
+      "image": "/images/infect_ch5/lippincott micro ch5 q061.png",
+      "imageAlt": "Microscopic image showing Giardia lamblia trophozoites in stool",
+      "imageCaption": "Stool specimen showing Giardia lamblia trophozoites with characteristic pear-shaped morphology and visible internal structures (nuclei and median bodies)",
+      "explanation": "The image shows Giardia lamblia trophozoites \u2014 pear-shaped flagellated protozoa with two nuclei and a distinctive \"face-like\" appearance. Giardia is a common cause of watery, non-bloody diarrhea outbreaks in day care settings, where fecal-oral transmission is facilitated by close contact and poor hand hygiene. The drug of choice is metronidazole. Alternatives include tinidazole, furazolidone, and quinacrine. Antibiotics (amoxicillin, erythromycin, TMP-SMZ) are ineffective against protozoa.",
+      "keypoints": [
+        "\u2b50 Giardia lamblia is the most common cause of protozoal diarrhea in the United States, and a frequent cause of day care outbreaks",
+        "\u2b50 Treatment of choice: metronidazole (alternatives: tinidazole or nitazoxanide)",
+        "Giardia trophozoites have a pear shape with 2 nuclei and 4 pairs of flagella; cysts (infectious form) have 4 nuclei"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q067",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 6-month-old child presents to the emergency department in January with a severe bout of watery, nonbloody diarrhea without dehydration. What is the most likely cause and treatment?",
+      "choices": [
+        "Escherichia coli K1/trimethoprim\u2013sulfamethoxazole",
+        "Enteroinvasive E. coli/ampicillin",
+        "Giardia lamblia/metronidazole",
+        "Rotavirus/oral rehydration therapy",
+        "Shigella dysenteriae/ampicillin"
+      ],
+      "answer": 3,
+      "explanation": "Rotavirus is the most common cause of severe watery, nonbloody diarrhea in infants and young children worldwide. Infections peak in winter months (November\u2013April in the United States), fitting this January presentation. Rotavirus infects small intestinal enterocytes and causes an estimated 55,000\u201370,000 hospitalizations per year in the US among children under 5. Treatment is supportive: oral rehydration therapy (ORT) is the mainstay. E. coli K1 causes UTIs; enteroinvasive E. coli and Shigella cause bloody, inflammatory diarrhea; Giardia causes more prolonged, non-acute diarrhea in older children.",
+      "keypoints": [
+        "\u2b50 Rotavirus is the #1 cause of severe watery diarrhea in infants; peaks in winter months",
+        "\u2b50 Treatment is supportive: oral rehydration therapy (ORT); no specific antiviral therapy",
+        "Rotavirus vaccines (RotaTeq, Rotarix) have dramatically reduced hospitalizations since their introduction"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q068",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Prevention",
+      "stem": "How could rotavirus infection in infants best be avoided?",
+      "choices": [
+        "Avoidance of crowded conditions such as day care",
+        "Breast feeding",
+        "Cleaning environmental surfaces with chlorine-containing disinfectants",
+        "Hand washing",
+        "Vaccination"
+      ],
+      "answer": 4,
+      "explanation": "Vaccination is the most effective prevention strategy for rotavirus. Rotavirus is transmitted by fecal-oral route and is extremely stable in the environment, even surviving some heating and chlorine exposure. While breastfeeding, hand washing, and environmental disinfection all reduce risk, vaccination provides the highest level of protection. Two live oral vaccines are FDA-approved: RotaTeq (3-dose series at 2, 4, and 6 months) and Rotarix (2-dose series starting at 6 weeks). Since vaccine introduction, hospitalizations for rotavirus in the US have declined by over 80%.",
+      "keypoints": [
+        "\u2b50 Rotavirus vaccination (RotaTeq or Rotarix) is the most effective prevention \u2014 >80% reduction in hospitalizations post-introduction",
+        "\u2b50 Rotavirus is resistant to chlorine and environmental disinfectants, making non-vaccine interventions insufficient alone",
+        "Both rotavirus vaccines are live attenuated oral vaccines administered in early infancy"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q070",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Multisystem",
+      "contentType": "Diagnosis",
+      "stem": "A 54-year-old neutropenic man undergoing cancer chemotherapy presents with difficult and painful swallowing. Endoscopy of the esophagus reveals multiple raised 2 mm diameter white plaques with no ulceration. Which organism is the most likely cause?",
+      "choices": [
+        "Candida albicans",
+        "Cytomegalovirus",
+        "Enterovirus",
+        "Helicobacter pylori",
+        "Herpes simplex virus"
+      ],
+      "answer": 0,
+      "explanation": "This is a classic presentation of Candida esophagitis. Candida albicans is the most common infectious cause of esophagitis and is especially prevalent in neutropenic cancer patients and AIDS patients, where phagocyte-mediated immunity is impaired. The white plaques without ulceration on endoscopy are characteristic. CMV and HSV can also cause esophagitis but typically produce ulcerations rather than plaques. H. pylori causes gastric/duodenal ulcers, not esophagitis. Enteroviruses do not cause esophagitis.",
+      "keypoints": [
+        "\u2b50 White esophageal plaques without ulceration in a neutropenic patient = Candida esophagitis",
+        "\u2b50 Candida is the most common infectious cause of esophagitis; treated with fluconazole (mild) or echinocandin (severe)",
+        "CMV and HSV esophagitis cause ulcerations (not plaques); seen in severely immunocompromised patients"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q080",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "A 43-year-old man presents with an acute onset of diarrhea, upper right quadrant abdominal pain, and fatigue. Physical exam reveals hepatomegaly, yellow sclera, and dark urine. About 1 month ago, he returned from the Gulf coast of Texas where he had consumed raw oysters. What is the most likely microbial etiology of this man's disease?",
+      "choices": [
+        "Diphyllobothrium latum",
+        "Hepatitis A virus",
+        "Vibrio cholerae",
+        "Yellow fever virus",
+        "Yersinia enterocolitica"
+      ],
+      "answer": 1,
+      "explanation": "This is a classic presentation of hepatitis A virus (HAV) infection. HAV is an enterovirus transmitted by fecal-oral route and is highly stable in the environment. Outbreaks have been repeatedly linked to raw shellfish (especially oysters) from the Gulf of Mexico, where shellfish filter and concentrate the virus from sewage-contaminated water. The incubation period is approximately 4 weeks, consistent with this timeline. Clinical features include jaundice (yellow sclera), dark urine (bilirubinuria), hepatomegaly, and fatigue. D. latum is a fish tapeworm; V. cholerae causes watery diarrhea without hepatitis; Yellow fever virus requires mosquito transmission; Yersinia causes bloody diarrhea.",
+      "keypoints": [
+        "\u2b50 Raw shellfish (oysters) from Gulf of Mexico + jaundice + ~4-week incubation = Hepatitis A virus",
+        "\u2b50 HAV is an enterovirus (fecal-oral), highly environmentally stable; no chronic infection occurs",
+        "HAV vaccine (Havrix, Vaqta) provides long-term immunity; recommended for travelers to endemic areas"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q087",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "An outbreak of a gastrointestinal illness occurs on a cruise ship. The affected passengers experienced 36 hours of vomiting and watery diarrhea. The ship returns early from the cruise, is cleaned thoroughly with chlorine-containing products, and reboarded with new passengers. Despite the cleaning efforts, the second group of passengers endures a similar outbreak. What is the most likely microbial etiology of these outbreaks?",
+      "choices": [
+        "Cryptosporidium parvum",
+        "Enterotoxigenic Escherichia coli",
+        "Giardia lamblia",
+        "Norovirus",
+        "Shigella sonnei"
+      ],
+      "answer": 3,
+      "explanation": "Norovirus (formerly Norwalk virus) is the classic cause of cruise ship gastroenteritis outbreaks. It is highly contagious (low infectious dose), transmitted fecal-orally and by contact with contaminated surfaces. Crucially, norovirus is highly resistant to chlorine disinfection \u2014 a hallmark feature explaining why the second group of passengers was affected despite thorough cleaning with chlorine-containing products. The 36-hour self-limiting illness of vomiting and watery diarrhea is also characteristic. Norovirus can even survive in cooked shellfish and on environmental surfaces for prolonged periods.",
+      "keypoints": [
+        "\u2b50 Norovirus = classic cause of cruise ship/institutional gastroenteritis; self-limiting 24\u201372 hour illness",
+        "\u2b50 Norovirus is highly resistant to chlorine disinfection \u2014 distinguishes it from most other GI pathogens",
+        "Low infectious dose (<18 viral particles) makes norovirus extremely contagious in closed environments"
+      ]
+    },
+    {
+      "id": "lipp-micro-ch5-q089",
+      "tag": "micro",
+      "examLevel": "step1",
+      "system": "Gastrointestinal",
+      "contentType": "Diagnosis",
+      "stem": "An outbreak of food poisoning occurs after a catered lunch attended by 112 people. Thirty percent of the individuals who ate the lunch developed nausea and vomiting 3 hours after consumption of the food. A health department investigation linked the outbreak to contamination of chicken fried rice with a spore-forming organism. What is the cause of this outbreak?",
+      "choices": [
+        "Bacillus cereus",
+        "Clostridium perfringens",
+        "Cryptosporidium parvum",
+        "Staphylococcus aureus",
+        "Sporothrix schenckii"
+      ],
+      "answer": 0,
+      "explanation": "Bacillus cereus is a spore-forming organism classically associated with food poisoning from fried rice and other starchy foods. Spores survive initial cooking and germinate when food is improperly stored, producing two distinct toxins: a heat-stable emetic toxin (causing vomiting within 1\u20136 hours, as in this case) and a heat-labile diarrheal enterotoxin (causing diarrhea at 8\u201316 hours). The 3-hour incubation with predominant vomiting confirms the emetic form. C. perfringens also causes food poisoning with spore-forming bacilli but causes diarrhea (not vomiting) at 8\u201324 hours. S. aureus enterotoxin also causes rapid-onset vomiting but is not spore-forming. C. parvum and Sporothrix are not food poisoning agents.",
+      "keypoints": [
+        "\u2b50 Bacillus cereus emetic syndrome: fried rice + vomiting within 1\u20136 hours; caused by heat-stable toxin",
+        "\u2b50 B. cereus is a spore-former \u2014 spores survive cooking; germinate and produce toxin in improperly stored food",
+        "B. cereus diarrheal syndrome (heat-labile toxin) = 8\u201316 hour onset watery diarrhea, similar to C. perfringens"
+      ]
+    }
+  ]
+}

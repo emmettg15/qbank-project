@@ -1,68 +1,68 @@
 {
   "config": {
     "title": "Lippincott Micro Ch2 - Virology (JeffMD GI relevant)",
-    "subtitle": "Lippincott's Illustrated Q&A Review of Microbiology & Immunology",
+    "subtitle": "Virology questions sourced from Lippincott's Illustrated Q&A Review of Microbiology & Immunology",
     "passingFraction": 0.75,
     "tags": {
-      "micro_virology": {
-        "label": "Virology"
+      "micro": {
+        "label": "Microbiology"
       }
     }
   },
   "questions": [
     {
-      "id": "q001",
-      "tag": "micro_virology",
+      "id": "lipp-micro-ch2-q001",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Virology",
-      "contentType": "Microbiology",
-      "stem": "An outbreak of Calicivirus occurs in a home for disa- bled adults. What is an important characteristic of this  virus group that infl uences the occurrence of disease  outbreaks and their control and prevention?",
+      "system": "GI/Nutrition",
+      "contentType": "recall",
+      "stem": "An outbreak of Calicivirus occurs in a home for disabled adults. What is an important characteristic of this virus group that influences the occurrence of disease outbreaks and their control and prevention?",
       "choices": [
-        "Long-term immunity after infection or  vaccination",
+        "Long-term immunity after infection or vaccination",
         "Low infectious dose required for infection",
-        "Susceptibility of the virus to chlorine cleaning  agents",
+        "Susceptibility of the virus to chlorine cleaning agents",
         "Susceptibility of the virus to desiccation",
-        "Transmission by inhalation of aerosolized virus  particles"
+        "Transmission by inhalation of aerosolized virus particles"
       ],
       "answer": 1,
-      "explanation": "Low infectious dose required for infec- tion. The human Calicivirus, better known as  Norwalk virus, is an important cause of viral gas- troenteritis, tends to occur in outbreak fashion, and  can cause infection with as few as 10 virus particles.  Caliciviruses are nonenveloped viruses and are thus  more resistant to environmental conditions than are  viruses surrounded by a lipid envelope. Caliciviruses  are resistant to desiccation and to levels of chlorine as  high as 10 ppm. Immunity is short-lived and there is  no vaccine. Outbreaks of Norwalk virus are associated  most commonly with ingestion of contaminated food.  Person-to-person transmission through a fecal-oral  route or infection via contaminated fomites also leads  to outbreaks. The virus can become aerosolized from  fecal material or vomitus, and infection can occur fol- lowing such exposure, but this route of transmission  is not common.",
+      "explanation": "The answer is B: Low infectious dose required for infection. The human Calicivirus, better known as Norwalk virus, is an important cause of viral gastroenteritis, tends to occur in outbreak fashion, and can cause infection with as few as 10 virus particles. Caliciviruses are nonenveloped viruses and are thus more resistant to environmental conditions than enveloped viruses. Caliciviruses are resistant to desiccation and to chlorine levels as high as 10 ppm \u2014 making environmental decontamination difficult. Immunity is short-lived and there is no vaccine. Outbreaks are associated most commonly with contaminated food. Person-to-person transmission via fecal\u2013oral route or contaminated fomites also leads to outbreaks. The virus can become aerosolized from fecal material or vomitus, and infection can occur following such exposure, but this route is not common.",
       "keypoints": [
-        "⭐ Norovirus (Calicivirus): extremely low infectious dose (~10-18 virions); most common cause of epidemic acute viral gastroenteritis worldwide",
-        "⭐ Norovirus: non-enveloped ssRNA; resistant to desiccation AND chlorine bleach; short-lived immunity; no vaccine available",
-        "Transmission: fecal-oral (contaminated food/water), aerosolized vomitus, fomites; outbreaks in closed settings (cruise ships, nursing homes)",
-        "Treatment: supportive ORS; bleach-based surface cleaning; soap and water handwashing (alcohol gel less effective against non-enveloped virus)"
+        "\u2b50 Norovirus (Calicivirus) requires as few as 10 particles to cause infection \u2014 one of the lowest infectious doses of any pathogen",
+        "\u2b50 Nonenveloped viruses (Norovirus, HAV, Poliovirus) resist chlorine, detergents, and desiccation \u2014 highly stable in the environment",
+        "\u2b50 Immunity to Norovirus is short-lived and strain-specific; no vaccine available \u2014 explains repeated outbreaks in closed settings",
+        "Primary route: fecal\u2013oral via contaminated food (shellfish, salads); aerosolized vomitus is a secondary route; classic outbreak settings: cruise ships, nursing homes, schools"
       ]
     },
     {
-      "id": "q021",
-      "tag": "micro_virology",
+      "id": "lipp-micro-ch2-q021",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Virology",
-      "contentType": "Microbiology",
-      "stem": "A number of antivirals are termed nucleoside analogs.  Which one of the following best describes the mode of  action of nucleoside analogs?",
+      "system": "Multisystem",
+      "contentType": "mechanism",
+      "stem": "A number of antivirals are termed nucleoside analogs. Which one of the following best describes the mode of action of nucleoside analogs?",
       "choices": [
-        "Insert within the helix of DNA to prevent viral  replication",
-        "Bind to ribosomes and prevent anticodon-codon  interactions thereby inhibiting protein synthesis",
-        "Substitute for nucleosides resulting in  replication termination (chain termination).",
-        "Bind directly to DNA polymerase binding sites  on viral genome to prevent viral replication",
-        "Bind directly to RNA polymerase binding sites  on viral genome to prevent expression of viral  gene products"
+        "Insert within the helix of DNA to prevent viral replication",
+        "Bind to ribosomes and prevent anticodon\u2013codon interactions thereby inhibiting protein synthesis",
+        "Substitute for nucleosides resulting in replication termination (chain termination)",
+        "Bind directly to DNA polymerase binding sites on viral genome to prevent viral replication",
+        "Bind directly to RNA polymerase binding sites on viral genome to prevent expression of viral gene products"
       ],
       "answer": 2,
-      "explanation": "Substitute for nucleosides resulting in rep- lication termination (chain termination). Nucleoside  analogs are structures that mimic natural nucleosides  used in the elongation of DNA during replication.  These analogs have altered structures at points where  phosphodiester bonds are to form between nucle- osides in the growing DNA chain. Without the proper  structure, chain elongation is terminated. Nucleoside  analogs do not insert into the DNA helix; these agents  are called intercalating agents (choice A). Some anti- microbial agents, such as tetracycline, bind to com- ponents of ribosomes and prevent protein synthesis  (choice B). There is no binding of analogs to DNA or  RNA polymerase recognition sites in the viral genome  (choices D and E).",
+      "explanation": "The answer is C: Substitute for nucleosides resulting in replication termination (chain termination). Nucleoside analogs are structures that mimic natural nucleosides used in the elongation of DNA during replication. These analogs have altered structures at points where phosphodiester bonds are to form between nucleosides in the growing DNA chain. Without the proper structure, chain elongation is terminated. Nucleoside analogs do not insert into the DNA helix (those are called intercalating agents). Some antimicrobial agents such as tetracycline bind to ribosomes and prevent protein synthesis, but this is not the mechanism of nucleoside analogs. There is no binding of nucleoside analogs to DNA or RNA polymerase recognition sites in the viral genome.",
       "keypoints": [
-        "⭐ Nucleoside analog antivirals (e.g., acyclovir, ganciclovir, AZT, lamivudine): mimic natural nucleosides → incorporated into viral DNA → chain termination",
-        "⭐ Chain termination: nucleoside analogs lack the 3'-OH group needed to extend DNA chain → viral replication stops after incorporation",
-        "Examples: acyclovir (herpes), ganciclovir (CMV), lamivudine (HBV/HIV), zidovudine/AZT (HIV), ribavirin (HCV/RSV, nucleoside analog)",
-        "Selectivity: viral kinases (e.g., HSV thymidine kinase, CMV UL97) phosphorylate the drug first → selective toxicity for virus-infected cells"
+        "\u2b50 Nucleoside analogs (acyclovir, zidovudine, lamivudine, tenofovir) act as chain terminators \u2014 they lack the 3'-OH group needed to extend the DNA chain",
+        "\u2b50 Key requirement: most nucleoside analogs must be phosphorylated (activated) by viral or cellular kinases before they are incorporated into the growing chain",
+        "\u2b50 Acyclovir is selectively phosphorylated by HSV thymidine kinase \u2192 incorporated by viral DNA polymerase \u2192 chain termination; minimal toxicity to host cells",
+        "Distinguish: nucleoside analogs (chain termination) vs. non-nucleoside RT inhibitors (allosteric binding to polymerase) vs. protease inhibitors (block polyprotein cleavage)"
       ]
     },
     {
-      "id": "q022",
-      "tag": "micro_virology",
+      "id": "lipp-micro-ch2-q022",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Virology",
-      "contentType": "Microbiology",
-      "stem": "A 56-year-old Southeast Asian immigrant is diagnosed  with chronic hepatitis B virus infection. Considering  the epidemiology of this infection in endemic coun- tries, what is the most likely way that this man became  infected?",
+      "system": "GI/Nutrition",
+      "contentType": "epidemiology",
+      "stem": "A 56-year-old Southeast Asian immigrant is diagnosed with chronic hepatitis B virus infection. Considering the epidemiology of this infection in endemic countries, what is the most likely way that this man became infected?",
       "choices": [
         "Heterosexual sex",
         "Homosexual sex",
@@ -71,21 +71,21 @@
         "Perinatally"
       ],
       "answer": 4,
-      "explanation": "Perinatally. In general, developing  countries are places where HBV is endemic. This is  particularly true for Africa, Southeast Asia, and the  Indian subcontinent. In endemic countries, HBV  is most commonly transmitted from a chronically  infected mother to her newborn during birth. The  infant is exposed to virus present in vaginal secretions  and blood. HBV does not cross the placenta. Infection  of newborns most commonly leads to chronic infec- tion; whereas infection of adults (as typically occurs in  nonendemic countries) most commonly leads to acute  infection. Prevention of infection in infants born to  infected women includes administration of hepatitis  B immune globulin as well as the active, recombinant  vaccine. Infants begin the vaccination series against  HBV in the United States at the time of birth. The  other mechanisms of transmission listed occur more  commonly in developed countries in which HBV is  not endemic and infection occurs in adults.",
+      "explanation": "The answer is E: Perinatally. In developing countries \u2014 particularly Africa, Southeast Asia, and the Indian subcontinent \u2014 HBV is endemic and most commonly transmitted from a chronically infected mother to her newborn during birth. The infant is exposed to virus present in vaginal secretions and blood. HBV does not cross the placenta. Infection of newborns most commonly leads to chronic infection, whereas infection of adults (as occurs in nonendemic countries) most commonly leads to acute self-limited infection. Prevention includes administration of hepatitis B immune globulin (HBIg) and the active recombinant vaccine at birth. The other mechanisms of transmission (sexual, IV drug use, needlestick) occur more commonly in developed countries where HBV is not endemic and infection occurs in adults.",
       "keypoints": [
-        "⭐ HBV transmission in developing countries: predominantly perinatal (mother-to-child at birth); 90% chronicity rate with perinatal infection",
-        "⭐ Perinatal HBV: HBsAg+ mother transmits at delivery; infant should receive HBV vaccine + HBIG within 12 hours of birth",
-        "Perinatal vs adult HBV: perinatal → 90% chronic; adult → <5% chronic; immune tolerance in neonates explains high chronicity",
-        "HBV is most common in Africa and SE Asia; perinatal transmission accounts for most of the global chronic HBV burden"
+        "\u2b50 In endemic regions (SE Asia, sub-Saharan Africa), perinatal transmission (mother \u2192 neonate) is the dominant route \u2192 leads to chronic HBV in >90% of cases",
+        "\u2b50 Key principle: age at infection determines chronicity \u2014 neonates >90% chronic; young children ~30%; adults <5% chronic",
+        "\u2b50 HBV does not cross the placenta; transmission occurs at delivery (vaginal secretions, blood) or post-natally (breast milk rare)",
+        "Prevention: HBIg + recombinant HBV vaccine at birth for infants of HBsAg-positive mothers \u2014 highly effective (>95%)"
       ]
     },
     {
-      "id": "q024",
-      "tag": "micro_virology",
+      "id": "lipp-micro-ch2-q024",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Virology",
-      "contentType": "Microbiology",
-      "stem": "The other medication the patient was given acts by  inhibiting reverse transcriptase. Which antiviral med- ication, used for chronic HBV infections, works by  inhibiting this enzyme?",
+      "system": "GI/Nutrition",
+      "contentType": "pharmacology",
+      "stem": "A medication used for this patient acts by inhibiting reverse transcriptase. Which antiviral medication, used for chronic HBV infections, works by inhibiting this enzyme?",
       "choices": [
         "Acyclovir",
         "Amprenavir",
@@ -94,21 +94,21 @@
         "Lamivudine"
       ],
       "answer": 4,
-      "explanation": "Lamivudine. The replication cycle of  HBV includes the viral enzyme reverse transcriptase;  thus, inhibitors of this enzyme are being investi- gated as potential therapeutic agents. The currently  approved drugs that inhibit HBV reverse transcriptase  are: lamivudine, adefovir, entecavir, and telbivudine.  None of the other antiviral drugs listed are used for  HBV. Acyclovir is used to treat infections with herpes  simplex virus or varicella-zoster virus; fomivirsen and  ganciclovir are used to treat cytomegalovirus infec- tions; and amprenavir is a protease inhibitor used to  treat HIV.",
+      "explanation": "The answer is E: Lamivudine. The replication cycle of HBV includes the viral enzyme reverse transcriptase; thus, inhibitors of this enzyme are therapeutic agents. Currently approved drugs that inhibit HBV reverse transcriptase include lamivudine, adefovir, entecavir, and telbivudine. None of the other antivirals listed are used for HBV: acyclovir is used to treat HSV or VZV infections; fomivirsen and ganciclovir are used to treat CMV infections; and amprenavir is a protease inhibitor used to treat HIV.",
       "keypoints": [
-        "⭐ Lamivudine (3TC): nucleoside analog reverse transcriptase inhibitor (NRTI); used for both HIV and chronic HBV",
-        "⭐ HBV replication includes a reverse transcription step (pregenomic RNA → DNA via viral reverse transcriptase); therefore NRTIs are effective",
-        "Lamivudine resistance emerges in ~70% of HBV patients after 5 years (YMDD mutation); tenofovir and entecavir have superior resistance profiles",
-        "Lamivudine + zidovudine (dual NRTI backbone) is a classic HIV combination; now replaced by tenofovir/emtricitabine"
+        "\u2b50 HBV uses reverse transcriptase to replicate \u2014 its DNA genome is made via an RNA intermediate, making it susceptible to RT inhibitors",
+        "\u2b50 HBV reverse transcriptase inhibitors: lamivudine, adefovir, entecavir, telbivudine, tenofovir \u2014 all nucleoside/nucleotide analogs",
+        "\u2b50 Entecavir and tenofovir are first-line due to high potency and low resistance rates; lamivudine has high resistance rates with prolonged use",
+        "Pegylated IFN-\u03b1 is the other major HBV treatment (immune-mediated HCC reduction + finite course); combined with RT inhibitors in some regimens"
       ]
     },
     {
-      "id": "q026",
-      "tag": "micro_virology",
+      "id": "lipp-micro-ch2-q026",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Virology",
-      "contentType": "Microbiology",
-      "stem": "A 23-year-old woman presented with an insidious  onset of fever, fatigue, joint pain, nausea, anorexia, and  abdominal pain. Physical exam revealed hepatome- galy. A hepatitis panel revealed: HBsAg-positive Anti-HBsAg-negative Anti-HBcAg IgM-positive HBeAg-positive Anti-HAV IgG-positive   What is a correct interpretation of the hepatitis panel?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "A 23-year-old woman presented with an insidious onset of fever, fatigue, joint pain, nausea, anorexia, and abdominal pain. Physical exam revealed hepatomegaly. A hepatitis panel revealed: HBsAg-positive, Anti-HBsAg-negative, Anti-HBcAg IgM-positive, HBeAg-positive, Anti-HAV IgG-positive. What is a correct interpretation of the hepatitis panel?",
       "choices": [
         "Acute infection with HBV",
         "Chronic infection with HAV",
@@ -117,21 +117,21 @@
         "Vaccinated against HBV"
       ],
       "answer": 0,
-      "explanation": "Acute infection with HBV. The fi nd- ing of surface antigen and IgM to the core antigen  of  hepatitis B virus is consistent with acute infec- tion. Antibodies to the surface antigen are not found  in the presence of detectable surface antigen. The “e”  antigen of HBV may or may not be detected in acute  infections. The IgG to HAV indicates either a past infec- tion or vaccination.",
+      "explanation": "The answer is A: Acute infection with HBV. The finding of surface antigen (HBsAg) combined with IgM antibodies to the core antigen (anti-HBcAg IgM) is consistent with acute HBV infection. Antibodies to the surface antigen are not found in the presence of detectable surface antigen. The 'e' antigen (HBeAg) indicates active viral replication and may or may not be detected in acute infections. The presence of IgG to HAV indicates either a past HAV infection or prior vaccination against HAV \u2014 not a coinfection with active HAV. Vaccination against HBV produces only anti-HBsAg antibodies (no core antibody); chronic infection produces IgG (total) anti-HBcAg; recovery produces both anti-HBsAg and anti-HBcAg IgG.",
       "keypoints": [
-        "⭐ Acute HBV serology: HBsAg (+) + anti-HBc IgM (+) = ACUTE HBV infection (anti-HBc IgM is the hallmark of acute hepatitis B)",
-        "⭐ Window period: HBsAg may clear before anti-HBsAg appears; only anti-HBc IgM is detectable (window period serology)",
-        "Acute HBV: 4-6 week incubation; fatigue, jaundice, elevated ALT/AST; 95% resolve in adults; 5% progress to chronic",
-        "HBV serology memory: sAg = surface Ag (infection); sAb = surface Ab (immunity); cAb IgM = acute marker; eAg = high replication"
+        "\u2b50 Acute HBV = HBsAg+ + anti-HBcAg IgM+ (IgM is the key marker of acute infection); anti-HBsAg absent when HBsAg present",
+        "\u2b50 HBeAg = active viral replication and high infectivity; its clearance and appearance of anti-HBeAg = 'e' seroconversion",
+        "\u2b50 Window period: HBsAg cleared but anti-HBsAg not yet detectable \u2014 only anti-HBcAg IgM is positive",
+        "Anti-HAV IgG = past HAV infection OR vaccination; it has no bearing on current HBV status"
       ]
     },
     {
-      "id": "q027",
-      "tag": "micro_virology",
+      "id": "lipp-micro-ch2-q027",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Virology",
-      "contentType": "Microbiology",
-      "stem": "Considering the epidemiology of this disease in the  United States, what would the history of the above  patient most likely include?",
+      "system": "GI/Nutrition",
+      "contentType": "epidemiology",
+      "stem": "Considering the epidemiology of HBV infection in the United States, what would the history of the above patient (with acute HBV) most likely include?",
       "choices": [
         "Alcoholism",
         "Cocaine addiction",
@@ -140,21 +140,21 @@
         "Unprotected sex with multiple partners"
       ],
       "answer": 4,
-      "explanation": "Unprotected sex with multiple part- ners. Sexual activity is the most common mode of  transmission of HBV in the United States. Intravenous  drug abuse, while another important mode of trans- mission of HBV, is less common than sexual activity.  Donated blood is screened for the presence of HBV  and HCV as well as other bloodborne pathogens; thus,  transfusion-associated infections are rare in the United  States. While alcoholism and cocaine addiction can  lead to unprotected sex, they are not independent risk  factors for transmission.",
+      "explanation": "The answer is E: Unprotected sex with multiple partners. Sexual activity is the most common mode of transmission of HBV in the United States. Intravenous drug abuse, while another important mode of transmission, is less common than sexual activity. Donated blood is screened for the presence of HBV, HCV, and other bloodborne pathogens; thus, transfusion-associated infections are rare in the United States. While alcoholism and cocaine addiction can lead to risky sexual behavior, they are not independent risk factors for HBV transmission.",
       "keypoints": [
-        "⭐ HBV transmission in US: predominantly through unprotected sex with multiple partners (most common); also IV drug use and perinatal",
-        "⭐ HBV is 50-100x more infectious than HIV per needle stick; sexual transmission more efficient than HIV (survives on surfaces for weeks)",
-        "HBV vaccine: recombinant HBsAg; 3-dose series; 95% seroconversion; recommended for all infants and unvaccinated adults",
-        "Anti-HBs (from vaccine) develops without anti-HBc: marker of vaccination vs natural immunity (which produces both)"
+        "\u2b50 In the United States (non-endemic), sexual transmission is the most common route of HBV \u2014 contrast with endemic countries where perinatal transmission dominates",
+        "\u2b50 IV drug abuse is second most common in the US; blood transfusion risk is now very low due to universal screening",
+        "\u2b50 HBV is 50\u2013100\u00d7 more infectious than HIV; transmitted via blood, sexual contact, and perinatally",
+        "HBV vaccination is recommended for all infants, unvaccinated children/adolescents, healthcare workers, and high-risk adults"
       ]
     },
     {
-      "id": "q028",
-      "tag": "micro_virology",
+      "id": "lipp-micro-ch2-q028",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Virology",
-      "contentType": "Microbiology",
-      "stem": "The patient in the above question is seen 2 years later  for treatment of gonorrhea. Liver function tests reveal  elevated alanine transferase levels. A follow-up hepa- titis panel revealed: HBsAg-positive Anti-HBsAg-negative Anti-HBcAg IgM-negative Total anti-HBcAg-positive HBeAg-positive Anti-HBeAg-negative Anti-HAV IgG-positive   What is a correct interpretation of the hepatitis  panel?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "The patient with acute HBV is seen 2 years later for treatment of gonorrhea. Liver function tests reveal elevated alanine transferase levels. A follow-up hepatitis panel revealed: HBsAg-positive, Anti-HBsAg-negative, Anti-HBcAg IgM-negative, Total anti-HBcAg-positive, HBeAg-positive, Anti-HBeAg-negative, Anti-HAV IgG-positive. What is a correct interpretation of the hepatitis panel?",
       "choices": [
         "Acute infection with HBV",
         "Chronic infection with HBV",
@@ -163,67 +163,67 @@
         "Vaccination against HBV and HAV"
       ],
       "answer": 1,
-      "explanation": "Chronic infection with HBV. The fi nd- ing of surface antigen in the serum for over 6 months  is indicative of a chronic infection with HBV. By this  time, IgM to the core antigen would be replaced with  IgG antibodies (referred to as total anti-HBcAg). The  presence of the “e” antigen is indicative of a greater  degree of virus replication and higher transmissibil- ity. However, it may or may not be present in chronic  infections. The presence of IgG to HAV indicates a  past infection or vaccination.",
+      "explanation": "The answer is B: Chronic infection with HBV. The finding of surface antigen (HBsAg) in the serum for over 6 months is indicative of chronic HBV infection. By this time, IgM antibodies to the core antigen would be replaced with IgG antibodies (referred to as total anti-HBcAg). The presence of HBeAg is indicative of a greater degree of virus replication and higher transmissibility, though it may or may not be present in all chronic infections. The presence of IgG to HAV indicates a past infection or vaccination \u2014 unrelated to the current HBV status. Recovery from HBV would require anti-HBsAg antibodies, which are absent here.",
       "keypoints": [
-        "⭐ Chronic HBV: HBsAg remains positive for >6 months; anti-HBsAg remains negative (no immune clearance occurred)",
-        "⭐ HBsAg+ + anti-HBs- = active infection; HBsAg- + anti-HBs+ = either vaccination or resolved infection; add anti-HBc to distinguish",
-        "Chronic HBV complications: cirrhosis (10-20% over 20 years), hepatocellular carcinoma (annual ultrasound surveillance)",
-        "Treatment: entecavir or tenofovir (high barrier to resistance); goal is HBsAg clearance (rare) or HBeAg seroconversion"
+        "\u2b50 Chronic HBV = HBsAg persisting >6 months + total anti-HBcAg (IgG) + NO anti-HBsAg; IgM anti-HBcAg is absent (replaced by IgG)",
+        "\u2b50 HBeAg+ in chronic HBV = high replication phase ('e' antigen positive = highly infectious); seroconversion to anti-HBeAg = lower viral load",
+        "\u2b50 Summary mnemonic \u2014 4 HBV states: Acute (IgM core+, surface+), Chronic (total IgG core+, surface+, no surface Ab), Recovery (surface Ab + core IgG), Vaccinated (surface Ab ONLY, no core Ab)",
+        "Complications of chronic HBV: cirrhosis, hepatocellular carcinoma; HBsAg+ patients should be monitored with AFP and liver ultrasound every 6 months"
       ]
     },
     {
-      "id": "q041",
-      "tag": "micro_virology",
+      "id": "lipp-micro-ch2-q041",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Virology",
-      "contentType": "Microbiology",
-      "stem": "A 15-year-old boy presents to his family physician in  a small Georgia town with an acute onset of nausea,  vomiting, and abdominal pain. Hepatomegaly and  icteric sclera are noted on physical exam. Alanine  transferase and aspartate transferase levels are mark- edly elevated. Over the next 3 days, 10 more people  in the town seek medical attention with similar com- plaints. How is the most likely cause of this outbreak  defi nitively diagnosed?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "A 15-year-old boy presents to his family physician in a small Georgia town with an acute onset of nausea, vomiting, and abdominal pain. Hepatomegaly and icteric sclera are noted on physical exam. Alanine transferase and aspartate transferase levels are markedly elevated. Over the next 3 days, 10 more people in the town seek medical attention with similar complaints. How is the most likely cause of this outbreak definitively diagnosed?",
       "choices": [
         "Antigen detection in the stool",
         "Culture of organism on MacConkey agar",
-        "Demonstration of IgM antibodies against the  agent",
+        "Demonstration of IgM antibodies against the agent",
         "Ova and parasite exam",
         "Virus isolation from the blood"
       ],
       "answer": 2,
-      "explanation": "Demonstration of IgM antibodies against  the agent. The case describes an outbreak of an  infectious cause of acute hepatitis. The most com- mon infectious cause of acute hepatitis in the United  States is hepatitis A virus. This agent is diagnosed by  the demonstration of IgM antiviral antibodies in the  patient’s serum. Although virus is shed in the stool,  most viral shedding occurs prior to the onset of symp- toms. Thus, demonstration of virus in stool is not a  method of diagnosis. Hepatitis A virus is also not iso- lated from the blood. Bacteria and parasites are not  commonly associated with acute hepatitis outbreaks  in the United States.",
+      "explanation": "The answer is C: Demonstration of IgM antibodies against the agent. The case describes an outbreak of infectious acute hepatitis. The most common infectious cause of acute hepatitis outbreaks in the United States is hepatitis A virus (HAV). This agent is diagnosed by the demonstration of IgM antiviral antibodies in the patient's serum. Although HAV is shed in the stool, most viral shedding occurs prior to the onset of symptoms, so stool detection is not useful diagnostically at this stage. HAV is also not isolated from blood. Bacteria and parasites are not commonly associated with acute hepatitis outbreaks in the United States.",
       "keypoints": [
-        "⭐ IgM antibody = marker of ACUTE infection (acute hepatitis A confirmed by anti-HAV IgM); IgG = past infection or vaccination (lasting immunity)",
-        "⭐ HAV outbreak diagnosis: clinical (jaundice + elevated ALT) + serology (anti-HAV IgM); HAV PCR can confirm in outbreak setting",
-        "HAV: non-enveloped ssRNA picornavirus; fecal-oral transmission; 2-6 week incubation; self-limited; no chronic state",
-        "HAV outbreak settings: contaminated food/water; shellfish; daycares; international travel; hepatitis A vaccine is highly protective"
+        "\u2b50 HAV is the most common cause of acute hepatitis outbreaks in the United States; diagnosis = anti-HAV IgM (positive during acute illness)",
+        "\u2b50 HAV is transmitted fecal-orally (contaminated food/water); maximum viral shedding in stool occurs BEFORE symptom onset \u2014 explains rapid cluster outbreaks",
+        "\u2b50 Anti-HAV IgG (without IgM) = past infection or vaccination; HAV never causes chronic infection",
+        "HAV is an RNA picornavirus; no antiviral treatment exists; prevention via HAV vaccine (given at age 1 year + booster 6 months later)"
       ]
     },
     {
-      "id": "q044",
-      "tag": "micro_virology",
+      "id": "lipp-micro-ch2-q044",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Virology",
-      "contentType": "Microbiology",
-      "stem": "A 40-year-old woman in apparent good health is  found to have slightly elevated serum liver enzymes  during an insurance physical. Follow-up investiga- tions revealed antibodies to hepatitis C virus. What  test could be done to distinguish between current  infection and previous infection with full recovery?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "A 40-year-old woman in apparent good health is found to have slightly elevated serum liver enzymes during an insurance physical. Follow-up investigations revealed antibodies to hepatitis C virus. What test could be done to distinguish between current infection and previous infection with full recovery?",
       "choices": [
         "ELISA",
-        "Indirect fl uorescent antibody",
+        "Indirect fluorescent antibody",
         "Reverse transcriptase polymerase chain reaction",
         "Western blot",
-        "Viral culture Virology"
+        "Viral culture"
       ],
       "answer": 2,
-      "explanation": "Reverse transcriptase polymerase chain  reaction. Although the fi nding of elevated serum  liver enzymes in a patient with antibodies to hepatitis  C virus (HCV) is suffi cient to make a diagnosis of on- going infection, demonstration of the virus by reverse  transcriptase polymerase chain reaction (RT-PCR) does  confi rm active viral replication. In addition, a quan- titative RT-PCR should be done prior to treatment to  assess viral load. Culture of HCV is not possible at this  time due to a lack of susceptible cell lines. ELISA and  western blot were most likely used to determine her  positive serology. Indirect fl uorescent antibody tests  are not used in the diagnosis of HCV infection.",
+      "explanation": "The answer is C: Reverse transcriptase polymerase chain reaction. Although the finding of elevated serum liver enzymes in a patient with antibodies to hepatitis C virus (HCV) is sufficient to make a diagnosis of ongoing infection, demonstration of the virus by reverse transcriptase polymerase chain reaction (RT-PCR) confirms active viral replication. In addition, a quantitative RT-PCR should be done prior to treatment to assess viral load. Culture of HCV is not possible at this time due to a lack of susceptible cell lines. ELISA and western blot were most likely used to determine the positive serology \u2014 they detect antibodies that persist whether infection is active or resolved. Indirect fluorescent antibody tests are not used in the diagnosis of HCV infection.",
       "keypoints": [
-        "⭐ HCV is most efficiently diagnosed by serum HCV RNA PCR; anti-HCV antibody (ELISA) used for initial screening",
-        "⭐ Elevated LFTs in asymptomatic patient: screen with anti-HCV ELISA; if positive → confirm with HCV RNA PCR and check viral load",
-        "HCV RNA PCR detects active viremia even during the window period before antibody develops (acute HCV)",
-        "Treatment response: SVR (sustained virologic response = undetectable HCV RNA 12 weeks post-treatment) = cure; DAAs achieve >95% SVR"
+        "\u2b50 Anti-HCV antibodies persist long after infection clears \u2014 they cannot distinguish active from resolved infection",
+        "\u2b50 RT-PCR for HCV RNA is the gold standard to confirm active viremia and measure viral load",
+        "\u2b50 Diagnostic algorithm: ELISA screening \u2192 confirmed by RT-PCR (or RIBA); quantitative RT-PCR before treatment for baseline viral load",
+        "HCV has no cell culture system; ~15\u201325% of acutely infected individuals spontaneously clear the virus; the rest develop chronic infection"
       ]
     },
     {
-      "id": "q046",
-      "tag": "micro_virology",
+      "id": "lipp-micro-ch2-q046",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Virology",
-      "contentType": "Microbiology",
-      "stem": "Three years following diagnosis with hepatitis C virus,  liver biopsy from the above patient reveals suffi cient  damage to consider antiviral therapy. With which drug  combination should she be treated?",
+      "system": "GI/Nutrition",
+      "contentType": "pharmacology",
+      "stem": "Three years following diagnosis with hepatitis C virus, liver biopsy from the above patient reveals sufficient damage to consider antiviral therapy. With which drug combination should she be treated?",
       "choices": [
         "Adefovir plus lamivudine",
         "Amoxicillin plus sulbactam",
@@ -232,21 +232,21 @@
         "Trimethoprim plus sulfamethoxazole"
       ],
       "answer": 3,
-      "explanation": "Pegylated interferon and ribavi- rin. This combination of drugs is currently the  standard therapy for HCV-infected patients regardless  of genotype. In general, those patients with genotypes  2 or 3 are treated for 24 weeks whereas those patients  with genotype 1 are treated for 48 weeks.",
+      "explanation": "The answer is D: Pegylated interferon and ribavirin. This combination of drugs is the standard therapy for HCV-infected patients regardless of genotype. Patients with genotypes 2 or 3 are treated for 24 weeks whereas those with genotype 1 are treated for 48 weeks. Adefovir and lamivudine are used for hepatitis B virus. Lamivudine plus zidovudine are nucleoside RT inhibitors used for HIV. Amoxicillin plus sulbactam and TMP-SMZ are antibacterial combinations with no activity against HCV.",
       "keypoints": [
-        "⭐ Historic HCV treatment: pegylated interferon (pegIFN) + ribavirin; SVR ~50% for genotype 1; replaced by DAAs (direct-acting antivirals) with >95% SVR",
-        "⭐ Current HCV treatment: all-oral DAA regimens (NS5B inhibitor sofosbuvir + NS5A inhibitor ledipasvir etc.); 8-12 week courses",
-        "Ribavirin: guanosine analog; works via multiple mechanisms (immune modulation, error catastrophe); used as adjunct in some DAA regimens",
-        "Liver biopsy shows fibrosis stage: basis for treatment urgency; bridging fibrosis or cirrhosis requires treatment regardless of symptoms"
+        "\u2b50 Classic HCV treatment: pegylated interferon-\u03b1 + ribavirin \u2014 duration depends on genotype (genotype 1 = 48 wks, genotypes 2/3 = 24 wks)",
+        "\u2b50 Ribavirin mechanism: inhibits synthesis of GTP (guanosine triphosphate), reducing the nucleotide pool needed for viral RNA replication",
+        "\u2b50 Genotype 1 (most common in US) responds poorly to interferon/ribavirin (~50% SVR); genotypes 2/3 respond better (~80% SVR)",
+        "Modern context: Direct-acting antivirals (DAAs \u2014 NS5B inhibitors, NS3/4A protease inhibitors, NS5A inhibitors) have largely replaced interferon/ribavirin with >95% cure rates"
       ]
     },
     {
-      "id": "q048",
-      "tag": "micro_virology",
+      "id": "lipp-micro-ch2-q048",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Virology",
-      "contentType": "Microbiology",
-      "stem": "A fourth year medical student sustains a needlestick  from a patient being evaluated for jaundice. A hepati- tis panel is ordered on the student the same day and  fi nds: HBsAg-negative Anti-HBsAg-positive Anti-HBcAg IgM-negative Anti-HBcAg total negative Anti-HAV IgG-positive Anti-HCV-negative   What is a correct interpretation of the hepatitis  panel?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "A fourth year medical student sustains a needlestick from a patient being evaluated for jaundice. A hepatitis panel is ordered on the student the same day and finds: HBsAg-negative, Anti-HBsAg-positive, Anti-HBcAg IgM-negative, Anti-HBcAg total negative, Anti-HAV IgG-positive, Anti-HCV-negative. What is a correct interpretation of the hepatitis panel?",
       "choices": [
         "Acute infection with HAV",
         "Acute infection with HBV",
@@ -255,21 +255,21 @@
         "Vaccinated against HBV and HAV"
       ],
       "answer": 4,
-      "explanation": "Vaccinated against HBV and HAV.  Vaccines are available for both hepatitis A virus (HAV)  and hepatitis B virus (HBV). Vaccination of healthcare  workers against HBV is highly recommended if not  required. The presence of antibodies to HAV indicates  either vaccination or previous infection and is not  related to the needlestick injury. Vaccination against  HBV results in antibodies to the surface antigen, but  not to the core antigen of the virus. Conversely, acute  infection with HBV would be supported by the fi nding  of IgM antibodies to the core antigen. These antibodies  would not be demonstrable for weeks after exposure.  Chronic infection with HBV would be supported by  the fi nding of surface antigen as well as antibodies (IgG  or total) to the core antigen. Past infection with HBV  would be supported by the fi nding of antibodies (IgG)  to both the surface and the core antigens. The student  is not at risk for infection from HAV or HBV due to  the fact that he has IgG antibodies to both viruses. In  addition, it is highly unlikely that HAV would be in  the blood of the patient from whom the needlestick  occurred. HAV is generally not transmitted though  blood, but rather through fecal contamination of food  or water. Another possible infectious risk for the stu- dent is HCV, since the reason for the patient’s jaundice  has not been determined.",
+      "explanation": "The answer is E: Vaccinated against HBV and HAV. Vaccines are available for both hepatitis A virus (HAV) and hepatitis B virus (HBV), and vaccination of healthcare workers against HBV is required or strongly recommended. Vaccination against HBV results in antibodies to the surface antigen (anti-HBsAg) ONLY \u2014 no core antibody (anti-HBcAg) is produced because the recombinant vaccine contains only the surface antigen protein. Conversely, natural infection produces core antibodies (IgM initially, then IgG total). Acute infection would show anti-HBcAg IgM; chronic infection would show total anti-HBcAg (IgG). Past infection with HBV would show both anti-HBsAg AND anti-HBcAg (IgG). The presence of anti-HAV IgG indicates vaccination or prior HAV infection. The student is protected from both viruses.",
       "keypoints": [
-        "⭐ Needlestick from unknown patient: vaccinate against HBV (if not already vaccinated) and HAV (if not immune); consider HIV PEP",
-        "⭐ HBV vaccine: 3-dose series (0, 1, 6 months); elicits anti-HBs; >95% protective; if unvaccinated after exposure → HBIG + vaccine",
-        "HAV vaccine: 2-dose series; highly effective; recommended for healthcare workers with potential fecal-oral exposure",
-        "HIV post-exposure prophylaxis (PEP): within 72 hours of high-risk exposure; 28-day course of combined antiretrovirals"
+        "\u2b50 HBV vaccination \u2192 anti-HBsAg ONLY (no anti-HBcAg) \u2014 the recombinant vaccine contains only HBsAg protein",
+        "\u2b50 Natural HBV infection (recovery) \u2192 anti-HBsAg + anti-HBcAg IgG \u2014 core antibody distinguishes natural immunity from vaccine immunity",
+        "\u2b50 Summary: anti-HBsAg alone = vaccinated; anti-HBsAg + anti-HBcAg IgG = recovered; HBsAg + anti-HBcAg IgM = acute; HBsAg + anti-HBcAg IgG (total) = chronic",
+        "Healthcare workers should be tested for anti-HBsAg after completing the 3-dose vaccine series; non-responders (~5%) may need revaccination"
       ]
     },
     {
-      "id": "q056",
-      "tag": "micro_virology",
+      "id": "lipp-micro-ch2-q056",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Virology",
-      "contentType": "Microbiology",
-      "stem": "A 35-year-old male is diagnosed with acute hepatitis  due to hepatitis C virus. Based on the epidemiology of  this infection in the United States, how did this man  most likely become infected?",
+      "system": "GI/Nutrition",
+      "contentType": "epidemiology",
+      "stem": "A 35-year-old male is diagnosed with acute hepatitis due to hepatitis C virus. Based on the epidemiology of this infection in the United States, how did this man most likely become infected?",
       "choices": [
         "Intravenous drug abuse",
         "Needlestick injury",
@@ -278,12 +278,12 @@
         "Unprotected homosexual sex"
       ],
       "answer": 0,
-      "explanation": "Intravenous drug abuse. Epidemi- ological surveys of acute hepatitis indicate that intra- venous drug abuse is the most common mode of  transmission of hepatitis C virus (HCV) in the United  States. Of newly diagnosed cases in 2006, 54% were  attributed to intravenous drug use. Sexual transmis- sion of the virus is possible, particularly among persons  engaging in unprotected sex with multiple partners.  Persons involved in monogamous sexual relationships  do not appear to be at increased risk of infection when  one partner is infected. Transmission by needlestick  injury is uncommon. Transfusion associated infec- tions are rare since the development of sensitive tests  to screen donated blood.",
+      "explanation": "The answer is A: Intravenous drug abuse. Epidemiological surveys of acute hepatitis indicate that intravenous drug abuse is the most common mode of transmission of hepatitis C virus (HCV) in the United States. Of newly diagnosed cases, approximately 54% were attributed to intravenous drug use. Sexual transmission is possible, particularly among persons engaging in unprotected sex with multiple partners; however, persons in monogamous sexual relationships do not appear to be at increased risk when one partner is infected. Needlestick injury is an uncommon route. Transfusion-associated infections are now rare since the development of sensitive tests to screen donated blood.",
       "keypoints": [
-        "⭐ Acute hepatitis A: fecal-oral transmission; IV drug abuse is a major risk factor (shared needles contaminated with fecal matter)",
-        "⭐ Hepatitis A risk factors: travel to endemic areas, IV drug use, MSM, overcrowded conditions, contaminated food/water",
-        "HAV: no chronic carrier state; self-limited infection; anti-HAV IgM confirms acute; anti-HAV IgG = immunity (vaccine or natural)",
-        "HAV vaccine: 2-dose series; 99% protective; recommended for IVDU, travelers to endemic areas, liver disease patients, MSM"
+        "\u2b50 IV drug abuse is the #1 mode of HCV transmission in the United States (~54% of new cases)",
+        "\u2b50 Sexual transmission is possible with multiple partners but very low risk in monogamous relationships \u2014 contrasts with HBV (easily sexually transmitted)",
+        "\u2b50 Blood transfusion was the leading cause pre-1992 (before HCV screening); now very rare (<1:2 million units transfused)",
+        "HCV = major cause of chronic liver disease, cirrhosis, and hepatocellular carcinoma worldwide; no vaccine available; DAAs now provide >95% cure"
       ]
     }
   ]

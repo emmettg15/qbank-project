@@ -1,91 +1,91 @@
 {
   "config": {
     "title": "Lippincott Micro Ch1 - Bacteriology (JeffMD GI relevant)",
-    "subtitle": "High-yield Bacteriology for USMLE Step 1 \u2014 Lippincott's Illustrated Q&A Review of Microbiology & Immunology",
+    "subtitle": "Bacteriology questions sourced from Lippincott's Illustrated Q&A Review of Microbiology & Immunology",
     "passingFraction": 0.75,
     "tags": {
-      "micro_bacteriology": {
-        "label": "Bacteriology"
+      "micro": {
+        "label": "Microbiology"
       }
     }
   },
   "questions": [
     {
-      "id": "q018",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q018",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "Physicians and state epidemiologists investigate a  cluster of acute diarrheal cases in children who attend  a preschool in a small Midwestern town. The chil- dren presented with fever, acute episodes of bloody  diarrhea, and petechial rash or purpura. Two of the  children have scanty urine output and are showing  signs of renal failure. Fecal leukocytes and parasites  are absent in microscopic smears, and no obvious  pathogens are identifi ed using standard microbiologic  media. What is the most common infectious agent  consistent with this clinical picture?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "Physicians and state epidemiologists investigate a cluster of acute diarrheal cases in children who attend a preschool in a small Midwestern town. The children presented with fever, acute episodes of bloody diarrhea, and petechial rash or purpura. Two of the children have scanty urine output and are showing signs of renal failure. Fecal leukocytes and parasites are absent in microscopic smears, and no obvious pathogens are identified using standard microbiologic media. What is the most common infectious agent consistent with this clinical picture?",
       "choices": [
         "Bacillus cereus",
         "Enterohemorrhagic Escherichia coli (EHEC)",
         "Salmonella typhi",
-        "Shigella fl exneri",
+        "Shigella flexneri",
         "Yersinia enterocolitica"
       ],
       "answer": 1,
-      "explanation": "Enterohemorrhagic E. coli (EHEC). This   organism is associated with bloody diarrhea and  hemolytic uremic syndrome (HUS), which is affect- ing two of the children. HUS is primarily a disease  of infancy and early childhood caused by the produc- tion of a Shiga-like toxin that binds to and kills renal  endothelial cells. HUS presents as a triad of microan- giopathic hemolytic anemia and thrombocytopenia  and can lead to acute renal failure. Diarrhea caused by  E. coli O157:H7 is a precipitating factor and the use  of antimotility drugs may increase the risk. The clini- cal picture of HUS can suggest a GI bleed because the  stool may be grossly bloody. Urine output is reduced  or absent with renal failure; petechiae, purpura, and  fever are common fi ndings. Schistocytes are markers  of HUS. No E. coli was isolated from the blood because  normal stool culturing does not reveal the organism  (sorbitol-MacConkey medium is a screening that can  give a preliminary identifi cation). Antibiotics are not  effective for EHEC. With the exception of B. cereus,  which causes vomiting or watery diarrhea, all of the  organisms listed can cause bloody diarrhea but none  is associated with HUS. Shigella dysenteriae (not  S. fl exneri) can also cause HUS through the produc- tion of Shiga toxin.",
+      "explanation": "The answer is B: Enterohemorrhagic E. coli (EHEC). This organism is associated with bloody diarrhea and hemolytic uremic syndrome (HUS), which is affecting two of the children. HUS is primarily a disease of infancy and early childhood caused by the production of a Shiga-like toxin that binds to and kills renal endothelial cells. HUS presents as a triad of microangiopathic hemolytic anemia and thrombocytopenia and can lead to acute renal failure. Diarrhea caused by E. coli O157:H7 is a precipitating factor and the use of antimotility drugs may increase the risk. The clinical picture of HUS can suggest a GI bleed because the stool may be grossly bloody. Urine output is reduced or absent with renal failure; petechiae, purpura, and fever are common findings. Schistocytes are markers of HUS. Standard stool culturing does not reveal the organism (sorbitol\u2013MacConkey medium is a screening that can give a preliminary identification). Antibiotics are not effective for EHEC. Shigella dysenteriae (not S. flexneri) can also cause HUS through the production of Shiga toxin.",
       "keypoints": [
-        "\u2b50 EHEC (E. coli O157:H7): bloody diarrhea + hemolytic uremic syndrome (HUS) = microangiopathic hemolytic anemia + thrombocytopenia + acute renal failure",
-        "\u2b50 HUS is caused by Shiga-like toxin binding to renal endothelial cells \u2192 thrombotic microangiopathy; most common in young children",
-        "E. coli O157:H7 requires sorbitol-MacConkey medium for identification; standard stool cultures miss it",
-        "Antibiotics are contraindicated in EHEC - may increase Shiga toxin release and worsen HUS risk"
+        "\u2b50 EHEC (E. coli O157:H7) causes the triad of HUS: microangiopathic hemolytic anemia, thrombocytopenia, and acute renal failure",
+        "\u2b50 Shiga-like toxin (Stx-1/Stx-2) binds renal endothelial cells \u2014 the primary pathogenic mechanism of HUS",
+        "\u2b50 Do NOT treat EHEC with antibiotics or antimotility drugs \u2014 both increase the risk of HUS",
+        "Schistocytes on peripheral blood smear are a hallmark of HUS; EHEC is not detected on standard media (requires sorbitol-MacConkey)"
       ]
     },
     {
-      "id": "q019",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q019",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "The preschool in the above case only serves pasteur- ized milk and packaged cookies to the children and  epidemiologists quickly rule out a food source as the  risk factor. With this in mind, which of the follow- ing is the most plausible means by which the children  were infected?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "The preschool in the above case only serves pasteurized milk and packaged cookies to the children and epidemiologists quickly rule out a food source as the risk factor. Which of the following is the most plausible means by which the children were infected?",
       "choices": [
         "Contagious transmission from an infected child",
-        "Drinking water of the preschool is contaminated  with the microbe",
+        "Drinking water of the preschool is contaminated with the microbe",
         "Failure to wash hands after visiting a petting zoo",
-        "Fecal-oral transmission, most likely from the  restroom",
-        "Visiting the elderly in an assisted-living or  nursing home facility"
+        "Fecal\u2013oral transmission, most likely from the restroom",
+        "Visiting the elderly in an assisted-living or nursing home facility"
       ],
       "answer": 2,
-      "explanation": "Failure to wash hands after visit- ing a petting zoo. Cattle are the reservoirs of  Escherichia coli O157:H7; they show no signs  of disease and shed the organism sporadically.  Humans become infected when ingesting the organ- ism in undercooked hamburger or foods contami- nated with cattle fecal material. Children can also  contract the organism by contaminating their hands  through petting a cow. The organism is rarely iso- lated from chlorinated drinking water. E. coli  O157:H7 can also be transmitted person-to-person  in crowed settings such as day care centers; how- ever, direct or indirect contact with cattle feces is a  more likely route.",
+      "explanation": "The answer is C: Failure to wash hands after visiting a petting zoo. Cattle are the reservoirs of Escherichia coli O157:H7; they show no signs of disease and shed the organism sporadically. Humans become infected when ingesting the organism in undercooked hamburger or foods contaminated with cattle fecal material. Children can also contract the organism by contaminating their hands through petting a cow. The organism is rarely isolated from chlorinated drinking water. E. coli O157:H7 can also be transmitted person-to-person in crowded settings such as day care centers; however, direct or indirect contact with cattle feces is a more likely route.",
       "keypoints": [
-        "\u2b50 EHEC transmission: fecal-oral via contaminated hands; cattle are the primary reservoir of E. coli O157:H7",
-        "\u2b50 Petting zoo visit without handwashing = key zoonotic transmission route for EHEC in preschool clusters",
-        "Pasteurized milk and packaged foods rule out a food source; fecal-oral hand transmission was the likely route",
-        "Prevention: handwashing after animal contact; avoid undercooked ground beef; monitor petting zoo hygiene"
+        "\u2b50 Cattle are the primary reservoir for E. coli O157:H7 \u2014 they shed it without symptoms",
+        "\u2b50 Transmission routes: undercooked beef, feces-contaminated food/water, or direct contact with farm animals",
+        "\u2b50 Petting zoos are a recognized epidemiologic setting for pediatric EHEC outbreaks",
+        "Chlorination of drinking water is effective against EHEC; person-to-person spread can occur but is a less common route"
       ]
     },
     {
-      "id": "q038",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q038",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "A 52-year-old woman presented with indigestion  and heartburn occurring shortly after meals which  she treated with over-the-counter antacids. Physical  examination revealed mild epigastric tenderness. A  radiolabeled-urea breath test is positive. What is the  most probable etiologic agent?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "A 52-year-old woman presented with indigestion and heartburn occurring shortly after meals which she treated with over-the-counter antacids. Physical examination revealed mild epigastric tenderness. A radiolabeled-urea breath test is positive. What is the most probable etiologic agent?",
       "choices": [
         "Campylobacter jejuni",
-        "Clostridium diffi cile",
+        "Clostridium difficile",
         "Helicobacter pylori",
         "Shigella dysenteriae",
         "Yersinia enterocolitica"
       ],
       "answer": 2,
-      "explanation": "Helicobacter pylori. While all of the  organisms listed are associated with GI symptoms,  this case is descriptive of peptic ulcer disease, which  is associated with H. pylori infection. The other organ- isms cause diarrheal diseases.",
+      "explanation": "The answer is C: Helicobacter pylori. While all of the organisms listed are associated with GI symptoms, this case is descriptive of peptic ulcer disease, which is associated with H. pylori infection. The urea breath test is positive because H. pylori produces urease, which splits radiolabeled urea into CO2 (detected in exhaled breath) and ammonia. The other organisms cause diarrheal diseases, not peptic ulcer disease.",
       "keypoints": [
-        "\u2b50 H. pylori: Gram-negative curved rod; urease-positive; lives in gastric mucosa beneath mucus layer; causes peptic ulcer disease",
-        "\u2b50 H. pylori diagnosis: urea breath test (most convenient non-invasive), stool antigen test, or CLO test/biopsy at endoscopy",
-        "H. pylori is NOT the cause of watery diarrhea or rice-water stools; all GI pathogens can cause indigestion but this presentation is classic PUD",
-        "H. pylori causes 90% of duodenal ulcers and 70-80% of gastric ulcers; NSAID use is the other major cause"
+        "\u2b50 H. pylori is the leading cause of peptic ulcer disease; urease activity is detected by the radiolabeled-urea breath test",
+        "\u2b50 H. pylori urease splits urea \u2192 CO2 (exhaled) + NH3; NH3 neutralizes gastric acid, allowing colonization",
+        "\u2b50 H. pylori is also the most important risk factor for gastric adenocarcinoma and MALT lymphoma",
+        "Treatment is triple therapy: PPI + clarithromycin + amoxicillin (or metronidazole)"
       ]
     },
     {
-      "id": "q039",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q039",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "What cancer is the patient in the above case at risk for  as a consequence of this infection?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "What cancer is the patient in the above case (H. pylori peptic ulcer disease) at risk for as a consequence of this infection?",
       "choices": [
         "Pancreatic cancer",
         "Gastric adenocarcinoma",
@@ -94,21 +94,21 @@
         "Esophageal cancer"
       ],
       "answer": 1,
-      "explanation": "Gastric adenocarcinoma. H. pylori chronic infection drives gastric mucosal inflammation and is the leading risk factor for gastric adenocarcinoma.",
+      "explanation": "The answer is B: Gastric adenocarcinoma. H. pylori infection is a class I carcinogen designated by the WHO. Chronic infection leads to gastritis, atrophic gastritis, intestinal metaplasia, dysplasia, and ultimately gastric adenocarcinoma. The cagA virulence factor plays a particularly important role; cagA-negative strains are significantly less associated with gastric adenocarcinoma. H. pylori is also linked to gastric MALT lymphoma. Eradication therapy reduces (but does not eliminate) cancer risk.",
       "keypoints": [
-        "\u2b50 H. pylori is a Group I carcinogen (WHO) associated with gastric adenocarcinoma and MALT lymphoma",
-        "\u2b50 H. pylori \u2192 chronic active gastritis \u2192 intestinal metaplasia \u2192 dysplasia \u2192 gastric adenocarcinoma (Correa cascade)",
-        "Eradication of H. pylori reduces gastric cancer risk; MALT lymphoma may regress with H. pylori eradication alone",
-        "Gastric adenocarcinoma risk factors: H. pylori, diet (smoked/salted foods), smoking, blood group A, pernicious anemia"
+        "\u2b50 H. pylori \u2192 chronic gastritis \u2192 atrophic gastritis \u2192 intestinal metaplasia \u2192 gastric adenocarcinoma (Correa cascade)",
+        "\u2b50 H. pylori is a WHO class I carcinogen and the most common bacterial cause of cancer worldwide",
+        "\u2b50 cagA-positive strains carry significantly higher risk of gastric adenocarcinoma than cagA-negative strains",
+        "H. pylori also causes gastric MALT lymphoma, which can regress with eradication therapy alone"
       ]
     },
     {
-      "id": "q040",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q040",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "What virulence factor of the organism may be associ- ated with induction of this cancer?",
+      "system": "GI/Nutrition",
+      "contentType": "mechanism",
+      "stem": "What virulence factor of H. pylori may be associated with induction of gastric adenocarcinoma?",
       "choices": [
         "cagA",
         "Heat shock protein B",
@@ -117,67 +117,67 @@
         "Vacuolating cytotoxin"
       ],
       "answer": 0,
-      "explanation": "cagA. All the items listed are virulence  factors of H. pylori. Urease breaks down urea, releas- ing ammonia that neutralizes gastric acids, making a  more favorable environment for the pathogen to sur- vive. Heat shock protein B has been shown to enhance  the activity of urease. Mucinase breaks down gastric  mucus, allowing the organism to penetrate the thick  mucus layer and adhere to the gastric epithelial cells.  Vacuolating cytotoxin damages gastric epithelial cells  and promotes infl ammation, thereby playing an impor- tant role in ulcer formation. The role of cagA in car- cinogenesis is supported by the fact that the protein is  translocated into the host cells where it activates signal  transduction molecules and induces morphological  changes in the cells. In addition, cagA-negative strains  of H. pylori are signifi cantly less associated with gastric  adenocarcinoma.",
+      "explanation": "The answer is A: cagA. All the items listed are virulence factors of H. pylori. Urease breaks down urea, releasing ammonia that neutralizes gastric acids. Heat shock protein B enhances urease activity. Mucinase breaks down gastric mucus, allowing the organism to penetrate and adhere to gastric epithelial cells. Vacuolating cytotoxin (VacA) damages gastric epithelial cells and promotes inflammation. cagA is translocated into host cells where it activates signal transduction molecules and induces morphological changes. cagA-negative strains of H. pylori are significantly less associated with gastric adenocarcinoma, making cagA the virulence factor most strongly linked to carcinogenesis.",
       "keypoints": [
-        "\u2b50 cagA (cytotoxin-associated gene A): H. pylori virulence factor injected into gastric epithelium via type IV secretion system \u2192 promotes carcinogenesis",
-        "\u2b50 H. pylori virulence factors: urease (neutralizes gastric acid), cagA (oncoprotein), vacA (vacuolating toxin), mucinase (degrades mucus)",
-        "cagA-positive strains have significantly higher risk of gastric adenocarcinoma and peptic ulcer disease",
-        "Heat shock protein B enhances urease activity; flagella enable motility through mucus layer"
+        "\u2b50 cagA (cytotoxin-associated gene A) is injected into gastric epithelial cells via a type IV secretion system, dysregulating cell signaling",
+        "\u2b50 cagA-positive strains are classified as type I (more virulent) and carry substantially higher risk of gastric cancer",
+        "\u2b50 VacA causes epithelial vacuolation and apoptosis; urease enables gastric survival \u2014 both are key H. pylori virulence factors",
+        "H. pylori expresses multiple virulence factors; the cagA pathogenicity island is the strongest cancer risk marker"
       ]
     },
     {
-      "id": "q041",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q041",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "Hemorrhagic colitis, hemolytic uremic syndrome, and  thrombotic thrombocytopenic purpura are clinical  manifestations of which bacterial species?",
+      "system": "GI/Nutrition",
+      "contentType": "recall",
+      "stem": "Hemorrhagic colitis, hemolytic uremic syndrome, and thrombotic thrombocytopenic purpura are clinical manifestations of which bacterial species?",
       "choices": [
         "Campylobacter jejuni",
-        "Escherichia coli O157:H",
-        "Shigella fl exneri",
+        "Escherichia coli O157:H7",
+        "Shigella flexneri",
         "Vibrio cholerae",
         "Yersinia enterocolitica"
       ],
       "answer": 1,
-      "explanation": "Escherichia coli O157:H7. All of the  organisms listed are causes of diarrheal diseases; how- ever, of the species listed, only E. coli O157:H7 is asso- ciated with this constellation of symptoms.",
+      "explanation": "The answer is B: Escherichia coli O157:H7. Of the organisms listed, only E. coli O157:H7 is associated with this constellation of symptoms. This strain produces phage-encoded Shiga toxins (Stx-1 and Stx-2) that cause hemorrhagic colitis (bloody diarrhea) and can trigger hemolytic uremic syndrome (HUS) \u2014 a triad of microangiopathic hemolytic anemia, thrombocytopenia, and acute renal failure \u2014 particularly in children. TTP (thrombotic thrombocytopenic purpura) shares features with HUS and may result from the same toxin-mediated endothelial injury.",
       "keypoints": [
-        "\u2b50 E. coli O157:H7: most common cause of hemorrhagic colitis; produces Shiga-like toxin; associated with HUS and TTP",
-        "\u2b50 HUS vs TTP: HUS = predominant renal failure + microangiopathic anemia + thrombocytopenia; TTP = predominant neurologic symptoms (ADAMTS13 deficiency)",
-        "E. coli O157:H7 source: undercooked ground beef, unpasteurized juice, contaminated produce, fecal-oral from cattle",
-        "Shiga toxin (verotoxin) is identical in mechanism to Shiga toxin of Shigella dysenteriae: inhibits 60S ribosome (28S rRNA)"
+        "\u2b50 E. coli O157:H7 produces Shiga toxins (Stx-1/Stx-2) \u2192 hemorrhagic colitis + HUS (especially in children <5)",
+        "\u2b50 HUS triad: microangiopathic hemolytic anemia + thrombocytopenia + acute renal failure",
+        "\u2b50 Do NOT treat with antibiotics (may increase Shiga toxin release) or antimotility agents",
+        "Identified on sorbitol-MacConkey agar (O157:H7 does not ferment sorbitol, appearing colorless)"
       ]
     },
     {
-      "id": "q053",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q053",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "A 37-year-old man presented with a 2 day history of  low grade fever, abdominal cramps diarrhea, nausea,  and vomiting. One day prior to the onset of symptoms,  six family members had eaten at an all- you-can-eat  fried chicken buffet. Two other members of his fam- ily (his 82-year-old mother and a 14-month-old son)  had similar symptoms. Examination of a fecal smear  from the patient revealed abundant fecal leukocytes.  Which of the following laboratory profi les is consist- ent with the most likely microbial cause of this man\u2019s  condition?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "A 37-year-old man presented with a 2-day history of low grade fever, abdominal cramps, diarrhea, nausea, and vomiting. One day prior to the onset of symptoms, six family members had eaten at an all-you-can-eat fried chicken buffet. Two other family members (his 82-year-old mother and a 14-month-old son) had similar symptoms. Examination of a fecal smear from the patient revealed abundant fecal leukocytes. Which of the following laboratory profiles is consistent with the most likely microbial cause of this man's condition?",
       "choices": [
-        "Aerobic, \u03b2-hemolytic, spore-forming Gram- positive rod",
+        "Aerobic, \u03b2-hemolytic, spore-forming Gram-positive rod",
         "Bacitracin-sensitive, Gram-negative cocci",
         "Coagulase-negative, Gram-positive cocci",
         "Nonlactose fermenting, Gram-negative bacilli",
-        "Oxidase-positive, motile, curved, Gram-positive  bacilli"
+        "Oxidase-positive, motile, curved, Gram-positive bacilli"
       ],
       "answer": 3,
-      "explanation": "Nonlactose fermenting, Gram-negative  bacilli. The two most common bacterial causes of  foodborne illness in the United States are Campylobacter  and Salmonella. Both are associated with undercooked  poultry and cause invasive (infl ammatory) GI disease  with the induction of fecal leukocytes. Salmonella are  Gram-negative rods that are unable to ferment lactose.  Campylobacters are motile, curved, Gram-negative rods  that are isolated under microaerophilic conditions (5%  oxygen, 5% to 10% carbon dioxide) on selective media  such as Skirrow agar.",
+      "explanation": "The answer is D: Nonlactose fermenting, Gram-negative bacilli. The two most common bacterial causes of foodborne illness in the United States are Campylobacter and Salmonella. Both are associated with undercooked poultry and cause invasive (inflammatory) GI disease with the induction of fecal leukocytes. Salmonella are Gram-negative rods that are unable to ferment lactose. Campylobacters are motile, curved, Gram-negative rods that are isolated under microaerophilic conditions on selective media such as Skirrow agar. Note: option E is incorrect because Campylobacter is Gram-negative, not Gram-positive.",
       "keypoints": [
-        "\u2b50 Two most common bacterial causes of foodborne illness in US: Salmonella spp. and E. coli O157:H7 (nonlactose-fermenting GNRs)",
-        "\u2b50 Nonlactose fermenters on MacConkey agar: Salmonella, Shigella, Proteus, Pseudomonas, E. coli O157:H7 (ferments sorbitol not lactose)",
-        "Salmonella and E. coli O157:H7 are nonlactose fermenting on MacConkey (pink = lactose fermenter like E. coli K-12; colorless = nonfermenter)",
-        "Shigella is also a nonlactose fermenter; the low infective dose makes it the most contagious of the foodborne GNRs"
+        "\u2b50 Campylobacter and Salmonella are the two most common foodborne bacterial pathogens in the United States, both linked to undercooked poultry",
+        "\u2b50 Both cause inflammatory diarrhea (fecal leukocytes positive) \u2014 distinguishing them from non-invasive pathogens like ETEC or V. cholerae",
+        "\u2b50 Salmonella is a nonlactose-fermenting, Gram-negative rod; Campylobacter is a microaerophilic, curved, Gram-negative rod",
+        "Fecal leukocytes indicate mucosal invasion \u2014 key to distinguishing inflammatory (Salmonella, Shigella, Campylobacter) from secretory (ETEC, cholera) diarrhea"
       ]
     },
     {
-      "id": "q054",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q054",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "Which of the following medications, if taken by the  man in the above case, could have increased his sus- ceptibility to the infection he developed?",
+      "system": "GI/Nutrition",
+      "contentType": "mechanism",
+      "stem": "Which of the following medications, if taken by the man in the above case (foodborne illness from fried chicken), could have increased his susceptibility to the infection he developed?",
       "choices": [
         "Acetaminophen",
         "Antacids",
@@ -186,67 +186,67 @@
         "Statins"
       ],
       "answer": 1,
-      "explanation": "Antacids. Decreased gastric acid  increases susceptibility to GI disease caused by  Salmonella and Vibrio. The elderly and young children  are also at an increased risk of infection.",
+      "explanation": "The answer is B: Antacids. Decreased gastric acid increases susceptibility to GI disease caused by Salmonella and Vibrio. The elderly and young children are also at an increased risk of infection. Gastric acid is a critical first-line defense against ingested pathogens; reducing it with antacids, proton pump inhibitors, or H2 blockers lowers the infectious dose needed to cause disease.",
       "keypoints": [
-        "\u2b50 Antacids and H2 blockers reduce gastric acid \u2192 increase susceptibility to Salmonella and Vibrio (acid-sensitive organisms)",
-        "\u2b50 Normal gastric acidity (pH <2) kills most ingested pathogens; achlorhydria or antacid use raises infectious dose threshold",
-        "Antibiotics (killing normal flora) also increase susceptibility to enteric infections like C. difficile and Salmonella",
-        "Motility-altering drugs (antimotility agents) prolong transit time \u2192 may worsen Shigella and EHEC infections"
+        "\u2b50 Gastric acid is a key innate host defense against enteric pathogens \u2014 its reduction (antacids, PPIs, H2 blockers) lowers infectious dose",
+        "\u2b50 Conditions reducing gastric acid (achlorhydria, PPI use, gastrectomy) dramatically increase susceptibility to Salmonella, Vibrio, and Campylobacter",
+        "\u2b50 The elderly and infants are more susceptible because of diminished gastric acid production and immature immunity, respectively",
+        "Other host factors that increase susceptibility: immunodeficiency, inflammatory bowel disease, disruption of normal GI flora by broad-spectrum antibiotics"
       ]
     },
     {
-      "id": "q055",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q055",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "Which of the following bacterial agents has the lowest  infective dose for producing gastrointestinal disease  in the human host?",
+      "system": "GI/Nutrition",
+      "contentType": "recall",
+      "stem": "Which of the following bacterial agents has the lowest infective dose for producing gastrointestinal disease in the human host?",
       "choices": [
         "Enteropathogenic Escherichia coli",
         "Enterotoxigenic Escherichia coli",
         "Salmonella (nontyphoid serotypes)",
-        "Shigella fl exneri",
+        "Shigella flexneri",
         "Vibrio cholerae"
       ],
       "answer": 3,
-      "explanation": "Shigella fl exneri. Both of the virulent  E. coli varieties, V. cholerae and the nontyphoid  Salmonella serotypes, have an infective dose (ID) of  around 106. Actually, the ID of many nontyphoid sal- monellae vary and may be as high as 109 (1 billion).  Host factors that infl uence a person\u2019s predisposition to  infection include immunologic defi ciencies, infl am- matory bowel disease, disruption of GI fl ora due to  broad-spectrum antibiotic use, and the use of stomach  acid reducing agents (e.g., antacid, proton pump  inhibitors, H2 blockers, etc.). Of the choices given in  the question, clearly Shigella has the lowest ID, some- times as low as 10 organisms. Two other foodborne- fecal agents (not part of the question) that have low  infective dose (ca. 102) are Salmonella typhi and  Campylobacter jejuni.",
+      "explanation": "The answer is D: Shigella flexneri. Both virulent E. coli varieties, V. cholerae, and nontyphoid Salmonella serotypes have an infective dose of around 10\u2076 organisms. Nontyphoid Salmonella ID may be as high as 10\u2079. Host factors that influence susceptibility include immunologic deficiencies, inflammatory bowel disease, disruption of GI flora from antibiotics, and use of acid-reducing agents. Shigella has the lowest infective dose among the choices \u2014 sometimes as low as 10 organisms \u2014 because it resists gastric acid and invades colonic epithelium very efficiently. Two other agents with similarly low infective doses (not among the choices) are Salmonella typhi and Campylobacter jejuni (~10\u00b2).",
       "keypoints": [
-        "\u2b50 Shigella flexneri has the LOWEST infective dose of the major GI pathogens: as few as 10-200 organisms needed for infection",
-        "\u2b50 Shigella: person-to-person fecal-oral transmission highly efficient due to very low infectious dose; daycare/institution outbreaks common",
-        "Comparative infective doses: Shigella ~10-200; V. cholerae ~10^6-10^8; Salmonella ~10^5-10^8; EHEC ~100-1000",
-        "Shigella causes dysentery (bloody/mucoid stool) by invading and destroying colonic mucosa; does not spread beyond mucosa"
+        "\u2b50 Shigella has one of the lowest infective doses of any enteric pathogen \u2014 as few as 10\u2013200 organisms are sufficient to cause disease",
+        "\u2b50 Low infective dose explains why Shigellosis spreads easily via fecal-oral route in crowded settings (daycare, prisons, refugees)",
+        "\u2b50 In contrast, nontyphoid Salmonella requires 10\u2076\u201310\u2079 organisms; V. cholerae requires 10\u2076\u201310\u2078 (reduced by antacid use)",
+        "Campylobacter jejuni and S. typhi also have low infective doses (~10\u00b2), making them hypervirulent via the fecal-oral route"
       ]
     },
     {
-      "id": "q056",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q056",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "Intestinal infection with which of the following organ- isms should not be treated with antibiotics?",
+      "system": "GI/Nutrition",
+      "contentType": "mechanism",
+      "stem": "Intestinal infection with which of the following organisms should NOT be treated with antibiotics?",
       "choices": [
-        "Clostridium diffi cile",
-        "Escherichia coli O157:H",
+        "Clostridium difficile",
+        "Escherichia coli O157:H7",
         "Salmonella typhi",
         "Shigella sonnei",
-        "Vibrio cholera"
+        "Vibrio cholerae"
       ],
       "answer": 1,
-      "explanation": "E. coli O175:H7. Infection with this  strain of E. coli is associated with hemolytic uremic  syndrome. This complication may be more likely  to occur if the patient is treated with antibiotics.  Cholera, typhoid fever, pseudomembraneous coli- tis, and shigellosis respond favorably to antibiotic  treatment.",
+      "explanation": "The answer is B: Escherichia coli O157:H7. Infection with this strain of E. coli is associated with hemolytic uremic syndrome (HUS). This complication may be more likely to occur if the patient is treated with antibiotics, because antibiotic-induced bacterial cell lysis releases large amounts of preformed Shiga toxin, dramatically increasing systemic toxin load. Cholera, typhoid fever, pseudomembranous colitis, and shigellosis all respond favorably to antibiotic treatment. Antimotility agents should also be avoided with EHEC for the same reason.",
       "keypoints": [
-        "\u2b50 E. coli O157:H7 (EHEC) infection should NOT be treated with antibiotics - antibiotics increase Shiga toxin release \u2192 worsens HUS risk",
-        "\u2b50 HUS complication of EHEC: microangiopathic hemolytic anemia + thrombocytopenia + acute renal failure; supportive care only",
-        "Dialysis may be required for acute renal failure in HUS; most children recover renal function",
-        "Antimotility drugs (loperamide) also contraindicated in EHEC as they prolong toxin exposure"
+        "\u2b50 Antibiotics are CONTRAINDICATED in EHEC (E. coli O157:H7) infections \u2014 they increase Shiga toxin release and risk of HUS",
+        "\u2b50 HUS risk is highest in children <5 and elderly; supportive care (hydration, dialysis if needed) is the mainstay of treatment",
+        "\u2b50 All other enteric bacterial infections in the list (C. difficile, S. typhi, Shigella, V. cholerae) benefit from appropriate antibiotic therapy",
+        "Avoid antimotility agents (loperamide) in EHEC \u2014 they prolong mucosal exposure to toxin and increase HUS risk"
       ]
     },
     {
-      "id": "q070",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q070",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "A 20-year-old male is brought to the emergency depart- ment with a 1-day history of delirium. He has had a sus- tained fever of up to 40 \u00b0C and a history of progressive  headache, myalgia, and constipation which began 10  days previously as he was returning to the United States  from a trip to visit relatives in India. Physical exami- nation revealed hepatosplenomegaly, diffuse abdomi- nal tenderness, and red spots on the chest and neck.  Colonies of a Gram-negative bacillus that produced a  characteristic \u201cfi sh-eye\u201d growth (lactose nonfermenter  with sulfur reduction) are isolated on Hektoen agar  from blood and stool samples as shown in the photo- graph. What is the most likely diagnosis?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "A young man presents to the emergency department with a 1-day history of delirium. He has had a sustained fever of up to 40 \u00b0C and a history of progressive headache, myalgia, and constipation which began 10 days previously as he was returning to the United States from a trip to visit relatives in India. Physical examination revealed hepatosplenomegaly, diffuse abdominal tenderness, and red spots on the chest and neck. Colonies of a Gram-negative bacillus that produced a characteristic \"fish-eye\" growth (lactose nonfermenter with sulfur reduction) are isolated on Hektoen agar from blood and stool samples as shown in the photograph. What is the most likely diagnosis?",
       "choices": [
         "Cholera",
         "Hemolytic uremic syndrome",
@@ -255,44 +255,47 @@
         "Typhoid fever"
       ],
       "answer": 4,
-      "explanation": "Typhoid fever. The case described is  typical for typhoid fever caused by Salmonella typhi.  This multiorgan system disease is due to the dissemi- nation of the microbe within macrophages. S. typhi  enters the intestine, infects local macrophages, and  is transported around the body, replicating in mac- rophages in the lymph nodes, spleen, liver, and bone  marrow. The infection is accompanied by high fever  and evidence of toxemia. Replication of the organism  in Peyer patches leads to infl ammation of the bowel  wall and subsequent constipation. Bacterial emboli  to the skin cause the rose spots seen on the patient\u2019s  chest and neck. S. typhi is isolated on specialized  media such as Hektoen agar on which the produc- tion of hydrogen sulfi de by Salmonella is demon- strated as a black center within the colony. None of  the other bacterial diseases cause the symptoms or  have the microbiological characteristics described  in the case. Cholera, caused by the Gram-negative,  curved rod Vibrio cholerae, is characterized by watery  diarrhea. Hemolytic uremic syndrome, caused most  commonly by E. coli O157:H7, is characterized by  bloody diarrhea, kidney failure, and thrombocytope- nia. Shigellosis is generally associated with bloody  diarrhea. While Shigella and Salmonella are both  grown on Hektoen agar, Shigella produces greenish- blue colonies without black centers. Tularemia can  manifest in different ways, including ulcers with  regional lymphadenopathy, eye infections, pneu- monia, and a typhoidal form characterized by fever,  malaise, myalgias, and weight loss.",
+      "explanation": "The answer is E: Typhoid fever. The case is typical for typhoid fever caused by Salmonella typhi. This multiorgan system disease is due to dissemination of the microbe within macrophages. S. typhi enters the intestine, infects local macrophages, and is transported throughout the body, replicating in macrophages of the lymph nodes, spleen, liver, and bone marrow. The infection is accompanied by high fever and toxemia. Replication in Peyer's patches leads to bowel wall inflammation and subsequent constipation. Bacterial emboli to the skin cause the rose spots seen on the chest and neck. S. typhi is isolated on Hektoen agar, on which the production of hydrogen sulfide is demonstrated as a black center within the colony \u2014 the hallmark \"fish-eye\" appearance. Cholera causes watery diarrhea; HUS is caused by E. coli O157:H7 with bloody diarrhea and renal failure; Shigellosis causes bloody diarrhea; Tularemia can present as a typhoidal form but lacks these microbiological findings.",
+      "image": "/images/bact_ch1/lippincott micro ch1 q070.png",
+      "imageAlt": "Hektoen agar plate showing characteristic fish-eye colonies of Salmonella typhi with dark black centers (H\u2082S production) and translucent halos",
+      "imageCaption": "Hektoen agar: S. typhi 'fish-eye' colonies with black sulfur centers and pale halos \u2014 classic diagnostic appearance",
       "keypoints": [
-        "\u2b50 Typhoid fever (Salmonella typhi): stepladder fever, relative bradycardia (Faget sign), rose spots on abdomen, initial constipation",
-        "\u2b50 S. typhi: humans are the only reservoir; transmitted fecal-oral; organisms invade M cells in Peyer patches \u2192 bacteremia",
-        "Typhoid diagnosis: blood culture (most sensitive in first week); bone marrow culture (most sensitive overall); serology unreliable",
-        "Treatment: ceftriaxone or fluoroquinolones (ciprofloxacin); typhoid carriers harbor organism in gallbladder (chronic carrier state)"
+        "\u2b50 Typhoid fever (S. typhi) presents with stepwise fever, relative bradycardia, rose spots, hepatosplenomegaly, and constipation early (vs. diarrhea later)",
+        "\u2b50 S. typhi on Hektoen agar produces characteristic 'fish-eye' colonies: black H\u2082S center with translucent halo (lactose nonfermenter + H\u2082S producer)",
+        "\u2b50 S. typhi disseminates intracellularly within macrophages to liver, spleen, bone marrow \u2014 causing a systemic illness, not just GI disease",
+        "Fluoroquinolones or third-generation cephalosporins are first-line treatment; chloramphenicol used historically"
       ]
     },
     {
-      "id": "q071",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q071",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "A 35-year-old male became ill with watery diarrhea  due to a bacterial infection while on a trip to South  America. Which of the following is the key event that  promotes the development of watery diarrhea?",
+      "system": "GI/Nutrition",
+      "contentType": "mechanism",
+      "stem": "A 35-year-old male became ill with watery diarrhea due to a bacterial infection while on a trip to South America. Which of the following is the key event that promotes the development of watery diarrhea?",
       "choices": [
         "Decreased activity of adenylate cyclase",
-        "Increase in the intestinal epithelial cell levels of  cAMP",
+        "Increase in the intestinal epithelial cell levels of cAMP",
         "Increase in the levels of intracellular chloride",
-        "Movement of water from the intestinal lumen  into the epithelial cells.",
-        "Movement of ions such as potassium and  sodium into the intestinal epithelial cells"
+        "Movement of water from the intestinal lumen into the epithelial cells",
+        "Movement of ions such as potassium and sodium into the intestinal epithelial cells"
       ],
       "answer": 1,
-      "explanation": "Increase in the intestinal epithelial cell  levels of cAMP. Bacterial causes of watery diarrhea  include Vibrio cholerae and enterotoxigenic Escherichia  coli. Both of these organisms produce a toxin (cholera  toxin and labile toxin, respectively) whose active por- tion acts to increase intracellular levels of cyclic AMP  (cAMP). cAMP prevents sodium absorption into the  intestinal cells and increases chloride secretion from  the cells. Water moves from the cells into the lumen  of the intestine in response to the movement of ions,  thereby leading to watery diarrhea.",
+      "explanation": "The answer is B: Increase in the intestinal epithelial cell levels of cAMP. Bacterial causes of watery diarrhea include Vibrio cholerae and enterotoxigenic Escherichia coli (ETEC). Both produce toxins (cholera toxin and heat-labile toxin, respectively) whose active A subunit ADP-ribosylates the Gs\u03b1 protein, permanently activating adenylate cyclase and causing a massive rise in intracellular cAMP. Elevated cAMP prevents sodium absorption into intestinal cells and massively increases chloride secretion out of cells. Water follows the chloride into the intestinal lumen by osmosis, producing the characteristic voluminous watery diarrhea.",
       "keypoints": [
-        "\u2b50 Watery diarrhea (secretory) caused by bacteria producing enterotoxins that increase intestinal cAMP or cGMP",
-        "\u2b50 Cholera toxin and heat-labile ETEC toxin: ADP-ribosylate Gs \u2192 \u2191 cAMP \u2192 Cl- secretion \u2192 massive watery diarrhea",
-        "Heat-stable ETEC toxin: activates guanylate cyclase \u2192 \u2191 cGMP \u2192 watery diarrhea (also: C. difficile toxin A/B)",
-        "Secretory diarrhea: no mucosal invasion; fecal leukocytes absent; large-volume watery stool; treatment = oral rehydration"
+        "\u2b50 Cholera toxin (and ETEC heat-labile toxin): ADP-ribosylates Gs\u03b1 \u2192 constitutively active adenylate cyclase \u2192 \u2191\u2191 cAMP \u2192 massive Cl\u207b secretion + Na\u207a absorption blocked \u2192 watery diarrhea",
+        "\u2b50 Key distinction: cAMP mechanism (cholera, ETEC) vs. cGMP mechanism (ETEC heat-stable toxin, STa)",
+        "\u2b50 Treatment is oral rehydration solution (ORS), not antibiotics \u2014 the fluid loss from rice-water stools can be several liters per hour",
+        "ETEC is the most common cause of traveler's diarrhea (watery, not bloody); cholera is endemic in South Asia/Africa"
       ]
     },
     {
-      "id": "q072",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q072",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "A 47-year-old male is diagnosed with peptic ulcer dis- ease. Treatment includes antibiotics for infection of  the stomach with Helicobacter pylori. Which enzyme  is secreted by this organism and enables it to survive  in the acid environment of the stomach?",
+      "system": "GI/Nutrition",
+      "contentType": "mechanism",
+      "stem": "A 47-year-old male is diagnosed with peptic ulcer disease. Treatment includes antibiotics for infection of the stomach with Helicobacter pylori. Which enzyme is secreted by this organism and enables it to survive in the acid environment of the stomach?",
       "choices": [
         "Catalase",
         "Oxidase",
@@ -301,21 +304,21 @@
         "Urease"
       ],
       "answer": 4,
-      "explanation": "Urease. This enzyme neutralizes  gastric acids. The organism also secretes catalase and  superoxide dismutase which provide resistance to  killing by neutrophils and mucinase that breaks down  the mucus, allowing the organism to contact gastric  epithelial cells. Another important virulence factor of  this organism is vacuolating cytotoxin that leads to  epithelial cell injury and neutrophil infi ltration.",
+      "explanation": "The answer is E: Urease. This enzyme neutralizes gastric acids by hydrolyzing urea to ammonia and CO\u2082. The ammonia raises the local pH, creating a more favorable microenvironment for H. pylori to survive. H. pylori also secretes catalase and superoxide dismutase, which provide resistance to killing by neutrophils, and mucinase, which breaks down gastric mucus, allowing the organism to contact gastric epithelial cells. Vacuolating cytotoxin (VacA) is another important virulence factor that leads to epithelial cell injury and neutrophil infiltration.",
       "keypoints": [
-        "\u2b50 H. pylori key virulence factors: urease (neutralizes gastric acid), cagA, vacA, mucinase, flagella for motility",
-        "\u2b50 Urease test: rapid CLO (Campylobacter-like organism) test on gastric biopsy; also detected by urea breath test (^13C-UBT)",
-        "H. pylori also produces catalase and superoxide dismutase to protect against neutrophil oxidative killing",
-        "Triple therapy: PPI + clarithromycin + amoxicillin (or metronidazole) x14 days; eradication confirmed by urea breath test"
+        "\u2b50 Urease is the primary survival mechanism of H. pylori: urea \u2192 NH\u2083 (raises local pH) + CO\u2082",
+        "\u2b50 Urease is also the basis of the urea breath test and urease rapid test (CLO test) used for diagnosis",
+        "\u2b50 H. pylori also produces catalase, superoxide dismutase (resist neutrophil killing), mucinase (mucus penetration), and VacA (epithelial injury)",
+        "H. pylori is a microaerophilic, Gram-negative curved rod with polar flagella; it colonizes the gastric antrum preferentially"
       ]
     },
     {
-      "id": "q073",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q073",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "A 15-year-old boy presents with diarrhea, malaise, fever,  and abdominal pain. The stools were positive for occult  blood and fecal leukocytes. Microscopy of the stool also  reveals the presence of curved bacilli that moved about  on a slide in a darting motion. The etiologic agent, a  Gram-negative, curved rod, grew on specialized medium  in microaerophilic conditions. Which one of the follow- ing organisms is most likely responsible for the disease?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "A 15-year-old boy presents with diarrhea, malaise, fever, and abdominal pain. The stools were positive for occult blood and fecal leukocytes. Microscopy of the stool also reveals the presence of curved bacilli that moved about on a slide in a darting motion. The etiologic agent, a Gram-negative, curved rod, grew on specialized medium in microaerophilic conditions. Which one of the following organisms is most likely responsible for the disease?",
       "choices": [
         "Campylobacter jejuni",
         "Enterotoxigenic Escherichia coli",
@@ -324,21 +327,21 @@
         "Vibrio cholerae"
       ],
       "answer": 0,
-      "explanation": "Campylobacter jejuni. All the organ- isms listed cause diarrhea; however, only C. jejuni and  Salmonella sp. typically cause bloody diarrhea. Shigella  fl exneri causes bloody diarrhea whereas S. sonnei typi- cally causes a watery diarrhea. Of the organisms listed,  only C. jejuni is a microaerophilic (requiring reduced  oxygen in the environment to grow), Gram-negative,  curved rod that demonstrates darting motility when  viewed under a microscope.",
+      "explanation": "The answer is A: Campylobacter jejuni. All organisms listed cause diarrhea; however, only C. jejuni and Salmonella sp. typically cause bloody diarrhea. Shigella flexneri causes bloody diarrhea whereas S. sonnei typically causes watery diarrhea. Of the organisms listed, only C. jejuni is a microaerophilic (requiring reduced oxygen), Gram-negative, curved rod that demonstrates characteristic darting motility when viewed under a microscope. C. jejuni grows on Skirrow or Campy-CVA selective agar at 42\u00b0C under microaerophilic conditions (5% O\u2082, 10% CO\u2082).",
       "keypoints": [
-        "\u2b50 Campylobacter jejuni: most common cause of bacterial gastroenteritis in US; associated with undercooked poultry",
-        "\u2b50 Campylobacter: curved 'seagull-wing' Gram-negative rod; causes bloody diarrhea with fever and crampy abdominal pain",
-        "Post-infectious complications: reactive arthritis, Guillain-Barre syndrome (molecular mimicry with gangliosides via LPS)",
-        "Diagnosis: culture on Campy-BAP at 42\u00b0C (selective temperature); oxidase-positive; treatment: azithromycin or fluoroquinolone"
+        "\u2b50 Campylobacter jejuni: Gram-negative curved/spiral rod, darting corkscrew motility, microaerophilic growth at 42\u00b0C",
+        "\u2b50 Most common cause of bacterial gastroenteritis in the United States; associated with undercooked poultry and unpasteurized milk",
+        "\u2b50 Bloody diarrhea + fecal leukocytes = inflammatory diarrhea; Campylobacter and Salmonella are the top two causes",
+        "Post-infectious complication: Guillain-Barr\u00e9 syndrome (molecular mimicry between C. jejuni LPS and gangliosides GM1/GD1b)"
       ]
     },
     {
-      "id": "q076",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q076",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "Five adults and seven children in a village in South  Africa present over several days to a local clinic with  voluminous watery diarrhea containing fl ecks of  mucus. They show signs of severe dehydration and are  treated with oral fl uids and electrolytes. Stool cultures  grew yellow colonies on thiosulfate citrate bile salt  (TCBS) media. What is the etiology of this outbreak?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "Five adults and seven children in a village in South Africa present over several days to a local clinic with voluminous watery diarrhea containing flecks of mucus. They show signs of severe dehydration and are treated with oral fluids and electrolytes. Stool cultures grew yellow colonies on thiosulfate citrate bile salt (TCBS) media. What is the etiology of this outbreak?",
       "choices": [
         "Enteroinvasive Escherichia coli",
         "Salmonella typhi",
@@ -347,21 +350,21 @@
         "Yersinia enterocolitica"
       ],
       "answer": 3,
-      "explanation": "Vibrio cholerae. The case describes  an outbreak of cholera characterized by abundant  \u201crice water\u201d stools and rapidly leading to dehydra- tion. Control of the outbreak is essential and, where  possible, defi nitive diagnosis of the etiologic agent is  recommended and the organism is cultured on TCBS  media. The other organisms listed typically cause  bloody diarrhea.",
+      "explanation": "The answer is D: Vibrio cholerae. The case describes an outbreak of cholera characterized by abundant 'rice-water' stools and rapid severe dehydration. The organism grows as yellow colonies on TCBS (thiosulfate citrate bile salt sucrose) agar because V. cholerae ferments sucrose, turning the indicator dye yellow. Non-01/non-0139 Vibrio species grow as blue-green colonies on TCBS (non-sucrose fermenters). The other organisms listed typically cause bloody diarrhea or have different microbiologic characteristics.",
       "keypoints": [
-        "\u2b50 Vibrio cholerae: rice-water stools (massive, painless, non-bloody); rapid dehydration; 'El Tor' O1 biotype responsible for current pandemic",
-        "\u2b50 Cholera outbreak: contaminated water supply in developing world; treatment = aggressive oral rehydration therapy (ORS) first",
-        "Cholera toxin: AB5 type; B binds GM1 ganglioside; A ADP-ribosylates Gs \u2192 \u2191 cAMP \u2192 massive Cl-/water secretion",
-        "WHO ORS formula; antibiotics (doxycycline) shorten illness but ORS is life-saving; no fever distinguishes from inflammatory diarrhea"
+        "\u2b50 V. cholerae on TCBS agar: yellow colonies (sucrose fermenter) \u2014 key lab identifier",
+        "\u2b50 Cholera toxin: ADP-ribosylates Gs\u03b1 \u2192 \u2191 cAMP \u2192 Cl\u207b secretion \u2192 rice-water stools (up to 20 L/day), rapid dehydration",
+        "\u2b50 Treatment: aggressive oral/IV rehydration is primary; antibiotics (doxycycline/azithromycin) shorten duration",
+        "V. cholerae O1 (El Tor biotype) and O139 cause epidemic cholera; endemic in South Asia and parts of Africa"
       ]
     },
     {
-      "id": "q092",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q092",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "A 34-year-old woman presents with fever, nausea,  severe abdominal cramping, and bloody diarrhea  that was fecal leukocyte-positive. A few days pre- viously, she had eaten undercooked chicken. Of  the following, which is the most likely etiologic  agent?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "A 34-year-old woman presents with fever, nausea, severe abdominal cramping, and bloody diarrhea that was fecal leukocyte-positive. A few days previously, she had eaten undercooked chicken. Of the following, which is the most likely etiologic agent?",
       "choices": [
         "Campylobacter jejuni",
         "Clostridium perfringens",
@@ -370,21 +373,21 @@
         "Yersinia enterocolitica"
       ],
       "answer": 0,
-      "explanation": "Campylobacter jejuni. This organism  and nontyphoid strains of Salmonella are associated  with ingestion of undercooked chicken or raw eggs.  Both are common causes of foodborne infections in  the United States and both cause a bloody diarrhea that  is fecal leukocyte-positive. C. perfringens food poison- ing is associated with ingestion of contaminated meat  products including poultry. This organism causes an  intoxication characterized by abdominal cramps and  watery diarrhea occurring 8 to 24 h after ingestion.  S. typhi and S. dysenteriae are strict human pathogens  and are not associated with ingestion of undercooked  chicken. Both are uncommon in the United States. Y.  enterocolitica infection, also uncommon in the United  States, is generally associated with ingestion of con- taminated dairy products.",
+      "explanation": "The answer is A: Campylobacter jejuni. This organism and nontyphoid strains of Salmonella are associated with ingestion of undercooked chicken or raw eggs. Both are common causes of foodborne infections in the United States and both cause a bloody diarrhea that is fecal leukocyte-positive. C. perfringens food poisoning is associated with contaminated meat products but causes an intoxication characterized by abdominal cramps and watery (not bloody) diarrhea occurring 8 to 24 hours after ingestion. S. typhi and S. dysenteriae are strict human pathogens and are not associated with undercooked chicken. Y. enterocolitica infection is generally associated with contaminated dairy products and is uncommon in the United States.",
       "keypoints": [
-        "\u2b50 Campylobacter jejuni: associated with undercooked chicken; watery then bloody diarrhea; fever; abdominal cramping",
-        "\u2b50 Campylobacter: #1 cause of bacterial diarrhea in US; post-infectious GBS risk; grows best at 42\u00b0C (selective advantage over normal flora)",
-        "Campylobacter vs Salmonella: both from poultry; Campylobacter = more abdominal pain/fever, curved rods; Salmonella = more systemic",
-        "Treatment: azithromycin (DOC for children); fluoroquinolones if susceptible; self-limited in immunocompetent"
+        "\u2b50 Campylobacter jejuni is the leading cause of foodborne bacterial diarrhea in the US; the #1 source is undercooked chicken",
+        "\u2b50 Key features: bloody diarrhea, fecal leukocytes (invasive), fever, crampy abdominal pain \u2014 mimics inflammatory bowel disease",
+        "\u2b50 C. perfringens causes watery (not bloody) diarrhea 8\u201324 h after ingestion of reheated meats \u2014 no fecal leukocytes (toxin-mediated)",
+        "Campylobacter gastroenteritis is usually self-limited; azithromycin or fluoroquinolones are used for severe/prolonged cases"
       ]
     },
     {
-      "id": "q098",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q098",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "A 3-year-old boy developed bloody diarrhea after eat- ing a poorly cooked hamburger. A few days later, he  was hospitalized with oliguria and  hypertension. With  which organism is he most likely infected?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "A 3-year-old boy developed bloody diarrhea after eating a poorly cooked hamburger. A few days later, he was hospitalized with oliguria and hypertension. With which organism is he most likely infected?",
       "choices": [
         "Clostridium perfringens",
         "Salmonella typhi",
@@ -393,21 +396,21 @@
         "Yersinia enterocolitica"
       ],
       "answer": 3,
-      "explanation": "Shiga toxin-producing E. coli. The  case is descriptive of hemolytic uremic syndrome  associated with infection with E. coli O157:H7. This  strain of E. coli produces phage-associated Shiga tox- ins (Stx-1 and/or Stx-2) that are functionally and  antigenically similar to that produced by Shigella   dysenteriae. None of the other organisms listed are  associated with hemolytic uremic syndrome, although  some do cause a bloody diarrhea. C. perfringens is  associated with ingestion of contaminated meats but  it causes watery diarrhea. S. typhi, rare in the United  States, causes typhoid fever. Enteroinvasive E. coli  strains are uncommon causes of diarrhea. Y. enteroco- litica, also rare in the United States, causes a bloody  diarrhea.",
+      "explanation": "The answer is D: Shiga toxin-producing E. coli. The case is descriptive of hemolytic uremic syndrome (HUS) associated with infection with E. coli O157:H7. This strain produces phage-associated Shiga toxins (Stx-1 and/or Stx-2) that are functionally and antigenically similar to those produced by Shigella dysenteriae. The toxins damage renal endothelial cells, causing the hallmark triad of HUS: microangiopathic hemolytic anemia, thrombocytopenia, and acute renal failure (manifested here as oliguria). Undercooked ground beef is the classic vehicle. C. perfringens causes watery diarrhea from a preformed toxin. S. typhi is rare in the US and causes typhoid fever, not HUS. Enteroinvasive E. coli causes Shigella-like dysentery without HUS. Y. enterocolitica causes a milder diarrheal illness.",
       "keypoints": [
-        "\u2b50 Shiga toxin-producing E. coli (STEC): causes HUS in children; toxin damages renal glomerular endothelium \u2192 thrombotic microangiopathy",
-        "\u2b50 HUS triad: microangiopathic hemolytic anemia + thrombocytopenia + acute renal failure; schistocytes on blood smear",
-        "E. coli O157:H7 (STEC) source: undercooked hamburger (Jack in the Box outbreak), unpasteurized apple juice, spinach, fecal-oral",
-        "Do NOT give antibiotics or antimotility drugs in suspected STEC infection; supportive care; dialysis if needed"
+        "\u2b50 Shiga toxin-producing E. coli (STEC/EHEC O157:H7): undercooked hamburger \u2192 bloody diarrhea \u2192 HUS in children",
+        "\u2b50 HUS = microangiopathic hemolytic anemia + thrombocytopenia + acute renal failure (oliguria, \u2191 creatinine)",
+        "\u2b50 Shiga toxin binds Gb3 receptors on renal endothelial cells \u2192 endothelial injury \u2192 thrombotic microangiopathy",
+        "Antibiotics are contraindicated \u2014 they increase Shiga toxin release and worsen HUS prognosis"
       ]
     },
     {
-      "id": "q113",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q113",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "A 32-year-old woman presents to an urgent care facil- ity with severe vomiting. She claims that several other  people who ate at the church picnic 4 hours earlier  are also sick with the same symptoms. She is clini- cally diagnosed with food poisoning. A health depart- ment investigation reveals that all affected individuals  had eaten the ham salad. What is the bacterial agent  responsible for the signs and symptoms?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "A 32-year-old woman presents to an urgent care facility with severe vomiting. She claims that several other people who ate at the church picnic 4 hours earlier are also sick with the same symptoms. She is clinically diagnosed with food poisoning. A health department investigation reveals that all affected individuals had eaten the ham salad. What is the bacterial agent responsible for the signs and symptoms?",
       "choices": [
         "Campylobacter jejuni",
         "Clostridium perfringens",
@@ -416,35 +419,35 @@
         "Staphylococcus aureus"
       ],
       "answer": 4,
-      "explanation": "Staphylococcus aureus. This organism,  a frequent skin colonizer, can contaminate food during  preparation. The food is then left at room temperature  for several hours during which time the bacteria rep- licate and secrete heat-stable enterotoxins. The toxins  enter the blood and affect the vomiting control center  of the brain, inducing vomiting 1 to 6 hours following  ingestion of contaminated foods. Settings at risk for out- break of staphylococcal food poisoning include group  picnics, restaurants, and school cafeterias or other situ- ations in which large numbers of people eat food made  in batches by food handlers, colonized with the bacte- ria, who do not use precautions to prevent contami- nation. Foods that are most frequently implicated are  those that are high in salt or sugar, such as salted meats,  ham, potato or macaroni salad, and cream-fi lled pastries  or pies. C. jejuni causes a diarrheal illness and is asso- ciated with the consumption of undercooked chicken.  C. perfringens also causes a diarrheal illness with an  incubation period of 8 to 14 hours following ingestion  of contaminated food. B. cereus causes vomiting and is  most frequently associated with the consumption of  fried rice. Salmonella food poisoning causes a bloody  diarrhea 16 hours to 2 days after ingestion of under- cooked chicken, eggs, or other contaminated foods.",
+      "explanation": "The answer is E: Staphylococcus aureus. This organism, a frequent skin colonizer, can contaminate food during preparation. Food is then left at room temperature for several hours, during which bacteria replicate and secrete heat-stable enterotoxins. The toxins enter the blood and affect the vomiting control center of the brain, inducing vomiting 1 to 6 hours following ingestion. The incubation period of 4 hours, predominantly vomiting (not diarrhea), and the association with a salty cured meat (ham salad) are classic for S. aureus food poisoning. Foods most frequently implicated include salted meats, ham, potato or macaroni salad, and cream-filled pastries. C. jejuni causes diarrheal illness associated with undercooked chicken. C. perfringens causes watery diarrhea (8\u201324 h) from reheated meats. B. cereus emetic form is associated with fried rice (1\u20136 h). Salmonella food poisoning causes bloody diarrhea 16 h to 2 days after ingestion.",
       "keypoints": [
-        "\u2b50 S. aureus food poisoning: preformed heat-stable enterotoxin; rapid onset (1-6 hours); vomiting > diarrhea; NO fever",
-        "\u2b50 Heat-stable enterotoxin: survives cooking; produced by colonized food handlers contaminating protein-rich/salty foods (ham, potato salad, cream pastries)",
-        "S. aureus enterotoxins are superantigens activating T cells but causing disease via enteric nervous system stimulation",
-        "Short incubation (1-6h) + vomiting dominant + no fever = preformed toxin (S. aureus or B. cereus emetic form)"
+        "\u2b50 S. aureus food poisoning: 1\u20136 hour incubation (preformed heat-stable toxin), predominantly VOMITING, no fever",
+        "\u2b50 The heat-stable enterotoxin acts as a superantigen on vagal nerve endings \u2192 emesis center stimulation",
+        "\u2b50 Classic foods: ham, potato/macaroni salad, cream-filled pastries \u2014 high-salt or high-sugar foods handled by colonized food workers",
+        "Compare: C. perfringens (8\u201324 h, watery diarrhea, reheated meat), B. cereus emetic (1\u20136 h, fried rice), Salmonella (16 h\u20132 days, bloody diarrhea)"
       ]
     },
     {
-      "id": "q118",
-      "tag": "micro_bacteriology",
+      "id": "lipp-micro-ch1-q118",
+      "tag": "micro",
       "examLevel": "step1",
-      "system": "Bacteriology",
-      "contentType": "Microbiology",
-      "stem": "A 7-year-old boy presents to the emergency depart- ment with fever, abdominal pain, and tenderness in  the right lower quadrant. A white blood cell count  reveals leukocytosis. Suspecting appendicitis, the  child is taken to surgery; however, the removed  appendix is grossly and histologically normal. The  bacterial cause for the boy\u2019s symptoms was subse- quently identifi ed as a Gram-negative rod after cold  enrichment of fecal cultures. What is the etiology of  this infection?",
+      "system": "GI/Nutrition",
+      "contentType": "clinical",
+      "stem": "A 7-year-old boy presents to the emergency department with fever, abdominal pain, and tenderness in the right lower quadrant. A white blood cell count reveals leukocytosis. Suspecting appendicitis, the child is taken to surgery; however, the removed appendix is grossly and histologically normal. The bacterial cause for the boy's symptoms was subsequently identified as a Gram-negative rod after cold enrichment of fecal cultures. What is the etiology of this infection?",
       "choices": [
         "Campylobacter jejuni",
-        "Clostridium diffi cile",
+        "Clostridium difficile",
         "Salmonella typhi",
         "Vibrio parahaemolyticus",
         "Yersinia enterocolitica"
       ],
       "answer": 4,
-      "explanation": "Yersinia enterocolitica. This Gram- negative rod usually causes a diarrheal illness but can  also cause infections that mimic appendicitis. Y. entero- colitica is part of the normal intestinal fl ora of cattle  and other farm animals. Human infection occurs by  ingestion of food or water contaminated with animal  feces. The organism is able to grow at refrigerated tem- peratures while other organisms present in the same  fecal sample cannot. This isolation technique is known  as cold enrichment. S. typhi and C. jejuni have been  isolated from diseased appendices; however, these  organisms are isolated at 37 \u00b0C. C. diffi cile is an anaero- bic, Gram-positive rod causing antibiotic-associated  diarrhea and pseudomembranous colitis. Vibrio para- haemolyticus, a curved, Gram-negative rod, causes a  diarrheal illness following ingestion of inadequately  cooked seafood.",
+      "explanation": "The answer is E: Yersinia enterocolitica. This Gram-negative rod usually causes a diarrheal illness but can also cause infections that mimic appendicitis (pseudoappendicitis) due to mesenteric lymphadenitis and terminal ileitis. Y. enterocolitica is part of the normal intestinal flora of cattle and other farm animals. Human infection occurs by ingestion of food or water contaminated with animal feces. The organism is able to grow at refrigerated temperatures (4\u00b0C) while other organisms present in the same fecal sample cannot \u2014 this isolation technique is known as cold enrichment. S. typhi and C. jejuni have been isolated from diseased appendices but are isolated at 37\u00b0C. C. difficile is an anaerobic Gram-positive rod. Vibrio parahaemolyticus causes a diarrheal illness following ingestion of raw seafood.",
       "keypoints": [
-        "\u2b50 Yersinia enterocolitica: Gram-negative rod; causes pseudoappendicitis (RLQ pain, fever) especially in children; grows at 4\u00b0C",
-        "\u2b50 Y. enterocolitica laboratory hallmark: cold enrichment at 4\u00b0C selects for Yersinia while other organisms die; CIN agar for culture",
-        "Y. enterocolitica transmission: undercooked pork (especially chitterlings), contaminated water, blood transfusion from refrigerator-stored blood",
-        "Serology: cross-reacts with Brucella and Yersinia pestis; treatment: TMP-SMZ or fluoroquinolone for severe disease"
+        "\u2b50 Yersinia enterocolitica causes pseudoappendicitis: right lower quadrant pain mimicking appendicitis (mesenteric lymphadenitis + terminal ileitis)",
+        "\u2b50 Cold enrichment (4\u00b0C growth) is the diagnostic clue \u2014 Y. enterocolitica is psychrotrophic; it thrives at refrigerator temperature",
+        "\u2b50 Source: pork products, contaminated water, farm animals (especially swine); transmitted fecal-orally",
+        "Other Yersinia: Y. pestis (plague, non-motile at 37\u00b0C), Y. pseudotuberculosis (also pseudoappendicitis, less common)"
       ]
     }
   ]
