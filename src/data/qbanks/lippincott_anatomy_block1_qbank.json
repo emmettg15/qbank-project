@@ -1,0 +1,1760 @@
+{
+  "config": {
+    "title": "Lippincott Anatomy & Embryology Block 1",
+    "subtitle": "General principles, early development, pelvis/perineum embryology, back, and upper limb anatomy",
+    "passingFraction": 0.75,
+    "tags": {
+      "cardio": {
+        "label": "Cardiovascular"
+      },
+      "pulm": {
+        "label": "Pulmonary"
+      },
+      "gi": {
+        "label": "Gastrointestinal"
+      },
+      "renal": {
+        "label": "Renal/Urinary"
+      },
+      "heme": {
+        "label": "Hematology/Oncology"
+      },
+      "endo": {
+        "label": "Endocrine"
+      },
+      "repro": {
+        "label": "Reproductive"
+      },
+      "msk": {
+        "label": "Musculoskeletal/Derm"
+      },
+      "neuro": {
+        "label": "Neurology"
+      },
+      "immuno": {
+        "label": "Immunology/ID"
+      },
+      "pharm": {
+        "label": "Pharmacology"
+      },
+      "biochem": {
+        "label": "Biochemistry"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q1_001",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "Which of the following is true of the anatomical position?",
+      "choices": [
+        "The humerus is proximal to the scapula.",
+        "The radius is medial to the ulna.",
+        "The vertebral arch is ventral to the vertebral body.",
+        "The femur is superior to the fibula.",
+        "The phalanges of the foot are cranial to the metatarsals."
+      ],
+      "answer": 3,
+      "explanation": "In the anatomical position, the body stands erect facing forward with palms anterior; the thigh (femur) lies superior to the leg, so the femur is superior to the fibula. The humerus is distal (not proximal) to the scapula, hanging from its lateral corner. The radius lies lateral, not medial, to the ulna. The vertebral arch is dorsal, not ventral, to the vertebral body.",
+      "keypoints": [
+        "\u2b50 Anatomical position: standing erect, palms facing anterior, toes pointing anterior, feet together",
+        "The femur is superior to both the tibia and fibula in this position",
+        "Radius = lateral forearm bone; ulna = medial forearm bone",
+        "Vertebral arch (pedicles + laminae) sits posterior (dorsal) to the vertebral body"
+      ]
+    },
+    {
+      "id": "q1_002",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "If the body were sectioned along a ___ plane, it would be divided into ___ portions.",
+      "choices": [
+        "sagittal\u2026anterior and posterior",
+        "sagittal\u2026superior and inferior",
+        "coronal\u2026superior and inferior",
+        "coronal\u2026right and left",
+        "horizontal\u2026superior and inferior"
+      ],
+      "answer": 4,
+      "explanation": "A horizontal (transverse/axial) plane lies perpendicular to both the median and coronal planes and divides the body into superior and inferior portions. A sagittal plane divides the body into right and left portions, not anterior/posterior or superior/inferior. A coronal (frontal) plane divides the body into anterior and posterior portions, not superior/inferior or right/left.",
+      "keypoints": [
+        "\u2b50 Horizontal (transverse/axial) plane \u2192 superior vs. inferior portions",
+        "Sagittal plane \u2192 right vs. left portions (median sagittal plane divides into equal halves)",
+        "Coronal (frontal) plane \u2192 anterior vs. posterior portions",
+        "All three planes are mutually perpendicular"
+      ]
+    },
+    {
+      "id": "q1_003",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "Which of the following is true of a median plane of the hand?",
+      "choices": [
+        "It becomes a horizontal plane when the hand is medially rotated 90 degrees.",
+        "It becomes a coronal plane when the brachium (upper arm) is laterally rotated 90 degrees and abducted 90 degrees.",
+        "It is the same as a frontal plane.",
+        "It remains a median plane regardless of limb or body position.",
+        "It is oriented mediolaterally."
+      ],
+      "answer": 3,
+      "explanation": "All anatomical descriptions are relative to the standard anatomical position; regardless of how a limb or the body is actually postured, the observer mentally transposes it back to the anatomical position, so the median plane of the hand is always described as the median plane. A median plane runs longitudinally through the middle (third) digit and is anteroposterior, not mediolateral, and it is perpendicular (not identical) to the frontal plane.",
+      "keypoints": [
+        "\u2b50 Anatomical descriptions never change with actual limb position \u2014 always referenced to standard anatomical position",
+        "Median plane of the hand runs through the middle (3rd) digit",
+        "A median (sagittal) plane is perpendicular to a frontal (coronal) plane",
+        "This convention avoids confusion when limbs are rotated or flexed during exam or imaging"
+      ]
+    },
+    {
+      "id": "q1_004",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A radiologist wishes to image the body in a plane parallel to both scapulae. Which of the following choices best describes the desired sectioning?",
+      "choices": [
+        "Horizontal section",
+        "Transverse section",
+        "Frontal section",
+        "Sagittal section",
+        "Oblique section"
+      ],
+      "answer": 2,
+      "explanation": "The scapulae lie flat across the back, and a plane running parallel to both of them is a frontal (coronal) plane, dividing the body into anterior and posterior parts. A horizontal section passes at right angles to both median and coronal planes (superior/inferior division), and a sagittal section runs parallel to the median plane (right/left division) \u2014 neither is parallel to the scapulae.",
+      "keypoints": [
+        "\u2b50 Frontal (coronal) plane = plane parallel to the coronal suture and scapulae; divides body anterior/posterior",
+        "Transverse section = section perpendicular to the long axis of a structure (not always equal to horizontal)",
+        "A horizontal section of the abdomen often cuts obliquely through coiled bowel loops",
+        "Useful memory: 'coronal' shares its root with the coronal suture of the skull, which runs side-to-side like the scapulae"
+      ]
+    },
+    {
+      "id": "q1_005",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A young boy uses his right hand to screw-in a new light bulb. Which of the following terms best describes the screw-home movement of his forearm?",
+      "choices": [
+        "Flexion",
+        "Abduction",
+        "Pronation",
+        "Adduction",
+        "Supination"
+      ],
+      "answer": 4,
+      "explanation": "The screw-home (clockwise, right-handed) motion of driving a bulb into its socket occurs as the palm and forearm rotate laterally, moving the palm from posterior to anterior facing \u2014 this is supination. Pronation is the opposite movement (palm rotates medially) and would actually unscrew the bulb with the right hand, though it is the screw-home motion for the left hand. Flexion/abduction/adduction describe movements in different planes, not forearm rotation.",
+      "keypoints": [
+        "\u2b50 Supination: palm rotates to face anterior (as when holding a bowl of soup)",
+        "Pronation: palm rotates to face posterior",
+        "Right-hand screw-home motion = supination; left-hand screw-home motion = pronation",
+        "Supination/pronation occur at the proximal and distal radioulnar joints, not the wrist"
+      ]
+    },
+    {
+      "id": "q1_006",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "Bones are often classified according to their shape and/or developmental pattern. Which of the following choices is an example of a flat bone?",
+      "choices": [
+        "Humerus",
+        "Sternum",
+        "Hamate",
+        "Maxilla",
+        "Patella"
+      ],
+      "answer": 1,
+      "explanation": "The sternum, along with the bones of the calvaria, is a classic flat bone \u2014 subcutaneous, relatively thick, and commonly used for bone marrow collection. The humerus is a long bone with a medullary cavity; the hamate is a short (carpal) bone lacking a medullary cavity; the maxilla is an irregular bone; and the patella is a sesamoid bone formed within a tendon.",
+      "keypoints": [
+        "\u2b50 Flat bones: sternum and calvarial bones \u2014 subcutaneous, used for marrow biopsy (sternum, iliac crest)",
+        "Long bones (e.g., humerus) have a diaphysis with a medullary cavity",
+        "Short bones (e.g., carpals, tarsals) lack a medullary cavity",
+        "Sesamoid bones (e.g., patella) form within tendons to improve mechanical advantage at joints"
+      ]
+    },
+    {
+      "id": "q1_009",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "Which of the following is an example of a cartilaginous joint?",
+      "choices": [
+        "Humeroulnar joint",
+        "Middle radioulnar joint",
+        "Intervertebral disc joint",
+        "Cranial sutural joint",
+        "Tibiotalar joint"
+      ],
+      "answer": 2,
+      "explanation": "The intervertebral disc joints, along with the pubic symphysis, mental symphysis, and epiphyseal plates, are cartilaginous joints in which bones are united by hyaline cartilage or fibrocartilage. The humeroulnar and tibiotalar joints are synovial joints, and the middle radioulnar and cranial sutural joints are fibrous joints.",
+      "keypoints": [
+        "\u2b50 Cartilaginous joints: intervertebral discs, pubic symphysis, mental symphysis, epiphyseal plates",
+        "Fibrous joints: sutures, interosseous membrane (middle radioulnar joint), syndesmoses",
+        "Synovial joints: most joints of the limbs (e.g., humeroulnar, tibiotalar) \u2014 have a joint cavity and synovial fluid",
+        "Cartilaginous joints allow limited movement but provide strong, shock-absorbing unions"
+      ]
+    },
+    {
+      "id": "q1_010",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "Synovial joints allow free movement between their bony elements. They are classified into multiple subtypes according to the shape of the articulating surfaces and/or the degree of movement allowed. Which of the following synovial joint types permits multiaxial movement?",
+      "choices": [
+        "Pivot",
+        "Ball and socket",
+        "Condyloid",
+        "Saddle",
+        "Hinge"
+      ],
+      "answer": 1,
+      "explanation": "Ball-and-socket joints, such as the hip and glenohumeral joints, allow multiaxial movement including flexion-extension, abduction-adduction, and medial-lateral rotation. Pivot joints (e.g., proximal radioulnar joint) allow only uniaxial rotation, hinge joints (e.g., humeroulnar joint) allow only uniaxial flexion-extension, and condyloid/saddle joints typically allow biaxial movement.",
+      "keypoints": [
+        "\u2b50 Ball-and-socket joints (hip, shoulder) = multiaxial, most mobile joint type",
+        "Hinge joints (elbow) and pivot joints (proximal radioulnar, atlantoaxial) = uniaxial",
+        "Condyloid (metacarpophalangeal) and saddle (carpometacarpal of thumb) joints = biaxial",
+        "Greater mobility (as in the shoulder) generally trades off with reduced joint stability"
+      ]
+    },
+    {
+      "id": "q1_012",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A physician delivers an intramuscular injection into the lateral aspect of the shoulder. Which of the following sequences describes the correct order of tissue layers pierced by the needle, passing from superficial to deep?",
+      "choices": [
+        "Epidermis, dermis, superficial fascia, epimysium, deep fascia",
+        "Dermis, epidermis, superficial fascia, deep fascia, epimysium",
+        "Dermis, epidermis, superficial fascia, epimysium, deep fascia",
+        "Epidermis, dermis, superficial fascia, deep fascia, epimysium",
+        "Epidermis, superficial fascia, dermis, deep fascia, epimysium"
+      ],
+      "answer": 3,
+      "explanation": "From superficial to deep, a needle passes through the epidermis, the dermis, the superficial fascia (fatty subcutaneous tissue), the deep fascia (dense fat-free connective tissue), and finally the epimysium investing the muscle. Any sequence placing the dermis superficial to the epidermis, or the epimysium superficial to the deep fascia, is incorrect.",
+      "keypoints": [
+        "\u2b50 Correct order: epidermis \u2192 dermis \u2192 superficial fascia \u2192 deep fascia \u2192 epimysium \u2192 muscle",
+        "Superficial fascia = subcutaneous fat (loose connective tissue)",
+        "Deep fascia = dense, fat-free connective tissue layer investing muscle groups",
+        "Epimysium is a deep extension of deep fascia tightly wrapping an individual muscle"
+      ]
+    },
+    {
+      "id": "q1_013",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A 20-year-old college student on spring break suffers a first-degree sunburn on her back and upper limbs. Which of the following integumentary structures/functions is most likely affected?",
+      "choices": [
+        "Hair follicles",
+        "Subcutaneous fat",
+        "Vitamin A production",
+        "Parasympathetic nerve endings",
+        "General sensory nerve endings"
+      ],
+      "answer": 4,
+      "explanation": "First-degree burns are superficial injuries limited to the epidermis, where many general sensory (pain) nerve endings terminate, accounting for the pain of sunburn. Hair follicles and subcutaneous fat lie deeper and are typically spared in first-degree burns; the skin produces vitamin D, not vitamin A; and parasympathetic fibers are not distributed to the body wall/limb skin at all.",
+      "keypoints": [
+        "\u2b50 First-degree burns damage only the epidermis (e.g., typical sunburn)",
+        "Second-degree burns extend into superficial dermis; third-degree burns are full-thickness",
+        "General sensory (GSA) nerve endings penetrate into the epidermis and mediate burn pain",
+        "Skin synthesizes vitamin D, not vitamin A"
+      ]
+    },
+    {
+      "id": "q1_014",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A teenage boy breaks a pane of glass with his fist and receives a laceration to the posterior aspect of his wrist. He notices the tendons that cross his wrist lift out of place (or bowstring) when he extends his wrist. Which of the following structures was most likely cut by the broken glass?",
+      "choices": [
+        "Investing deep fascia",
+        "Intermuscular septum",
+        "Bursa",
+        "Retinaculum",
+        "Synovial tendon sheath"
+      ],
+      "answer": 3,
+      "explanation": "A retinaculum is a thickened band of deep fascia that holds tendons in place as they cross a joint, preventing them from bowstringing during joint movement; its disruption explains the tendon lift-off. A bursa and synovial tendon sheath reduce friction but do not anchor tendons in place, and an intermuscular septum separates muscle compartments rather than restraining crossing tendons.",
+      "keypoints": [
+        "\u2b50 Retinacula (e.g., extensor/flexor retinaculum of the wrist) prevent tendon bowstringing across joints",
+        "Bursae are fluid-filled sacs that reduce friction between structures, not tendon restraints",
+        "Synovial tendon sheaths are elongated bursae enclosing tendons, common at the wrist and ankle",
+        "Intermuscular septa organize muscles into osseofascial compartments"
+      ]
+    },
+    {
+      "id": "q1_015",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A 17-year-old boy engages in an intensive weight-lifting program to build muscle strength. The growth of his muscles is the result of which of the following processes?",
+      "choices": [
+        "Atrophy",
+        "Hypertrophy",
+        "Hyperplasia",
+        "Tonus",
+        "Shunting"
+      ],
+      "answer": 1,
+      "explanation": "Postnatal muscle growth from resistance exercise results from hypertrophy \u2014 an increase in the size (and number of myofibrils) of existing muscle fibers \u2014 rather than the creation of new fibers. Hyperplasia (an increase in fiber number) is not the normal mechanism of exercise-induced growth in adults, and atrophy describes muscle wasting, the opposite process.",
+      "keypoints": [
+        "\u2b50 Skeletal muscle growth with exercise = hypertrophy (increased fiber size), not hyperplasia",
+        "Limited hyperplasia can occur postnatally via satellite cells after muscle trauma/degeneration",
+        "Atrophy = muscle wasting, often from denervation or disuse",
+        "Muscle tonus is baseline partial contraction, unrelated to strength training gains"
+      ]
+    },
+    {
+      "id": "q1_017",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Anatomy",
+      "stem": "Which of the following structures are innervated by somatic motor neurons?",
+      "choices": [
+        "Meissner corpuscles",
+        "Arrector pili muscles of hair follicles",
+        "Myocardium of the left ventricle",
+        "Wall of the axillary artery",
+        "Semispinalis muscle"
+      ],
+      "answer": 4,
+      "explanation": "Somatic motor (general somatic efferent) neurons innervate skeletal muscle derived from embryonic myotomes, such as the semispinalis muscle of the back. Meissner corpuscles carry general sensory (afferent) information, while arrector pili muscles, cardiac muscle, and vascular smooth muscle are all innervated by visceral motor (autonomic) neurons, not somatic motor neurons.",
+      "keypoints": [
+        "\u2b50 Somatic motor (GSE) neurons supply only skeletal muscle derived from myotomes",
+        "Smooth muscle (arrector pili, vessel walls) and cardiac muscle are innervated by autonomic (GVE) neurons",
+        "Meissner corpuscles are sensory receptors, carrying GSA fibers, not motor",
+        "Five functional nerve fiber components: GSA, GVA, GVE, GSE, and special sensory"
+      ]
+    },
+    {
+      "id": "q1_019",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Anatomy",
+      "stem": "A man exhibits anhydrosis (lack of sweating) and erythema (flushing) on his chest due to loss of sympathetic innervation. A thorough neurological analysis reveals dysfunction of presynaptic (preganglionic) sympathetic nerve cell bodies. Which of the following sites is most likely damaged in this patient?",
+      "choices": [
+        "Brainstem",
+        "Lateral gray horn of the spinal cord",
+        "Sympathetic chain ganglia",
+        "Prevertebral ganglia",
+        "Dorsal root ganglia"
+      ],
+      "answer": 1,
+      "explanation": "Presynaptic sympathetic neuron cell bodies reside in the lateral gray horn of the spinal cord at levels T1 through L2/L3, giving the sympathetic division its thoracolumbar outflow. The brainstem houses presynaptic parasympathetic neurons (craniosacral outflow); the sympathetic chain and prevertebral ganglia contain postsynaptic sympathetic cell bodies; and dorsal root ganglia house sensory, not motor, neuron cell bodies.",
+      "keypoints": [
+        "\u2b50 Presynaptic sympathetic cell bodies: lateral gray horn, spinal levels T1\u2013L2/L3 (thoracolumbar outflow)",
+        "Presynaptic parasympathetic cell bodies: brainstem nuclei (CN III, VII, IX, X) and sacral cord S2-4 (craniosacral outflow)",
+        "Postsynaptic sympathetic cell bodies: sympathetic chain ganglia (limbs/body wall) and prevertebral ganglia (abdominopelvic viscera)",
+        "Dorsal root ganglia contain pseudounipolar sensory neuron cell bodies only"
+      ]
+    },
+    {
+      "id": "q1_020",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Pharmacology",
+      "stem": "A research scientist at a pharmaceutical company discovers a new drug that selectively blocks the release of norepinephrine from nerve endings. At which of the following sites would this drug have the greatest effect on normal synaptic transmission?",
+      "choices": [
+        "Somatic neuron motor end plates",
+        "Postsynaptic parasympathetic nerve terminals",
+        "Postsynaptic sympathetic nerve terminals",
+        "Synapses between presynaptic and postsynaptic parasympathetic neurons",
+        "Synapses between presynaptic and postsynaptic sympathetic neurons"
+      ],
+      "answer": 2,
+      "explanation": "Postsynaptic sympathetic neurons are noradrenergic, releasing norepinephrine at their terminals (with the notable exception of sweat glands, which receive cholinergic postsynaptic sympathetic fibers), so a norepinephrine-release blocker would most affect these terminals. Somatic motor end plates and all pre-to-postganglionic autonomic synapses use acetylcholine, as do postsynaptic parasympathetic terminals.",
+      "keypoints": [
+        "\u2b50 Postsynaptic sympathetic terminals are noradrenergic (release norepinephrine) \u2014 main exception: sweat glands (cholinergic)",
+        "All autonomic ganglionic synapses (pre-to-postsynaptic) use acetylcholine, in both divisions",
+        "Postsynaptic parasympathetic terminals and somatic motor end plates are cholinergic",
+        "This distinction underlies selectivity of many autonomic and sympathomimetic/lytic drugs"
+      ]
+    },
+    {
+      "id": "q2_001",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Biochemistry",
+      "stem": "A young couple hoping for a pregnancy buys an over-the-counter pregnancy kit. What substance will this test most likely detect?",
+      "choices": [
+        "Early pregnancy factor (EPF)",
+        "Human chorionic gonadotropin",
+        "Progesterone",
+        "Estrogen",
+        "Luteinizing hormone (LH)"
+      ],
+      "answer": 1,
+      "explanation": "Over-the-counter pregnancy tests detect human chorionic gonadotropin (hCG), a glycoprotein produced by the syncytiotrophoblast that maintains the corpus luteum; it is detectable in urine after implantation. Early pregnancy factor appears earlier (24\u201348 hours post-fertilization) but requires costly detection methods not used in home kits. Progesterone and estrogen support pregnancy but are not used as detection markers, and LH surges before ovulation rather than signaling pregnancy.",
+      "keypoints": [
+        "\u2b50 Home pregnancy tests detect urinary hCG, produced by the syncytiotrophoblast",
+        "hCG maintains the corpus luteum, sustaining progesterone production until the placenta takes over",
+        "hCG is not detectable until after implantation (~6\u201312 days post-fertilization), risking false negatives if tested too early",
+        "Early pregnancy factor (EPF) appears earlier but is not practical for over-the-counter testing"
+      ]
+    },
+    {
+      "id": "q2_002",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Anatomy",
+      "stem": "The given illustration depicts the passage of a human egg through the female reproductive tract from ovulation to implantation. These events occur during the 1st week of development. Fertilization normally occurs at which of the indicated steps?",
+      "choices": [
+        "Preovulatory follicle",
+        "Immediate postovulation",
+        "Ampullary region of the uterine tube",
+        "2-cell stage",
+        "Early blastocyst stage"
+      ],
+      "answer": 2,
+      "explanation": "Fertilization normally occurs in the ampullary region of the uterine tube, the expanded distal segment near the ovary, where sperm (after capacitation and the acrosome reaction) meet the oocyte. At the preovulatory and immediate postovulation stages the oocyte is not yet accessible for fertilization, and the 2-cell and blastocyst stages represent post-fertilization development as the zygote travels toward and implants in the uterus.",
+      "keypoints": [
+        "\u2b50 Fertilization site: ampulla of the uterine tube",
+        "Sperm must undergo capacitation and the acrosome reaction before fertilizing the oocyte",
+        "The zygote reaches the uterine cavity as a 16-cell morula ~3\u20134 days after fertilization",
+        "By ~4.5 days the conceptus is an early blastocyst; the zona pellucida disappears just before implantation"
+      ],
+      "image": "/images/anatomy_ch2/lippincott anatomy ch2 q2.png",
+      "imageAlt": "Diagram of the female reproductive tract showing ovulation, fertilization, and transport of the egg to the uterus",
+      "imageCaption": "Passage of the oocyte from ovary to implantation during week 1 of development"
+    },
+    {
+      "id": "q2_003",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Pathophysiology",
+      "stem": "A 43-year-old pregnant woman at 16 weeks of gestation comes to her OB/GYN for a normal examination. During routine blood tests, her serum a-fetoprotein (AFP) concentration is markedly decreased for her gestational age. Which abnormality or condition will the physician need to rule out based upon these low AFP levels?",
+      "choices": [
+        "Down syndrome",
+        "Spina bifida",
+        "Anencephaly",
+        "Multifetal pregnancy",
+        "Hepatocellular carcinoma"
+      ],
+      "answer": 0,
+      "explanation": "Decreased maternal serum AFP is associated with chromosomal defects such as Down syndrome (trisomy 21) and trisomy 18, warranting further workup (e.g., amniocentesis). Spina bifida and anencephaly are neural tube defects that raise (not lower) AFP because of exposed neural tissue leaking AFP into the amniotic fluid; multifetal pregnancy and hepatocellular carcinoma likewise elevate, rather than decrease, AFP.",
+      "keypoints": [
+        "\u2b50 Decreased maternal serum AFP \u2192 chromosomal abnormalities (Down syndrome, trisomy 18)",
+        "Increased maternal serum AFP \u2192 neural tube defects (spina bifida, anencephaly), abdominal wall defects, multifetal pregnancy",
+        "AFP is produced by the fetal liver and yolk sac and crosses into maternal blood",
+        "Maternal age over 35 increases risk of fetal chromosomal abnormalities"
+      ]
+    },
+    {
+      "id": "q2_005",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Anatomy",
+      "stem": "Which structure is derived from the same embryonic primordia as the spinal (posterior root) ganglia?",
+      "choices": [
+        "Adrenal medulla",
+        "Kidney",
+        "Liver",
+        "Lungs",
+        "Vertebrae"
+      ],
+      "answer": 0,
+      "explanation": "Both the spinal (dorsal root) ganglia and the chromaffin cells of the adrenal medulla arise from neural crest cells. The kidney arises from intermediate mesoderm, the liver and lungs from endodermal gut tube outgrowths, and the vertebrae from the sclerotome portion of paraxial mesoderm-derived somites \u2014 none of which are neural crest derivatives.",
+      "keypoints": [
+        "\u2b50 Neural crest derivatives: dorsal root ganglia, adrenal medulla, autonomic ganglia, Schwann cells, melanocytes, thyroid C cells",
+        "Kidney and gonads arise from intermediate mesoderm",
+        "Liver and lungs arise as endodermal outgrowths of the foregut",
+        "Vertebrae arise from sclerotome (paraxial mesoderm-derived somites)"
+      ]
+    },
+    {
+      "id": "q2_006",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Anatomy",
+      "stem": "The given illustration shows a dorsal view of a human embryo. In the embryo, neurulation is well underway, and several distinct somites are present on each side of the neural tube. The development of the embryo depicted in this illustration is typical of which of the following embryonic periods?",
+      "choices": [
+        "Week 1",
+        "Week 2",
+        "Week 3",
+        "Week 4",
+        "Week 5"
+      ],
+      "answer": 3,
+      "explanation": "Most of neurulation (neural tube formation), substantial somite differentiation, and early pharyngeal arch/limb bud appearance occur during week 4; an embryo with near-complete neural tube closure and numerous defined somites is characteristic of this stage. Week 3 features gastrulation and trilaminar disc formation (only beginning neurulation), week 1\u20132 predate germ layer/neural tube formation entirely, and by week 5 limb buds and pharyngeal arches are already well developed beyond what is shown.",
+      "keypoints": [
+        "\u2b50 Week 3 = gastrulation, trilaminar germ disc ('threes' for 3 germ layers)",
+        "Week 4 = neurulation completes, somite differentiation, pharyngeal arches and upper limb bud appear",
+        "Somite number is used to accurately stage embryos between weeks 3\u20135 (~3 pairs added per day)",
+        "Weeks 3\u20138 constitute the embryonic (organogenesis) period, most sensitive to teratogens"
+      ]
+    },
+    {
+      "id": "q2_007",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Anatomy",
+      "stem": "A male newborn suffers a complex of congenital defects involving malformation of the urinary and genital ducts. Examination of his family history reveals several members sharing a similar background of urinary and genital problems spanning three generations. These issues may be related to a genetic defect that is expressed in which of the following embryonic sites?",
+      "choices": [
+        "Intermediate mesoderm",
+        "Paraxial mesoderm",
+        "Neural crest",
+        "Surface ectoderm",
+        "Yolk sac endoderm"
+      ],
+      "answer": 0,
+      "explanation": "The urinary and genital systems both develop from the intermediate mesoderm, which forms the urogenital ridge giving rise to the excretory organs, gonads, and genital duct system, so heritable defects in this region manifest as combined urogenital malformations. Paraxial mesoderm forms somites (muscle, dermis, axial skeleton); neural crest forms diverse structures including ganglia and pigment cells; surface ectoderm forms skin and its appendages; and yolk sac endoderm largely forms the gut lining.",
+      "keypoints": [
+        "\u2b50 Intermediate mesoderm \u2192 urogenital ridge \u2192 kidneys, gonads, genital ducts",
+        "Paraxial mesoderm \u2192 somites \u2192 sclerotome, dermatome, myotome",
+        "Neural crest \u2192 autonomic/sensory ganglia, melanocytes, adrenal medulla, pharyngeal skeleton",
+        "Primordial germ cells originate in the epiblast, migrate through the yolk sac wall, then colonize the genital ridges"
+      ]
+    },
+    {
+      "id": "q2_008",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Anatomy",
+      "stem": "In a 15-day embryo, the epiblast is capable of forming which of the following germ layers?",
+      "choices": [
+        "Ectoderm only",
+        "Ectoderm and mesoderm only",
+        "Ectoderm and endoderm only",
+        "Mesoderm and endoderm only",
+        "Ectoderm, mesoderm, and endoderm"
+      ],
+      "answer": 4,
+      "explanation": "During gastrulation, epiblast cells that invaginate through the primitive streak displace the hypoblast to form definitive endoderm and also generate the intraembryonic mesoderm, while epiblast cells that do not migrate remain to form the ectoderm \u2014 so the epiblast is the source of all three germ layers. Any answer omitting one of the three layers misses part of this process, since endoderm, mesoderm, and ectoderm all trace back to epiblast-derived cells.",
+      "keypoints": [
+        "\u2b50 The epiblast is the sole source of all three germ layers via gastrulation",
+        "Invaginating epiblast cells at the primitive streak displace the hypoblast to become definitive endoderm",
+        "Migrating epiblast cells that remain between the germ layers become intraembryonic mesoderm",
+        "Non-migrating epiblast cells that stay on the dorsal surface become ectoderm"
+      ]
+    },
+    {
+      "id": "q2_009",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "The given illustration represents a lateral view of an approximately 25-day-old human embryo. Disruption of further development of the structures indicated by the \"X\" could directly affect the formation of which of the following structures?",
+      "choices": [
+        "Bones in the hand",
+        "Skeletal muscles in the arm",
+        "Body hair",
+        "Lining of the intestines",
+        "Melanocytes in the skin"
+      ],
+      "answer": 1,
+      "explanation": "The structures marked \"X\" are somites, derived from paraxial mesoderm, whose myotome portion splits into an epimere (intrinsic back muscles) and hypomere (anterolateral body wall and limb muscles) \u2014 so somite disruption would impair skeletal muscle formation in the arm. Limb bones and dermis instead arise from lateral plate (somatic) mesoderm, body hair and melanocytes derive from ectoderm/neural crest, and intestinal lining derives from endoderm.",
+      "keypoints": [
+        "\u2b50 Somites (paraxial mesoderm) \u2192 myotome (skeletal muscle), dermatome (dermis), sclerotome (axial skeleton)",
+        "Myotome splits into epimere (back muscles) and hypomere (limb and body wall muscles)",
+        "Limb bones arise from lateral plate (somatic) mesoderm, not somites",
+        "Melanocytes are neural crest derivatives; gut lining is endoderm-derived"
+      ],
+      "image": "/images/anatomy_ch2/lippincott anatomy ch2 q9.png",
+      "imageAlt": "Lateral view diagram of a 25-day human embryo with somites and pharyngeal arches labeled, X marking the somites",
+      "imageCaption": "Lateral view of a 25-day embryo; X indicates the somites"
+    },
+    {
+      "id": "q2_010",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Anatomy",
+      "stem": "A 28-year-old woman who does not know that she is pregnant undergoes a chemotherapy treatment at the end of her 1st week of pregnancy. Chemotherapy is associated with slowing the rate of mitosis in exposed cells. In which of the following layers would a lowered rate of cell division be most likely to hinder implantation of the blastocyst?",
+      "choices": [
+        "Amnioblast",
+        "Epiblast",
+        "Hypoblast",
+        "Cytotrophoblast",
+        "Syncytiotrophoblast"
+      ],
+      "answer": 3,
+      "explanation": "The cytotrophoblast is the mitotically active inner layer of the trophoblast that forms primary chorionic villi and supplies cells that migrate into and expand the syncytiotrophoblast, so slowed mitosis here would directly impair implantation. The syncytiotrophoblast itself is mitotically inactive and depends on cytotrophoblast input; the amnioblast, epiblast, and hypoblast contribute to the embryo proper and amnion but are not the drivers of trophoblastic invasion.",
+      "keypoints": [
+        "\u2b50 Cytotrophoblast is the mitotically active layer that drives trophoblast/placental expansion",
+        "Syncytiotrophoblast is multinucleated, mitotically inactive, and erodes the endometrium",
+        "Epiblast/hypoblast form the bilaminar disc (embryo proper), not the implanting trophoblast",
+        "Chemotherapy's antimitotic effect can impair implantation by targeting rapidly dividing cytotrophoblast"
+      ]
+    },
+    {
+      "id": "q2_011",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Anatomy",
+      "stem": "A 20-year-old woman is surprised to discover that she is pregnant. Following a review of her menstrual history and sexual activity, her physician determines that she is in the 4th week of pregnancy. Which of the following best describes the condition of the embryo at this time?",
+      "choices": [
+        "Gastrulation is complete, resulting in two germ layers",
+        "The embryo is entering a period of relative resistance to teratogenic substances",
+        "Neurulation is nearly complete",
+        "Somites have not yet formed",
+        "The trophoblast is present, but the syncytiotrophoblast has not yet formed"
+      ],
+      "answer": 2,
+      "explanation": "By the end of week 4, neurulation (which begins late in week 3) is nearly complete, along with substantial somite differentiation and the appearance of the pharyngeal arches and upper limb bud. Gastrulation (week 3) produces three, not two, germ layers; weeks 3\u20138 are the most teratogen-sensitive period, not resistant; somites are well underway by week 4; and the syncytiotrophoblast differentiates from the trophoblast early in week 2.",
+      "keypoints": [
+        "\u2b50 Week 4: neurulation nearly complete, ~26\u201329 somite pairs, pharyngeal arches and upper limb bud appear",
+        "Week 3 = gastrulation, forming all three germ layers (not two)",
+        "Weeks 3\u20138 are the most teratogen-sensitive ('critical') period of development, not resistant",
+        "Trophoblast differentiates into cytotrophoblast and syncytiotrophoblast early in week 2"
+      ]
+    },
+    {
+      "id": "q2_012",
+      "tag": "heme",
+      "system": "Hematology/Oncology",
+      "contentType": "Anatomy",
+      "stem": "A 4-month-old male infant presents with a \"growing sore\" located posterior to his left ear. This sore is diagnosed as a postauricular hemangioma, as seen in the given photo with the auricle pulled anterior. The cells forming the hemangioma are derived from which of the following cell layers?",
+      "choices": [
+        "Endoderm",
+        "Neural crest",
+        "Neuroectoderm",
+        "Ectoderm",
+        "Mesoderm"
+      ],
+      "answer": 4,
+      "explanation": "Hemangiomas are vascular tumors composed of proliferating blood vessels and vascular endothelium, both mesodermal derivatives (mesoderm gives rise to blood cells, vascular endothelium, connective tissue, and muscle). Endoderm forms gut and glandular epithelium, neural crest forms ganglia/pigment/pharyngeal skeletal elements, neuroectoderm forms CNS neurons and glia, and ectoderm forms epidermis and its appendages \u2014 none of which produce vascular endothelium.",
+      "keypoints": [
+        "\u2b50 Hemangiomas are mesodermal in origin (angioblasts/vascular endothelium, blood cells)",
+        "Mesoderm derivatives: muscle, connective tissue, bone, cartilage, blood, dermis, kidney, spleen, gonads",
+        "Neural crest derivatives include Schwann cells, ganglia, melanocytes, pharyngeal skeletal elements \u2014 not vessels",
+        "Postauricular hemangiomas are common benign vascular tumors of infancy, often regressing spontaneously"
+      ],
+      "image": "/images/anatomy_ch2/lippincott anatomy ch2 q12.png",
+      "imageAlt": "Clinical photo of a postauricular hemangioma behind the left ear of an infant, with the auricle pulled forward",
+      "imageCaption": "Postauricular hemangioma in a 4-month-old infant"
+    },
+    {
+      "id": "q2_013",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "The notochord forms the initial axial skeletal element of the body and induces the formation of the neural plate. Which of the following structures is the sole postnatal remnant of the embryonic notochord?",
+      "choices": [
+        "Spinal cord",
+        "Nucleus pulposus",
+        "Rib cage",
+        "Anulus fibrosus",
+        "Spinal meninges"
+      ],
+      "answer": 1,
+      "explanation": "The notochord is almost entirely replaced by sclerotomal cells forming the vertebral bodies, but its central core persists as the nucleus pulposus, the hydrostatic core of each intervertebral disc (the structure that herniates in a 'slipped disc'). The spinal cord derives from the neural tube (induced by, but not made from, the notochord); the rib cage and anulus fibrosus derive from sclerotome; and the meninges derive from mesoderm (dura) and neural crest (arachnoid/pia).",
+      "keypoints": [
+        "\u2b50 Nucleus pulposus = the only postnatal remnant of the notochord",
+        "Notochord induces neural plate formation but is itself replaced by sclerotome-derived vertebral bodies",
+        "Anulus fibrosus (surrounding the nucleus pulposus) is sclerotome-derived, not notochord-derived",
+        "Disc herniation involves the nucleus pulposus protruding through a weakened anulus fibrosus"
+      ]
+    },
+    {
+      "id": "q2_014",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Pathophysiology",
+      "stem": "A 22-year-old pregnant woman at 20 weeks of gestation comes to her OB/GYN for a scheduled prenatal examination. Routine blood tests indicate that her serum a-fetoprotein (AFP) concentration is markedly increased for her gestational age. Ultrasonography reveals a lower lumbar spina bifida in the fetus. During which weeks of gestation did this defect most likely occur?",
+      "choices": [
+        "1 to 2 weeks",
+        "4 to 6 weeks",
+        "9 to 11 weeks",
+        "12 to 15 weeks",
+        "16 to 19 weeks"
+      ],
+      "answer": 1,
+      "explanation": "Neurulation begins late in week 3, and the posterior neuropore normally closes around day 27 (week 4); failure of this closure produces lower neural tube defects such as spina bifida, so the defect arises during weeks 4\u20136. Weeks 1\u20132 precede neurulation entirely, and weeks 9 and beyond occur well after neural tube closure is normally complete, making them too late for the primary defect to originate.",
+      "keypoints": [
+        "\u2b50 Posterior neuropore closes ~day 27 (week 4); failure causes lower neural tube defects (spina bifida)",
+        "Anterior neuropore closes ~day 25; failure causes anencephaly or cranial defects",
+        "Neural tube defects are associated with elevated maternal serum and amniotic fluid AFP",
+        "Folic acid supplementation before/during early pregnancy reduces neural tube defect risk"
+      ]
+    },
+    {
+      "id": "q2_015",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A male infant presents with prune belly syndrome, as shown in the given photo. In this syndrome, the abdominal wall musculature is poorly developed, resulting in an abdominal wall so thin that the internal organs are visible and easily palpable. The muscles affected in this condition develop from which of the following embryonic sites?",
+      "choices": [
+        "Surface ectoderm",
+        "Intermediate mesoderm",
+        "Splanchnic mesoderm",
+        "Epimere",
+        "Hypomere"
+      ],
+      "answer": 4,
+      "explanation": "The hypomere, the ventral portion of the myotome, gives rise to muscles of the anterolateral body wall (including the abdominal wall) and limbs, so its maldevelopment underlies the deficient abdominal musculature of prune belly syndrome. The epimere instead forms the intrinsic back muscles; intermediate mesoderm forms the urogenital system (though prune belly syndrome also often features urinary anomalies, the muscle deficiency itself is hypomere-derived); splanchnic mesoderm forms cardiac/gut smooth muscle; and ectoderm does not form skeletal muscle.",
+      "keypoints": [
+        "\u2b50 Hypomere \u2192 anterolateral body wall and limb skeletal muscles (ventral primary rami innervate)",
+        "Epimere \u2192 intrinsic back muscles (dorsal primary rami innervate)",
+        "Prune belly (Eagle-Barrett) syndrome often also involves urinary tract anomalies and cryptorchidism",
+        "Splanchnic (visceral) mesoderm forms cardiac muscle and gut tube smooth muscle, not body wall skeletal muscle"
+      ],
+      "image": "/images/anatomy_ch2/lippincott anatomy ch2 q15.png",
+      "imageAlt": "Clinical photo of an infant with prune belly syndrome showing a thin, wrinkled abdominal wall with visible underlying organs",
+      "imageCaption": "Infant with prune belly (Eagle-Barrett) syndrome"
+    },
+    {
+      "id": "q2_016",
+      "tag": "renal",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "Which structure is derived from the same embryonic primordium as the kidney?",
+      "choices": [
+        "Gonad",
+        "Epidermis",
+        "Pineal gland",
+        "Liver",
+        "Adrenal medulla"
+      ],
+      "answer": 0,
+      "explanation": "Both the kidneys and gonads develop from the intermediate mesoderm, which forms the urogenital ridge. The epidermis arises from ectoderm, the pineal gland from neuroectoderm, the liver from lateral plate (splanchnic) mesoderm/endoderm interaction, and the adrenal medulla from neural crest \u2014 none sharing the intermediate mesoderm origin of the kidney.",
+      "keypoints": [
+        "\u2b50 Kidney and gonad share a common origin: intermediate mesoderm (urogenital ridge)",
+        "Adrenal cortex is also mesodermal (from the same ridge region), but adrenal medulla is neural crest-derived",
+        "Liver develops from an endodermal foregut outgrowth invading splanchnic mesoderm (septum transversum)",
+        "Pineal gland is a neuroectodermal derivative of the diencephalon"
+      ]
+    },
+    {
+      "id": "q2_017",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Anatomy",
+      "stem": "A developmental neurobiologist surgically removes the neural crest in the thoracic region of a chicken embryo immediately after closure of the neural tube. Which of the following cell types is most likely to be affected?",
+      "choices": [
+        "Cardiac muscle cells",
+        "Autonomic ganglia in the thoracic cavity",
+        "Epithelial cells lining the lower respiratory tract",
+        "Bone cells in the ribs",
+        "Skeletal muscle cells in the thoracic wall"
+      ],
+      "answer": 1,
+      "explanation": "All autonomic ganglia (along with dorsal root ganglia) are neural crest derivatives, so removing the thoracic neural crest would prevent formation of thoracic autonomic ganglia. Cardiac muscle arises from splanchnic mesoderm, lower respiratory epithelium from endoderm, and rib bone and thoracic skeletal muscle from paraxial mesoderm (sclerotome and myotome, respectively) \u2014 none dependent on neural crest.",
+      "keypoints": [
+        "\u2b50 Neural crest gives rise to all autonomic ganglia and dorsal root ganglia",
+        "Other neural crest derivatives: Schwann cells, meninges (arachnoid/pia), melanocytes, adrenal medulla, thyroid C cells, pharyngeal arch skeleton",
+        "Cardiac muscle = splanchnic mesoderm; rib/thoracic wall muscle = paraxial mesoderm (sclerotome/myotome)",
+        "Lower respiratory tract epithelium = endoderm (from the respiratory diverticulum of the foregut)"
+      ]
+    },
+    {
+      "id": "q2_018",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Anatomy",
+      "stem": "A married couple having difficulty with conception keeps a daily diary of the female's basal body temperature (BBT). On Friday, the woman noted a slight elevation in her BBT, which may indicate that she is ovulating. If her ovum is expelled into the peritoneal cavity from the ovary (ovulation), the secondary oocyte resides at what specific stage of meiosis?",
+      "choices": [
+        "Prophase of meiosis I",
+        "Prophase of meiosis II",
+        "Metaphase of meiosis I",
+        "Metaphase of meiosis II",
+        "Meiosis is completed at the time of ovulation"
+      ],
+      "answer": 3,
+      "explanation": "At ovulation, the secondary oocyte is arrested in metaphase of meiosis II and remains there until (unless) fertilization occurs. Primary oocytes, not secondary oocytes, are the ones dormant in prophase of meiosis I before puberty; metaphase I is completed before ovulation (producing the secondary oocyte and first polar body); and meiosis is only completed after fertilization triggers resumption of meiosis II.",
+      "keypoints": [
+        "\u2b50 Ovulated secondary oocyte arrests in metaphase of meiosis II until fertilization",
+        "Primary oocytes are arrested in prophase of meiosis I from fetal life until stimulated after puberty",
+        "Meiosis I yields the secondary oocyte plus the first polar body just before ovulation",
+        "If fertilization does not occur, the secondary oocyte degenerates ~24 hours after ovulation"
+      ],
+      "image": "/images/anatomy_ch2/lippincott anatomy ch2 q18.png",
+      "imageAlt": "Diagram of oogenesis showing the stages of oocyte maturation from primary oocyte through ovulation",
+      "imageCaption": "Stages of oogenesis and meiotic arrest at ovulation"
+    },
+    {
+      "id": "q2_019",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Anatomy",
+      "stem": "The amniotic cavity forms during the process of implantation of the blastocyst. The amniotic cavity forms within which of the following structures?",
+      "choices": [
+        "Epiblast",
+        "Hypoblast",
+        "Cytotrophoblast",
+        "Syncytiotrophoblast",
+        "Maternal endometrium"
+      ],
+      "answer": 0,
+      "explanation": "Small spaces develop between epiblast cells and coalesce into the amniotic cavity, which is therefore lined by epiblast (amnioblast) cells on the dorsal aspect of the bilaminar disc. The hypoblast instead lines the primitive yolk sac ventrally; the cytotrophoblast and syncytiotrophoblast form the trophoblastic (placental) layers; and the maternal endometrium is the site of implantation, not the source of the amniotic cavity.",
+      "keypoints": [
+        "\u2b50 Amniotic cavity forms within the epiblast and is lined by epiblast (amnioblast) cells",
+        "Hypoblast lines the primitive yolk sac (exocoelomic cavity), located ventral to the bilaminar disc",
+        "Bilaminar germ disc = epiblast (dorsal) + hypoblast (ventral), each bordering its own cavity",
+        "The amnion expands to eventually surround the entire fetus by the end of the embryonic period"
+      ]
+    },
+    {
+      "id": "q2_020",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Biochemistry",
+      "stem": "A married woman who is having difficulty getting pregnant undergoes an endometrial function test (EFT), which determines that the endometrium of her uterus is not capable of implantation. Which of the following substances would likely increase the chances for implantation of the fertilized oocyte (or preimplantation embryo) into the uterine mucosa?",
+      "choices": [
+        "Follicle-stimulating hormone",
+        "Testosterone",
+        "Progesterone",
+        "Estrogen",
+        "Luteinizing hormone"
+      ],
+      "answer": 2,
+      "explanation": "Progesterone, produced by the corpus luteum after ovulation, halts endometrial proliferation and transforms the endometrium into a secretory, receptive state for implantation, so supplementation would improve implantation chances. FSH and LH act earlier to drive follicular maturation and ovulation rather than endometrial receptivity; estrogen proliferates the endometrium but does not prepare it for implantation the way progesterone does; and testosterone has minimal physiologic effect on the female endometrium.",
+      "keypoints": [
+        "\u2b50 Progesterone (from the corpus luteum) converts a proliferative endometrium into a secretory, implantation-ready state",
+        "Estrogen drives endometrial proliferation but progesterone is required for implantation receptivity",
+        "FSH and LH act on the ovary (follicle maturation and ovulation), not directly on endometrial receptivity",
+        "Luteal phase progesterone insufficiency is a recognized cause of implantation failure/infertility"
+      ]
+    },
+    {
+      "id": "q5_019",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Anatomy",
+      "stem": "Development of the primitive gonads into testes or ovaries is induced by invasion of the genital ridges by the primordial germ cells. These cells migrate from which of the following locations?",
+      "choices": [
+        "Paraxial mesoderm",
+        "Intermediate mesoderm",
+        "Lateral plate mesoderm",
+        "Neural crest",
+        "Yolk sac endoderm"
+      ],
+      "answer": 4,
+      "explanation": "Primordial germ cells originate in the epiblast and migrate to the caudal endodermal wall of the yolk sac (near the allantois), then travel along the dorsal mesentery of the gut tube to reach and invade the genital ridges, inducing gonadal differentiation. Intermediate mesoderm is the destination (forming the genital ridge itself), not the source, of these cells, while paraxial and lateral plate mesoderm and neural crest give rise to unrelated structures (somites, body wall/gut wall, and pigment/ganglion cells, respectively).",
+      "keypoints": [
+        "\u2b50 Primordial germ cells arise in the epiblast, transiently reside in the yolk sac wall, then migrate via the dorsal mesentery to the genital ridges",
+        "Intermediate mesoderm forms the genital ridge/urogenital structures that the germ cells invade \u2014 not their origin",
+        "Failure of germ cell migration can result in gonadal dysgenesis",
+        "The genital ridge cannot differentiate into a testis or ovary without primordial germ cell invasion"
+      ]
+    },
+    {
+      "id": "q5_020",
+      "tag": "renal",
+      "system": "Renal/Urinary",
+      "contentType": "Anatomy",
+      "stem": "The urinary system develops from which of the embryonic sources labeled in the given diagram?",
+      "choices": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": 1,
+      "explanation": "The urinary system (kidney parenchyma, nephrons) develops from the intermediate mesoderm, the small bridge of mesoderm connecting the paraxial mesoderm to the lateral plate mesoderm. Paraxial mesoderm instead forms somites (muscle, dermis, vertebral column); parietal (somatic) and visceral (splanchnic) lateral plate mesoderm form the body wall/limbs and gut tube wall, respectively; and yolk sac endoderm forms the gut tube lining.",
+      "keypoints": [
+        "\u2b50 Intermediate mesoderm \u2192 kidney parenchyma, nephrons, and gonads (via the urogenital ridge)",
+        "Paraxial mesoderm \u2192 somites \u2192 myotome/dermatome/sclerotome",
+        "Lateral plate mesoderm splits into parietal (body wall) and visceral (gut wall) layers",
+        "Yolk sac endoderm contributes the epithelial lining of the gut tube, not the urinary system"
+      ],
+      "image": "/images/anatomy_ch5/lippincott anatomy ch5 q20.png",
+      "imageAlt": "Cross-sectional diagram of an embryo labeling the germ layer/mesoderm subdivisions A through E",
+      "imageCaption": "Embryonic mesoderm subdivisions; intermediate mesoderm (labeled B) gives rise to the urinary system"
+    },
+    {
+      "id": "q6_001",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A 55-year-old man experiences severe lower back pain for 4 days after moving heavy furniture. After a thorough back evaluation and review of associated radiological imaging, a surgeon removes the herniated portion of the L3-4 intervertebral (IV) disc. What type of cartilage most likely gives the tensile strength of the disc extracted from this patient?",
+      "choices": [
+        "Hyaline",
+        "Elastic",
+        "Fibrous",
+        "Epiphysial",
+        "Anular"
+      ],
+      "answer": 2,
+      "explanation": "Fibrocartilage (fibrous cartilage), rich in Type I collagen, forms the tough anulus fibrosus of the intervertebral disc and provides its tensile strength; hyperflexion can tear it, allowing the nucleus pulposus to herniate posteriorly. Hyaline cartilage instead covers articular surfaces and forms the epiphyseal growth plate template, elastic cartilage provides flexible support in structures like the ear and epiglottis, and 'anular' is not a true cartilage type (anular/cricoid cartilage is a laryngeal structure, not a tissue type).",
+      "keypoints": [
+        "\u2b50 Fibrocartilage (Type I collagen) provides the anulus fibrosus's tensile strength",
+        "Hyaline cartilage (Type II collagen) covers joint surfaces and forms the epiphyseal plate template",
+        "Elastic cartilage supports flexible structures: external ear, auditory tube, epiglottis",
+        "Disc herniation occurs when the anulus fibrosus tears, allowing nucleus pulposus to protrude posteriorly"
+      ]
+    },
+    {
+      "id": "q6_002",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Pathophysiology",
+      "stem": "A 45-year-old man goes to his family physician complaining of lower back pain. During examination, the doctor notes a tuft of hair and a dimple on the skin of the patient's lower back. A plain film reveals a congenital defect in his L5 vertebra, indicated by the black arrow in the given X-ray. No other structural abnormalities are noted. Based on these findings, what is the most likely diagnosis for this patient?",
+      "choices": [
+        "Meningocele",
+        "Anencephaly",
+        "Spina bifida occulta",
+        "Spina bifida cystica",
+        "Spina bifida with myeloschisis"
+      ],
+      "answer": 2,
+      "explanation": "Spina bifida occulta is the mildest neural tube defect, in which the neural arches fail to fuse dorsally but the split is too small for meninges or cord to protrude; it is often marked only by a hair tuft, dimple, or birthmark and is typically asymptomatic, as seen on this X-ray showing an isolated lamina defect at L5. Meningocele and the cystica/myeloschisis forms all present with a protruding cyst-like sac (absent here), and anencephaly is a lethal cranial defect incompatible with reaching 45 years of age.",
+      "keypoints": [
+        "\u2b50 Spina bifida occulta: isolated failure of neural arch fusion, no protrusion, often with overlying hair tuft/dimple",
+        "Present in ~10% of the general population, usually asymptomatic and unrelated to back pain",
+        "Meningocele = meninges protrude into a CSF-filled sac; spinal cord stays in normal position",
+        "Meningomyelocele (most common spina bifida cystica) = meninges + spinal cord protrude into the sac"
+      ],
+      "image": "/images/anatomy_ch6/lippincott anatomy ch6 q2.png",
+      "imageAlt": "Plain film X-ray of the lumbosacral spine with an arrow indicating a laminar defect at L5",
+      "imageCaption": "Plain film showing a congenital defect (failure of laminar fusion) at L5"
+    },
+    {
+      "id": "q6_003",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A developmental biologist studying the derivatives of the somites and somitomeres treats the epimeres in a mouse embryo with a toxin that kills all of their cells. If the mouse develops to full term, which of the following muscles is most likely to be absent?",
+      "choices": [
+        "Trapezius",
+        "Latissimus dorsi",
+        "Rhomboid major",
+        "Longissimus",
+        "Levator scapulae"
+      ],
+      "answer": 3,
+      "explanation": "The longissimus, one of the erector spinae muscles, is derived from the epimere (the dorsal portion of the myotome) and thus would be absent if epimeres were destroyed. The latissimus dorsi, rhomboid major, and levator scapulae are hypomere-derived superficial back muscles innervated by ventral primary rami, and the trapezius is a pharyngeal arch/branchiomeric-derived muscle innervated by the accessory nerve (CN XI), unrelated to either myotome subdivision.",
+      "keypoints": [
+        "\u2b50 Epimere \u2192 intrinsic (deep) back muscles: erector spinae (iliocostalis, longissimus, spinalis), transversospinales, innervated by dorsal primary rami",
+        "Hypomere \u2192 superficial extrinsic back muscles (latissimus dorsi, rhomboids, levator scapulae) that act on the limb, innervated by ventral primary rami",
+        "Trapezius and sternocleidomastoid are NOT myotome derivatives \u2014 innervated by CN XI (accessory nerve)",
+        "Deep back muscles are also called epaxial muscles; superficial limb-related back muscles are hypaxial"
+      ]
+    },
+    {
+      "id": "q6_004",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Anatomy",
+      "stem": "A lesion of which of the indicated structures would cause loss of sensation in the skin overlying the trapezius muscle?",
+      "choices": [
+        "Lateral gray horn of spinal cord",
+        "Anterior root of spinal nerve",
+        "Sympathetic trunk",
+        "Anterior primary ramus",
+        "Posterior (dorsal) primary ramus"
+      ],
+      "answer": 4,
+      "explanation": "General sensory fibers from the skin overlying the trapezius travel via the posterior (dorsal) primary rami of spinal nerves to the posterior gray horn, so a lesion here causes loss of sensation over the back. The lateral gray horn houses presynaptic sympathetic neurons (autonomic, not cutaneous sensory); the anterior root and anterior primary ramus carry motor fibers and sensory fibers from the anterolateral body wall/limbs (not the back skin); and the sympathetic trunk carries autonomic and visceral sensory fibers unrelated to back skin sensation.",
+      "keypoints": [
+        "\u2b50 Skin overlying the back (including over the trapezius) is innervated by posterior (dorsal) primary rami",
+        "Trapezius muscle itself is supplied by CN XI (accessory nerve), not by rami of spinal nerves",
+        "Anterior primary rami supply the skin of the anterolateral trunk and limbs, not the back",
+        "Posterior primary rami also carry motor fibers to the deep (epaxial) back muscles"
+      ],
+      "image": "/images/anatomy_ch6/lippincott anatomy ch6 q4.png",
+      "imageAlt": "Cross-sectional diagram of a spinal nerve and spinal cord with structures labeled A through E",
+      "imageCaption": "Spinal nerve/spinal cord cross section; E indicates the posterior (dorsal) primary ramus"
+    },
+    {
+      "id": "q6_005",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "An infant suffers a vertebral malformation in which the nucleus pulposus component of multiple intervertebral discs is hypertrophied. From what embryonic structure is the hypertrophied structure derived?",
+      "choices": [
+        "Notochord",
+        "Dermatome",
+        "Myotome",
+        "Sclerotome",
+        "Neural crest"
+      ],
+      "answer": 0,
+      "explanation": "The nucleus pulposus is the sole postnatal remnant of the embryonic notochord, which is otherwise replaced by sclerotome-derived vertebral bodies. The dermatome forms dermis, the myotome forms skeletal muscle (via epimere/hypomere), the sclerotome forms the vertebrae and anulus fibrosus (not the nucleus pulposus), and neural crest forms ganglia rather than disc tissue.",
+      "keypoints": [
+        "\u2b50 Nucleus pulposus = notochord remnant; anulus fibrosus = sclerotome-derived",
+        "Notochord induces neural plate formation before being replaced by vertebral bodies",
+        "Sclerotome, dermatome, and myotome are the three somite derivatives",
+        "Nucleus pulposus herniation ('slipped disc') reflects its distinct notochordal, gelatinous composition"
+      ]
+    },
+    {
+      "id": "q6_006",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A 71-year-old man's car is struck from behind by a truck, causing a severe hyperextension neck injury. The given T2-weighted MRI shows a rupture of the anterior anulus of the C4-5 intervertebral disc, inflammation of that disc, and a prevertebral hematoma. Which of the following ligaments is disrupted in this injury?",
+      "choices": [
+        "Anterior longitudinal ligament",
+        "Posterior longitudinal ligament",
+        "Ligamentum flavum",
+        "Interspinous ligament",
+        "Intertransverse ligament"
+      ],
+      "answer": 0,
+      "explanation": "The anterior longitudinal ligament runs along the anterior vertebral bodies and resists hyperextension; the extreme hyperextension forces in this rear-end collision overpowered and ruptured it, seen as an abnormal hyperintense signal anterior to C5 on MRI. The posterior longitudinal ligament resists flexion (not hyperextension) and lies posteriorly; the ligamentum flavum and interspinous ligament also resist flexion; and the intertransverse ligament resists contralateral bending, none of which are the primary structures stressed by hyperextension.",
+      "keypoints": [
+        "\u2b50 Anterior longitudinal ligament resists hyperextension of the vertebral column",
+        "Posterior longitudinal ligament, ligamentum flavum, and interspinous ligament resist flexion",
+        "Whiplash (hyperextension) injuries classically damage the anterior longitudinal ligament and anterior anulus fibrosus",
+        "MRI shows ligament disruption as an interruption in the normal hypointense (dark) ligament band"
+      ],
+      "image": "/images/anatomy_ch6/lippincott anatomy ch6 q6.png",
+      "imageAlt": "T2-weighted sagittal cervical MRI showing anterior longitudinal ligament disruption and C4-5 disc injury",
+      "imageCaption": "Sagittal cervical MRI showing anterior longitudinal ligament rupture at C4-5"
+    },
+    {
+      "id": "q6_007",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Pathophysiology",
+      "stem": "Amyotrophic lateral sclerosis (ALS; Lou Gehrig's disease) is a progressive, fatal neurodegenerative disease caused by degeneration of the motor neurons controlling skeletal (voluntary) muscle movement. Postmortem analysis of which of the following structures would show the cell bodies of neurons affected by this disease?",
+      "choices": [
+        "Anterior gray horn of the spinal cord",
+        "Lateral gray horn of the spinal cord",
+        "Posterior gray horn of the spinal cord",
+        "Spinal ganglia",
+        "Lateral column of spinal cord white matter"
+      ],
+      "answer": 0,
+      "explanation": "Somatic motor (alpha motor) neuron cell bodies supplying skeletal muscle reside in the anterior (ventral) gray horn of the spinal cord at every segmental level, and these are the neurons destroyed in ALS. The lateral gray horn houses autonomic (sympathetic) neurons, the posterior gray horn contains interneurons receiving sensory input, spinal ganglia house sensory neuron cell bodies, and white matter columns contain axons and glia rather than motor neuron cell bodies.",
+      "keypoints": [
+        "\u2b50 ALS destroys somatic motor neurons in the anterior (ventral) gray horn (and corticospinal tract upper motor neurons)",
+        "Lateral gray horn (T1-L2/3) = presynaptic sympathetic neurons, not somatic motor",
+        "Posterior gray horn = sensory interneurons receiving primary afferent input",
+        "Spinal ganglia = sensory (afferent) neuron cell bodies, spared in ALS"
+      ]
+    },
+    {
+      "id": "q6_008",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Pharmacology",
+      "stem": "A 19-year-old girl gives birth to a baby girl diagnosed with a meningomyelocele, as seen in the given midsagittal MRI. The mother lived in a rural area and did not have prenatal visits with her obstetrician. Which of the following drugs, if taken in the proper doses during the periconceptional period, would have greatly reduced the chances of her fetus having a neural tube defect (NTD)?",
+      "choices": [
+        "Valproic acid (Depakote)",
+        "Folic acid (Folacin)",
+        "Cephalexin (Keflex)",
+        "Acetaminophen (Tylenol)",
+        "Famotidine (Pepcid)"
+      ],
+      "answer": 1,
+      "explanation": "Periconceptional folic acid (vitamin B9) supplementation reduces the incidence of neural tube defects by up to 70%, since neural tube closure occurs within the first 28 days after conception, often before pregnancy is recognized. Valproic acid is itself a known teratogen that increases NTD risk, while cephalexin, acetaminophen, and famotidine are not protective folate supplements and are not established NTD-prevention agents.",
+      "keypoints": [
+        "\u2b50 Periconceptional folic acid supplementation reduces NTD incidence by up to ~70%",
+        "Recommended: 400 mcg folic acid daily beginning ~3 months before conception, continued through pregnancy",
+        "Valproic acid (an anticonvulsant) is a known teratogen that increases NTD risk",
+        "Neural tube closure is complete by ~day 28, often before a woman knows she is pregnant"
+      ],
+      "image": "/images/anatomy_ch6/lippincott anatomy ch6 q8.png",
+      "imageAlt": "Midsagittal MRI of a newborn showing a meningomyelocele in the lower spine",
+      "imageCaption": "Midsagittal MRI showing a meningomyelocele"
+    },
+    {
+      "id": "q6_009",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "An internal medicine attending physician asks a medical student to place the bell of her stethoscope on the triangle of auscultation to hear a patient's breathing sounds. Which of the following structures make up the boundaries of this triangle?",
+      "choices": [
+        "Deltoid, latissimus dorsi, scapula",
+        "Trapezius, scapula, latissimus dorsi",
+        "Latissimus dorsi, ilium, external abdominal oblique",
+        "Rhomboids, levator scapulae, splenius capitis",
+        "Longissimus, rhomboids, vertebral spinous processes"
+      ],
+      "answer": 1,
+      "explanation": "The triangle of auscultation is bounded by the lateral edge of the trapezius, the medial border of the scapula, and the upper edge of the latissimus dorsi; this gap in the muscular layers overlies the posterior chest wall, making it ideal for hearing lung sounds. The deltoid/latissimus/scapula grouping instead outlines the posterior axilla, and the other listed groupings define the lumbar triangle or neck/back regions unrelated to lung auscultation.",
+      "keypoints": [
+        "\u2b50 Triangle of auscultation: trapezius (medial), scapula (lateral), latissimus dorsi (inferior)",
+        "This gap in muscle coverage overlies lung tissue, optimal for auscultating breath sounds",
+        "Lumbar (Petit) triangle: latissimus dorsi, iliac crest, external oblique \u2014 a site of potential hernia",
+        "Distinct from the posterior axilla, bounded by deltoid, latissimus dorsi, and scapula"
+      ]
+    },
+    {
+      "id": "q6_010",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Pathophysiology",
+      "stem": "A 34-year-old man fell 25 ft, landing on his back. The given sagittal CT reformat image reveals a T9 spinal fracture dislocation. The patient had unequivocal clinical findings indicating spinal cord transection. What deficits will the patient incur?",
+      "choices": [
+        "Quadriplegia and incontinence",
+        "Paraplegia and incontinence",
+        "Incontinence only",
+        "Loss of only sensory information below the lesion",
+        "Loss of only motor function below the lesion"
+      ],
+      "answer": 1,
+      "explanation": "Complete transection at T9 spares upper limb function (supplied by C5-T1) but abolishes all motor, sensory, and autonomic function below the lesion, producing paraplegia along with fecal/urinary incontinence and loss of sacral parasympathetic outflow. Quadriplegia would require a cervical-level lesion; isolated incontinence or isolated sensory/motor loss all understate the global deficit produced by a complete cord transection.",
+      "keypoints": [
+        "\u2b50 Complete spinal cord transection causes loss of ALL motor, sensory, and autonomic function below the lesion",
+        "T9 transection spares upper limbs (C5-T1) but produces paraplegia, not quadriplegia",
+        "Sacral parasympathetic outflow (S2-4) loss causes bladder/bowel incontinence and sexual dysfunction",
+        "T10 dermatome landmark = umbilicus, useful for localizing thoracic spinal levels"
+      ],
+      "image": "/images/anatomy_ch6/lippincott anatomy ch6 q10.png",
+      "imageAlt": "Sagittal CT reformat of the thoracic spine showing a T9 fracture-dislocation",
+      "imageCaption": "Sagittal CT showing T9 spinal fracture-dislocation"
+    },
+    {
+      "id": "q6_011",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Anatomy",
+      "stem": "A 35-year-old woman suffers intractable pain in her left forearm. Neurosurgical consultation leads to a decision to conduct a rhizotomy to relieve the condition. At which of the following locations is the rhizotomy best performed to relieve the patient's pain?",
+      "choices": [
+        "Posterior (dorsal) roots",
+        "Posterior (dorsal) primary rami",
+        "Spinal nerves",
+        "Anterior (ventral) roots",
+        "Anterior (ventral) primary rami"
+      ],
+      "answer": 0,
+      "explanation": "The posterior (dorsal) roots are the only site where sensory (afferent) fibers are anatomically segregated from motor fibers, so selectively severing them relieves pain without causing motor deficits. Posterior primary rami carry sensation only from the back skin (not the forearm); spinal nerves and anterior primary rami carry mixed sensory and motor fibers, so cutting them would also cause motor loss; and anterior roots carry only motor fibers, which would not address the sensory pain.",
+      "keypoints": [
+        "\u2b50 Posterior (dorsal) roots are the only location with pure sensory fibers, ideal for selective rhizotomy",
+        "Anterior (ventral) roots contain only motor fibers",
+        "Spinal nerves and both primary rami contain mixed sensory + motor fibers",
+        "Posterior primary rami supply only back skin sensation \u2014 not the forearm"
+      ]
+    },
+    {
+      "id": "q6_012",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "An 18-year-old soldier presents with shrapnel wounds in the lateral wall of his right chest. After recovery, his physical therapist observes that his scapula moves away from the thoracic wall when he leans on his right hand (winged scapula). Which of the following nerves is likely damaged?",
+      "choices": [
+        "Axillary nerve",
+        "Thoracodorsal nerve",
+        "Long thoracic nerve",
+        "Dorsal scapular nerve",
+        "Suboccipital nerve"
+      ],
+      "answer": 2,
+      "explanation": "The long thoracic nerve runs superficially on the lateral thoracic wall to innervate serratus anterior; its injury causes paralysis of serratus anterior and the classic winged scapula, in which the medial border and inferior angle lift away from the chest wall. The axillary nerve affects deltoid/teres minor (shoulder abduction/contour), the thoracodorsal nerve affects latissimus dorsi (arm extension/medial rotation), the dorsal scapular nerve affects rhomboids/levator scapulae (scapular retraction/elevation), and the suboccipital nerve is unrelated to the thorax.",
+      "keypoints": [
+        "\u2b50 Long thoracic nerve injury \u2192 serratus anterior paralysis \u2192 winged scapula",
+        "Long thoracic nerve's superficial course on the lateral thoracic wall makes it vulnerable to trauma/surgery",
+        "Serratus anterior normally rotates the scapula to allow full arm abduction above horizontal",
+        "Winging may take weeks to become apparent as the trapezius gradually stretches"
+      ],
+      "image": "/images/anatomy_ch6/lippincott anatomy ch6 q12.png",
+      "imageAlt": "Clinical photo of a patient with winged scapula, showing the medial border of the scapula lifting away from the thoracic wall",
+      "imageCaption": "Winged right scapula due to long thoracic nerve injury"
+    },
+    {
+      "id": "q6_013",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Pathophysiology",
+      "stem": "An 81-year-old woman complains of weakness and loss of sensation in her legs. Radiological studies show bony spurs (osteophytes) narrowing the intervertebral foramina at levels T12-L3. Which of the following structures is most likely to be impinged in this condition?",
+      "choices": [
+        "Posterior primary rami of spinal nerves",
+        "Spinal ganglia",
+        "Ganglia of the sympathetic trunk",
+        "Anterior primary rami of spinal nerves",
+        "Anterior rootlets of spinal nerves"
+      ],
+      "answer": 1,
+      "explanation": "Spinal (dorsal root) ganglia lie within the intervertebral foramina, alongside the merging roots, so foraminal stenosis from osteophytes directly compresses them (along with the roots and nerve). Primary rami (anterior and posterior) form distal to the foramen and would not be compressed there; sympathetic trunk ganglia lie outside the foramina along the vertebral column; and anterior rootlets are proximal to the foramen, closer to the spinal cord.",
+      "keypoints": [
+        "\u2b50 Spinal (dorsal root) ganglia are located within the intervertebral foramina \u2014 vulnerable to foraminal stenosis",
+        "Primary rami (anterior/posterior) form just distal to the foramen, outside the zone of compression",
+        "Sympathetic trunk ganglia lie lateral to the vertebral column, outside the foramina",
+        "Foraminal stenosis from osteophytes is a common cause of radiculopathy in older adults"
+      ]
+    },
+    {
+      "id": "q6_015",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Anatomy",
+      "stem": "A physician orders a lumbar puncture for his 43-year-old female patient, to be performed between the spinous processes of the L3 and L4 vertebrae. What is the best reason for performing the lumbar puncture at this location?",
+      "choices": [
+        "The medullary cone ends at or above the L3 level",
+        "The subarachnoid space ends at the L3 level",
+        "The intervertebral foramina at L3-4 are large and easy to penetrate",
+        "No vertebral venous plexuses exist below the L3 level",
+        "The ligamenta flava are absent below the L3 level"
+      ],
+      "answer": 0,
+      "explanation": "The medullary cone (conus medullaris), the spinal cord's tapered terminal end, normally lies within the T12-L3 vertebral levels, so inserting a needle below L3 avoids puncturing the spinal cord itself. The subarachnoid space actually extends well below L3 (to ~S2), providing the lumbar cistern of CSF used for the tap; the lumbar puncture is performed through the interlaminar space (not the intervertebral foramen); vertebral venous plexuses and the ligamentum flavum are present at all lumbar levels.",
+      "keypoints": [
+        "\u2b50 Lumbar puncture is performed below L3 (typically L3-4 or L4-5) to avoid the conus medullaris (ends ~L1-L2/L3)",
+        "Subarachnoid space extends to ~S2, forming the lumbar cistern \u2014 the actual site tapped for CSF",
+        "Needle passes through interlaminar space (not intervertebral foramen) and through the ligamentum flavum",
+        "Patient flexion (fetal position) widens the interlaminar spaces to ease needle passage"
+      ]
+    },
+    {
+      "id": "q6_016",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Pathophysiology",
+      "stem": "A 22-year-old man is brought to the ER with severe back pain and lower limb weakness after falling off a 16-ft ladder and landing on his feet. The given midsagittal CT directs the physician toward making which of the following diagnoses?",
+      "choices": [
+        "Herniated intervertebral disc",
+        "Burst fracture of T12 vertebral body",
+        "Lumbar spinal stenosis",
+        "Spondylolisthesis of L5-S1 articulation",
+        "Excessive lumbar lordosis"
+      ],
+      "answer": 1,
+      "explanation": "Axial loading from a fall onto the feet classically produces a burst (compression) fracture of a vertebral body \u2014 here T12 \u2014 with a posteriorly displaced fragment compressing the conus medullaris; CT is the modality of choice for assessing bone injury. In a young patient, discs are typically stronger than bone (making herniation less likely than fracture), and the CT shows no evidence of foraminal/canal narrowing from degeneration (stenosis), anterior slippage at L5-S1, or abnormal lumbar curvature.",
+      "keypoints": [
+        "\u2b50 Axial loading (fall onto feet/head) \u2192 burst (compression) fracture of vertebral body",
+        "CT is optimal for bone injury; MRI is better for discs, cord, and ligaments",
+        "In young patients, vertebrae often fracture before discs herniate (discs are relatively strong)",
+        "Burst fracture fragments displaced posteriorly can compress the conus medullaris/cauda equina"
+      ],
+      "image": "/images/anatomy_ch6/lippincott anatomy ch6 q16.png",
+      "imageAlt": "Midsagittal CT of the thoracolumbar spine showing a burst fracture of the T12 vertebral body",
+      "imageCaption": "Midsagittal CT showing T12 burst fracture with posterior fragment displacement"
+    },
+    {
+      "id": "q6_017",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Pathophysiology",
+      "stem": "After several months of engaging in a vigorous exercise program, a 28-year-old woman experiences periodic pain and muscle spasms in her left upper limb. Examinations determine that she suffers a posterolateral herniation of the C5-6 intervertebral disc. Which of the following structures is this herniation most likely impinging?",
+      "choices": [
+        "C5 spinal nerve roots",
+        "C5 anterior primary ramus",
+        "C6 spinal nerve roots",
+        "C6 posterior primary ramus",
+        "C7 posterior horn segment of the spinal cord"
+      ],
+      "answer": 2,
+      "explanation": "Using the cervical 'N+1' rule (because there are 8 cervical nerve pairs but only 7 cervical vertebrae, each numbered nerve exits above its like-numbered vertebra), a herniated C5-6 disc impinges the C6 nerve roots as they pass through the C5-6 foramen. C5 roots exit at the C4-5 level (above this disc); primary rami (anterior or posterior) form outside the vertebral canal/foramen and are not impinged by disc herniation; and the C7 spinal cord segment lies below and on the opposite side from the herniation site.",
+      "keypoints": [
+        "\u2b50 Cervical disc herniation rule: 'N+1' \u2014 the C(N)-(N+1) disc impinges the C(N+1) nerve root",
+        "8 cervical nerve pairs but only 7 cervical vertebrae \u2014 cervical nerves exit above their matched vertebra",
+        "In the lumbar spine, the rule works differently: nerve roots exit below their matched vertebra due to sharp downward angulation",
+        "Primary rami (structures outside the vertebral canal) are never directly impinged by disc herniation"
+      ]
+    },
+    {
+      "id": "q6_018",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Pathophysiology",
+      "stem": "During a head-on motor vehicle accident, the upper cervical vertebrae of a 34-year-old woman are flexed violently forward until her head impacts the steering wheel and is thrown into hyperextension and slight rotation. The given sagittal CT of her upper cervical vertebrae reveals which of the following diagnoses?",
+      "choices": [
+        "Traumatic spondylolisthesis of C2",
+        "Fracture of dens axis (odontoid process)",
+        "Atlanto-axial subluxation",
+        "Ruptured intervertebral disc between C1 and C2",
+        "No pathology is apparent on the CT scan"
+      ],
+      "answer": 1,
+      "explanation": "This combination of flexion followed by hyperextension with slight rotation is the classic mechanism for a Type II dens (odontoid process) fracture, the most common odontoid fracture pattern, occurring at the base of the dens; the fragment here does not extend posteriorly into the spinal cord. Traumatic spondylolisthesis of C2 (hangman fracture) results from pure hyperextension and involves the pars interarticularis (better seen on lateral X-ray), atlanto-axial subluxation requires transverse ligament rupture (not present here), and no disc exists between C1 and C2 so this diagnosis is anatomically impossible.",
+      "keypoints": [
+        "\u2b50 Type II odontoid (dens) fracture: ~60% of dens fractures, occurs at the base of the dens",
+        "Mechanism often involves combined flexion/extension/rotation forces",
+        "Hangman fracture (traumatic spondylolisthesis of C2) results from pure hyperextension, affecting the pars interarticularis",
+        "Steele's Rule of Thirds: atlas ring occupied 1/3 by dens, 1/3 by cord, 1/3 by protective space"
+      ],
+      "image": "/images/anatomy_ch6/lippincott anatomy ch6 q18.png",
+      "imageAlt": "Sagittal CT of the upper cervical spine showing a fracture at the base of the dens (odontoid process) of C2",
+      "imageCaption": "Sagittal CT showing a Type II dens (odontoid process) fracture"
+    },
+    {
+      "id": "q6_019",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "As a result of multiple vertebral fractures incurred in an automobile crash, an 8-year-old girl suffers a series of torn posterior primary rami of spinal nerves C1-6. Which of the following muscles will be paralyzed as a result?",
+      "choices": [
+        "Trapezius",
+        "Latissimus dorsi",
+        "Levator scapulae",
+        "Rhomboid major",
+        "Splenius capitis"
+      ],
+      "answer": 4,
+      "explanation": "Splenius capitis is an epimere-derived intrinsic (epaxial) back muscle innervated by posterior (dorsal) primary rami, so damage to C1-6 posterior rami would paralyze it. Trapezius is innervated by CN XI (not a myotome-derivative rami-supplied muscle), while latissimus dorsi, levator scapulae, and rhomboid major are hypomere-derived superficial back muscles innervated by anterior (ventral) primary rami, not posterior rami.",
+      "keypoints": [
+        "\u2b50 Splenius capitis/cervicis are epaxial (deep back) muscles supplied by posterior primary rami",
+        "Superficial 'extrinsic' back muscles (latissimus dorsi, rhomboids, levator scapulae) are hypaxial, supplied by anterior primary rami",
+        "Trapezius is supplied by CN XI (accessory nerve), independent of both rami",
+        "Deep/epaxial muscles derive from the epimere; superficial/hypaxial limb-related muscles derive from the hypomere"
+      ]
+    },
+    {
+      "id": "q6_021",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A 17-year-old gymnast grips a high bar with his arms outstretched and begins to pull himself straight upward to the level of the bar, as in doing a chin-up. Which of the following muscles is the prime agonist in this action?",
+      "choices": [
+        "Serratus posterior superior",
+        "Rhomboid major",
+        "Levator scapulae",
+        "Latissimus dorsi",
+        "Longissimus"
+      ],
+      "answer": 3,
+      "explanation": "The latissimus dorsi, a large superficial extrinsic back muscle acting on the humerus, powerfully extends and medially rotates the arm to raise the trunk toward a fixed upper limb, making it the prime mover in chin-ups/climbing. Serratus posterior superior is a small accessory respiratory muscle, rhomboid major and levator scapulae stabilize/move the scapula rather than driving the pulling motion, and longissimus is a deep back extensor unattached to the upper limb.",
+      "keypoints": [
+        "\u2b50 Latissimus dorsi is the prime mover for pulling/climbing movements (extension + medial rotation of the arm)",
+        "Well-developed latissimus dorsi produces the classic 'V-taper' back shape in athletes",
+        "Rhomboids and levator scapulae act as synergists/stabilizers of the scapula during the movement",
+        "Longissimus is part of the erector spinae group, acting on the vertebral column, not the limb"
+      ]
+    },
+    {
+      "id": "q6_022",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Pathophysiology",
+      "stem": "A 77-year-old man presents with shingles on his anterolateral abdomen and umbilicus, caused by reactivation of latent varicella zoster virus in sensory ganglia. Given the location of the rash, what ganglion is most likely affected in this patient?",
+      "choices": [
+        "Paravertebral ganglion",
+        "Prevertebral ganglion",
+        "Lumbar ganglion",
+        "Spinal ganglion of T10",
+        "Spinal ganglion of L2"
+      ],
+      "answer": 3,
+      "explanation": "The umbilicus corresponds to the T10 dermatome, and because varicella zoster resides latent in sensory (not autonomic) ganglia, reactivation causing a rash at T10 implicates the spinal (dorsal root) ganglion of T10. Paravertebral, prevertebral, and lumbar ganglia are all autonomic (sympathetic) ganglia that do not harbor the latent virus responsible for shingles, and the L2 dermatome covers the anteromedial thigh, not the umbilicus.",
+      "keypoints": [
+        "\u2b50 T10 dermatome landmark = umbilicus; herpes zoster there implies T10 spinal (dorsal root) ganglion involvement",
+        "Varicella zoster remains latent specifically in sensory (dorsal root or cranial sensory) ganglia, not autonomic ganglia",
+        "Autonomic ganglia (paravertebral, prevertebral, lumbar) are not typical zoster reservoirs",
+        "Shingles rash classically follows a single dermatome distribution unilaterally"
+      ],
+      "image": "/images/anatomy_ch6/lippincott anatomy ch6 q22.png",
+      "imageAlt": "Clinical photo of a unilateral vesicular shingles rash along the T10 dermatome on the anterolateral abdomen",
+      "imageCaption": "Herpes zoster (shingles) rash along the T10 dermatome"
+    },
+    {
+      "id": "q6_025",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "An anesthesiologist administers epidural anesthetic immediately lateral to the spinous processes of vertebrae L3 and L4 of a pregnant woman in labor. During this procedure, what would be the last ligament perforated by the needle in order to access the epidural space?",
+      "choices": [
+        "Ligamentum flavum",
+        "Anterior longitudinal ligament",
+        "Posterior longitudinal ligament",
+        "Interspinous ligament",
+        "Intertransverse ligament"
+      ],
+      "answer": 0,
+      "explanation": "Passing posterior-to-anterior, the needle traverses the supraspinous ligament, then the interspinous ligament, and finally the elastic-fiber-rich ligamentum flavum (often felt as a distinct 'pop') just before entering the epidural space. The anterior and posterior longitudinal ligaments lie anterior/posterior to the vertebral bodies (beyond the epidural space) and are not encountered, and the intertransverse ligament lies off the midline sagittal plane used for the approach.",
+      "keypoints": [
+        "\u2b50 Needle order for midline epidural: skin \u2192 supraspinous ligament \u2192 interspinous ligament \u2192 ligamentum flavum \u2192 epidural space",
+        "Ligamentum flavum's elastic fibers create palpable resistance and a 'pop' on penetration",
+        "Epidural space lies between the ligamentum flavum and the posterior longitudinal ligament/dura",
+        "Anterior/posterior longitudinal ligaments are not traversed in a standard posterior epidural approach"
+      ],
+      "image": "/images/anatomy_ch6/lippincott anatomy ch6 q25.png",
+      "imageAlt": "Diagram of a lumbar vertebra in sagittal section labeling the ligamentum flavum, interspinous, supraspinous, anterior, and posterior longitudinal ligaments",
+      "imageCaption": "Ligaments of the vertebral column relevant to epidural needle placement"
+    },
+    {
+      "id": "q6_026",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Pathophysiology",
+      "stem": "During a routine prenatal examination of a pregnant 16-year-old woman at 15 weeks of gestation, elevated maternal serum AFP levels were detected and confirmed by amniocentesis. A follow-up ultrasound reveals defects in the lower back of the fetus, with a cyst-like sac containing protruding neural tissue. Which of the following terms best describes this neural tube defect?",
+      "choices": [
+        "Meningocele",
+        "Anencephaly",
+        "Spina bifida occulta",
+        "Meningomyelocele",
+        "Rachischisis"
+      ],
+      "answer": 3,
+      "explanation": "A protruding cyst-like sac containing both meninges and spinal cord/nerve tissue is a meningomyelocele, the most common form of spina bifida cystica, typically associated with elevated maternal serum and amniotic AFP. A meningocele contains only meninges/CSF (no neural tissue) within its sac, spina bifida occulta shows no protrusion at all (and normal AFP), anencephaly is a cranial (not lumbar) defect, and rachischisis shows exposed neural tissue with no covering sac at all.",
+      "keypoints": [
+        "\u2b50 Meningomyelocele = protruding sac containing both meninges AND spinal cord/nerve tissue (most common spina bifida cystica)",
+        "Meningocele = sac contains only meninges/CSF, cord remains in normal position",
+        "Rachischisis (spina bifida with myeloschisis) = exposed neural tissue with no membranous covering at all",
+        "Elevated maternal serum/amniotic AFP is characteristic of open neural tube defects"
+      ],
+      "image": "/images/anatomy_ch6/lippincott anatomy ch6 q26.png",
+      "imageAlt": "Longitudinal prenatal ultrasound showing a cyst-like sac with protruding neural tissue over the fetal lower back",
+      "imageCaption": "Prenatal ultrasound showing a meningomyelocele"
+    },
+    {
+      "id": "q6_027",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Anatomy",
+      "stem": "A 25-year-old medical student feels a sharp pain in his lower back while helping move a piano. After 3 days, a comprehensive examination reveals a compression of the left side L3 spinal nerve. Which of the following is the most likely cause of this condition?",
+      "choices": [
+        "The pedicles of L2 and L3 are compressed together",
+        "The pedicles of L3 and L4 are compressed together",
+        "The laminae of L2 and L3 are compressed together",
+        "The laminae of L3 and L4 are compressed together",
+        "The spinous processes of L3 and L4 are compressed together"
+      ],
+      "answer": 0,
+      "explanation": "In the lumbar spine, each numbered spinal nerve exits through the intervertebral foramen formed by the pedicles of its own vertebra and the vertebra above it; thus the L3 nerve exits through the foramen bounded by the L2 and L3 pedicles, and compression of those pedicles narrows that foramen and impinges the L3 nerve. Compression of the L3-L4 pedicles would instead narrow the foramen through which the L4 nerve passes, and compression of laminae or spinous processes does not narrow the intervertebral foramen (it may even widen it via a lever-arm effect) and would not impinge a spinal nerve.",
+      "keypoints": [
+        "\u2b50 Lumbar spinal nerves exit the foramen BELOW their same-numbered vertebra (formed by pedicles of that vertebra and the one above)",
+        "L3 nerve exits through the L2-L3 intervertebral foramen",
+        "Foramina are bounded by pedicles, not laminae or spinous processes",
+        "Cervical spinal nerves instead exit ABOVE their same-numbered vertebra (due to the extra 8th cervical nerve)"
+      ]
+    },
+    {
+      "id": "q6_029",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Pathophysiology",
+      "stem": "A school nurse notices a 12-year-old girl's right scapula is more prominent than the left, her head is not centered directly over the pelvis, and her right hip is raised and more prominent. When the girl bends forward at the waist, the nurse observes asymmetry of the trunk. Which of the following diagnoses is most likely?",
+      "choices": [
+        "Scoliosis",
+        "Lordosis",
+        "Kyphosis",
+        "Osteoporosis",
+        "Osteoarthritis"
+      ],
+      "answer": 0,
+      "explanation": "Scoliosis is an abnormal lateral and rotational curvature of the spine that produces asymmetric shoulders/scapulae, uneven hips, and a trunk that is off-center from the pelvis, with asymmetry accentuated on forward bending (Adam's forward bend test) \u2014 classic for adolescent idiopathic scoliosis in this age group. Lordosis and kyphosis are excessive curvatures in the sagittal (not lateral) plane, and osteoporosis/osteoarthritis are degenerative conditions of older individuals, not consistent with this presentation in a 12-year-old.",
+      "keypoints": [
+        "\u2b50 Scoliosis = lateral + rotational spinal curvature; classically screened via forward-bend test",
+        "Adolescent idiopathic scoliosis has onset ages 10-18, most common in this demographic",
+        "Lordosis = excessive anterior concave curvature (normal in cervical/lumbar spine); kyphosis = excessive posterior convex curvature (normal in thoracic/sacral spine)",
+        "Curvatures <20\u00b0 often need no treatment; >25\u00b0 may require bracing"
+      ]
+    },
+    {
+      "id": "q6_030",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Pathophysiology",
+      "stem": "After moving heavy furniture, a 38-year-old man experiences lower back pain with tingling numbness radiating down his right lower limb to the lateral part of his foot and weakness standing on his toes. A T1-weighted MRI revealed an intervertebral disc herniation. Which of the following structures is most likely impinged by this disc herniation?",
+      "choices": [
+        "S1 spinal nerve roots",
+        "S1 anterior primary ramus",
+        "L5 spinal nerve roots",
+        "L5 posterior primary ramus",
+        "L5 anterior primary ramus"
+      ],
+      "answer": 0,
+      "explanation": "Approximately 90% of disc herniations occur at L4-5 or L5-S1; using the lumbar 'N+1' rule, an L5-S1 herniation impinges the S1 nerve roots, consistent with lateral foot numbness and weak plantarflexion (toe-standing), both S1-mediated findings. L5 roots exit above this disc level (held against the L5 pedicle, above the L5-S1 disc) and would not be impinged here, and primary rami (anterior or posterior, at either level) lie outside the vertebral canal/foramen and are not directly impinged by disc herniation.",
+      "keypoints": [
+        "\u2b50 L5-S1 disc herniation ('N+1' rule) most often impinges the S1 nerve roots",
+        "S1 radiculopathy: weakness in plantarflexion (toe walking), numbness in lateral foot/sole",
+        "L5 radiculopathy (from L4-5 disc): weakness in dorsiflexion, numbness over dorsum of foot/big toe",
+        "~90% of lumbar disc herniations occur at L4-5 or L5-S1"
+      ],
+      "image": "/images/anatomy_ch6/lippincott anatomy ch6 q30.png",
+      "imageAlt": "T1-weighted sagittal lumbar MRI with an arrow indicating posterolateral L5-S1 disc herniation",
+      "imageCaption": "Sagittal lumbar MRI showing L5-S1 disc herniation impinging the S1 nerve roots"
+    },
+    {
+      "id": "q6_031",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Pathophysiology",
+      "stem": "A 24-year-old BMX rider fell from 20 ft and landed on his feet. A sagittal CT reveals a burst fracture of the L1 vertebral body with a posteriorly displaced fracture fragment compressing the medullary cone (conus medullaris). Which of the following spinal cord segments would most likely be impinged by the bone fragment in this injury?",
+      "choices": [
+        "T7",
+        "T9",
+        "T11",
+        "L2",
+        "S2"
+      ],
+      "answer": 4,
+      "explanation": "The conus medullaris (composed of the sacral and coccygeal spinal cord segments) typically ends around the L1-L2 vertebral level, so a burst fracture fragment at L1 compressing the conus would most likely impinge its lower (sacral) segments \u2014 S2 is the only sacral-level choice offered. T7, T9, T11, and L2 spinal cord segments all lie well above the conus medullaris/L1 fracture site and would not be affected by this specific injury.",
+      "keypoints": [
+        "\u2b50 'Rule of 2': conus medullaris ends ~L2; subarachnoid space ends ~S2; filum terminale attaches ~Co2",
+        "Conus medullaris = sacral and coccygeal spinal cord segments compressed together at its tapered end",
+        "Spinal cord segment level does not equal vertebral level below the cervical region, due to differential growth",
+        "L1 burst fractures are a classic cause of conus medullaris syndrome"
+      ]
+    },
+    {
+      "id": "q8_004",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "As a result of chronic stress associated with an intense high school weight-lifting program, a 15-year-old boy suffers an avulsion fracture of the greater tubercle of the humerus. In the ER, he displays difficulty initiating abduction of the upper limb. Which of the following muscles was involved in this fracture?",
+      "choices": [
+        "Supraspinatus",
+        "Long head of biceps brachii",
+        "Long head of triceps",
+        "Subscapularis",
+        "Infraspinatus"
+      ],
+      "answer": 0,
+      "explanation": "The greater tubercle is the insertion site for supraspinatus, infraspinatus, and teres minor, but only supraspinatus initiates the first 15 degrees of abduction before the deltoid takes over, so its avulsion explains the inability to initiate abduction. The long head of biceps brachii runs through the intertubercular groove (not the greater tubercle) and its avulsion causes a biceps bulge, the long head of triceps attaches to the infraglenoid tubercle of the scapula, and subscapularis inserts on the lesser (not greater) tubercle.",
+      "keypoints": [
+        "\u2b50 Supraspinatus initiates the first ~15 degrees of shoulder abduction; deltoid continues the motion afterward",
+        "Greater tubercle = insertion for supraspinatus, infraspinatus, teres minor (3 of the 4 rotator cuff muscles)",
+        "Lesser tubercle = insertion for subscapularis (the 4th rotator cuff muscle)",
+        "Infraspinatus and teres minor primarily produce external (lateral) rotation, not abduction initiation"
+      ]
+    },
+    {
+      "id": "q8_007",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A 17-year-old boy comes to the emergency room after a hard fall onto the lateral aspect of his left shoulder. On physical examination, the distal end of the clavicle is prominent and distinctly palpable. Radiological findings confirm the diagnosis of a severe (grade 3) shoulder separation. Which of the following features is a component of this condition?",
+      "choices": [
+        "Dislocated head of the humerus",
+        "Torn coracoclavicular ligament",
+        "Fractured clavicle",
+        "Dislocated sternal end of the clavicle",
+        "Torn anterior glenohumeral (GH) ligament"
+      ],
+      "answer": 1,
+      "explanation": "'Shoulder separation' refers to dislocation of the acromioclavicular (AC) joint; in its most severe (grade 3) form, both the intrinsic AC ligament and the extrinsic coracoclavicular ligament tear, allowing the scapula to fall away from the clavicle and the distal clavicle to become prominent. The glenohumeral joint and its ligaments are uninvolved (this is an AC, not GH, injury), the sternoclavicular joint is rarely dislocated due to its intrinsic strength, and no clavicular fracture was found on imaging.",
+      "keypoints": [
+        "\u2b50 'Shoulder separation' = acromioclavicular (AC) joint injury, not glenohumeral dislocation",
+        "Grade 3 separation = complete tear of both AC ligament and coracoclavicular ligament",
+        "Prominent, palpable distal clavicle is the classic exam finding",
+        "Sternoclavicular dislocation is rare due to strong ligamentous support; more often the clavicular epiphysis fractures in patients <25"
+      ]
+    },
+    {
+      "id": "q8_008",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "An 18-year-old boy is cut severely on the lateral wall of his right chest during a knife fight. Following healing, his scapula moves away from the thoracic wall when he leans on his right hand (winged scapula, as in the given photo). Which of the following nerves is likely damaged?",
+      "choices": [
+        "Axillary nerve",
+        "Thoracodorsal nerve",
+        "Long thoracic nerve",
+        "Dorsal scapular nerve",
+        "Suprascapular nerve"
+      ],
+      "answer": 2,
+      "explanation": "The long thoracic nerve runs superficially along the lateral thoracic wall on serratus anterior, making it vulnerable to lacerations there; its injury paralyzes serratus anterior, producing the classic winged scapula and inability to abduct the arm above horizontal. The axillary nerve affects the deltoid/teres minor, the thoracodorsal nerve affects latissimus dorsi, the dorsal scapular nerve affects levator scapulae/rhomboids, and the suprascapular nerve affects supraspinatus/infraspinatus \u2014 none of which produce this classic winging sign.",
+      "keypoints": [
+        "\u2b50 Long thoracic nerve injury \u2192 serratus anterior paralysis \u2192 winged scapula",
+        "Long thoracic nerve's superficial course on the lateral thoracic wall makes it especially vulnerable to trauma/surgery",
+        "Serratus anterior normally rotates the scapula superiorly, enabling full arm abduction above horizontal",
+        "Contrast with trapezius (CN XI) winging, which produces a laterally displaced (not medially displaced) scapula"
+      ],
+      "image": "/images/anatomy_ch8/lippincott anatomy ch8 q8.png",
+      "imageAlt": "Clinical photo of a winged right scapula, with the medial border and inferior angle lifted away from the thoracic wall",
+      "imageCaption": "Winged scapula due to long thoracic nerve injury"
+    },
+    {
+      "id": "q8_013",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Anatomy",
+      "stem": "A dermatologist excised a substantial amount of tissue surrounding a malignant melanoma on the right side of the posterior neck of a 57-year-old man. After the procedure, the patient experienced difficulty elevating his right shoulder and lifting his right arm over his head. No sensory deficits were seen. What nerve was most likely damaged in this patient?",
+      "choices": [
+        "Accessory nerve",
+        "Axillary nerve",
+        "Dorsal scapular nerve",
+        "Long thoracic nerve",
+        "Thoracodorsal nerve"
+      ],
+      "answer": 0,
+      "explanation": "The accessory nerve (CN XI) runs superficially through the posterior triangle of the neck en route to the trapezius, making it vulnerable during posterior neck surgery; its injury impairs scapular elevation and the lateral rotation of the scapula needed for abduction above 90 degrees, matching this patient's deficits with no sensory loss (CN XI is purely motor). The axillary, long thoracic, and thoracodorsal nerves arise more distally (in the axilla/arm), not the posterior neck, and the dorsal scapular nerve produces different deficits (scapular retraction/elevation via rhomboids/levator scapulae, but lies deeper and less exposed than CN XI in this region).",
+      "keypoints": [
+        "\u2b50 Accessory nerve (CN XI) runs superficially through the posterior triangle of the neck \u2014 vulnerable in neck surgery/biopsy",
+        "CN XI is purely motor to trapezius (and sternocleidomastoid) \u2014 explains absence of sensory deficit",
+        "Trapezius elevates the scapula and rotates it laterally to assist abduction above 90 degrees",
+        "Iatrogenic CN XI injury is a classically tested complication of posterior cervical lymph node biopsy"
+      ]
+    },
+    {
+      "id": "q8_017",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Anatomy",
+      "stem": "A 17-year-old male football player suffers a shoulder dislocation. After reduction, no fractures are seen on X-rays, but the patient displays weakness in abduction and external rotation at the shoulder, with loss of sensation at the superior and lateral aspects of the arm. What nerve was most likely damaged in this injury?",
+      "choices": [
+        "Axillary nerve",
+        "Median nerve",
+        "Ulnar nerve",
+        "Radial nerve",
+        "Musculocutaneous nerve"
+      ],
+      "answer": 0,
+      "explanation": "The axillary nerve, injured in roughly 1 in 7 shoulder dislocations, supplies the deltoid (abduction) and teres minor (assists external rotation) as well as cutaneous sensation over the superolateral arm \u2014 matching this patient's motor and sensory deficits exactly. The median and ulnar nerves have no motor branches proximal to the elbow and sensory distributions limited to the hand/wrist; the radial nerve affects elbow/wrist extension; and the musculocutaneous nerve affects elbow flexion/supination with lateral forearm (not arm) sensation.",
+      "keypoints": [
+        "\u2b50 Axillary nerve: motor to deltoid + teres minor; sensory to skin over the deltoid (superolateral arm)",
+        "Axillary nerve injury is a well-known complication of anterior shoulder (glenohumeral) dislocation",
+        "Deltoid loss \u2192 weak abduction; teres minor loss \u2192 weak external rotation (assisting infraspinatus)",
+        "'Regimental badge' sensory loss over the deltoid area is the classic exam sign of axillary nerve injury"
+      ]
+    },
+    {
+      "id": "q8_018",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Anatomy",
+      "stem": "A physician tests the myotatic biceps reflex as shown. A normal response of involuntary contraction of the biceps brachii muscle is noted. This reflex confirms the integrity of what nerve?",
+      "choices": [
+        "Axillary nerve",
+        "Median nerve",
+        "Ulnar nerve",
+        "Radial nerve",
+        "Musculocutaneous nerve"
+      ],
+      "answer": 4,
+      "explanation": "The biceps reflex tests the musculocutaneous nerve (and its C5-C6 spinal segments of origin), which supplies motor innervation and proprioception to the biceps brachii, brachialis, and coracobrachialis in the anterior arm. The axillary nerve supplies deltoid/teres minor, the median and ulnar nerves have no motor branches above the elbow, and the radial nerve supplies posterior (extensor) compartment muscles \u2014 none of which mediate this specific reflex.",
+      "keypoints": [
+        "\u2b50 Biceps reflex tests the musculocutaneous nerve and spinal segments C5-C6",
+        "Musculocutaneous nerve supplies the anterior arm: coracobrachialis, biceps brachii, brachialis",
+        "Deep tendon reflexes test both motor output and the sensory (proprioceptive) afferent limb of the reflex arc",
+        "Compare: triceps reflex tests the radial nerve (C7-C8); brachioradialis reflex tests the radial nerve (C5-C6)"
+      ],
+      "image": "/images/anatomy_ch8/lippincott anatomy ch8 q18.png",
+      "imageAlt": "Photo of a physician testing the biceps myotatic reflex with a reflex hammer at the antecubital fossa",
+      "imageCaption": "Testing of the biceps reflex (musculocutaneous nerve, C5-C6)"
+    },
+    {
+      "id": "q8_023",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "A 65-year-old man is stabbed multiple times in the back with a long, narrow-bladed letter-opener, with a puncture wound in the posterior axillary fold. The patient presents with weakness in extension, adduction, and medial rotation of his arm. Which of the following muscles is most likely cut in this injury?",
+      "choices": [
+        "Pectoralis minor",
+        "Latissimus dorsi",
+        "Levator scapulae",
+        "Serratus anterior",
+        "Teres minor"
+      ],
+      "answer": 1,
+      "explanation": "The latissimus dorsi, together with teres major, forms the palpable posterior axillary fold and the posterior wall of the axilla; it produces extension, adduction, and medial rotation of the arm, matching this patient's deficits exactly. Pectoralis minor and serratus anterior form the anterior and medial axillary walls respectively (not the posterior fold), levator scapulae is unrelated to the axilla or arm rotation, and teres minor is a lateral (not medial) rotator.",
+      "keypoints": [
+        "\u2b50 Posterior axillary fold = latissimus dorsi + teres major; forms the posterior wall of the axilla",
+        "Latissimus dorsi actions: extension, adduction, and medial rotation of the arm",
+        "Anterior axillary fold = pectoralis major; anterior axillary wall also includes pectoralis minor",
+        "Medial axillary wall = serratus anterior + thoracic wall; lateral wall = intertubercular groove of humerus"
+      ]
+    },
+    {
+      "id": "q8_024",
+      "tag": "neuro",
+      "system": "Neurology",
+      "contentType": "Anatomy",
+      "stem": "Physical examination of a 45-year-old man who had been stabbed in the back of the shoulder shows a deep wound penetrating into the quadrangular space of the shoulder, causing bleeding from the severed blood vessels there. Which of the following neural structures is most likely damaged as well?",
+      "choices": [
+        "Musculocutaneous nerve",
+        "Lateral cord of the brachial plexus",
+        "Radial nerve",
+        "Axillary nerve",
+        "Medial cutaneous nerve of the arm"
+      ],
+      "answer": 3,
+      "explanation": "The quadrangular space (bounded by teres major, teres minor, the long head of triceps, and the surgical neck of the humerus) transmits the posterior circumflex humeral vessels together with the axillary nerve, so injury here damages the axillary nerve. The musculocutaneous nerve and lateral cord lie in the axilla proper (not the quadrangular space), the radial nerve instead travels through the adjacent triangular interval/radial groove, and the medial cutaneous nerve of the arm arises from the medial cord, unrelated to this space.",
+      "keypoints": [
+        "\u2b50 Quadrangular space contents: axillary nerve + posterior circumflex humeral vessels",
+        "Quadrangular space boundaries: teres minor (superior), teres major (inferior), long head of triceps (medial), surgical neck of humerus (lateral)",
+        "Radial nerve instead passes through the triangular interval and radial (spiral) groove of the humerus",
+        "Axillary nerve injury here produces deltoid/teres minor weakness and superolateral arm sensory loss"
+      ]
+    },
+    {
+      "id": "q8_026",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "Lateral rotation of the arm is an important mechanical component of \"bringing the arm back\" when preparing to throw an object. What muscle acts to produce lateral rotation of the arm?",
+      "choices": [
+        "Supraspinatus",
+        "Teres major",
+        "Latissimus dorsi",
+        "Subscapularis",
+        "Teres minor"
+      ],
+      "answer": 4,
+      "explanation": "Teres minor, along with infraspinatus, lies across the posterior aspect of the glenohumeral joint and is a primary external (lateral) rotator of the arm, assisted by the posterior deltoid fibers. Supraspinatus initiates abduction (not rotation); teres major, latissimus dorsi, and subscapularis all cross the joint posterior-to-anterior and instead produce medial (internal) rotation along with adduction/extension.",
+      "keypoints": [
+        "\u2b50 Lateral (external) rotators of the arm: infraspinatus and teres minor (posterior rotator cuff), assisted by posterior deltoid",
+        "Medial (internal) rotators: subscapularis, teres major, latissimus dorsi, pectoralis major, anterior deltoid",
+        "Mnemonic: 'teres minor = minor (lateral)' rotator vs. 'teres major = major (medial)' rotator direction",
+        "Rotator cuff muscles (SItS): Supraspinatus, Infraspinatus, teres minor, Subscapularis"
+      ]
+    },
+    {
+      "id": "q8_032",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Anatomy",
+      "stem": "The given X-ray reveals a fracture of the proximal humerus (surgical neck), indicated by the black arrow. Given the location of the fracture, what artery is most likely damaged in this patient?",
+      "choices": [
+        "Posterior circumflex humeral artery",
+        "Brachial artery",
+        "Deep brachial (profunda brachii) artery",
+        "Subscapular artery",
+        "Superior ulnar collateral artery"
+      ],
+      "answer": 0,
+      "explanation": "The posterior circumflex humeral artery travels with the axillary nerve directly against the posterior aspect of the surgical neck of the humerus as they pass into the quadrangular space, making both structures vulnerable to surgical neck fractures. The brachial artery runs down the midline of the arm (away from the surgical neck), the deep brachial artery and radial nerve are instead endangered by midshaft/radial groove fractures, the subscapular artery runs along the scapula's axillary border, and the superior ulnar collateral artery is at risk with medial epicondyle fractures.",
+      "keypoints": [
+        "\u2b50 Surgical neck of humerus fracture endangers the axillary nerve and posterior circumflex humeral artery",
+        "Midshaft/radial groove fracture instead endangers the radial nerve and profunda brachii (deep brachial) artery",
+        "Surgical neck fractures are the most common proximal humeral fractures, especially in elderly patients (osteoporotic bone)",
+        "Medial epicondyle fractures risk the ulnar nerve and superior ulnar collateral artery"
+      ],
+      "image": "/images/anatomy_ch8/lippincott anatomy ch8 q32.png",
+      "imageAlt": "AP X-ray of the proximal humerus with an arrow indicating a fracture of the surgical neck",
+      "imageCaption": "Surgical neck fracture of the humerus, endangering the axillary nerve and posterior circumflex humeral artery"
+    },
+    {
+      "id": "q8_035",
+      "tag": "msk",
+      "system": "Musculoskeletal/Derm",
+      "contentType": "Pathophysiology",
+      "stem": "A right-handed 21-year-old college student develops pain in his right shoulder after 2 weeks of a construction job regularly lifting heavy materials overhead. During physical examination, the patient experiences sharp pain in the range of 80 to 150 degrees of abduction at the glenohumeral joint. What is the most likely diagnosis?",
+      "choices": [
+        "Infraspinatus tendonitis",
+        "Supraspinatus tendonitis",
+        "Acromioclavicular (AC) joint arthritis",
+        "Degenerative arthritis of the shoulder",
+        "Broken clavicle"
+      ],
+      "answer": 1,
+      "explanation": "This presentation is classic shoulder impingement syndrome, in which the supraspinatus tendon is compressed beneath the acromion during a mid-range 'painful arc' of abduction (80-150 degrees), producing supraspinatus tendonitis from repetitive overhead activity. Infraspinatus tendonitis instead causes pain with resisted external rotation; AC arthritis and degenerative shoulder arthritis are unlikely given this patient's young age and short symptom duration; and a broken clavicle would cause constant pain following a discrete trauma, not activity-related arc pain.",
+      "keypoints": [
+        "\u2b50 Painful arc (80-150\u00b0 abduction) = classic sign of supraspinatus tendonitis/shoulder impingement syndrome",
+        "Caused by repetitive overhead activity compressing the supraspinatus tendon beneath the acromion",
+        "Infraspinatus tendonitis instead presents with pain on resisted external rotation, not an abduction arc",
+        "Degenerative joint conditions (AC arthritis, glenohumeral osteoarthritis) are atypical in young, otherwise healthy patients"
+      ]
+    },
+    {
+      "id": "q8_039",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Anatomy",
+      "stem": "The traditional radical mastectomy includes removal of the pectoralis major muscle. Which of the following movements is most affected postoperatively by this surgical procedure?",
+      "choices": [
+        "Adduction of the arm",
+        "Abduction of the arm",
+        "Extension of the arm",
+        "Lateral rotation of the arm",
+        "Depression of the arm"
+      ],
+      "answer": 0,
+      "explanation": "Pectoralis major's primary actions are adduction, flexion, and medial rotation of the arm, so its removal in a radical (Halsted) mastectomy most directly weakens adduction (though other muscles like subscapularis and latissimus dorsi partially compensate). Abduction is produced by supraspinatus/deltoid/serratus anterior, extension mainly by latissimus dorsi and posterior deltoid, and lateral rotation by infraspinatus/teres minor/posterior deltoid \u2014 all antagonists to, and unaffected by loss of, the pectoralis major.",
+      "keypoints": [
+        "\u2b50 Pectoralis major actions: adduction, flexion, and medial rotation of the arm",
+        "Radical (Halsted) mastectomy removes both pectoralis major and pectoralis minor along with breast tissue",
+        "Neighboring muscles (subscapularis, latissimus dorsi, anterior deltoid) partially compensate for lost adduction/medial rotation",
+        "Modified radical mastectomy, more common today, spares the pectoralis major"
+      ]
+    },
+    {
+      "id": "q8_041",
+      "tag": "repro",
+      "system": "Reproductive",
+      "contentType": "Anatomy",
+      "stem": "Following a radical mastectomy procedure, a surgeon plans to conduct a breast reconstruction utilizing a latissimus dorsi muscle flap. What nerve will the surgeon need to keep intact during the surgical dissection of the chest wall to prevent atrophy of the muscle flap?",
+      "choices": [
+        "Long thoracic nerve",
+        "Intercostobrachial nerve",
+        "Medial pectoral nerve",
+        "Thoracodorsal nerve",
+        "Axillary nerve"
+      ],
+      "answer": 3,
+      "explanation": "The latissimus dorsi is innervated by the thoracodorsal (middle subscapular) nerve, a branch of the posterior cord of the brachial plexus, so preserving this nerve is essential to keep the muscle flap viable and prevent denervation atrophy. The long thoracic nerve instead supplies serratus anterior, the intercostobrachial nerve is purely sensory to the medial arm, the medial pectoral nerve supplies the (already removed) pectoralis muscles, and the axillary nerve supplies deltoid/teres minor \u2014 none innervate latissimus dorsi.",
+      "keypoints": [
+        "\u2b50 Thoracodorsal nerve (middle subscapular nerve) is the motor supply to latissimus dorsi",
+        "Thoracodorsal nerve arises from the posterior cord of the brachial plexus, running with the thoracodorsal artery",
+        "Preserving the neurovascular pedicle (nerve + vessels) is essential for flap viability in reconstructive surgery",
+        "Long thoracic nerve (serratus anterior) and medial pectoral nerve (pectoralis muscles) are different nerves relevant to breast/axillary surgery"
+      ]
+    }
+  ]
+}

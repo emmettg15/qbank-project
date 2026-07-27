@@ -1,0 +1,336 @@
+{
+  "config": {
+    "title": "Lippincott Biochemistry Block 1 Selected Questions",
+    "subtitle": "Curated question set spanning biochemical compounds, protein structure, DNA replication/repair, RNA synthesis, gene regulation, hormone signaling, and phospholipid metabolism",
+    "passingFraction": 0.75,
+    "tags": {
+      "biochem": {
+        "label": "Biochemistry"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q1_005",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "Your patient has a mechanical heart valve and is chronically anemic due to damage to red blood cells as they pass through this valve. One of the signals that target damaged red blood cells for removal from the circulation is the presence of phosphatidylserine in the outer leaflet of the red cell membrane. Phosphatidylserine is an integral part of cell membranes and is normally found in the inner leaflet of the red cell membrane. This flip-flop of phosphatidylserine between membrane leaflets exposes which part of the phosphatidylserine to the environment?",
+      "choices": [
+        "The head group",
+        "Fatty acids",
+        "Sphingosine",
+        "Glycerol",
+        "Ceramide"
+      ],
+      "answer": 0,
+      "explanation": "Phospholipids have a hydrophobic backbone (fatty acid tails plus the glycerol or ceramide core) that stays embedded within the bilayer, and a hydrophilic head group that always faces an aqueous environment. When a phospholipid flip-flops from the inner to the outer leaflet, only its head group is reoriented to face the new aqueous surface; the hydrophobic portion never becomes exposed to water. Answers B, C, D, and E all describe hydrophobic or membrane-embedded portions of the molecule that remain buried regardless of which leaflet the lipid occupies. Externalized phosphatidylserine acts as an \"eat-me\" signal recognized by macrophages, which is why mechanically damaged or senescent red cells are cleared by the spleen.",
+      "keypoints": [
+        "⭐ Phosphatidylserine externalization is a conserved apoptotic/senescence signal recognized by macrophage scavenger receptors and Annexin V (used clinically/experimentally to detect it).",
+        "Flippases (inward) and floppases/scramblases (outward, calcium-activated) control phospholipid asymmetry between bilayer leaflets.",
+        "Loss of membrane asymmetry also occurs in activated platelets, providing a surface for coagulation factor assembly.",
+        "Mechanical hemolysis from prosthetic valves is a classic cause of microangiopathic-type hemolytic anemia with schistocytes on smear."
+      ]
+    },
+    {
+      "id": "q1_015",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "Membrane formation occurs, in part, due to low lipid solubility in water due to primarily which of the following?",
+      "choices": [
+        "Hydrogen bond formation between lipids and water",
+        "Covalent bond formation between lipids and water",
+        "A decrease in water entropy",
+        "An increase in water entropy",
+        "Ionic bond formation between lipids and water"
+      ],
+      "answer": 3,
+      "explanation": "Hydrophobic lipid molecules cannot hydrogen bond with water, so surrounding water forms an ordered \"cage\" (clathrate-like shell) around each isolated lipid, which lowers water entropy and is thermodynamically unfavorable. When lipid molecules aggregate together, only one large cage is needed to surround the entire cluster instead of many small cages around each individual molecule, which frees more water molecules to move randomly and raises overall water entropy. This entropy-driven clustering — the hydrophobic effect — is the primary thermodynamic force driving micelle and bilayer membrane formation, not hydrogen, covalent, or ionic bonding between lipid and water (answers A, B, and E), since lipids do not meaningfully interact with water in those ways.",
+      "keypoints": [
+        "⭐ The hydrophobic effect is entropy-driven (favorable ΔS of water), not enthalpy-driven — a high-yield distinction from hydrogen bonding-based folding forces.",
+        "The same entropy-driven clustering principle explains hydrophobic amino acid side chain packing in the core of globular proteins.",
+        "Micelles form from single-chain amphipathic lipids (e.g., fatty acids, bile salts); bilayers form from double-chain phospholipids.",
+        "Critical micelle concentration (CMC) is the lipid concentration above which spontaneous aggregation into micelles occurs."
+      ]
+    },
+    {
+      "id": "q2_010",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "In the 1800s, British sailors on long sea journeys developed sore and bleeding gums, sometimes to the point that their teeth would loosen and fall out. The introduction of limes to their diets helped to prevent these occurrences. The biochemical step that was lacking in these sailors was which of the following?",
+      "choices": [
+        "Creating lysine cross-links in collagen",
+        "Mobilization of calcium into bone",
+        "Hydroxylation of proline residues in collagen",
+        "Glycosylation of fibrillin",
+        "Conversion of glycine to proline in collagen"
+      ],
+      "answer": 2,
+      "explanation": "Limes are rich in vitamin C, an essential cofactor for prolyl hydroxylase, the enzyme that hydroxylates proline residues in procollagen; hydroxyproline is required for stable triple-helix formation and interchain hydrogen bonding in mature collagen. Without vitamin C, collagen is structurally weak, producing the gum bleeding, poor wound healing, and connective tissue fragility classic for scurvy. Lysine cross-linking (A) is catalyzed by lysyl oxidase (a copper-dependent enzyme, not vitamin C-dependent), calcium mobilization (B) relates to vitamin D, and fibrillin (D) is unrelated to vitamin C metabolism. Glycine cannot be converted to proline within a polypeptide chain (E), making that option biochemically impossible.",
+      "keypoints": [
+        "⭐ Vitamin C also keeps iron in the Fe2+ state for prolyl and lysyl hydroxylase activity and enhances non-heme iron absorption in the gut.",
+        "⭐ Scurvy classically presents with perifollicular hemorrhages, corkscrew hairs, gingival bleeding, and poor wound healing.",
+        "Lysyl hydroxylase (also vitamin C-dependent) hydroxylates lysine residues needed for collagen cross-link glycosylation, distinct from lysyl oxidase-mediated cross-linking.",
+        "Vitamin C is a water-soluble antioxidant and does not accumulate to toxic levels as readily as fat-soluble vitamins."
+      ]
+    },
+    {
+      "id": "q2_014",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "A 37-year-old female has trouble keeping her eyes open and swallowing and is beginning to slur her speech. The patient has also noticed a weakness in her arms and legs. Treatment with edrophonium chloride results in a temporary relief of symptoms. The underlying etiology of this disorder involves auto-antibodies that do which of the following?",
+      "choices": [
+        "Destroy acetylcholine",
+        "Block acetylcholine receptors",
+        "Inhibit acetylcholinesterase",
+        "Inhibit acetylcholine synthesis",
+        "Stimulate acetylcholine release into the synapse"
+      ],
+      "answer": 1,
+      "explanation": "This patient has myasthenia gravis, caused by autoantibodies directed against the postsynaptic nicotinic acetylcholine receptor at the neuromuscular junction, reducing the number of functional receptors and impairing neuromuscular transmission. Edrophonium, a short-acting acetylcholinesterase inhibitor, transiently raises synaptic acetylcholine levels enough to outcompete the antibodies for the remaining receptors, producing brief symptomatic improvement (the historical Tensilon test). The antibodies do not destroy acetylcholine itself (A), inhibit acetylcholinesterase (C, which is the opposite of the drug's mechanism), or affect acetylcholine synthesis or release (D, E) — the defect is purely postsynaptic receptor blockade/internalization.",
+      "keypoints": [
+        "⭐ Myasthenia gravis is associated with thymic hyperplasia or thymoma in a significant proportion of patients; thymectomy can improve symptoms.",
+        "⭐ Contrast with Lambert-Eaton myasthenic syndrome, which involves antibodies against presynaptic voltage-gated calcium channels and improves with repeated muscle use.",
+        "First-line long-term treatment is pyridostigmine (a longer-acting acetylcholinesterase inhibitor) plus immunosuppression as needed.",
+        "Symptoms characteristically worsen with sustained activity (fatigability) and improve with rest."
+      ]
+    },
+    {
+      "id": "q2_017",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "A 3-year-old boy is evaluated by the pediatrician as the child has trouble rising from a sitting position. Examination reveals calf hypertrophy and limb-girdle weakness. The inborn error in this patient is due to which of the following?",
+      "choices": [
+        "Defective muscle mitochondria",
+        "A mutation in the β-chain of hemoglobin",
+        "A defect in the structure of the hepatocyte membrane",
+        "A defect in the structure of the sarcolemma",
+        "A defect in the transcription of muscle-specific genes"
+      ],
+      "answer": 3,
+      "explanation": "This presentation (Gowers sign, calf pseudohypertrophy, limb-girdle weakness in a young boy) is classic for Duchenne muscular dystrophy, caused by loss-of-function mutations in the dystrophin gene. Dystrophin normally links the intracellular actin cytoskeleton to the extracellular matrix via the sarcolemma (muscle cell membrane), and its absence destabilizes the membrane during repeated contraction-relaxation cycles, leading to progressive myocyte necrosis and replacement by fat/fibrous tissue (pseudohypertrophy). The disorder does not involve mitochondrial defects (A), hemoglobin (B), hepatocytes (C), or a transcriptional defect in muscle-specific genes generally (E) — it is specifically a structural membrane protein defect.",
+      "keypoints": [
+        "⭐ Dystrophin is encoded by the largest known human gene (Xp21), explaining its high new-mutation rate; DMD is X-linked recessive.",
+        "⭐ Becker muscular dystrophy is a milder allelic variant with partially functional (in-frame) dystrophin protein, versus the frameshift/absent protein in Duchenne.",
+        "Serum creatine kinase is markedly elevated due to ongoing muscle membrane leakage.",
+        "Dilated cardiomyopathy and respiratory muscle failure are major causes of death in later stages."
+      ]
+    },
+    {
+      "id": "q3_018",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "The isolation of nascent Okazaki fragments during DNA replication led to the surprising discovery of uracil in the fragment. The uracil is present due to which of the following?",
+      "choices": [
+        "Deamination of cytosine",
+        "Chemical modification of thymine",
+        "An error in DNA polymerase",
+        "Failure of mismatch repair",
+        "The need for a primer"
+      ],
+      "answer": 4,
+      "explanation": "DNA polymerase cannot initiate synthesis de novo and requires a short RNA primer, synthesized by DNA primase, to provide a free 3′-OH group; because this primer is made of ribonucleotides, it naturally contains uracil instead of thymine. As DNA polymerase extends the Okazaki fragment from this RNA primer, the nascent fragment initially contains a stretch of uracil-containing RNA before it is later excised and replaced with deoxyribonucleotides (via RNase H/FEN1 and DNA polymerase I in bacteria, or equivalent machinery in eukaryotes) and sealed by DNA ligase. Spontaneous cytosine deamination (A) is a real but much rarer mutational event in the more stable double-stranded DNA and would not selectively appear only in nascent Okazaki fragments; thymine cannot easily convert to uracil (B), and DNA polymerase does not make this type of \"error\" (C) nor is it a mismatch repair failure (D).",
+      "keypoints": [
+        "⭐ Primase is a specialized RNA polymerase that does not require a primer itself, unlike DNA polymerase.",
+        "⭐ Uracil-DNA glycosylase (base excision repair) removes uracil that does appear in mature double-stranded DNA from spontaneous cytosine deamination, distinct from primer removal.",
+        "In eukaryotes, the leading strand needs only one primer, while the lagging strand requires a new primer for each Okazaki fragment.",
+        "RNase H and FEN1 remove the RNA primer, and DNA polymerase δ/I fills the gap prior to ligation."
+      ]
+    },
+    {
+      "id": "q4_001",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "An IV drug user is tested, and found positive, for infection by HIV. If the patient is only placed on one antiviral medication, viral loads will initially be reduced, but will then rapidly increase. The resistance to the drug occurs due to which of the following?",
+      "choices": [
+        "Lack of error checking in DNA polymerase",
+        "Lack of error checking in RNA polymerase",
+        "Lack of DNA repair enzyme systems in HIV-infected cells",
+        "Incorporation of uracil in the RNA genome of HIV",
+        "Incorporation of thymine in the RNA genome of HIV"
+      ],
+      "answer": 1,
+      "explanation": "HIV reverse transcriptase converts the viral RNA genome into DNA, and host RNA polymerase II then transcribes this integrated proviral DNA back into viral RNA; unlike DNA polymerase, RNA polymerase lacks 3′→5′ exonuclease proofreading activity. This absence of error-checking, combined with the inherently error-prone reverse transcriptase, produces an extremely high viral mutation rate, allowing drug-resistant quasispecies to rapidly emerge and dominate under single-drug selective pressure — the biochemical rationale for combination (HAART) antiretroviral therapy. DNA polymerase does proofread (A, making it the wrong answer), host DNA repair systems are not specifically disabled by HIV (C), and uracil is a normal, expected component of any RNA genome rather than a cause of resistance (D, E).",
+      "keypoints": [
+        "⭐ This is the biochemical basis for using combination antiretroviral therapy (HAART) — multiple simultaneous mutations are far less likely than one.",
+        "⭐ Reverse transcriptase itself also lacks proofreading exonuclease activity, compounding the mutation rate beyond RNA polymerase II alone.",
+        "High mutation rate also drives HIV's antigenic variation, complicating vaccine development.",
+        "Similar high mutation rates from lack of proofreading occur in other RNA viruses (e.g., influenza, HCV)."
+      ]
+    },
+    {
+      "id": "q4_010",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "When first discovered, introns were not thought to code for a functional product. Recently, however, introns have been found to code for products that can regulate the expression of a large number of genes. This regulation occurs at which stage of gene expression?",
+      "choices": [
+        "Transcription of mRNA",
+        "Posttranscriptional processing",
+        "Export of mRNA into the cytoplasm",
+        "Ribosome biogenesis",
+        "Degradation of the mRNA"
+      ],
+      "answer": 4,
+      "explanation": "Some introns encode microRNAs (miRNAs), which are processed by Drosha and Dicer into short double-stranded RNAs that are loaded into the RNA-induced silencing complex (RISC). RISC uses the miRNA to base-pair with complementary target mRNAs, triggering either mRNA degradation or blockade of translation, and thereby regulates gene expression at the post-transcriptional/degradation level rather than at transcription (A), splicing/capping/polyadenylation (B), nuclear export (C), or ribosome assembly (D). This intron-encoded regulatory RNA function was a major discovery reshaping the view of introns as purely \"junk\" sequence.",
+      "keypoints": [
+        "⭐ The miR-17-92 cluster (encoded within an intron on chromosome 13) is an oncomiR upregulated in several cancers, including lung cancer.",
+        "⭐ Pri-miRNA is processed in the nucleus by Drosha/DGCR8 to pre-miRNA, exported to the cytoplasm, and cleaved by Dicer before RISC loading.",
+        "miRNAs can act either by mRNA cleavage (near-perfect complementarity) or translational repression (imperfect complementarity).",
+        "Small interfering RNAs (siRNAs) are mechanistically similar but typically exogenous or from perfectly complementary duplex RNA."
+      ]
+    },
+    {
+      "id": "q4_011",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "A researcher, while studying a liver cell line, found the following anomalous result. He was studying protein X production within the liver cell. Western blot analysis using a polyclonal antibody showed a normal size, and amount, for protein X. Enzyme assays demonstrated normal levels of activity for protein X. Northern blot analysis, however, yielded two bands of equal intensity: one the expected size and the other 237 nucleotides longer. One possible explanation for this finding is which of the following?",
+      "choices": [
+        "A nonsense mutation in the DNA",
+        "A loss of an intron/exon junction",
+        "Inefficient transcription initiation",
+        "Loss of a transcription termination site",
+        "Gain of an alternative splice site"
+      ],
+      "answer": 3,
+      "explanation": "A mutation at the transcription termination site allows RNA polymerase to read through into downstream sequence before finally terminating, producing an mRNA that is 237 nucleotides longer than normal while the reading frame, start codon, and stop codon remain intact — explaining why the translated protein X is normal in size and activity despite an abnormal Northern blot. A nonsense mutation (A) would truncate the protein (abnormal Western blot), loss of an intron/exon junction (B) would likely shift the reading frame and impair function, and inefficient transcription initiation (C) would reduce mRNA quantity rather than create a second longer species. Gaining an alternative splice site (E) would also be expected to alter protein size or produce more than the two clean bands of equal intensity seen here in a way inconsistent with an unaltered, fully functional protein.",
+      "keypoints": [
+        "⭐ Read-through transcription past a defective terminator is a distinct mechanism from splicing defects and preserves the coding sequence/reading frame.",
+        "⭐ Because start/stop codons and reading frame are unaffected, protein size and enzymatic activity remain normal despite mRNA length differing.",
+        "Two equal-intensity Northern blot bands from one gene suggest incomplete/inefficient use of the normal terminator, not necessarily an all-or-none mutation.",
+        "Contrast with intron/exon junction mutations, which more commonly cause frameshifts and nonfunctional or absent protein."
+      ]
+    },
+    {
+      "id": "q6_010",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "Theoretically, a disease could result from an increased expression of a particular gene. This can occur in eukaryotes through a single-nucleotide mutation in a promoter-proximal element. This is best explained by which one of the following?",
+      "choices": [
+        "More efficient splice site recognition",
+        "Increased opportunity for hydrogen bonding to a transacting factor",
+        "Beneficial amino acid replacement derived from the missense mutation",
+        "Increased amount of sigma factor binding",
+        "Reduced energy need to melt the DNA helix at this position"
+      ],
+      "answer": 1,
+      "explanation": "A single-nucleotide change within a promoter-proximal regulatory element can create a new or improved binding sequence for a transcription factor, increasing the strength or frequency of hydrogen bonding between that transacting factor and DNA bases; a tighter transactivator-DNA interaction increases recruitment of RNA polymerase to the promoter and boosts transcription. Promoter regions are not spliced (ruling out A) and do not code for amino acids (ruling out C, since promoters lie outside the coding sequence), sigma factor is a prokaryotic-specific transcription initiation factor and irrelevant to eukaryotic promoters (D), and helix melting at the promoter is a downstream step not directly driven by single-nucleotide changes in a transcription-factor binding site (E).",
+      "keypoints": [
+        "⭐ Gain-of-function promoter mutations that create stronger transcription-factor binding sites are a recognized mechanism of oncogene overexpression (distinct from coding-region mutations).",
+        "⭐ Prokaryotic sigma factor is the analog to eukaryotic general transcription factors (e.g., TFIID) that direct RNA polymerase to the promoter.",
+        "Promoter-proximal elements (e.g., CAAT box, GC box) are typically located within ~200 bp upstream of the transcription start site.",
+        "Contrast this cis-acting promoter mutation mechanism with trans-acting mutations in the transcription factor gene itself."
+      ]
+    },
+    {
+      "id": "q6_017",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "A cell is producing a certain transcription factor that contains a single point mutation, such that N is converted to V. Circular dichroism experiments show that this altered factor has the same secondary structure as the nonmutated factor. Under normal conditions, serum stimulation of quiescent cultures shows strong induction of five genes. When quiescent cells harboring the mutant transcription factor are exposed to serum, the level of expression of those five genes stays at basal levels (there is no increase in mRNA production). This finding is most likely due to which of the following?",
+      "choices": [
+        "Loss of ionic interactions between the transcription factor and DNA",
+        "Increase in hydrogen bonding between transcription factor and DNA",
+        "Decrease in hydrogen bonding between the transcription factor and DNA",
+        "Increase in ionic interactions between the transcription factors and DNA",
+        "Inability of the transcription factor to bind to the DNA"
+      ],
+      "answer": 2,
+      "explanation": "Asparagine's side chain amide group can donate/accept hydrogen bonds with DNA bases, while valine's side chain is purely hydrocarbon (isopropyl group) and cannot participate in hydrogen bonding at all; substituting N for V therefore reduces the transcription factor's hydrogen-bonding contacts with its DNA target sequence, weakening (but not eliminating) binding affinity and reducing transcriptional induction of the target genes. Since some low-level (basal) expression persists rather than complete loss, the factor must still bind DNA to some degree, ruling out complete inability to bind (E); transcription factors interact with DNA primarily through hydrogen bonds and van der Waals contacts in the major groove rather than ionic bonds, making the ionic-interaction options (A, D) incorrect, and an increase in hydrogen bonding (B) would enhance rather than blunt transcription.",
+      "keypoints": [
+        "⭐ Unchanged secondary structure by circular dichroism confirms the defect is in the DNA-binding side chain chemistry, not global protein misfolding.",
+        "⭐ Transcription factor-DNA recognition in the major groove is dominated by hydrogen bonds and van der Waals contacts from amino acid side chains reading the base-pair edges, not backbone ionic bonds.",
+        "Basal (reduced but present) expression implies partial rather than complete loss of DNA binding affinity.",
+        "This mechanism illustrates how a single conservative-seeming amino acid change can have an outsized functional effect if it falls in a DNA-contact residue."
+      ]
+    },
+    {
+      "id": "q9_018",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "Treatment of fibroblasts with TGF-β and TGF-α will allow such cells to grow in soft agar, a property of transformed cells. This occurs due to which of the following?",
+      "choices": [
+        "Activation of cell growth",
+        "Activation of oxidative phosphorylation",
+        "Activation of collagen synthesis",
+        "Inhibition of ras expression",
+        "Inhibition of LETS synthesis"
+      ],
+      "answer": 2,
+      "explanation": "Combined TGF-α and TGF-β treatment induces fibroblasts to secrete collagen into the extracellular matrix, which alters the cell's adhesive and anchorage properties enough to allow anchorage-independent growth in soft agar — a classic in vitro correlate of the transformed phenotype. This effect is specifically tied to matrix/collagen remodeling rather than a general activation of cell growth pathways (A) or oxidative phosphorylation (B), and it is not mediated by inhibition of ras (D) or of LETS (large external transformation-sensitive) protein/fibronectin synthesis (E), which are separate mechanisms unrelated to this particular experimental finding.",
+      "keypoints": [
+        "⭐ Anchorage-independent growth in soft agar is a standard laboratory assay for cellular transformation/malignant potential.",
+        "⭐ TGF-β has context-dependent effects — it is growth-inhibitory in many epithelial cells but can promote matrix remodeling and invasive behavior in fibroblasts and later-stage tumors (the \"TGF-β paradox\").",
+        "LETS protein is an older term for fibronectin, an extracellular matrix glycoprotein important for cell adhesion.",
+        "Excess TGF-β-driven collagen deposition is also implicated in tissue fibrosis (e.g., pulmonary fibrosis, scarring)."
+      ]
+    },
+    {
+      "id": "q16_014",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "Phosphatidylinositol contributes to phospholipid bilayer asymmetry by being in the inner leaflet of membranes, facing the cytoplasm of the cell. This is most likely due to which of the following?",
+      "choices": [
+        "The hydrophobic nature of inositol is unstable facing the cellular exterior",
+        "Inositol is very similar in structure to glucose and could compete with glucose for binding of ligands to the extracellular surface",
+        "Phosphatidylinositol acts as a substrate for intracellular processes",
+        "Phosphatidylinositol binds to phosphatidylserine, another inner leaflet specific phospholipid",
+        "Inositol interacts with intracellular actin, linking the inner leaflet to a cell's cytoskeleton"
+      ],
+      "answer": 2,
+      "explanation": "Phosphatidylinositol (PI) is the substrate for the phosphatidylinositol signaling cycle: PI is phosphorylated to PIP2, which upon receptor activation is cleaved by phospholipase C into diacylglycerol (DAG, remaining membrane-bound) and inositol trisphosphate (IP3, a soluble second messenger). For IP3 to reach its cytoplasmic/ER receptor targets and elicit a signaling response, PI and its phosphorylated derivatives must face the cytoplasm rather than the extracellular space. Inositol is actually very hydrophilic (not \"hydrophobic,\" ruling out A) and structurally distinct from glucose (no competition for glucose-binding ligands, ruling out B); PI does not specifically bind phosphatidylserine (D) or interact with actin (E) as its reason for inner-leaflet localization.",
+      "keypoints": [
+        "⭐ Lithium's therapeutic mechanism in bipolar disorder involves inhibition of inositol monophosphatase, depleting free inositol needed to regenerate PIP2.",
+        "⭐ The PI cycle generates two second messengers from one PIP2 molecule: DAG (activates PKC) and IP3 (releases ER calcium stores).",
+        "Gq-coupled receptors (e.g., α1-adrenergic, M1/M3 muscarinic) signal through activation of phospholipase C-β and this pathway.",
+        "GPI (glycosylphosphatidylinositol) anchors are a separate, unrelated use of phosphatidylinositol that instead anchors proteins to the outer leaflet."
+      ]
+    },
+    {
+      "id": "q16_016",
+      "tag": "biochem",
+      "examLevel": "step1",
+      "system": "Biochemistry",
+      "contentType": "Biochemistry",
+      "stem": "Your 52-year-old male patient, an avid soccer player in his youth, who had several knee injuries, has been complaining of knee pain for the past 6 months. The knees are tender, stiff, and feel warm when touched. He wants long-term relief, not just short-term relief. You suggest that the patient take which of the following to try and reduce the knee pain, for the long term?",
+      "choices": [
+        "Aspirin",
+        "Acetaminophen",
+        "Sphingomyelin",
+        "Glucosamine",
+        "Inositol"
+      ],
+      "answer": 3,
+      "explanation": "This patient's history of repetitive joint trauma with chronic knee pain, stiffness, and warmth is consistent with osteoarthritis, which involves progressive breakdown of the proteoglycan-rich cartilage matrix. Glucosamine is a building-block precursor used to help resynthesize glycosaminoglycans/proteoglycans in cartilage, offering a disease-modifying (though clinically debated) long-term approach rather than pure symptom control. Aspirin and acetaminophen (A, B) provide only short-term analgesic/anti-inflammatory relief without addressing cartilage matrix regeneration, while sphingomyelin (C) and inositol (E) are membrane lipids unrelated to joint cartilage structure.",
+      "keypoints": [
+        "⭐ Proteoglycans in cartilage rely on their high density of negative charges to attract water via osmotic pressure, giving cartilage its compressive load-bearing ability (hydrogen and ionic bonds with water, not covalent).",
+        "⭐ Glucosamine and chondroitin sulfate supplementation trials have shown mixed/controversial clinical efficacy despite the plausible biochemical rationale.",
+        "Osteoarthritis is primarily a \"wear and tear\" mechanical/degenerative process, distinct from the autoimmune synovial inflammation of rheumatoid arthritis.",
+        "NSAIDs like aspirin work via COX inhibition, reducing prostaglandin-mediated inflammation and pain but not rebuilding cartilage matrix."
+      ]
+    }
+  ]
+}

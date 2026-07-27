@@ -1,0 +1,928 @@
+{
+  "config": {
+    "title": "Lippincott Pharmacology Ch1 (Principles of Pharmacology) - Block 1",
+    "subtitle": "Pharmacokinetics, pharmacodynamics, drug receptor interactions, enzyme kinetics, drug metabolism, and general principles of pharmacology",
+    "passingFraction": 0.75,
+    "tags": {
+      "pharm": {
+        "label": "Pharmacology"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q002",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 28-year-old man with seborrheic dermatitis is prescribed a topical corticosteroid cr\u00e8me by his dermatologist in hopes of alleviating the chronic rash and erythema on the cheeks. Which of the following steps is most critical to achieve a therapeutic drug concentration in plasma?",
+      "choices": [
+        "Absorption",
+        "Distribution",
+        "Elimination",
+        "Glycosylation",
+        "Metabolism"
+      ],
+      "answer": 0,
+      "explanation": "Absorption is the process by which a drug moves from its site of administration (here, the skin) into the plasma; without adequate absorption, no therapeutic plasma concentration can be achieved at all. Distribution and metabolism act only after the drug has already entered the bloodstream, so they cannot compensate for poor absorption. Glycosylation is a protein post-translational modification, not a pharmacokinetic step.",
+      "keypoints": [
+        "Topical absorption depends on skin hydration, lipid solubility of the drug, and vehicle formulation (ointments enhance absorption more than lotions)",
+        "\u2b50 The 4 classic ADME steps occur in order: Absorption \u2192 Distribution \u2192 Metabolism \u2192 Excretion",
+        "Occlusive dressings over topical steroids increase absorption and systemic exposure",
+        "Topical corticosteroids can still cause systemic side effects (HPA axis suppression) if absorption is high enough"
+      ]
+    },
+    {
+      "id": "q003",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 31-year-old man is brought to the emergency department complaining of dyspnea. He has a history of asthma and has had multiple asthma attacks requiring intubation for airway maintenance. He is noncompliant with his medications prescribed for this condition. Physical examination reveals a young man in acute distress. His room air oxygen saturation is 87%. In addition to administration of oxygen, immediate drug administration of albuterol should be administered by which of the following routes?",
+      "choices": [
+        "Inhalation",
+        "Intranasal puff metered dose",
+        "Subcutaneous",
+        "Sublingual",
+        "Topical"
+      ],
+      "answer": 0,
+      "explanation": "Inhalation delivers albuterol directly to the airway smooth muscle across the large surface area of the respiratory tract, producing the fastest and most effective bronchodilation in an acute asthma exacerbation. Subcutaneous administration is comparatively slow and unnecessary when the lungs are directly accessible. Intranasal and topical routes deliver only trivial amounts of drug to the lower airways and are inappropriate for an acutely hypoxic patient.",
+      "keypoints": [
+        "\u2b50 Inhaled beta-2 agonists (albuterol) are first-line rescue therapy for acute asthma exacerbations because of rapid onset (minutes) and direct target-organ delivery",
+        "Nebulized or MDI-with-spacer delivery is preferred over dry powder inhalers in patients unable to generate strong inspiratory effort",
+        "Albuterol acts on bronchial smooth muscle beta-2 receptors to increase cAMP and cause relaxation",
+        "Systemic (IV/SC) beta-agonists carry higher risk of tachycardia and tremor than inhaled forms"
+      ]
+    },
+    {
+      "id": "q004",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 27-year-old female with vulvovaginal candidiasis is given a one-time 100 mg dose of oral fluconazole. She has no other pertinent medical problems and takes no prescription medications. Administration of the medication results in a peak plasma concentration of 20 mg/mL. What is the apparent volume of drug distribution?",
+      "choices": [
+        "0.5 L",
+        "1 L",
+        "3 L",
+        "5 L",
+        "50 L"
+      ],
+      "answer": 3,
+      "explanation": "Volume of distribution (Vd) is calculated as the total dose administered divided by the peak plasma concentration: Vd = 100 mg / 20 mg/L = 5 L. This relatively small Vd is consistent with fluconazole's modest tissue binding compared to highly lipophilic drugs that distribute widely into fat and other tissues. A larger apparent Vd would suggest more extensive tissue sequestration rather than confinement to plasma/extracellular fluid.",
+      "keypoints": [
+        "\u2b50 Vd formula: Vd = Dose / C\u2080 (plasma concentration) \u2014 memorize for exam calculations",
+        "A very large Vd (>total body water) implies the drug concentrates in tissues rather than staying in blood",
+        "Fluconazole has good oral bioavailability (>90%) and penetrates well into vaginal secretions, supporting single-dose oral therapy",
+        "Vd is used together with clearance to determine a drug's half-life and dosing interval"
+      ]
+    },
+    {
+      "id": "q010",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A patient receives a single dose of antibiotics following a prostate needle biopsy. He takes 500 mg of ciprofloxacin immediately after completion of the procedure. The half-life of the medication is 8 h. At approximately how many half-lives will it take for 90% of the drug to be excreted from the body?",
+      "choices": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "3.3",
+        "5.0"
+      ],
+      "answer": 3,
+      "explanation": "By definition of first-order elimination, each half-life removes 50% of the remaining drug: 50% after 1 half-life, 75% after 2, 87.5% after 3, and 90% is reached at approximately 3.3 half-lives (a commonly tested constant). This is the same 3.3 x t\u00bd relationship used to estimate time to 90% steady-state accumulation. Choice E (5.0 half-lives) actually corresponds to ~97% elimination, overshooting the 90% target.",
+      "keypoints": [
+        "\u2b50 Memorize: 90% elimination \u2261 90% steady-state \u2261 3.3 half-lives; 94% \u2261 4 half-lives; 97% \u2261 5 half-lives",
+        "First-order kinetics (proportional rate) applies to most drugs; zero-order (constant rate) applies to ethanol, phenytoin, and aspirin at high doses",
+        "Time to steady state depends only on half-life, not on dose or dosing interval",
+        "Ciprofloxacin is a fluoroquinolone that inhibits bacterial DNA gyrase/topoisomerase IV"
+      ]
+    },
+    {
+      "id": "q012",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A researcher is studying the bioavailability of commonly used antimuscarinics to treat irritable bowel syndrome. Medication A is administered in a 100 mg daily dose orally and 60 mg of the drug is absorbed from the gastrointestinal tract unchanged. Thus, the bioavailability of Medication A is",
+      "choices": [
+        "50%",
+        "60%",
+        "70%",
+        "80%",
+        "90%"
+      ],
+      "answer": 1,
+      "explanation": "Bioavailability (F) is the fraction of an administered dose that reaches the systemic circulation unchanged: F = amount absorbed / amount administered = 60 mg / 100 mg = 60%. Oral bioavailability is reduced by incomplete GI absorption and first-pass hepatic metabolism before the drug reaches systemic circulation. Intravenous administration is defined as having 100% bioavailability, serving as the reference standard.",
+      "keypoints": [
+        "\u2b50 Loading dose formula uses bioavailability: Loading dose = (Cp \u00d7 Vd) / F",
+        "Maintenance dose formula: Maintenance dose = (Cp \u00d7 CL) / F",
+        "First-pass metabolism in the liver is a major cause of low oral bioavailability for many drugs",
+        "Antimuscarinics for IBS reduce GI smooth muscle spasm by blocking M3 receptors"
+      ]
+    },
+    {
+      "id": "q016",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A medical student is doing a summer research project studying five antibiotics to determine potency using the EC50. Antibiotics are placed in plated culture wells with 100,000 CFU of Escherichia coli. The EC50 results for the five antibiotics are shown in the following choices. Based on the results, the most potent antibiotic is",
+      "choices": [
+        "Antibiotic A EC50 = 100",
+        "Antibiotic B EC50 = 2",
+        "Antibiotic C EC50 = 80",
+        "Antibiotic D EC50 = 20",
+        "Antibiotic E EC50 = 50"
+      ],
+      "answer": 1,
+      "explanation": "EC50 is the drug concentration required to produce 50% of the maximal response; the lower the EC50, the less drug is needed to achieve that effect, and thus the more potent the drug. Antibiotic B has the lowest EC50 (2), making it the most potent of the five choices, while Antibiotic A (EC50 = 100) is the least potent. Potency describes dose required for effect and is distinct from efficacy, which describes the maximal effect achievable.",
+      "keypoints": [
+        "\u2b50 Potency and efficacy are different concepts: potency = EC50 (dose needed), efficacy = maximal response achievable regardless of dose",
+        "On a dose-response curve, higher potency shifts the curve to the left (lower doses needed)",
+        "EC50 is used for graded dose-response relationships; ED50 is used for quantal (population) dose-response relationships",
+        "A drug can be highly potent but have low efficacy, or vice versa \u2014 the two do not have to correlate"
+      ]
+    },
+    {
+      "id": "q017",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A drug that binds to a receptor and produces a biological response that mimics the response to the endogenous ligand is known as",
+      "choices": [
+        "Agonist",
+        "Antagonist",
+        "Functional antagonist",
+        "Partial agonist",
+        "Partial antagonist"
+      ],
+      "answer": 0,
+      "explanation": "An agonist binds a receptor and activates it, reproducing the biologic response of the endogenous ligand, ideally achieving the same maximal effect (a full agonist). An antagonist, by contrast, binds the receptor without activating it, blocking the endogenous ligand's effect. A functional antagonist acts at a separate receptor/pathway to physiologically oppose the agonist's effect rather than competing for the same binding site.",
+      "keypoints": [
+        "\u2b50 Phenylephrine is a classic example of a direct alpha-adrenergic agonist that mimics endogenous norepinephrine",
+        "Partial agonists produce a submaximal response even at full receptor occupancy and can act as competitive antagonists in the presence of a full agonist",
+        "Inverse agonists reduce receptor activity below its baseline (constitutive) level, unlike neutral antagonists",
+        "Endogenous ligand = the naturally occurring molecule (hormone/neurotransmitter) that normally activates the receptor"
+      ]
+    },
+    {
+      "id": "q019",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A researcher for a pharmaceutical company is studying a new medication to treat parkinsonism. The medication is dosed at 10 mg and causes improvement in bradykinesia and cogwheel rigidity in 99% of patients. However, 100 mg of this medication causes toxicity manifested as seizures in 1% of the population treated with this medication. What is the standard margin of safety of this medication?",
+      "choices": [
+        "100",
+        "300",
+        "500",
+        "700",
+        "900"
+      ],
+      "answer": 4,
+      "explanation": "The standard margin of safety is calculated as [(LD1/ED99) - 1] x 100. Here LD1 (dose toxic to 1% of the population) = 100 mg and ED99 (dose effective in 99% of the population) = 10 mg, giving [(100/10) - 1] x 100 = 900. This means the effective dose would need to be increased 900% before it becomes toxic to 1% of patients, reflecting a wide safety margin. This differs from the therapeutic index (TD50/ED50), which uses median rather than extreme percentile doses.",
+      "keypoints": [
+        "\u2b50 Standard margin of safety formula: [(LD1/ED99) - 1] \u00d7 100 \u2014 uses the 1st and 99th percentile doses, not medians",
+        "Therapeutic index (TI) = TD50/ED50, a related but distinct safety measure using median toxic and effective doses",
+        "A larger margin of safety or TI indicates a safer drug with more separation between effective and toxic doses",
+        "Drugs with narrow therapeutic indices (digoxin, lithium, warfarin) require close monitoring of blood levels"
+      ]
+    },
+    {
+      "id": "q020",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 67-year-old hospitalized patient with a deep venous thrombosis of the left calf and pulmonary embolism is currently on intravenous heparin on an hourly drip. Unfortunately, because of a calculation error, the heparin drip is running at 100 times the rate it should be running at. Protamine sulfate is immediately given intravenously. This agent works by which of the following mechanisms of action?",
+      "choices": [
+        "Agonist",
+        "Chemical antagonist",
+        "Functional agonist",
+        "Partial agonist",
+        "Partial antagonist"
+      ],
+      "answer": 1,
+      "explanation": "Protamine sulfate is a strongly positively charged (basic) protein that binds tightly and ionically to the negatively charged heparin molecule, forming an inactive complex \u2014 the definition of a chemical antagonist, which neutralizes an agonist by direct chemical interaction rather than receptor competition. This is distinct from a pharmacologic (receptor-based) antagonist, which would compete with heparin's target (antithrombin) for binding. Protamine reverses heparin's anticoagulant effect within minutes of IV administration.",
+      "keypoints": [
+        "\u2b50 Protamine sulfate directly binds and inactivates heparin via ionic interaction \u2014 a classic example of chemical antagonism",
+        "Protamine only reverses unfractionated heparin fully; it only partially reverses low molecular weight heparins (e.g., enoxaparin)",
+        "Excess protamine can itself act as an anticoagulant and cause hypotension/anaphylactoid reactions, especially in patients with fish allergy or prior insulin (NPH) exposure",
+        "Chemical antagonism differs from pharmacologic antagonism, which occurs at a shared receptor site"
+      ]
+    },
+    {
+      "id": "q023",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 15-year-old boy who has diabetes and is insulin dependent is brought to the emergency department after collapsing at a baseball game. His blood sugar is 463 mg/dL by finger stick. Which of the following routes of administration would be most efficacious for medications to bring the blood sugar down?",
+      "choices": [
+        "Intramuscular",
+        "Intravenous",
+        "Oral",
+        "Subcutaneous",
+        "Sublingual"
+      ],
+      "answer": 1,
+      "explanation": "Intravenous insulin infusion produces the fastest onset and highest peak blood concentration because it bypasses absorption altogether, delivering drug directly into systemic circulation \u2014 critical in an emergency such as diabetic ketoacidosis. IM and SC insulin formulations, even rapid-acting ones, require an absorption step and therefore act more slowly than IV. Oral insulin is not viable because gastrointestinal peptidases degrade the protein before it can be absorbed.",
+      "keypoints": [
+        "\u2b50 IV administration has 100% bioavailability and the fastest onset of any route because absorption is bypassed entirely",
+        "Regular (short-acting) insulin is the only insulin formulation approved for IV use in DKA management",
+        "Insulin cannot be given orally because it is a peptide hormone destroyed by gastric and pancreatic proteases",
+        "Severe hyperglycemia (463 mg/dL) with collapse should prompt evaluation for DKA (check ketones, anion gap, pH)"
+      ]
+    },
+    {
+      "id": "q024",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 16-year-old male high school football player takes 800 mg of ibuprofen after morning practice for a sore knee. Ibuprofen has a half-life of about 2 h. What percentage of the original plasma load of ibuprofen will remain in his blood when afternoon practice starts in 4 h?",
+      "choices": [
+        "0%",
+        "12.5%",
+        "25%",
+        "50%",
+        "75%"
+      ],
+      "answer": 2,
+      "explanation": "With a half-life of 2 hours, 4 hours represents exactly 2 half-lives. Each half-life reduces the remaining drug by half: 100% \u2192 50% after 1 half-life \u2192 25% after 2 half-lives. This first-order elimination pattern is predictable and independent of the starting dose, since the fraction eliminated per half-life is constant.",
+      "keypoints": [
+        "\u2b50 First-order elimination: 50% remains after 1 t\u00bd, 25% after 2 t\u00bd, 12.5% after 3 t\u00bd, 6.25% after 4 t\u00bd",
+        "Ibuprofen (like most NSAIDs) follows first-order kinetics at therapeutic doses, unlike aspirin at high/toxic doses which shifts to zero-order",
+        "Half-life is independent of dose for first-order drugs \u2014 the fraction eliminated per unit time is constant, not the absolute amount",
+        "NSAIDs inhibit COX-1 and COX-2, reducing prostaglandin-mediated pain and inflammation"
+      ]
+    },
+    {
+      "id": "q032",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 17-year-old pregnant female asks her doctor what she can do about her acne. The doctor prescribes a topical benzoyl peroxide preparation, but the patient is unsatisfied with the results. She has a close friend taking a vitamin A\u2013based acne control product, and her friend often tells her how well it works. She begins taking her friend's pills and is pleased with the reduction in her acne. During which prenatal period is her unborn child at greatest risk for developing a birth defect?",
+      "choices": [
+        "Before conception, because the drug described is known to cause mutations in the maternal germ cell line",
+        "Days 1 to 17 after conception",
+        "Days 18 to 55 after conception",
+        "Days 56 to birth",
+        "Vitamin A is a natural substance and therefore poses no risk of ill effects"
+      ],
+      "answer": 2,
+      "explanation": "Days 18-55 after conception constitute the embryonic period, during which organogenesis occurs; rapidly dividing, differentiating cells are exquisitely sensitive to teratogens at this stage, making structural malformations most likely. Days 1-17 (the pre-implantation/all-or-nothing period) either cause spontaneous abortion or no defect at all because cells remain totipotent. The later fetal period (day 56 to birth) mainly causes growth restriction rather than structural malformation, since organs are already formed.",
+      "keypoints": [
+        "\u2b50 Isotretinoin/vitamin A derivatives are potent Category X teratogens causing CNS, craniofacial, and cardiac malformations",
+        "The embryonic period (weeks 3-8, days 18-55) is the classic teratogen-sensitive window tested for essentially all organ systems",
+        "The pre-implantation period follows an \u201call-or-none\u201d rule due to cellular totipotency",
+        "Vitamin A toxicity (natural or synthetic) is teratogenic regardless of source \u2014 \u201cnatural\u201d does not mean safe in pregnancy"
+      ]
+    },
+    {
+      "id": "q033",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 24-year-old primigravid female's water breaks at 39 weeks gestation. Twenty-four hours later, she is having regular contractions 3 min apart. Her labor lasts 8 h. At the hospital, she gives birth to a baby boy, who initially appeared healthy. Within the next 12 h, the baby boy begins to have temperature fluctuations, difficulty breathing, and reduced movements. You suspect neonatal sepsis, so IV gentamicin plus ampicillin is started. Gentamicin and ampicillin are commonly used together because the combined effect is greater than the additive effects of both alone. This increased effectiveness is an example of what principle?",
+      "choices": [
+        "Agonism",
+        "Anergy",
+        "Symbiosis",
+        "Synergy"
+      ],
+      "answer": 3,
+      "explanation": "Synergy describes the phenomenon in which the combined effect of two drugs exceeds the arithmetic sum of their individual effects, as seen classically with beta-lactam plus aminoglycoside combinations, where cell-wall disruption by ampicillin enhances aminoglycoside penetration into bacteria. This is distinct from simple additive effects, where combined effect merely equals the sum of individual effects. Neither agonism (a receptor-drug interaction concept) nor symbiosis (a biologic relationship between organisms) accurately describes this pharmacologic interaction.",
+      "keypoints": [
+        "\u2b50 Classic synergistic pairing: beta-lactams (cell wall inhibitors) + aminoglycosides \u2014 wall damage increases aminoglycoside uptake into bacteria",
+        "Synergy is often exploited clinically to treat serious infections (e.g., enterococcal endocarditis) with lower individual doses and toxicity",
+        "Neonatal sepsis after prolonged rupture of membranes is classically caused by Group B Streptococcus and E. coli",
+        "Contrast with antagonism, where combined drug effect is less than either drug alone"
+      ]
+    },
+    {
+      "id": "q039",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A medical student is evaluating the effects of two \u03b11-adrenergic agonist in a rat-based model. Agent A is a short-acting agent with a half-life of 4 h. Agent B is a long-acting agent with a half-life of 12 h. Which of the following effects would be most likely to be observed at 2 h after administration of both agents?",
+      "choices": [
+        "Decreased peripheral resistance",
+        "Hypotension",
+        "Miosis",
+        "Urethral sphincter closure",
+        "Vasodilation"
+      ],
+      "answer": 3,
+      "explanation": "Alpha-1 adrenergic agonists cause smooth muscle contraction, producing urethral sphincter closure and increased peripheral vascular resistance (leading to hypertension, not hypotension). Both agents, regardless of their differing half-lives, would still be active and exerting alpha-1 effects at only 2 hours post-administration. Miosis and vasodilation are opposite of the expected alpha-1 agonist effects (which cause mydriasis and vasoconstriction).",
+      "keypoints": [
+        "\u2b50 Alpha-1 receptor activation: vascular and urethral/prostatic smooth muscle contraction, mydriasis (pupil dilation), increased peripheral resistance",
+        "Alpha-1 agonists (e.g., phenylephrine) are used clinically as nasal decongestants and to treat hypotension/priapism",
+        "Alpha-1 blockers (e.g., tamsulosin, doxazosin) relax the urethral sphincter and are used for BPH and hypertension \u2014 the opposite effect",
+        "Half-life differences between two drugs of the same class do not change their qualitative receptor effects while both remain active"
+      ]
+    },
+    {
+      "id": "q043",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A medical student is involved in a summer research project evaluating the excitatory and inhibitory effects of five neurotransmitters. Following as choices are the five neurotransmitters and their excitatory and inhibitory status. Which of the following neurotransmitters is likely to be serotonin?",
+      "choices": [
+        "Neurotransmitter A; excitatory",
+        "Neurotransmitter B; excitatory",
+        "Neurotransmitter C; excitatory and inhibitory",
+        "Neurotransmitter D; inhibitory",
+        "Neurotransmitter E; generally inhibitory"
+      ],
+      "answer": 2,
+      "explanation": "Serotonin (5-HT) is a biogenic amine with a diverse receptor family (5-HT1 through 5-HT7) that produces both excitatory and inhibitory postsynaptic effects depending on receptor subtype and location, distinguishing it from neurotransmitters with a uniform effect. It modulates mood, sleep-wake cycles, appetite, and thermoregulation. Purely inhibitory neurotransmitters like GABA or glycine, and purely excitatory ones like glutamate or acetylcholine at nicotinic receptors, do not share this dual character.",
+      "keypoints": [
+        "\u2b50 Serotonin (5-HT) has both excitatory (5-HT2, 5-HT3, most Gq/Gs-coupled) and inhibitory (5-HT1, Gi-coupled) receptor subtypes",
+        "SSRIs increase synaptic serotonin by blocking presynaptic reuptake (SERT transporter)",
+        "Serotonin syndrome (hyperthermia, clonus, agitation) results from excess serotonergic activity, often from drug combinations",
+        "GABA and glycine are the primary purely inhibitory CNS neurotransmitters; glutamate is the primary excitatory one"
+      ]
+    },
+    {
+      "id": "q046",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "When treating patients with Parkinson's disease, there are three dopamine agonists: pramipexole, ropinirole, and rotigotine. Regarding the pharmacokinetics of these agents, which of the parameters might suggest favorable clinical efficacy for pramipexole?",
+      "choices": [
+        "Bioavailability",
+        "Half-life",
+        "Hepatic excretion capability",
+        "Volume of distribution"
+      ],
+      "answer": 0,
+      "explanation": "Pramipexole has the highest oral bioavailability (>90%) of the three dopamine agonists, meaning a greater fraction of the administered dose reaches systemic circulation to exert therapeutic effect, which favors more predictable and robust clinical efficacy. Half-lives are similar across all three agents (roughly 6-8 hours), so this does not distinguish pramipexole. Rotigotine, by contrast, has the largest volume of distribution but the lowest bioavailability (~45%), a comparative disadvantage.",
+      "keypoints": [
+        "\u2b50 High oral bioavailability (>90%) is pramipexole's key pharmacokinetic advantage among the dopamine agonists",
+        "All three agents (pramipexole, ropinirole, rotigotine) are non-ergot dopamine agonists used for Parkinson's disease and restless legs syndrome",
+        "Pramipexole and ropinirole are eliminated renally; dosage adjustment is needed in renal impairment",
+        "Rotigotine is delivered via transdermal patch, providing more continuous dopaminergic stimulation than oral agents"
+      ]
+    },
+    {
+      "id": "q059",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 12-year-old male with Type-1 diabetes mellitus takes an insulin preparation before his meals to avoid hyperglycemia. Once glucose molecules enter his cells, they are phosphorylated. Phosphorylated glucose is unable to leave the cell. Two enzymes that can phosphorylate glucose are glucokinase and hexokinase. Glucokinase is found primarily in the liver and has a lower affinity for glucose but a greater capacity to phosphorylate glucose than hexokinase, which is found in other body tissues. Compared to glucokinase, which of the following differences in enzyme kinetics will hexokinase display?",
+      "choices": [
+        "Higher Km and higher Vmax",
+        "Higher Km and lower Vmax",
+        "Lower Km and higher Vmax",
+        "Lower Km and lower Vmax",
+        "There will be no difference in the enzyme kinetics hexokinase compared to glucokinase"
+      ],
+      "answer": 3,
+      "explanation": "Hexokinase has a lower Km (higher affinity, since it reaches half-maximal velocity at a lower substrate concentration) and a lower Vmax (lower capacity) compared to glucokinase. This reflects hexokinase's role in maintaining glucose phosphorylation even at low glucose concentrations in peripheral tissues, whereas hepatic glucokinase, with its higher Km and higher Vmax, only ramps up activity after a meal when glucose is abundant, allowing the liver to act as a glucose buffer.",
+      "keypoints": [
+        "\u2b50 Km is inversely related to affinity: LOW Km = HIGH affinity for substrate (reaches half-max velocity at low [S])",
+        "Glucokinase is not inhibited by its product (glucose-6-phosphate), unlike hexokinase which is subject to product inhibition",
+        "Glucokinase activity is induced by insulin, linking hepatic glucose uptake to the fed state",
+        "This same Km/Vmax framework applies broadly to enzyme kinetics questions on competitive vs. noncompetitive inhibition"
+      ]
+    },
+    {
+      "id": "q064",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 59-year-old man is going to undergo a prostate needle biopsy by his urologist. As a preparation for the procedure, he is required to take a fleet enema per rectum and a one time dose of ciprofloxacin 500 mg prior to the procedure. He has a prior medical history of diabetes mellitus, which is controlled with diet. Administration of the medication results in a peak plasma concentration of 20 mg/mL. What is the apparent volume of drug distribution?",
+      "choices": [
+        "0.5 L",
+        "1 L",
+        "5 L",
+        "15 L",
+        "25 L"
+      ],
+      "answer": 4,
+      "explanation": "Volume of distribution is calculated as dose divided by peak plasma concentration: Vd = 500 mg / 20 mg/L = 25 L. This is a purely mathematical application of the Vd formula, identical in method to the earlier fluconazole question but with different numeric inputs, and tests whether the reader can correctly perform unit conversion (mg/mL to mg/L).",
+      "keypoints": [
+        "\u2b50 Always double-check units before dividing \u2014 20 mg/mL = 20,000 mg/L, but when the dose is already given in mg and concentration in mg/mL, convert consistently (here treated as mg/L per the book's intended answer)",
+        "Ciprofloxacin achieves good tissue penetration, including prostate tissue, supporting its use in prostate biopsy prophylaxis",
+        "A large apparent Vd (25 L, exceeding plasma volume of ~3 L) indicates substantial tissue distribution beyond the vascular compartment",
+        "Fluoroquinolones like ciprofloxacin inhibit bacterial DNA gyrase and topoisomerase IV"
+      ]
+    },
+    {
+      "id": "q065",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 17-year-old woman who is a college freshman presents to the student health clinic complaining of a creamy discharge from her vagina. She is not sexually active. Physical examination reveals an intact hymenal ring with no evidence of pelvic prolapse. The patient is given a prescription of fluconazole to be taken daily (q 12 h) for 3 days. The half-life is 12 h. How long will it take for the medication to reach 90% of its final steady state level?",
+      "choices": [
+        "10 h",
+        "20 h",
+        "30 h",
+        "40 h",
+        "50 h"
+      ],
+      "answer": 3,
+      "explanation": "Time to 90% steady state is estimated using the formula 3.3 x t\u00bd. With a half-life of 12 hours, 3.3 x 12 = approximately 40 hours. This formula is a direct corollary of first-order elimination kinetics: steady state (regardless of dose or dosing interval) is a function of half-life alone, reached after roughly 4-5 half-lives for full accumulation.",
+      "keypoints": [
+        "\u2b50 90% steady state \u2261 3.3 half-lives; this constant should be memorized alongside 94% \u2261 4 t\u00bd and 97% \u2261 5 t\u00bd",
+        "Steady state is achieved by accumulation with repeated dosing, not by a single dose, and is independent of dose size or dosing frequency",
+        "This patient's presentation (creamy discharge with intact hymen) is consistent with vulvovaginal candidiasis, treated with fluconazole",
+        "A loading dose can be used to achieve therapeutic levels faster than waiting for steady-state accumulation"
+      ]
+    },
+    {
+      "id": "q066",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 49-year-old man receives a single dose of antibiotics following a colonoscopy with biopsy of several polypoid lesions. The patient has a family history of colorectal polyps. He has a past medical history of hypertension. He takes 500 mg of levofloxacin immediately after completion of the procedure. The half-life of the medication is 20 h. At approximately how many half-lives will it take for 90% of the drug to be excreted from the body?",
+      "choices": [
+        "1.5",
+        "2.5",
+        "3.0",
+        "3.3",
+        "5.5"
+      ],
+      "answer": 3,
+      "explanation": "Regardless of the specific half-life value (here 20 hours), the number of half-lives required to eliminate 90% of a first-order drug is a constant: 3.3 half-lives. This mirrors the earlier ciprofloxacin question and reinforces that the number of half-lives to reach a given percent elimination does not depend on the drug's actual half-life duration, only on the percentage threshold being calculated.",
+      "keypoints": [
+        "\u2b50 3.3 half-lives to reach 90% elimination is independent of the actual half-life value in hours \u2014 a pure ratio concept",
+        "Levofloxacin, like ciprofloxacin, is a fluoroquinolone with broad gram-negative and some gram-positive coverage",
+        "With a 20-hour half-life, this patient's 90% elimination would take about 66 hours (3.3 \u00d7 20 h)",
+        "Repeated exam questions with different half-life values but the same percentage test whether students memorized the ratio rather than a specific number"
+      ]
+    },
+    {
+      "id": "q067",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A researcher is attempting to develop a cholinomimetic agent to use in patients with colonic motility syndrome. This agent will serve as a procolonic agent by increasing muscular contractions in the sigmoid colon and rectum. The medication is known as Agent X112A. The medication is administered in a 100 mg daily dose orally and 50 mg of the drug is absorbed from the gastrointestinal tract unchanged. Thus, the bioavailability of this drug is",
+      "choices": [
+        "50%",
+        "70%",
+        "80%",
+        "85%",
+        "95%"
+      ],
+      "answer": 0,
+      "explanation": "Bioavailability equals the amount absorbed unchanged divided by the amount administered: 50 mg / 100 mg = 50%. This is the same fundamental calculation as the earlier bioavailability question (Medication A), reinforcing the formula F = amount reaching systemic circulation / amount administered. A bioavailability of 50% means the oral dose must be roughly double an equivalent IV dose to achieve the same systemic exposure.",
+      "keypoints": [
+        "\u2b50 F = amount absorbed unchanged / amount administered \u2014 core bioavailability formula, IV route defined as F = 100%",
+        "Cholinomimetics (muscarinic agonists) increase GI motility by activating M3 receptors on smooth muscle",
+        "Lower bioavailability requires higher oral doses to achieve equivalent therapeutic plasma levels compared to parenteral routes",
+        "First-pass hepatic metabolism is a major determinant of oral bioavailability for many orally administered drugs"
+      ]
+    },
+    {
+      "id": "q068",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 22-year-old man presents with a painless penile ulcer. His social history is significant for multiple sexual contacts. The physician prescribes benzathine penicillin G, which is renally excreted. Which of the following relationships describes clearance?",
+      "choices": [
+        "= 0.7 \u00d7 Vd/t1/2",
+        "= Amount of drug in the body/plasma drug concentration",
+        "= Cp \u00d7 Cl/F",
+        "= Cp \u00d7 Vd/F",
+        "= pKa + log([A-]/[HA])"
+      ],
+      "answer": 0,
+      "explanation": "Clearance (CL) relates the rate of drug elimination to plasma concentration and can be derived from volume of distribution and half-life using the relationship CL = 0.693 x Vd / t\u00bd (approximated as 0.7 x Vd/t\u00bd), reflecting how quickly the body clears drug relative to how it is distributed. The other equations describe different pharmacokinetic parameters: amount of drug/concentration defines Vd (not clearance), Cp x CL/F calculates maintenance dose, and the pKa equation is the Henderson-Hasselbalch relationship, unrelated to clearance.",
+      "keypoints": [
+        "\u2b50 Clearance formula: CL = 0.7 \u00d7 Vd / t\u00bd (derived from the elimination rate constant k = 0.693/t\u00bd)",
+        "This patient's painless penile ulcer with multiple sexual partners is classic for primary syphilis (Treponema pallidum), treated with benzathine penicillin G",
+        "Clearance determines maintenance dosing; Vd determines loading dosing",
+        "Renally excreted drugs like penicillin G require dose adjustment in renal impairment"
+      ]
+    },
+    {
+      "id": "q069",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 39-year-old man takes a 100 mg dose of medication X. This drug is taken orally and becomes biotransformed by metabolism in the liver and secondary metabolism in the kidneys. This defines which of the following processes?",
+      "choices": [
+        "Absorption",
+        "Catabolism",
+        "Distribution",
+        "Elimination",
+        "Metabolism"
+      ],
+      "answer": 4,
+      "explanation": "Metabolism (biotransformation) is the chemical alteration of a drug's structure by enzymatic processes, typically in the liver but also in other organs including the kidneys, to prepare the compound for excretion. This is distinct from elimination, which refers to the physical removal of drug and metabolites from the body via urine, bile, or feces without further chemical change. Absorption and distribution are earlier pharmacokinetic steps that occur before a drug reaches metabolizing tissues.",
+      "keypoints": [
+        "\u2b50 The 4 sequential ADME steps: Absorption \u2192 Distribution \u2192 Metabolism \u2192 Elimination/Excretion",
+        "Extrahepatic metabolism occurs in the kidney, intestine, lung, and plasma in addition to the dominant hepatic site",
+        "Phase I metabolism (oxidation/reduction/hydrolysis) often precedes phase II (conjugation), though the order can be reversed",
+        "Metabolism generally increases water solubility to facilitate renal or biliary excretion"
+      ]
+    },
+    {
+      "id": "q074",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A patient takes an oral sympathomimetic agent for regulation of heart rate. This agent is taken orally. Which of the following systemic effects is likely a result of this medication?",
+      "choices": [
+        "Bronchoconstriction",
+        "Hypotension",
+        "Pupillary constriction",
+        "Tachycardia",
+        "Urinary frequency"
+      ],
+      "answer": 3,
+      "explanation": "Sympathomimetic agents activate the sympathetic (\"fight-or-flight\") nervous system, producing tachycardia and increased contractility through beta-1 adrenergic stimulation, along with bronchodilation (not constriction), pupillary dilation (mydriasis, not constriction), and hypertension (not hypotension) via alpha-1 effects. Urinary retention (not increased frequency) also results from sympathetic activation via urethral sphincter contraction and detrusor relaxation.",
+      "keypoints": [
+        "\u2b50 Sympathetic (fight-or-flight) activation: \u2191 heart rate, \u2191 contractility, bronchodilation, mydriasis, urinary retention, GI motility inhibition",
+        "Beta-1 receptors mediate cardiac chronotropic (rate) and inotropic (contractility) effects",
+        "Sympathomimetics can be direct-acting (bind receptors directly, e.g., epinephrine) or indirect-acting (increase endogenous catecholamine release, e.g., amphetamines)",
+        "Every incorrect answer choice in this question represents the opposite/parasympathetic-mimicking effect"
+      ]
+    },
+    {
+      "id": "q081",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 55-year-old man with chronic cardiac failure currently takes multiple medications, including digoxin. He is brought to the emergency department because of slurred speech and inappropriate behavior. It turns out that he has not taken his digoxin for the last 2 weeks. The physician gives 125 mg as standard dose. Twenty-four hours later, his serum levels were reported to be 2 ng/mL (2 mg/L). The target therapeutic level is 0.8 ng/mL. What dose of digoxin should he receive?",
+      "choices": [
+        "25 mg",
+        "50 mg",
+        "75 mg",
+        "100 mg",
+        "125 mg"
+      ],
+      "answer": 1,
+      "explanation": "Using Vd = dose/concentration, the apparent volume of distribution is calculated as 125 mg / 2 mg/L = 62.5 L. The amount of drug that needs to be removed to bring the level from 2 mg/L down to the target 0.8 mg/L is Vd x (C1 - C2) = 62.5 L x (2 - 0.8 mg/L) = 75 mg. Subtracting this excess from the standard dose (125 mg - 75 mg) gives the corrected dose of 50 mg that should actually be administered.",
+      "keypoints": [
+        "\u2b50 Adjusting a dose based on a measured drug level uses: Adjusted dose = Standard dose \u2212 [Vd \u00d7 (measured level \u2212 target level)]",
+        "This calculation exemplifies why digoxin, a narrow therapeutic index drug, requires monitoring of serum levels and careful redosing after gaps in therapy",
+        "Digoxin toxicity classically presents with GI symptoms (nausea/vomiting), visual disturbances (yellow-green halos), and cardiac arrhythmias, along with confusion in the elderly",
+        "Digoxin inhibits the Na+/K+-ATPase pump, increasing intracellular calcium and cardiac contractility"
+      ]
+    },
+    {
+      "id": "q092",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "Drug A and Drug B are of equal magnitude. If Drug A and Drug B are combined together, this would be an example of which of the following?",
+      "choices": [
+        "Additive effects",
+        "Neutralization",
+        "Potentiation",
+        "Synergism"
+      ],
+      "answer": 0,
+      "explanation": "Additive effects occur when two drugs with similar mechanisms, when combined, produce a total effect equal to the arithmetic sum of their individual effects (Drug AB = Drug A + Drug B). This differs from synergism, where the combined effect exceeds the simple sum, and from potentiation, where a drug lacking its own effect enhances the effect of a second active drug. Neutralization describes drugs combining to form an inactive compound, unrelated to this scenario.",
+      "keypoints": [
+        "\u2b50 Additive: Drug AB = Drug A + Drug B; Synergistic: Drug AB > Drug A + Drug B; Potentiation: an inactive drug boosts an active drug's effect",
+        "Additive effects are common when combining drugs from the same class acting on the same pathway (e.g., two sedatives)",
+        "Combining additive-effect drugs (e.g., alcohol plus benzodiazepines) is a common cause of unintentional CNS/respiratory depression overdose",
+        "Distinguishing additive vs. synergistic effects matters clinically for dosing safety when prescribing drug combinations"
+      ]
+    },
+    {
+      "id": "q096",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A new vasopressor in development, Drug X, is a partial agonist at \u03b11-adrenergic receptors. Epinephrine is a full agonist at these same receptors. What will be the level of \u03b11-receptor stimulation if both of these drugs (Drug X and epinephrine) are given simultaneously?",
+      "choices": [
+        "It is impossible to tell from the information given",
+        "They will be stimulated at a higher level than when epinephrine is given alone",
+        "They will be stimulated but at a lower level than when epinephrine is given alone",
+        "They will be stimulated at the same level as when epinephrine is given alone",
+        "They will result in no net stimulation"
+      ],
+      "answer": 2,
+      "explanation": "When a partial agonist (Drug X) and a full agonist (epinephrine) compete for the same receptor binding sites, the partial agonist occupies some receptors without producing the full maximal response, effectively displacing some epinephrine molecules and lowering the overall net stimulation compared to epinephrine given alone. This is because Drug X cannot fully activate the receptors it occupies the way epinephrine can, acting functionally like a competitive antagonist in the presence of a full agonist even though it still has some intrinsic activity.",
+      "keypoints": [
+        "\u2b50 A partial agonist given with a full agonist REDUCES the net effect below that of the full agonist alone \u2014 the partial agonist acts as a relative antagonist in this setting",
+        "Partial agonists have lower intrinsic efficacy (Emax) than full agonists even at 100% receptor occupancy",
+        "This principle underlies why partial opioid agonists (e.g., buprenorphine) can precipitate withdrawal in patients on full opioid agonists",
+        "At low concentrations of full agonist, a partial agonist alone can still produce a modest net stimulatory effect"
+      ]
+    },
+    {
+      "id": "q097",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A new vasopressor in development, Drug X, is a partial agonist at \u03b11-adrenergic receptors. Epinephrine is a full agonist at these same receptors. Which of the following statements is true regarding the potency of Drug X compared to epinephrine?",
+      "choices": [
+        "Drug X and epinephrine are equally potent because they act on the same receptors",
+        "Drug X is more potent because it is a partial agonist",
+        "Epinephrine is more potent because it is a full agonist",
+        "Epinephrine is more potent because it is an endogenous neurotransmitter",
+        "Relative potency cannot be determined from the information given"
+      ],
+      "answer": 4,
+      "explanation": "Potency refers to the concentration of drug needed to produce a given effect (reflected by EC50), which is independent of whether a drug is a full or partial agonist and independent of whether a substance is endogenous or synthetic. Being a partial agonist tells us only that Drug X has lower maximal efficacy than epinephrine, not whether it requires a higher or lower concentration to produce a submaximal response, so relative potency simply cannot be determined from the information given. Acting on the same receptor also does not guarantee equal potency, since binding affinity can differ between two ligands at the same receptor.",
+      "keypoints": [
+        "\u2b50 Potency and efficacy are independent properties \u2014 knowing a drug is a partial agonist tells you about efficacy (Emax), not potency (EC50)",
+        "Being endogenous vs. synthetic has no inherent bearing on a substance's potency",
+        "To compare potency, one needs actual EC50 (or ED50) values from a dose-response curve, not just agonist classification",
+        "This question pairs with Q96 to test both potency and efficacy concepts using the same drug scenario"
+      ]
+    },
+    {
+      "id": "q098",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "Referring to the following figure regarding the pharmacokinetics of prototype Drug X-100A, a novel chemotherapeutic agent to treat breast cancer, which of the following letters represents the process of elimination?",
+      "choices": [
+        "Letter A",
+        "Letter B",
+        "Letter C",
+        "Letter D"
+      ],
+      "answer": 3,
+      "explanation": "Letter D in the diagram represents the final arrow leading from \"drug in plasma\"/\"metabolite(s) in tissues\" to \"drug and/or metabolite(s) in urine, bile, or feces\" \u2014 the definition of elimination, the process by which drug and its breakdown products leave the body. Letter A represents absorption (drug at site of administration entering plasma), Letter B represents distribution (reversible movement between plasma and tissues), and Letter C represents metabolism (conversion of drug to metabolites within tissues).",
+      "keypoints": [
+        "\u2b50 This diagram is a visual mnemonic for the full ADME pathway: A=Absorption, B=Distribution, C=Metabolism, D=Elimination",
+        "Elimination occurs via three principal routes: renal (urine), hepatobiliary (bile/feces), and to a lesser extent pulmonary/other routes",
+        "The double-headed arrow for distribution (B) reflects that drug movement between plasma and tissues is reversible and concentration-dependent",
+        "Both unchanged drug and its metabolites can be eliminated simultaneously through the pathways shown"
+      ],
+      "image": "/images/pharm_ch1/lippincott pharm ch1 q98.png",
+      "imageAlt": "Flow diagram of drug pharmacokinetics showing site of administration, plasma, tissues, metabolites, and excretion with lettered arrows A-D",
+      "imageCaption": "Pharmacokinetic pathway diagram: A=absorption, B=distribution, C=metabolism, D=elimination"
+    },
+    {
+      "id": "q101",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A novel medication designed to treat lymphoma can be administered via injection or orally. If the drug is given orally, an estimation of the area under the curve for this dose may be represented by which of the following letters in the following figure?",
+      "choices": [
+        "Letter A",
+        "Letter B",
+        "Letter C",
+        "Letter D",
+        "Letter E"
+      ],
+      "answer": 1,
+      "explanation": "Letter B represents the area under the curve (AUC) for the oral dose of the drug (the lower, rounded curve reflecting slower absorption), while Letter C represents the AUC for the injected dose (the steeper, higher curve reflecting immediate systemic delivery). The ratio of the oral AUC (B) to the injected AUC (C) defines the drug's oral bioavailability, since injection is assumed to have 100% bioavailability as the reference. Letter A denotes the drug administration point itself, not an AUC region.",
+      "keypoints": [
+        "\u2b50 Bioavailability (F) = AUC(oral) / AUC(IV or injected) \u2014 the AUC ratio method is a standard way to experimentally determine F",
+        "AUC reflects total systemic drug exposure over time and is used to compare different formulations or routes of the same drug",
+        "The oral curve is lower and more prolonged than the injected curve because absorption is slower and often incomplete",
+        "AUC is calculated using the trapezoidal rule from serial plasma concentration measurements"
+      ],
+      "image": "/images/pharm_ch1/lippincott pharm ch1 q101.png",
+      "imageAlt": "Graph of plasma drug concentration versus time showing area under the curve for oral (B) and injected (C) administration, with curve segments labeled A-E",
+      "imageCaption": "Plasma concentration-time curve illustrating area under the curve (AUC) for oral vs. injected drug administration"
+    },
+    {
+      "id": "q103",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 55-year-old man with a systemic infection is given an intravenous antibiotic at a high rate of infusion. A graph of plasma concentration of drug versus time is presented next. Which of the following letters represents the steady state region?",
+      "choices": [
+        "Letter A",
+        "Letter B",
+        "Letter C",
+        "Letter D"
+      ],
+      "answer": 3,
+      "explanation": "Letter D represents the steady-state plateau (Css) that is achieved when a drug is infused at a constant high rate long enough for the rate of drug input to equal the rate of elimination. Letter A marks the start of infusion, Letter B represents the rising concentration curve when the drug is given at a low infusion rate, and Letter C represents the rising curve at a higher infusion rate that has not yet plateaued. Steady state concentration is proportional to infusion rate, but the time required to reach steady state depends only on the drug's half-life, not on the infusion rate.",
+      "keypoints": [
+        "\u2b50 Time to steady state depends ONLY on half-life (about 4-5 half-lives), NOT on infusion rate \u2014 a commonly tested distinction",
+        "A higher infusion rate raises the steady-state plasma concentration (Css) but does not shorten the time needed to reach it",
+        "A loading dose can be given to reach therapeutic concentration immediately, bypassing the wait for steady state via continuous infusion alone",
+        "Css = infusion rate / clearance, illustrating the direct relationship between infusion rate and steady-state level"
+      ],
+      "image": "/images/pharm_ch1/lippincott pharm ch1 q103.png",
+      "imageAlt": "Graph of plasma drug concentration versus time during continuous IV infusion showing rising curves toward steady-state concentration (Css), labeled A-D",
+      "imageCaption": "Plasma concentration curve during constant-rate IV infusion, illustrating approach to steady state (Css)"
+    },
+    {
+      "id": "q105",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "Two drugs are shown in the following figure. Both are antibiotics used to treat bacterial pneumonia. Which of the following statements is correct about the figure shown next?",
+      "choices": [
+        "Drug A has a lower EC50",
+        "Drug B has a lower EC50",
+        "Drug A is less potent than Drug B",
+        "Drug B should be given intramuscularly",
+        "Drug A should be given intravenously"
+      ],
+      "answer": 0,
+      "explanation": "The dose-response curve shows Drug A reaching 50% of maximal effect at a lower drug concentration than Drug B, meaning Drug A has a lower EC50 and is therefore more potent. The curve provides no information about route of administration (IM vs. IV), so choices D and E cannot be inferred from the graph. Since Drug A has the lower EC50, it is more (not less) potent than Drug B, making choice C the opposite of the correct interpretation.",
+      "keypoints": [
+        "\u2b50 On a dose-response curve, the drug whose curve is shifted to the LEFT has the lower EC50 and is the more potent agent",
+        "Both drugs appear to reach a similar maximal effect (~100%), meaning they have similar efficacy despite differing potency",
+        "Potency differences shown graphically do not by themselves determine route of administration, safety, or clinical superiority",
+        "EC50 comparisons like this are used in early antibiotic development to rank candidate compounds before clinical trials"
+      ],
+      "image": "/images/pharm_ch1/lippincott pharm ch1 q105.png",
+      "imageAlt": "Dose-response curve comparing percentage of maximal effect versus drug concentration for Drug A and Drug B, with Drug A shifted left of Drug B",
+      "imageCaption": "Dose-response curves for two antibiotics (Drug A and Drug B) showing EC50 comparison"
+    },
+    {
+      "id": "q106",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "Three novel drugs to treat Alzheimer's disease have undergone phase I trials. A graph of the biologic effect versus log drug concentration is plotted in the following graph. Which of the following statements is true?",
+      "choices": [
+        "Drug A is less potent than Drug B",
+        "Drug A has lower efficacy than Drug B",
+        "Drug C shows lower potency than Drugs A and B",
+        "Drug C is best administered orally",
+        "Drug C is most likely to be approved for use"
+      ],
+      "answer": 2,
+      "explanation": "Drug C's curve is shifted furthest to the right on the log concentration axis, meaning it requires the highest concentration to reach 50% of maximal effect (highest EC50), making it the least potent of the three drugs shown. Drug A's curve, being furthest left, makes it the most potent, not the least potent as choice A implies. The graph provides no information about route of administration or likelihood of regulatory approval, so choices D and E cannot be determined from the data shown.",
+      "keypoints": [
+        "\u2b50 Curves shifted rightward on a log-concentration axis indicate LOWER potency (higher EC50 required for the same effect)",
+        "All three drugs in this graph appear to reach similar maximal efficacy (~100%), differing only in potency (position along the x-axis)",
+        "Phase I trials primarily assess safety and pharmacokinetics/pharmacodynamics in a small number of subjects, not comparative efficacy for approval",
+        "Potency alone does not predict clinical superiority \u2014 a less potent drug can still be equally effective at a higher (but still safe) dose"
+      ],
+      "image": "/images/pharm_ch1/lippincott pharm ch1 q106.png",
+      "imageAlt": "Dose-response curves plotting biologic effect versus log drug concentration for Drug A, Drug B, and Drug C, with Drug C shifted furthest right",
+      "imageCaption": "Dose-response curves for three investigational Alzheimer's drugs, illustrating relative potency by EC50 position"
+    },
+    {
+      "id": "q107",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A graph of the therapeutic index of warfarin is shown in the following figure. Which of the following statements is true?",
+      "choices": [
+        "The therapeutic window is large",
+        "There is a small window of desired effect of this medication",
+        "Unwanted adverse events are unlikely with this agent",
+        "Unwanted adverse events are unlikely dose related"
+      ],
+      "answer": 1,
+      "explanation": "The figure shows substantial overlap between the curve for desired therapeutic effect and the curve for unwanted adverse effects, illustrating that warfarin has a narrow therapeutic window \u2014 only a small range of drug concentrations achieves the desired anticoagulant effect without also risking bleeding complications. This narrow margin is precisely why warfarin requires frequent INR monitoring and dose titration. Because the two curves overlap substantially, adverse effects are neither unlikely nor unrelated to dose; they become more likely as concentration rises toward and into the therapeutic range.",
+      "keypoints": [
+        "\u2b50 Warfarin is a classic narrow therapeutic index (NTI) drug requiring routine INR monitoring, unlike wide-therapeutic-index drugs such as penicillin",
+        "Narrow therapeutic index drugs (warfarin, digoxin, lithium, phenytoin, theophylline) are high-yield for board exams due to their monitoring requirements",
+        "Warfarin inhibits vitamin K epoxide reductase, blocking synthesis of clotting factors II, VII, IX, and X",
+        "Drug interactions and dietary vitamin K intake further narrow warfarin's effective therapeutic window in practice"
+      ],
+      "image": "/images/pharm_ch1/lippincott pharm ch1 q107.png",
+      "imageAlt": "Graph showing percentage of patients versus log concentration of warfarin in plasma, with overlapping curves for desired therapeutic effect and unwanted adverse effect, and a narrow highlighted therapeutic window",
+      "imageCaption": "Therapeutic index graph for warfarin showing overlap between therapeutic and toxic effect curves (narrow therapeutic window)"
+    },
+    {
+      "id": "q108",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "Neurotransmission in the autonomic nervous system is related to chemical signaling between cells. Which of the following examples illustrates direct contact signaling?",
+      "choices": [
+        "Letter A",
+        "Letter B",
+        "Letter C",
+        "Cannot be determined"
+      ],
+      "answer": 1,
+      "explanation": "Letter B depicts direct contact (gap junction) signaling, in which a signaling cell is physically connected to adjacent target cells through gap junctions, allowing ions and small molecules to pass directly between cells without diffusing through extracellular space. Letter A illustrates endocrine signaling, where a hormone is released into the bloodstream and travels to a distant target cell. Letter C illustrates synaptic signaling, in which a nerve cell releases neurotransmitter across a synaptic cleft to a nearby target cell \u2014 close proximity but not direct cytoplasmic contact.",
+      "keypoints": [
+        "\u2b50 Gap junctions allow direct cytoplasmic continuity between adjacent cells, enabling electrical and small-molecule coupling (e.g., cardiac myocytes, smooth muscle)",
+        "Endocrine signaling acts over long distances via the bloodstream; paracrine signaling acts on nearby cells via local diffusion; synaptic signaling is a specialized rapid form of paracrine signaling",
+        "Gap junctions are composed of connexin proteins arranged into connexons",
+        "Direct contact signaling permits extremely rapid, synchronized responses, as seen in cardiac conduction and smooth muscle coordination"
+      ],
+      "image": "/images/pharm_ch1/lippincott pharm ch1 q108.png",
+      "imageAlt": "Three-panel diagram illustrating endocrine signaling (A), gap junction direct contact signaling (B), and synaptic signaling (C) between cells",
+      "imageCaption": "Comparison of cell signaling mechanisms: endocrine (A), direct contact/gap junction (B), and synaptic (C)"
+    },
+    {
+      "id": "q109",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "Alzheimer's disease is thought to result from an imbalance in the synthesis and release of acetylcholine from the cholinergic neuron. Above is a diagram of this process. In which of the following steps is acetylcholine taken up into storage vesicles?",
+      "choices": [
+        "Letter A",
+        "Letter B",
+        "Letter C",
+        "Letter D",
+        "Letter E"
+      ],
+      "answer": 1,
+      "explanation": "Letter B represents the uptake of newly synthesized acetylcholine into synaptic storage vesicles, where it is protected from enzymatic degradation by acetylcholinesterase until release. Letter A represents synthesis of acetylcholine from choline and acetyl-CoA by choline acetyltransferase. Letter C represents vesicular release of acetylcholine into the synaptic cleft, Letter D represents acetylcholine binding to its postsynaptic receptor, and Letter E represents its subsequent degradation by acetylcholinesterase into choline and acetate.",
+      "keypoints": [
+        "\u2b50 Acetylcholine synthesis-storage-release sequence: choline + acetyl-CoA \u2192 ACh synthesis (A) \u2192 vesicular storage (B) \u2192 Ca2+-triggered release (C) \u2192 receptor binding (D) \u2192 AChE degradation (E)",
+        "Choline reuptake into the presynaptic neuron (via a Na+-dependent transporter) is the rate-limiting step in ACh synthesis and is a target of hemicholinium",
+        "Alzheimer's disease treatment (donepezil, rivastigmine, galantamine) works by inhibiting acetylcholinesterase to boost synaptic ACh levels",
+        "Vesicular ACh transporter (VAChT) is responsible for packaging cytoplasmic ACh into synaptic vesicles"
+      ],
+      "image": "/images/pharm_ch1/lippincott pharm ch1 q109.png",
+      "imageAlt": "Diagram of a cholinergic synapse showing choline uptake, acetylcholine synthesis, vesicular storage, calcium-triggered release, receptor binding, and acetylcholinesterase degradation, with lettered steps A-E",
+      "imageCaption": "Cholinergic neurotransmission diagram: synthesis, vesicular storage, release, receptor binding, and degradation of acetylcholine"
+    },
+    {
+      "id": "q111",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 52-year-old female with diabetes presents to the ambulatory care clinic for follow-up. She has no complaints and is tolerating her metformin well. Her hemoglobin A1c is 13.5. Her urine analysis shows microalbuminuria. She is started on captopril, which competitively inhibits angiotensin-converting enzyme. What effect does a competitive inhibitor have on enzyme kinetics?",
+      "choices": [
+        "Decreases Km",
+        "Decreases Vmax",
+        "Increases Km",
+        "Increases Vmax",
+        "No effect on Km or Vmax"
+      ],
+      "answer": 2,
+      "explanation": "A competitive inhibitor binds reversibly at the enzyme's active site, competing directly with substrate for the same binding location; this increases the apparent Km (more substrate is needed to achieve the same reaction velocity because some active sites are occupied by inhibitor) while Vmax remains unchanged, since sufficiently high substrate concentration can still outcompete the inhibitor and achieve maximal velocity. This is in contrast to noncompetitive inhibitors, which decrease Vmax without affecting Km because they bind at a site distinct from the active site regardless of substrate concentration.",
+      "keypoints": [
+        "\u2b50 Competitive inhibitor: \u2191 Km, unchanged Vmax (can be overcome by excess substrate); Noncompetitive inhibitor: unchanged Km, \u2193 Vmax (cannot be overcome by excess substrate)",
+        "Captopril is a prototype ACE inhibitor that reduces angiotensin II formation, causing vasodilation and decreased aldosterone secretion",
+        "ACE inhibitors are first-line for diabetic nephropathy because they reduce intraglomerular pressure and proteinuria (microalbuminuria) independent of blood pressure effects",
+        "Lineweaver-Burk plots visually distinguish inhibitor types: competitive inhibition changes the x-intercept (-1/Km) but not the y-intercept (1/Vmax)"
+      ]
+    },
+    {
+      "id": "q112",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 68-year-old man presents to the ambulatory care clinic with the complaint of difficulty urinating. He has difficulty starting his stream and feels his bladder is still full after he urinates. He has to get up about four times a night to urinate. The physician starts him on finasteride, which noncompetitively inhibits 5\u03b1-reductase. What effect does a noncompetitive inhibitor have on enzyme kinetics?",
+      "choices": [
+        "Decreases Km",
+        "Decreases Vmax",
+        "Increases Km",
+        "Increases Vmax",
+        "No effect on Km or Vmax"
+      ],
+      "answer": 1,
+      "explanation": "A noncompetitive inhibitor binds to the enzyme at a site distinct from the active site, whether or not substrate is already bound, reducing the number of functional active sites available and thereby decreasing Vmax; because the inhibitor does not compete with substrate for the active site, the enzyme's affinity for substrate (Km) is unaffected. Unlike competitive inhibition, increasing substrate concentration cannot overcome noncompetitive inhibition, since the inhibitor's binding is independent of substrate concentration.",
+      "keypoints": [
+        "\u2b50 Noncompetitive inhibitor: unchanged Km, \u2193 Vmax \u2014 cannot be overcome by adding more substrate, unlike competitive inhibition",
+        "Finasteride blocks conversion of testosterone to dihydrotestosterone (DHT), the androgen primarily responsible for prostate growth in BPH",
+        "This patient's symptoms (hesitancy, incomplete emptying, nocturia) are classic for benign prostatic hyperplasia",
+        "5-alpha reductase inhibitors take months to show maximal symptomatic benefit and also reduce PSA levels by roughly 50%"
+      ]
+    },
+    {
+      "id": "q113",
+      "tag": "pharm",
+      "examLevel": "step1",
+      "system": "Pharmacology",
+      "contentType": "Pharmacology",
+      "stem": "A 33-year-old man presents to the emergency department with pain in his right buttock. The pain is constant, 8/10, and increases when he sits down. A CT scan confirms the presence of an abscess. Gram stain of the abscess fluid is gram-positive cocci in clusters. The patient is started on vancomycin for a possible MRSA infection. If the half-life of vancomycin is 5 h, how long will it take to reach clinical steady state?",
+      "choices": [
+        "10 h",
+        "12 h",
+        "15 h",
+        "18 h",
+        "23 h"
+      ],
+      "answer": 4,
+      "explanation": "Clinical steady state is generally defined as being reached after 4-5 half-lives, corresponding to about 93.75-97% of maximal accumulated concentration. With a half-life of 5 hours, 4-5 half-lives corresponds to 20-25 hours, and among the choices given, 23 hours (approximately 4.6 half-lives, reaching >94% of steady state) is the best answer. The other choices correspond to fewer half-lives (e.g., 10 h = 2 half-lives = 75% of steady state; 15 h = 3 half-lives = 87.5%), all below the clinically accepted steady-state threshold.",
+      "keypoints": [
+        "\u2b50 Clinical steady state is conventionally defined as \u226594% accumulation, reached at approximately 4 half-lives (93.75%) to 5 half-lives (96.875%)",
+        "Gram-positive cocci in clusters on Gram stain is classic for Staphylococcus aureus, and empiric vancomycin covers possible MRSA pending culture results",
+        "Vancomycin requires trough level monitoring because of its narrow therapeutic window and risk of nephrotoxicity",
+        "A loading dose of vancomycin is often given clinically to achieve therapeutic levels faster than waiting for steady-state accumulation via maintenance dosing alone"
+      ]
+    }
+  ]
+}

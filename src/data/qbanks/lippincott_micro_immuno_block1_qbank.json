@@ -1,0 +1,1673 @@
+{
+  "config": {
+    "title": "Lippincott Micro/Immuno Block 1 QBank",
+    "subtitle": "Selected questions from Chapters 2 (Virology), 6 (Basic Immunology), and 7 (Clinical Immunology)",
+    "passingFraction": 0.75,
+    "tags": {
+      "id": {
+        "label": "Immunology/ID"
+      },
+      "immuno": {
+        "label": "Immunology/ID"
+      }
+    }
+  },
+  "questions": [
+    {
+      "id": "q2_002",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A new antiviral agent is found to prevent uncoating in a number of different viruses. At which part in the generalized virus replication cycle does uncoating occur?",
+      "choices": [
+        "Attachment, Penetration, Replication, Assembly, Release, Uncoating",
+        "Attachment, Penetration, Replication, Assembly, Uncoating, Release",
+        "Attachment, Penetration, Uncoating, Replication, Assembly, Release",
+        "Attachment, Uncoating, Penetration, Assembly, Replication, Release",
+        "Uncoating, Attachment, Penetration, Replication, Assembly, Release"
+      ],
+      "answer": 2,
+      "explanation": "The generalized virus replication cycle proceeds in order: attachment of the virus to a host cell receptor, penetration into the cell, uncoating of the genome from its protein capsid, replication of the genome, assembly of new virions, and release from the cell. Uncoating must occur after penetration and before replication because the polymerase machinery needs access to the naked genome. Any answer sequence placing uncoating before penetration or after replication misorders the cycle.",
+      "keypoints": [
+        "⭐ Standard order: Attachment → Penetration → Uncoating → Replication → Assembly → Release",
+        "Uncoating releases the viral genome from the capsid so it is accessible to polymerases",
+        "Enveloped viruses often uncoat via fusion of the envelope with host membranes during penetration",
+        "Antivirals like amantadine target the uncoating step of influenza A by blocking the M2 ion channel"
+      ]
+    },
+    {
+      "id": "q2_003",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A new immune modulator is developed which enhances early immunologic responses to viral infection. Which of the following is the earliest immunological event that could be the target of this new drug?",
+      "choices": [
+        "Activation of natural killer cells",
+        "Activation of naïve viral-specific B cells",
+        "Activation of naïve viral-specific T cells",
+        "Antigen presentation by dendritic cells",
+        "Production of IFN-γ by antiviral cytotoxic T cells"
+      ],
+      "answer": 0,
+      "explanation": "Natural killer (NK) cells are part of the innate immune response and are among the earliest defenses mounted against viral infection, acting within hours. Virally infected cells commonly downregulate MHC class I expression, and NK cells recognize and kill these MHC-deficient cells without requiring prior antigen-specific priming. The remaining options are all components of the adaptive immune response, which requires dendritic cell antigen presentation in lymph nodes and takes days to become active.",
+      "keypoints": [
+        "⭐ NK cells are innate lymphocytes that kill virally infected cells lacking MHC class I ('missing self' recognition)",
+        "Adaptive responses (T and B cell activation) require dendritic cell antigen presentation in draining lymph nodes and take days",
+        "Dendritic cells bridge innate and adaptive immunity by maturing and presenting antigen to naive T cells",
+        "Type I interferons are also part of the early innate antiviral response, inducing an antiviral state in neighboring cells"
+      ]
+    },
+    {
+      "id": "q2_008",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "Amantadine is a drug used to reduce the ill effects of an influenza virus A infection; however, increasing levels of resistance have limited its usefulness. Resistant strains of influenza A contain single amino acid substitutions in the M2 protein. With which aspect of the virus replication cycle is this protein involved?",
+      "choices": [
+        "Attachment",
+        "Genome replication",
+        "Penetration",
+        "Release",
+        "Uncoating"
+      ],
+      "answer": 4,
+      "explanation": "The influenza A M2 protein is an ion channel that translocates hydrogen ions from the endosome into the interior of the virion after endocytosis, lowering the internal pH. This acidification triggers fusion of the viral envelope with the endosomal membrane and release of the viral RNA from the capsid, a process called uncoating. Amantadine and rimantadine block the M2 ion channel, preventing uncoating; resistance arises from point mutations in the M2 transmembrane domain.",
+      "keypoints": [
+        "⭐ M2 protein = proton channel that acidifies the virion interior, triggering uncoating",
+        "Amantadine/rimantadine block M2 and are only active against influenza A (not B, which lacks M2)",
+        "Neuraminidase inhibitors (oseltamivir, zanamivir) act at a different step — viral release — and work against both influenza A and B",
+        "M2 channel-blocker resistance is now widespread, limiting amantadine's clinical usefulness"
+      ]
+    },
+    {
+      "id": "q2_011",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "HIV can infect any cell expressing the appropriate coreceptors but a productive infection occurs only in activated cells. What is the most likely reason for this observation?",
+      "choices": [
+        "Activated cells decrease their cell surface expression of the coreceptors, so budding virions can easily escape to infect new host cells",
+        "Activated cells do not have the capacity to induce the antiviral state",
+        "Resting cells have sensitive TLR molecules which bind HIV RNA molecules and activate the antiviral state, resulting in degradation of the integrated HIV DNA",
+        "Activated cells express transcription factors and polymerases required for transcription of HIV genes",
+        "Resting cells are resistant to HIV attachment and penetration due to low expression of the HIV coreceptors"
+      ],
+      "answer": 3,
+      "explanation": "HIV requires host-cell transcription factors (such as NF-κB) and active RNA polymerase II machinery to transcribe its integrated proviral DNA into viral mRNA. Resting T cells lack sufficient levels of these activated transcription factors, so although HIV can attach and even integrate into resting cells, productive viral gene expression and replication only proceed once the cell becomes activated. This is why HIV establishes latent reservoirs in resting memory CD4+ T cells.",
+      "keypoints": [
+        "⭐ HIV transcription depends on host activation-induced transcription factors (e.g., NF-κB), not on cell surface receptor levels",
+        "Activated CD4+ T cells actually increase surface CD4, CCR5, and CXCR4 expression, not decrease it",
+        "This dependency on cellular activation is the basis for latent HIV reservoirs in resting memory T cells, a major barrier to cure",
+        "HIV Nef and Vpr proteins manipulate the host cell cycle and immune evasion but are distinct from the transcription-activation requirement"
+      ]
+    },
+    {
+      "id": "q2_015",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "In January, a 66-year-old woman presents with a fever of 102°F, chills, back pain, headache, and marked fatigue. Her physician prescribes oseltamivir and she rapidly recovers. With which etiologic agent was she infected?",
+      "choices": [
+        "Coronavirus",
+        "Influenza virus",
+        "Parainfluenza virus",
+        "Respiratory syncytial virus",
+        "Varicella-zoster virus"
+      ],
+      "answer": 1,
+      "explanation": "The winter timing (January), abrupt onset of high fever, chills, myalgia/back pain, headache, and profound fatigue is the classic presentation of influenza. Oseltamivir, a neuraminidase inhibitor, is specifically indicated for treatment of influenza A and B and shortens illness duration when given early. The other listed pathogens do not typically respond to oseltamivir and have different clinical patterns (e.g., RSV causes bronchiolitis in infants, parainfluenza causes croup).",
+      "keypoints": [
+        "⭐ Classic flu triad: abrupt fever, myalgia, and profound fatigue, peaking in winter months",
+        "Oseltamivir and zanamivir are neuraminidase inhibitors effective against both influenza A and B",
+        "Amantadine/rimantadine only work against influenza A and are limited by widespread M2 resistance",
+        "Early initiation (within 48 hours of symptom onset) of oseltamivir is needed for maximal benefit"
+      ]
+    },
+    {
+      "id": "q2_016",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "What is the mechanism of action of oseltamivir?",
+      "choices": [
+        "Directly prevents replication of the viral genome",
+        "Prevents the release of mature virions from the infected host cell",
+        "Inhibits the uncoating of the virus",
+        "Inhibits the translocation of the viral genome to the nucleus",
+        "Binds directly to the virus RNA polymerase active site"
+      ],
+      "answer": 1,
+      "explanation": "Oseltamivir (Tamiflu) is a neuraminidase inhibitor. Neuraminidase normally cleaves sialic acid residues on the host cell surface, which is necessary to release newly budded influenza virions that would otherwise remain bound via viral hemagglutinin. By inhibiting neuraminidase, oseltamivir traps progeny virions on the surface of the infected cell, preventing their release and spread to new cells. It does not act on genome replication, uncoating, or nuclear transport.",
+      "keypoints": [
+        "⭐ Neuraminidase cleaves sialic acid to release budding virions; inhibiting it traps virus at the cell surface",
+        "Sialic acid also serves as the influenza attachment receptor, so neuraminidase functions in both entry and egress",
+        "Zanamivir shares this same mechanism and is also active against influenza A and B",
+        "Contrast with amantadine, which blocks the M2 channel and thus blocks uncoating instead of release"
+      ]
+    },
+    {
+      "id": "q2_017",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Type I interferon is used in the treatment of certain viral infections. Which one of the following best describes the mode of action of this antiviral?",
+      "choices": [
+        "Decreases class I MHC expression of infected host cells",
+        "Increases degradation of mRNA of infected host cells",
+        "Decreases expression of viral receptors on the surface of host cells",
+        "Directly lyses free virions in the blood",
+        "Attaches to free virus and provides a binding site for opsonizing antibodies"
+      ],
+      "answer": 1,
+      "explanation": "Type I interferons (IFN-α and IFN-β) are secreted by virally infected cells and act on neighboring uninfected cells to induce an 'antiviral state.' This state involves activation of pathways (e.g., 2'-5' oligoadenylate synthetase/RNase L and PKR) that inhibit protein synthesis and degrade both host and viral mRNA, limiting viral replication. Contrary to intuition, type I interferons actually upregulate (not decrease) MHC class I expression, enhancing recognition of infected cells by cytotoxic T lymphocytes.",
+      "keypoints": [
+        "⭐ Type I IFN induces mRNA degradation and translational shutdown in neighboring cells via RNase L and PKR pathways",
+        "Type I IFN upregulates MHC class I expression, improving CD8+ T cell recognition of infected cells",
+        "Used clinically for chronic hepatitis B/C and some HPV-related conditions",
+        "Distinct from type II interferon (IFN-γ), which is produced by activated T cells and NK cells and primarily activates macrophages"
+      ]
+    },
+    {
+      "id": "q2_023",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A patient with chronic hepatitis B is treated with a regimen that included pegylated interferon-α. Shortly after initiating therapy, the patient's serum liver enzymes increase, indicating liver cell death. What mechanism of action of α-interferon could account for this transient spike in serum liver enzymes?",
+      "choices": [
+        "Down-regulation of expression of viral proteins on infected cells",
+        "Increased expression of MHC-I on infected cells",
+        "Interference with reverse transcriptase activity",
+        "Interference with DNA-dependent DNA polymerase activity",
+        "Interference with viral assembly"
+      ],
+      "answer": 1,
+      "explanation": "Interferon-α upregulates MHC class I gene expression on infected hepatocytes, enhancing their recognition and killing by cytotoxic CD8+ T cells. This increased immune-mediated clearance of infected hepatocytes produces a transient rise in liver enzymes (ALT/AST) early in therapy, reflecting increased hepatocyte destruction rather than direct drug hepatotoxicity. This is a distinct mechanism from the direct antiviral effects of nucleoside/nucleotide reverse transcriptase inhibitors used in HBV.",
+      "keypoints": [
+        "⭐ IFN-α upregulates MHC-I, boosting CTL-mediated killing of infected hepatocytes — this explains the enzyme flare",
+        "This flare is generally considered a sign of effective immune-mediated viral clearance, not drug toxicity",
+        "IFN-α has multiple additional poorly characterized antiviral gene induction effects beyond MHC upregulation",
+        "Contrast with lamivudine, which directly inhibits HBV reverse transcriptase rather than acting immunologically"
+      ]
+    },
+    {
+      "id": "q2_029",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A 28-year-old man was clinically diagnosed with the flu after presenting with a fever of 102°F, severe myalgia, fatigue, and rhinorrhea of 12 h duration. The physician had read local health department reports that said both AH1N1 and B viruses were circulating in the area. Which medication did the physician most likely prescribe?",
+      "choices": [
+        "Amantadine",
+        "Foscarnet",
+        "Ribavirin",
+        "Ritonavir",
+        "Zanamivir"
+      ],
+      "answer": 4,
+      "explanation": "Because both influenza A (H1N1) and influenza B strains were circulating, the physician needed an agent effective against both types. Zanamivir and oseltamivir are neuraminidase inhibitors active against both influenza A and B, whereas amantadine and rimantadine (M2 channel blockers) work only against influenza A. Foscarnet is used for CMV/resistant herpesvirus infections, ribavirin for hepatitis C or RSV, and ritonavir is an HIV protease inhibitor — none are appropriate here.",
+      "keypoints": [
+        "⭐ Neuraminidase inhibitors (zanamivir, oseltamivir) cover both influenza A and B; M2 blockers (amantadine, rimantadine) cover only influenza A",
+        "Influenza B lacks the M2 ion channel, explaining amantadine's lack of activity against it",
+        "Early treatment (within 48 hours of onset) with neuraminidase inhibitors reduces illness duration",
+        "Local surveillance data on circulating strains should guide empiric antiviral selection during flu season"
+      ]
+    },
+    {
+      "id": "q2_032",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A 2-year-old girl was brought to the emergency department with a 3-day history of a coldlike illness and a 1-day history of difficulty breathing and an unusual, barklike cough. Physical exam revealed fever, tachypnea, tachycardia, and stridor. A chest radiograph revealed narrowing of the upper airways (a steeple sign), with lungs free of infiltrates. A rapid antigen detection test was positive for parainfluenza virus. What is the clinical diagnosis?",
+      "choices": [
+        "Bronchitis",
+        "Bronchiolitis",
+        "Croup",
+        "Epiglottitis",
+        "Pneumonia"
+      ],
+      "answer": 2,
+      "explanation": "The barklike cough, stridor, and radiographic 'steeple sign' (subglottic narrowing) in a young child are classic for croup (laryngotracheobronchitis), most commonly caused by parainfluenza virus types 1–3. The absence of infiltrates on chest radiograph argues against pneumonia and bronchiolitis, and the clinical picture and age are not typical for bacterial epiglottitis, which presents with a toxic-appearing child, drooling, and a thumbprint sign rather than a steeple sign.",
+      "keypoints": [
+        "⭐ Steeple sign on neck/chest X-ray + barky cough + stridor = croup, classically due to parainfluenza virus",
+        "Croup most commonly affects children under 3 years old",
+        "Epiglottitis (thumbprint sign, drooling, toxic appearance) is a key mimicker to distinguish, historically caused by H. influenzae type b",
+        "Bronchiolitis (wheezing, infants <2 years) is most often caused by RSV rather than parainfluenza"
+      ]
+    },
+    {
+      "id": "q2_033",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A 21-year-old college student contracted mumps infection as did several other students at the college. He had received a single dose of the MMR vaccine at 15 months of age. What is the most likely reason that he became infected despite having been vaccinated?",
+      "choices": [
+        "Early vaccines only contained one of the four strains of mumps virus",
+        "Early versions of the mumps vaccine were heat inactivated and induced immune suppression in some recipients",
+        "Fifteen months of age is too early to receive the MMR vaccine",
+        "Mumps virus rapidly undergoes antigenic variation",
+        "Some individuals who receive a single dose of mumps vaccine do not respond adequately"
+      ],
+      "answer": 4,
+      "explanation": "A single dose of live attenuated MMR vaccine is only about 90% effective, meaning a meaningful minority of vaccinated individuals remain susceptible to mumps, measles, or rubella. Mumps virus exists as a single serotype and does not undergo rapid antigenic variation, ruling out that explanation. This incomplete single-dose efficacy is why a second MMR dose (recommended since 1989, originally to address measles outbreaks in vaccinated populations) is now part of the standard schedule, improving population immunity, particularly relevant in crowded settings like college campuses.",
+      "keypoints": [
+        "⭐ Single-dose MMR efficacy is ~90%, leaving a subset of vaccinees susceptible — hence the two-dose schedule",
+        "Mumps virus has only one serotype, unlike influenza, so antigenic drift/shift is not the explanation",
+        "College campuses/dormitories are classic settings for mumps outbreaks due to close contact among partially immune populations",
+        "The second MMR dose was added to the schedule in 1989 following vaccinated-population measles outbreaks"
+      ]
+    },
+    {
+      "id": "q2_036",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "Five patients aged 45 to 67 were admitted to an urban hospital between February and March with severe pneumonia. Clinical manifestations included high fever, nonproductive cough, and dense lower lobe infiltrates. All had underlying lung disease or were smokers. Gram stain of sputum showed no pathogens, and patients did not respond to empiric antibiotics; bacterial and fungal cultures were negative. A DNA virus was isolated in cell culture. Which virus is the most likely cause?",
+      "choices": [
+        "Adenovirus",
+        "Hantavirus",
+        "Influenza virus",
+        "Parainfluenza virus",
+        "Respiratory syncytial virus"
+      ],
+      "answer": 0,
+      "explanation": "Adenovirus is a DNA virus that can cause severe pneumonia, particularly in adults with underlying lung disease, smokers, or immunocompromised patients, and it will not respond to antibacterial therapy or grow on standard bacterial/fungal cultures. The other listed viruses (hantavirus, influenza, parainfluenza, RSV) are all RNA viruses, which excludes them given the question specifies a DNA virus was isolated.",
+      "keypoints": [
+        "⭐ Adenovirus is the DNA virus among common respiratory pathogens — key distinguishing fact for this question type",
+        "Adenovirus causes a spectrum of illness: conjunctivitis, pharyngitis, and pneumonia, especially in outbreaks (military recruits, camps)",
+        "Failure to respond to empiric antibiotics with negative bacterial/fungal cultures should prompt consideration of viral pneumonia",
+        "Underlying lung disease and smoking are risk factors for more severe adenoviral respiratory infection in adults"
+      ]
+    },
+    {
+      "id": "q2_038",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A 3-year-old child presents with a 3-day history of cough, a profusely runny nose, and conjunctivitis, and a 1-day history of 40°C fever and a blotchy, erythematous, maculopapular rash that began on his face and is now appearing on his chest. The child is toxic appearing. His history is significant for a lack of most childhood vaccines due to family religious beliefs. Which is the most likely diagnosis?",
+      "choices": [
+        "Echovirus summer rash",
+        "Measles",
+        "Mumps",
+        "Rubella",
+        "Varicella"
+      ],
+      "answer": 1,
+      "explanation": "The prodrome of cough, coryza, and conjunctivitis ('the three C's') followed by a high fever and a cephalocaudally spreading blotchy maculopapular rash is classic for measles (rubeola). The lack of vaccination is a critical risk factor given how effective MMR vaccination is at preventing measles. Mumps presents primarily with parotitis, rubella is typically a mild illness with low-grade fever, and varicella produces an itchy vesicular (not maculopapular) rash with lesions in different stages.",
+      "keypoints": [
+        "⭐ Measles prodrome: cough, coryza, conjunctivitis (the '3 C's') followed by cephalocaudal maculopapular rash",
+        "Koplik spots (bluish-white spots on buccal mucosa) are a pathognomonic early finding not mentioned here but classically precede the rash",
+        "Unvaccinated status is the key epidemiologic clue pointing away from a vaccine-preventable illness rarity",
+        "Measles can cause serious complications including pneumonia, encephalitis, and subacute sclerosing panencephalitis (SSPE)"
+      ]
+    },
+    {
+      "id": "q2_039",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A child with measles recovered uneventfully, was re-exposed to the same agent a year later, but did not become ill. What prevented the child from becoming infected on subsequent encounter with the agent?",
+      "choices": [
+        "Activated macrophages",
+        "Interferon-α",
+        "Naïve cytotoxic T cells specific for the agent",
+        "Neutralizing IgG antibodies specific for the agent",
+        "NK cells"
+      ],
+      "answer": 3,
+      "explanation": "Although innate defenses (NK cells, interferon, macrophages) and cell-mediated immunity contribute to initial recovery from viral infection, long-term protection against reinfection is primarily mediated by pathogen-specific neutralizing IgG antibodies generated during the adaptive humoral response. These antibodies persist after infection (or vaccination) and can block the virus from infecting cells upon re-exposure, providing durable immunity. The T cells involved in a memory response would be memory, not naïve, cytotoxic T cells.",
+      "keypoints": [
+        "⭐ Durable protection against reinfection is primarily due to pathogen-specific neutralizing IgG antibodies from the humoral response",
+        "Innate defenses (NK cells, macrophages, type I IFN) act early but do not confer lasting specific immunity",
+        "Memory (not naïve) T and B cells mediate anamnestic responses on re-exposure — the answer choice specifying 'naïve' cytotoxic T cells is therefore wrong",
+        "This principle underlies the effectiveness of live attenuated vaccines like MMR in inducing durable humoral immunity"
+      ]
+    },
+    {
+      "id": "q2_040",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A 9-month-old child is hospitalized with viral pneumonia. Which virus is the most likely cause?",
+      "choices": [
+        "Adenovirus",
+        "Influenza virus",
+        "Parainfluenza virus",
+        "Respiratory syncytial virus",
+        "Varicella-zoster virus"
+      ],
+      "answer": 3,
+      "explanation": "Respiratory syncytial virus (RSV) is by far the most common cause of viral pneumonia and bronchiolitis in infants under 1 year of age. While adenovirus, influenza, and parainfluenza can all cause pneumonia in children, RSV predominates in this specific young age group, especially during its seasonal peak (fall to spring). Palivizumab, a monoclonal antibody against the RSV fusion protein, is used prophylactically in high-risk premature infants.",
+      "keypoints": [
+        "⭐ RSV is the leading cause of viral pneumonia/bronchiolitis in infants under 1 year of age",
+        "Palivizumab (anti-fusion protein monoclonal antibody) is given prophylactically to high-risk premature infants during RSV season",
+        "RSV lacks a hemagglutinin-neuraminidase protein, unlike the closely related parainfluenza viruses",
+        "Parainfluenza virus is the classic cause of croup, a distinct clinical entity from RSV bronchiolitis/pneumonia"
+      ]
+    },
+    {
+      "id": "q2_049",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A 4-month-old child develops a viral infection with fever and vesicular lesions in the anterior portion of the mouth, as well as around the mouth. This infection occurred 2 weeks after her mother had a cold sore. The lesions lasted for about 3 weeks during which time the child was not eating or drinking normally. Which of the following will be the most likely consequence of this infection in the child?",
+      "choices": [
+        "Acute infection with complete recovery",
+        "Encephalitis",
+        "Esophagitis",
+        "Keratitis",
+        "Latency with periodic recurrences"
+      ],
+      "answer": 4,
+      "explanation": "This case describes primary herpetic gingivostomatitis due to herpes simplex virus type 1 (HSV-1), transmitted from the mother's cold sore. After primary infection, HSV-1 establishes lifelong latency in sensory (trigeminal) ganglia, with periodic reactivation causing recurrent cold sores or asymptomatic shedding. Complete clearance of the virus from the body does not occur with herpesviruses. Encephalitis, esophagitis, and keratitis are possible but rarer complications, generally seen in immunocompromised hosts rather than being the expected typical outcome.",
+      "keypoints": [
+        "⭐ HSV-1 establishes lifelong latency in the trigeminal ganglia after primary gingivostomatitis, with periodic reactivation",
+        "Primary infection typically occurs via contact with someone shedding virus (symptomatic or asymptomatic)",
+        "Complete viral clearance does not occur with herpesviruses — this is a key distinguishing concept from many other viral infections",
+        "Antiviral cell-mediated immunity (T cell-mediated, IFN-γ) is thought to be key to maintaining latency and limiting recurrences"
+      ]
+    },
+    {
+      "id": "q2_050",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "An 8-year-old boy attending a 4-week summer camp presented in August with a 3-day history of fever, sore throat, and conjunctivitis with a gritty feeling in the eyes. Seven other children and two camp counselors developed similar symptoms over the next few days. A similar outbreak occurred at the camp in July. The outbreak was traced to the camp's underchlorinated, turbid swimming pool. Which virus is the cause of this outbreak?",
+      "choices": [
+        "Adenovirus",
+        "Influenza virus",
+        "Parainfluenza virus",
+        "Respiratory syncytial virus",
+        "Rotavirus"
+      ],
+      "answer": 0,
+      "explanation": "Adenovirus is the most common cause of outbreaks of pharyngoconjunctival fever, particularly associated with poorly chlorinated, turbid swimming pools in camps and community settings. Adenovirus is a nonenveloped DNA virus that is relatively resistant to environmental degradation and disinfection, allowing it to persist and spread via water exposure. The other viruses listed are not classically associated with swimming pool-related outbreaks of fever, sore throat, and conjunctivitis.",
+      "keypoints": [
+        "⭐ Adenovirus causes pharyngoconjunctival fever, classically linked to inadequately chlorinated swimming pools ('pool conjunctivitis')",
+        "As a nonenveloped virus, adenovirus is relatively resistant to environmental conditions and disinfectants, aiding waterborne transmission",
+        "Outbreak settings like camps, schools, and military barracks are classic epidemiologic clues for adenovirus",
+        "Adenovirus can also cause epidemic keratoconjunctivitis, a more severe ocular presentation"
+      ]
+    },
+    {
+      "id": "q2_068",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "An individual is infected with a virus that replicates causing clinical manifestations. The manifestations later subside; however, virus is not cleared from the body. Viral replication occurs continuously throughout life. Which term describes this type of infection?",
+      "choices": [
+        "Acute",
+        "Chronic",
+        "Latent",
+        "Localized",
+        "Slow"
+      ],
+      "answer": 1,
+      "explanation": "This describes a chronic persistent viral infection, in which the virus is never cleared and continues to replicate continuously (as opposed to intermittently) throughout the host's life, as seen with infections like chronic hepatitis B or C. This differs from latent infection, in which there is only intermittent (not continuous) viral replication with periods of quiescence, and from slow viral infections, in which manifestations of disease are delayed for years to decades after initial infection (e.g., prion diseases, though these are not technically viral).",
+      "keypoints": [
+        "⭐ Chronic infection = continuous ongoing viral replication without clearance (e.g., chronic HBV/HCV)",
+        "Latent infection = intermittent replication with quiescent periods punctuated by reactivation (e.g., HSV, VZV)",
+        "Slow infection = long delay (years-decades) before disease manifestations appear, classically associated with prion diseases",
+        "Acute infection results in either complete clearance or death of the host, unlike persistent infections"
+      ]
+    },
+    {
+      "id": "q2_093",
+      "tag": "id",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Microbiology",
+      "stem": "A 65-year-old woman refuses to be vaccinated against influenza virus because she was vaccinated the previous year. What changes in the virus necessitate annual vaccination?",
+      "choices": [
+        "Acquisition of new genes through coinfection of cells with parainfluenza viruses",
+        "Antigenic changes in the viral matrix protein",
+        "Changes in the level of expression of the envelope fusion proteins",
+        "Mutations in the genes for the envelope glycoproteins",
+        "Reassortment of RNA strands between animal and human strains"
+      ],
+      "answer": 3,
+      "explanation": "Influenza viruses undergo frequent point mutations in the genes encoding the envelope glycoproteins hemagglutinin (HA) and neuraminidase (NA), a process called antigenic drift. This year-to-year antigenic drift is why new vaccines must be formulated annually to match the predominant circulating serotypes. Antigenic shift — reassortment of RNA segments between different influenza A strains infecting the same host — is a much rarer event responsible for pandemics, but is not the reason for routine annual vaccination.",
+      "keypoints": [
+        "⭐ Antigenic drift = gradual point mutations in HA/NA genes, necessitating yearly vaccine reformulation",
+        "Antigenic shift = reassortment of RNA segments between influenza A strains (e.g., human and animal strains), causing rare pandemics",
+        "Influenza A has 8 separate RNA segments, enabling reassortment when a cell is co-infected with two different strains",
+        "Influenza B is not divided into subtypes like A and undergoes only antigenic drift, being more genetically stable"
+      ]
+    },
+    {
+      "id": "q7_001",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 67-year-old woman is hospitalized with a fever of unknown origin. An elevated C-reactive protein (CRP) and erythrocyte sedimentation rate (ESR) suggest an ongoing systemic inflammatory response. Which cytokine is especially important in inducing elevations in CRP and ESR?",
+      "choices": [
+        "Interleukin-4",
+        "Interleukin-6",
+        "Interleukin-10",
+        "Interleukin-12",
+        "Interleukin-18"
+      ],
+      "answer": 1,
+      "explanation": "IL-6, released from activated macrophages and other cells during systemic inflammation, is the primary cytokine driving hepatocytes to produce acute phase reactants such as CRP and fibrinogen. Elevated fibrinogen increases red cell rouleaux formation, which raises the ESR, while CRP itself functions as an opsonin. Although IL-1 and TNF-α also contribute to the acute phase response, IL-6 is the dominant inducer of hepatic acute phase protein synthesis.",
+      "keypoints": [
+        "⭐ IL-6 is the principal cytokine driving hepatic acute phase protein synthesis (CRP, fibrinogen)",
+        "ESR reflects fibrinogen-driven red cell rouleaux formation, not CRP directly",
+        "IL-1 and TNF-α also contribute to acute phase responses but are secondary to IL-6 in this role",
+        "CRP acts as an opsonin, enhancing phagocytosis of pathogens coated with it"
+      ]
+    },
+    {
+      "id": "q7_010",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 10-month-old male with a history of recurrent, serious extracellular bacterial infections is hospitalized with pneumonia due to Pneumocystis jeroveci. An immunologic workup reveals neutropenia, normal numbers of T and B cells, normal complement levels and activity, elevated IgM, and very low IgG and IgA. What immunologic function is impaired in this child that best explains the infection?",
+      "choices": [
+        "Antigen presentation by dendritic cells",
+        "B-cell migration to follicles in secondary lymphoid tissue",
+        "Differentiation of B and T cells from precursor cells",
+        "Expression of functional antigen receptors on T cells",
+        "T-cell activation of macrophages and class switching in B cells"
+      ],
+      "answer": 4,
+      "explanation": "This case describes hyper-IgM syndrome, caused by deficient expression of CD40 ligand (CD154) on activated T cells. The interaction of CD40L with CD40 on B cells is required both for immunoglobulin class switching (explaining the elevated IgM with low IgG/IgA) and for T-cell-mediated activation of macrophages (explaining susceptibility to Pneumocystis jeroveci, an intracellular-type pathogen requiring cell-mediated defenses). T- and B-cell numbers remain normal because lymphocyte development itself is intact; only these downstream CD40L-dependent functions are impaired.",
+      "keypoints": [
+        "⭐ Hyper-IgM syndrome = CD40L (CD154) deficiency on T cells, impairing both B-cell class switching and macrophage activation",
+        "Elevated IgM with low IgG/IgA is the classic lab signature of hyper-IgM syndrome",
+        "Susceptibility to Pneumocystis jeroveci reflects the T-cell/macrophage activation defect, not humoral immunity alone",
+        "X-linked inheritance pattern (affected males) is typical, as CD40L is encoded on the X chromosome"
+      ]
+    },
+    {
+      "id": "q7_012",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 6-month-old male is hospitalized with disseminated Mycobacterium avium complex. His history is significant for recurrent episodes of otitis media which responded poorly to antibiotics and episodes of severe thrush and diaper rash. Based on this history, an immunologic workup was done and the child was diagnosed with an immune deficiency disorder. Deficiencies of which aspect of the immune response could best account for this child's medical history?",
+      "choices": [
+        "B cells",
+        "B and T cells",
+        "Complement",
+        "Macrophages",
+        "Neutrophils"
+      ],
+      "answer": 1,
+      "explanation": "This child's infections span both intracellular pathogens (disseminated M. avium, controlled by cell-mediated/T-cell immunity) and extracellular pathogens plus Candida (otitis media from encapsulated bacteria, controlled by humoral immunity, and mucocutaneous candidiasis, which requires T-cell-mediated activation of phagocytes). This combined pattern of susceptibility to both intracellular and extracellular organisms, plus fungal infection, points to a combined B- and T-cell defect rather than an isolated deficiency in any single arm.",
+      "keypoints": [
+        "⭐ Intracellular pathogen control (e.g., mycobacteria) depends on cell-mediated (T-cell) immunity; extracellular pathogen control depends on humoral (B-cell/antibody) immunity",
+        "Combined B- and T-cell defects (as in SCID) produce susceptibility to both types of pathogens plus opportunistic fungal infection",
+        "Candida albicans overgrowth (thrush, diaper rash) occurs when T cells cannot activate phagocytic macrophages",
+        "This presentation pattern helps localize an immunodeficiency to a specific arm of the immune system on exams"
+      ]
+    },
+    {
+      "id": "q7_033",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 14-year-old male child with extensive third-degree burns from a house fire receives a skin graft. Skin grafted from which donor has the lowest risk of immunologic rejection?",
+      "choices": [
+        "The patient",
+        "The patient's father",
+        "The patient's fraternal twin brother",
+        "The patient's fraternal twin sister",
+        "The patient's mother"
+      ],
+      "answer": 0,
+      "explanation": "An autograft — tissue transplanted from one site to another within the same individual — carries essentially no risk of immunologic rejection because the donor and recipient are genetically identical (self tissue). Grafts from a fraternal (dizygotic) twin, a parent, or any other relative are allografts, since fraternal twins are genetically distinct individuals (unlike identical/monozygotic twins) and therefore express different MHC molecules that can trigger an immune rejection response.",
+      "keypoints": [
+        "⭐ Autografts (self-to-self) have essentially zero immunologic rejection risk since there is no MHC mismatch",
+        "Fraternal (dizygotic) twins are genetically distinct, unlike identical (monozygotic) twins, and are treated immunologically as allografts",
+        "Autograft failure can still occur mechanically (e.g., poor vascularization) but not via immune rejection",
+        "Isografts (between identical twins) would be the next lowest-risk category after autografts"
+      ]
+    },
+    {
+      "id": "q7_034",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 36-year-old female is diagnosed with myasthenia gravis. What were her most likely clinical manifestations?",
+      "choices": [
+        "Abdominal pain, weight loss, and bloody diarrhea",
+        "Ascending weakness and paresthesia",
+        "Drooping of her eyelids and muscle weakness that improves with rest",
+        "Fatigue, pallor, and mild jaundice",
+        "Goiter, palpitations, and proptosis of the eyes"
+      ],
+      "answer": 2,
+      "explanation": "Myasthenia gravis classically presents with fluctuating skeletal muscle weakness that worsens with sustained activity and improves with rest, frequently first affecting extraocular and eyelid muscles, producing ptosis (drooping eyelids) and diplopia. This pattern reflects progressive depletion of functional acetylcholine receptors at the neuromuscular junction with repeated use. The other options describe distinct conditions: inflammatory bowel disease, Guillain-Barré syndrome, hemolytic anemia, and Graves disease, respectively.",
+      "keypoints": [
+        "⭐ Hallmark of myasthenia gravis: fatigable muscle weakness, worse with activity, improved with rest; ptosis/diplopia are classic early signs",
+        "Symptoms fluctuate through the day, often worsening toward evening",
+        "Thymic abnormalities (hyperplasia or thymoma) are commonly associated and thymectomy can improve symptoms",
+        "Diagnosis can be supported by anti-acetylcholine receptor antibody testing or edrophonium (Tensilon) test"
+      ]
+    },
+    {
+      "id": "q7_035",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "What is the immunopathogenesis of myasthenia gravis (in the patient from the previous question)?",
+      "choices": [
+        "Antibody-mediated hemolysis of red blood cells",
+        "Antibody-mediated interference with neuromuscular transmission",
+        "Antibody-mediated stimulation of the thyroid gland",
+        "Immunologic attack of peripheral nerve myelin sheath",
+        "Inflammation of colonic mucosa"
+      ],
+      "answer": 1,
+      "explanation": "Myasthenia gravis is a type II hypersensitivity (antibody-mediated) autoimmune disease in which autoantibodies bind to and block or downregulate acetylcholine receptors at the postsynaptic neuromuscular junction. This prevents effective depolarization of the muscle membrane despite normal acetylcholine release and degradation, so muscle activity progressively weakens with repeated use as available functional receptors are further reduced by receptor internalization/complement-mediated destruction.",
+      "keypoints": [
+        "⭐ Myasthenia gravis is a type II hypersensitivity reaction: autoantibodies against the acetylcholine receptor at the neuromuscular junction",
+        "Contrast with Graves disease, where stimulating (not blocking) autoantibodies target the TSH receptor",
+        "Contrast with Guillain-Barré syndrome, which involves autoimmune attack on peripheral nerve myelin",
+        "Plasmapheresis and IVIG can be used for acute myasthenic crises by removing or neutralizing pathogenic autoantibodies"
+      ]
+    },
+    {
+      "id": "q7_056",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "The repression of which transcription factor explains on a molecular level the anti-inflammatory effect of corticosteroids?",
+      "choices": [
+        "FoxP3",
+        "ITAM",
+        "MAP kinase",
+        "NF-κB",
+        "Protein kinase C"
+      ],
+      "answer": 3,
+      "explanation": "Corticosteroids exert their anti-inflammatory effects largely by inhibiting the transcription factor NF-κB (along with AP-1 and NFAT), which normally drives transcription of genes encoding proinflammatory cytokines and proteins needed for immune cell activation and proliferation. By repressing NF-κB activity, corticosteroids broadly reduce the transcription of inflammatory mediators. FoxP3 is a transcription factor specific to regulatory T cells and is not the mechanism of corticosteroid action; the other listed molecules are components of signal transduction rather than transcription factors.",
+      "keypoints": [
+        "⭐ Corticosteroids act in large part by repressing NF-κB, blocking transcription of proinflammatory cytokine genes",
+        "AP-1 and NFAT are additional transcription factors also inhibited by corticosteroids",
+        "FoxP3 is the master transcription factor for regulatory T cell development/function, unrelated to corticosteroid mechanism",
+        "This broad transcriptional repression explains the wide-ranging immunosuppressive effects of corticosteroids across cell types"
+      ]
+    },
+    {
+      "id": "q6_001",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Which of the following cytokines supports proliferation and differentiation of developing lymphocytes in the primary lymphoid tissue?",
+      "choices": [
+        "Interleukin-1",
+        "Interleukin-4",
+        "Interleukin-7",
+        "Interleukin-12",
+        "Interleukin-18"
+      ],
+      "answer": 2,
+      "explanation": "IL-7 is essential for proliferation and differentiation of developing lymphocytes within primary lymphoid tissue (bone marrow and thymus). IL-1 is an inflammatory cytokine produced by phagocytes rather than a lymphopoietic factor. IL-4 promotes differentiation of mature Th2 CD4+ T cells in the periphery, while IL-12 and IL-18 drive Th1 differentiation — none of these act on developing lymphocytes in primary lymphoid organs.",
+      "keypoints": [
+        "⭐ IL-7 is the key cytokine for lymphocyte development in primary lymphoid organs (bone marrow, thymus)",
+        "Defects in IL-7 receptor signaling (e.g., common gamma chain mutations) cause forms of SCID",
+        "IL-12 and IL-18 act later, in the periphery, to promote Th1 differentiation of mature CD4+ T cells",
+        "Contrast primary lymphoid tissue (site of lymphocyte development) with secondary lymphoid tissue (site of immune response, e.g., lymph nodes, spleen)"
+      ]
+    },
+    {
+      "id": "q6_002",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A workup on an ill child revealed low levels of complement C3 in her blood. Which one of the following presentations did this child most likely manifest?",
+      "choices": [
+        "Chronic eczema",
+        "Immune hemolytic anemia",
+        "Incomplete recovery from viral infections",
+        "Poor response to vaccination",
+        "Recurrent infections with extracellular bacteria"
+      ],
+      "answer": 4,
+      "explanation": "C3 is central to all three complement activation pathways; its cleavage to C3b enables opsonization of pathogens, while C3a/C5a recruit phagocytes and the downstream membrane attack complex lyses target cells. C3 deficiency therefore severely impairs innate defense against extracellular bacteria, leading to recurrent pyogenic infections, particularly with encapsulated organisms. The other listed conditions (eczema, hemolytic anemia, viral infection recovery, vaccine response) are not primarily complement-dependent processes.",
+      "keypoints": [
+        "⭐ C3 is the convergence point of all three complement pathways (classical, alternative, lectin) — its deficiency impairs opsonization broadly",
+        "C3b acts as the major opsonin, enhancing phagocytosis by complement receptor-bearing phagocytes",
+        "Terminal complement (C5-C9/MAC) deficiencies classically predispose to Neisseria infections specifically, distinct from early complement (C3) deficiency",
+        "C3a and C5a are anaphylatoxins that recruit and activate phagocytes to the infection site"
+      ]
+    },
+    {
+      "id": "q6_003",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Vaccination operates to generate a humoral immune response to the immunogen(s). Which one of the following represents the critical function of the resultant humoral response in protecting vaccinated patients from future infections by targeted pathogenic agents?",
+      "choices": [
+        "Opsonization",
+        "Extravasation",
+        "Neutralization",
+        "Complement activation",
+        "Antibody-dependent cell cytoxicity (ADCC)"
+      ],
+      "answer": 2,
+      "explanation": "While vaccine-induced antibodies can mediate opsonization, complement activation, and ADCC, the most critical protective function is neutralization — blocking the pathogen from attaching to and infecting host cells in the first place. This preemptive blockade prevents colonization entirely, offering the most complete protection, whereas the other mechanisms only act after the pathogen has already begun to establish infection in tissue.",
+      "keypoints": [
+        "⭐ Neutralization prevents pathogen attachment/entry into host cells, stopping infection before it starts — the ideal vaccine-mediated defense",
+        "Extravasation refers to immune cell migration from blood into tissue, not an antibody function",
+        "Opsonization, complement activation, and ADCC all act on pathogens that have already colonized or infected tissue",
+        "IgG is the antibody class most associated with these memory-response protective functions after vaccination"
+      ]
+    },
+    {
+      "id": "q6_004",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Positive selection in the thymus occurs when thymocytes express functional versions of which critical molecule?",
+      "choices": [
+        "CD28",
+        "Fc receptor",
+        "MHC class I",
+        "MHC class II",
+        "T-cell receptor (TCR)"
+      ],
+      "answer": 4,
+      "explanation": "Double-positive (CD4+CD8+) thymocytes interact with MHC class I and II expressed on thymic epithelial cells; those that express a functional T-cell receptor capable of recognizing self-MHC survive this positive selection step and progress to single-positive (CD4 or CD8) status. CD28 mediates costimulation but is not the molecule being tested in positive selection, and while thymocytes do express MHC class I and Fc receptors, these are not the determinants of positive selection survival.",
+      "keypoints": [
+        "⭐ Positive selection tests for a functional TCR capable of binding self-MHC with low-to-moderate affinity",
+        "Thymocytes that fail positive selection (non-functional TCR/no self-MHC binding) die by neglect",
+        "Following positive selection, double-positive thymocytes become single-positive (CD4+ or CD8+) based on which MHC class they recognized",
+        "Negative selection (a separate later step) removes thymocytes with TCRs that bind self-antigen too strongly"
+      ]
+    },
+    {
+      "id": "q6_005",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Which one of the following represents the major role of negative selection in the thymus?",
+      "choices": [
+        "Elimination of self-reactive T cells",
+        "Expansion of nonself-reactive T cells",
+        "Maturation of professional antigen presenting cells such as dendritic cells",
+        "Expression of T-cell receptors on mature T cells",
+        "Differentiation of Th1 and Th2 CD4+ T cells"
+      ],
+      "answer": 0,
+      "explanation": "Negative selection eliminates T cells whose TCRs bind self-antigens presented on MHC with excessive affinity, inducing apoptosis in these self-reactive clones. Thymic medullary epithelial cells express the AIRE (autoimmune regulator) gene, which drives ectopic expression of a broad range of tissue-specific self-antigens for this purpose. Approximately 90% of thymocytes are eliminated during selection processes, underscoring how central this tolerance mechanism is to preventing autoimmunity.",
+      "keypoints": [
+        "⭐ AIRE gene in thymic medullary epithelial cells drives expression of tissue-specific self-antigens for negative selection",
+        "About 90% of all developing T cells are eliminated during thymic selection (positive + negative)",
+        "Failure of negative selection allows autoreactive T cells into the periphery, contributing to autoimmune disease",
+        "Mature dendritic cells in the thymic medulla also participate in presenting self-antigen for negative selection"
+      ]
+    },
+    {
+      "id": "q6_006",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A blood sample from an individual with systemic lupus erythematosus was studied, and many T cells were discovered to express receptors specific for autologous antigens. Failure of which process in the thymus leads to the large number of autoreactive T cells in the patient's blood?",
+      "choices": [
+        "Affinity maturation",
+        "Antigen processing",
+        "Hematopoiesis",
+        "Negative selection",
+        "Receptor editing"
+      ],
+      "answer": 3,
+      "explanation": "Autoreactive T cells circulating in the blood indicate a failure of negative selection, the thymic process responsible for deleting T cells with TCRs that bind self-antigen with high affinity. Affinity maturation is a peripheral B-cell process occurring in germinal centers, not a thymic T-cell selection event. Receptor editing is a B-cell (not T-cell) process occurring in the bone marrow, and hematopoiesis/antigen processing are unrelated to self-tolerance mechanisms.",
+      "keypoints": [
+        "⭐ Failure of negative selection allows self-reactive T cells to escape into the periphery, predisposing to autoimmunity like SLE",
+        "Receptor editing is the analogous B-cell tolerance mechanism, occurring in the bone marrow rather than thymus",
+        "Affinity maturation is a peripheral (germinal center) process for improving antibody affinity, unrelated to central tolerance",
+        "AIRE gene mutations (as in autoimmune polyendocrine syndrome type 1) cause defective negative selection"
+      ]
+    },
+    {
+      "id": "q6_007",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Which cytokine is essential for T-cell proliferation and is also necessary for the production of CD25-positive regulatory T cells?",
+      "choices": [
+        "IL-2",
+        "IL-3",
+        "IL-4",
+        "IL-5",
+        "IL-6"
+      ],
+      "answer": 0,
+      "explanation": "IL-2 is the principal T-cell growth factor, driving clonal proliferation of activated T cells, and it is also required for the generation and maintenance of CD4+CD25+ regulatory T cells. IL-3 is a differentiation factor for plasmacytoid dendritic cells, IL-4 and IL-5 direct Th2 differentiation and eosinophil growth respectively, and IL-6 is a proinflammatory cytokine that (with TGF-β) promotes Th17 differentiation while also suppressing regulatory T cell activity.",
+      "keypoints": [
+        "⭐ IL-2 drives T-cell clonal expansion and is essential for CD4+CD25+ regulatory T cell generation/maintenance",
+        "IL-2 receptor targeting (e.g., basiliximab) is used clinically as immunosuppression in transplantation",
+        "CD25 is the alpha chain of the IL-2 receptor, explaining why IL-2 is needed for Treg development",
+        "IL-6 + TGF-β drives a distinct lineage (Th17) important in autoimmune inflammation, and IL-6 antagonizes Treg activity"
+      ]
+    },
+    {
+      "id": "q6_008",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "T helper cells interacting with antigen-presenting dendritic cells require signals generated by the molecular interactions of the T-cell receptor with the MHC–peptide complex. Additionally, costimulation is required to amplify the initial TCR signals provided through the T cell CD28 molecule interaction with which one of the following dendritic cell molecule(s)?",
+      "choices": [
+        "CD4",
+        "CD8",
+        "CD45",
+        "CD80/86",
+        "CD152"
+      ],
+      "answer": 3,
+      "explanation": "CD28 on T cells provides the essential costimulatory signal by binding B7 molecules (CD80/CD86) expressed on activated antigen-presenting cells. CD4 and CD8 stabilize the MHC–TCR interaction rather than providing costimulation. CD45 is a hematopoietic cell surface marker involved in signaling but not costimulation, and CD152 (CTLA-4) also binds B7 but transmits an inhibitory rather than stimulatory signal.",
+      "keypoints": [
+        "⭐ CD28-B7 (CD80/86) interaction provides the essential 'second signal' for full T-cell activation",
+        "Without costimulation, TCR signaling alone leads to anergy rather than activation",
+        "CTLA-4 (CD152) competes with CD28 for B7 binding with higher affinity, delivering an inhibitory signal — the basis for CTLA-4-Ig (abatacept) immunosuppressive therapy",
+        "CD4/CD8 are coreceptors stabilizing MHC-TCR engagement, distinct from the costimulatory CD28-B7 axis"
+      ]
+    },
+    {
+      "id": "q6_009",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "T cells stimulated by peptide–MHC complexes, displayed on antigen presenting cells, in the absence of costimulation undergo which one of the following processes?",
+      "choices": [
+        "Activation",
+        "Anergy",
+        "Apoptosis",
+        "Differentiation",
+        "Proliferation"
+      ],
+      "answer": 1,
+      "explanation": "TCR engagement with peptide-MHC in the absence of the required CD28-B7 costimulatory signal results in anergy — a state of long-term functional unresponsiveness in which the T cell cannot proliferate upon subsequent re-exposure to the same antigen, even with adequate costimulation later. Activation, differentiation, and proliferation all require both signals (TCR + costimulation) together. Apoptosis, by contrast, is typically triggered through distinct death-receptor pathways such as Fas-FasL or TNF-TNFR.",
+      "keypoints": [
+        "⭐ TCR signal alone (without costimulation) = anergy, a peripheral tolerance mechanism",
+        "Anergic T cells can still produce some cytokines but cannot proliferate upon antigen re-exposure",
+        "This two-signal requirement (TCR + costimulation) is a safeguard against inappropriate T-cell activation by self-antigen",
+        "Apoptosis of T cells is mediated by distinct pathways (Fas-FasL, TNF-TNFR), not simply absent costimulation"
+      ]
+    },
+    {
+      "id": "q6_010",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Downregulation of T-cell activation is achieved by the binding of which molecule on the T cell with CD80/86 on the dendritic cell?",
+      "choices": [
+        "CD4",
+        "CD8",
+        "CD45",
+        "CD28",
+        "CD152"
+      ],
+      "answer": 4,
+      "explanation": "CD152 (CTLA-4) binds CD80/86 (B7) with higher affinity than CD28 does, but transmits an inhibitory rather than stimulatory signal, thereby downregulating T-cell activation as a form of peripheral immune checkpoint control. CD28 binds the same ligands but delivers a stimulatory costimulatory signal instead. CD4, CD8, and CD45 are not B7 ligands and do not mediate this specific inhibitory interaction.",
+      "keypoints": [
+        "⭐ CTLA-4 (CD152) and CD28 both bind B7 (CD80/86), but CTLA-4 delivers an inhibitory signal with higher binding affinity",
+        "CTLA-4 blockade (ipilimumab) is used in cancer immunotherapy to remove this inhibitory brake and enhance antitumor T-cell responses",
+        "This CD28/CTLA-4 competitive system exemplifies an immune checkpoint controlling the balance between activation and tolerance",
+        "Abatacept, a CTLA-4-Ig fusion protein, is used therapeutically to suppress T-cell activation in autoimmune disease"
+      ]
+    },
+    {
+      "id": "q6_011",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Dendritic cells, macrophages, and what other cell types are considered \"professional antigen presenting cells,\" capable of antigen presentation to T helper cells?",
+      "choices": [
+        "B cells",
+        "Basophils",
+        "Eosinophils",
+        "Mast cells",
+        "Neutrophils"
+      ],
+      "answer": 0,
+      "explanation": "Professional antigen-presenting cells are defined by expression of both MHC class I and class II molecules along with the machinery to process exogenous antigen; B cells meet these criteria along with dendritic cells and macrophages. Basophils, eosinophils, mast cells, and neutrophils lack MHC class II expression and the associated exogenous antigen processing machinery, so they cannot present antigen to CD4+ T helper cells.",
+      "keypoints": [
+        "⭐ The three professional APCs are dendritic cells, macrophages, and B cells — all express MHC class II",
+        "B cells uniquely present antigen via their B-cell receptor (surface immunoglobulin), which also serves as their specific antigen receptor",
+        "Dendritic cells are the most potent professional APCs for priming naive T cells",
+        "Granulocytes (neutrophils, eosinophils, basophils, mast cells) lack MHC class II and cannot serve as professional APCs"
+      ]
+    },
+    {
+      "id": "q6_012",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Antigens from which one of the following microbes would be presented on MHC class I molecules by macrophages?",
+      "choices": [
+        "Ascaris lumbricoides",
+        "Candida albicans",
+        "Haemophilus influenzae",
+        "Influenza virus",
+        "Streptococcus pneumoniae"
+      ],
+      "answer": 3,
+      "explanation": "MHC class I presents endogenous antigens synthesized within the cytoplasm of the presenting cell itself. Influenza virus is an obligate intracellular pathogen that replicates within macrophages and other infected cells, generating endogenous viral peptides loaded onto MHC class I. The other pathogens listed (a helminth, a fungus, and two extracellular bacteria) do not invade the cytoplasm of macrophages and thus generate only exogenous antigens presented via MHC class II — except when cross-presented by dendritic cells specifically, which macrophages cannot do.",
+      "keypoints": [
+        "⭐ MHC class I presents endogenous (cytoplasmic) antigens — only intracellular pathogens like viruses qualify via this route in macrophages",
+        "Cross-presentation, the ability to load exogenous antigen onto MHC class I, is a unique property of dendritic cells, not macrophages",
+        "MHC class I is expressed on essentially all nucleated cells, allowing CD8+ CTLs to survey for intracellular infection anywhere in the body",
+        "Extracellular bacteria, fungi, and helminths are generally restricted to the exogenous/MHC class II presentation pathway"
+      ]
+    },
+    {
+      "id": "q6_013",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Activation of macrophages is best achieved by which cytokine?",
+      "choices": [
+        "Interferon gamma (IFN-γ)",
+        "Granulocyte monocyte colony-stimulating factor (GM-CSF)",
+        "Interleukin-1",
+        "Macrophage chemotactic protein (MCP)",
+        "Transforming growth factor beta (TGF-β)"
+      ],
+      "answer": 0,
+      "explanation": "IFN-γ, produced primarily by Th1 cells (themselves differentiated under the influence of macrophage-derived IL-12), is the principal activator of macrophages, enhancing their phagocytic and microbicidal capacity — this forms a positive feedback loop central to granuloma formation and control of intracellular pathogens like Mycobacterium tuberculosis. GM-CSF differentiates granulocytes from stem cells rather than activating mature macrophages, IL-1 promotes inflammation once macrophages are already activated, MCP is a chemotactic (not activating) factor, and TGF-β generally suppresses T-cell/macrophage activity.",
+      "keypoints": [
+        "⭐ IFN-γ from Th1 cells is the key macrophage-activating cytokine, forming a Th1-macrophage feedback loop (macrophage IL-12 → Th1 IFN-γ)",
+        "This IFN-γ-macrophage loop is central to granuloma formation in tuberculosis",
+        "TGF-β is generally immunosuppressive, opposing macrophage/T-cell activation",
+        "IFN-γ receptor or IL-12 pathway defects predispose to disseminated mycobacterial infections"
+      ]
+    },
+    {
+      "id": "q6_014",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "The intracellular signal initiated by antigen binding to the T-cell receptor is generated by which set of molecules expressed on the T cell membrane?",
+      "choices": [
+        "CD3",
+        "CD4",
+        "CD28",
+        "CD45",
+        "CD152"
+      ],
+      "answer": 0,
+      "explanation": "CD3 is a complex of invariant signaling chains associated with the TCR that transduces the intracellular signal following antigen-MHC recognition, since the TCR itself has only a short cytoplasmic tail and lacks intrinsic signaling capacity. CD4 stabilizes TCR-MHC class II interactions rather than directly signaling, CD28 provides the separate costimulatory signal, CD45 is a phosphatase marking activation status, and CD152 (CTLA-4) delivers an inhibitory signal — none of these transduce the primary TCR recognition signal.",
+      "keypoints": [
+        "⭐ CD3 complex transduces the primary TCR signal — the TCR itself cannot signal alone due to its short cytoplasmic tail",
+        "CD3 is used clinically as a T-cell marker (anti-CD3 antibodies like OKT3/muromonab were early immunosuppressants)",
+        "CD4/CD8 are coreceptors that stabilize MHC-TCR binding but are distinct from the CD3 signaling complex",
+        "ITAMs (immunoreceptor tyrosine-based activation motifs) within CD3 chains recruit downstream kinases to propagate the signal"
+      ]
+    },
+    {
+      "id": "q6_015",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "The interaction of which molecule on the membrane of cells with its ligand signals apoptosis?",
+      "choices": [
+        "B7 (CD80/86)",
+        "CD40",
+        "CTLA-4 (CD152)",
+        "Fas (CD95)",
+        "Fc receptor (CD16)"
+      ],
+      "answer": 3,
+      "explanation": "Fas (CD95) binding to its ligand FasL triggers activation of the caspase cascade, initiating apoptosis in the Fas-expressing cell. B7-CD28 interactions promote T-cell activation, CD40-CD40L drives B-cell activation and dendritic cell maturation, CTLA-4-B7 delivers inhibitory (not apoptotic) signaling, and Fc receptors mediate opsonization or ADCC — none of these directly trigger caspase-mediated apoptosis.",
+      "keypoints": [
+        "⭐ Fas (CD95)–FasL interaction is the classic death-receptor pathway triggering caspase-mediated apoptosis",
+        "Cytotoxic T cells and NK cells use both Fas-FasL and perforin/granzyme pathways to kill target cells",
+        "Fas-FasL apoptosis is important for eliminating activated T cells at the end of an immune response (activation-induced cell death)",
+        "Mutations in Fas or FasL cause autoimmune lymphoproliferative syndrome (ALPS) due to failure to eliminate autoreactive lymphocytes"
+      ]
+    },
+    {
+      "id": "q6_016",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Which one of the following cells is the major source of tumor necrosis factor alpha (TNF-α), interleukin-1, and interleukin-12?",
+      "choices": [
+        "B cells",
+        "Macrophages",
+        "Mast cells",
+        "Th1 cells",
+        "Th2 cells"
+      ],
+      "answer": 1,
+      "explanation": "Activated macrophages are the major producers of TNF-α, IL-1, and IL-12, cytokines that together promote inflammation and drive differentiation of naive CD4+ T cells toward the Th1 lineage. B cells can produce IL-1 but not TNF-α or IL-12; mast cells can produce TNF-α and IL-1 but not IL-12; Th1 cells produce TNF-α and IL-1 but rely on macrophage-derived IL-12 rather than producing it themselves in significant amounts; Th2 cells produce only IL-1 of these three.",
+      "keypoints": [
+        "⭐ Macrophages are the unique producer of all three: TNF-α, IL-1, and IL-12",
+        "Macrophage-derived IL-12 is the key driver of Th1 differentiation from naive CD4+ T cells",
+        "TNF-α and IL-1 are also central mediators of fever and the acute phase response",
+        "This macrophage cytokine triad initiates and sustains the cell-mediated (Th1) arm of adaptive immunity"
+      ]
+    },
+    {
+      "id": "q6_017",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Which cells are the source of interleukin-4, -5, -10, and -13?",
+      "choices": [
+        "B cells",
+        "Macrophages",
+        "Mast cells",
+        "Th1 cells",
+        "Th2 cells"
+      ],
+      "answer": 4,
+      "explanation": "Th2 cells are the source of IL-4, IL-5, IL-10, and IL-13, cytokines that collectively promote IgE class switching, eosinophil differentiation, and downregulation of Th1 responses — the classic Th2 cytokine profile associated with allergic and antiparasitic responses. B cells, macrophages, and mast cells can each produce some but not all of this specific cytokine set, and Th1 cells do not produce any of them since these cytokines actively suppress Th1 differentiation.",
+      "keypoints": [
+        "⭐ IL-4, IL-5, IL-10, IL-13 = the classic Th2 cytokine signature, driving IgE production, eosinophilia, and allergic/antiparasitic responses",
+        "IL-4 drives isotype switching to IgE; IL-5 promotes eosinophil growth and activation",
+        "Th1 and Th2 cytokines are mutually antagonistic (cross-regulation), maintaining polarized immune responses",
+        "NKT cells can also produce this Th2-type cytokine set upon activation"
+      ]
+    },
+    {
+      "id": "q6_018",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Which cells utilize reactive oxygen and nitrogen species and lysosomal enzymes to kill pathogens?",
+      "choices": [
+        "Cytotoxic T cells",
+        "Natural killer T (NKT) cells",
+        "Macrophages",
+        "Natural killer (NK) cells",
+        "Th1 cells"
+      ],
+      "answer": 2,
+      "explanation": "Macrophages (along with neutrophils, eosinophils, basophils, and mast cells) kill pathogens using reactive oxygen and nitrogen species along with lysosomal enzymes released during phagocytosis, a hallmark of the respiratory burst mechanism. Cytotoxic T cells and NK/NKT cells instead kill primarily through Fas-FasL interactions or granzyme/perforin release, a distinct mechanism targeting specific host cells rather than engulfed pathogens directly. Th1 cells can produce TNF-α and IFN-γ that contribute to cell death but do not themselves generate reactive species or lysosomal killing.",
+      "keypoints": [
+        "⭐ Macrophages (and granulocytes) kill via phagocytosis coupled with reactive oxygen/nitrogen species and lysosomal enzymes (respiratory burst)",
+        "Contrast with cytotoxic T cells/NK cells, which kill target cells via Fas-FasL or perforin/granzyme, not phagocytic killing",
+        "Chronic granulomatous disease results from defective NADPH oxidase, impairing this reactive oxygen species-based killing",
+        "Nitric oxide synthase in activated macrophages generates reactive nitrogen species as part of this microbicidal arsenal"
+      ]
+    },
+    {
+      "id": "q6_019",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "If a person had a genetic defect affecting perforin production, which cells and immune function would be affected?",
+      "choices": [
+        "Cytotoxic T cells and natural killer cells/cell killing",
+        "Dendritic cells/antigen presentation",
+        "Eosinophils and basophils/granule production",
+        "Macrophages and neutrophils/phagocytosis",
+        "Mast cells/fusion of granules to cell membrane"
+      ],
+      "answer": 0,
+      "explanation": "Perforin is produced exclusively by cytotoxic T cells and NK cells, where it forms pores in target cell membranes allowing granzymes to enter the cytoplasm and initiate apoptosis. A perforin deficiency therefore selectively impairs the cell-killing function of these two lymphocyte populations, while leaving dendritic cell antigen presentation, granulocyte granule function, and macrophage/neutrophil phagocytosis intact, since these processes do not rely on perforin.",
+      "keypoints": [
+        "⭐ Perforin/granzyme killing is unique to cytotoxic T cells and NK cells among immune effector cells",
+        "Perforin deficiency causes familial hemophagocytic lymphohistiocytosis (HLH), a life-threatening hyperinflammatory syndrome",
+        "Perforin forms membrane pores permitting granzyme entry, which then triggers caspase-mediated apoptosis in the target cell",
+        "This mechanism is distinct from Fas-FasL apoptosis, though both are used by cytotoxic T cells and NK cells"
+      ]
+    },
+    {
+      "id": "q6_020",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Which immune system cell is primarily responsible for the formation of granuloma in the lungs of tuberculosis patients?",
+      "choices": [
+        "Cytotoxic T cells",
+        "Dendritic cells",
+        "Eosinophils",
+        "Natural killer cells",
+        "Th1 cells"
+      ],
+      "answer": 4,
+      "explanation": "Granulomas form primarily through the coordinated action of macrophages and Th1 cells, working in a reinforcing feedback loop: macrophage-derived IL-12 drives Th1 differentiation, and Th1-derived IFN-γ activates macrophages to contain intracellular Mycobacterium tuberculosis. Cytotoxic T cells, dendritic cells, and NK cells are present in relatively small numbers within granulomas and are not the primary drivers, and eosinophils do not participate meaningfully in the antimycobacterial granulomatous response.",
+      "keypoints": [
+        "⭐ Granuloma formation is driven by the Th1-macrophage feedback loop: macrophage IL-12 → Th1 IFN-γ → macrophage activation",
+        "Granulomas represent a form of contained chronic inflammation that can 'wall off' but not always eliminate M. tuberculosis",
+        "Caseating necrosis at the center of TB granulomas reflects macrophage/tissue death within this immune response",
+        "TNF-α (also from Th1/macrophages) is critical for granuloma maintenance — TNF inhibitor drugs (e.g., infliximab) can reactivate latent TB"
+      ]
+    },
+    {
+      "id": "q6_021",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Which one of the following cytokines plays the most important role in protection against intracellular growth (reactivation) of Mycobacterium tuberculosis?",
+      "choices": [
+        "Interferon-γ",
+        "Interleukin-2",
+        "Interleukin-5",
+        "Interleukin-10",
+        "Tumor necrosis factor"
+      ],
+      "answer": 0,
+      "explanation": "IFN-γ is the key cytokine protecting against reactivation of latent M. tuberculosis, since it activates macrophages to enhance their intracellular killing capacity via the Th1-macrophage feedback loop. IL-2 promotes early Th1 proliferation but is not the primary effector against chronic mycobacterial infection; IL-5 and IL-10 are Th2-associated and do not participate in mycobacterial containment; TNF-α is produced by Th1 cells and synergizes with IFN-γ, but IFN-γ remains the dominant, most essential cytokine for this protection.",
+      "keypoints": [
+        "⭐ IFN-γ is the principal cytokine for macrophage activation and containment of M. tuberculosis",
+        "IFN-γ pathway defects (e.g., IFN-γ receptor deficiency, IL-12 receptor deficiency) predispose to disseminated mycobacterial disease",
+        "TNF-α acts synergistically with IFN-γ but is secondary in importance for granuloma-mediated containment",
+        "This is the immunologic basis for anti-TNF biologics increasing risk of TB reactivation"
+      ]
+    },
+    {
+      "id": "q6_025",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 4-year-old child has atopic dermatitis due to severe allergies to dust, animal dander, and many kinds of pollens. Mediators released from which cell type are responsible for the clinical manifestations immediately following exposure to these substances?",
+      "choices": [
+        "B cells",
+        "Macrophages",
+        "Mast cells",
+        "Th1 cells",
+        "Th2 cells"
+      ],
+      "answer": 2,
+      "explanation": "Allergen-specific IgE, generated during sensitization, binds to high-affinity Fc receptors on mast cells. Upon re-exposure to allergen, cross-linking of this bound IgE triggers mast cell degranulation, releasing histamine and other vasoactive mediators that produce the immediate clinical manifestations of allergy (itching, swelling, erythema). B cells produce the initial IgE but do not release these mediators themselves; Th2 cells promote IgE class switching but are not the immediate effector cells, and Th1 cells/macrophages are associated with delayed-type (not immediate) hypersensitivity.",
+      "keypoints": [
+        "⭐ Mast cell degranulation (triggered by IgE cross-linking) is responsible for immediate-phase allergic symptoms",
+        "This is a classic type I (immediate) hypersensitivity reaction — sensitization (IgE production) then occurs on first exposure, symptoms on re-exposure",
+        "Th2 cells drive the IgE class switch in B cells via IL-4, setting up the sensitization phase",
+        "Late-phase allergic reactions (hours later) involve eosinophil and additional inflammatory cell recruitment"
+      ]
+    },
+    {
+      "id": "q6_026",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 36-year-old woman with severe allergy to yellow jackets was stung multiple times at a soccer game. Within minutes she developed respiratory distress and became unconscious. Which mediator is primarily responsible for this reaction?",
+      "choices": [
+        "Complement",
+        "IgG",
+        "Histamine",
+        "TNF",
+        "Norepinephrine"
+      ],
+      "answer": 2,
+      "explanation": "This describes anaphylaxis, a severe systemic type I hypersensitivity reaction triggered by IgE-mediated mast cell degranulation upon venom re-exposure. Histamine, released from mast cell granules, causes vasodilation, increased vascular permeability, and bronchoconstriction, producing the rapid respiratory distress and hypotension/loss of consciousness seen here. Complement, IgG, and TNF play secondary or unrelated roles, and norepinephrine is actually the treatment (epinephrine) for anaphylaxis rather than a causative mediator.",
+      "keypoints": [
+        "⭐ Anaphylaxis = systemic IgE-mediated mast cell degranulation; histamine is the primary mediator of the acute symptoms",
+        "Epinephrine (not norepinephrine) is the first-line emergency treatment, counteracting histamine's vascular and bronchial effects",
+        "Repeated stings in a previously sensitized individual place them at high risk for anaphylaxis on re-exposure",
+        "Other mast cell mediators (leukotrienes, prostaglandins) contribute to the sustained/late-phase symptoms"
+      ]
+    },
+    {
+      "id": "q6_027",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A person develops a viral infection and both T and B cells become activated to fight the infection. In which way is antigen recognition by B cells different from antigen recognition by T cells?",
+      "choices": [
+        "B cells home to the paracortex of lymph nodes where they recognize the antigens trapped by helper T cells",
+        "B cells recognize the antigens that have been processed and presented by follicular dendritic cells",
+        "B cells undergo receptor editing to change receptors that fail to bind to an antigen",
+        "B cells utilize membrane immunoglobulin molecules to bind to antigen in its natural state",
+        "The antigen receptors on a single B cell have a broad specificity, and are able to recognize several chemically unrelated antigens"
+      ],
+      "answer": 3,
+      "explanation": "Unlike T cells, which can only recognize antigen after it has been processed and presented as peptide fragments on MHC molecules, B cells recognize antigen directly in its native, unprocessed conformation via membrane-bound immunoglobulin (the B-cell receptor). After this initial encounter, B cells traffic to the paracortex to interact with helper T cells and receive CD40L/cytokine signals, eventually forming germinal centers where antigen is presented by follicular dendritic cells to select high-affinity clones — but the initial recognition event itself is MHC-independent and direct.",
+      "keypoints": [
+        "⭐ B cells recognize native, unprocessed antigen directly via surface immunoglobulin — no MHC processing required, unlike T cells",
+        "Germinal center selection by follicular dendritic cells and T-cell help occurs after this initial direct recognition step",
+        "Receptor editing occurs earlier, during B-cell development in the bone marrow, not during a peripheral immune response",
+        "Each B-cell receptor has a single, defined specificity (like T-cell receptors), not broad multi-antigen recognition"
+      ]
+    },
+    {
+      "id": "q6_028",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "In the primary infection above, B cells activated in a primary infection secrete which class of antibody first?",
+      "choices": [
+        "IgA",
+        "IgD",
+        "IgE",
+        "IgG",
+        "IgM"
+      ],
+      "answer": 4,
+      "explanation": "IgM is the first antibody isotype produced during a primary immune response, reflecting the fact that it is also the default isotype of the naive B-cell receptor before any class switching occurs. IgG, IgA, and IgE all require isotype switching (driven by specific T-cell-derived cytokine and CD40L signals) and therefore appear later in the response. IgD has an unclear function and circulates at low levels alongside IgM on naive B cells but is not a secreted effector antibody in this context.",
+      "keypoints": [
+        "⭐ IgM is always the first antibody isotype secreted in a primary immune response, prior to any class switching",
+        "Isotype switching to IgG, IgA, or IgE requires CD40L-CD40 interaction plus specific cytokines (e.g., IFN-γ for IgG, IL-4 for IgE)",
+        "Detecting pathogen-specific IgM is used clinically to diagnose acute/recent infection",
+        "Memory responses (secondary exposure) predominantly and rapidly produce IgG due to prior class switching"
+      ]
+    },
+    {
+      "id": "q6_029",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "The viral infection above began in the respiratory tract. Which antibody class would best protect respiratory epithelial cells from viral infection?",
+      "choices": [
+        "IgA",
+        "IgD",
+        "IgE",
+        "IgG",
+        "IgM"
+      ],
+      "answer": 0,
+      "explanation": "IgA is the dominant antibody isotype secreted at mucosal surfaces, including the respiratory epithelium, where it is transported across epithelial cells via the polymeric immunoglobulin receptor and released as secretory IgA. This positions IgA to directly neutralize viruses at the mucosal surface before they can invade epithelial cells, making it the most relevant protective antibody at this initial site of infection. The other isotypes are found predominantly in blood or serve other functions rather than mucosal defense.",
+      "keypoints": [
+        "⭐ Secretory IgA is the primary mucosal antibody, protecting respiratory and GI epithelial surfaces from pathogen entry",
+        "Secretory IgA is a dimer linked by the J chain and contains a secretory piece that protects it from proteolytic degradation in mucosal secretions",
+        "IgA deficiency is the most common primary immunodeficiency and predisposes to recurrent mucosal (respiratory/GI) infections",
+        "Breast milk IgA provides passive mucosal immunity to breastfeeding infants"
+      ]
+    },
+    {
+      "id": "q6_030",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "The virus above spreads from the respiratory tract and causes viremia. Which antibody class would be most important in fighting the virus as it spreads through the body?",
+      "choices": [
+        "IgA",
+        "IgD",
+        "IgE",
+        "IgG",
+        "IgM"
+      ],
+      "answer": 3,
+      "explanation": "IgG is the predominant antibody isotype in the bloodstream and is the most important isotype for controlling viremia (virus circulating in the blood), functioning through complement activation, opsonization, and antibody-dependent cell cytotoxicity. While IgM is also present in blood at meaningful levels, IgG is the more significant contributor to systemic antiviral defense. IgA is concentrated in mucosal secretions rather than blood, IgD's function is largely unknown, and IgE does not participate in antiviral defense.",
+      "keypoints": [
+        "⭐ IgG is the dominant blood-borne antibody isotype, key for controlling viremia via complement activation, opsonization, and ADCC",
+        "IgG is the only antibody class that crosses the placenta, providing passive immunity to the fetus/newborn",
+        "IgG has the longest half-life of the antibody isotypes, contributing to long-term humoral immunity",
+        "This contrasts with IgA's role at mucosal surfaces, illustrating isotype-specific anatomic specialization"
+      ]
+    },
+    {
+      "id": "q6_031",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "In order for class switching from IgM to IgG to occur, B cells must receive two signals, one generated following binding to T helper cells and the other secreted by helper T cells. What are these two T helper cell-derived molecules?",
+      "choices": [
+        "Antigen and IL-2",
+        "CD40 ligand and interferon-γ",
+        "CTLA-4 and IL-4",
+        "B7 and IL-7",
+        "CD20 and IL-13"
+      ],
+      "answer": 1,
+      "explanation": "Class switching from IgM to IgG requires two T-helper-cell-derived signals: the contact-dependent interaction of CD40 ligand on the T cell with CD40 on the B cell, and the cytokine interferon-γ (secreted by Th1 cells), which specifically directs switching to IgG. In contrast, IL-4/IL-13 direct switching to IgE, while IL-2 and IL-7 do not influence isotype switching directly. CTLA-4, B7, and CD20 are not T-helper-derived signals relevant to this specific switching event.",
+      "keypoints": [
+        "⭐ IgM→IgG switching requires CD40L-CD40 contact plus IFN-γ (from Th1 cells) as the specific cytokine signal",
+        "IgM→IgE switching instead requires IL-4/IL-13 (Th2-derived cytokines) alongside the same CD40L-CD40 contact signal",
+        "CD40L deficiency causes hyper-IgM syndrome, in which B cells cannot switch isotypes and remain stuck producing IgM",
+        "This illustrates how cytokine milieu (Th1 vs Th2) directs the specific antibody isotype outcome of class switching"
+      ]
+    },
+    {
+      "id": "q6_032",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "What structural feature is uniquely found on IgA in breast milk and not found on serum IgM?",
+      "choices": [
+        "Fab",
+        "FcR",
+        "Hinge region",
+        "J chain",
+        "Secretory piece"
+      ],
+      "answer": 4,
+      "explanation": "Secretory IgA found in breast milk and other mucosal secretions has a unique secretory piece (secretory component), derived from the polymeric immunoglobulin receptor during transcytosis across epithelial cells, which protects the antibody from proteolytic degradation. While both IgA (as a dimer) and IgM (as a pentamer) contain a J chain that links their subunits, only IgA in secretions acquires the additional secretory piece. Fab, hinge region, and Fc receptors are general antibody/cell-surface structural features not unique to secretory IgA.",
+      "keypoints": [
+        "⭐ Secretory piece is unique to secretory IgA, gained during transcytosis across mucosal epithelium via the polymeric Ig receptor",
+        "The secretory piece protects IgA from enzymatic degradation in harsh mucosal environments (gut, respiratory tract)",
+        "Both IgA (dimer) and IgM (pentamer) share the J chain, which links their monomeric subunits — this is not unique to IgA",
+        "This structural adaptation reflects IgA's specialized role in mucosal/external secretions rather than serum"
+      ]
+    },
+    {
+      "id": "q6_035",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Macrophages recognize microorganisms through the interaction of microbial substances with what type of receptors on macrophages?",
+      "choices": [
+        "Antigen receptors",
+        "Complement receptors",
+        "Fc receptors",
+        "Membrane immunoglobulin",
+        "Pattern recognition receptors"
+      ],
+      "answer": 4,
+      "explanation": "Macrophages recognize microbes via pattern recognition receptors (PRRs, such as Toll-like receptors) that bind conserved pathogen-associated molecular patterns (PAMPs) present on broad classes of microorganisms, enabling rapid innate detection without prior antigen exposure. Antigen receptors and membrane immunoglobulin are adaptive immune receptors specific to T and B cells respectively, generated by gene rearrangement rather than recognizing conserved microbial patterns. Complement and Fc receptors instead recognize host opsonins (C3b/C4b or antibody) already bound to the pathogen, not the microbe directly.",
+      "keypoints": [
+        "⭐ Pattern recognition receptors (e.g., TLRs) on macrophages detect conserved PAMPs, enabling immediate innate recognition of pathogens",
+        "This is distinct from adaptive antigen receptors (TCR/BCR), which are generated by random gene rearrangement and are pathogen-specific",
+        "Complement receptors and Fc receptors instead recognize opsonized (antibody- or complement-coated) pathogens, an indirect recognition mechanism",
+        "PRR engagement triggers proinflammatory cytokine production and phagocytosis, bridging innate to adaptive immunity"
+      ]
+    },
+    {
+      "id": "q6_036",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Antigen receptors on T and B cells share which similar feature?",
+      "choices": [
+        "Affinity maturation occurs following antigen recognition for both receptor types",
+        "Interaction with MHC molecules is required for antigen recognition by both receptor types",
+        "The constant regions of both receptor types are identical",
+        "The specificity of both receptor types is determined following exposure of mature cells to antigen",
+        "The variable portions of both receptor types are generated by random recombination of genes"
+      ],
+      "answer": 4,
+      "explanation": "Both TCR and BCR variable region diversity is generated through random recombination of gene segments (V(D)J recombination) during lymphocyte development in the bone marrow (B cells) or thymus (T cells), occurring before antigen exposure and independent of it. This contrasts with affinity maturation, which is a B-cell-specific process occurring in germinal centers after antigen encounter. MHC interaction is required only for T cells (not B cells), and the constant regions differ substantially between the two receptor types, reflecting their distinct downstream functions.",
+      "keypoints": [
+        "⭐ V(D)J recombination generates receptor diversity for both TCR and BCR, occurring during development, before antigen exposure",
+        "Specificity is fixed before antigen exposure — antigen exposure selects/expands cells with matching receptors, it does not create specificity",
+        "Affinity maturation (somatic hypermutation in germinal centers) is unique to B cells, not shared with T cells",
+        "MHC restriction (need for antigen presented on MHC) applies only to T cells; B cells recognize native antigen directly"
+      ]
+    },
+    {
+      "id": "q6_037",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Thymocytes interacting with self-peptides undergo negative selection. The self-peptides in this reaction act as:",
+      "choices": [
+        "Allergens",
+        "Tolerogens",
+        "Haptens",
+        "Immunogens",
+        "Antigens"
+      ],
+      "answer": 1,
+      "explanation": "Self-peptides presented by thymic antigen-presenting cells during negative selection function as tolerogens — molecules that specifically promote immune tolerance (deletion of self-reactive clones) rather than eliciting an immune response. Allergens elicit IgE-mediated responses, haptens require carrier proteins to become immunogenic, and immunogens/antigens are broader terms encompassing any structure capable of provoking immunity — none of which specifically capture the tolerance-inducing role these self-peptides play in central selection.",
+      "keypoints": [
+        "⭐ Tolerogens are self-antigens presented specifically to induce tolerance (clonal deletion) rather than an immune response",
+        "This terminology distinguishes central tolerance mechanisms from terms describing foreign antigen-driven immune activation",
+        "AIRE-dependent expression of tissue-specific self-antigens in the thymic medulla provides the tolerogen repertoire for negative selection",
+        "Peripheral tolerance mechanisms (e.g., Tregs, anergy) provide backup for self-antigens not represented during thymic (central) tolerance"
+      ]
+    },
+    {
+      "id": "q6_038",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Persons with helminth infections mount immunologic responses that involve IgE and eosinophils. Which two cytokines are most important for these responses to occur?",
+      "choices": [
+        "IL-1 and tumor necrosis factor (TNF)",
+        "IL-4 and IL-5",
+        "IL-10 and transforming growth factor beta (TGF-β)",
+        "IL-12 and interferon gamma (IFN-γ)",
+        "IFN-α and IFN-β"
+      ],
+      "answer": 1,
+      "explanation": "IL-4 drives B-cell isotype switching to IgE, while IL-5 promotes eosinophil differentiation, activation, and chemotaxis — together these two Th2-derived cytokines orchestrate the IgE/eosinophil-mediated antihelminth response. IL-1/TNF promote general inflammation, IL-10/TGF-β are immunosuppressive, IL-12/IFN-γ drive the opposing Th1 pathway (relevant to intracellular pathogens), and type I interferons are antiviral rather than antihelminthic cytokines.",
+      "keypoints": [
+        "⭐ IL-4 drives IgE class switching; IL-5 drives eosinophil production/activation — together, the core antihelminth cytokine pair",
+        "IgE bound to eosinophil Fc receptors mediates antibody-dependent cell cytotoxicity (ADCC) against helminths",
+        "This Th2-driven response is distinct from the Th1/IFN-γ-driven response used against intracellular pathogens",
+        "Elevated eosinophil counts (eosinophilia) and elevated IgE are classic laboratory clues to helminth infection"
+      ]
+    },
+    {
+      "id": "q6_039",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A person developed an extracellular bacterial infection, and IgM was made in response. What is the most important protective function of IgM in this infection?",
+      "choices": [
+        "Antibody-dependent cell cytotoxicity",
+        "Complement activation",
+        "Direct lysis of bacterial cells",
+        "Neutralization of bacterial toxins",
+        "Opsonization"
+      ],
+      "answer": 1,
+      "explanation": "IgM is the most efficient antibody isotype at activating the classical complement pathway due to its pentameric structure providing multiple binding sites for C1q. Complement activation generates the opsonin C3b (enhancing phagocytosis) and the chemoattractant C5a (recruiting neutrophils), making this the most important protective mechanism of IgM against extracellular bacteria. IgM itself is not an opsonin (unlike IgG), cannot directly lyse bacteria without complement assistance, does not mediate ADCC, and while it can neutralize toxins, this is not its primary protective role in this context.",
+      "keypoints": [
+        "⭐ IgM's pentameric structure makes it highly efficient at classical complement pathway activation via C1q binding",
+        "Complement activation generates C3b (opsonization) and C5a (neutrophil chemotaxis) — the key downstream protective effects",
+        "Unlike IgG, IgM itself does not function as a direct opsonin (does not bind Fc receptors on phagocytes efficiently)",
+        "No antibody directly lyses bacteria without complement — bacterial killing requires the complement membrane attack complex"
+      ]
+    },
+    {
+      "id": "q6_040",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Neutrophils are attracted to the sites of extracellular bacterial infections by which two important chemotactic substances?",
+      "choices": [
+        "Bacterial mannose and lipopolysaccharide",
+        "Complement C5a and interleukin-8 (CXCL-8)",
+        "Histamine and complement C3b",
+        "Interleukin-7 and interleukin-16",
+        "Leukotriene B4 and granulocyte colony-stimulating factor (G-CSF)"
+      ],
+      "answer": 1,
+      "explanation": "Complement C5a and IL-8 (CXCL-8) are the two most important chemotactic factors recruiting neutrophils to sites of extracellular bacterial infection. Bacterial mannose and LPS serve as ligands for pattern recognition receptors rather than chemoattractants; histamine is a vasoactive mediator and C3b functions as an opsonin rather than chemoattractant; IL-7 and IL-16 support cell survival/activation but not neutrophil chemotaxis specifically; and while leukotriene B4 does have chemotactic properties, G-CSF is primarily a growth factor rather than a chemoattractant.",
+      "keypoints": [
+        "⭐ C5a (complement) and IL-8/CXCL-8 (chemokine) are the principal neutrophil chemoattractants at bacterial infection sites",
+        "C5a is generated by complement activation and also has direct proinflammatory/anaphylatoxin effects",
+        "IL-8 is a CXC chemokine produced by macrophages and epithelial cells in response to infection",
+        "Neutrophil recruitment follows a multistep adhesion cascade (rolling, adhesion, transmigration) guided by these chemotactic gradients"
+      ]
+    },
+    {
+      "id": "q6_041",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Plasma cells secreting IgA are especially abundant in which body site?",
+      "choices": [
+        "Bone marrow",
+        "Germinal centers of cervical lymph nodes",
+        "Lamina propria of mucosa",
+        "Thoracic duct",
+        "White pulp of the spleen"
+      ],
+      "answer": 2,
+      "explanation": "The lamina propria underlying mucosal epithelium (gut, respiratory tract, genitourinary tract) contains the highest concentration of IgA-secreting plasma cells, reflecting IgA's specialized role in mucosal immunity. While IgA-producing cells can also be found in the bone marrow, lymph node germinal centers, and splenic white pulp, none of these sites approach the density found in the mucosal lamina propria, where local IgA production and secretion is essential for protecting vulnerable epithelial surfaces.",
+      "keypoints": [
+        "⭐ The lamina propria of mucosal tissue (gut, respiratory tract) is the primary site of IgA-secreting plasma cell residence",
+        "This anatomic localization supports IgA's role as the dominant mucosal antibody, secreted directly at epithelial surfaces",
+        "Long-lived plasma cells producing other isotypes (e.g., IgG) preferentially home to the bone marrow instead",
+        "Gut-associated lymphoid tissue (GALT, including Peyer patches) is a major site initiating IgA-committed B-cell responses"
+      ]
+    },
+    {
+      "id": "q6_042",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Which immune system cells recognize body cells with reduced expression of MHC class I molecules?",
+      "choices": [
+        "Cytotoxic T cells",
+        "Dendritic cells",
+        "Macrophages",
+        "Natural killer cells",
+        "Neutrophils"
+      ],
+      "answer": 3,
+      "explanation": "Natural killer cells specifically recognize and kill host cells with reduced or absent MHC class I expression, a strategy termed 'missing self' recognition that detects a common viral immune-evasion tactic (downregulation of MHC I to escape cytotoxic T cell detection). Cytotoxic T cells, by contrast, require MHC class I presentation of specific antigenic peptides to recognize and kill infected cells — they do not respond to loss of MHC I itself. Dendritic cells, macrophages, and neutrophils are phagocytic/antigen-presenting cells and do not use MHC class I loss as a killing trigger.",
+      "keypoints": [
+        "⭐ NK cells use 'missing self' recognition — they kill cells with reduced/absent MHC class I, complementing CTLs which need MHC I present",
+        "This creates a dilemma for viruses: downregulating MHC I evades CTLs but exposes cells to NK cell killing",
+        "NK cell activity is governed by a balance of inhibitory (MHC I-sensing) and activating receptor signals",
+        "Tumor cells that downregulate MHC I to escape CTL recognition remain vulnerable to NK cell surveillance"
+      ]
+    },
+    {
+      "id": "q6_043",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Activation of the complement system directly results in which one of the following outcomes?",
+      "choices": [
+        "Enhanced phagocytosis",
+        "Expression of Toll-like receptors on phagocyte cell surface",
+        "Enhancement of immune-mediated neutralization",
+        "Proliferation of T cells",
+        "Interaction of Fc receptors with antibodies bound to antigens on the pathogen cell surface"
+      ],
+      "answer": 0,
+      "explanation": "Complement activation produces three major direct outcomes: promotion of inflammation via anaphylatoxins (C3a, C5a) recruiting phagocytes, opsonization via C3b/C4b binding pathogens to enhance phagocytosis through complement receptors, and direct target cell killing via the membrane attack complex (C5b-C9). Toll-like receptor expression is constitutive (though inducible by other stimuli), neutralization is an antibody function unrelated to complement, T-cell proliferation is not a direct complement effect, and Fc receptor-antibody interactions represent a separate opsonization pathway not directly caused by complement activation.",
+      "keypoints": [
+        "⭐ Complement activation has three direct effects: inflammation (C3a/C5a), opsonization (C3b/C4b → enhanced phagocytosis), and lysis (MAC/C5b-C9)",
+        "C3b and C4b are the key opsonins recognized by complement receptors on phagocytes, driving enhanced phagocytosis",
+        "Neutralization and Fc receptor-mediated opsonization are antibody-driven processes that operate independently of complement",
+        "The three complement pathways (classical, alternative, lectin) all converge on C3 cleavage to produce these effects"
+      ]
+    },
+    {
+      "id": "q6_044",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Which one of the following leukocytes is considered a \"granulocyte\"?",
+      "choices": [
+        "Macrophage",
+        "Neutrophil",
+        "Dendritic cell",
+        "Natural killer cell",
+        "Natural killer T cell"
+      ],
+      "answer": 1,
+      "explanation": "Granulocytes are leukocytes containing cytoplasmic granules filled with inflammatory enzymes and mediators, released upon activation; neutrophils, eosinophils, and basophils comprise this category. Macrophages and dendritic cells are monocytic lineage cells lacking distinct cytoplasmic granules. NK cells and NKT cells do contain granules (perforin/granzyme) but are classified as large granular lymphocytes rather than true granulocytes, a distinct cell lineage.",
+      "keypoints": [
+        "⭐ True granulocytes = neutrophils, eosinophils, basophils — distinguished by prominent cytoplasmic granules and multilobed nuclei",
+        "NK/NKT cells contain granules (perforin, granzyme) but are classified separately as 'large granular lymphocytes,' not granulocytes",
+        "Neutrophils are the most abundant circulating leukocyte and the primary responder to acute bacterial infection",
+        "Monocyte-lineage cells (macrophages, dendritic cells) lack the distinct granule morphology defining granulocytes"
+      ]
+    },
+    {
+      "id": "q6_045",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 45-year-old female presents with anorexia and some abdominal pain. Fecal smears reveal the presence of Taenia eggs, products of a parasitic tapeworm infection. Which one of the following cells would be most effective in defense against this parasite?",
+      "choices": [
+        "Platelets",
+        "Erythrocytes",
+        "Neutrophils",
+        "Eosinophils",
+        "Monocytes"
+      ],
+      "answer": 3,
+      "explanation": "Eosinophils express high-affinity Fc receptors for IgE (FcεRI), allowing them to bind IgE-coated parasitic organisms and mediate antibody-dependent cell cytotoxicity, releasing cytotoxic granule contents (major basic protein and others) directly onto the parasite surface. This makes eosinophils the most effective cellular defense against multicellular parasites such as tapeworms, which are too large to be phagocytosed by neutrophils or monocytes. Platelets and erythrocytes are not immune effector cells in this context.",
+      "keypoints": [
+        "⭐ Eosinophils are the key effector cells against helminths, using IgE-mediated ADCC via FcεRI to kill parasites too large to phagocytose",
+        "Major basic protein, released from eosinophil granules, is directly toxic to helminth parasites",
+        "This is the same IgE/eosinophil axis that also underlies allergic disease pathophysiology (an evolutionary 'misfiring')",
+        "Peripheral eosinophilia is a classic laboratory clue pointing toward helminth (parasitic) infection"
+      ]
+    },
+    {
+      "id": "q6_046",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Antigen presenting cells (APCs) are required for T-cell recognition of specific antigen and activation. APCs accomplish this task by presenting antigen in the context of which of the following molecules?",
+      "choices": [
+        "T-cell receptor (TCR)",
+        "Toll-like receptor (TLR)",
+        "Major histocompatibility complex (MHC)",
+        "Killer inhibitory receptor (KIR)",
+        "Fc receptor (FcR)"
+      ],
+      "answer": 2,
+      "explanation": "Antigen presenting cells display processed peptide antigens bound within MHC molecules (class I or II) on their surface, which is the molecular context that T-cell receptors recognize. TLRs are innate pattern recognition receptors that detect microbial components and trigger inflammatory cytokine production but do not themselves present antigen. FcR mediates opsonization/antibody binding, and KIR is an NK cell receptor family for MHC class I sensing — neither functions in antigen presentation to T cells.",
+      "keypoints": [
+        "⭐ MHC (class I or II) is the molecule that displays processed antigen for T-cell receptor recognition",
+        "All nucleated cells express MHC class I; only professional APCs (dendritic cells, macrophages, B cells) additionally express MHC class II",
+        "TLRs trigger APC activation/maturation and cytokine production but are functionally distinct from the MHC antigen-display machinery",
+        "This MHC restriction is a defining feature of T-cell antigen recognition, contrasting with B cells recognizing native antigen directly"
+      ]
+    },
+    {
+      "id": "q6_047",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "A 1-year-old female presented with symptoms of systemic autoimmunity (lupus, diabetes, and arthritis), and upon genetic analysis it was found that the patient had a mutation in the Foxp3 gene locus. Which one of the following is an explanation for the clinical symptoms observed?",
+      "choices": [
+        "Patient cannot produce antigen presenting cells",
+        "Patient cannot generate regulatory CD4+CD25+ T cells",
+        "Patient is unable to produce antibodies",
+        "Patient cannot produce anti-inflammatory cytokines",
+        "Patient NK cells have no inhibitory signal"
+      ],
+      "answer": 1,
+      "explanation": "Foxp3 is the master transcription factor required for development and suppressive function of CD4+CD25+ regulatory T cells (Tregs), which maintain peripheral tolerance by suppressing self-reactive T cells that escaped thymic negative selection. Loss-of-function Foxp3 mutations (as in IPEX syndrome — immune dysregulation, polyendocrinopathy, enteropathy, X-linked) prevent Treg generation, leading to widespread multiorgan autoimmunity. The other options describe unrelated immune defects not caused by Foxp3 mutation.",
+      "keypoints": [
+        "⭐ Foxp3 is the master transcription factor for regulatory T cell (Treg) development — its loss causes IPEX syndrome",
+        "IPEX presents in infancy with severe multiorgan autoimmunity (enteropathy, endocrinopathy, dermatitis) due to unchecked autoreactive T cells",
+        "Tregs act via poorly defined cell-contact-dependent inhibitory mechanisms to suppress self-reactive T cells in the periphery",
+        "This illustrates peripheral tolerance as a backup to central (thymic) tolerance, preventing autoimmunity from self-reactive escapees"
+      ]
+    },
+    {
+      "id": "q6_048",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Following an initial expansion of B cells in response to microbial peptides, a memory pool of B cells is generated and maintained throughout life, along with a second memory cell type. Upon rechallenge with the microbe, the patient is protected from infection. Which one of the following explanations accounts for this observation?",
+      "choices": [
+        "Circulating memory B cells are actively producing antibodies in the absence of antigen",
+        "Circulating memory B cells will produce antibodies, however, only upon encounter with the microbial antigen",
+        "Long-lived plasma cells are actively producing antibodies in the absence of antigen",
+        "Long-lived plasma cells will produce antibodies, however, only upon encounter with the microbial antigen",
+        "TLR signaling to the circulating memory B cells will induce rapid production of antibodies in response to antigen encounter"
+      ],
+      "answer": 2,
+      "explanation": "Long-lived plasma cells, generated from an initial B-cell response, take up residence in the bone marrow and continuously secrete antibody even in the complete absence of ongoing antigen exposure, providing durable baseline protective antibody titers. Circulating memory B cells, by contrast, do not actively secrete antibody at baseline; instead they serve as a rapidly expandable reserve, only differentiating into new antibody-secreting cells upon re-encountering antigen, providing the fast anamnestic response characteristic of secondary immunity.",
+      "keypoints": [
+        "⭐ Long-lived plasma cells reside in bone marrow and continuously secrete antibody without needing antigen re-exposure — the source of durable protective titers",
+        "Memory B cells, unlike long-lived plasma cells, are quiescent until antigen re-exposure, then rapidly differentiate for the anamnestic response",
+        "This two-tiered system (baseline antibody from plasma cells + rapid-response reserve from memory B cells) is the basis for long-term vaccine protection",
+        "Vaccine boosters work by re-stimulating memory B cells to generate additional long-lived plasma cells and higher-affinity antibody"
+      ]
+    },
+    {
+      "id": "q6_049",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Which one of the following represents the mechanism by which immune complexes (ICs) are normally cleared from the circulation?",
+      "choices": [
+        "ICs are solubilized by C3a",
+        "ICs are solubilized by C5a",
+        "Factor I releases complement-bound ICs to bind with complement receptors found on splenic/hepatic neutrophils",
+        "Red blood cells capture ICs from blood via Fc receptors",
+        "C3b solubilizes ICs and attaches to red blood cells via complement receptors"
+      ],
+      "answer": 4,
+      "explanation": "Immune complexes are normally cleared through a complement-dependent mechanism: C3b generated during complement activation binds to and helps solubilize the immune complex, then attaches to complement receptors (CR1) on red blood cells. These red cells carry the bound complexes through the circulation to the spleen and liver, where resident macrophages remove the complexes from the red cell surface for degradation, without destroying the red cells themselves. Defects in this complement-mediated clearance pathway underlie immune complex diseases like SLE, where persistent circulating immune complexes deposit in tissues and cause damage.",
+      "keypoints": [
+        "⭐ C3b binds immune complexes and attaches them to CR1 on red blood cells, which ferry the complexes to spleen/liver macrophages for removal",
+        "Red blood cells use Fc receptors is a common distractor — the actual mechanism uses complement receptors (CR1), not Fc receptors",
+        "This clearance mechanism explains why complement deficiencies predispose to immune complex-mediated diseases like SLE",
+        "Splenic and hepatic macrophages (not neutrophils) perform the final removal/degradation of the complexes from red cells"
+      ]
+    },
+    {
+      "id": "q6_050",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "Which of the following is the site at which lymphocytes can leave the blood and gain entry into the lymph nodes and what lymphocyte cell surface protein mediates such access?",
+      "choices": [
+        "Lymphoid follicle: CD4",
+        "Germinal center: CD62L (L-selectin)",
+        "Lymphoid follicle: CD62L (L-selectin)",
+        "Periarterial lymphatic sheath (PALS): CCR7",
+        "High endothelial venules (HEV): CD62L (L-selectin)"
+      ],
+      "answer": 4,
+      "explanation": "Naive lymphocytes exit the bloodstream and enter lymph nodes through specialized high endothelial venules (HEV), where CD62L (L-selectin) on the lymphocyte surface mediates initial rolling/arrest via binding to addressins on the HEV endothelium, followed by chemokine-directed transmigration into the node cortex. Lymphoid follicles and germinal centers are destination zones within the node for B-cell activity, not entry points from blood, and PALS is a splenic (not lymph node) T-cell zone.",
+      "keypoints": [
+        "⭐ High endothelial venules (HEV) are the specialized vascular entry point for lymphocytes into lymph nodes, mediated by CD62L (L-selectin)",
+        "CD62L-mediated rolling is followed by chemokine-triggered integrin activation and firm adhesion/transmigration",
+        "PALS (periarterial lymphatic sheath) is the T-cell zone of the splenic white pulp, distinct from lymph node HEV entry",
+        "This trafficking pathway is central to immune surveillance, allowing continuous lymphocyte recirculation between blood and lymphoid tissue"
+      ]
+    },
+    {
+      "id": "q6_051",
+      "tag": "immuno",
+      "examLevel": "step1",
+      "system": "Immunology/ID",
+      "contentType": "Pathophysiology",
+      "stem": "The difference between tolerance and immunity depends upon the maturation status of the antigen presenting dendritic cells. What is the T-cell outcome of an antigen presentation event by a mature dendritic cell?",
+      "choices": [
+        "Anergy",
+        "Apoptosis",
+        "Activation",
+        "Ignorance",
+        "Suppression"
+      ],
+      "answer": 2,
+      "explanation": "Mature dendritic cells, having been activated via Toll-like receptor engagement by pathogen components, upregulate B7 costimulatory molecules; when this mature, costimulation-competent dendritic cell presents antigen via MHC-peptide complex to a T cell, the result is full T-cell activation. Immature dendritic cells lacking sufficient B7 expression instead induce anergy upon antigen presentation, since TCR engagement occurs without adequate costimulation — illustrating how DC maturation state functions as a checkpoint distinguishing tolerance from active immunity.",
+      "keypoints": [
+        "⭐ DC maturation state is the key determinant of activation vs. tolerance outcome: mature DCs (high B7) → T-cell activation; immature DCs (low B7) → anergy",
+        "Toll-like receptor engagement by pathogen components is the trigger driving dendritic cell maturation and B7 upregulation",
+        "'Ignorance' describes a distinct tolerance mechanism where antigen is sequestered from T-cell access entirely (e.g., immune-privileged sites)",
+        "This DC maturation checkpoint is a key reason why adjuvants (which activate innate signaling) are needed in vaccines to generate robust immunity"
+      ]
+    }
+  ]
+}
